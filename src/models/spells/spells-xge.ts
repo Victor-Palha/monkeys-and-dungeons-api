@@ -1,4 +1,4 @@
-{
+export const XGESpells = {
 	"spell": [
 		{
 			"name": "Abi-Dalzim's Horrid Wilting",

@@ -1,11 +1,4 @@
-{
-	"_meta": {
-		"dependencies": {
-			"monster": [
-				"MM"
-			]
-		}
-	},
+export const VRGRMonsters = {
 	"monster": [
 		{
 			"name": "Bodytaker Plant",

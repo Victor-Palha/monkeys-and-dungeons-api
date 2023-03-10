@@ -1,4 +1,4 @@
-export const monster = {
+export const monstersMM = {
 	"monster": [
 		{
 			"name": "Aarakocra",
@@ -57770,7 +57770,7 @@ export const monster = {
 				"investigation": "+5",
 				"perception": "+6",
 				"persuasion": "+5",
-				"sleight of hand": "+4",
+				"sleightOfHand": "+4",
 				"stealth": "+4"
 			},
 			"passive": 16,

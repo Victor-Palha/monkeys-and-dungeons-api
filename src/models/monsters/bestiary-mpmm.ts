@@ -1,13 +1,4 @@
-{
-	"_meta": {
-		"otherSources": {
-			"monster": {
-				"VGM": "MPMM",
-				"MTF": "MPMM",
-				"HotDQ": "MPMM"
-			}
-		}
-	},
+export const bestiaryMPMM = {
 	"monster": [
 		{
 			"name": "Abjurer Wizard",

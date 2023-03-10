@@ -1,4 +1,4 @@
-{
+export const TCESpells = {
 	"spell": [
 		{
 			"name": "Blade of Disaster",
