@@ -1,5 +1,5 @@
 export const VRGRFluff = {
-	"monsterFluff": [
+	"monster": [
 		{
 			"name": "Bodytaker Plant",
 			"source": "VRGR",

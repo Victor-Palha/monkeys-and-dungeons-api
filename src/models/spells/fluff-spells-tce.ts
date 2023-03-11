@@ -1,5 +1,5 @@
 export const TCESpellsFluff = {
-	"spellFluff": [
+	"spell": [
 		{
 			"name": "Dream of the Blue Veil",
 			"source": "TCE",

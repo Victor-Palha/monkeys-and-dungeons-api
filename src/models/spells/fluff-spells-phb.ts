@@ -1,5 +1,5 @@
 export const PHBSpellsFluff ={
-	"spellFluff": [
+	"spell": [
 		{
 			"name": "Barkskin",
 			"source": "PHB",

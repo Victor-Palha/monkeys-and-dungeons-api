@@ -1,5 +1,5 @@
 export const XGESpellsFluff ={
-	"spellFluff": [
+	"spell": [
 		{
 			"name": "Control Flames",
 			"source": "XGE",

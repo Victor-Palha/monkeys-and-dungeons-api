@@ -1,5 +1,5 @@
 export const MPMMFluff = {
-	"monsterFluff": [
+	"monster": [
 		{
 			"name": "Abishais",
 			"source": "MPMM",

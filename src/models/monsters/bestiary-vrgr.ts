@@ -1,4 +1,4 @@
-export const VRGRMonsters = {
+export const bestiaryVRGR = {
 	"monster": [
 		{
 			"name": "Bodytaker Plant",

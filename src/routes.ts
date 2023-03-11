@@ -1,8 +1,8 @@
 import { Router } from "express";
-//Fluffs Controllers
-import { AllFluffController } from "./controllers/monsters/fluffs/AllFluffController";
-import { QueryFluffController } from "./controllers/monsters/fluffs/QueryFluffController";
-import { UniqueFluffController } from "./controllers/monsters/fluffs/UniqueFluffController";
+//Monsters Controllers
+import { AllMonstersController } from "./controllers/monsters/AllMonstersController";
+import { QueryMonstersController } from "./controllers/monsters/QueryMonstersController";
+import { UniqueMonstersController } from "./controllers/monsters/UniqueMonstersController";
 //Spells Controllers
 import { AllSpellsController } from "./controllers/spells/AllSpellsController";
 import { QuerySpellsController } from "./controllers/spells/QuerySpellsController";
@@ -13,12 +13,12 @@ const router = Router();
 router.get("/health", (req, res) => {
     return res.sendStatus(200)
 })
-//Fluffs
-.get('/monsters/fluffs', new AllFluffController().execute)
-//fluff Query
-.get('/monsters/fluffs/query', new QueryFluffController().execute)
-//Monster + fluff info unique
-.get('/monster/info', new UniqueFluffController().execute)
+//Monsters
+.get('/monsters', new AllMonstersController().execute)
+//Monsters Query
+.get('/monsters/query', new QueryMonstersController().execute)
+//Monsters Unique
+.get('/monsters/unique', new UniqueMonstersController().execute)
 //Spells
 .get('/spells', new AllSpellsController().execute)
 //Query Spells

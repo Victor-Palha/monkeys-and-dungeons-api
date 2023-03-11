@@ -1,5 +1,5 @@
 export const MMFluff = {
-	"monsterFluff": [
+	"monster": [
 		{
 			"name": "Aarakocra",
 			"source": "MM",
