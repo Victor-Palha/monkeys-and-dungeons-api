@@ -5,18 +5,17 @@ import { VRGRFluff } from "../../../models/monsters/fluff-bestiary-vrgr";
 
 class QueryFluffController{
     execute(req:Request, res:Response){
-        const { nome, source } = req.query;
+        const { nome } = req.query;
 
-        function queryMonsters(monstersArrays, nome, source){
+        function queryMonsters(monstersArrays, nome){
             if(monstersArrays.monsterFluff.filter((monster) => {
                 monster.name.includes(nome as string)
-            }) && monstersArrays.monsterFluff.filter((monster) => {
-                monster.source.includes(source as string)
             }))
-            return monstersArrays.monsterFluff.filter(monster => monster.name.includes(nome as string) && monster.source.includes(source as string));
+            
+            return monstersArrays.monsterFluff.filter(monster => monster.name.includes(nome as string));
           }
 
-        const MonstersArray = [...queryMonsters(MMFluff, nome, source), ...queryMonsters(MPMMFluff, nome, source), ...queryMonsters(VRGRFluff, nome, source)]
+        const MonstersArray = [...queryMonsters(MMFluff, nome), ...queryMonsters(MPMMFluff, nome), ...queryMonsters(VRGRFluff, nome)]
         res.json(MonstersArray)
         }
     }

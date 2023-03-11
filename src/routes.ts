@@ -11,6 +11,7 @@ import { TCESpellsController } from "./controllers/spells/TCESpellsController";
 import { XGESpellsController } from "./controllers/spells/XGESpellsController";
 import { AllFluffController } from "./controllers/monsters/fluffs/AllFluffController";
 import { QueryFluffController } from "./controllers/monsters/fluffs/QueryFluffController";
+import { UniqueFluffController } from "./controllers/monsters/fluffs/UniqueFluffController";
 //init router
 const router = Router();
 
@@ -18,16 +19,12 @@ const router = Router();
 router.get("/health", (req, res) => {
     return res.sendStatus(200)
 })
-//monsters
-.get('/monsters-mm', new MMMonstersController().execute) //Monster Manual
-.get('/monsters-mpmm', new MPMMonstersController().execute) //Mordenkainen's Presents Monsters of Multiverse
-.get('/monsters-vrgr', new VRGRMonstersController().execute) //Van Richten's Guide to Ravenloft
-//Query Monsters
-.get('/monsters', new QueryMonstersController().execute)
 //Fluffs
 .get('/monsters/fluffs', new AllFluffController().execute)
 //fluff Query
 .get('/monsters/fluffs/query', new QueryFluffController().execute)
+//Monster + fluff info unique
+.get('/monster/info', new UniqueFluffController().execute)
 //Spells
 .get('/spells-phb', new PHBSpellsController().execute) //Player's Handbook
 .get('/spells-tce', new TCESpellsController().execute) //Tasha's Cauldron of Everything
