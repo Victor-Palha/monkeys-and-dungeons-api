@@ -7,14 +7,15 @@ class QueryFluffController{
     execute(req:Request, res:Response){
         const { nome } = req.query;
 
+        // Função para filtrar os monstros
         function queryMonsters(monstersArrays, nome){
             if(monstersArrays.monsterFluff.filter((monster) => {
                 monster.name.includes(nome as string)
             }))
             
             return monstersArrays.monsterFluff.filter(monster => monster.name.includes(nome as string));
-          }
-
+        }
+        
         const MonstersArray = [...queryMonsters(MMFluff, nome), ...queryMonsters(MPMMFluff, nome), ...queryMonsters(VRGRFluff, nome)]
         res.json(MonstersArray)
         }

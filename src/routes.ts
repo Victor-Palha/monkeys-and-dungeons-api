@@ -1,17 +1,11 @@
 import { Router } from "express";
-//Monsters Controllers
-import { MMMonstersController } from "./controllers/monsters/MMMonstersController";
-import { MPMMonstersController } from "./controllers/monsters/MPMMonstersController";
-import { VRGRMonstersController } from "./controllers/monsters/VRGRMonstersController";
-
-import {QueryMonstersController} from "./controllers/monsters/QueryMonstersController";
-//Spells Controllers
-import { PHBSpellsController } from "./controllers/spells/PHBSpellsController";
-import { TCESpellsController } from "./controllers/spells/TCESpellsController";
-import { XGESpellsController } from "./controllers/spells/XGESpellsController";
+//Fluffs Controllers
 import { AllFluffController } from "./controllers/monsters/fluffs/AllFluffController";
 import { QueryFluffController } from "./controllers/monsters/fluffs/QueryFluffController";
 import { UniqueFluffController } from "./controllers/monsters/fluffs/UniqueFluffController";
+//Spells Controllers
+import { AllSpellsController } from "./controllers/spells/AllSpellsController";
+import { QuerySpellsController } from "./controllers/spells/QuerySpellsController";
 //init router
 const router = Router();
 
@@ -26,10 +20,9 @@ router.get("/health", (req, res) => {
 //Monster + fluff info unique
 .get('/monster/info', new UniqueFluffController().execute)
 //Spells
-.get('/spells-phb', new PHBSpellsController().execute) //Player's Handbook
-.get('/spells-tce', new TCESpellsController().execute) //Tasha's Cauldron of Everything
-.get('/spells-xge', new XGESpellsController().execute) //Xanathar's Guide to Everything
-
+.get('/spells', new AllSpellsController().execute)
+//Query Spells
+.get('/spells/query', new QuerySpellsController().execute)
 
 //export router
 export {router}

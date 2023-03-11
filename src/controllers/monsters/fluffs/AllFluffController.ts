@@ -5,6 +5,7 @@ import { VRGRFluff } from "../../../models/monsters/fluff-bestiary-vrgr";
 
 class AllFluffController{
     execute(req:Request, res:Response){
+        // Adicionando todos os fluffs em um array
         const fluff = [...MMFluff.monsterFluff, ...MPMMFluff.monsterFluff, ...VRGRFluff.monsterFluff]
         res.json(fluff)
     }
