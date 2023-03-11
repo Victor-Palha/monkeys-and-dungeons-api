@@ -9,6 +9,8 @@ import {QueryMonstersController} from "./controllers/monsters/QueryMonstersContr
 import { PHBSpellsController } from "./controllers/spells/PHBSpellsController";
 import { TCESpellsController } from "./controllers/spells/TCESpellsController";
 import { XGESpellsController } from "./controllers/spells/XGESpellsController";
+import { AllFluffController } from "./controllers/monsters/fluffs/AllFluffController";
+import { QueryFluffController } from "./controllers/monsters/fluffs/QueryFluffController";
 //init router
 const router = Router();
 
@@ -20,8 +22,12 @@ router.get("/health", (req, res) => {
 .get('/monsters-mm', new MMMonstersController().execute) //Monster Manual
 .get('/monsters-mpmm', new MPMMonstersController().execute) //Mordenkainen's Presents Monsters of Multiverse
 .get('/monsters-vrgr', new VRGRMonstersController().execute) //Van Richten's Guide to Ravenloft
-
-.get('/monsters', new QueryMonstersController().execute) //Query Monsters
+//Query Monsters
+.get('/monsters', new QueryMonstersController().execute)
+//Fluffs
+.get('/monsters/fluffs', new AllFluffController().execute)
+//fluff Query
+.get('/monsters/fluffs/query', new QueryFluffController().execute)
 //Spells
 .get('/spells-phb', new PHBSpellsController().execute) //Player's Handbook
 .get('/spells-tce', new TCESpellsController().execute) //Tasha's Cauldron of Everything
