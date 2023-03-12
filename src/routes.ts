@@ -6,6 +6,7 @@ import { UniqueMonstersController } from "./controllers/monsters/UniqueMonstersC
 //Spells Controllers
 import { AllSpellsController } from "./controllers/spells/AllSpellsController";
 import { QuerySpellsController } from "./controllers/spells/QuerySpellsController";
+import { UniqueSpellsController } from "./controllers/spells/UniqueSpellsController";
 //init router
 const router = Router();
 
@@ -17,12 +18,12 @@ router.get("/health", (req, res) => {
 .get('/monsters', new AllMonstersController().execute)
 //Monsters Query
 .get('/monsters/query', new QueryMonstersController().execute)
-//Monsters Unique
 .get('/monsters/unique', new UniqueMonstersController().execute)
+
 //Spells
 .get('/spells', new AllSpellsController().execute)
 //Query Spells
 .get('/spells/query', new QuerySpellsController().execute)
-
+.get('/spells/unique', new UniqueSpellsController().execute)
 //export router
 export {router}
