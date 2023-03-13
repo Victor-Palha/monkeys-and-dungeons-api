@@ -9,6 +9,7 @@ import { QuerySpellsController } from "./controllers/spells/QuerySpellsControlle
 import { UniqueSpellsController } from "./controllers/spells/UniqueSpellsController";
 //tables Controllers
 import { BodyHorrorTableController } from "./controllers/tables/BodyHorrorTableController";
+import { CosmicHorrorTableController } from "./controllers/tables/CosmicHorrorTableController";
 //init router
 const router = Router();
 
@@ -29,6 +30,7 @@ router.get("/health", (req, res) => {
 .get('/spells/unique', new UniqueSpellsController().execute)
 
 //Tables
-.get('/tables/bodyhorror', new BodyHorrorTableController().execute)
+.get('/adventure/body', new BodyHorrorTableController().execute)
+.get('/adventure/cosmic', new CosmicHorrorTableController().execute)
 //export router
 export {router}

@@ -10,13 +10,13 @@ import { generateDnDAdventure } from "../../openai/ApiConfig";
 //Horror Settings
 //Horror Plots
 
-class BodyHorrorTableController{
+class CosmicHorrorTableController{
     async execute(req: Request, res: Response){
         //Setando váriaveis
-        const villains = GetHorrorMonster(AdventureHorror, "Body Horror Villains")
-        const monsters = GetHorrorMonster(AdventureHorror, "Body Horror Monsters")
-        const settings = GetHorrorMonster(AdventureHorror, "Body Horror Settings")
-        const plots = GetHorrorMonster(AdventureHorror, "Body Horror Plots")
+        const villains = GetHorrorMonster(AdventureHorror, "Cosmic Horror Villains")
+        const monsters = GetHorrorMonster(AdventureHorror, "Cosmic Horror Monsters")
+        const settings = GetHorrorMonster(AdventureHorror, "Cosmic Horror Settings")
+        const plots = GetHorrorMonster(AdventureHorror, "Cosmic Horror Plots")
         //Chat GPT
         await generateDnDAdventure({settings, plots, villains, monsters}).then((response) => {
             return res.json(response)
@@ -25,4 +25,4 @@ class BodyHorrorTableController{
         })
     }
 }
-export { BodyHorrorTableController }
+export { CosmicHorrorTableController }
