@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { AllItemsController } from "./controllers/items/AllItemsController";
 //Monsters Controllers
 import { AllMonstersController } from "./controllers/monsters/AllMonstersController";
 import { QueryMonstersController } from "./controllers/monsters/QueryMonstersController";
@@ -32,5 +33,8 @@ router.get("/health", (req, res) => {
 //Tables
     //Adventure
     .post('/adventure', new GenerateAdventureController().execute)
+
+//Items
+.get('/items', new AllItemsController().execute)
 //export router
 export {router}
