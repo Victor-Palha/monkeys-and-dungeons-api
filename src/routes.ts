@@ -8,8 +8,8 @@ import { AllSpellsController } from "./controllers/spells/AllSpellsController";
 import { QuerySpellsController } from "./controllers/spells/QuerySpellsController";
 import { UniqueSpellsController } from "./controllers/spells/UniqueSpellsController";
 //tables Controllers
-import { BodyHorrorTableController } from "./controllers/tables/BodyHorrorTableController";
-import { CosmicHorrorTableController } from "./controllers/tables/CosmicHorrorTableController";
+import { GenerateAdventureController } from "./controllers/tables/GenerateAdventureController";
+
 //init router
 const router = Router();
 
@@ -19,18 +19,18 @@ router.get("/health", (req, res) => {
 })
 //Monsters
 .get('/monsters', new AllMonstersController().execute)
-//Monsters Query
-.get('/monsters/query', new QueryMonstersController().execute)
-.get('/monsters/unique', new UniqueMonstersController().execute)
+    //Monsters Query
+    .get('/monsters/query', new QueryMonstersController().execute)
+    .get('/monsters/unique', new UniqueMonstersController().execute)
 
 //Spells
 .get('/spells', new AllSpellsController().execute)
-//Query Spells
-.get('/spells/query', new QuerySpellsController().execute)
-.get('/spells/unique', new UniqueSpellsController().execute)
+    //Query Spells
+    .get('/spells/query', new QuerySpellsController().execute)
+    .get('/spells/unique', new UniqueSpellsController().execute)
 
 //Tables
-.get('/adventure/body', new BodyHorrorTableController().execute)
-.get('/adventure/cosmic', new CosmicHorrorTableController().execute)
+    //Adventure
+    .post('/adventure', new GenerateAdventureController().execute)
 //export router
 export {router}

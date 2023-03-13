@@ -1,7 +1,7 @@
 //Rolar dados de uma tabela de monstros de terror
 export function rollDice(str) {
     const [numDice, numSides] = str.split('d');
-    return (Math.floor(Math.random() * numSides) + 1);
+    return (Math.floor(Math.random() * numSides));
 }
 //Buscar informações específicas de uma tabela de monstros de terror
 export function GetHorrorMonster(HorrorTable, name){
@@ -20,7 +20,8 @@ export function GetHorrorMonster(HorrorTable, name){
         }
     })
     if(colLabelsArray.includes("Challenge")){
-        return rowsArray[rollDice("d10")]
+        //console.log(rowsArray.length)
+        return rowsArray[rollDice(`d${rowsArray.length}`)]
     }
-    return rowsArray[rollDice(colLabelsArray[0][0])]
+    return rowsArray[rollDice(colLabelsArray[0])]
 }

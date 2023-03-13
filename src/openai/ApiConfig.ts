@@ -11,13 +11,14 @@ const openaiConfig = {
 export async function generateDnDAdventure({settings, plots, villains, monsters}) {
 
     const prompt = `
-        Generate a D&D 5e adventure complete with this information with a beginning, middle and end:
+        Generate a D&D 5e adventure itinerary complete with this information:
       - Scenario: ${settings[1]}
       - Plot Twist: ${plots[1]}
       - Main Villain: ${villains[1]}
       - Monsters: ${monsters[1]}
-      
-      Generate the sheet of the monsters that will be found.
+      ###
+        with a beginning, middle, end, title for the adventure and level of the adventure.
+        all tranlated to html
     `;
     //console.log(prompt)
   

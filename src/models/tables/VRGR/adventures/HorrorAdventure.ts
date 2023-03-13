@@ -392,82 +392,82 @@ export const AdventureHorror = {
                         "rows": [
                             [
                                 "1/4",
-                                "{@creature Kuo-toa}",
+                                "Kuo-to",
                                 "{@book MM|MM}"
                             ],
                             [
                                 "2",
-                                "{@creature Intellect devourer}",
+                                "Intellect devourer",
                                 "{@book MM|MM}"
                             ],
                             [
                                 "2",
-                                "{@creature Pentadrone}",
+                                "Pentadrone",
                                 "{@book MM|MM}"
                             ],
                             [
                                 "3",
-                                "{@creature Brain in a jar|VRGR}",
+                                "Brain in a jar",
                                 "VGR"
                             ],
                             [
                                 "3",
-                                "{@creature Githyanki warrior}",
+                                "Githyanki warrior",
                                 "{@book MM|MM}"
                             ],
                             [
                                 "3",
-                                "{@creature Grell}",
+                                "Grell",
                                 "{@book MM|MM}"
                             ],
                             [
                                 "5",
-                                "{@creature Vampiric mind flayer|VRGR}",
+                                "Vampiric mind flayer",
                                 "VGR"
                             ],
                             [
                                 "7",
-                                "{@creature Bodytaker plant|VRGR}",
+                                "Bodytaker plant",
                                 "VGR"
                             ],
                             [
                                 "7",
-                                "{@creature Mind flayer}",
+                                "Mind flayer",
                                 "{@book MM|MM}"
                             ],
                             [
                                 "7",
-                                "{@creature Yuan-ti abomination}",
+                                "Yuan-ti abomination",
                                 "{@book MM|MM}"
                             ],
                             [
                                 "8",
-                                "{@creature Unspeakable horror|VRGR}",
+                                "Unspeakable horror",
                                 "VGR"
                             ],
                             [
                                 "10",
-                                "{@creature Aboleth}",
+                                "Aboleth",
                                 "{@book MM|MM}"
                             ],
                             [
                                 "13",
-                                "{@creature Beholder}",
+                                "Beholder",
                                 "{@book MM|MM}"
                             ],
                             [
                                 "19",
-                                "{@creature Lesser star spawn emissary|VRGR}",
+                                "Lesser star spawn emissary",
                                 "VGR"
                             ],
                             [
                                 "21",
-                                "{@creature Greater star spawn emissary|VRGR}",
+                                "Greater star spawn emissary",
                                 "VGR"
                             ],
                             [
                                 "23",
-                                "{@creature Kraken}",
+                                "Kraken",
                                 "{@book MM|MM}"
                             ]
                         ]
@@ -744,6 +744,394 @@ export const AdventureHorror = {
                             [
                                 "8",
                                 "Learn why the bakers of a small town have started making pastries filled with a popular, delicious, and faintly glowing blue goo."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Dark Fantasy Monsters",
+                "page": 50,
+                "id": "0da",
+                "entries": [
+                    "Any monster can find a place in a dark fantasy plot. D&D's most iconic threats\u2014such as dragons and beholders\u2014are well suited to horror-tinged tales, as are any other supernatural foes. {@book Chapter 5|VRGR|5} details how to make even the most familiar monsters into fear-worthy threats.",
+                    {
+                        "type": "table",
+                        "caption": "Dark Fantasy Monsters",
+                        "colLabels": [
+                            "Challenge",
+                            "Creature",
+                            "Source"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-8 text-center",
+                            "col-2 text-center"
+                        ],
+                        "rows": [
+                            [
+                                "1/8",
+                                "Gremishka",
+                                "VGR"
+                            ],
+                            [
+                                "1/4",
+                                "Goblin",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "1/4",
+                                "Sprite",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "3",
+                                "Displacer beast",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "4",
+                                "Shadow demon",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "5",
+                                "Umber hulk",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "6",
+                                "Drider",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "7",
+                                "Necrichor",
+                                "VGR"
+                            ],
+                            [
+                                "8",
+                                "Fomorian",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "8",
+                                "Inquisitor of the Mind Fire",
+                                "VGR"
+                            ],
+                            [
+                                "10",
+                                "Yochlol",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "13",
+                                "Beholder",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "15",
+                                "Purple worm",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "17",
+                                "Death knight",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "17",
+                                "Adult blue dracolich",
+                                "{@book MM|MM"
+                            ],
+                            [
+                                "21",
+                                "Lich",
+                                "{@book MM|MM"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Dark Fantasy Villains",
+                "page": 50,
+                "id": "0db",
+                "entries": [
+                    "Villains occupy places of prominence or control in dark fantasy domains. This manifests as political control, military authority, or physical or magical might that allows them to directly dominate others.",
+                    {
+                        "type": "table",
+                        "caption": "Dark Fantasy Villains",
+                        "colLabels": [
+                            "d10",
+                            "Villain"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "A machine that believes it's a resurrected tyrant and seeks to rebuild its empire in iron"
+                            ],
+                            [
+                                "2",
+                                "The leader of a subterranean people who plots to manipulate the moon to blot out the sun's searing light"
+                            ],
+                            [
+                                "3",
+                                "A high priest intent on shifting an entire nation into their god's otherworldly realm"
+                            ],
+                            [
+                                "4",
+                                "A desperate general who unleashes otherworldly armies or war machines that they can't control"
+                            ],
+                            [
+                                "5",
+                                "A massive treant who has allied with exploitative raiders and seeks to fell every forest"
+                            ],
+                            [
+                                "6",
+                                "A sage who, heedless of the consequences, solves an endless war by preventing anyone from dying"
+                            ],
+                            [
+                                "7",
+                                "A member of a cabal of eternal royals who support a war against Mount Celestia, as their immortality relies on the blood of angels"
+                            ],
+                            [
+                                "8",
+                                "The commander of a legion of soul-addicted templars who punish crimes by burning criminals into psychoactive spirit dust"
+                            ],
+                            [
+                                "9",
+                                "An ancient dragon whose godlike magic drains the domain of life"
+                            ],
+                            [
+                                "10",
+                                "A god who killed all their peers and now rules the mortal realm"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Dark Fantasy Torments",
+                "page": 51,
+                "id": "0dc",
+                "entries": [
+                    "For Darklords in dark fantasy settings, power is at the root of their suffering. Perhaps their rise to dominance led them to sacrifice what mattered to them most, or they secretly seek to be rid of their might but fear being without it.",
+                    {
+                        "type": "table",
+                        "caption": "Dark Fantasy Torments",
+                        "colLabels": [
+                            "d8",
+                            "Torment"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "The Darklord's regime is fraught with spies and saboteurs, increasing the Darklord's paranoia."
+                            ],
+                            [
+                                "2",
+                                "Worthless sycophants surround the Darklord, their incessant praise making every success hollow."
+                            ],
+                            [
+                                "3",
+                                "The Darklord's incredible power uncontrollably damages everything the Darklord cares for."
+                            ],
+                            [
+                                "4",
+                                "Others excessively revere or fear the Darklord, leaving the Darklord isolated."
+                            ],
+                            [
+                                "5",
+                                "Imagined or remembered rivals endlessly critique the Darklord, causing them doubt."
+                            ],
+                            [
+                                "6",
+                                "Society preemptively celebrates an achievement the Darklord will never be able to provide."
+                            ],
+                            [
+                                "7",
+                                "The Darklord seeks the pleasure of lost glories, engaging in hollow contests against unworthy foes."
+                            ],
+                            [
+                                "8",
+                                "The Darklord manufactures catastrophes to distract from their inability to fulfill their role."
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Dark Fantasy Settings",
+                "page": 51,
+                "id": "0dd",
+                "entries": [
+                    "Sinister individuals leave their marks upon dark fantasy domains, whether as oppressive architecture, unavoidable propaganda, or scars upon an exploited environment. Alternatively, the setting might exhibit the effects of a disaster\u2014perhaps an event that gave rise to brutal powers. Such scars appear both upon the setting and upon its inhabitants.",
+                    {
+                        "type": "table",
+                        "caption": "Dark Fantasy Settings",
+                        "colLabels": [
+                            "d8",
+                            "Setting"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "A land where towering stents pierce magical leylines, allowing their power to be drained"
+                            ],
+                            [
+                                "2",
+                                "A country devastated by magical pollution or the fallout of weapons used in an age-old war"
+                            ],
+                            [
+                                "3",
+                                "An empire covered in the watchful symbols of an all-seeing religion"
+                            ],
+                            [
+                                "4",
+                                "A city adrift on a sea full of primeval predators"
+                            ],
+                            [
+                                "5",
+                                "A land dotted with the floating and fallen ruins of magical megastructures"
+                            ],
+                            [
+                                "6",
+                                "A world where an unstoppable ooze, infection, or hive encroaches on civilization"
+                            ],
+                            [
+                                "7",
+                                "A demiplane created by unknowable beings and populated with their test subjects"
+                            ],
+                            [
+                                "8",
+                                "A place of punishment or endless boredom that a Darklord believes is part of the afterlife"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Dark Fantasy Adventure Sites",
+                "page": 51,
+                "id": "0de",
+                "entries": [
+                    "Evil is entrenched and effective in dark fantasy domains, truths reflected by grandiose adventure locations. Their size and grandeur seem out of proportion with the common structures of the domain and the magic that helped create them is clearly beyond the reach of mere mortals to create or destroy.",
+                    {
+                        "type": "table",
+                        "caption": "Dark Fantasy Adventure Sites",
+                        "colLabels": [
+                            "d8",
+                            "Adventure Site"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "An expanding labyrinth that grows to protect the evil imprisoned at its heart"
+                            ],
+                            [
+                                "2",
+                                "A forest where every tree grows from the body of a mummified hero"
+                            ],
+                            [
+                                "3",
+                                "A magical factory that distills living beings into the reagents of a wish-granting elixir"
+                            ],
+                            [
+                                "4",
+                                "A criminal consortium's lavish sewer-academy, where recruits are transformed to be perfectly suited to enacting one near-impossible heist"
+                            ],
+                            [
+                                "5",
+                                "The fractured mind-scape of a powerful but dormant sentient weapon"
+                            ],
+                            [
+                                "6",
+                                "A massive construct-cathedral built to exact the ultimate expression of faith and sacrifice"
+                            ],
+                            [
+                                "7",
+                                "A palace where the nonhumanoid inhabitants purposefully {@condition petrified} themselves"
+                            ],
+                            [
+                                "8",
+                                "A fortress with seven locked gates that seal off the underworld"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Dark Fantasy Plots",
+                "page": 51,
+                "id": "0df",
+                "entries": [
+                    "Adventures in dark fantasy domains involve unlikely or reluctant heroes (or rival villains) striking back against the evil at work in the land. This might involve taking on a world-ruining conspiracy or the street-level depravity affecting a single slum.",
+                    {
+                        "type": "table",
+                        "caption": "Dark Fantasy Plots",
+                        "colLabels": [
+                            "d8",
+                            "Plot"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "Track down a beholder-shaped flesh golem and learn why it's targeting specific individuals."
+                            ],
+                            [
+                                "2",
+                                "Seal a portal to a demonic realm that opens within the mouth of an innocent acolyte."
+                            ],
+                            [
+                                "3",
+                                "Cure a virus turning people into shadows."
+                            ],
+                            [
+                                "4",
+                                "Mount a defense against the swarm of giant spiders that's declared war on bipeds."
+                            ],
+                            [
+                                "5",
+                                "Prevent a mighty spell that a coven of witches is casting using a volcanic caldera as a cauldron."
+                            ],
+                            [
+                                "6",
+                                "Keep a nation from tearing itself apart when it's revealed the beloved ruler is a lich."
+                            ],
+                            [
+                                "7",
+                                "Banish a spirit haunting the moon."
+                            ],
+                            [
+                                "8",
+                                "Uncover the identity of an otherworldly coward who's hiding among mortals, avoiding the destructive search of the immortals they fled."
                             ]
                         ]
                     }
