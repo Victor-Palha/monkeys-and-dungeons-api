@@ -5,7 +5,7 @@ import { ItemsList } from "./Functions/ItemsList";
 class AllItemsController {
     execute(req:Request, res:Response){
         //console.log(items)
-        return res.json(ItemsList(items))
+        return res.json(ItemsList(items.item))
     }
 }
 export {AllItemsController}

@@ -1,5 +1,8 @@
 import { Router } from "express";
+//Items Controllers
 import { AllItemsController } from "./controllers/items/AllItemsController";
+import { QueryItemsController } from "./controllers/items/QueryItemsController";
+import { UniqueItemsController } from "./controllers/items/UniqueItemController";
 //Monsters Controllers
 import { AllMonstersController } from "./controllers/monsters/AllMonstersController";
 import { QueryMonstersController } from "./controllers/monsters/QueryMonstersController";
@@ -36,5 +39,8 @@ router.get("/health", (req, res) => {
 
 //Items
 .get('/items', new AllItemsController().execute)
+    //Query Items
+    .get('/items/query', new QueryItemsController().execute)
+    .get('/items/unique', new UniqueItemsController().execute)
 //export router
 export {router}
