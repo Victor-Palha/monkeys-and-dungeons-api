@@ -23,7 +23,7 @@ export function QueryItemsList(itemsArray, nome){
     return QueryItems
 }
 
-function validName(nome){
+export function validName(nome){
 
     const regex = /^[1-9]\s.*$/;
 
