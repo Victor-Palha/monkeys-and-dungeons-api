@@ -9,7 +9,7 @@ class AllMonstersController {
     execute(req:Request, res:Response){
 
         return res.json(
-          [...MonsterList(bestiaryMM), ...MonsterList(bestiaryMPMM), ...MonsterList(bestiaryVRGR)]
+          [...MonsterList(bestiaryMM.monster), ...MonsterList(bestiaryMPMM.monster), ...MonsterList(bestiaryVRGR.monster)]
         )
     }
 }

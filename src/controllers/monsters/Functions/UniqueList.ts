@@ -1,5 +1,5 @@
 // Description: Função para retornar os dados únicos
-export function UniqueMonster(monsterList){
+export function UniqueMonsterImg(monsterList){
     if(monsterList){
         return monsterList.map((monster) => {
             return {
