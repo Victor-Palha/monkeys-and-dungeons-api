@@ -2508,15 +2508,6 @@ export const MPMMFluff = {
 			"source": "MPMM",
 			"entries": [
 				"To protect sites they deem holy, gods often rely on eidolons, ghostly spirits bound to safeguard a sacred place. Forged from the souls of those with unwavering devotion, eidolons stalk temples and vaults to ensure that no enemy defiles, damages, or plunders these sites. If an enemy sets foot inside a warded location, the {@creature eidolon|MPMM} plunges into a {@creature sacred statue|MPMM|statue} specially prepared to house its soul; it then animates this effigy and uses the statue to drive out the intruders."
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "bestiary/MPMM/Sacred Statue.webp"
-					}
-				}
 			]
 		},
 		{
@@ -2874,15 +2865,6 @@ export const MPMMFluff = {
 						"The challenge rating of Fraz-Urb'luu is 24 (62,000 XP) when he's encountered in his lair."
 					]
 				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "bestiary/MPMM/Fraz-Urbluu.webp"
-					}
-				}
 			]
 		},
 		{
@@ -3154,16 +3136,7 @@ export const MPMMFluff = {
 						}
 					}
 				}
-			},
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "bestiary/MPMM/Githyanki Kithrak.webp"
-					}
-				}
-			]
+			}
 		},
 		{
 			"name": "Githyanki Supreme Commander",

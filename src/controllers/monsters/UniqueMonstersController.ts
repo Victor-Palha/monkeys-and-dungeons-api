@@ -13,12 +13,9 @@ export class UniqueMonstersController{
         const { nome, source } = req.query;
 
         return res.json([
-            ...UniqueMonsterImg(queryMonsterUnique(MMFluff, nome, source)),
-            ...UniqueMonsterImg(queryMonsterUnique(MPMMFluff, nome, source)),
-            ...UniqueMonsterImg(queryMonsterUnique(VRGRFluff, nome, source)),
-            ...queryMonsterUnique(bestiaryMM, nome, source),
-            ...queryMonsterUnique(bestiaryMPMM, nome, source),
-            ...queryMonsterUnique(bestiaryVRGR, nome, source)
+            ...queryMonsterUnique(bestiaryMM.monster, nome as string, source as string),
+            ...queryMonsterUnique(bestiaryMPMM.monster, nome as string, source as string),
+            ...queryMonsterUnique(bestiaryVRGR.monster, nome as string, source as string)
         ])
     }
 }

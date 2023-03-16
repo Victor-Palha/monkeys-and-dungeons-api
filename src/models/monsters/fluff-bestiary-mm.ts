@@ -212,15 +212,6 @@ export const MMFluff = {
 						}
 					]
 				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "bestiary/MM/Blue Dracolich.jpg"
-					}
-				}
 			]
 		},
 		{
@@ -370,15 +361,6 @@ export const MMFluff = {
 							]
 						}
 					]
-				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "bestiary/MM/Dinosaurs.png"
-					}
 				}
 			]
 		},
@@ -652,15 +634,6 @@ export const MMFluff = {
 							]
 						}
 					]
-				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "bestiary/MM/Dinosaurs.png"
-					}
 				}
 			]
 		},
@@ -6883,15 +6856,6 @@ export const MMFluff = {
 						}
 					]
 				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "bestiary/MM/Gnoll.jpg"
-					}
-				}
 			]
 		},
 		{
@@ -11080,15 +11044,6 @@ export const MMFluff = {
 		{
 			"name": "Octopus",
 			"source": "MM",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "bestiary/MM/Octopus.webp"
-					}
-				}
-			]
 		},
 		{
 			"name": "Ogre",
@@ -11344,15 +11299,6 @@ export const MMFluff = {
 						}
 					]
 				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "bestiary/MM/Orc.jpg"
-					}
-				}
 			]
 		},
 		{
@@ -11420,15 +11366,6 @@ export const MMFluff = {
 							]
 						}
 					]
-				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "bestiary/MM/Orc.jpg"
-					}
 				}
 			]
 		},
@@ -14793,15 +14730,6 @@ export const MMFluff = {
 							]
 						}
 					]
-				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "bestiary/MM/Dinosaurs.png"
-					}
 				}
 			]
 		},
