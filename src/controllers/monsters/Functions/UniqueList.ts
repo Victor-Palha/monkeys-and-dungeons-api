@@ -22,7 +22,7 @@ export function UniqueMonsterImg(monsterList, nome){
 // Description: Função para filtrar os dados
 export function queryMonsterUnique(monstersArrays, nome: string, source: string) {
     const filteredMonsters = monstersArrays.filter((monster) => {
-        const nameMatches = monster.name.includes(nome);
+        const nameMatches = monster.name === nome;
         const sourceMatches = monster.source.includes(source);
         //console.log(nameMatches);
         return nameMatches && sourceMatches;
