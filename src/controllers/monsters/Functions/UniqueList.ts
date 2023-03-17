@@ -24,7 +24,7 @@ export function queryMonsterUnique(monstersArrays, nome: string, source: string)
     const filteredMonsters = monstersArrays.filter((monster) => {
         const nameMatches = monster.name.includes(nome);
         const sourceMatches = monster.source.includes(source);
-        console.log(nameMatches);
+        //console.log(nameMatches);
         return nameMatches && sourceMatches;
     });
     return filteredMonsters;
