@@ -195,7 +195,7 @@ export const MMFluff = {
 										{
 											"name": "Condition Immunities",
 											"entries": [
-												" The dracolich can't be {@condition charmed}, {@condition frightened}, {@condition paralyzed}, or {@condition poisoned}. It also doesn't suffer from {@condition exhaustion}."
+												" The dracolich can't be {charmed}, {frightened}, {paralyzed}, or {poisoned}. It also doesn't suffer from {exhaustion}."
 											],
 											"type": "entries"
 										},
@@ -735,7 +735,7 @@ export const MMFluff = {
 						{
 							"type": "entries",
 							"entries": [
-								"An awakened shrub is an ordinary shrub given sentience and mobility by the {@spell awaken} spell or similar magic."
+								"An awakened shrub is an ordinary shrub given sentience and mobility by the { awaken} spell or similar magic."
 							]
 						}
 					]
@@ -752,7 +752,7 @@ export const MMFluff = {
 						{
 							"type": "entries",
 							"entries": [
-								"An awakened tree is an ordinary tree given sentience and mobility by the {@spell awaken} spell or similar magic."
+								"An awakened tree is an ordinary tree given sentience and mobility by the { awaken} spell or similar magic."
 							]
 						}
 					]
@@ -1080,7 +1080,7 @@ export const MMFluff = {
 									"type": "entries",
 									"entries": [
 										"Basilisks are ponderous for hunting creatures, but they needn't chase prey. Meeting a basilisk's supernatural gaze can be enough to affect a rapid transformation, transforming a victim into porous stone. Basilisks, with their strong jaws, are able to consume the stone. The stone returns to organic form in the basilisk's gullet.",
-										"Some alchemists are said to know how to process the basilisk's gullet and the fluids contained within. Properly handled, the gullet produces an oil that can return {@condition petrified} creatures to flesh and life. Unfortunately for such a victim, any parts lost in stone form remain absent if the creature revives. Revivification using the oil is impossible if a vital part of the {@condition petrified} creature, such as its head, is detached."
+										"Some alchemists are said to know how to process the basilisk's gullet and the fluids contained within. Properly handled, the gullet produces an oil that can return {petrified} creatures to flesh and life. Unfortunately for such a victim, any parts lost in stone form remain absent if the creature revives. Revivification using the oil is impossible if a vital part of the {petrified} creature, such as its head, is detached."
 									]
 								}
 							]
@@ -1221,7 +1221,7 @@ export const MMFluff = {
 									"type": "entries",
 									"entries": [
 										"Because they refuse to share territory with others, most beholders withdraw to frigid hills, abandoned ruins, and deep caverns to scheme. A beholder's lair is carved out by its disintegration eye ray, emphasizing vertical passages connecting chambers stacked on top of each other. Such an environment allows a beholder to move freely, even as it prevents intruders from easily creeping about. When intruders do break in, the height of its open ceilings allows a beholder to float up and harry foes on the floor.",
-										"As alien as their creator, the rooms in a beholder's lair reflect the creature's arrogance. It festoons its chambers with trophies from the battles it has won, including {@condition petrified} adventurers standing frozen in their horrified final moments, pieces of other beholders, and magic items wrested from powerful foes. A beholder judges its own worth by its acquisitions, and it never willingly parts with its treasures."
+										"As alien as their creator, the rooms in a beholder's lair reflect the creature's arrogance. It festoons its chambers with trophies from the battles it has won, including {petrified} adventurers standing frozen in their horrified final moments, pieces of other beholders, and magic items wrested from powerful foes. A beholder judges its own worth by its acquisitions, and it never willingly parts with its treasures."
 									]
 								},
 								{
@@ -2394,7 +2394,7 @@ export const MMFluff = {
 										{
 											"name": "Blind Obedience",
 											"entries": [
-												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition incapacitated}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
+												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {incapacitated}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
 											],
 											"type": "entries"
 										},
@@ -3245,7 +3245,7 @@ export const MMFluff = {
 										{
 											"name": "Trap Soul",
 											"entries": [
-												" The demilich targets one creature that it can see within 30 feet of it. The target must make a DC 19 Charisma saving throw. On a failed save, the target's soul is magically trapped inside one of the demilich's gems. While the soul is trapped, the target's body and all the equipment it is carrying cease to exist. On a successful save, the target takes 24 ({@damage 7d6}) necrotic damage, and if this damage reduces the target to 0 hit points, its soul is trapped as if it failed the saving throw. A soul trapped in a gem for 24 hours is devoured and ceases to exist.",
+												" The demilich targets one creature that it can see within 30 feet of it. The target must make a DC 19 Charisma saving throw. On a failed save, the target's soul is magically trapped inside one of the demilich's gems. While the soul is trapped, the target's body and all the equipment it is carrying cease to exist. On a successful save, the target takes 24 (7d6}) necrotic damage, and if this damage reduces the target to 0 hit points, its soul is trapped as if it failed the saving throw. A soul trapped in a gem for 24 hours is devoured and ceases to exist.",
 												"If the demilich drops to 0 hit points, it is destroyed and turns to powder, leaving behind its gems. Crushing a gem releases any soul trapped within, at which point the target's body re-forms in an unoccupied space nearest to the gem and in the same state as when it was trapped."
 											],
 											"type": "entries"
@@ -3597,7 +3597,7 @@ export const MMFluff = {
 									"type": "inset",
 									"name": "Demon True Names",
 									"entries": [
-										"Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if {@condition charmed}, and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.",
+										"Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if {charmed}, and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.",
 										"A mortal who learns a demon's true name can use powerful summoning magic to call the demon from the Abyss and exercise some measure of control over it. However, most demons brought to the Material Plane in this manner do everything in their power to wreak havoc or sow discord and strife."
 									]
 								},
@@ -3937,7 +3937,7 @@ export const MMFluff = {
 					"type": "inset",
 					"name": "Devil True Names and Talismans",
 					"entries": [
-						"Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if {@condition charmed}, and ancient scrolls and tomes are said to exist that list the true names of certain devils.",
+						"Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if {charmed}, and ancient scrolls and tomes are said to exist that list the true names of certain devils.",
 						"A mortal who learns a devil's true name can use powerful summoning magic to call the devil from the Nine Hells and bind it into service. Binding can also be accomplished with the help of a devil talisman. Each of these ancient relics is inscribed with the true name of a devil it controls, and was bathed in the blood of a worthy sacrifice-typically someone the creator loved-when crafted.",
 						"However it is summoned, a devil brought to the Material Plane typically resents being pressed into service. However, the devil seizes every opportunity to corrupt its summoner so that the summoner's soul ends up in the Nine Hells. Only imps are truly content to be summoned, and they easily commit to serving a summoner as a familiar, but they still do their utmost to corrupt those who summon them."
 					]
@@ -4403,7 +4403,7 @@ export const MMFluff = {
 															"type": "entries",
 															"name": "Poison Predilection",
 															"entries": [
-																"Distilled from spider venom and the flora of the Underdark, poison can be found in abundance among the drow, and it plays an important part in their culture and politics. Drow mages concoct a viscid toxin that leaves enemies {@condition unconscious}. Drow warriors coat their blades and crossbow bolts with this venom, looking forward to the interrogation and torture that follows combat."
+																"Distilled from spider venom and the flora of the Underdark, poison can be found in abundance among the drow, and it plays an important part in their culture and politics. Drow mages concoct a viscid toxin that leaves enemies {unconscious}. Drow warriors coat their blades and crossbow bolts with this venom, looking forward to the interrogation and torture that follows combat."
 															]
 														},
 														{
@@ -4541,7 +4541,7 @@ export const MMFluff = {
 									"name": "Reclusive Fey",
 									"type": "entries",
 									"entries": [
-										"Dryads act as guardians of their woodland demesnes. Shy and reclusive, they watch interlopers from the trees. A dryad struck by the beauty of a stranger might investigate more closely, perhaps even try to lure the individual away to be {@condition charmed}.",
+										"Dryads act as guardians of their woodland demesnes. Shy and reclusive, they watch interlopers from the trees. A dryad struck by the beauty of a stranger might investigate more closely, perhaps even try to lure the individual away to be {charmed}.",
 										"Dryads work with other sylvan creatures to defend their forests. Unicorns, treants, and satyrs live alongside them, in addition to druids that share the dryads' devotion to the woods they call home."
 									]
 								},
@@ -4598,7 +4598,7 @@ export const MMFluff = {
 									"name": "Born of Darkness",
 									"type": "entries",
 									"entries": [
-										"The Underdark is saturated with strange magical power, which the duergar absorbed over generations of imprisonment. A duergar can increase its size and strength for a short time, becoming a powerful ogre-sized warrior. If it faces a foe it can't fight, or when spying on creatures approaching its territory, it can just as easily become {@condition invisible} to slip away into the darkness. Eons spent in the Underdark also sharpened their {@sense darkvision}, allowing them to see twice as far as other dwarves. This keen eyesight comes at a cost, however, as a duergar's vision is compromised by sunlight."
+										"The Underdark is saturated with strange magical power, which the duergar absorbed over generations of imprisonment. A duergar can increase its size and strength for a short time, becoming a powerful ogre-sized warrior. If it faces a foe it can't fight, or when spying on creatures approaching its territory, it can just as easily become {invisible} to slip away into the darkness. Eons spent in the Underdark also sharpened their {@sense darkvision}, allowing them to see twice as far as other dwarves. This keen eyesight comes at a cost, however, as a duergar's vision is compromised by sunlight."
 									]
 								},
 								{
@@ -5405,7 +5405,7 @@ export const MMFluff = {
 									"name": "Eldritch Rejuvenation",
 									"type": "entries",
 									"entries": [
-										"A flameskull's shattered fragments reform unless they are splashed with holy water or subjected to a {@spell dispel magic} or {@spell remove curse} spell. If it can no longer fulfill its intended purpose, the re-formed flameskull is beholden to no one and becomes autonomous."
+										"A flameskull's shattered fragments reform unless they are splashed with holy water or subjected to a { dispel magic} or { remove curse} spell. If it can no longer fulfill its intended purpose, the re-formed flameskull is beholden to no one and becomes autonomous."
 									]
 								},
 								{
@@ -5468,7 +5468,7 @@ export const MMFluff = {
 										{
 											"name": "Blind Obedience",
 											"entries": [
-												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition incapacitated}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
+												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {incapacitated}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
 											],
 											"type": "entries"
 										},
@@ -6453,7 +6453,7 @@ export const MMFluff = {
 									"name": "Mouths of Madness",
 									"type": "entries",
 									"entries": [
-										"When a gibbering mouther senses prey, its mouths begin to murmur and chatter, each with a different voice: deep or shrill, wailing or ululating, crying out in agony or ecstasy. This cacophonous gibbering overcomes the senses of any creature that hears it, causing most to flee in terror. Others are overcome with madness or stand {@condition paralyzed}, fixated on the horrific creature as it oozes forward to consume them.",
+										"When a gibbering mouther senses prey, its mouths begin to murmur and chatter, each with a different voice: deep or shrill, wailing or ululating, crying out in agony or ecstasy. This cacophonous gibbering overcomes the senses of any creature that hears it, causing most to flee in terror. Others are overcome with madness or stand {paralyzed}, fixated on the horrific creature as it oozes forward to consume them.",
 										{
 											"name": "All-Consuming",
 											"entries": [
@@ -7021,7 +7021,7 @@ export const MMFluff = {
 									"name": "Monstrous Predator",
 									"type": "entries",
 									"entries": [
-										"When a gorgon spots potential prey, it charges with a hideous clamor of metal on metal. When the gorgon hits, it pulverizes the foe and sends its sprawling, then tramples it to death with its cruel hooves. Faced with multiple foes, the gorgon exhales its deadly vapor to overcome the creatures it touches by turning them to stone. When it grows hungry, it smashes its {@condition petrified} prey to rubble and uses its strong teeth to grind the stone into a powder that provides nourishment. The crisscrossing network of trampled trails and splintered trees that surrounds a gorgon lair is strewn with the uneaten fragments of its shattered foes."
+										"When a gorgon spots potential prey, it charges with a hideous clamor of metal on metal. When the gorgon hits, it pulverizes the foe and sends its sprawling, then tramples it to death with its cruel hooves. Faced with multiple foes, the gorgon exhales its deadly vapor to overcome the creatures it touches by turning them to stone. When it grows hungry, it smashes its {petrified} prey to rubble and uses its strong teeth to grind the stone into a powder that provides nourishment. The crisscrossing network of trampled trails and splintered trees that surrounds a gorgon lair is strewn with the uneaten fragments of its shattered foes."
 									]
 								}
 							]
@@ -7359,7 +7359,7 @@ export const MMFluff = {
 									"name": "Floating Ambushers",
 									"type": "entries",
 									"entries": [
-										"A grell prefers to ambush lone creatures or stragglers, hovering silently near the ceiling of a passage or cavern until a suitable target passes below, whereupon it descends quickly and wraps its tentacles around its prey. It then floats away to its lair with the {@condition paralyzed} creature in its clutches."
+										"A grell prefers to ambush lone creatures or stragglers, hovering silently near the ceiling of a passage or cavern until a suitable target passes below, whereupon it descends quickly and wraps its tentacles around its prey. It then floats away to its lair with the {paralyzed} creature in its clutches."
 									]
 								},
 								{
@@ -7751,12 +7751,12 @@ export const MMFluff = {
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
-												"1st level (4 slots): {@spell identify}, {@spell ray of sickness}",
-												"2nd level (3 slots): {@spell hold person}, {@spell locate object}",
-												"3rd level (3 slots): {@spell bestow curse}, {@spell counterspell}, {@spell lightning bolt}",
-												"4th level (3 slots): {@spell phantasmal killer}, {@spell polymorph}",
-												"5th level (2 slots): {@spell contact other plane}, {@spell scrying}",
-												"6th level (1 slot): {@spell eyebite}"
+												"1st level (4 slots): { identify}, { ray of sickness}",
+												"2nd level (3 slots): { hold person}, { locate object}",
+												"3rd level (3 slots): { bestow curse}, { counterspell}, { lightning bolt}",
+												"4th level (3 slots): { phantasmal killer}, { polymorph}",
+												"5th level (2 slots): { contact other plane}, { scrying}",
+												"6th level (1 slot): { eyebite}"
 											]
 										},
 										"For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
@@ -7766,8 +7766,8 @@ export const MMFluff = {
 									"type": "entries",
 									"name": "Hag Eye",
 									"entries": [
-										"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and {@sense darkvision} with a radius of 60 feet. If it is destroyed, each coven member takes {@damage 3d10} psychic damage and is {@condition blinded} for 24 hours.",
-										"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+										"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and {@sense darkvision} with a radius of 60 feet. If it is destroyed, each coven member takes 3d10} psychic damage and is {blinded} for 24 hours.",
+										"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
 									]
 								}
 							]
@@ -8623,7 +8623,7 @@ export const MMFluff = {
 													"name": "Ice Spear",
 													"type": "entries",
 													"entries": [
-														"Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 14 ({@damage 2d8 + 5}) piercing damage + 10 ({@damage 3d6}) cold damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw, or for 1 minute, its speed is reduced by 10 feet; it can take either an action or a bonus action on each of its turns, not both; and it can't take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+														"Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5}) piercing damage + 10 (3d6}) cold damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw, or for 1 minute, its speed is reduced by 10 feet; it can take either an action or a bonus action on each of its turns, not both; and it can't take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 													]
 												}
 											]
@@ -8697,7 +8697,7 @@ export const MMFluff = {
 									"type": "entries",
 									"entries": [
 										"Imps are found throughout the Lower Planes, either running errands for their infernal masters, spying on rivals, or misleading and waylaying mortals. An imp will proudly serve an evil master of any kind, but it can't be relied on to carry out tasks with any speed or efficiency.",
-										"An imp can assume animal form at will, but in its natural state it resembles a diminutive red-skinned humanoid with a barbed tail, small horns, and leathery wings. It strikes while {@condition invisible}, attacking with its poison stinger.",
+										"An imp can assume animal form at will, but in its natural state it resembles a diminutive red-skinned humanoid with a barbed tail, small horns, and leathery wings. It strikes while {invisible}, attacking with its poison stinger.",
 										{
 											"type": "inset",
 											"name": "Variant: Imp Familiar",
@@ -8873,7 +8873,7 @@ export const MMFluff = {
 										{
 											"name": "Blind Obedience",
 											"entries": [
-												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition incapacitated}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
+												" When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {incapacitated}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
 											],
 											"type": "entries"
 										},
@@ -8925,7 +8925,7 @@ export const MMFluff = {
 									"name": "Supernatural Servants",
 									"type": "entries",
 									"entries": [
-										"Jackalweres kidnap humanoids for their lamia masters, condemning victims to a lifetime of slavery or an agonizing death. A jackalwere's magical gaze renders a foe {@condition unconscious}, allowing the monster to bind a creature or drag it away.",
+										"Jackalweres kidnap humanoids for their lamia masters, condemning victims to a lifetime of slavery or an agonizing death. A jackalwere's magical gaze renders a foe {unconscious}, allowing the monster to bind a creature or drag it away.",
 										"A jackalwere might also use its gaze to incapacitate a deadly enemy long enough to make good its escape."
 									]
 								}
@@ -9158,14 +9158,14 @@ export const MMFluff = {
 										{
 											"name": "Bite",
 											"entries": [
-												" Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 ({@damage 1d4 + 2}) piercing damage."
+												" Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2}) piercing damage."
 											],
 											"type": "entries"
 										},
 										{
 											"name": "Unarmed Strike",
 											"entries": [
-												" Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 ({@damage 1d6 + 2}) bludgeoning damage + 3 ({@damage 1d6}) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn."
+												" Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2}) bludgeoning damage + 3 (1d6}) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn."
 											],
 											"type": "entries"
 										}
@@ -9245,14 +9245,14 @@ export const MMFluff = {
 									"type": "entries",
 									"entries": [
 										"Lamias adorn their crumbling havens with finery stolen from passing caravans, then use magic to further accentuate their lairs, masking decay with illusion. A lair's breathtaking gardens, finely decorated apartments, and numerous slaves seem at odds with its remoteness and state of ruin.",
-										"Using its intoxicating touch, a lamia weakens the minds of its enemies, making them more susceptible to its enchantment spells and turning them into its slaves. Those it beguiles with {@spell geas} spells are pitted against each other in elaborate contests for the lamia's amusement."
+										"Using its intoxicating touch, a lamia weakens the minds of its enemies, making them more susceptible to its enchantment spells and turning them into its slaves. Those it beguiles with { geas} spells are pitted against each other in elaborate contests for the lamia's amusement."
 									]
 								},
 								{
 									"name": "Vain Predators",
 									"type": "entries",
 									"entries": [
-										"Always anxious to gain more wealth and slaves, a lamia uses a pool of water or a mirror in conjunction with a {@spell scrying} spell to view its domain. A lamia uses this power to watch over trade routes and nearby settlements, or to seek out objects and creatures it fancies.",
+										"Always anxious to gain more wealth and slaves, a lamia uses a pool of water or a mirror in conjunction with a { scrying} spell to view its domain. A lamia uses this power to watch over trade routes and nearby settlements, or to seek out objects and creatures it fancies.",
 										"Lamias are particularly fond of seeking out adventurers with pure hearts to seduce and corrupt to evil, savoring the destruction of their virtue. They use their magic to lure potential victims to their lairs, relying on illusion and their thralls to capture hapless foes. Lamias prize beauty and strength above all else, however. Any prisoner that falls short of their esteem becomes the main course in a horrible feast, or is set free to die while wandering the wastes.",
 										"As long as they have slaves to face their enemies, lamias fight from the fringes, beguiling foes with magic if they can. A lamia pressed into melee never stays there for long, shredding flesh with claw and dagger before springing away to safety."
 									]
@@ -9339,7 +9339,7 @@ export const MMFluff = {
 									"name": "Soul Sacrifices",
 									"type": "entries",
 									"entries": [
-										"A lich must periodically feed souls to its phylactery to sustain the magic preserving its body and consciousness. It does this using the {@spell imprisonment} spell. Instead of choosing one of the normal options of the spell, the lich uses the spell to magically trap the target's body and soul inside its phylactery. The phylactery must be on the same plane as the lich for the spell to work. A lich's phylactery can hold only one creature at a time, and a {@spell dispel magic} cast as a 9th-level spell upon the phylactery releases any creature imprisoned within it. A creature imprisoned in the phylactery for 24 hours is consumed and destroyed utterly, whereupon nothing short of divine intervention can restore it to life.",
+										"A lich must periodically feed souls to its phylactery to sustain the magic preserving its body and consciousness. It does this using the { imprisonment} spell. Instead of choosing one of the normal options of the spell, the lich uses the spell to magically trap the target's body and soul inside its phylactery. The phylactery must be on the same plane as the lich for the spell to work. A lich's phylactery can hold only one creature at a time, and a { dispel magic} cast as a 9th-level spell upon the phylactery releases any creature imprisoned within it. A creature imprisoned in the phylactery for 24 hours is consumed and destroyed utterly, whereupon nothing short of divine intervention can restore it to life.",
 										"A lich that fails or forgets to maintain its body with sacrificed souls begins to physically fall apart, and might eventually become a demilich."
 									]
 								},
@@ -9503,7 +9503,7 @@ export const MMFluff = {
 									"type": "entries",
 									"name": "Curse of Lycanthropy",
 									"entries": [
-										"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
+										"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A { remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
 										"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
 										"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
 									]
@@ -9924,7 +9924,7 @@ export const MMFluff = {
 									"name": "Immortal Splendor",
 									"type": "entries",
 									"entries": [
-										"Men and women who desire eternal youth, beauty, and adoration might pray to malicious gods, beg dragons for ancient magic, or seek out powerful archmages to fulfill their wishes. Others make sacrifices to demon lords or archdevils, offering all in exchange for this gift, oblivious to the curse that accompanies it. Those who strike such bargains gain physical beauty, restored youth, immortality, and the adoration of all who behold them, granting them the influence and power they so desire. However, after years of the living like a demigod among mortals, the price for their vanity and hubris is exacted, and they are forever transformed into medusas. A medusa's hair turns into a nest of venomous serpents, and all who gaze upon the medusa are {@condition petrified}, becoming stone monuments to its corruption."
+										"Men and women who desire eternal youth, beauty, and adoration might pray to malicious gods, beg dragons for ancient magic, or seek out powerful archmages to fulfill their wishes. Others make sacrifices to demon lords or archdevils, offering all in exchange for this gift, oblivious to the curse that accompanies it. Those who strike such bargains gain physical beauty, restored youth, immortality, and the adoration of all who behold them, granting them the influence and power they so desire. However, after years of the living like a demigod among mortals, the price for their vanity and hubris is exacted, and they are forever transformed into medusas. A medusa's hair turns into a nest of venomous serpents, and all who gaze upon the medusa are {petrified}, becoming stone monuments to its corruption."
 									]
 								},
 								{
@@ -10956,7 +10956,7 @@ export const MMFluff = {
 								{
 									"type": "entries",
 									"entries": [
-										"The elite airborne shock troops of the yugoloths, nycaloths look like muscular gargoyles. Powerful bat wings bear them swiftly aloft in battle, and the razorsharp claws of their hands and feet cut through flesh and bone with ease. A nightmarish foe, a nycaloth strikes hard and fast without warning, then teleports away. It uses its innate magic to turn {@condition invisible} or create illusory doubles of itself, further confounding its enemies.",
+										"The elite airborne shock troops of the yugoloths, nycaloths look like muscular gargoyles. Powerful bat wings bear them swiftly aloft in battle, and the razorsharp claws of their hands and feet cut through flesh and bone with ease. A nightmarish foe, a nycaloth strikes hard and fast without warning, then teleports away. It uses its innate magic to turn {invisible} or create illusory doubles of itself, further confounding its enemies.",
 										"Nycaloths are the most loyal of the yugoloths. When they find an evil master that treats them well, they are unlikely to break their agreement unless the reward for doing so is extreme."
 									]
 								}
@@ -12330,7 +12330,7 @@ export const MMFluff = {
 									"type": "entries",
 									"name": "Condition Immunities",
 									"entries": [
-										"The servant can't be {@condition blinded}, {@condition charmed}, {@condition frightened}, or {@condition paralyzed}."
+										"The servant can't be {blinded}, {charmed}, {frightened}, or {paralyzed}."
 									]
 								},
 								{
@@ -13442,7 +13442,7 @@ export const MMFluff = {
 									"name": "Master's Amulet",
 									"type": "entries",
 									"entries": [
-										"Every shield guardian has an amulet magically linked to it. A shield guardian can have only one corresponding amulet, and if that amulet is destroyed, the shield guardian is {@condition incapacitated} until a replacement amulet is created. A shield guardian's amulet is subject to direct attack if it isn't being worn or carried. It has AC 10, 10 hit points, and immunity to poison and psychic damage. Crafting an amulet requires 1 week and costs 1,000 gp in components.",
+										"Every shield guardian has an amulet magically linked to it. A shield guardian can have only one corresponding amulet, and if that amulet is destroyed, the shield guardian is {incapacitated} until a replacement amulet is created. A shield guardian's amulet is subject to direct attack if it isn't being worn or carried. It has AC 10, 10 hit points, and immunity to poison and psychic damage. Crafting an amulet requires 1 week and costs 1,000 gp in components.",
 										"A shield guardian's solitary focus is to protect the amulet's wearer. The amulet's wearer can command the guardian to attack its enemies or to guard the wielder against attack. If an attack threatens to injure the wearer, the construct can magically absorb the blow into its own body, even at a distance.",
 										"A spellcaster can store a single spell within a shield guardian, which can then cast the spell on command or under specific conditions. Many a wizard has been rendered helpless by enemies, only to surprise those foes when its shield guardian unleashes potent magical power."
 									]
@@ -13692,10 +13692,10 @@ export const MMFluff = {
 											"type": "entries",
 											"name": "Control Gem",
 											"entries": [
-												"Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {@condition charmed} while so controlled.",
-												"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A {@spell wish} spell, if cast in the slaad's presence, can be worded to acquire the gem.",
-												"A {@spell greater restoration} spell cast on the slaad destroys the gem without harming the slaad.",
-												"Someone who is proficient in Wisdom ({@skill Medicine}) can remove the gem from an {@condition incapacitated} slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom ({@skill Medicine}) check. Each failed attempt deals 22 ({@damage 4d10}) psychic damage to the slaad."
+												"Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being {charmed} while so controlled.",
+												"Certain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A { wish} spell, if cast in the slaad's presence, can be worded to acquire the gem.",
+												"A { greater restoration} spell cast on the slaad destroys the gem without harming the slaad.",
+												"Someone who is proficient in Wisdom ({@skill Medicine}) can remove the gem from an {incapacitated} slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom ({@skill Medicine}) check. Each failed attempt deals 22 (4d10}) psychic damage to the slaad."
 											]
 										}
 									]
@@ -14265,7 +14265,7 @@ export const MMFluff = {
 										{
 											"name": "Blind Obedience",
 											"entries": [
-												"When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {@condition incapacitated}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
+												"When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is {incapacitated}, it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them."
 											],
 											"type": "entries"
 										},
@@ -14388,7 +14388,7 @@ export const MMFluff = {
 										"A succubus or incubus first appears in ethereal form, passing through walls like a ghost to lurk next to a mortal's bedside and whisper forbidden pleasures. Sleeping victims are tempted to give in to their darkest desires, indulge in taboos, and feed forbidden appetites. As the fiend fills the victim's dreams with debauched images, the victim becomes more susceptible to temptation in everyday life.",
 										"Inevitably, the fiend enters the mortal realm in tempting form to directly influence a creature's actions. Appearing in the guise of a humanoid who has previously appeared only in the victim's dreams, the succubus or incubus seduces or befriends its victim, indulging all its desires so that it performs evil acts of its own free will.",
 										"A mortal bequeaths its soul to the fiend not by formal pledge or contract. Instead, when a succubus or incubus has corrupted a creature completely-some say by causing the victim to commit the three betrayals of thought, word, and deed-the victim's soul belongs to the fiend. The more virtuous the fiend's prey, the longer the corruption takes, but the more rewarding the downfall. After successfully corrupting a victim, the succubus or incubus kills it, and the tainted soul descends into the Lower Planes.",
-										"The succubus or incubus resorts to charming a victim magically only when necessary, usually as a form of self-defense. A {@condition charmed} creature isn't responsible for its actions, so forcing it to behave against its will won't bring the fiend closer to the ultimate prize: the victim's soul."
+										"The succubus or incubus resorts to charming a victim magically only when necessary, usually as a form of self-defense. A {charmed} creature isn't responsible for its actions, so forcing it to behave against its will won't bring the fiend closer to the ultimate prize: the victim's soul."
 									]
 								},
 								{
@@ -15164,7 +15164,7 @@ export const MMFluff = {
 									"name": "Player Characters as Vampires",
 									"entries": [
 										"The game statistics of a player character transformed into a vampire spawn and then a vampire don't change, except that the character's Strength, Dexterity, and Constitution scores become 18 if they aren't higher. In addition, the character gains the vampire's damage resistances, {@sense darkvision}, traits, and actions. Attack and damage rolls for the vampire's attacks are based on Strength.",
-										"The save DC for Charm is 8 + the vampire's proficiency bonus + the vampire's Charisma modifier. The character's alignment becomes lawful evil, and the DM might take control of the character until the vampirism is reversed with a {@spell wish} spell or the character is killed and brought back to life."
+										"The save DC for Charm is 8 + the vampire's proficiency bonus + the vampire's Charisma modifier. The character's alignment becomes lawful evil, and the DM might take control of the character until the vampirism is reversed with a { wish} spell or the character is killed and brought back to life."
 									]
 								},
 								{
@@ -15428,7 +15428,7 @@ export const MMFluff = {
 									"type": "entries",
 									"entries": [
 										"Like most elementals, a water weird has no concept of good or evil. However, a water weird bound to a sacred or befouled source of water begins to take on the nature of that site, becoming neutral good or neutral evil.",
-										"A neutral good water weird tries to frighten away interlopers rather than kill them, while a neutral evil water weird kills its victims for pleasure and might turn against its summoner. A water weird loses its evil alignment if its waters are cleansed with a {@spell purify food and drink} spell."
+										"A neutral good water weird tries to frighten away interlopers rather than kill them, while a neutral evil water weird kills its victims for pleasure and might turn against its summoner. A water weird loses its evil alignment if its waters are cleansed with a { purify food and drink} spell."
 									]
 								},
 								{
@@ -16595,7 +16595,7 @@ export const MMFluff = {
 									"type": "entries",
 									"entries": [
 										"Sinister necromantic magic infuses the remains of the dead, causing them to rise as zombies that do their creator's bidding without fear or hesitation. They move with a jerky, uneven gait, clad in the moldering apparel they wore when put to rest, and carrying the stench of decay.",
-										"Most zombies are made from humanoid remains, though the flesh and bones of any formerly living creature can be imbued with a semblance of life. Necromantic magic, usually from spells, animates a zombie. Some zombies rise spontaneously when dark magic saturates an area. Once turned into a zombie, a creature can't be restored to life except by powerful magic, such as a {@spell resurrection} spell.",
+										"Most zombies are made from humanoid remains, though the flesh and bones of any formerly living creature can be imbued with a semblance of life. Necromantic magic, usually from spells, animates a zombie. Some zombies rise spontaneously when dark magic saturates an area. Once turned into a zombie, a creature can't be restored to life except by powerful magic, such as a { resurrection} spell.",
 										"A zombie retains no vestiges of its former self, its mind devoid of thought and imagination. A zombie left without orders simply stands in place and rots unless something comes along that it can kill. The magic animating a zombie imbues it with evil, so left without purpose, it attacks any living creature it encounters."
 									]
 								},

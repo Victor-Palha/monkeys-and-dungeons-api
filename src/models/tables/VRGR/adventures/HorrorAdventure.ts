@@ -1072,7 +1072,7 @@ export const AdventureHorror = {
                             ],
                             [
                                 "7",
-                                "A palace where the nonhumanoid inhabitants purposefully {@condition petrified} themselves"
+                                "A palace where the nonhumanoid inhabitants purposefully {petrified} themselves"
                             ],
                             [
                                 "8",

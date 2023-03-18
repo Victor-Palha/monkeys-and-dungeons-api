@@ -416,7 +416,7 @@ export const VRGRFluff = {
 					"type": "entries",
 					"entries": [
 						"Isolde was a holy warrior devoted to a pantheon of elven deities called the Seldarine. In this role, she defended the Feywild against dragons, demons, and other threats. In time, her heroics caught the eye of an archfey named Zybilna, who had forged secret pacts with some of the fiends Isolde and her companions had slain. Rather than be angry at Isolde, Zybilna was impressed by her. She enlisted a powerful fiend known only as \"the Caller\" to corrupt and slay all of Isolde's companions, leaving Isolde alone, bitter, and vulnerable. The insidious archfey then befriended Isolde and offered to help her forget her terrible losses. Isolde became the master of a traveling fey carnival that served as a gateway to Zybilna's domain. The carnival did what Zybilna hoped it would do: it brought comfort to Isolde and quelled her thirst for vengeance.",
-						"Zybilna and Isolde enjoyed a strong partnership for years, but as time wore on, they grew distant until their relationship finally soured. Eladrin crave change, yet Isolde felt like she was frozen in time. She wished to leave the fey carnival and pursue other dreams, but Zybilna wouldn't hear of it and secretly used {@spell wish} spells to make Isolde place her devotion to the carnival above her desire to leave it.",
+						"Zybilna and Isolde enjoyed a strong partnership for years, but as time wore on, they grew distant until their relationship finally soured. Eladrin crave change, yet Isolde felt like she was frozen in time. She wished to leave the fey carnival and pursue other dreams, but Zybilna wouldn't hear of it and secretly used { wish} spells to make Isolde place her devotion to the carnival above her desire to leave it.",
 						"When Isolde's fey carnival crossed paths with another carnival from the Shadowfell, the eladrin found the escape she longed for. Isolde orchestrated a trade with the other carnival's owners, a pair of shadar-kai (elves native to the Shadowfell). Isolde would become the master of their carnival, and they would become the masters of hers. To appease Zybilna, this arrangement would remain in place only until the two carnivals crossed paths again.",
 						"Zybilna was intrigued enough by the shadar-kai to let Isolde go, but not without casting a spell that made Isolde forget about Zybilna and her Feywild domain, thus preventing the eladrin from divulging the archfey's secrets. As a further punishment, Zybilna sent malevolent fey creatures to hound Isolde and her Shadowfell carnival. Isolde doesn't know who is behind this petty torment, nor does she care. Her hunt for the Caller and her thirst for vengeance have become all-consuming."
 					]
@@ -504,7 +504,7 @@ export const VRGRFluff = {
 							"name": "Loup Garou Lycanthropy",
 							"entries": [
 								"A Humanoid who succumbs to a loup garou's lycanthropy becomes a werewolf. This form of lycanthropy can't be removed while the loup garou that inflicted the curse lives. See the {@i Monster Manual} for details on lycanthropy.",
-								"Once a loup garou is slain, a {@spell remove curse} spell cast during the night of a full moon on any afflicted werewolf it created forces the target to make a DC 17 Constitution saving throw. On a success, the curse is broken, and the target returns to its normal form and gains 3 levels of exhaustion. On a failure, the curse remains, and the target automatically fails any saving throw made to break this curse for 1 month."
+								"Once a loup garou is slain, a { remove curse} spell cast during the night of a full moon on any afflicted werewolf it created forces the target to make a DC 17 Constitution saving throw. On a success, the curse is broken, and the target returns to its normal form and gains 3 levels of exhaustion. On a failure, the curse remains, and the target automatically fails any saving throw made to break this curse for 1 month."
 							]
 						}
 					]
@@ -708,7 +708,7 @@ export const VRGRFluff = {
 												"type": "entries",
 												"name": "Deathly",
 												"entries": [
-													"The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast {@spell animate dead} and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action: Circle of Death (Spell. Each creature in a 60-foot-radius sphere centered on a point the priest can see within 150 feet of it must make a DC 15 Constitution saving throw, taking 28 ({@dice 8d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+													"The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast { animate dead} and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action: Circle of Death (Spell. Each creature in a 60-foot-radius sphere centered on a point the priest can see within 150 feet of it must make a DC 15 Constitution saving throw, taking 28 ({@dice 8d6}) necrotic damage on a failed save, or half as much damage on a successful one."
 												]
 											}
 										]
@@ -1265,7 +1265,7 @@ export const VRGRFluff = {
 											"1",
 											{
 												"type": "entries",
-												"name": "Beguiling Hex {@recharge 5}",
+												"name": "Beguiling Hex {Recharge - 5}",
 												"entries": [
 													"The horror expels a wave of mind-altering magic. Each creature within 30 feet of the horror must make a DC 15 Wisdom saving throw, taking 33 ({@dice 6d10}) psychic damage and being incapacitated until the end of the creature's next turn on a failed save, or taking half as much damage on a successful one."
 												]
@@ -1275,7 +1275,7 @@ export const VRGRFluff = {
 											"2",
 											{
 												"type": "entries",
-												"name": "Bile Hex {@recharge 5}",
+												"name": "Bile Hex {Recharge - 5}",
 												"entries": [
 													"The horror expels acidic bile in a 60-foot line that is 5 feet wide. Each creature in that line must succeed on a DC 15 Dexterity saving throw or be covered in bile. A creature covered in bile takes 31 ({@dice 7d8}) acid damage at the start of each of its turns until it or another creature uses its action to scrape or wash off the bile that covers it."
 												]
@@ -1285,9 +1285,9 @@ export const VRGRFluff = {
 											"3",
 											{
 												"type": "entries",
-												"name": "Petrifying Hex {@recharge 5}",
+												"name": "Petrifying Hex {Recharge - 5}",
 												"entries": [
-													"The horror expels petrifying gas in a 30-foot cone. Each creature in that area must succeed on a DC 15 Constitution saving throw or take 14 ({@dice 4d6}) necrotic damage and be restrained as it begins to turn to stone. A restrained creature must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the {@spell greater restoration} spell or other magic."
+													"The horror expels petrifying gas in a 30-foot cone. Each creature in that area must succeed on a DC 15 Constitution saving throw or take 14 ({@dice 4d6}) necrotic damage and be restrained as it begins to turn to stone. A restrained creature must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the { greater restoration} spell or other magic."
 												]
 											}
 										],
@@ -1295,7 +1295,7 @@ export const VRGRFluff = {
 											"4",
 											{
 												"type": "entries",
-												"name": "Reality-Stealing Hex {@recharge 5}",
+												"name": "Reality-Stealing Hex {Recharge - 5}",
 												"entries": [
 													"The horror expels a wave of perception-distorting energy. Each creature within 30 feet of the horror must make a DC 15 Wisdom saving throw. On a failed save, the target takes 22 ({@dice 5d8}) psychic damage and is deafened until the end of its next turn. If the saving throw fails by 5 or more, the target is also blinded until the end of its next turn."
 												]

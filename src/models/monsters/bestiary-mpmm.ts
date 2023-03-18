@@ -23,7 +23,7 @@ export const bestiaryMPMM = {
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -57,26 +57,26 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The abjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 16}):"
+						"The abjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
-						"{@spell message}",
-						"{@spell prestidigitation}"
+						"{ dancing lights}",
+						"{ mage hand}",
+						"{ message}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell dispel magic}",
-							"{@spell lightning bolt}",
-							"{@spell mage armor}"
+							"{ dispel magic}",
+							"{ lightning bolt}",
+							"{ mage armor}"
 						],
 						"1e": [
-							"{@spell arcane lock}",
-							"{@spell banishment}",
-							"{@spell globe of invulnerability}",
-							"{@spell invisibility}",
-							"{@spell wall of force}"
+							"{ arcane lock}",
+							"{ banishment}",
+							"{ globe of invulnerability}",
+							"{ invisibility}",
+							"{ wall of force}"
 						]
 					},
 					"ability": "int",
@@ -93,21 +93,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Arcane Burst",
 					"entries": [
-						"{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120 ft., one target. {@h}20 ({@damage 3d10 + 4}) force damage."
+						"{1d20 +8} to hit, reach 5 ft. or range 120 ft., one target. 20 (3d10 + 4}) force damage."
 					]
 				},
 				{
 					"name": "Force Blast",
 					"entries": [
-						"Each creature in a 20-foot cube originating from the abjurer must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 36 ({@damage 8d8}) force damage and is pushed up to 10 feet away from the abjurer. On a successful save, a creature takes half as much damage and isn't pushed."
+						"Each creature in a 20-foot cube originating from the abjurer must make a {16} Constitution saving throw. On a failed save, a creature takes 36 (8d8}) force damage and is pushed up to 10 feet away from the abjurer. On a successful save, a creature takes half as much damage and isn't pushed."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Arcane Ward {@recharge 4}",
+					"name": "Arcane Ward {Recharge - 4}",
 					"entries": [
-						"When the abjurer or a creature it can see within 30 feet of it takes damage, the abjurer magically creates a protective barrier around itself or the other creature. The barrier reduces the damage to the protected creature by 26 ({@damage 4d10 + 4}), to a minimum of 0, and then vanishes."
+						"When the abjurer or a creature it can see within 30 feet of it takes damage, the abjurer magically creates a protective barrier around itself or the other creature. The barrier reduces the damage to the protected creature by 26 (4d10 + 4}), to a minimum of 0, and then vanishes."
 					]
 				}
 			],
@@ -200,7 +200,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {incapacitated}."
 					]
 				},
 				{
@@ -220,13 +220,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Stab",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Spike",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+						"1d20+5} to hit, range 20/60 ft., one target. 5 (1d4 + 3}) piercing damage."
 					]
 				}
 			],
@@ -335,13 +335,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"The oblex casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"The oblex casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {15}):"
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person} (as 5th-level spell)",
-							"{@spell detect thoughts}",
-							"{@spell hypnotic pattern}"
+							"{ charm person} (as 5th-level spell)",
+							"{ detect thoughts}",
+							"{ hypnotic pattern}"
 						]
 					},
 					"ability": "int",
@@ -378,14 +378,14 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6 + 4}) bludgeoning damage plus 7 ({@damage 2d6}) psychic damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 7 (2d6 + 4}) bludgeoning damage plus 7 (2d6}) psychic damage."
 					]
 				},
 				{
 					"name": "Eat Memories",
 					"entries": [
-						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 15} Wisdom saving throw or take 18 ({@damage 4d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.",
-						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from its ability checks and attack rolls. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition unconscious} for 1 hour. The effect then ends.",
+						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {15} Wisdom saving throw or take 18 (4d8}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the { greater restoration} or { heal} spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.",
+						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from its ability checks and attack rolls. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {unconscious} for 1 hour. The effect then ends.",
 						"The oblex learns all the languages a memory-drained target knows and gains all its skill proficiencies."
 					]
 				}
@@ -529,13 +529,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Flail",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) force damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 8 (1d8 + 4}) force damage."
 					]
 				},
 				{
-					"name": "Lightning Strike {@recharge}",
+					"name": "Lightning Strike {Recharge -}",
 					"entries": [
-						"The myrmidon makes one Flail attack. On a hit, the target takes an extra 18 ({@damage 4d8}) lightning damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition stunned} until the end of the myrmidon's next turn."
+						"The myrmidon makes one Flail attack. On a hit, the target takes an extra 18 (4d8}) lightning damage, and the target must succeed on a {13} Constitution saving throw or be {stunned} until the end of the myrmidon's next turn."
 					]
 				}
 			],
@@ -660,24 +660,24 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The alhoon casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
+						"The alhoon casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell disguise self}",
-						"{@spell mage hand}",
-						"{@spell prestidigitation}"
+						"{ dancing lights}",
+						"{ detect magic}",
+						"{ detect thoughts}",
+						"{ disguise self}",
+						"{ mage hand}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell globe of invulnerability}",
-							"{@spell invisibility}",
-							"{@spell modify memory}",
-							"{@spell plane shift} (self only)",
-							"{@spell wall of force}"
+							"{ dominate monster}",
+							"{ globe of invulnerability}",
+							"{ invisibility}",
+							"{ modify memory}",
+							"{ plane shift} (self only)",
+							"{ wall of force}"
 						]
 					},
 					"ability": "int",
@@ -708,19 +708,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Chilling Grasp",
 					"entries": [
-						"{@atk ms} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 4d6}) cold damage, and the alhoon regains 14 hit points."
+						"{1d20 +8} to hit, reach 5 ft., one target. 14 (4d6}) cold damage, and the alhoon regains 14 hit points."
 					]
 				},
 				{
 					"name": "Arcane Bolt",
 					"entries": [
-						"{@atk rs} {@hit 8} to hit, range 120 ft., one target. {@h}28 ({@damage 8d6}) force damage."
+						"{@atk rs} +8} to hit, range 120 ft., one target. 28 (8d6}) force damage."
 					]
 				},
 				{
-					"name": "Mind Blast {@recharge 5}",
+					"name": "Mind Blast {Recharge - 5}",
 					"entries": [
-						"The alhoon magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 16} Intelligence saving throw or take 22 ({@damage 4d8 + 4}) psychic damage and be {@condition stunned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The alhoon magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {16} Intelligence saving throw or take 22 (4d8 + 4}) psychic damage and be {stunned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -877,14 +877,14 @@ export const bestiaryMPMM = {
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the alkilith is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the alkilith move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the alkilith isn't ordinary slime or fungus."
+						"If the alkilith is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the alkilith move or act, that creature must succeed on a {18} Intelligence ({@skill Investigation}) check to discern that the alkilith isn't ordinary slime or fungus."
 					]
 				},
 				{
 					"name": "Foment Confusion",
 					"entries": [
-						"Any creature that isn't a demon that starts its turn within 30 feet of the alkilith must succeed on a {@dc 18} Wisdom saving throw, or it hears a faint buzzing in its head for a moment and has disadvantage on its next attack roll, saving throw, or ability check.",
-						"If the saving throw against Foment Confusion fails by 5 or more, the creature is instead subjected to the {@spell confusion} spell for 1 minute (no concentration required by the alkilith). While under the effect of that confusion, the creature is immune to Foment Confusion."
+						"Any creature that isn't a demon that starts its turn within 30 feet of the alkilith must succeed on a {18} Wisdom saving throw, or it hears a faint buzzing in its head for a moment and has disadvantage on its next attack roll, saving throw, or ability check.",
+						"If the saving throw against Foment Confusion fails by 5 or more, the creature is instead subjected to the { confusion} spell for 1 minute (no concentration required by the alkilith). While under the effect of that confusion, the creature is immune to Foment Confusion."
 					]
 				},
 				{
@@ -916,7 +916,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}18 ({@damage 4d6 + 4}) acid damage."
+						"{1d20+8} to hit, reach 15 ft., one target. 18 (4d6 + 4}) acid damage."
 					]
 				}
 			],
@@ -1048,7 +1048,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The allip can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The allip can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 (1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -1062,19 +1062,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Maddening Touch",
 					"entries": [
-						"{@atk ms} {@hit 6} to hit, reach 5 ft., one target. {@h}17 ({@damage 4d6 + 3}) psychic damage."
+						"{1d20 +6} to hit, reach 5 ft., one target. 17 (4d6 + 3}) psychic damage."
 					]
 				},
 				{
-					"name": "Howling Babble {@recharge}",
+					"name": "Howling Babble {Recharge -}",
 					"entries": [
-						"Each creature within 30 feet of the allip that can hear it must make a {@dc 14} Wisdom saving throw. On a failed save, a target takes 12 ({@damage 2d8 + 3}) psychic damage, and it is {@condition stunned} until the end of its next turn. On a successful save, it takes half as much damage and isn't {@condition stunned}. Constructs and Undead are immune to this effect."
+						"Each creature within 30 feet of the allip that can hear it must make a {14} Wisdom saving throw. On a failed save, a target takes 12 (2d8 + 3}) psychic damage, and it is {stunned} until the end of its next turn. On a successful save, it takes half as much damage and isn't {stunned}. Constructs and Undead are immune to this effect."
 					]
 				},
 				{
 					"name": "Whispers of Compulsion",
 					"entries": [
-						"The allip chooses up to three creatures it can see within 60 feet of it. Each target must succeed on a {@dc 14} Wisdom saving throw, or it takes 12 ({@damage 2d8 + 3}) psychic damage and must use its reaction to make a melee weapon attack against one creature of the allip's choice that the allip can see. Constructs and Undead are immune to this effect."
+						"The allip chooses up to three creatures it can see within 60 feet of it. Each target must succeed on a {14} Wisdom saving throw, or it takes 12 (2d8 + 3}) psychic damage and must use its reaction to make a melee weapon attack against one creature of the allip's choice that the allip can see. Constructs and Undead are immune to this effect."
 					]
 				}
 			],
@@ -1199,17 +1199,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The amnizu casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 19}):"
+						"The amnizu casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {19}):"
 					],
 					"will": [
-						"{@spell command}"
+						"{ command}"
 					],
 					"daily": {
 						"1": [
-							"{@spell feeblemind}"
+							"{ feeblemind}"
 						],
 						"3": [
-							"{@spell dominate monster}"
+							"{ dominate monster}"
 						]
 					},
 					"ability": "int",
@@ -1240,19 +1240,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Taskmaster Whip",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 16 ({@damage 3d10}) force damage."
+						"{1d20+11} to hit, reach 10 ft., one target. 9 (1d8 + 5}) slashing damage plus 16 (3d10}) force damage."
 					]
 				},
 				{
 					"name": "Blinding Rot",
 					"entries": [
-						"The amnizu targets one or two creatures that it can see within 60 feet of it. Each target must succeed on a {@dc 19} Wisdom saving throw or take 26 ({@damage 4d12}) necrotic damage and be {@condition blinded} until the start of the amnizu's next turn."
+						"The amnizu targets one or two creatures that it can see within 60 feet of it. Each target must succeed on a {19} Wisdom saving throw or take 26 (4d12}) necrotic damage and be {blinded} until the start of the amnizu's next turn."
 					]
 				},
 				{
-					"name": "Forgetfulness {@recharge}",
+					"name": "Forgetfulness {Recharge -}",
 					"entries": [
-						"The amnizu targets one creature it can see within 60 feet of it. That creature must succeed on a {@dc 18} Intelligence saving throw or take 26 ({@damage 4d12}) psychic damage and become {@condition stunned} for 1 minute. A {@condition stunned} creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target is {@condition stunned} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
+						"The amnizu targets one creature it can see within 60 feet of it. That creature must succeed on a {18} Intelligence saving throw or take 26 (4d12}) psychic damage and become {stunned} for 1 minute. A {stunned} creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target is {stunned} for the full minute, it forgets everything it sensed, experienced, and learned during the last 5 hours."
 					]
 				}
 			],
@@ -1260,7 +1260,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Instinctive Charm",
 					"entries": [
-						"When a creature within 60 feet of the amnizu makes an attack roll against it, and another creature is within the attack's range, the attacker must make a {@dc 19} Wisdom saving throw. On a failed save, the attacker must target the creature that is closest to it, not including the amnizu or itself. If multiple creatures are closest, the attacker chooses which one to target. If the saving throw is successful, the attacker is immune to the amnizu's Instinctive Charm for 24 hours."
+						"When a creature within 60 feet of the amnizu makes an attack roll against it, and another creature is within the attack's range, the attacker must make a {19} Wisdom saving throw. On a failed save, the attacker must target the creature that is closest to it, not including the amnizu or itself. If multiple creatures are closest, the attacker chooses which one to target. If the saving throw is successful, the attacker is immune to the amnizu's Instinctive Charm for 24 hours."
 					]
 				}
 			],
@@ -1397,13 +1397,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Two Heads",
 					"entries": [
-						"The sorrowsworn has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}."
+						"The sorrowsworn has advantage on saving throws against being {blinded}, {charmed}, {deafened}, {frightened}, {stunned}, or knocked {unconscious}."
 					]
 				},
 				{
 					"name": "Rising Anger",
 					"entries": [
-						"If another creature deals damage to the sorrowsworn, the sorrowsworn's attack rolls have advantage until the end of its next turn, and the first time it hits with a Hook attack on its next turn, the attack's target takes an extra 19 ({@damage 3d12}) psychic damage.",
+						"If another creature deals damage to the sorrowsworn, the sorrowsworn's attack rolls have advantage until the end of its next turn, and the first time it hits with a Hook attack on its next turn, the attack's target takes an extra 19 (3d12}) psychic damage.",
 						"On its turn, the sorrowsworn has disadvantage on attack rolls if no other creature has dealt damage to it since the end of its last turn."
 					]
 				}
@@ -1418,7 +1418,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Hook",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d12 + 3}) piercing damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 16 (2d12 + 3}) piercing damage."
 					]
 				}
 			],
@@ -1517,12 +1517,12 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The hag casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"The hag casts one of the following spells, using Charisma as the spellcasting ability (spell save {13}):"
 					],
 					"daily": {
 						"3e": [
-							"{@spell disguise self} (including the form of a Medium Humanoid)",
-							"{@spell Fog cloud}"
+							"{ disguise self} (including the form of a Medium Humanoid)",
+							"{ Fog cloud}"
 						]
 					},
 					"ability": "cha",
@@ -1539,19 +1539,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) piercing damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 15 (3d6 + 5}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) slashing damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 15 (3d6 + 5}) slashing damage."
 					]
 				},
 				{
 					"name": "Crushing Hug",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}36 ({@damage 9d6 + 5}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 15}) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 ({@damage 9d6 + 5}) bludgeoning damage at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way."
+						"{1d20+8} to hit, reach 5 ft., one target. 36 (9d6 + 5}) bludgeoning damage, and the target is {grappled} (escape {15}) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6 + 5}) bludgeoning damage at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way."
 					]
 				}
 			],
@@ -1618,7 +1618,7 @@ export const bestiaryMPMM = {
 				10,
 				{
 					"ac": 13,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -1648,17 +1648,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The apprentice casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 12})"
+						"The apprentice casts one of the following spells, using Intelligence as the spellcasting ability (spell save {12})"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell prestidigitation}"
+						"{ mage hand}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell burning hands}",
-							"{@spell disguise self}",
-							"{@spell mage armor}"
+							"{ burning hands}",
+							"{ disguise self}",
+							"{ mage armor}"
 						]
 					},
 					"ability": "int",
@@ -1669,7 +1669,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Arcane Burst",
 					"entries": [
-						"{@atk ms,rs} {@hit 4} to hit, reach 5 ft. or range 120 ft., one target. {@h}7 ({@damage 1d10 + 2}) force damage."
+						"{1d20 +4} to hit, reach 5 ft. or range 120 ft., one target. 7 (1d10 + 2}) force damage."
 					]
 				}
 			],
@@ -1758,23 +1758,23 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The archdruid casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 17}):"
+						"The archdruid casts one of the following spells, using Wisdom as the spellcasting ability (spell save {17}):"
 					],
 					"will": [
-						"{@spell beast sense}",
-						"{@spell entangle}",
-						"{@spell speak with animals}"
+						"{ beast sense}",
+						"{ entangle}",
+						"{ speak with animals}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell animal messenger}",
-							"{@spell dominate beast}",
-							"{@spell faerie fire}",
-							"{@spell tree stride}"
+							"{ animal messenger}",
+							"{ dominate beast}",
+							"{ faerie fire}",
+							"{ tree stride}"
 						],
 						"1e": [
-							"{@spell commune with nature} (as an action)",
-							"{@spell mass cure wounds}"
+							"{ commune with nature} (as an action)",
+							"{ mass cure wounds}"
 						]
 					},
 					"ability": "wis",
@@ -1791,13 +1791,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage plus 21 ({@damage 6d6}) poison damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 5 (1d6 + 2}) bludgeoning damage plus 21 (6d6}) poison damage."
 					]
 				},
 				{
 					"name": "Wildfire",
 					"entries": [
-						"{@atk rs} {@hit 9} to hit, range 120 ft., one target. {@h}26 ({@damage 6d6 + 5}) fire damage, and the target is {@condition blinded} until the start of the druid's next turn."
+						"{@atk rs} +9} to hit, range 120 ft., one target. 26 (6d6 + 5}) fire damage, and the target is {blinded} until the start of the druid's next turn."
 					]
 				}
 			],
@@ -1805,7 +1805,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Change Shape (2/Day)",
 					"entries": [
-						"The archdruid magically transforms into a Beast or an Elemental with a challenge rating of 6 or less and can remain in that form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls {@condition unconscious}. The archdruid can revert to its true form using a bonus action.",
+						"The archdruid magically transforms into a Beast or an Elemental with a challenge rating of 6 or less and can remain in that form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls {unconscious}. The archdruid can revert to its true form using a bonus action.",
 						"While in a new form, the archdruid's stat block is replaced by the stat block of that form, except the archdruid keeps its current hit points, its hit point maximum, this bonus action, its languages and ability to speak, and its Spellcasting action.",
 						"The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
 					]
@@ -1908,13 +1908,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 7 (1d6 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+						"1d20+6} to hit, range 150/600 ft., one target. 8 (1d8 + 4}) piercing damage."
 					]
 				}
 			],
@@ -2036,25 +2036,25 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d4 + 5}) slashing damage plus 9 ({@damage 2d8}) lightning damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 10 (2d4 + 5}) slashing damage plus 9 (2d8}) lightning damage."
 					]
 				},
 				{
 					"name": "Hooves",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage. If the target is a Large or smaller creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+						"{1d20+8} to hit, reach 5 ft., one target. 12 (2d6 + 5}) bludgeoning damage. If the target is a Large or smaller creature, it must succeed on a {16} Strength saving throw or be knocked {prone}."
 					]
 				},
 				{
 					"name": "Serrated Tail",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) slashing damage."
+						"{1d20+8} to hit, reach 10 ft., one target. 16 (2d10 + 5}) slashing damage."
 					]
 				},
 				{
-					"name": "Lightning Lance {@recharge 5}",
+					"name": "Lightning Lance {Recharge - 5}",
 					"entries": [
-						"The armanite looses a bolt of lightning in a line that is 60 feet long and 10 feet wide. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 36 ({@damage 8d8}) lightning damage on a failed save, or half as much damage on a successful one."
+						"The armanite looses a bolt of lightning in a line that is 60 feet long and 10 feet wide. Each creature in the line must make a {15} Dexterity saving throw, taking 36 (8d8}) lightning damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -2179,7 +2179,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Antimagic Cone",
 					"entries": [
-						"The dreadnought's eye creates an area of antimagic, as in the {@spell antimagic field} spell, in a 150-foot cone. At the start of each of its turns, it decides which way the cone faces. The cone doesn't function while the eye is closed or while the dreadnought is {@condition blinded}."
+						"The dreadnought's eye creates an area of antimagic, as in the { antimagic field} spell, in a 150-foot cone. At the start of each of its turns, it decides which way the cone faces. The cone doesn't function while the eye is closed or while the dreadnought is {blinded}."
 					]
 				},
 				{
@@ -2191,7 +2191,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Demiplanar Donjon",
 					"entries": [
-						"Anything the dreadnought swallows is transported to a demiplane that can be entered by no other means except a {@spell wish} spell or the dreadnought's Bite and Donjon Visit. A creature can leave the demiplane only by using magic that enables planar travel, such as the {@spell plane shift} spell. The demiplane resembles a stone cave roughly 1,000 feet in diameter with a ceiling 100 feet high. Like a stomach, it contains the remains of past meals. The dreadnought can't be harmed from within the demiplane. If the dreadnought dies, the demiplane disappears, and everything inside it appears around the dreadnought's corpse. The demiplane is otherwise indestructible."
+						"Anything the dreadnought swallows is transported to a demiplane that can be entered by no other means except a { wish} spell or the dreadnought's Bite and Donjon Visit. A creature can leave the demiplane only by using magic that enables planar travel, such as the { plane shift} spell. The demiplane resembles a stone cave roughly 1,000 feet in diameter with a ceiling 100 feet high. Like a stomach, it contains the remains of past meals. The dreadnought can't be harmed from within the demiplane. If the dreadnought dies, the demiplane disappears, and everything inside it appears around the dreadnought's corpse. The demiplane is otherwise indestructible."
 					]
 				},
 				{
@@ -2203,7 +2203,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Sever Silver Cord",
 					"entries": [
-						"If the dreadnought scores a critical hit against a creature traveling by means of the {@spell astral projection} spell, the dreadnought can cut the target's silver cord instead of dealing damage."
+						"If the dreadnought scores a critical hit against a creature traveling by means of the { astral projection} spell, the dreadnought can cut the target's silver cord instead of dealing damage."
 					]
 				},
 				{
@@ -2223,13 +2223,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}36 ({@damage 5d10 + 9}) force damage. If the target is a Huge or smaller creature and this damage reduces it to 0 hit points or it is {@condition incapacitated}, the dreadnought swallows it. The swallowed target, along with everything it is wearing and carrying, appears in an unoccupied space on the floor of the Demiplanar Donjon."
+						"{1d20+16} to hit, reach 10 ft., one target. 36 (5d10 + 9}) force damage. If the target is a Huge or smaller creature and this damage reduces it to 0 hit points or it is {incapacitated}, the dreadnought swallows it. The swallowed target, along with everything it is wearing and carrying, appears in an unoccupied space on the floor of the Demiplanar Donjon."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 20 ft., one target. {@h}19 ({@damage 3d6 + 9}) force damage."
+						"{1d20+16} to hit, reach 20 ft., one target. 19 (3d6 + 9}) force damage."
 					]
 				}
 			],
@@ -2243,13 +2243,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Donjon Visit (Costs 2 Actions)",
 					"entries": [
-						"One Huge or smaller creature that the dreadnought can see within 60 feet of it must succeed on a {@dc 19} Charisma saving throw or be teleported to an unoccupied space on the floor of the Demiplanar Donjon. At the end of the target's next turn, it reappears in the space it left or in the nearest unoccupied space if that space is occupied."
+						"One Huge or smaller creature that the dreadnought can see within 60 feet of it must succeed on a {19} Charisma saving throw or be teleported to an unoccupied space on the floor of the Demiplanar Donjon. At the end of the target's next turn, it reappears in the space it left or in the nearest unoccupied space if that space is occupied."
 					]
 				},
 				{
 					"name": "Psychic Projection (Costs 3 Actions)",
 					"entries": [
-						"Each creature within 60 feet of the dreadnought must make a {@dc 19} Wisdom saving throw, taking 26 ({@damage 4d10 + 4}) psychic damage on a failed save, or half as much damage on a successful one."
+						"Each creature within 60 feet of the dreadnought must make a {19} Wisdom saving throw, taking 26 (4d10 + 4}) psychic damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -2333,7 +2333,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Gore",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the aurochs moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 9 ({@damage 2d8}) piercing damage, and the target must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone} if it is a creature."
+						"{1d20+7} to hit, reach 5 ft., one target. 14 (2d8 + 5}) piercing damage. If the aurochs moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 9 (2d8}) piercing damage, and the target must succeed on a {15} Strength saving throw or be knocked {prone} if it is a creature."
 					]
 				}
 			],
@@ -2425,19 +2425,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The eladrin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+						"The eladrin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell hold person}"
+						"{ hold person}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell cure wounds} (as a 5th-level spell)",
-							"{@spell lesser restoration}"
+							"{ cure wounds} (as a 5th-level spell)",
+							"{ lesser restoration}"
 						],
 						"1e": [
-							"{@spell greater restoration}",
-							"{@spell revivify}"
+							"{ greater restoration}",
+							"{ revivify}"
 						]
 					},
 					"ability": "cha",
@@ -2448,8 +2448,8 @@ export const bestiaryMPMM = {
 				{
 					"name": "Enchanting Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {@dc 16} Wisdom saving throw. On a failed save, the creature becomes {@condition charmed} by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.",
-						"Whenever the eladrin deals damage to the {@condition charmed} creature, the {@condition charmed} creature can repeat the saving throw, ending the effect on itself on a success."
+						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {16} Wisdom saving throw. On a failed save, the creature becomes {charmed} by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.",
+						"Whenever the eladrin deals damage to the {charmed} creature, the {charmed} creature can repeat the saving throw, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -2469,19 +2469,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) slashing damage, or 6 ({@damage 1d10 + 1}) slashing damage if used with two hands, plus 22 ({@damage 5d8}) psychic damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 5 (1d8 + 1}) slashing damage, or 6 (1d10 + 1}) slashing damage if used with two hands, plus 22 (5d8}) psychic damage."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 22 ({@damage 5d8}) psychic damage."
+						"1d20+7} to hit, range 150/600 ft., one target. 7 (1d8 + 3}) piercing damage plus 22 (5d8}) psychic damage."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Fey Step {@recharge 4}",
+					"name": "Fey Step {Recharge - 4}",
 					"entries": [
 						"The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
 					]
@@ -2491,7 +2491,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Foster Peace",
 					"entries": [
-						"If a creature {@condition charmed} by the eladrin hits with an attack roll while within 60 feet of the eladrin, the eladrin magically causes the attack to miss, provided the eladrin can see the attacker."
+						"If a creature {charmed} by the eladrin hits with an attack roll while within 60 feet of the eladrin, the eladrin magically causes the attack to miss, provided the eladrin can see the attacker."
 					]
 				}
 			],
@@ -2620,14 +2620,14 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The babau casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 11}):"
+						"The babau casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {11}):"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell dispel magic}",
-						"{@spell fear}",
-						"{@spell heat metal}",
-						"{@spell levitate}"
+						"{ darkness}",
+						"{ dispel magic}",
+						"{ fear}",
+						"{ heat metal}",
+						"{ levitate}"
 					],
 					"ability": "wis",
 					"displayAs": "action"
@@ -2643,13 +2643,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage plus 2 ({@damage 1d4}) acid damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 6 (1d4 + 4}) slashing damage plus 2 (1d4}) acid damage."
 					]
 				},
 				{
 					"name": "Weakening Gaze",
 					"entries": [
-						"The babau targets one creature that it can see within 20 feet of it. The target must make a {@dc 13} Constitution saving throw. On a failed save, the target deals only half damage with weapon attacks that use Strength for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The babau targets one creature that it can see within 20 feet of it. The target must make a {13} Constitution saving throw. On a failed save, the target deals only half damage with weapon attacks that use Strength for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -2781,24 +2781,24 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Bael casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
+						"Bael casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {21}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium)",
-						"{@spell charm person}",
-						"{@spell detect magic}",
-						"{@spell invisibility}",
-						"{@spell major image}"
+						"{ alter self} (can become Medium)",
+						"{ charm person}",
+						"{ detect magic}",
+						"{ invisibility}",
+						"{ major image}"
 					],
 					"daily": {
 						"1": [
-							"{@spell dominate monster}"
+							"{ dominate monster}"
 						],
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell fly}",
-							"{@spell suggestion}",
-							"{@spell wall of fire}"
+							"{ dispel magic}",
+							"{ fly}",
+							"{ suggestion}",
+							"{ wall of fire}"
 						]
 					},
 					"ability": "cha",
@@ -2809,7 +2809,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dread",
 					"entries": [
-						"Any creature, other than a devil, that starts its turn within 10 feet of Bael must succeed on a {@dc 22} Wisdom saving throw or be {@condition frightened} of him until the start of its next turn. A creature succeeds on this saving throw automatically if Bael wishes it or if he is {@condition incapacitated}."
+						"Any creature, other than a devil, that starts its turn within 10 feet of Bael must succeed on a {22} Wisdom saving throw or be {frightened} of him until the start of its next turn. A creature succeeds on this saving throw automatically if Bael wishes it or if he is {incapacitated}."
 					]
 				},
 				{
@@ -2841,13 +2841,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Hellish Morningstar",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 20 ft., one target. {@h}16 ({@damage 2d8 + 7}) force damage plus 9 ({@damage 2d8}) necrotic damage."
+						"{1d20+13} to hit, reach 20 ft., one target. 16 (2d8 + 7}) force damage plus 9 (2d8}) necrotic damage."
 					]
 				},
 				{
 					"name": "Infernal Command",
 					"entries": [
-						"Each of Bael's allies within 60 feet of him can't be {@condition charmed} or {@condition frightened} until the end of his next turn."
+						"Each of Bael's allies within 60 feet of him can't be {charmed} or {frightened} until the end of his next turn."
 					]
 				},
 				{
@@ -2999,13 +2999,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d10 + 3}) piercing damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 19 (3d10 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 15}) and is moved up to 5 feet toward the balhannoth. Until this grapple ends, the target is {@condition restrained}, and the balhannoth can't use this tentacle against other targets. The balhannoth has four tentacles."
+						"{1d20+7} to hit, reach 10 ft., one target. 10 (2d6 + 3}) bludgeoning damage, and the target is {grappled} (escape {15}) and is moved up to 5 feet toward the balhannoth. Until this grapple ends, the target is {restrained}, and the balhannoth can't use this tentacle against other targets. The balhannoth has four tentacles."
 					]
 				}
 			],
@@ -3013,19 +3013,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"The balhannoth makes one Bite attack against one creature it has {@condition grappled}."
+						"The balhannoth makes one Bite attack against one creature it has {grappled}."
 					]
 				},
 				{
 					"name": "Teleport",
 					"entries": [
-						"The balhannoth teleports, along with any equipment it is wearing or carrying and any creatures it has {@condition grappled}, up to 60 feet to an unoccupied space it can see."
+						"The balhannoth teleports, along with any equipment it is wearing or carrying and any creatures it has {grappled}, up to 60 feet to an unoccupied space it can see."
 					]
 				},
 				{
 					"name": "Vanish",
 					"entries": [
-						"The balhannoth magically becomes {@condition invisible} for up to 10 minutes or until immediately after it makes an attack roll."
+						"The balhannoth magically becomes {invisible} for up to 10 minutes or until immediately after it makes an attack roll."
 					]
 				}
 			],
@@ -3150,13 +3150,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) piercing damage, and the target is {@condition grappled} (escape {@dc 16}) if it is a Large or smaller creature. Until this grapple ends, the target is {@condition restrained}, and the banderhobb can't use its Bite attack or Tongue attack on another target."
+						"{1d20+8} to hit, reach 5 ft., one target. 15 (3d6 + 5}) piercing damage, and the target is {grappled} (escape {16}) if it is a Large or smaller creature. Until this grapple ends, the target is {restrained}, and the banderhobb can't use its Bite attack or Tongue attack on another target."
 					]
 				},
 				{
 					"name": "Tongue",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 15 ft., one creature. {@h}10 ({@damage 3d6}) necrotic damage, and the target must make a {@dc 16} Strength saving throw. On a failed save, the target is pulled to a space within 5 feet of the banderhobb."
+						"{1d20+8} to hit, reach 15 ft., one creature. 10 (3d6}) necrotic damage, and the target must make a {16} Strength saving throw. On a failed save, the target is pulled to a space within 5 feet of the banderhobb."
 					]
 				},
 				{
@@ -3168,8 +3168,8 @@ export const bestiaryMPMM = {
 				{
 					"name": "Swallow",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one Medium or smaller creature {@condition grappled} by the banderhobb. {@h}15 ({@damage 3d6 + 5}) piercing damage. The creature is also swallowed, and the grapple ends. The swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the banderhobb, and it takes 10 ({@damage 3d6}) necrotic damage at the start of each of the banderhobb's turns. A creature reduced to 0 hit points in this way stops taking the necrotic damage and becomes stable.",
-						"The banderhobb can have only one creature swallowed at a time. While the banderhobb isn't {@condition incapacitated}, it can regurgitate the creature at any time (no action required) in a space within 5 feet of it. The creature exits {@condition prone}. If the banderhobb dies, it likewise regurgitates a swallowed creature."
+						"{1d20+8} to hit, reach 5 ft., one Medium or smaller creature {grappled} by the banderhobb. 15 (3d6 + 5}) piercing damage. The creature is also swallowed, and the grapple ends. The swallowed creature is {blinded} and {restrained}, it has total cover against attacks and other effects outside the banderhobb, and it takes 10 (3d6}) necrotic damage at the start of each of the banderhobb's turns. A creature reduced to 0 hit points in this way stops taking the necrotic damage and becomes stable.",
+						"The banderhobb can have only one creature swallowed at a time. While the banderhobb isn't {incapacitated}, it can regurgitate the creature at any time (no action required) in a space within 5 feet of it. The creature exits {prone}. If the banderhobb dies, it likewise regurgitates a swallowed creature."
 					]
 				}
 			],
@@ -3305,17 +3305,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Baphomet casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
+						"Baphomet casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {18}):"
 					],
 					"daily": {
 						"1": [
-							"{@spell teleport}"
+							"{ teleport}"
 						],
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell dominate beast}",
-							"{@spell maze}",
-							"{@spell wall of stone}"
+							"{ dispel magic}",
+							"{ dominate beast}",
+							"{ maze}",
+							"{ wall of stone}"
 						]
 					},
 					"ability": "cha",
@@ -3326,7 +3326,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Labyrinthine Recall",
 					"entries": [
-						"Baphomet can perfectly recall any path he has traveled, and he is immune to the {@spell maze} spell."
+						"Baphomet can perfectly recall any path he has traveled, and he is immune to the { maze} spell."
 					]
 				},
 				{
@@ -3352,25 +3352,25 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d8 + 10}) piercing damage."
+						"{1d20+17} to hit, reach 10 ft., one target. 19 (2d8 + 10}) piercing damage."
 					]
 				},
 				{
 					"name": "Gore",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d6 + 10}) piercing damage. If Baphomet moved at least 10 feet straight toward the target immediately before the hit, the target takes an extra 16 ({@damage 3d10}) piercing damage. If the target is a creature, it must succeed on a {@dc 25} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+						"{1d20+17} to hit, reach 10 ft., one target. 17 (2d6 + 10}) piercing damage. If Baphomet moved at least 10 feet straight toward the target immediately before the hit, the target takes an extra 16 (3d10}) piercing damage. If the target is a creature, it must succeed on a {25} Strength saving throw or be pushed up to 10 feet away and knocked {prone}."
 					]
 				},
 				{
 					"name": "Heartcleaver",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) force damage."
+						"{1d20+17} to hit, reach 15 ft., one target. 21 (2d10 + 10}) force damage."
 					]
 				},
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of Baphomet's choice within 120 feet of him and aware of him must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. These later saves have disadvantage if Baphomet is within line of sight of the creature.",
+						"Each creature of Baphomet's choice within 120 feet of him and aware of him must succeed on a {18} Wisdom saving throw or become {frightened} for 1 minute. A {frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. These later saves have disadvantage if Baphomet is within line of sight of the creature.",
 						"If a creature succeeds on any of these saves or the effect ends on it, the creature is immune to Baphomet's Frightful Presence for the next 24 hours."
 					]
 				}
@@ -3486,18 +3486,18 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The bard casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 12}):"
+						"The bard casts one of the following spells, using Charisma as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
-						"{@spell prestidigitation}"
+						"{ dancing lights}",
+						"{ mage hand}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell invisibility}",
-							"{@spell sleep}"
+							"{ charm person}",
+							"{ invisibility}",
+							"{ sleep}"
 						]
 					},
 					"ability": "cha",
@@ -3514,19 +3514,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 (1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"1d20+4} to hit, range 80/320 ft., one target. 5 (1d6 + 2}) piercing damage."
 					]
 				},
 				{
-					"name": "Cacophony {@recharge 4}",
+					"name": "Cacophony {Recharge - 4}",
 					"entries": [
-						"Each creature in a 15-foot cube originating from the bard must make a {@dc 12} Constitution saving throw. On a failed save, a creature takes 9 ({@damage 2d8}) thunder damage and is pushed up to 10 feet away from the bard. On a successful save, a creature takes half as much damage and isn't pushed."
+						"Each creature in a 15-foot cube originating from the bard must make a {12} Constitution saving throw. On a failed save, a creature takes 9 (2d8}) thunder damage and is pushed up to 10 feet away from the bard. On a successful save, a creature takes half as much damage and isn't pushed."
 					]
 				}
 			],
@@ -3534,7 +3534,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Taunt (2/Day)",
 					"entries": [
-						"The bard targets one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a {@dc 12} Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn."
+						"The bard targets one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a {12} Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn."
 					]
 				}
 			],
@@ -3659,18 +3659,18 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The barghest casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
+						"The barghest casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell levitate}",
-						"{@spell minor illusion}",
-						"{@spell pass without trace}"
+						"{ levitate}",
+						"{ minor illusion}",
+						"{ pass without trace}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell dimension door}",
-							"{@spell suggestion}"
+							"{ charm person}",
+							"{ dimension door}",
+							"{ suggestion}"
 						]
 					},
 					"ability": "cha",
@@ -3681,7 +3681,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fire Banishment",
 					"entries": [
-						"When the barghest starts its turn engulfed in flames that are at least 10 feet high or wide, it must succeed on a {@dc 15} Charisma saving throw or be instantly banished to Gehenna"
+						"When the barghest starts its turn engulfed in flames that are at least 10 feet high or wide, it must succeed on a {15} Charisma saving throw or be instantly banished to Gehenna"
 					]
 				},
 				{
@@ -3702,13 +3702,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 13 (2d8 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 8 (1d8 + 4}) slashing damage."
 					]
 				}
 			],
@@ -3833,11 +3833,11 @@ export const bestiaryMPMM = {
 						"The berbalang casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability:"
 					],
 					"will": [
-						"{@spell speak with dead}"
+						"{ speak with dead}"
 					],
 					"daily": {
 						"1": [
-							"{@spell plane shift} (self only)"
+							"{ plane shift} (self only)"
 						]
 					},
 					"ability": "int",
@@ -3855,13 +3855,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage plus 4 ({@damage 1d8}) psychic damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 8 (1d10 + 3}) piercing damage plus 4 (1d8}) psychic damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) slashing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 8 (2d4 + 3}) slashing damage."
 					]
 				}
 			],
@@ -3869,7 +3869,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spectral Duplicate (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The berbalang creates one spectral duplicate of itself in an unoccupied space it can see within 60 feet of it. While the duplicate exists, the berbalang is {@condition unconscious}. A berbalang can have only one duplicate at a time. The duplicate disappears when it or the berbalang drops to 0 hit points or when the berbalang dismisses it (no action required).",
+						"The berbalang creates one spectral duplicate of itself in an unoccupied space it can see within 60 feet of it. While the duplicate exists, the berbalang is {unconscious}. A berbalang can have only one duplicate at a time. The duplicate disappears when it or the berbalang drops to 0 hit points or when the berbalang dismisses it (no action required).",
 						"The duplicate has the same statistics and knowledge as the berbalang, and everything experienced by the duplicate is known by the berbalang. All damage dealt by the duplicate's attacks is psychic damage."
 					]
 				}
@@ -3979,16 +3979,16 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"While holding or riding the graystaff, the hag casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+						"While holding or riding the graystaff, the hag casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {14}):"
 					],
 					"will": [
-						"{@spell hold person}"
+						"{ hold person}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell cone of cold}",
-							"{@spell ice storm}",
-							"{@spell wall of ice}"
+							"{ cone of cold}",
+							"{ ice storm}",
+							"{ wall of ice}"
 						]
 					},
 					"ability": "cha",
@@ -3999,7 +3999,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Control Weather (1/Day)",
 					"entries": [
-						"The hag can cast the {@spell control weather} spell, requiring no material components and using Charisma as the spellcasting ability."
+						"The hag can cast the { control weather} spell, requiring no material components and using Charisma as the spellcasting ability."
 					]
 				},
 				{
@@ -4025,19 +4025,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d8 + 1}) bludgeoning damage plus 18 ({@damage 4d8}) cold damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 10 (2d8 + 1}) bludgeoning damage plus 18 (4d8}) cold damage."
 					]
 				},
 				{
 					"name": "Frost Shard",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 60 ft., one target. {@h}30 ({@damage 6d8 + 3}) cold damage, and the target's speed is reduced by 10 feet until the start of the hag's next turn."
+						"{@atk rs} +6} to hit, range 60 ft., one target. 30 (6d8 + 3}) cold damage, and the target's speed is reduced by 10 feet until the start of the hag's next turn."
 					]
 				},
 				{
 					"name": "Horrific Feast",
 					"entries": [
-						"The hag feeds on the corpse of one enemy within reach that died within the past minute. Each creature of the hag's choice that is within 60 feet and able to see the feeding must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} of the hag for 1 minute. While {@condition frightened} in this way, a creature is {@condition incapacitated}, can't understand what others say, can't read, and speaks only in gibberish. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Horrific Feast for the next 24 hours."
+						"The hag feeds on the corpse of one enemy within reach that died within the past minute. Each creature of the hag's choice that is within 60 feet and able to see the feeding must succeed on a {15} Wisdom saving throw or be {frightened} of the hag for 1 minute. While {frightened} in this way, a creature is {incapacitated}, can't understand what others say, can't read, and speaks only in gibberish. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Horrific Feast for the next 24 hours."
 					]
 				}
 			],
@@ -4192,19 +4192,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage plus 9 ({@damage 2d8}) acid damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 8 (1d10 + 3}) piercing damage plus 9 (2d8}) acid damage."
 					]
 				},
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) force damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 6 (1d6 + 3}) force damage."
 					]
 				},
 				{
-					"name": "Creeping Darkness {@recharge}",
+					"name": "Creeping Darkness {Recharge -}",
 					"entries": [
-						"The abishai casts {@spell darkness} at a point within 120 feet of it, requiring no spell components or concentration. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action."
+						"The abishai casts { darkness} at a point within 120 feet of it, requiring no spell components or concentration. Wisdom is its spellcasting ability for this spell. While the spell persists, the abishai can move the area of darkness up to 60 feet as a bonus action."
 					]
 				}
 			],
@@ -4313,13 +4313,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The blackguard casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"The blackguard casts one of the following spells, using Charisma as the spellcasting ability (spell save {13}):"
 					],
 					"daily": {
 						"2e": [
-							"{@spell command}",
-							"{@spell dispel magic}",
-							"{@spell find steed}"
+							"{ command}",
+							"{ dispel magic}",
+							"{ find steed}"
 						]
 					},
 					"ability": "cha",
@@ -4336,19 +4336,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Glaive",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage plus 9 ({@damage 2d8}) necrotic damage."
+						"{1d20+7} to hit, reach 10 ft., one target. 9 (1d10 + 4}) slashing damage plus 9 (2d8}) necrotic damage."
 					]
 				},
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"1d20+3} to hit, range 80/320 ft., one target. 5 (1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Dreadful Aspect (Recharges after a Short or Long Rest)",
 					"entries": [
-						"Each enemy within 30 feet of the blackguard must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} of the blackguard for 1 minute. If a {@condition frightened} target ends its turn more than 30 feet away from the blackguard, the target can repeat the saving throw, ending the effect on itself on a success."
+						"Each enemy within 30 feet of the blackguard must succeed on a {13} Wisdom saving throw or be {frightened} of the blackguard for 1 minute. If a {frightened} target ends its turn more than 30 feet away from the blackguard, the target can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -4356,19 +4356,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Smite",
 					"entries": [
-						"Immediately after the blackguard hits a target with an attack roll, the blackguard can force that target to make a {@dc 13} Constitution saving throw. On a failed save, the target suffers one of the following effects of the blackguard's choice:"
+						"Immediately after the blackguard hits a target with an attack roll, the blackguard can force that target to make a {13} Constitution saving throw. On a failed save, the target suffers one of the following effects of the blackguard's choice:"
 					]
 				},
 				{
 					"name": "Blind",
 					"entries": [
-						"The target is {@condition blinded} for 1 minute. The {@condition blinded} target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+						"The target is {blinded} for 1 minute. The {blinded} target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Shove",
 					"entries": [
-						"The target is pushed up to 10 feet away and knocked {@condition prone}."
+						"The target is pushed up to 10 feet away and knocked {prone}."
 					]
 				}
 			],
@@ -4501,19 +4501,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The abishai casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 20}):"
+						"The abishai casts one of the following spells, using Intelligence as the spellcasting ability (spell save {20}):"
 					],
 					"will": [
-						"{@spell disguise self}",
-						"{@spell mage hand}",
-						"{@spell minor illusion}"
+						"{ disguise self}",
+						"{ mage hand}",
+						"{ minor illusion}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell charm person}",
-							"{@spell dispel magic}",
-							"{@spell greater invisibility}",
-							"{@spell wall of force}"
+							"{ charm person}",
+							"{ dispel magic}",
+							"{ greater invisibility}",
+							"{ wall of force}"
 						]
 					},
 					"ability": "int",
@@ -4544,13 +4544,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d10 + 2}) piercing damage plus 14 ({@damage 4d6}) lightning damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 13 (2d10 + 2}) piercing damage plus 14 (4d6}) lightning damage."
 					]
 				},
 				{
 					"name": "Lightning Strike",
 					"entries": [
-						"{@atk rs} {@hit 12} to hit, range 120 ft., one target. {@h}36 ({@damage 8d8}) lightning damage."
+						"{@atk rs} +12} to hit, range 120 ft., one target. 36 (8d8}) lightning damage."
 					]
 				}
 			],
@@ -4682,7 +4682,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Death Gaze",
 					"entries": [
-						"When a creature that can see the bodak's eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a {@dc 13} Constitution saving throw if the bodak isn't {@condition incapacitated} and can see the creature. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points unless it is immune to the {@condition frightened} condition. Otherwise, a creature takes 16 ({@damage 3d10}) psychic damage on a failed save.",
+						"When a creature that can see the bodak's eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a {13} Constitution saving throw if the bodak isn't {incapacitated} and can see the creature. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points unless it is immune to the {frightened} condition. Otherwise, a creature takes 16 (3d10}) psychic damage on a failed save.",
 						"Unless {@quickref Surprise|PHB|3|0|surprised}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it has disadvantage on attack rolls against the bodak until the start of its next turn. If the creature looks at the bodak in the meantime, that creature must immediately make the saving throw."
 					]
 				},
@@ -4703,13 +4703,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fist",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage plus 9 ({@damage 2d8}) necrotic damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 4 (1d4 + 2}) bludgeoning damage plus 9 (2d8}) necrotic damage."
 					]
 				},
 				{
 					"name": "Withering Gaze",
 					"entries": [
-						"One creature that the bodak can see within 60 feet of it must make a {@dc 13} Constitution saving throw, taking 22 ({@damage 4d10}) necrotic damage on a failed save, or half as much damage on a successful one."
+						"One creature that the bodak can see within 60 feet of it must make a {13} Constitution saving throw, taking 22 (4d10}) necrotic damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -4813,7 +4813,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pummel",
 					"entries": [
-						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage."
+						"{1d20+1} to hit, reach 5 ft., one target. 2 (1d6 - 1}) bludgeoning damage."
 					]
 				},
 				{
@@ -4828,14 +4828,14 @@ export const bestiaryMPMM = {
 									"name": "Slippery Oil",
 									"type": "item",
 									"entries": [
-										"Any non-boggle creature that enters the puddle or starts its turn there must succeed on a {@dc 11} Dexterity saving throw or fall {@condition prone}."
+										"Any non-boggle creature that enters the puddle or starts its turn there must succeed on a {11} Dexterity saving throw or fall {prone}."
 									]
 								},
 								{
 									"name": "Sticky Oil",
 									"type": "item",
 									"entries": [
-										"Any non-boggle creature that enters the puddle or starts its turn there must succeed on a {@dc 11} Strength saving throw or be {@condition restrained}. On its turn, a creature can use an action to try to extricate itself, ending the effect and moving into the nearest unoccupied space of its choice with a successful {@dc 11} Strength check."
+										"Any non-boggle creature that enters the puddle or starts its turn there must succeed on a {11} Strength saving throw or be {restrained}. On its turn, a creature can use an action to try to extricate itself, ending the effect and moving into the nearest unoccupied space of its choice with a successful {11} Strength check."
 									]
 								}
 							]
@@ -4873,7 +4873,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dimensional Rift",
 					"entries": [
-						"The boggle creates an {@condition invisible} and immobile rift within an opening or frame it can see within 5 feet of it, provided that the space is no bigger than 10 feet on any side. The dimensional rift bridges the distance between that space and a point within 30 feet of it that the boggle can see or specify by distance and direction (such as \"30 feet straight up\"). While next to the rift, the boggle can see through it and is considered to be next to the destination as well, and anything the boggle puts through the rift (including a portion of its body) emerges at the destination. Only the boggle can use the rift, and it lasts until the end of the boggle's next turn."
+						"The boggle creates an {invisible} and immobile rift within an opening or frame it can see within 5 feet of it, provided that the space is no bigger than 10 feet on any side. The dimensional rift bridges the distance between that space and a point within 30 feet of it that the boggle can see or specify by distance and direction (such as \"30 feet straight up\"). While next to the rift, the boggle can see through it and is considered to be next to the destination as well, and anything the boggle puts through the rift (including a portion of its body) emerges at the destination. Only the boggle can use the rift, and it lasts until the end of the boggle's next turn."
 					]
 				}
 			],
@@ -4999,13 +4999,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Piercing Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}20 ({@damage 3d10 + 4}) piercing damage plus 11 ({@damage 2d10}) necrotic damage. If the target is a creature, the boneclaw can pull the target up to 10 feet toward itself, and the target is {@condition grappled} (escape {@dc 14}). The boneclaw has two claws. While a claw grapples a target, the claw can attack only that target."
+						"{1d20+8} to hit, reach 15 ft., one target. 20 (3d10 + 4}) piercing damage plus 11 (2d10}) necrotic damage. If the target is a creature, the boneclaw can pull the target up to 10 feet toward itself, and the target is {grappled} (escape {14}). The boneclaw has two claws. While a claw grapples a target, the claw can attack only that target."
 					]
 				},
 				{
-					"name": "Shadow Jump {@recharge 5}",
+					"name": "Shadow Jump {Recharge - 5}",
 					"entries": [
-						"If the boneclaw is in dim light or darkness, each creature of the boneclaw's choice within 15 feet of it must succeed on a {@dc 14} Constitution saving throw or take 34 ({@damage 5d12 + 2}) necrotic damage.",
+						"If the boneclaw is in dim light or darkness, each creature of the boneclaw's choice within 15 feet of it must succeed on a {14} Constitution saving throw or take 34 (5d12 + 2}) necrotic damage.",
 						"The boneclaw then teleports up to 60 feet to an unoccupied space it can see. It can bring one creature it's grappling, teleporting that creature to an unoccupied space it can see within 5 feet of its destination. The destination spaces of this teleportation must be in dim light or darkness."
 					]
 				}
@@ -5115,13 +5115,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Stomp",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 20 ft., one target. {@h}27 ({@damage 5d8 + 5}) bludgeoning damage, and the target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+						"{1d20+8} to hit, reach 20 ft., one target. 27 (5d8 + 5}) bludgeoning damage, and the target must succeed on a {14} Strength saving throw or be knocked {prone}."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 20 ft., one target. {@h}32 ({@damage 6d8 + 5}) bludgeoning damage"
+						"{1d20+8} to hit, reach 20 ft., one target. 32 (6d8 + 5}) bludgeoning damage"
 					]
 				}
 			],
@@ -5217,7 +5217,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Rotting Presence",
 					"entries": [
-						"When any creature that isn't a demon starts its turn within 30 feet of the bulezau, that creature must succeed on a {@dc 13} Constitution saving throw or take 3 ({@damage 1d6}) necrotic damage."
+						"When any creature that isn't a demon starts its turn within 30 feet of the bulezau, that creature must succeed on a {13} Constitution saving throw or take 3 (1d6}) necrotic damage."
 					]
 				},
 				{
@@ -5229,7 +5229,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Sure-Footed",
 					"entries": [
-						"The bulezau has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+						"The bulezau has advantage on Strength and Dexterity saving throws made against effects that would knock it {prone}."
 					]
 				}
 			],
@@ -5237,7 +5237,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Barbed Tail",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d12 + 2}) piercing damage plus 4 ({@damage 1d8}) necrotic damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition poisoned} until the disease ends. While {@condition poisoned} in this way, the target sports festering boils, coughs up flies, and sheds rotting skin, and the target must repeat the saving throw after every 24 hours that elapse. On a successful save, the disease ends. On a failed save, the target's hit point maximum is reduced by 4 ({@dice 1d8}). The target dies if its hit point maximum is reduced to 0."
+						"{1d20+4} to hit, reach 5 ft., one target. 8 (1d12 + 2}) piercing damage plus 4 (1d8}) necrotic damage. If the target is a creature, it must succeed on a {13} Constitution saving throw against disease or become {poisoned} until the disease ends. While {poisoned} in this way, the target sports festering boils, coughs up flies, and sheds rotting skin, and the target must repeat the saving throw after every 24 hours that elapse. On a successful save, the disease ends. On a failed save, the target's hit point maximum is reduced by 4 ({@dice 1d8}). The target dies if its hit point maximum is reduced to 0."
 					]
 				}
 			],
@@ -5361,13 +5361,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage plus 16 ({@damage 3d10}) necrotic damage."
+						"{1d20+10} to hit, reach 5 ft., one target. 18 (3d8 + 5}) bludgeoning damage plus 16 (3d10}) necrotic damage."
 					]
 				},
 				{
-					"name": "Paralyzing Breath {@recharge 5}",
+					"name": "Paralyzing Breath {Recharge - 5}",
 					"entries": [
-						"The collector releases paralyzing gas in a 30-foot cone. Each creature in that area must make a successful {@dc 18} Constitution saving throw or be {@condition paralyzed} for 1 minute. A {@condition paralyzed} creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a success."
+						"The collector releases paralyzing gas in a 30-foot cone. Each creature in that area must make a successful {18} Constitution saving throw or be {paralyzed} for 1 minute. A {paralyzed} creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a success."
 					]
 				}
 			],
@@ -5512,7 +5512,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Uncanny Senses",
 					"entries": [
-						"The canoloth can't be {@quickref Surprise|PHB|3|0|surprised} unless it's {@condition incapacitated}."
+						"The canoloth can't be {@quickref Surprise|PHB|3|0|surprised} unless it's {incapacitated}."
 					]
 				}
 			],
@@ -5526,19 +5526,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 18 ({@damage 4d8}) force damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 7 (1d6 + 4}) piercing damage plus 18 (4d8}) force damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage plus 9 ({@damage 2d8}) force damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 7 (1d6 + 4}) slashing damage plus 9 (2d8}) force damage."
 					]
 				},
 				{
 					"name": "Tongue",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 30 ft., one target. {@h}10 ({@damage 1d12 + 4}) piercing damage plus 7 ({@damage 2d6}) acid damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 15}), pulled up to 30 feet toward the canoloth, and {@condition restrained} until the grapple ends. The canoloth can grapple one target at a time with its tongue."
+						"{1d20+7} to hit, reach 30 ft., one target. 10 (1d12 + 4}) piercing damage plus 7 (2d6}) acid damage. If the target is Medium or smaller, it is {grappled} (escape {15}), pulled up to 30 feet toward the canoloth, and {restrained} until the grapple ends. The canoloth can grapple one target at a time with its tongue."
 					]
 				}
 			],
@@ -5632,7 +5632,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Stench",
 					"entries": [
-						"Any creature other than a catoblepas that starts its turn within 10 feet of the catoblepas must succeed on a {@dc 16} Constitution saving throw or be {@condition poisoned} until the start of the creature's next turn. On a successful saving throw, the creature is immune to the Stench of any catoblepas for 1 hour."
+						"Any creature other than a catoblepas that starts its turn within 10 feet of the catoblepas must succeed on a {16} Constitution saving throw or be {poisoned} until the start of the creature's next turn. On a successful saving throw, the creature is immune to the Stench of any catoblepas for 1 hour."
 					]
 				}
 			],
@@ -5640,13 +5640,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}21 ({@damage 5d6 + 4}) bludgeoning damage, and the target must succeed on a {@dc 16} Constitution saving throw or be {@condition stunned} until the start of the catoblepas's next turn."
+						"{1d20+7} to hit, reach 10 ft., one target. 21 (5d6 + 4}) bludgeoning damage, and the target must succeed on a {16} Constitution saving throw or be {stunned} until the start of the catoblepas's next turn."
 					]
 				},
 				{
-					"name": "Death Ray {@recharge 5}",
+					"name": "Death Ray {Recharge - 5}",
 					"entries": [
-						"The catoblepas targets one creature it can see within 30 feet of it. The target must make a {@dc 16} Constitution saving throw, taking 36 ({@damage 8d8}) necrotic damage on a failed save, or half as much damage on a successful one. If the saving throw fails by 5 or more, the target instead takes 64 necrotic damage. The target dies if reduced to 0 hit points by this ray."
+						"The catoblepas targets one creature it can see within 30 feet of it. The target must make a {16} Constitution saving throw, taking 36 (8d8}) necrotic damage on a failed save, or half as much damage on a successful one. If the saving throw fails by 5 or more, the target instead takes 64 necrotic damage. The target dies if reduced to 0 hit points by this ray."
 					]
 				}
 			],
@@ -5748,13 +5748,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 10 (2d6 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Retract Filament",
 					"entries": [
-						"One Large or smaller creature {@condition grappled} by the cave fisher's Adhesive Filament must make a {@dc 13} Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the cave fisher, and the cave fisher makes one Claw attack against it. Anyone else who was attached to the filament is released. Until the grapple ends on the target, the cave fisher can't use Adhesive Filament."
+						"One Large or smaller creature {grappled} by the cave fisher's Adhesive Filament must make a {13} Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the cave fisher, and the cave fisher makes one Claw attack against it. Anyone else who was attached to the filament is released. Until the grapple ends on the target, the cave fisher can't use Adhesive Filament."
 					]
 				}
 			],
@@ -5762,7 +5762,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Adhesive Filament",
 					"entries": [
-						"The cave fisher extends a sticky filament up to 60 feet, and the filament adheres to anything that touches it. A creature the filament adheres to is {@condition grappled} by the cave fisher (escape {@dc 13}), and ability checks made to escape this grapple have disadvantage. The filament can be attacked (AC 15; 5 hit points; immunity to poison and psychic damage). A weapon that fails to sever it becomes stuck to it, requiring an action and a successful {@dc 13} Strength check to pull free. Destroying the filament deals no damage to the cave fisher. The filament crumbles away if the cave fisher takes this bonus action again."
+						"The cave fisher extends a sticky filament up to 60 feet, and the filament adheres to anything that touches it. A creature the filament adheres to is {grappled} by the cave fisher (escape {13}), and ability checks made to escape this grapple have disadvantage. The filament can be attacked (AC 15; 5 hit points; immunity to poison and psychic damage). A weapon that fails to sever it becomes stuck to it, requiring an action and a successful {13} Strength check to pull free. Destroying the filament deals no damage to the cave fisher. The filament crumbles away if the cave fisher takes this bonus action again."
 					]
 				}
 			],
@@ -5862,13 +5862,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Greatsword",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage, plus 7 ({@damage 2d6}) slashing damage if the champion has more than half of its total hit points remaining."
+						"{1d20+9} to hit, reach 5 ft., one target. 12 (2d6 + 5}) slashing damage, plus 7 (2d6}) slashing damage if the champion has more than half of its total hit points remaining."
 					]
 				},
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, plus 7 ({@damage 2d6}) piercing damage if the champion has more than half of its total hit points remaining."
+						"1d20+6} to hit, range 80/320 ft., one target. 5 (1d6 + 2}) piercing damage, plus 7 (2d6}) piercing damage if the champion has more than half of its total hit points remaining."
 					]
 				}
 			],
@@ -5965,7 +5965,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The chitine has advantage on saving throws against being {@condition charmed}, and magic can't put the chitine to sleep."
+						"The chitine has advantage on saving throws against being {charmed}, and magic can't put the chitine to sleep."
 					]
 				},
 				{
@@ -5997,7 +5997,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk mw,rw} +4} to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2}) piercing damage."
 					]
 				}
 			],
@@ -6116,7 +6116,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage. If the target is a Large or smaller creature, it is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the choker can't use this tentacle on another target. The choker has two tentacles. If this attack is a critical hit, the target also can't breathe or speak until the grapple ends."
+						"{1d20+5} to hit, reach 10 ft., one target. 5 (1d4 + 3}) piercing damage. If the target is a Large or smaller creature, it is {grappled} (escape {15}). Until this grapple ends, the target is {restrained}, and the choker can't use this tentacle on another target. The choker has two tentacles. If this attack is a critical hit, the target also can't breathe or speak until the grapple ends."
 					]
 				}
 			],
@@ -6220,16 +6220,16 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The choldrith casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 12}):"
+						"The choldrith casts one of the following spells, using Wisdom as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell guidance}",
-						"{@spell thaumaturgy}"
+						"{ guidance}",
+						"{ thaumaturgy}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell bane}",
-							"{@spell hold person}"
+							"{ bane}",
+							"{ hold person}"
 						]
 					},
 					"ability": "wis",
@@ -6240,7 +6240,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The choldrith has advantage on saving throws against being {@condition charmed}, and magic can't put the choldrith to sleep."
+						"The choldrith has advantage on saving throws against being {charmed}, and magic can't put the choldrith to sleep."
 					]
 				},
 				{
@@ -6272,13 +6272,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+						"{@atk mw,rw} +5} to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3}) piercing damage plus 10 (3d6}) poison damage."
 					]
 				},
 				{
-					"name": "Web {@recharge 5}",
+					"name": "Web {Recharge - 5}",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 30/60 ft., one Large or smaller creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 11} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+						"1d20+5} to hit, range 30/60 ft., one Large or smaller creature. The target is {restrained} by webbing. As an action, the {restrained} target can make a {11} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
 					]
 				}
 			],
@@ -6286,7 +6286,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spectral Dagger (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The choldrith conjures a floating, spectral dagger within 60 feet of itself. The choldrith can make a melee spell attack ({@hit 4} to hit) against one creature within 5 feet of the dagger. On a hit, the target takes 6 ({@damage 1d8 + 2}) force damage.",
+						"The choldrith conjures a floating, spectral dagger within 60 feet of itself. The choldrith can make a melee spell attack (+4} to hit) against one creature within 5 feet of the dagger. On a hit, the target takes 6 (1d8 + 2}) force damage.",
 						"The dagger lasts for 1 minute. As a bonus action on later turns, the choldrith can move the dagger up to 20 feet and repeat the attack against one creature within 5 feet of the dagger."
 					]
 				}
@@ -6415,13 +6415,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 3 ({@damage 1d6}) lightning damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 5 (1d4 + 3}) piercing damage plus 3 (1d6}) lightning damage."
 					]
 				},
 				{
 					"name": "Lightning Flare (Recharges after a Short or Long Rest)",
 					"entries": [
-						"Each creature in contact with the ground within 15 feet of the clockwork must make a {@dc 13} Dexterity saving throw, taking 14 ({@damage 4d6}) lightning damage on a failed save, or half as much damage on a successful one."
+						"Each creature in contact with the ground within 15 feet of the clockwork must make a {13} Dexterity saving throw, taking 14 (4d6}) lightning damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -6529,7 +6529,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw or suffer one random effect (roll a {@dice d6}):",
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {13} Constitution saving throw or suffer one random effect (roll a {@dice d6}):",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -6545,14 +6545,14 @@ export const bestiaryMPMM = {
 									"name": "3\u20134: Paralysis",
 									"type": "item",
 									"entries": [
-										"The target is {@condition paralyzed} until the end of its next turn."
+										"The target is {paralyzed} until the end of its next turn."
 									]
 								},
 								{
 									"name": "5\u20136: Poison",
 									"type": "item",
 									"entries": [
-										"The target takes 13 ({@damage 3d8}) poison damage."
+										"The target takes 13 (3d8}) poison damage."
 									]
 								}
 							]
@@ -6675,19 +6675,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Lancing Bolt",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 100/400 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+						"{@atk mw,rw} +7} to hit, reach 5 ft. or range 100/400 ft., one target. 15 (2d10 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Harpoon",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 50/200 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage, and the target is {@condition grappled} (escape {@dc 12}). While {@condition grappled} in this way, a creature's speed isn't reduced, but it can move only in directions that bring it closer to the clockwork. A creature takes 5 ({@damage 1d10}) slashing damage if it escapes from the grapple or if it tries and fails. The clockwork can grapple only one creature at a time with its harpoon."
+						"1d20+7} to hit, range 50/200 ft., one target. 9 (1d10 + 4}) piercing damage, and the target is {grappled} (escape {12}). While {grappled} in this way, a creature's speed isn't reduced, but it can move only in directions that bring it closer to the clockwork. A creature takes 5 (1d10}) slashing damage if it escapes from the grapple or if it tries and fails. The clockwork can grapple only one creature at a time with its harpoon."
 					]
 				},
 				{
-					"name": "Explosive Bolt {@recharge 5}",
+					"name": "Explosive Bolt {Recharge - 5}",
 					"entries": [
-						"The clockwork launches an explosive charge at a point within 120 feet. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 15} Dexterity saving throw, taking 17 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one."
+						"The clockwork launches an explosive charge at a point within 120 feet. Each creature in a 20-foot-radius sphere centered on that point must make a {15} Dexterity saving throw, taking 17 (5d6}) fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -6695,7 +6695,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Reel In",
 					"entries": [
-						"The clockwork pulls the creature {@condition grappled} by its Harpoon up to 20 feet closer."
+						"The clockwork pulls the creature {grappled} by its Harpoon up to 20 feet closer."
 					]
 				}
 			],
@@ -6814,7 +6814,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage, and if the target is Large or smaller, it is knocked {@condition prone}."
+						"{1d20+6} to hit, reach 5 ft., one target. 11 (2d6 + 4}) bludgeoning damage, and if the target is Large or smaller, it is knocked {prone}."
 					]
 				}
 			],
@@ -6925,24 +6925,24 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The giant casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"The giant casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {15}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell fog cloud}",
-						"{@spell light}",
-						"{@spell minor illusion}"
+						"{ detect magic}",
+						"{ fog cloud}",
+						"{ light}",
+						"{ minor illusion}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell invisibility}",
-							"{@spell silent image}",
-							"{@spell suggestion}",
-							"{@spell tongues}"
+							"{ invisibility}",
+							"{ silent image}",
+							"{ suggestion}",
+							"{ tongues}"
 						],
 						"1e": [
-							"{@spell gaseous form}",
-							"{@spell major image}"
+							"{ gaseous form}",
+							"{ major image}"
 						]
 					},
 					"ability": "cha",
@@ -6953,7 +6953,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Control Weather (8th-level Spell)",
 					"entries": [
-						"The giant can cast the {@spell control weather} spell, requiring no material components and using Charisma as the spellcasting ability."
+						"The giant can cast the { control weather} spell, requiring no material components and using Charisma as the spellcasting ability."
 					]
 				}
 			],
@@ -6967,13 +6967,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}21 ({@damage 3d8 + 8}) bludgeoning damage plus 5 ({@damage 1d10}) psychic damage."
+						"{1d20+12} to hit, reach 10 ft., one target. 21 (3d8 + 8}) bludgeoning damage plus 5 (1d10}) psychic damage."
 					]
 				},
 				{
 					"name": "Telekinetic Strike",
 					"entries": [
-						"{@atk rs} {@hit 7} to hit, range 240 ft., one target. {@h}25 ({@damage 4d10 + 3}) force damage."
+						"{@atk rs} +7} to hit, range 240 ft., one target. 25 (4d10 + 3}) force damage."
 					]
 				},
 				{
@@ -6985,7 +6985,7 @@ export const bestiaryMPMM = {
 			],
 			"bonus": [
 				{
-					"name": "Cloud Step {@recharge 4}",
+					"name": "Cloud Step {Recharge - 4}",
 					"entries": [
 						"The giant teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
 					]
@@ -7048,7 +7048,7 @@ export const bestiaryMPMM = {
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -7082,23 +7082,23 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The conjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}):"
+						"The conjurer casts one of the following spells, using Intelligence as the spellcasting ability (spell save {14}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
-						"{@spell prestidigitation}"
+						"{ dancing lights}",
+						"{ mage hand}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell fireball}",
-							"{@spell mage armor}",
-							"{@spell unseen servant}"
+							"{ fireball}",
+							"{ mage armor}",
+							"{ unseen servant}"
 						],
 						"1e": [
-							"{@spell fly}",
-							"{@spell stinking cloud}",
-							"{@spell web}"
+							"{ fly}",
+							"{ stinking cloud}",
+							"{ web}"
 						]
 					},
 					"ability": "int",
@@ -7115,13 +7115,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Arcane Burst",
 					"entries": [
-						"{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120 ft., one target. {@h}19 ({@damage 3d10 + 3}) force damage."
+						"{1d20 +8} to hit, reach 5 ft. or range 120 ft., one target. 19 (3d10 + 3}) force damage."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Benign Transportation {@recharge 4}",
+					"name": "Benign Transportation {Recharge - 4}",
 					"entries": [
 						"The conjurer teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places."
 					]
@@ -7224,7 +7224,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Stench of Death",
 					"entries": [
-						"Each creature that starts its turn within 10 feet of the corpse flower or one of its zombies must make a {@dc 14} Constitution saving throw, unless the creature is a Construct or an Undead. On a failed save, the creature is {@condition poisoned} until the start of its next turn. On a successful save, the creature is immune to the Stench of Death of all corpse flowers for 24 hours."
+						"Each creature that starts its turn within 10 feet of the corpse flower or one of its zombies must make a {14} Constitution saving throw, unless the creature is a Construct or an Undead. On a failed save, the creature is {poisoned} until the start of its next turn. On a successful save, the creature is immune to the Stench of Death of all corpse flowers for 24 hours."
 					]
 				}
 			],
@@ -7238,7 +7238,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}9 ({@damage 2d6 + 2}) bludgeoning damage plus 10 ({@damage 3d6}) poison damage."
+						"{1d20+5} to hit, reach 10 ft., one target. 9 (2d6 + 2}) bludgeoning damage plus 10 (3d6}) poison damage."
 					]
 				},
 				{
@@ -7349,7 +7349,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 1 piercing damage."
 					]
 				}
 			],
@@ -7446,7 +7446,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Death Flash",
 					"entries": [
-						"When the darkling dies, nonmagical light flashes out from it in a 10-foot radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area must succeed on a {@dc 10} Constitution saving throw or be {@condition blinded} until the end of its next turn."
+						"When the darkling dies, nonmagical light flashes out from it in a 10-foot radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area must succeed on a {10} Constitution saving throw or be {blinded} until the end of its next turn."
 					]
 				},
 				{
@@ -7460,7 +7460,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 7 ({@damage 2d6}) necrotic damage."
+						"{@atk mw,rw} +5} to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3}) piercing damage plus 7 (2d6}) necrotic damage."
 					]
 				}
 			],
@@ -7562,7 +7562,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Death Burn",
 					"entries": [
-						"When the darkling elder dies, magical light flashes out from it in a 10-foot radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area must make a {@dc 11} Constitution saving throw. On a failed save, the creature takes 7 ({@damage 2d6}) radiant damage and is {@condition blinded} until the end of its next turn. On a successful save, the creature takes half as much damage and isn't {@condition blinded}."
+						"When the darkling elder dies, magical light flashes out from it in a 10-foot radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area must make a {11} Constitution saving throw. On a failed save, the creature takes 7 (2d6}) radiant damage and is {blinded} until the end of its next turn. On a successful save, the creature takes half as much damage and isn't {blinded}."
 					]
 				}
 			],
@@ -7576,13 +7576,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage plus 7 ({@damage 2d6}) necrotic damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) slashing damage plus 7 (2d6}) necrotic damage."
 					]
 				},
 				{
 					"name": "Darkness (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The darkling elder casts {@spell darkness}, requiring no spell components and using Wisdom as the spellcasting ability."
+						"The darkling elder casts { darkness}, requiring no spell components and using Wisdom as the spellcasting ability."
 					]
 				}
 			],
@@ -7699,7 +7699,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Lightning Blood",
 					"entries": [
-						"A creature within 5 feet of the death kiss takes 5 ({@damage 1d10}) lightning damage whenever it hits the death kiss with a melee attack that deals piercing or slashing damage."
+						"A creature within 5 feet of the death kiss takes 5 (1d10}) lightning damage whenever it hits the death kiss with a melee attack that deals piercing or slashing damage."
 					]
 				}
 			],
@@ -7713,13 +7713,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 20 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, and the target is {@condition grappled} (escape {@dc 14}) if it is a Huge or smaller creature. Until this grapple ends, the target is {@condition restrained}, and the death kiss can't use the same tentacle on another target. The death kiss has ten tentacles."
+						"{1d20+8} to hit, reach 20 ft., one target. 11 (2d6 + 4}) piercing damage, and the target is {grappled} (escape {14}) if it is a Huge or smaller creature. Until this grapple ends, the target is {restrained}, and the death kiss can't use the same tentacle on another target. The death kiss has ten tentacles."
 					]
 				},
 				{
 					"name": "Blood Drain",
 					"entries": [
-						"One creature {@condition grappled} by a tentacle of the death kiss must make a {@dc 16} Constitution saving throw. On a failed save, the target takes 22 ({@damage 4d10}) lightning damage, and the death kiss regains half as many hit points."
+						"One creature {grappled} by a tentacle of the death kiss must make a {16} Constitution saving throw. On a failed save, the target takes 22 (4d10}) lightning damage, and the death kiss regains half as many hit points."
 					]
 				}
 			],
@@ -7836,20 +7836,20 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell disguise self}",
-						"{@spell mage armor}",
-						"{@spell mage hand}"
+						"{ detect magic}",
+						"{ disguise self}",
+						"{ mage armor}",
+						"{ mage hand}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dispel magic}",
-							"{@spell hunger of Hadar}",
-							"{@spell invisibility}",
-							"{@spell spider climb}"
+							"{ dispel magic}",
+							"{ hunger of Hadar}",
+							"{ invisibility}",
+							"{ spider climb}"
 						]
 					},
 					"ability": "cha",
@@ -7880,13 +7880,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Deathly Claw",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) necrotic damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 9 (2d6 + 2}) necrotic damage."
 					]
 				},
 				{
 					"name": "Grave Bolt",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 120 ft., one target. {@h}14 ({@damage 2d10 + 3}) necrotic damage."
+						"{@atk rs} +5} to hit, range 120 ft., one target. 14 (2d10 + 3}) necrotic damage."
 					]
 				}
 			],
@@ -8011,21 +8011,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
+						"The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {14}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell disguise self}",
-						"{@spell mage armor}",
-						"{@spell minor illusion}"
+						"{ detect magic}",
+						"{ disguise self}",
+						"{ mage armor}",
+						"{ minor illusion}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell dimension door}",
-							"{@spell dispel magic}",
-							"{@spell fly}",
-							"{@spell invisibility}"
+							"{ darkness}",
+							"{ dimension door}",
+							"{ dispel magic}",
+							"{ fly}",
+							"{ invisibility}"
 						]
 					},
 					"ability": "cha",
@@ -8062,13 +8062,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Deathly Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 3} necrotic damage)."
+						"{1d20+6} to hit, reach 5 ft., one target. 13 (3d6 + 3} necrotic damage)."
 					]
 				},
 				{
 					"name": "Grave Bolt",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 120 ft., one target. {@h}13 ({@damage 3d8}) necrotic damage. If the target is Large or smaller, it must succeed on a {@dc 16} Strength saving throw or become {@condition restrained} as shadowy tendrils wrap around it for 1 minute. A {@condition restrained} target can use its action to repeat the saving throw, ending the effect on itself on a success."
+						"{@atk rs} +6} to hit, range 120 ft., one target. 13 (3d8}) necrotic damage. If the target is Large or smaller, it must succeed on a {16} Strength saving throw or become {restrained} as shadowy tendrils wrap around it for 1 minute. A {restrained} target can use its action to repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -8193,17 +8193,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"The deathlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell disguise self}",
-						"{@spell mage armor}"
+						"{ detect magic}",
+						"{ disguise self}",
+						"{ mage armor}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell fear}",
-							"{@spell hold person}"
+							"{ fear}",
+							"{ hold person}"
 						]
 					},
 					"ability": "cha",
@@ -8234,14 +8234,14 @@ export const bestiaryMPMM = {
 				{
 					"name": "Life Drain",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d8 + 2}) necrotic damage. The target must succeed on a {@dc 13} Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.",
+						"{1d20+4} to hit, reach 5 ft., one creature. 6 (1d8 + 2}) necrotic damage. The target must succeed on a {13} Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.",
 						"A Humanoid slain by this attack rises 24 hours later as a {@creature zombie} under the deathlock's control, unless the Humanoid is restored to life or its body is destroyed. The deathlock can have no more than twelve zombies under its control at one time."
 					]
 				},
 				{
 					"name": "Grave Bolt",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 60 ft., one target. {@h}12 ({@damage 2d8 + 3}) necrotic damage."
+						"{@atk rs} +5} to hit, range 60 ft., one target. 12 (2d8 + 3}) necrotic damage."
 					]
 				}
 			],
@@ -8335,13 +8335,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Gore",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage. If the rothé moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 ({@damage 2d6}) piercing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 7 (1d6 + 4}) piercing damage. If the rothé moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 (2d6}) piercing damage."
 					]
 				},
 				{
 					"name": "Dancing Lights",
 					"entries": [
-						"The rothé casts {@spell dancing lights}, requiring no spell components and using Wisdom as the spellcasting ability."
+						"The rothé casts { dancing lights}, requiring no spell components and using Wisdom as the spellcasting ability."
 					]
 				}
 			],
@@ -8441,25 +8441,25 @@ export const bestiaryMPMM = {
 				{
 					"name": "Battleaxe",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@dice 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands."
+						"{1d20+6} to hit, reach 5 ft., one target. 8 ({@dice 1d8 + 4}) slashing damage, or 9 (1d10 + 4}) slashing damage if used with two hands."
 					]
 				},
 				{
 					"name": "Bite (Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+						"{1d20+6} to hit, reach 5 ft., one creature. 6 (1d4 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw (Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 7 (1d6 + 4}) slashing damage."
 					]
 				},
 				{
 					"name": "Psychic Screech (Hybrid Form Only; Recharges after a Short or Long Rest)",
 					"entries": [
-						"The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a {@dc 13} Wisdom saving throw or be {@condition stunned} until the end of the deep scion's next turn. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to its master, regardless of distance, so long as it and its master are in the same body of water."
+						"The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a {13} Wisdom saving throw or be {stunned} until the end of the deep scion's next turn. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to its master, regardless of distance, so long as it and its master are in the same body of water."
 					]
 				}
 			],
@@ -8560,7 +8560,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pounce",
 					"entries": [
-						"If the deinonychus moves at least 20 feet straight toward a creature and then hits it with a Claw attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the deinonychus can make one Bite attack against it as a bonus action."
+						"If the deinonychus moves at least 20 feet straight toward a creature and then hits it with a Claw attack on the same turn, that target must succeed on a {12} Strength saving throw or be knocked {prone}. If the target is {prone}, the deinonychus can make one Bite attack against it as a bonus action."
 					]
 				}
 			],
@@ -8574,13 +8574,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 6 (1d8 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 6 (1d8 + 2}) slashing damage."
 					]
 				}
 			],
@@ -8704,21 +8704,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Demogorgon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
+						"Demogorgon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {23}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell major image}"
+						"{ detect magic}",
+						"{ major image}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell fear}",
-							"{@spell telekinesis}"
+							"{ dispel magic}",
+							"{ fear}",
+							"{ telekinesis}"
 						],
 						"1e": [
-							"{@spell feeblemind}",
-							"{@spell project image}"
+							"{ feeblemind}",
+							"{ project image}"
 						]
 					},
 					"ability": "cha",
@@ -8741,7 +8741,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Two Heads",
 					"entries": [
-						"Demogorgon has advantage on saving throws against being {@condition blinded}, {@condition deafened}, {@condition stunned}, or knocked {@condition unconscious}."
+						"Demogorgon has advantage on saving throws against being {blinded}, {deafened}, {stunned}, or knocked {unconscious}."
 					]
 				}
 			],
@@ -8755,13 +8755,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}28 ({@damage 3d12 + 9}) force damage. If the target is a creature, it must succeed on a {@dc 23} Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+						"{1d20+17} to hit, reach 10 ft., one target. 28 (3d12 + 9}) force damage. If the target is a creature, it must succeed on a {23} Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
 					"name": "Gaze",
 					"entries": [
-						"Demogorgon turns his magical gaze toward one creature he can see within 120 feet of him. The target must succeed on a {@dc 23} Wisdom saving throw or suffer one of the following effects (choose one or roll a {@dice d6}):",
+						"Demogorgon turns his magical gaze toward one creature he can see within 120 feet of him. The target must succeed on a {23} Wisdom saving throw or suffer one of the following effects (choose one or roll a {@dice d6}):",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -8770,21 +8770,21 @@ export const bestiaryMPMM = {
 									"type": "item",
 									"name": "1\u20132: Beguiling Gaze",
 									"entries": [
-										"The target is {@condition stunned} until the start of Demogorgon's next turn or until Demogorgon is no longer within line of sight."
+										"The target is {stunned} until the start of Demogorgon's next turn or until Demogorgon is no longer within line of sight."
 									]
 								},
 								{
 									"type": "item",
 									"name": "3\u20134: Confusing Gaze",
 									"entries": [
-										"The target suffers the effect of the {@spell confusion} spell without making a saving throw. The effect lasts until the start of Demogorgon's next turn. Demogorgon doesn't need to concentrate on the spell."
+										"The target suffers the effect of the { confusion} spell without making a saving throw. The effect lasts until the start of Demogorgon's next turn. Demogorgon doesn't need to concentrate on the spell."
 									]
 								},
 								{
 									"type": "item",
 									"name": "5\u20136: Hypnotic Gaze",
 									"entries": [
-										"The target is {@condition charmed} by Demogorgon until the start of Demogorgon's next turn. Demogorgon chooses how the {@condition charmed} target uses its action, reaction, and movement."
+										"The target is {charmed} by Demogorgon until the start of Demogorgon's next turn. Demogorgon chooses how the {charmed} target uses its action, reaction, and movement."
 									]
 								}
 							]
@@ -8803,7 +8803,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 9}) bludgeoning damage plus 11 ({@damage 2d10}) necrotic damage."
+						"{1d20+17} to hit, reach 15 ft., one target. 20 (2d10 + 9}) bludgeoning damage plus 11 (2d10}) necrotic damage."
 					]
 				},
 				{
@@ -8932,13 +8932,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Hooked Spear",
 					"entries": [
-						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage. If the target is Medium or smaller, the derro can choose to deal no damage and knock it {@condition prone}."
+						"{1d20+2} to hit, reach 5 ft., one target. 3 (1d6}) piercing damage. If the target is Medium or smaller, the derro can choose to deal no damage and knock it {prone}."
 					]
 				},
 				{
 					"name": "Light Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"1d20+4} to hit, range 80/320 ft., one target. 6 (1d8 + 2}) piercing damage."
 					]
 				}
 			],
@@ -9037,18 +9037,18 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The derro casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 12}):"
+						"The derro casts one of the following spells, using Charisma as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell message}",
-						"{@spell prestidigitation}"
+						"{ mage hand}",
+						"{ message}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell invisibility}",
-							"{@spell sleep}",
-							"{@spell spider climb}"
+							"{ invisibility}",
+							"{ sleep}",
+							"{ spider climb}"
 						]
 					},
 					"ability": "cha",
@@ -9073,13 +9073,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Quarterstaff",
 					"entries": [
-						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage."
+						"{1d20+1} to hit, reach 5 ft., one target. 2 (1d6 - 1}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Chromatic Beam",
 					"entries": [
-						"The derro launches a brilliant beam of magical energy in a 5-foot-wide line that is 60 feet long. Each creature in the line must make a {@dc 12} Dexterity saving throw, taking 21 ({@damage 6d6}) radiant damage on a failed save, or half as much damage on a successful one."
+						"The derro launches a brilliant beam of magical energy in a 5-foot-wide line that is 60 feet long. Each creature in the line must make a {12} Dexterity saving throw, taking 21 (6d6}) radiant damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -9197,19 +9197,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage plus 21 ({@damage 6d6}) necrotic damage."
+						"{1d20+10} to hit, reach 5 ft., one target. 12 (2d6 + 5}) slashing damage plus 21 (6d6}) necrotic damage."
 					]
 				},
 				{
 					"name": "Imprison Soul",
 					"entries": [
-						"The devourer chooses a living Humanoid with 0 hit points that it can see within 30 feet of it. That creature is teleported inside the devourer's ribcage and imprisoned there. While imprisoned in this way, the creature is {@condition restrained} and has disadvantage on death saving throws. If the creature dies while imprisoned, the devourer regains 25 hit points and immediately recharges Soul Rend. Additionally, at the start of its next turn, the devourer regurgitates the slain creature as a bonus action, and the creature becomes an undead. If the victim had 2 or fewer Hit Dice, it becomes a {@creature zombie}. If it had 3 to 5 Hit Dice, it becomes a {@creature ghoul}. Otherwise, it becomes a {@creature wight}. A devourer can imprison only one creature at a time."
+						"The devourer chooses a living Humanoid with 0 hit points that it can see within 30 feet of it. That creature is teleported inside the devourer's ribcage and imprisoned there. While imprisoned in this way, the creature is {restrained} and has disadvantage on death saving throws. If the creature dies while imprisoned, the devourer regains 25 hit points and immediately recharges Soul Rend. Additionally, at the start of its next turn, the devourer regurgitates the slain creature as a bonus action, and the creature becomes an undead. If the victim had 2 or fewer Hit Dice, it becomes a {@creature zombie}. If it had 3 to 5 Hit Dice, it becomes a {@creature ghoul}. Otherwise, it becomes a {@creature wight}. A devourer can imprison only one creature at a time."
 					]
 				},
 				{
-					"name": "Soul Rend {@recharge}",
+					"name": "Soul Rend {Recharge -}",
 					"entries": [
-						"The devourer creates a vortex of life-draining energy in a 20-foot radius centered on itself. Each creature in that area must make a {@dc 18} Constitution saving throw, taking 44 ({@damage 8d10}) necrotic damage on a failed save, or half as much damage on a successful one."
+						"The devourer creates a vortex of life-draining energy in a 20-foot radius centered on itself. Each creature in that area must make a {18} Constitution saving throw, taking 44 (8d10}) necrotic damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -9332,11 +9332,11 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The dhergoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 10}):"
+						"The dhergoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {10}):"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell fear}"
+						"{ darkness}",
+						"{ fear}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -9360,13 +9360,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) force damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 12 (2d8 + 3}) force damage."
 					]
 				},
 				{
-					"name": "Flailing Claws {@recharge 5}",
+					"name": "Flailing Claws {Recharge - 5}",
 					"entries": [
-						"The dhergoloth moves up to its speed in a straight line and targets each creature within 5 feet of it during its movement. Each target must succeed on a {@dc 14} Dexterity saving throw or take 22 ({@damage 3d12 + 3}) force damage."
+						"The dhergoloth moves up to its speed in a straight line and targets each creature within 5 feet of it during its movement. Each target must succeed on a {14} Dexterity saving throw or take 22 (3d12 + 3}) force damage."
 					]
 				},
 				{
@@ -9469,7 +9469,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 9 (2d6 + 2}) piercing damage."
 					]
 				}
 			],
@@ -9578,19 +9578,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage plus 5 ({@damage 1d10}) poison damage."
+						"{1d20+11} to hit, reach 10 ft., one target. 10 (1d8 + 6}) piercing damage plus 5 (1d10}) poison damage."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}16 ({@damage 3d6 + 6}) slashing damage."
+						"{1d20+11} to hit, reach 10 ft., one target. 16 (3d6 + 6}) slashing damage."
 					]
 				},
 				{
-					"name": "Whirlwind of Claws {@recharge 5}",
+					"name": "Whirlwind of Claws {Recharge - 5}",
 					"entries": [
-						"Each creature within 10 feet of the troll must make a {@dc 19} Dexterity saving throw, taking 44 ({@damage 8d10}) slashing damage on a failed save, or half as much damage on a successful one."
+						"Each creature within 10 feet of the troll must make a {19} Dexterity saving throw, taking 44 (8d10}) slashing damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -9654,7 +9654,7 @@ export const bestiaryMPMM = {
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -9688,26 +9688,26 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The diviner casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"The diviner casts one of the following spells, using Intelligence as the spellcasting ability (spell save {15}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell message}",
-						"{@spell prestidigitation}"
+						"{ mage hand}",
+						"{ message}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell arcane eye}",
-							"{@spell detect magic}",
-							"{@spell detect thoughts}",
-							"{@spell fly}",
-							"{@spell lightning bolt}",
-							"{@spell locate object}",
-							"{@spell mage armor}",
-							"{@spell Rary's telepathic bond}"
+							"{ arcane eye}",
+							"{ detect magic}",
+							"{ detect thoughts}",
+							"{ fly}",
+							"{ lightning bolt}",
+							"{ locate object}",
+							"{ mage armor}",
+							"{ Rary's telepathic bond}"
 						],
 						"1e": [
-							"{@spell true seeing}"
+							"{ true seeing}"
 						]
 					},
 					"ability": "int",
@@ -9724,13 +9724,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Arcane Burst",
 					"entries": [
-						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}20 ({@damage 3d10 + 4}) radiant damage."
+						"{1d20 +7} to hit, reach 5 ft. or range 120 ft., one target. 20 (3d10 + 4}) radiant damage."
 					]
 				},
 				{
-					"name": "Overwhelming Revelation {@recharge 5}",
+					"name": "Overwhelming Revelation {Recharge - 5}",
 					"entries": [
-						"The diviner magically creates a burst of illumination in a 10-foot-radius sphere centered on a point within 120 feet of it. Each creature in that area must make a {@dc 15} Wisdom saving throw. On a failed save, a creature takes 45 ({@damage 10d8}) psychic damage and is {@condition stunned} until the end of the diviner's next turn. On a successful save, the creature takes half as much damage and isn't {@condition stunned}."
+						"The diviner magically creates a burst of illumination in a 10-foot-radius sphere centered on a point within 120 feet of it. Each creature in that area must make a {15} Wisdom saving throw. On a failed save, a creature takes 45 (10d8}) psychic damage and is {stunned} until the end of the diviner's next turn. On a successful save, the creature takes half as much damage and isn't {stunned}."
 					]
 				}
 			],
@@ -9834,7 +9834,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage. If the dolphin moved at least 30 feet straight toward the target immediately before the hit, the target takes an extra 3 ({@damage 1d6}) bludgeoning damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 (1d6 + 2}) bludgeoning damage. If the dolphin moved at least 30 feet straight toward the target immediately before the hit, the target takes an extra 3 (1d6}) bludgeoning damage."
 					]
 				}
 			],
@@ -9932,13 +9932,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dazzling Slam",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage plus 7 ({@damage 2d6}) psychic damage, and the target is {@condition blinded} until the start of the dolphin's next turn."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 (1d6 + 2}) bludgeoning damage plus 7 (2d6}) psychic damage, and the target is {blinded} until the start of the dolphin's next turn."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Delightful Light {@recharge 5}",
+					"name": "Delightful Light {Recharge - 5}",
 					"entries": [
 						"The dolphin magically emanates light in a 10-foot radius for a moment. The dolphin and each creature of its choice in that light gain 11 ({@dice 2d10}) temporary hit points."
 					]
@@ -10056,16 +10056,16 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The draegloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 11}):"
+						"The draegloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {11}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell darkness}"
+						"{ dancing lights}",
+						"{ darkness}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell confusion}",
-							"{@spell faerie fire}"
+							"{ confusion}",
+							"{ faerie fire}"
 						]
 					},
 					"ability": "cha",
@@ -10076,7 +10076,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The draegloth has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+						"The draegloth has advantage on saving throws against being {charmed}, and magic can't put it to sleep."
 					]
 				}
 			],
@@ -10090,13 +10090,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+						"{1d20+8} to hit, reach 5 ft., one creature. 16 (2d10 + 5}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) slashing damage."
+						"{1d20+8} to hit, reach 10 ft., one target. 16 (2d10 + 5}) slashing damage."
 					]
 				}
 			],
@@ -10211,21 +10211,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The drow casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
+						"The drow casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {17}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}"
+						"{ dancing lights}",
+						"{ mage hand}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell dispel magic}",
-							"{@spell etherealness}",
-							"{@spell faerie fire}",
-							"{@spell fly}",
-							"{@spell insect plague}",
-							"{@spell invisibility}"
+							"{ darkness}",
+							"{ dispel magic}",
+							"{ etherealness}",
+							"{ faerie fire}",
+							"{ fly}",
+							"{ insect plague}",
+							"{ invisibility}"
 						]
 					},
 					"ability": "int",
@@ -10236,7 +10236,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"The drow has advantage on saving throws against being {charmed}, and magic can't put the drow to sleep."
 					]
 				},
 				{
@@ -10268,19 +10268,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite (Spider Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 31 ({@damage 7d8}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+						"{1d20+8} to hit, reach 5 ft., one target. 12 (2d8 + 3}) piercing damage, and the target must make a {15} Constitution saving throw, taking 31 (7d8}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {poisoned} for 1 hour, even after regaining hit points, and is {paralyzed} while {poisoned} in this way."
 					]
 				},
 				{
 					"name": "Poisonous Touch (Humanoid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}35 ({@damage 10d6}) poison damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 35 (10d6}) poison damage."
 					]
 				},
 				{
-					"name": "Web (Spider Form Only; {@recharge 5})",
+					"name": "Web (Spider Form Only; {Recharge - 5})",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 30/60 ft., one target. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 15} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+						"1d20+8} to hit, range 30/60 ft., one target. The target is {restrained} by webbing. As an action, the {restrained} target can make a {15} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
 					]
 				}
 			],
@@ -10407,24 +10407,24 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The drow casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 18}):"
+						"The drow casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {18}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage armor}",
-						"{@spell mage hand}",
-						"{@spell message}"
+						"{ dancing lights}",
+						"{ mage armor}",
+						"{ mage hand}",
+						"{ message}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dimension door}",
-							"{@spell fireball}",
-							"{@spell invisibility}"
+							"{ dimension door}",
+							"{ fireball}",
+							"{ invisibility}"
 						],
 						"1e": [
-							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{ darkness}",
+							"{ faerie fire}",
+							"{ levitate} (self only)"
 						]
 					},
 					"ability": "int",
@@ -10435,7 +10435,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"The drow has advantage on saving throws against being {charmed}, and magic can't put the drow to sleep."
 					]
 				},
 				{
@@ -10455,13 +10455,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage plus 27 ({@damage 6d8}) poison damage."
+						"{1d20+11} to hit, reach 5 ft., one target. 8 (1d6 + 5}) slashing damage plus 27 (6d8}) poison damage."
 					]
 				},
 				{
 					"name": "Arcane Eruption",
 					"entries": [
-						"{@atk rs} {@hit 10} to hit, range 120 ft., one target. {@h}36 ({@damage 8d8}) force damage, and the drow can push the target up to 10 feet away if it is a Large or smaller creature."
+						"{@atk rs} +10} to hit, range 120 ft., one target. 36 (8d8}) force damage, and the drow can push the target up to 10 feet away if it is a Large or smaller creature."
 					]
 				}
 			],
@@ -10581,16 +10581,16 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The drow casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"The drow casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell dancing lights}"
+						"{ dancing lights}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell darkness}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{ darkness}",
+							"{ faerie fire}",
+							"{ levitate} (self only)"
 						]
 					},
 					"ability": "cha",
@@ -10601,7 +10601,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"The drow has advantage on saving throws against being {charmed}, and magic can't put the drow to sleep."
 					]
 				},
 				{
@@ -10621,19 +10621,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage plus 14 ({@damage 4d6}) poison damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 7 (1d6 + 4}) slashing damage plus 14 (4d6}) poison damage."
 					]
 				},
 				{
 					"name": "Whip",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage."
+						"{1d20+8} to hit, reach 10 ft., one target. 6 (1d4 + 4}) slashing damage."
 					]
 				},
 				{
 					"name": "Hand Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
+						"1d20+8} to hit, range 30/120 ft., one target. 7 (1d6 + 4}) piercing damage, and the target must succeed on a {13} Constitution saving throw or be {poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {unconscious} while {poisoned} in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
 					]
 				}
 			],
@@ -10770,25 +10770,25 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The drow's casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 18}):"
+						"The drow's casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {18}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell detect magic}",
-						"{@spell message}",
-						"{@spell thaumaturgy}"
+						"{ dancing lights}",
+						"{ detect magic}",
+						"{ message}",
+						"{ thaumaturgy}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell clairvoyance}",
-							"{@spell darkness}",
-							"{@spell detect thoughts}",
-							"{@spell dispel magic}",
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)",
-							"{@spell silence}",
-							"{@spell suggestion}",
-							"{@spell true seeing}"
+							"{ clairvoyance}",
+							"{ darkness}",
+							"{ detect thoughts}",
+							"{ dispel magic}",
+							"{ faerie fire}",
+							"{ levitate} (self only)",
+							"{ silence}",
+							"{ suggestion}",
+							"{ true seeing}"
 						]
 					},
 					"ability": "cha",
@@ -10805,7 +10805,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"The drow has advantage on saving throws against being {charmed}, and magic can't put the drow to sleep."
 					]
 				},
 				{
@@ -10825,7 +10825,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Death Lance",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 18 ({@damage 4d8}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+						"{1d20+10} to hit, reach 5 ft., one target. 8 (1d6 + 5}) piercing damage plus 18 (4d8}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
 					]
 				}
 			],
@@ -10833,7 +10833,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spectral Dagger (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The drow conjures a floating, spectral dagger within 60 feet of itself. The drow can make a melee spell attack ({@hit 10} to hit) against one creature within 5 feet of the dagger. On a hit, the target takes 9 ({@damage 1d8 + 5}) force damage.",
+						"The drow conjures a floating, spectral dagger within 60 feet of itself. The drow can make a melee spell attack (+10} to hit) against one creature within 5 feet of the dagger. On a hit, the target takes 9 (1d8 + 5}) force damage.",
 						"The dagger lasts for 1 minute. As a bonus action on later turns, the drow can move the dagger up to 20 feet and repeat the attack against one creature within 5 feet of the dagger."
 					]
 				}
@@ -10843,7 +10843,7 @@ export const bestiaryMPMM = {
 					"type": "variant",
 					"name": "Summon Demon (1/Day)",
 					"entries": [
-						"The drow attempts to magically summon a {@creature yochlol}, with a {@chance 50|50 percent} chance of success. If the attempt fails, the drow takes 5 ({@damage 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
+						"The drow attempts to magically summon a {@creature yochlol}, with a {@chance 50|50 percent} chance of success. If the attempt fails, the drow takes 5 (1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
 					],
 					"_version": {
 						"name": "Drow Inquisitor (Summoner)",
@@ -10967,32 +10967,32 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The drow casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 20}):"
+						"The drow casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {20}):"
 					],
 					"will": [
-						"{@spell command}",
-						"{@spell dancing lights}",
-						"{@spell detect magic}",
-						"{@spell thaumaturgy}"
+						"{ command}",
+						"{ dancing lights}",
+						"{ detect magic}",
+						"{ thaumaturgy}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell banishment}",
-							"{@spell blade barrier}",
-							"{@spell cure wounds}",
-							"{@spell hold person}",
-							"{@spell plane shift}",
-							"{@spell silence}"
+							"{ banishment}",
+							"{ blade barrier}",
+							"{ cure wounds}",
+							"{ hold person}",
+							"{ plane shift}",
+							"{ silence}"
 						],
 						"1e": [
-							"{@spell clairvoyance}",
-							"{@spell darkness}",
-							"{@spell detect thoughts}",
-							"{@spell dispel magic}",
-							"{@spell faerie fire}",
-							"{@spell gate}",
-							"{@spell levitate} (self only)",
-							"{@spell suggestion}"
+							"{ clairvoyance}",
+							"{ darkness}",
+							"{ detect thoughts}",
+							"{ dispel magic}",
+							"{ faerie fire}",
+							"{ gate}",
+							"{ levitate} (self only)",
+							"{ suggestion}"
 						]
 					},
 					"ability": "cha",
@@ -11003,7 +11003,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"The drow has advantage on saving throws against being {charmed}, and magic can't put the drow to sleep."
 					]
 				},
 				{
@@ -11029,19 +11029,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Demon Staff",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage, or 8 ({@damage 1d8 + 4}) bludgeoning damage if used with two hands, plus 14 ({@damage 4d6}) psychic damage. The target must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} of the drow for 1 minute. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+10} to hit, reach 5 ft., one target. 7 (1d6 + 4}) bludgeoning damage, or 8 (1d8 + 4}) bludgeoning damage if used with two hands, plus 14 (4d6}) psychic damage. The target must succeed on a {19} Wisdom saving throw or become {frightened} of the drow for 1 minute. The {frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Tentacle Rod",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 15 ft., one creature. {@h}3 ({@damage 1d6}) bludgeoning damage. If the target is hit three times by the {@item tentacle rod|DMG|rod} on one turn, the target must succeed on a {@dc 15} Constitution saving throw or suffer the following effects for 1 minute: the target's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success."
+						"{1d20+9} to hit, reach 15 ft., one creature. 3 (1d6}) bludgeoning damage. If the target is hit three times by the {@item tentacle rod|DMG|rod} on one turn, the target must succeed on a {15} Constitution saving throw or suffer the following effects for 1 minute: the target's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Divine Flame (2/Day)",
 					"entries": [
-						"A 10-foot-radius, 40-foot-high column of divine fire sprouts in an area up to 120 feet away from the drow. Each creature in the column must make a {@dc 20} Dexterity saving throw, taking 14 ({@damage 4d6}) fire damage and 14 ({@damage 4d6}) radiant damage on a failed save, or half as much damage on a successful one."
+						"A 10-foot-radius, 40-foot-high column of divine fire sprouts in an area up to 120 feet away from the drow. Each creature in the column must make a {20} Dexterity saving throw, taking 14 (4d6}) fire damage and 14 (4d6}) radiant damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -11049,7 +11049,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Lolth's Fickle Favor",
 					"entries": [
-						"The drow bestows the Spider Queen's blessing on one ally she can see within 30 feet of her. The ally takes 7 ({@damage 2d6}) psychic damage but has advantage on the next attack roll it makes before the end of its next turn."
+						"The drow bestows the Spider Queen's blessing on one ally she can see within 30 feet of her. The ally takes 7 (2d6}) psychic damage but has advantage on the next attack roll it makes before the end of its next turn."
 					]
 				},
 				{
@@ -11202,16 +11202,16 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The drow casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"The drow casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell darkness}"
+						"{ dancing lights}",
+						"{ darkness}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell faerie fire}",
-							"{@spell levitate} (self only)"
+							"{ faerie fire}",
+							"{ levitate} (self only)"
 						]
 					},
 					"ability": "cha",
@@ -11228,7 +11228,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+						"The drow has advantage on saving throws against being {charmed}, and magic can't put the drow to sleep."
 					]
 				},
 				{
@@ -11248,13 +11248,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Shadow Sword",
 					"entries": [
-						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 30/60 ft., one target. {@h}27 ({@damage 7d6 + 5}) necrotic damage."
+						"{@atk mw,rw} +9} to hit, reach 5 ft. or range 30/60 ft., one target. 27 (7d6 + 5}) necrotic damage."
 					]
 				},
 				{
 					"name": "Hand Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
+						"1d20+9} to hit, range 30/120 ft., one target. 8 (1d6 + 5}) piercing damage, and the target must succeed on a {13} Constitution saving throw or be {poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {unconscious} while {poisoned} in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
 					]
 				}
 			],
@@ -11271,7 +11271,7 @@ export const bestiaryMPMM = {
 					"type": "variant",
 					"name": "Summon Shadow Demon (1/Day)",
 					"entries": [
-						"The drow attempts to magically summon a {@creature shadow demon} with a {@chance 50|50 percent} chance of success. If the attempt fails, the drow takes 5 ({@damage 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
+						"The drow attempts to magically summon a {@creature shadow demon} with a {@chance 50|50 percent} chance of success. If the attempt fails, the drow takes 5 (1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
 					],
 					"_version": {
 						"name": "Drow Shadowblade (Summoner)",
@@ -11392,15 +11392,15 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"The duergar casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 12}):"
+						"The duergar casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell minor illusion}"
+						"{ mage hand}",
+						"{ minor illusion}"
 					],
 					"daily": {
 						"1": [
-							"{@spell stinking cloud}"
+							"{ stinking cloud}"
 						]
 					},
 					"ability": "int",
@@ -11417,7 +11417,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Psychic Engine",
 					"entries": [
-						"When the duergar suffers a critical hit or is reduced to 0 hit points, psychic energy erupts from its frame to deal 14 ({@damage 4d6}) psychic damage to each creature within 5 feet of it."
+						"When the duergar suffers a critical hit or is reduced to 0 hit points, psychic energy erupts from its frame to deal 14 (4d6}) psychic damage to each creature within 5 feet of it."
 					]
 				},
 				{
@@ -11437,19 +11437,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Iron Fist",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d8 + 5}) bludgeoning damage. If the target is a Large or smaller creature, it must succeed on a {@dc 17} Strength saving throw or be pushed up to 30 feet away in a straight line and be knocked {@condition prone}."
+						"{1d20+9} to hit, reach 5 ft., one target. 23 (4d8 + 5}) bludgeoning damage. If the target is a Large or smaller creature, it must succeed on a {17} Strength saving throw or be pushed up to 30 feet away in a straight line and be knocked {prone}."
 					]
 				},
 				{
 					"name": "Stomping Foot",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage, or 21 ({@dice 3d10 + 5}) to a {@condition prone} target."
+						"{1d20+9} to hit, reach 5 ft., one target. 10 (1d10 + 5}) bludgeoning damage, or 21 ({@dice 3d10 + 5}) to a {prone} target."
 					]
 				},
 				{
 					"name": "Flame Jet",
 					"entries": [
-						"The duergar spews flames in a line 100 feet long and 5 feet wide. Each creature in the line must make a {@dc 16} Dexterity saving throw, taking 18 ({@damage 4d8}) fire damage on a failed save, or half as much damage on a successful one."
+						"The duergar spews flames in a line 100 feet long and 5 feet wide. Each creature in the line must make a {16} Dexterity saving throw, taking 18 (4d8}) fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -11573,13 +11573,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Hammer",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 10 (2d6 + 3}) bludgeoning damage."
 					]
 				}
 			],
@@ -11689,7 +11689,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against spells and the {@condition charmed}, {@condition paralyzed}, and {@condition poisoned} conditions."
+						"The duergar has advantage on saving throws against spells and the {charmed}, {paralyzed}, and {poisoned} conditions."
 					]
 				},
 				{
@@ -11709,19 +11709,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "War Pick",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage plus 5 ({@damage 2d4}) poison damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 6 (1d8 + 2}) piercing damage plus 5 (2d4}) poison damage."
 					]
 				},
 				{
 					"name": "Heavy Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 2} to hit, range 100/400 ft., one target. {@h}5 ({@damage 1d10}) piercing damage."
+						"1d20+2} to hit, range 100/400 ft., one target. 5 (1d10}) piercing damage."
 					]
 				},
 				{
 					"name": "Shared Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it. While the {@condition invisible} duergar is mounted, the mount is {@condition invisible} as well. The invisibility ends early on the mount immediately after it attacks."
+						"The duergar magically turns {invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {invisible} with it. While the {invisible} duergar is mounted, the mount is {invisible} as well. The invisibility ends early on the mount immediately after it attacks."
 					]
 				}
 			],
@@ -11828,7 +11828,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against spells and the {@condition charmed}, {@condition paralyzed}, and {@condition poisoned} conditions."
+						"The duergar has advantage on saving throws against spells and the {charmed}, {paralyzed}, and {poisoned} conditions."
 					]
 				},
 				{
@@ -11848,19 +11848,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Mind-Poison Dagger",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 10 ({@damage 3d6}) psychic damage, or 1 piercing damage plus 10 ({@damage 3d6}) psychic damage while under the effect of Reduce."
+						"{1d20+5} to hit, reach 5 ft., one target. 5 (1d4 + 3}) piercing damage plus 10 (3d6}) psychic damage, or 1 piercing damage plus 10 (3d6}) psychic damage while under the effect of Reduce."
 					]
 				},
 				{
-					"name": "Invisibility {@recharge 4}",
+					"name": "Invisibility {Recharge - 4}",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"The duergar magically turns {invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {invisible} with it."
 					]
 				},
 				{
 					"name": "Mind Mastery",
 					"entries": [
-						"The duergar targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 12} Intelligence saving throw, or the duergar causes it to use its reaction, if available, either to make one weapon attack against another creature the duergar can see or to move up to 10 feet in a direction of the duergar's choice. Creatures that can't be {@condition charmed} are immune to this effect."
+						"The duergar targets one creature it can see within 60 feet of it. The target must succeed on a {12} Intelligence saving throw, or the duergar causes it to use its reaction, if available, either to make one weapon attack against another creature the duergar can see or to move up to 10 feet in a direction of the duergar's choice. Creatures that can't be {charmed} are immune to this effect."
 					]
 				}
 			],
@@ -11980,13 +11980,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Drill",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d12 + 4}) piercing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 10 (1d12 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Sonic Scream",
 					"entries": [
-						"The screamer emits destructive energy in a 15-foot cube. Each creature in that area must succeed on a {@dc 11} Strength saving throw or take 7 ({@damage 2d6}) thunder damage and be knocked {@condition prone}."
+						"The screamer emits destructive energy in a 15-foot cube. Each creature in that area must succeed on a {11} Strength saving throw or take 7 (2d6}) thunder damage and be knocked {prone}."
 					]
 				}
 			],
@@ -12089,7 +12089,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against spells and the {@condition charmed}, {@condition paralyzed}, and {@condition poisoned} conditions."
+						"The duergar has advantage on saving throws against spells and the {charmed}, {paralyzed}, and {poisoned} conditions."
 					]
 				},
 				{
@@ -12103,13 +12103,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Soulblade",
 					"entries": [
-						"{@atk ms} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) force damage, or 13 ({@damage 3d6 + 3}) force damage while under the effect of Enlarge."
+						"{1d20 +5} to hit, reach 5 ft., one target. 10 (2d6 + 3}) force damage, or 13 (3d6 + 3}) force damage while under the effect of Enlarge."
 					]
 				},
 				{
 					"name": "Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"The duergar magically turns {invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {invisible} with it."
 					]
 				}
 			],
@@ -12209,7 +12209,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against spells and the {@condition charmed}, {@condition paralyzed}, and {@condition poisoned} conditions."
+						"The duergar has advantage on saving throws against spells and the {charmed}, {paralyzed}, and {poisoned} conditions."
 					]
 				},
 				{
@@ -12235,19 +12235,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, or 11 ({@damage 2d6 + 4}) piercing damage while under the effect of Enlarge."
+						"{1d20+6} to hit, reach 5 ft., one target. 7 (1d6 + 4}) piercing damage, or 11 (2d6 + 4}) piercing damage while under the effect of Enlarge."
 					]
 				},
 				{
 					"name": "Javelin",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, or 11 ({@damage 2d6 + 4}) piercing damage while under the effect of Enlarge."
+						"{@atk mw,rw} +6} to hit, reach 5 ft. or range 30/120 ft., one target. 7 (1d6 + 4}) piercing damage, or 11 (2d6 + 4}) piercing damage while under the effect of Enlarge."
 					]
 				},
 				{
 					"name": "Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"The duergar magically turns {invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {invisible} with it."
 					]
 				}
 			],
@@ -12355,7 +12355,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against spells and the {@condition charmed}, {@condition paralyzed}, and {@condition poisoned} conditions."
+						"The duergar has advantage on saving throws against spells and the {charmed}, {paralyzed}, and {poisoned} conditions."
 					]
 				},
 				{
@@ -12375,13 +12375,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Psychic-Attuned Hammer",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) bludgeoning damage, or 15 ({@damage 2d10 + 4}) bludgeoning damage while under the effect of Enlarge, plus 5 ({@damage 1d10}) psychic damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 9 (1d10 + 4}) bludgeoning damage, or 15 (2d10 + 4}) bludgeoning damage while under the effect of Enlarge, plus 5 (1d10}) psychic damage."
 					]
 				},
 				{
 					"name": "Javelin",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, or 11 ({@damage 2d6 + 4}) piercing damage while under the effect of Enlarge."
+						"{@atk mw,rw} +7} to hit, reach 5 ft. or range 30/120 ft., one target. 7 (1d6 + 4}) piercing damage, or 11 (2d6 + 4}) piercing damage while under the effect of Enlarge."
 					]
 				},
 				{
@@ -12391,9 +12391,9 @@ export const bestiaryMPMM = {
 					]
 				},
 				{
-					"name": "Invisibility {@recharge 4}",
+					"name": "Invisibility {Recharge - 4}",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"The duergar magically turns {invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {invisible} with it."
 					]
 				}
 			],
@@ -12409,7 +12409,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Scouring Instruction",
 					"entries": [
-						"When an ally that the duergar can see makes a {@dice d20} roll, the duergar can roll a {@dice d6}, and the ally can add the number rolled to the {@dice d20} by taking 3 ({@damage 1d6}) psychic damage."
+						"When an ally that the duergar can see makes a {@dice d20} roll, the duergar can roll a {@dice d6}, and the ally can add the number rolled to the {@dice d20} by taking 3 (1d6}) psychic damage."
 					]
 				}
 			],
@@ -12510,7 +12510,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Duergar Resilience",
 					"entries": [
-						"The duergar has advantage on saving throws against spells and the {@condition charmed}, {@condition paralyzed}, and {@condition poisoned} conditions."
+						"The duergar has advantage on saving throws against spells and the {charmed}, {paralyzed}, and {poisoned} conditions."
 					]
 				},
 				{
@@ -12524,19 +12524,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fire Lance",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d12 + 3}) piercing damage, or 16 ({@damage 2d12 + 3}) piercing damage while under the effect of Enlarge, plus 3 ({@damage 1d6}) fire damage."
+						"{1d20+5} to hit, reach 10 ft., one target. 9 (1d12 + 3}) piercing damage, or 16 (2d12 + 3}) piercing damage while under the effect of Enlarge, plus 3 (1d6}) fire damage."
 					]
 				},
 				{
-					"name": "Fire Spray {@recharge 5}",
+					"name": "Fire Spray {Recharge - 5}",
 					"entries": [
-						"From its fire lance, the duergar shoots a 15-foot cone of fire or a line of fire 30 feet long and 5 feet wide. Each creature in that area must make a {@dc 12} Dexterity saving throw, taking 10 ({@damage 3d6}) fire damage on a failed save, or half as much damage on a successful one."
+						"From its fire lance, the duergar shoots a 15-foot cone of fire or a line of fire 30 feet long and 5 feet wide. Each creature in that area must make a {12} Dexterity saving throw, taking 10 (3d6}) fire damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
 					"name": "Invisibility (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The duergar magically turns {@condition invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {@condition invisible} with it."
+						"The duergar magically turns {invisible} for up to 1 hour or until it attacks, it forces a creature to make a saving throw, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is {invisible} with it."
 					]
 				}
 			],
@@ -12674,14 +12674,14 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The dybbuk casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
+						"The dybbuk casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell dimension door}"
+						"{ dimension door}"
 					],
 					"daily": {
 						"3": [
-							"{@spell phantasmal force}"
+							"{ phantasmal force}"
 						]
 					},
 					"ability": "cha",
@@ -12692,7 +12692,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The dybbuk can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The dybbuk can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 (1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -12706,11 +12706,11 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) necrotic damage. If the target is a creature, its hit point maximum is also reduced by 3 ({@dice 1d6}). This reduction lasts until the target finishes a short or long rest. The target dies if its hit point maximum is reduced to 0."
+						"{1d20+6} to hit, reach 5 ft., one target. 13 (2d8 + 4}) necrotic damage. If the target is a creature, its hit point maximum is also reduced by 3 ({@dice 1d6}). This reduction lasts until the target finishes a short or long rest. The target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
-					"name": "Possess Corpse {@recharge}",
+					"name": "Possess Corpse {Recharge -}",
 					"entries": [
 						"The dybbuk disappears into an intact corpse within 5 feet of it that belonged to a Large or smaller Beast or Humanoid. The dybbuk gains 20 temporary hit points. While possessing the corpse, the dybbuk adopts the corpse's size and can't use Incorporeal Movement. Its game statistics otherwise remain the same. The possession lasts until the temporary hit points are lost or the dybbuk ends it as a bonus action. When the possession ends, the dybbuk appears in an unoccupied space within 5 feet of the corpse."
 					]
@@ -12720,7 +12720,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Control Corpse",
 					"entries": [
-						"While Possess Corpse is active, the dybbuk makes the corpse do something unnatural, such as vomit blood, twist its head all the way around, or cause a quadruped to move as a biped. Any Beast or Humanoid that sees this behavior must succeed on a {@dc 12} Wisdom saving throw or become {@condition frightened} of the dybbuk for 1 minute. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this ability is immune to Control Corpse for 24 hours."
+						"While Possess Corpse is active, the dybbuk makes the corpse do something unnatural, such as vomit blood, twist its head all the way around, or cause a quadruped to move as a biped. Any Beast or Humanoid that sees this behavior must succeed on a {12} Wisdom saving throw or become {frightened} of the dybbuk for 1 minute. The {frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on a saving throw against this ability is immune to Control Corpse for 24 hours."
 					]
 				}
 			],
@@ -12847,13 +12847,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Maul",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) force damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 11 (2d6 + 4}) force damage."
 					]
 				},
 				{
-					"name": "Thunderous Strike {@recharge}",
+					"name": "Thunderous Strike {Recharge -}",
 					"entries": [
-						"The myrmidon makes one Maul attack. On a hit, the target takes an extra 22 ({@damage 4d10}) thunder damage, and the target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+						"The myrmidon makes one Maul attack. On a hit, the target takes an extra 22 (4d10}) thunder damage, and the target must succeed on a {14} Strength saving throw or be knocked {prone}."
 					]
 				}
 			],
@@ -12971,11 +12971,11 @@ export const bestiaryMPMM = {
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The eidolon can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object other than a {@creature sacred statue|MPMM}."
+						"The eidolon can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 (1d10}) force damage if it ends its turn inside an object other than a {@creature sacred statue|MPMM}."
 					]
 				},
 				{
-					"name": "Sacred Animation {@recharge 5}",
+					"name": "Sacred Animation {Recharge - 5}",
 					"entries": [
 						"When the eidolon moves into a space occupied by a {@creature sacred statue|MPMM}, the eidolon can disappear, causing the statue to become a creature under the eidolon's control. The eidolon uses the {@creature sacred statue|MPMM|sacred statue's stat block} in place of its own."
 					]
@@ -12997,7 +12997,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Divine Dread",
 					"entries": [
-						"Each creature within 60 feet of the eidolon that can see it must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} of it for 1 minute. While {@condition frightened} in this way, the creature must take the {@action Dash} action and move away from the eidolon by the safest available route at the start of each of its turns, unless there is nowhere for it to move, in which case the creature also becomes {@condition stunned} until it can move again. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to any eidolon's Divine Dread for the next 24 hours."
+						"Each creature within 60 feet of the eidolon that can see it must succeed on a {15} Wisdom saving throw or be {frightened} of it for 1 minute. While {frightened} in this way, the creature must take the {@action Dash} action and move away from the eidolon by the safest available route at the start of each of its turns, unless there is nowhere for it to move, in which case the creature also becomes {stunned} until it can move again. A {frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to any eidolon's Divine Dread for the next 24 hours."
 					]
 				}
 			],
@@ -13106,19 +13106,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"The elder brain casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 18}):"
+						"The elder brain casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {18}):"
 					],
 					"will": [
-						"{@spell detect thoughts}",
-						"{@spell levitate}"
+						"{ detect thoughts}",
+						"{ levitate}"
 					],
 					"daily": {
 						"3": [
-							"{@spell modify memory}"
+							"{ modify memory}"
 						],
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell plane shift} (self only)"
+							"{ dominate monster}",
+							"{ plane shift} (self only)"
 						]
 					},
 					"ability": "int",
@@ -13129,7 +13129,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Creature Sense",
 					"entries": [
-						"The elder brain is aware of creatures within 5 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a {@spell mind blank} spell, a {@spell nondetection} spell, or similar magic can't be perceived in this manner."
+						"The elder brain is aware of creatures within 5 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each one's Intelligence score, but can't sense anything else about it. A creature protected by a { mind blank} spell, a { nondetection} spell, or similar magic can't be perceived in this manner."
 					]
 				},
 				{
@@ -13155,13 +13155,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 30 ft., one target. {@h}20 ({@damage 4d8 + 2}) bludgeoning damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 15}) and takes 9 ({@damage 1d8 + 5}) psychic damage at the start of each of its turns until the grapple ends. The elder brain can have up to four targets {@condition grappled} at a time."
+						"{1d20+7} to hit, reach 30 ft., one target. 20 (4d8 + 2}) bludgeoning damage. If the target is a Huge or smaller creature, it is {grappled} (escape {15}) and takes 9 (1d8 + 5}) psychic damage at the start of each of its turns until the grapple ends. The elder brain can have up to four targets {grappled} at a time."
 					]
 				},
 				{
-					"name": "Mind Blast {@recharge 5}",
+					"name": "Mind Blast {Recharge - 5}",
 					"entries": [
-						"Creatures of the elder brain's choice within 60 feet of it must succeed on a {@dc 18} Intelligence saving throw or take 32 ({@damage 5d10 + 5}) psychic damage and be {@condition stunned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Creatures of the elder brain's choice within 60 feet of it must succeed on a {18} Intelligence saving throw or take 32 (5d10 + 5}) psychic damage and be {stunned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -13169,7 +13169,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Psychic Link",
 					"entries": [
-						"The elder brain targets one {@condition incapacitated} creature it senses with its Creature Sense trait and establishes a psychic link with the target. Until the link ends, the elder brain can perceive everything the target senses. The target becomes aware that something is linked to its mind once it is no longer {@condition incapacitated}, and the elder brain can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the link, doing so with a successful {@dc 18} Charisma saving throw. On a successful save, the target takes 10 ({@damage 3d6}) psychic damage. The link also ends if the target and the elder brain are more than 5 miles apart. The elder brain can form psychic links with up to ten creatures at a time."
+						"The elder brain targets one {incapacitated} creature it senses with its Creature Sense trait and establishes a psychic link with the target. Until the link ends, the elder brain can perceive everything the target senses. The target becomes aware that something is linked to its mind once it is no longer {incapacitated}, and the elder brain can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the link, doing so with a successful {18} Charisma saving throw. On a successful save, the target takes 10 (3d6}) psychic damage. The link also ends if the target and the elder brain are more than 5 miles apart. The elder brain can form psychic links with up to ten creatures at a time."
 					]
 				},
 				{
@@ -13183,13 +13183,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Break Concentration",
 					"entries": [
-						"The elder brain targets one creature within 120 feet of it with which it has a psychic link. The elder brain breaks the creature's concentration on a spell it has cast. The creature also takes 2 ({@damage 1d4}) psychic damage per level of the spell."
+						"The elder brain targets one creature within 120 feet of it with which it has a psychic link. The elder brain breaks the creature's concentration on a spell it has cast. The creature also takes 2 (1d4}) psychic damage per level of the spell."
 					]
 				},
 				{
 					"name": "Psychic Pulse",
 					"entries": [
-						"The elder brain targets one creature within 120 feet of it with which it has a psychic link. The target and enemies of the elder brain within 30 feet of target take 10 ({@damage 3d6}) psychic damage."
+						"The elder brain targets one creature within 120 feet of it with which it has a psychic link. The target and enemies of the elder brain within 30 feet of target take 10 (3d6}) psychic damage."
 					]
 				},
 				{
@@ -13322,18 +13322,18 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"The oblex casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 18}):"
+						"The oblex casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {18}):"
 					],
 					"will": [
-						"{@spell charm person} (as 5th-level spell)",
-						"{@spell detect thoughts}"
+						"{ charm person} (as 5th-level spell)",
+						"{ detect thoughts}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dimension door}",
-							"{@spell dominate person}",
-							"{@spell hypnotic pattern}",
-							"{@spell telekinesis}"
+							"{ dimension door}",
+							"{ dominate person}",
+							"{ hypnotic pattern}",
+							"{ telekinesis}"
 						]
 					},
 					"ability": "int",
@@ -13370,14 +13370,14 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}17 ({@damage 4d6 + 3}) bludgeoning damage plus 14 ({@damage 4d6}) psychic damage."
+						"{1d20+7} to hit, reach 10 ft., one target. 17 (4d6 + 3}) bludgeoning damage plus 14 (4d6}) psychic damage."
 					]
 				},
 				{
 					"name": "Eat Memories",
 					"entries": [
-						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 18} Wisdom saving throw or take 44 ({@damage 8d10}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the {@spell greater restoration} or {@spell heal} spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.",
-						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {@condition unconscious} for 1 hour. The effect then ends.",
+						"The oblex targets one creature it can see within 5 feet of it. The target must succeed on a {18} Wisdom saving throw or take 44 (8d10}) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the { greater restoration} or { heal} spell. Constructs, Oozes, Plants, and Undead succeed on the save automatically.",
+						"While memory drained, the target must roll a {@dice d4} and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the {@dice d4} becomes a {@dice d6}, the {@dice d6} becomes a {@dice d8}, and so on until the die becomes a {@dice d20}, at which point the target becomes {unconscious} for 1 hour. The effect then ends.",
 						"The oblex learns all the languages a memory-drained target knows and gains all its skill proficiencies."
 					]
 				}
@@ -13557,13 +13557,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Thunderous Slam",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 20 ft., one target. {@h}23 ({@damage 4d6 + 9}) thunder damage."
+						"{1d20+16} to hit, reach 20 ft., one target. 23 (4d6 + 9}) thunder damage."
 					]
 				},
 				{
-					"name": "Lightning Storm {@recharge}",
+					"name": "Lightning Storm {Recharge -}",
 					"entries": [
-						"Each creature within 120 feet of the tempest must make a {@dc 21} Dexterity saving throw, taking 27 ({@damage 6d8}) lightning damage on a failed save, or half as much damage on a successful one. If a target's saving throw fails by 5 or more, the creature is also {@condition stunned} until the end of its next turn."
+						"Each creature within 120 feet of the tempest must make a {21} Dexterity saving throw, taking 27 (6d8}) lightning damage on a failed save, or half as much damage on a successful one. If a target's saving throw fails by 5 or more, the creature is also {stunned} until the end of its next turn."
 					]
 				}
 			],
@@ -13577,13 +13577,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Lightning Strike (Costs 2 Actions)",
 					"entries": [
-						"The tempest can cause a bolt of lightning to strike a point on the ground anywhere under its storm. Each creature within 5 feet of that point must make a {@dc 21} Dexterity saving throw, taking 16 ({@damage 3d10}) lightning damage on a failed save, or half as much damage on a successful one."
+						"The tempest can cause a bolt of lightning to strike a point on the ground anywhere under its storm. Each creature within 5 feet of that point must make a {21} Dexterity saving throw, taking 16 (3d10}) lightning damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
 					"name": "Screaming Gale (Costs 3 Actions)",
 					"entries": [
-						"The tempest releases a blast of thunder and wind in a line that is 300 feet long and 20 feet wide. Objects in that area take 22 ({@damage 4d10}) thunder damage. Each creature there must succeed on a {@dc 21} Dexterity saving throw or take 22 ({@damage 4d10}) thunder damage and be flung up to 60 feet in a direction away from the line. If a thrown target collides with an immovable object (such as a wall or floor) or another creature, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown before impact. If the target collides with another creature, that other creature must succeed on a {@dc 19} Dexterity saving throw or take the same impact damage and be knocked {@condition prone}."
+						"The tempest releases a blast of thunder and wind in a line that is 300 feet long and 20 feet wide. Objects in that area take 22 (4d10}) thunder damage. Each creature there must succeed on a {21} Dexterity saving throw or take 22 (4d10}) thunder damage and be flung up to 60 feet in a direction away from the line. If a thrown target collides with an immovable object (such as a wall or floor) or another creature, the target takes 3 (1d6}) bludgeoning damage for every 10 feet it was thrown before impact. If the target collides with another creature, that other creature must succeed on a {19} Dexterity saving throw or take the same impact damage and be knocked {prone}."
 					]
 				}
 			],
@@ -13650,7 +13650,7 @@ export const bestiaryMPMM = {
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -13684,21 +13684,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The enchanter casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}):"
+						"The enchanter casts one of the following spells, using Intelligence as the spellcasting ability (spell save {14}):"
 					],
 					"will": [
-						"{@spell friends}",
-						"{@spell mage hand}",
-						"{@spell message}"
+						"{ friends}",
+						"{ mage hand}",
+						"{ message}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell charm person}",
-							"{@spell mage armor}",
-							"{@spell hold person}",
-							"{@spell invisibility}",
-							"{@spell suggestion}",
-							"{@spell tongues}"
+							"{ charm person}",
+							"{ mage armor}",
+							"{ hold person}",
+							"{ invisibility}",
+							"{ suggestion}",
+							"{ tongues}"
 						]
 					},
 					"ability": "int",
@@ -13715,15 +13715,15 @@ export const bestiaryMPMM = {
 				{
 					"name": "Arcane Burst",
 					"entries": [
-						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 120 ft., one target. {@h}19 ({@damage 3d10 + 3}) psychic damage."
+						"{1d20 +6} to hit, reach 5 ft. or range 120 ft., one target. 19 (3d10 + 3}) psychic damage."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Instinctive Charm {@recharge 4}",
+					"name": "Instinctive Charm {Recharge - 4}",
 					"entries": [
-						"When a visible creature within 30 feet of the enchanter makes an attack roll against it, the enchanter forces the attacker to make a {@dc 14} Wisdom saving throw. On a failed save, the attacker redirects the attack roll to the creature closest to it, other than the enchanter or itself. If multiple eligible creatures are closest, the attacker chooses which one to target."
+						"When a visible creature within 30 feet of the enchanter makes an attack roll against it, the enchanter forces the attacker to make a {14} Wisdom saving throw. On a failed save, the attacker redirects the attack roll to the creature closest to it, other than the enchanter or itself. If multiple eligible creatures are closest, the attacker chooses which one to target."
 					]
 				}
 			],
@@ -13777,7 +13777,7 @@ export const bestiaryMPMM = {
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -13811,22 +13811,22 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The evoker casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"The evoker casts one of the following spells, using Intelligence as the spellcasting ability (spell save {15}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand}",
-						"{@spell message}",
-						"{@spell prestidigitation}"
+						"{ light}",
+						"{ mage hand}",
+						"{ message}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell ice storm}",
-							"{@spell lightning bolt}",
-							"{@spell mage armor}"
+							"{ ice storm}",
+							"{ lightning bolt}",
+							"{ mage armor}"
 						],
 						"1e": [
-							"{@spell wall of ice}"
+							"{ wall of ice}"
 						]
 					},
 					"ability": "int",
@@ -13843,13 +13843,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Arcane Burst",
 					"entries": [
-						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}25 ({@damage 4d10 + 3}) force damage."
+						"{1d20 +7} to hit, reach 5 ft. or range 120 ft., one target. 25 (4d10 + 3}) force damage."
 					]
 				},
 				{
-					"name": "Sculpted Explosion {@recharge 4}",
+					"name": "Sculpted Explosion {Recharge - 4}",
 					"entries": [
-						"The evoker unleashes a magical explosion of a particular damage type: cold, fire, lightning, or thunder. The magic erupts in a 20-foot-radius sphere centered on a point within 150 feet of the evoker. Each creature in that area must make a {@dc 15} Dexterity saving throw. The evoker can select up to three creatures it can see in the area to ignore the spell, as the evoker sculpts the spell's energy around them. On a failed save, a creature takes 40 ({@damage 9d8}) damage of the chosen type and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}."
+						"The evoker unleashes a magical explosion of a particular damage type: cold, fire, lightning, or thunder. The magic erupts in a 20-foot-radius sphere centered on a point within 150 feet of the evoker. Each creature in that area must make a {15} Dexterity saving throw. The evoker can select up to three creatures it can see in the area to ignore the spell, as the evoker sculpts the spell's energy around them. On a failed save, a creature takes 40 (9d8}) damage of the chosen type and is knocked {prone}. On a successful save, a creature takes half as much damage and isn't knocked {prone}."
 					]
 				}
 			],
@@ -13953,13 +13953,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 9 ({@damage 2d8}) poison damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 7 (1d8 + 3}) piercing damage plus 9 (2d8}) poison damage."
 					]
 				},
 				{
 					"name": "Sticky Leg",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one Medium or smaller creature. {@h}The target is stuck to the steeder's leg and {@condition grappled} (escape {@dc 12}). The steeder can have only one creature {@condition grappled} at a time."
+						"{1d20+5} to hit, reach 5 ft., one Medium or smaller creature. The target is stuck to the steeder's leg and {grappled} (escape {12}). The steeder can have only one creature {grappled} at a time."
 					]
 				}
 			],
@@ -14069,7 +14069,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Water Susceptibility",
 					"entries": [
-						"For every 5 feet the myrmidon moves in 1 foot or more of water, it takes 2 ({@damage 1d4}) cold damage."
+						"For every 5 feet the myrmidon moves in 1 foot or more of water, it takes 2 (1d4}) cold damage."
 					]
 				}
 			],
@@ -14083,13 +14083,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) force damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 7 (1d6 + 4}) force damage."
 					]
 				},
 				{
-					"name": "Fiery Strikes {@recharge}",
+					"name": "Fiery Strikes {Recharge -}",
 					"entries": [
-						"The myrmidon uses Multiattack. Each attack that hits deals an extra 7 ({@damage 2d6}) fire damage."
+						"The myrmidon uses Multiattack. Each attack that hits deals an extra 7 (2d6}) fire damage."
 					]
 				}
 			],
@@ -14198,19 +14198,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fireshield",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d6 + 8}) bludgeoning damage plus 7 ({@damage 2d6}) fire damage plus 7 ({@damage 2d6}) piercing damage."
+						"{1d20+13} to hit, reach 5 ft., one target. 22 (4d6 + 8}) bludgeoning damage plus 7 (2d6}) fire damage plus 7 (2d6}) piercing damage."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"{@atk rw} {@hit 13} to hit, range 60/240 ft., one target. {@h}30 ({@damage 4d10 + 8}) bludgeoning damage."
+						"1d20+13} to hit, range 60/240 ft., one target. 30 (4d10 + 8}) bludgeoning damage."
 					]
 				},
 				{
-					"name": "Shield Charge {@recharge 5}",
+					"name": "Shield Charge {Recharge - 5}",
 					"entries": [
-						"The giant moves up to 30 feet in a straight line and can move through the space of any creature smaller than Huge. The first time it enters a creature's space during this move, that creature must succeed on a {@dc 21} Strength saving throw or take 36 ({@damage 8d6 + 8}) bludgeoning damage plus 14 ({@damage 4d6}) fire damage and be pushed up to 30 feet and knocked {@condition prone}."
+						"The giant moves up to 30 feet in a straight line and can move through the space of any creature smaller than Huge. The first time it enters a creature's space during this move, that creature must succeed on a {21} Strength saving throw or take 36 (8d6 + 8}) bludgeoning damage plus 14 (4d6}) fire damage and be pushed up to 30 feet and knocked {prone}."
 					]
 				}
 			],
@@ -14295,14 +14295,14 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The firenewt casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 12}):"
+						"The firenewt casts one of the following spells, using Charisma as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell guidance}",
-						"{@spell light}",
-						"{@spell mage armor}",
-						"{@spell mage hand}",
-						"{@spell prestidigitation}"
+						"{ guidance}",
+						"{ light}",
+						"{ mage armor}",
+						"{ mage hand}",
+						"{ prestidigitation}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -14338,13 +14338,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Morningstar",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+						"{1d20+3} to hit, reach 5 ft., one target. 5 (1d8 + 1}) piercing damage."
 					]
 				},
 				{
 					"name": "Fire Ray",
 					"entries": [
-						"{@atk rs} {@hit 4} to hit, range 120 ft., one target. {@h}5 ({@damage 1d6 + 2}) fire damage."
+						"{@atk rs} +4} to hit, range 120 ft., one target. 5 (1d6 + 2}) fire damage."
 					]
 				}
 			],
@@ -14446,13 +14446,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+						"{1d20+3} to hit, reach 5 ft., one target. 4 (1d6 + 1}) slashing damage."
 					]
 				},
 				{
 					"name": "Spit Fire (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The firenewt spits fire at a creature within 10 feet of it. The creature must make a {@dc 11} Dexterity saving throw, taking 9 ({@damage 2d8}) fire damage on a failed save, or half as much damage on a successful one."
+						"The firenewt spits fire at a creature within 10 feet of it. The creature must make a {11} Dexterity saving throw, taking 9 (2d8}) fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -14543,7 +14543,7 @@ export const bestiaryMPMM = {
 					"name": "Antimagic Shell",
 					"entries": [
 						"The snail has advantage on saving throws against spells, and any creature making a spell attack against the snail has disadvantage on the attack roll.",
-						"If the snail succeeds on its saving throw against a spell or a spell's attack roll misses it, the snail's shell converts some of the spell's energy into a burst of destructive force if the spell is of 1st level or higher; each creature within 30 feet of the snail must make a {@dc 15} Constitution saving throw, taking 3 ({@damage 1d6}) force damage per level of the spell on a failed save, or half as much damage on a successful one."
+						"If the snail succeeds on its saving throw against a spell or a spell's attack roll misses it, the snail's shell converts some of the spell's energy into a burst of destructive force if the spell is of 1st level or higher; each creature within 30 feet of the snail must make a {15} Constitution saving throw, taking 3 (1d6}) force damage per level of the spell on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -14557,19 +14557,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Flail Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+						"{1d20+5} to hit, reach 10 ft., one target. 5 (1d4 + 3}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Scintillating Shell (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The snail's shell emits dazzling, colored light until the end of the snail's next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} until the light ends."
+						"The snail's shell emits dazzling, colored light until the end of the snail's next turn. During this time, the shell sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and creatures that can see the snail have disadvantage on attack rolls against it. In addition, any creature within the bright light and able to see the snail when this power is activated must succeed on a {15} Wisdom saving throw or be {stunned} until the light ends."
 					]
 				},
 				{
 					"name": "Shell Defense",
 					"entries": [
-						"The flail snail withdraws into its shell. Until it emerges, it gains a +4 bonus to its AC and is {@condition restrained}. It can emerge from its shell as a bonus action on its turn."
+						"The flail snail withdraws into its shell. Until it emerges, it gains a +4 bonus to its AC and is {restrained}. It can emerge from its shell as a bonus action on its turn."
 					]
 				}
 			],
@@ -14671,7 +14671,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Aura of Blood Thirst",
 					"entries": [
-						"If the flind isn't {@condition incapacitated}, any creature with the Rampage trait can make a Bite attack as a bonus action while within 10 feet of the flind."
+						"If the flind isn't {incapacitated}, any creature with the Rampage trait can make a Bite attack as a bonus action while within 10 feet of the flind."
 					]
 				}
 			],
@@ -14685,25 +14685,25 @@ export const bestiaryMPMM = {
 				{
 					"name": "Flail of Chaos",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage, and the target must make a {@dc 16} Wisdom saving throw. On a failed save, the target must use its reaction, if available, to make one melee attack against a random creature, other than the flind, within its reach. If there's no creature within reach, the target instead moves half its speed in a random direction."
+						"{1d20+9} to hit, reach 10 ft., one target. 10 (1d10 + 5}) bludgeoning damage, and the target must make a {16} Wisdom saving throw. On a failed save, the target must use its reaction, if available, to make one melee attack against a random creature, other than the flind, within its reach. If there's no creature within reach, the target instead moves half its speed in a random direction."
 					]
 				},
 				{
 					"name": "Flail of Pain",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage plus 16 ({@damage 3d10}) psychic damage."
+						"{1d20+9} to hit, reach 10 ft., one target. 10 (1d10 + 5}) bludgeoning damage plus 16 (3d10}) psychic damage."
 					]
 				},
 				{
 					"name": "Flail of Paralysis",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d10 + 5}) bludgeoning damage, and the target must succeed on a {@dc 16} Constitution saving throw or be {@condition paralyzed} until the end of its next turn."
+						"{1d20+9} to hit, reach 10 ft., one target. 10 (1d10 + 5}) bludgeoning damage, and the target must succeed on a {16} Constitution saving throw or be {paralyzed} until the end of its next turn."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"1d20+6} to hit, range 150/600 ft., one target. 6 (1d8 + 2}) piercing damage."
 					]
 				}
 			],
@@ -14841,23 +14841,23 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Fraz-Urb'luu casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
+						"Fraz-Urb'luu casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {23}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell phantasmal force}"
+						"{ alter self} (can become Medium when changing his appearance)",
+						"{ detect magic}",
+						"{ dispel magic}",
+						"{ phantasmal force}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell mislead}",
-							"{@spell programmed illusion}",
-							"{@spell seeming}"
+							"{ mislead}",
+							"{ programmed illusion}",
+							"{ seeming}"
 						],
 						"1e": [
-							"{@spell modify memory}",
-							"{@spell project image}"
+							"{ modify memory}",
+							"{ project image}"
 						]
 					},
 					"ability": "cha",
@@ -14894,19 +14894,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}19 ({@damage 3d6 + 9}) force damage."
+						"{1d20+16} to hit, reach 10 ft., one target. 19 (3d6 + 9}) force damage."
 					]
 				},
 				{
 					"name": "Fist",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d8 + 9}) force damage."
+						"{1d20+16} to hit, reach 10 ft., one target. 22 (3d8 + 9}) force damage."
 					]
 				},
 				{
 					"name": "Phantasmal Terror",
 					"entries": [
-						"Fraz-Urb'luu targets one creature he can see within 120 feet of him. The target must succeed on a {@dc 23} Wisdom saving throw, or it takes 16 ({@damage 3d10}) psychic damage and is {@condition frightened} of Fraz-Urb'luu until the end of its next turn."
+						"Fraz-Urb'luu targets one creature he can see within 120 feet of him. The target must succeed on a {23} Wisdom saving throw, or it takes 16 (3d10}) psychic damage and is {frightened} of Fraz-Urb'luu until the end of its next turn."
 					]
 				}
 			],
@@ -14914,7 +14914,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 9}) force damage. If the target is a Large or smaller creature, it is also {@condition grappled} (escape {@dc 24}), and it is {@condition restrained} until the grapple ends. Fraz-Urb'luu can grapple only one creature with his tail at a time."
+						"{1d20+16} to hit, reach 15 ft., one target. 20 (2d10 + 9}) force damage. If the target is a Large or smaller creature, it is also {grappled} (escape {24}), and it is {restrained} until the grapple ends. Fraz-Urb'luu can grapple only one creature with his tail at a time."
 					]
 				},
 				{
@@ -15057,20 +15057,20 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage, and the target is swallowed if it is a Medium or smaller creature. A swallowed creature is {@condition blinded} and {@condition restrained}, has total cover against attacks and other effects outside the froghemoth, and takes 10 ({@damage 3d6}) acid damage at the start of each of the froghemoth's turns.",
-						"The froghemoth's gullet can hold up to two creatures at a time. If the froghemoth takes 20 damage or more on a single turn from a creature inside it, the froghemoth must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls {@condition prone} in a space within 10 feet of the froghemoth. If the froghemoth dies, any swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 10 feet of movement, exiting {@condition prone}."
+						"{1d20+10} to hit, reach 5 ft., one target. 22 (3d10 + 6}) piercing damage, and the target is swallowed if it is a Medium or smaller creature. A swallowed creature is {blinded} and {restrained}, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6}) acid damage at the start of each of the froghemoth's turns.",
+						"The froghemoth's gullet can hold up to two creatures at a time. If the froghemoth takes 20 damage or more on a single turn from a creature inside it, the froghemoth must succeed on a {20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls {prone} in a space within 10 feet of the froghemoth. If the froghemoth dies, any swallowed creature is no longer {restrained} by it and can escape from the corpse using 10 feet of movement, exiting {prone}."
 					]
 				},
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 20 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 16}) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles."
+						"{1d20+10} to hit, reach 20 ft., one target. 19 (3d8 + 6}) bludgeoning damage, and the target is {grappled} (escape {16}) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles."
 					]
 				},
 				{
 					"name": "Tongue",
 					"entries": [
-						"The froghemoth targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a {@dc 18} Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the froghemoth."
+						"The froghemoth targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a {18} Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the froghemoth."
 					]
 				}
 			],
@@ -15175,7 +15175,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Extra Heads",
 					"entries": [
-						"The giant has a {@chance 25} chance of having more than one head. If it has more than one, it has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}."
+						"The giant has a {@chance 25} chance of having more than one head. If it has more than one, it has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {blinded}, {charmed}, {deafened}, {frightened}, {stunned}, or knocked {unconscious}."
 					]
 				},
 				{
@@ -15195,13 +15195,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Greataxe",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}26 ({@damage 3d12 + 7}) slashing damage, or 30 ({@damage 3d12 + 11}) slashing damage while raging."
+						"{1d20+11} to hit, reach 10 ft., one target. 26 (3d12 + 7}) slashing damage, or 30 (3d12 + 11}) slashing damage while raging."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"{@atk rw} {@hit 11} to hit, range 60/240 ft., one target. {@h}29 ({@damage 4d10 + 7}) bludgeoning damage."
+						"1d20+11} to hit, range 60/240 ft., one target. 29 (4d10 + 7}) bludgeoning damage."
 					]
 				}
 			],
@@ -15209,7 +15209,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Vaprak's Rage (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The giant enters a rage. The rage lasts for 1 minute or until the giant is {@condition incapacitated}. While raging, the giant gains the following benefits:",
+						"The giant enters a rage. The rage lasts for 1 minute or until the giant is {incapacitated}. While raging, the giant gains the following benefits:",
 						{
 							"type": "list",
 							"items": [
@@ -15334,19 +15334,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage plus 5 ({@damage 1d10}) cold damage."
+						"{1d20+9} to hit, reach 15 ft., one target. 9 (1d8 + 5}) piercing damage plus 5 (1d10}) cold damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+						"{1d20+9} to hit, reach 10 ft., one target. 8 (1d6 + 5}) piercing damage."
 					]
 				},
 				{
-					"name": "Freezing Breath {@recharge}",
+					"name": "Freezing Breath {Recharge -}",
 					"entries": [
-						"The salamander exhales chill wind in a 60-foot cone. Each creature in that area must make a {@dc 17} Constitution saving throw, taking 44 ({@damage 8d10}) cold damage on a failed save, or half as much damage on a successful one."
+						"The salamander exhales chill wind in a 60-foot cone. Each creature in that area must make a {17} Constitution saving throw, taking 44 (8d10}) cold damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -15455,14 +15455,14 @@ export const bestiaryMPMM = {
 				{
 					"name": "Stunning Gaze",
 					"entries": [
-						"When a creature that can see the gauth's central eye starts its turn within 30 feet of the gauth, the gauth can force it to make a {@dc 14} Wisdom saving throw if the gauth isn't {@condition incapacitated} and can see the creature. A creature that fails the save is {@condition stunned} until the start of its next turn.",
+						"When a creature that can see the gauth's central eye starts its turn within 30 feet of the gauth, the gauth can force it to make a {14} Wisdom saving throw if the gauth isn't {incapacitated} and can see the creature. A creature that fails the save is {stunned} until the start of its next turn.",
 						"Unless {@quickref Surprise|PHB|3|0|surprised}, a creature can avert its eyes at the start of its turn to avoid the saving throw. If the creature does so, it can't see the gauth until the start of its next turn, when it can avert its eyes again. If the creature looks at the gauth in the meantime, it must immediately make the save."
 					]
 				},
 				{
 					"name": "Death Throes",
 					"entries": [
-						"When the gauth dies, the magical energy within it explodes, and each creature within 10 feet of it must make a {@dc 14} Dexterity saving throw, taking 13 ({@damage 3d8}) force damage on a failed save, or half as much damage on a successful one."
+						"When the gauth dies, the magical energy within it explodes, and each creature within 10 feet of it must make a {14} Dexterity saving throw, taking 13 (3d8}) force damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -15470,7 +15470,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d8}) piercing damage."
+						"{1d20+3} to hit, reach 5 ft., one target. 9 (2d8}) piercing damage."
 					]
 				},
 				{
@@ -15484,42 +15484,42 @@ export const bestiaryMPMM = {
 								{
 									"name": "1: Devour Magic Ray",
 									"entries": [
-										"The target must succeed on a {@dc 14} Dexterity saving throw or have one of its magic items lose all magical properties until the start of the gauth's next turn. If the object is a charged item, it also loses {@dice 1d4} charges. Determine the affected item randomly, ignoring single-use items such as potions and scrolls."
+										"The target must succeed on a {14} Dexterity saving throw or have one of its magic items lose all magical properties until the start of the gauth's next turn. If the object is a charged item, it also loses {@dice 1d4} charges. Determine the affected item randomly, ignoring single-use items such as potions and scrolls."
 									],
 									"type": "item"
 								},
 								{
 									"name": "2: Enervation Ray",
 									"entries": [
-										"The target must make a {@dc 14} Constitution saving throw, taking 18 ({@damage 4d8}) necrotic damage on a failed save, or half as much damage on a successful one."
+										"The target must make a {14} Constitution saving throw, taking 18 (4d8}) necrotic damage on a failed save, or half as much damage on a successful one."
 									],
 									"type": "item"
 								},
 								{
 									"name": "3: Fire Ray",
 									"entries": [
-										"The target must succeed on a {@dc 14} Dexterity saving throw or take 22 ({@damage 4d10}) fire damage."
+										"The target must succeed on a {14} Dexterity saving throw or take 22 (4d10}) fire damage."
 									],
 									"type": "item"
 								},
 								{
 									"name": "4: Paralyzing Ray",
 									"entries": [
-										"The target must succeed on a {@dc 14} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+										"The target must succeed on a {14} Constitution saving throw or be {paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									],
 									"type": "item"
 								},
 								{
 									"name": "5: Pushing Ray",
 									"entries": [
-										"The target must succeed on a {@dc 14} Strength saving throw or be pushed up to 15 feet away from the gauth and have its speed halved until the start of the gauth's next turn."
+										"The target must succeed on a {14} Strength saving throw or be pushed up to 15 feet away from the gauth and have its speed halved until the start of the gauth's next turn."
 									],
 									"type": "item"
 								},
 								{
 									"name": "6: Sleep Ray",
 									"entries": [
-										"The target must succeed on a {@dc 14} Wisdom saving throw or fall asleep and remain {@condition unconscious} for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on Constructs and Undead."
+										"The target must succeed on a {14} Wisdom saving throw or fall asleep and remain {unconscious} for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on Constructs and Undead."
 									],
 									"type": "item"
 								}
@@ -15631,7 +15631,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Mimicry",
 					"entries": [
-						"The gazer can mimic simple sounds of speech it has heard, in any language. A creature that hears the sounds can tell they are imitations with a successful {@dc 10} Wisdom ({@skill Insight}) check."
+						"The gazer can mimic simple sounds of speech it has heard, in any language. A creature that hears the sounds can tell they are imitations with a successful {10} Wisdom ({@skill Insight}) check."
 					]
 				}
 			],
@@ -15639,7 +15639,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 1 piercing damage."
 					]
 				},
 				{
@@ -15653,28 +15653,28 @@ export const bestiaryMPMM = {
 								{
 									"name": "1: Dazing Ray",
 									"entries": [
-										"The targeted creature must succeed on a {@dc 12} Wisdom saving throw or be {@condition charmed} until the start of the gazer's next turn. While the target is {@condition charmed} in this way, its speed is halved, and it has disadvantage on attack rolls."
+										"The targeted creature must succeed on a {12} Wisdom saving throw or be {charmed} until the start of the gazer's next turn. While the target is {charmed} in this way, its speed is halved, and it has disadvantage on attack rolls."
 									],
 									"type": "item"
 								},
 								{
 									"name": "2: Fear Ray",
 									"entries": [
-										"The targeted creature must succeed on a {@dc 12} Wisdom saving throw or be {@condition frightened} until the start of the gazer's next turn."
+										"The targeted creature must succeed on a {12} Wisdom saving throw or be {frightened} until the start of the gazer's next turn."
 									],
 									"type": "item"
 								},
 								{
 									"name": "3: Frost Ray",
 									"entries": [
-										"The target must succeed on a {@dc 12} Dexterity saving throw or take 10 ({@damage 3d6}) cold damage."
+										"The target must succeed on a {12} Dexterity saving throw or take 10 (3d6}) cold damage."
 									],
 									"type": "item"
 								},
 								{
 									"name": "4: Telekinetic Ray",
 									"entries": [
-										"If the target is a creature that is Medium or smaller, it must succeed on a {@dc 12} Strength saving throw or be moved up to 30 feet directly away from the gazer. If the target is a Tiny object that isn't being worn or carried, the gazer moves it up to 30 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container."
+										"If the target is a creature that is Medium or smaller, it must succeed on a {12} Strength saving throw or be moved up to 30 feet directly away from the gazer. If the target is a Tiny object that isn't being worn or carried, the gazer moves it up to 30 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container."
 									],
 									"type": "item"
 								}
@@ -15831,20 +15831,20 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Geryon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
+						"Geryon casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {21}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell detect magic}",
-						"{@spell ice storm}",
-						"{@spell invisibility} (self only)",
-						"{@spell locate object}",
-						"{@spell suggestion}",
-						"{@spell wall of ice}"
+						"{ alter self} (can become Medium when changing his appearance)",
+						"{ detect magic}",
+						"{ ice storm}",
+						"{ invisibility} (self only)",
+						"{ locate object}",
+						"{ suggestion}",
+						"{ wall of ice}"
 					],
 					"daily": {
 						"1": [
-							"{@spell banishment}"
+							"{ banishment}"
 						]
 					},
 					"ability": "cha",
@@ -15881,13 +15881,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}23 ({@damage 4d6 + 9}) cold damage. If the target is Large or smaller, it is {@condition grappled} ({@dc 24}), and it is {@condition restrained} until the grapple ends. Geryon can grapple one creature at a time. If the target is already {@condition grappled} by Geryon, the target takes an extra 27 ({@damage 6d8}) cold damage."
+						"{1d20+16} to hit, reach 15 ft., one target. 23 (4d6 + 9}) cold damage. If the target is Large or smaller, it is {grappled} ({24}), and it is {restrained} until the grapple ends. Geryon can grapple one creature at a time. If the target is already {grappled} by Geryon, the target takes an extra 27 (6d8}) cold damage."
 					]
 				},
 				{
 					"name": "Stinger",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 20 ft., one creature. {@h}14 ({@damage 2d4 + 9}) force damage, and the target must succeed on a {@dc 21} Constitution saving throw or take 13 ({@damage 2d12}) poison damage and become {@condition poisoned} until it finishes a short or long rest. The target's hit point maximum is reduced by an amount equal to half the poison damage taken. This reduction lasts until the {@condition poisoned} condition is removed. The target dies if its hit point maximum is reduced to 0."
+						"{1d20+16} to hit, reach 20 ft., one creature. 14 (2d4 + 9}) force damage, and the target must succeed on a {21} Constitution saving throw or take 13 (2d12}) poison damage and become {poisoned} until it finishes a short or long rest. The target's hit point maximum is reduced by an amount equal to half the poison damage taken. This reduction lasts until the {poisoned} condition is removed. The target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
@@ -15901,7 +15901,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Infernal Glare",
 					"entries": [
-						"Geryon targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 23} Wisdom saving throw or become {@condition frightened} of Geryon until the end of its next turn."
+						"Geryon targets one creature he can see within 60 feet of him. The target must succeed on a {23} Wisdom saving throw or become {frightened} of Geryon until the end of its next turn."
 					]
 				},
 				{
@@ -16054,13 +16054,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 8 (1d8 + 4}) piercing damage."
 					]
 				},
 				{
-					"name": "Fire Burst {@recharge 5}",
+					"name": "Fire Burst {Recharge - 5}",
 					"entries": [
-						"The giant strider hurls a gout of flame at a point it can see within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a {@dc 12} Dexterity saving throw, taking 14 ({@damage 4d6}) fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners, and it ignites flammable objects in that area that aren't being worn or carried"
+						"The giant strider hurls a gout of flame at a point it can see within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a {12} Dexterity saving throw, taking 14 (4d6}) fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners, and it ignites flammable objects in that area that aren't being worn or carried"
 					]
 				}
 			],
@@ -16144,7 +16144,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Headfirst Charge",
 					"entries": [
-						"The giff can try to knock a creature over; if the giff moves at least 20 feet in a straight line and ends within 5 feet of a Large or smaller creature, that creature must succeed on a {@dc 14} Strength saving throw or take 7 ({@damage 2d6}) bludgeoning damage and be knocked {@condition prone}."
+						"The giff can try to knock a creature over; if the giff moves at least 20 feet in a straight line and ends within 5 feet of a Large or smaller creature, that creature must succeed on a {14} Strength saving throw or take 7 (2d6}) bludgeoning damage and be knocked {prone}."
 					]
 				}
 			],
@@ -16158,25 +16158,25 @@ export const bestiaryMPMM = {
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands."
+						"{1d20+6} to hit, reach 5 ft., one target. 8 (1d8 + 4}) slashing damage, or 9 (1d10 + 4}) slashing damage if used with two hands."
 					]
 				},
 				{
 					"name": "Musket",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 40/120 ft., one target. {@h}8 ({@damage 1d12 + 2}) piercing damage."
+						"1d20+4} to hit, range 40/120 ft., one target. 8 (1d12 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Pistol",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/90 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+						"1d20+4} to hit, range 30/90 ft., one target. 7 (1d10 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Fragmentation Grenade (1/Day)",
 					"entries": [
-						"The giff throws a grenade up to 60 feet, and the grenade explodes in a 20-foot-radius sphere. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 17 ({@damage 5d6}) piercing damage on a failed save, or half as much damage on a successful one."
+						"The giff throws a grenade up to 60 feet, and the grenade explodes in a 20-foot-radius sphere. Each creature in that area must make a {15} Dexterity saving throw, taking 17 (5d6}) piercing damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -16263,13 +16263,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+						"{1d20+6} to hit, reach 5 ft., one creature. 7 (1d6 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+						"{1d20+6} to hit, reach 10 ft., one target. 7 (1d6 + 4}) slashing damage."
 					]
 				}
 			],
@@ -16369,23 +16369,23 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {15}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell mage hand} (the hand is invisible)",
-						"{@spell message}"
+						"{ light}",
+						"{ mage hand} (the hand is invisible)",
+						"{ message}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell fireball}",
-							"{@spell invisibility}",
-							"{@spell nondetection} (self only)"
+							"{ fireball}",
+							"{ invisibility}",
+							"{ nondetection} (self only)"
 						],
 						"1e": [
-							"{@spell dimension door}",
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{ dimension door}",
+							"{ plane shift}",
+							"{ telekinesis}"
 						]
 					},
 					"ability": "int",
@@ -16402,19 +16402,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands, plus 22 ({@damage 5d8}) psychic damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 7 (1d8 + 3}) slashing damage, or 8 (1d10 + 3}) slashing damage if used with two hands, plus 22 (5d8}) psychic damage."
 					]
 				},
 				{
 					"name": "Telekinetic Bolt",
 					"entries": [
-						"{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}28 ({@damage 8d6}) force damage."
+						"{@atk rs} +7} to hit, range 120 ft., one target. 28 (8d6}) force damage."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Astral Step {@recharge 4}",
+					"name": "Astral Step {Recharge - 4}",
 					"entries": [
 						"The githyanki teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
 					]
@@ -16519,19 +16519,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {15}):"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{ mage hand} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell blur}",
-							"{@spell nondetection} (self only)"
+							"{ blur}",
+							"{ nondetection} (self only)"
 						],
 						"1e": [
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{ plane shift}",
+							"{ telekinesis}"
 						]
 					},
 					"ability": "int",
@@ -16548,13 +16548,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Greatsword",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 17 ({@damage 5d6}) psychic damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 11 (2d6 + 4}) slashing damage plus 17 (5d6}) psychic damage."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Astral Step {@recharge 4}",
+					"name": "Astral Step {Recharge - 4}",
 					"entries": [
 						"The githyanki teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
 					]
@@ -16562,7 +16562,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Rally the Troops",
 					"entries": [
-						"The githyanki magically ends the {@condition charmed} and {@condition frightened} conditions on itself and each creature of its choice that it can see within 30 feet of it."
+						"The githyanki magically ends the {charmed} and {frightened} conditions on itself and each creature of its choice that it can see within 30 feet of it."
 					]
 				}
 			],
@@ -16668,21 +16668,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
+						"The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{ mage hand} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell levitate} (self only)",
-							"{@spell nondetection} (self only)"
+							"{ levitate} (self only)",
+							"{ nondetection} (self only)"
 						],
 						"1e": [
-							"{@spell Bigby's hand}",
-							"{@spell mass suggestion}",
-							"{@spell plane shift}",
-							"{@spell telekinesis}"
+							"{ Bigby's hand}",
+							"{ mass suggestion}",
+							"{ plane shift}",
+							"{ telekinesis}"
 						]
 					},
 					"ability": "int",
@@ -16707,7 +16707,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Silver Greatsword",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage plus 17 ({@damage 5d6}) psychic damage. On a critical hit against a target in an astral body (as with the {@spell astral projection} spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
+						"{1d20+12} to hit, reach 5 ft., one target. 14 (2d6 + 7}) slashing damage plus 17 (5d6}) psychic damage. On a critical hit against a target in an astral body (as with the { astral projection} spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
 					]
 				}
 			],
@@ -16852,20 +16852,20 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"The githzerai casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 18}):"
+						"The githzerai casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {18}):"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{ mage hand} (the hand is invisible)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell see invisibility}",
-							"{@spell telekinesis}"
+							"{ see invisibility}",
+							"{ telekinesis}"
 						],
 						"1e": [
-							"{@spell globe of invulnerability}",
-							"{@spell plane shift}",
-							"{@spell wall of force}"
+							"{ globe of invulnerability}",
+							"{ plane shift}",
+							"{ wall of force}"
 						]
 					},
 					"ability": "wis",
@@ -16896,7 +16896,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage plus 18 ({@damage 4d8}) psychic damage."
+						"{1d20+10} to hit, reach 5 ft., one target. 9 (1d8 + 5}) bludgeoning damage plus 18 (4d8}) psychic damage."
 					]
 				}
 			],
@@ -16916,7 +16916,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Change Gravity (Costs 3 Actions)",
 					"entries": [
-						"The githzerai casts the {@spell reverse gravity} spell, using Wisdom as the spellcasting ability. The spell has the normal effect, except that the githzerai can orient the area in any direction and creatures and objects fall toward the end of the area."
+						"The githzerai casts the { reverse gravity} spell, using Wisdom as the spellcasting ability. The spell has the normal effect, except that the githzerai can orient the area in any direction and creatures and objects fall toward the end of the area."
 					]
 				}
 			],
@@ -17017,18 +17017,18 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"The githzerai casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 16}):"
+						"The githzerai casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell mage hand} (the hand is invisible)"
+						"{ mage hand} (the hand is invisible)"
 					],
 					"daily": {
 						"3": [
-							"{@spell see invisibility}"
+							"{ see invisibility}"
 						],
 						"1e": [
-							"{@spell plane shift}",
-							"{@spell teleport}"
+							"{ plane shift}",
+							"{ teleport}"
 						]
 					},
 					"ability": "wis",
@@ -17053,13 +17053,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage plus 18 ({@damage 4d8}) psychic damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 13 (2d8 + 4}) bludgeoning damage plus 18 (4d8}) psychic damage."
 					]
 				},
 				{
-					"name": "Temporal Strike {@recharge}",
+					"name": "Temporal Strike {Recharge -}",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage plus 52 ({@damage 8d12}) psychic damage. The target must succeed on a {@dc 16} Wisdom saving throw or move 1 round forward in time. A target moved forward in time vanishes for the duration. When the effect ends, the target reappears in the space it left or in an unoccupied space nearest to that space if it's occupied."
+						"{1d20+8} to hit, reach 5 ft., one creature. 13 (2d8 + 4}) bludgeoning damage plus 52 (8d12}) psychic damage. The target must succeed on a {16} Wisdom saving throw or move 1 round forward in time. A target moved forward in time vanishes for the duration. When the effect ends, the target reappears in the space it left or in an unoccupied space nearest to that space if it's occupied."
 					]
 				}
 			],
@@ -17161,13 +17161,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 4 (1d4 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 (1d6 + 2}) piercing damage."
 					]
 				},
 				{
@@ -17276,19 +17276,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 4 (1d4 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage when used with two hands to make a melee attack."
+						"{@atk mw,rw} +4} to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d6 + 2}) piercing damage, or 6 (1d8 + 2}) piercing damage when used with two hands to make a melee attack."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage, and the target's speed is reduced by 10 feet until the end of its next turn."
+						"1d20+4} to hit, range 150/600 ft., one target. 6 (1d8 + 2}) piercing damage, and the target's speed is reduced by 10 feet until the end of its next turn."
 					]
 				}
 			],
@@ -17404,13 +17404,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) necrotic damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 4 (1d4 + 2}) necrotic damage."
 					]
 				},
 				{
 					"name": "Spiked Club",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 4 (1d4 + 2}) piercing damage."
 					]
 				}
 			],
@@ -17526,13 +17526,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d12 + 4}) piercing damage. If the target is Medium or smaller, the target must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+						"{1d20+8} to hit, reach 5 ft., one target. 17 (2d12 + 4}) piercing damage. If the target is Medium or smaller, the target must succeed on a {16} Strength saving throw or be knocked {prone}."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage, plus 10 ({@damage 3d6}) bludgeoning damage if the target is {@condition prone}."
+						"{1d20+8} to hit, reach 10 ft., one target. 13 (2d8 + 4}) slashing damage, plus 10 (3d6}) bludgeoning damage if the target is {prone}."
 					]
 				}
 			],
@@ -17665,23 +17665,23 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Graz'zt casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
+						"Graz'zt casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {23}):"
 					],
 					"will": [
-						"{@spell charm person}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}"
+						"{ charm person}",
+						"{ detect magic}",
+						"{ dispel magic}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell darkness}",
-							"{@spell dominate person}",
-							"{@spell telekinesis}",
-							"{@spell teleport}"
+							"{ darkness}",
+							"{ dominate person}",
+							"{ telekinesis}",
+							"{ teleport}"
 						],
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell greater invisibility}"
+							"{ dominate monster}",
+							"{ greater invisibility}"
 						]
 					},
 					"ability": "cha",
@@ -17712,7 +17712,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Wave of Sorrow (Greatsword)",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}20 ({@damage 4d6 + 6}) force damage plus 14 ({@damage 4d6}) acid damage."
+						"{1d20+13} to hit, reach 10 ft., one target. 20 (4d6 + 6}) force damage plus 14 (4d6}) acid damage."
 					]
 				},
 				{
@@ -17732,7 +17732,7 @@ export const bestiaryMPMM = {
 			],
 			"reaction": [
 				{
-					"name": "Negate Spell {@recharge 5}",
+					"name": "Negate Spell {Recharge - 5}",
 					"entries": [
 						"Graz'zt tries to interrupt a spell he sees a creature casting within 60 feet of him. If the spell is 3rd level or lower, the spell fails and has no effect. If the spell is 4th level or higher, Graz'zt makes a Charisma check against a DC of 10 + the spell's level. On a success, the spell fails and has no effect."
 					]
@@ -17754,7 +17754,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dance, My Puppet!",
 					"entries": [
-						"One creature {@condition charmed} by Graz'zt that Graz'zt can see must use its reaction to move up to its speed as Graz'zt directs."
+						"One creature {charmed} by Graz'zt that Graz'zt can see must use its reaction to move up to its speed as Graz'zt directs."
 					]
 				}
 			],
@@ -17887,22 +17887,22 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The abishai casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+						"The abishai casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {17}):"
 					],
 					"will": [
-						"{@spell alter self}",
-						"{@spell major image}"
+						"{ alter self}",
+						"{ major image}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person}",
-							"{@spell detect thoughts}",
-							"{@spell fear}"
+							"{ charm person}",
+							"{ detect thoughts}",
+							"{ fear}"
 						],
 						"1e": [
-							"{@spell confusion}",
-							"{@spell dominate person}",
-							"{@spell mass suggestion}"
+							"{ confusion}",
+							"{ dominate person}",
+							"{ mass suggestion}"
 						]
 					},
 					"ability": "cha",
@@ -17933,7 +17933,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fiendish Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) force damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or take 16 ({@damage 3d10}) poison damage and become {@condition poisoned} for 1 minute. The {@condition poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+8} to hit, reach 5 ft., one target. 12 (2d8 + 3}) force damage. If the target is a creature, it must succeed on a {16} Constitution saving throw or take 16 (3d10}) poison damage and become {poisoned} for 1 minute. The {poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -18049,7 +18049,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Poisonous Skin",
 					"entries": [
-						"Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. A {@condition poisoned} creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a {12} Constitution saving throw or become {poisoned} for 1 minute. A {poisoned} creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -18061,7 +18061,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Water Dependency",
 					"entries": [
-						"If the grung isn't immersed in water for at least 1 hour during a day, it suffers 1 level of {@condition exhaustion} at the end of that day. The grung can recover from this {@condition exhaustion} only through magic or by immersing itself in water for at least 1 hour."
+						"If the grung isn't immersed in water for at least 1 hour during a day, it suffers 1 level of {exhaustion} at the end of that day. The grung can recover from this {exhaustion} only through magic or by immersing itself in water for at least 1 hour."
 					]
 				}
 			],
@@ -18069,7 +18069,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 5 ({@damage 2d4}) poison damage."
+						"{@atk mw,rw} +4} to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2}) piercing damage plus 5 (2d4}) poison damage."
 					]
 				}
 			],
@@ -18078,47 +18078,47 @@ export const bestiaryMPMM = {
 					"type": "variant",
 					"name": "Grung Poison",
 					"entries": [
-						"A creature {@condition poisoned} by a grung can suffer an additional effect that depends on the grung's color, as described below. This effect lasts until the creature is no longer {@condition poisoned} by the grung.",
+						"A creature {poisoned} by a grung can suffer an additional effect that depends on the grung's color, as described below. This effect lasts until the creature is no longer {poisoned} by the grung.",
 						{
 							"name": "Blue Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature must make a loud noise at the start and end of its turn."
+								"The {poisoned} creature must make a loud noise at the start and end of its turn."
 							]
 						},
 						{
 							"name": "Gold Grung",
 							"type": "entries",
 							"entries": [
-								"The creature is {@condition charmed} by the grung and can speak Grung."
+								"The creature is {charmed} by the grung and can speak Grung."
 							]
 						},
 						{
 							"name": "Green Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
+								"The {poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
 							]
 						},
 						{
 							"name": "Orange Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature is {@condition frightened} of its allies."
+								"The {poisoned} creature is {frightened} of its allies."
 							]
 						},
 						{
 							"name": "Purple Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
+								"The {poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
 							]
 						},
 						{
 							"name": "Red Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature must use its action to eat if food is within reach."
+								"The {poisoned} creature must use its action to eat if food is within reach."
 							]
 						}
 					]
@@ -18164,7 +18164,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature must make a loud noise at the start and end of its turn."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature must make a loud noise at the start and end of its turn."
 								]
 							}
 						}
@@ -18181,7 +18181,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The creature is {@condition charmed} by the grung and can speak Grung."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The creature is {charmed} by the grung and can speak Grung."
 								]
 							}
 						}
@@ -18198,7 +18198,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
 								]
 							}
 						}
@@ -18215,7 +18215,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature is {@condition frightened} of its allies."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature is {frightened} of its allies."
 								]
 							}
 						}
@@ -18232,7 +18232,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
 								]
 							}
 						}
@@ -18249,7 +18249,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature must use its action to eat if food is within reach."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature must use its action to eat if food is within reach."
 								]
 							}
 						}
@@ -18322,7 +18322,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Poisonous Skin",
 					"entries": [
-						"Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. A {@condition poisoned} creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a {12} Constitution saving throw or become {poisoned} for 1 minute. A {poisoned} creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -18334,7 +18334,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Water Dependency",
 					"entries": [
-						"If the grung isn't immersed in water for at least 1 hour during a day, it suffers 1 level of {@condition exhaustion} at the end of that day. The grung can recover from this {@condition exhaustion} only through magic or by immersing itself in water for at least 1 hour."
+						"If the grung isn't immersed in water for at least 1 hour during a day, it suffers 1 level of {exhaustion} at the end of that day. The grung can recover from this {exhaustion} only through magic or by immersing itself in water for at least 1 hour."
 					]
 				}
 			],
@@ -18342,19 +18342,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 5 ({@damage 2d4}) poison damage."
+						"{@atk mw,rw} +5} to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3}) piercing damage plus 5 (2d4}) poison damage."
 					]
 				},
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 5 ({@damage 2d4}) poison damage."
+						"1d20+5} to hit, range 80/320 ft., one target. 6 (1d6 + 3}) piercing damage plus 5 (2d4}) poison damage."
 					]
 				},
 				{
-					"name": "Mesmerizing Chirr {@recharge}",
+					"name": "Mesmerizing Chirr {Recharge -}",
 					"entries": [
-						"The grung makes a chirring noise to which grungs are immune. Each Humanoid or Beast that is within 15 feet of the grung and able to hear it must succeed on a {@dc 12} Wisdom saving throw or be {@condition stunned} until the end of the grung's next turn."
+						"The grung makes a chirring noise to which grungs are immune. Each Humanoid or Beast that is within 15 feet of the grung and able to hear it must succeed on a {12} Wisdom saving throw or be {stunned} until the end of the grung's next turn."
 					]
 				}
 			],
@@ -18363,47 +18363,47 @@ export const bestiaryMPMM = {
 					"type": "variant",
 					"name": "Grung Poison",
 					"entries": [
-						"A creature {@condition poisoned} by a grung can suffer an additional effect that depends on the grung's color, as described below. This effect lasts until the creature is no longer {@condition poisoned} by the grung.",
+						"A creature {poisoned} by a grung can suffer an additional effect that depends on the grung's color, as described below. This effect lasts until the creature is no longer {poisoned} by the grung.",
 						{
 							"name": "Blue Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature must make a loud noise at the start and end of its turn."
+								"The {poisoned} creature must make a loud noise at the start and end of its turn."
 							]
 						},
 						{
 							"name": "Gold Grung",
 							"type": "entries",
 							"entries": [
-								"The creature is {@condition charmed} by the grung and can speak Grung."
+								"The creature is {charmed} by the grung and can speak Grung."
 							]
 						},
 						{
 							"name": "Green Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
+								"The {poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
 							]
 						},
 						{
 							"name": "Orange Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature is {@condition frightened} of its allies."
+								"The {poisoned} creature is {frightened} of its allies."
 							]
 						},
 						{
 							"name": "Purple Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
+								"The {poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
 							]
 						},
 						{
 							"name": "Red Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature must use its action to eat if food is within reach."
+								"The {poisoned} creature must use its action to eat if food is within reach."
 							]
 						}
 					]
@@ -18451,7 +18451,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature must make a loud noise at the start and end of its turn."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature must make a loud noise at the start and end of its turn."
 								]
 							}
 						}
@@ -18468,7 +18468,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The creature is {@condition charmed} by the grung and can speak Grung."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The creature is {charmed} by the grung and can speak Grung."
 								]
 							}
 						}
@@ -18485,7 +18485,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
 								]
 							}
 						}
@@ -18502,7 +18502,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature is {@condition frightened} of its allies."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature is {frightened} of its allies."
 								]
 							}
 						}
@@ -18519,7 +18519,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
 								]
 							}
 						}
@@ -18536,7 +18536,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature must use its action to eat if food is within reach."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature must use its action to eat if food is within reach."
 								]
 							}
 						}
@@ -18608,18 +18608,18 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The grung casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 12}):"
+						"The grung casts one of the following spells, using Wisdom as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell druidcraft}"
+						"{ druidcraft}"
 					],
 					"daily": {
 						"2": [
-							"{@spell plant growth}"
+							"{ plant growth}"
 						],
 						"3e": [
-							"{@spell cure wounds}",
-							"{@spell spike growth}"
+							"{ cure wounds}",
+							"{ spike growth}"
 						]
 					},
 					"ability": "wis",
@@ -18636,7 +18636,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Poisonous Skin",
 					"entries": [
-						"Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. A {@condition poisoned} creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a {12} Constitution saving throw or become {poisoned} for 1 minute. A {poisoned} creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -18648,7 +18648,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Water Dependency",
 					"entries": [
-						"If the grung isn't immersed in water for at least 1 hour during a day, it suffers 1 level of {@condition exhaustion} at the end of that day. The grung can recover from this {@condition exhaustion} only through magic or by immersing itself in water for at least 1 hour."
+						"If the grung isn't immersed in water for at least 1 hour during a day, it suffers 1 level of {exhaustion} at the end of that day. The grung can recover from this {exhaustion} only through magic or by immersing itself in water for at least 1 hour."
 					]
 				}
 			],
@@ -18656,13 +18656,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 5 ({@damage 2d4}) poison damage."
+						"{@atk mw,rw} +5} to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3}) piercing damage plus 5 (2d4}) poison damage."
 					]
 				},
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 5 ({@damage 2d4}) poison damage."
+						"1d20+5} to hit, range 80/320 ft., one target. 6 (1d6 + 3}) piercing damage plus 5 (2d4}) poison damage."
 					]
 				}
 			],
@@ -18671,47 +18671,47 @@ export const bestiaryMPMM = {
 					"type": "variant",
 					"name": "Grung Poison",
 					"entries": [
-						"A creature {@condition poisoned} by a grung can suffer an additional effect that depends on the grung's color, as described below. This effect lasts until the creature is no longer {@condition poisoned} by the grung.",
+						"A creature {poisoned} by a grung can suffer an additional effect that depends on the grung's color, as described below. This effect lasts until the creature is no longer {poisoned} by the grung.",
 						{
 							"name": "Blue Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature must make a loud noise at the start and end of its turn."
+								"The {poisoned} creature must make a loud noise at the start and end of its turn."
 							]
 						},
 						{
 							"name": "Gold Grung",
 							"type": "entries",
 							"entries": [
-								"The creature is {@condition charmed} by the grung and can speak Grung."
+								"The creature is {charmed} by the grung and can speak Grung."
 							]
 						},
 						{
 							"name": "Green Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
+								"The {poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
 							]
 						},
 						{
 							"name": "Orange Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature is {@condition frightened} of its allies."
+								"The {poisoned} creature is {frightened} of its allies."
 							]
 						},
 						{
 							"name": "Purple Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
+								"The {poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
 							]
 						},
 						{
 							"name": "Red Grung",
 							"type": "entries",
 							"entries": [
-								"The {@condition poisoned} creature must use its action to eat if food is within reach."
+								"The {poisoned} creature must use its action to eat if food is within reach."
 							]
 						}
 					]
@@ -18764,7 +18764,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature must make a loud noise at the start and end of its turn."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature must make a loud noise at the start and end of its turn."
 								]
 							}
 						}
@@ -18781,7 +18781,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The creature is {@condition charmed} by the grung and can speak Grung."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The creature is {charmed} by the grung and can speak Grung."
 								]
 							}
 						}
@@ -18798,7 +18798,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
 								]
 							}
 						}
@@ -18815,7 +18815,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature is {@condition frightened} of its allies."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature is {frightened} of its allies."
 								]
 							}
 						}
@@ -18832,7 +18832,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
 								]
 							}
 						}
@@ -18849,7 +18849,7 @@ export const bestiaryMPMM = {
 							"items": {
 								"name": "Poisonous Skin",
 								"entries": [
-									"A creature {@condition poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {@condition poisoned} by the grung. The {@condition poisoned} creature must use its action to eat if food is within reach."
+									"A creature {poisoned} by a grung suffers an additional effect that depends on the grung's color. This effect lasts until the creature is no longer {poisoned} by the grung. The {poisoned} creature must use its action to eat if food is within reach."
 								]
 							}
 						}
@@ -18917,13 +18917,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 7 (1d8 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) bludgeoning damage."
 					]
 				}
 			],
@@ -19142,7 +19142,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) bludgeoning damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 7 (1d10 + 2}) bludgeoning damage."
 					]
 				}
 			],
@@ -19266,8 +19266,8 @@ export const bestiaryMPMM = {
 				{
 					"name": "Flesh-Crushing Stride",
 					"entries": [
-						"The hellfire engine moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the hellfire engine enters must make a {@dc 18} Dexterity saving throw. On a successful save, the creature is pushed to the nearest space out of the hellfire engine's path. On a failed save, the creature falls {@condition prone} and takes 28 ({@damage 8d6}) bludgeoning damage.",
-						"If the hellfire engine remains in the {@condition prone} creature's space, the creature is also {@condition restrained} until it's no longer in the same space as the hellfire engine. While {@condition restrained} in this way, the creature, or another creature within 5 feet of it, can make a {@dc 18} Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the hellfire engine and is no longer {@condition restrained}."
+						"The hellfire engine moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the hellfire engine enters must make a {18} Dexterity saving throw. On a successful save, the creature is pushed to the nearest space out of the hellfire engine's path. On a failed save, the creature falls {prone} and takes 28 (8d6}) bludgeoning damage.",
+						"If the hellfire engine remains in the {prone} creature's space, the creature is also {restrained} until it's no longer in the same space as the hellfire engine. While {restrained} in this way, the creature, or another creature within 5 feet of it, can make a {18} Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the hellfire engine and is no longer {restrained}."
 					]
 				},
 				{
@@ -19282,22 +19282,22 @@ export const bestiaryMPMM = {
 									"name": "1\u20132: Bonemelt Sprayer",
 									"type": "item",
 									"entries": [
-										"The hellfire engine spews acidic flame in a 60-foot cone. Each creature in the cone must make a {@dc 20} Dexterity saving throw, taking 11 ({@damage 2d10}) fire damage plus 18 ({@damage 4d8}) acid damage on a failed save, or half as much damage on a successful one. Creatures that fail the saving throw are drenched in burning acid and take 5 ({@damage 1d10}) fire damage plus 9 ({@damage 2d8}) acid damage at the end of their turns. An affected creature or another creature within 5 feet of it can take an action to scrape off the burning fuel."
+										"The hellfire engine spews acidic flame in a 60-foot cone. Each creature in the cone must make a {20} Dexterity saving throw, taking 11 (2d10}) fire damage plus 18 (4d8}) acid damage on a failed save, or half as much damage on a successful one. Creatures that fail the saving throw are drenched in burning acid and take 5 (1d10}) fire damage plus 9 (2d8}) acid damage at the end of their turns. An affected creature or another creature within 5 feet of it can take an action to scrape off the burning fuel."
 									]
 								},
 								{
 									"name": "3\u20134: Lightning Flail",
 									"type": "item",
 									"entries": [
-										"{@atk mw} {@hit 10} to hit, reach 15 ft., one creature. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage plus 22 ({@damage 5d8}) lightning damage. Up to three other creatures of the hellfire engine's choice that it can see within 30 feet of the target must each make a {@dc 20} Dexterity saving throw, taking 22 ({@damage 5d8}) lightning damage on a failed save, or half as much damage on a successful one."
+										"{1d20+10} to hit, reach 15 ft., one creature. 18 (3d8 + 5}) bludgeoning damage plus 22 (5d8}) lightning damage. Up to three other creatures of the hellfire engine's choice that it can see within 30 feet of the target must each make a {20} Dexterity saving throw, taking 22 (5d8}) lightning damage on a failed save, or half as much damage on a successful one."
 									]
 								},
 								{
 									"name": "5\u20136: Thunder Cannon",
 									"type": "item",
 									"entries": [
-										"The hellfire engine targets a point within 120 feet of it that it can see. Each creature within 30 feet of that point must make a {@dc 20} Dexterity saving throw, taking 27 ({@damage 5d10}) bludgeoning damage plus 19 ({@damage 3d12}) thunder damage on a failed save, or half as much damage on a successful one.",
-										"If the chosen option kills a creature, the creature's soul rises from the River Styx as a {@creature lemure} in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell wish} spell or killing the {@creature lemure} and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+										"The hellfire engine targets a point within 120 feet of it that it can see. Each creature within 30 feet of that point must make a {20} Dexterity saving throw, taking 27 (5d10}) bludgeoning damage plus 19 (3d12}) thunder damage on a failed save, or half as much damage on a successful one.",
+										"If the chosen option kills a creature, the creature's soul rises from the River Styx as a {@creature lemure} in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a { wish} spell or killing the {@creature lemure} and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
 									]
 								}
 							]
@@ -19401,19 +19401,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The hobgoblin casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+						"The hobgoblin casts one of the following spells, using Intelligence as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell prestidigitation}"
+						"{ mage hand}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell fireball}",
-							"{@spell fly}",
-							"{@spell fog cloud}",
-							"{@spell gust of wind}",
-							"{@spell lightning bolt}"
+							"{ fireball}",
+							"{ fly}",
+							"{ fog cloud}",
+							"{ gust of wind}",
+							"{ lightning bolt}"
 						]
 					},
 					"ability": "int",
@@ -19438,13 +19438,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Quarterstaff",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, or 5 ({@damage 1d8 + 1}) bludgeoning damage if used with two hands, plus 13 ({@damage 3d8}) force damage."
+						"{1d20+3} to hit, reach 5 ft., one target. 4 (1d6 + 1}) bludgeoning damage, or 5 (1d8 + 1}) bludgeoning damage if used with two hands, plus 13 (3d8}) force damage."
 					]
 				},
 				{
 					"name": "Devastating Bolt",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 60 ft., one target. {@h}21 ({@damage 4d8 + 3}) force damage, and the target is knocked {@condition prone}."
+						"{@atk rs} +5} to hit, range 60 ft., one target. 21 (4d8 + 3}) force damage, and the target is knocked {prone}."
 					]
 				}
 			],
@@ -19551,17 +19551,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The hobgoblin casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 12}):"
+						"The hobgoblin casts one of the following spells, using Intelligence as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell minor illusion}",
-						"{@spell prestidigitation}"
+						"{ minor illusion}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell disguise self}",
-							"{@spell silent image}"
+							"{ charm person}",
+							"{ disguise self}",
+							"{ silent image}"
 						]
 					},
 					"ability": "int",
@@ -19587,13 +19587,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 5 (1d4 + 3}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Dart",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+						"1d20+5} to hit, range 20/60 ft., one target. 5 (1d4 + 3}) piercing damage."
 					]
 				},
 				{
@@ -19711,7 +19711,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"A howler has advantage on attack rolls against a creature if at least one of the howler's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"A howler has advantage on attack rolls against a creature if at least one of the howler's allies is within 5 feet of the creature and the ally isn't {incapacitated}."
 					]
 				}
 			],
@@ -19725,13 +19725,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Rending Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage, plus 22 ({@damage 4d10}) psychic damage if the target is {@condition frightened}. This attack ignores damage resistance."
+						"{1d20+6} to hit, reach 5 ft., one target. 10 (2d6 + 3}) piercing damage, plus 22 (4d10}) psychic damage if the target is {frightened}. This attack ignores damage resistance."
 					]
 				},
 				{
-					"name": "Mind-Breaking Howl {@recharge 4}",
+					"name": "Mind-Breaking Howl {Recharge - 4}",
 					"entries": [
-						"The howler emits a keening howl in a 60-foot cone. Each creature in that area must succeed on a {@dc 13} Wisdom saving throw or take 16 ({@damage 3d10}) psychic damage and be {@condition frightened} until the end of the howler's next turn. While a creature is {@condition frightened} in this way, its speed is halved, and it is {@condition incapacitated}. A target that successfully saves is immune to the Mind-Breaking Howl of all howlers for the next 24 hours."
+						"The howler emits a keening howl in a 60-foot cone. Each creature in that area must succeed on a {13} Wisdom saving throw or take 16 (3d10}) psychic damage and be {frightened} until the end of the howler's next turn. While a creature is {frightened} in this way, its speed is halved, and it is {incapacitated}. A target that successfully saves is immune to the Mind-Breaking Howl of all howlers for the next 24 hours."
 					]
 				}
 			],
@@ -19836,7 +19836,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Life Hunger",
 					"entries": [
-						"If a creature within 60 feet of the sorrowsworn regains hit points, the sorrowsworn gains two benefits until the end of its next turn: it has advantage on attack rolls, and its Bite deals an extra 22 ({@damage 4d10}) necrotic damage on a hit."
+						"If a creature within 60 feet of the sorrowsworn regains hit points, the sorrowsworn gains two benefits until the end of its next turn: it has advantage on attack rolls, and its Bite deals an extra 22 (4d10}) necrotic damage on a hit."
 					]
 				}
 			],
@@ -19850,13 +19850,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 13 ({@damage 3d8}) necrotic damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 8 (1d8 + 4}) piercing damage plus 13 (3d8}) necrotic damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}18 ({@damage 4d6 + 4}) slashing damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 16}), and it is {@condition restrained} until the grapple ends. While grappling a creature, the sorrowsworn can't make a Claw attack."
+						"{1d20+8} to hit, reach 10 ft., one target. 18 (4d6 + 4}) slashing damage. If the target is Medium or smaller, it is {grappled} (escape {16}), and it is {restrained} until the grapple ends. While grappling a creature, the sorrowsworn can't make a Claw attack."
 					]
 				}
 			],
@@ -19984,20 +19984,20 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Hutijin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 22}):"
+						"Hutijin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {22}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell detect magic}",
-						"{@spell hold monster}",
-						"{@spell invisibility} (self only)",
-						"{@spell lightning bolt}",
-						"{@spell suggestion}",
-						"{@spell wall of fire}"
+						"{ alter self} (can become Medium when changing his appearance)",
+						"{ detect magic}",
+						"{ hold monster}",
+						"{ invisibility} (self only)",
+						"{ lightning bolt}",
+						"{ suggestion}",
+						"{ wall of fire}"
 					],
 					"daily": {
 						"3": [
-							"{@spell dispel magic}"
+							"{ dispel magic}"
 						]
 					},
 					"ability": "cha",
@@ -20040,25 +20040,25 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) fire damage. The target must succeed on a {@dc 22} Constitution saving throw or become {@condition poisoned}. While {@condition poisoned} in this way, the target can't regain hit points, and it takes 10 ({@damage 3d6}) poison damage at the start of each of its turns. The {@condition poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+15} to hit, reach 5 ft., one target. 15 (2d6 + 8}) fire damage. The target must succeed on a {22} Constitution saving throw or become {poisoned}. While {poisoned} in this way, the target can't regain hit points, and it takes 10 (3d6}) poison damage at the start of each of its turns. The {poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d8 + 8}) cold damage."
+						"{1d20+15} to hit, reach 10 ft., one target. 17 (2d8 + 8}) cold damage."
 					]
 				},
 				{
 					"name": "Mace",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) force damage."
+						"{1d20+15} to hit, reach 5 ft., one target. 15 (2d6 + 8}) force damage."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) thunder damage."
+						"{1d20+15} to hit, reach 10 ft., one target. 19 (2d10 + 8}) thunder damage."
 					]
 				},
 				{
@@ -20070,9 +20070,9 @@ export const bestiaryMPMM = {
 			],
 			"reaction": [
 				{
-					"name": "Fearful Voice {@recharge 5}",
+					"name": "Fearful Voice {Recharge - 5}",
 					"entries": [
-						"In response to taking damage, Hutijin utters a dreadful word of power. Each creature within 30 feet of him that isn't a devil must succeed on a {@dc 22} Wisdom saving throw or become {@condition frightened} of him for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that saves against this effect is immune to his Fearful Voice for 24 hours."
+						"In response to taking damage, Hutijin utters a dreadful word of power. Each creature within 30 feet of him that isn't a devil must succeed on a {22} Wisdom saving throw or become {frightened} of him for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that saves against this effect is immune to his Fearful Voice for 24 hours."
 					]
 				}
 			],
@@ -20092,7 +20092,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Lightning Storm (Costs 2 Actions)",
 					"entries": [
-						"Hutijin releases lightning in a 30-foot radius, blocked only by total cover. All other creatures in that area must each make a {@dc 22} Dexterity saving throw, taking 18 ({@damage 4d8}) lightning damage on a failed save, or half as much damage on a successful one."
+						"Hutijin releases lightning in a 30-foot radius, blocked only by total cover. All other creatures in that area must each make a {22} Dexterity saving throw, taking 18 (4d8}) lightning damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -20234,20 +20234,20 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The hydroloth casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
+						"The hydroloth casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell invisibility} (self only)"
+						"{ darkness}",
+						"{ detect magic}",
+						"{ dispel magic}",
+						"{ invisibility} (self only)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell control water}",
-							"{@spell crown of madness}",
-							"{@spell fear}",
-							"{@spell suggestion}"
+							"{ control water}",
+							"{ crown of madness}",
+							"{ fear}",
+							"{ suggestion}"
 						]
 					},
 					"ability": "int",
@@ -20290,19 +20290,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) force damage plus 9 ({@damage 2d10}) psychic damage."
+						"{1d20+9} to hit, reach 5 ft., one target. 16 (2d10 + 5}) force damage plus 9 (2d10}) psychic damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target.  {@h}14 ({@damage 2d8 + 5}) force damage plus 9 ({@damage 2d10}) psychic damage."
+						"{1d20+9} to hit, reach 5 ft., one target.  14 (2d8 + 5}) force damage plus 9 (2d10}) psychic damage."
 					]
 				},
 				{
 					"name": "Steal Memory (1/Day)",
 					"entries": [
-						"The hydroloth targets one creature it can see within 60 feet of it. The target takes 14 ({@damage 4d6}) psychic damage, and it must make a {@dc 16} Intelligence saving throw. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. On a failed save, the target loses all proficiencies; it can't cast spells; it can't understand language; and if its Intelligence and Charisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A {@spell greater restoration} or {@spell remove curse} spell cast on the target ends this effect early."
+						"The hydroloth targets one creature it can see within 60 feet of it. The target takes 14 (4d6}) psychic damage, and it must make a {16} Intelligence saving throw. On a successful save, the target becomes immune to this hydroloth's Steal Memory for 24 hours. On a failed save, the target loses all proficiencies; it can't cast spells; it can't understand language; and if its Intelligence and Charisma scores are higher than 5, they become 5. Each time the target finishes a long rest, it can repeat the saving throw, ending the effect on itself on a success. A { greater restoration} or { remove curse} spell cast on the target ends this effect early."
 					]
 				},
 				{
@@ -20378,7 +20378,7 @@ export const bestiaryMPMM = {
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -20412,21 +20412,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The illusionist casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+						"The illusionist casts one of the following spells, using Intelligence as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
-						"{@spell minor illusion}"
+						"{ dancing lights}",
+						"{ mage hand}",
+						"{ minor illusion}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell disguise self}",
-							"{@spell invisibility}",
-							"{@spell mage armor}",
-							"{@spell major image}",
-							"{@spell phantasmal force}",
-							"{@spell phantom steed}"
+							"{ disguise self}",
+							"{ invisibility}",
+							"{ mage armor}",
+							"{ major image}",
+							"{ phantasmal force}",
+							"{ phantom steed}"
 						]
 					},
 					"ability": "int",
@@ -20443,15 +20443,15 @@ export const bestiaryMPMM = {
 				{
 					"name": "Arcane Burst",
 					"entries": [
-						"{@atk ms,rs} {@hit 5} to hit, reach 5 ft. or range 120 ft., one target. {@h}14 ({@damage 2d10 + 3}) psychic damage."
+						"{1d20 +5} to hit, reach 5 ft. or range 120 ft., one target. 14 (2d10 + 3}) psychic damage."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Displacement {@recharge 5}",
+					"name": "Displacement {Recharge - 5}",
 					"entries": [
-						"The illusionist projects an illusion that makes the illusionist appear to be standing in a place a few inches from its actual location, causing any creature to have disadvantage on attack rolls against the illusionist. The effect lasts for 1 minute, and it ends early if the illusionist takes damage, if it is {@condition incapacitated}, or if its speed becomes 0."
+						"The illusionist projects an illusion that makes the illusionist appear to be standing in a place a few inches from its actual location, causing any creature to have disadvantage on attack rolls against the illusionist. The effect lasts for 1 minute, and it ends early if the illusionist takes damage, if it is {incapacitated}, or if its speed becomes 0."
 					]
 				}
 			],
@@ -20587,15 +20587,15 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Juiblex casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 20}):"
+						"Juiblex casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {20}):"
 					],
 					"will": [
-						"{@spell detect magic}"
+						"{ detect magic}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell contagion}",
-							"{@spell gaseous form}"
+							"{ contagion}",
+							"{ gaseous form}"
 						]
 					},
 					"ability": "wis",
@@ -20606,7 +20606,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Foul",
 					"entries": [
-						"Any creature other than an Ooze that starts its turn within 10 feet of Juiblex must succeed on a {@dc 21} Constitution saving throw or be {@condition poisoned} until the start of the creature's next turn."
+						"Any creature other than an Ooze that starts its turn within 10 feet of Juiblex must succeed on a {21} Constitution saving throw or be {poisoned} until the start of the creature's next turn."
 					]
 				},
 				{
@@ -20644,13 +20644,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Acid Lash",
 					"entries": [
-						"{@atk mw,rw} {@hit 14} to hit, reach 10 ft. or range 60/120 ft., one target. {@h}21 ({@damage 4d6 + 7}) acid damage. Any creature killed by this attack is drawn into Juiblex's body, where the corpse is dissolved after 1 minute."
+						"{@atk mw,rw} +14} to hit, reach 10 ft. or range 60/120 ft., one target. 21 (4d6 + 7}) acid damage. Any creature killed by this attack is drawn into Juiblex's body, where the corpse is dissolved after 1 minute."
 					]
 				},
 				{
-					"name": "Eject Slime {@recharge 5}",
+					"name": "Eject Slime {Recharge - 5}",
 					"entries": [
-						"Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must succeed on a {@dc 21} Dexterity saving throw or take 55 ({@damage 10d10}) acid damage. Unless the target avoids taking all of this damage, any metal armor worn by the target takes a permanent \u22121 penalty to the AC it offers, and any metal weapon the target is carrying or wearing takes a permanent \u22121 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to \u22125, the object is destroyed. The penalty on an object can be removed by the {@spell mending} spell."
+						"Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must succeed on a {21} Dexterity saving throw or take 55 (10d10}) acid damage. Unless the target avoids taking all of this damage, any metal armor worn by the target takes a permanent \u22121 penalty to the AC it offers, and any metal weapon the target is carrying or wearing takes a permanent \u22121 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to \u22125, the object is destroyed. The penalty on an object can be removed by the { mending} spell."
 					]
 				}
 			],
@@ -20664,7 +20664,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Corrupting Touch (Costs 2 Actions)",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 10 ft., one creature. {@h}21 ({@damage 4d6 + 7}) poison damage, and the target is slimed. Until the slime is scraped off with an action, the target is {@condition poisoned}, and any creature, other than an Ooze, is {@condition poisoned} while within 10 feet of the target."
+						"{1d20+14} to hit, reach 10 ft., one creature. 21 (4d6 + 7}) poison damage, and the target is slimed. Until the slime is scraped off with an action, the target is {poisoned}, and any creature, other than an Ooze, is {poisoned} while within 10 feet of the target."
 					]
 				}
 			],
@@ -20789,29 +20789,29 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The ki-rin casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 17}):"
+						"The ki-rin casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {17}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell major image} (6th-level version)",
-						"{@spell thaumaturgy}"
+						"{ light}",
+						"{ major image} (6th-level version)",
+						"{ thaumaturgy}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell cure wounds}",
-							"{@spell dispel magic}",
-							"{@spell lesser restoration}",
-							"{@spell sending}"
+							"{ cure wounds}",
+							"{ dispel magic}",
+							"{ lesser restoration}",
+							"{ sending}"
 						],
 						"1e": [
-							"{@spell banishment}",
-							"{@spell calm emotions}",
-							"{@spell create food and water}",
-							"{@spell greater restoration}",
-							"{@spell plane shift}",
-							"{@spell protection from evil and good}",
-							"{@spell revivify}",
-							"{@spell wind walk}"
+							"{ banishment}",
+							"{ calm emotions}",
+							"{ create food and water}",
+							"{ greater restoration}",
+							"{ plane shift}",
+							"{ protection from evil and good}",
+							"{ revivify}",
+							"{ wind walk}"
 						]
 					},
 					"ability": "wis",
@@ -20842,19 +20842,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Hoof",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}10 ({@damage 2d4 + 5}) force damage."
+						"{1d20+9} to hit, reach 15 ft., one target. 10 (2d4 + 5}) force damage."
 					]
 				},
 				{
 					"name": "Horn",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) radiant damage."
+						"{1d20+9} to hit, reach 5 ft., one target. 14 (2d8 + 5}) radiant damage."
 					]
 				},
 				{
 					"name": "Sacred Fire",
 					"entries": [
-						"{@atk rs} {@hit 9} to hit, range 120 ft., one target. {@h}18 ({@damage 3d8 + 5}) radiant damage."
+						"{@atk rs} +9} to hit, range 120 ft., one target. 18 (3d8 + 5}) radiant damage."
 					]
 				}
 			],
@@ -20985,13 +20985,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Heart of the Dragon",
 					"entries": [
-						"If the kobold is {@condition frightened} or {@condition paralyzed} by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 feet of it. Any kobold that benefits from this trait (including the dragonshield) has advantage on its next attack roll."
+						"If the kobold is {frightened} or {paralyzed} by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 feet of it. Any kobold that benefits from this trait (including the dragonshield) has advantage on its next attack roll."
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {incapacitated}."
 					]
 				},
 				{
@@ -21011,7 +21011,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack."
+						"{@atk mw,rw} +3} to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d6 + 1}) piercing damage, or 5 (1d8 + 1}) piercing damage if used with two hands to make a melee attack."
 					]
 				}
 			],
@@ -21097,7 +21097,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {incapacitated}."
 					]
 				},
 				{
@@ -21111,13 +21111,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk mw,rw} +4} to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Sling",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+						"1d20+4} to hit, range 30/120 ft., one target. 4 (1d4 + 2}) bludgeoning damage."
 					]
 				},
 				{
@@ -21131,14 +21131,14 @@ export const bestiaryMPMM = {
 								{
 									"name": "1: Acid",
 									"entries": [
-										"The kobold hurls a {@item acid (vial)|PHB|flask of acid}. {@atk rw} {@hit 4} to hit, range 5/20 ft., one target. {@h}7 ({@damage 2d6}) acid damage."
+										"The kobold hurls a {@item acid (vial)|PHB|flask of acid}. 1d20+4} to hit, range 5/20 ft., one target. 7 (2d6}) acid damage."
 									],
 									"type": "item"
 								},
 								{
 									"name": "2: Alchemist's Fire",
 									"entries": [
-										"The kobold throws a {@item Alchemist's Fire (flask)|PHB|flask of alchemist's fire}. {@atk rw} {@hit 4} to hit, range 5/20 ft., one target. {@h}2 ({@damage 1d4}) fire damage at the start of each of the target's turns. The target can end this damage by using its action to make a {@dc 10} Dexterity check to extinguish the flames."
+										"The kobold throws a {@item Alchemist's Fire (flask)|PHB|flask of alchemist's fire}. 1d20+4} to hit, range 5/20 ft., one target. 2 (1d4}) fire damage at the start of each of the target's turns. The target can end this damage by using its action to make a {10} Dexterity check to extinguish the flames."
 									],
 									"type": "item"
 								},
@@ -21152,7 +21152,7 @@ export const bestiaryMPMM = {
 								{
 									"name": "4: Green Slime Pot",
 									"entries": [
-										"The kobold throws a clay pot full of green slime at the target, and it breaks open on impact. {@atk rw} {@hit 4} to hit, range 5/20 ft., one target. {@h}5 ({@damage 1d10}) acid damage, and the target is covered in slime until a creature uses its action to scrape or wash the slime off. A target covered in the slime takes 5 ({@damage 1d10}) acid damage at the start of each of its turns."
+										"The kobold throws a clay pot full of green slime at the target, and it breaks open on impact. 1d20+4} to hit, range 5/20 ft., one target. 5 (1d10}) acid damage, and the target is covered in slime until a creature uses its action to scrape or wash the slime off. A target covered in the slime takes 5 (1d10}) acid damage at the start of each of its turns."
 									],
 									"type": "item"
 								},
@@ -21166,14 +21166,14 @@ export const bestiaryMPMM = {
 								{
 									"name": "6: Scorpion on a Stick",
 									"entries": [
-										"The kobold makes a melee attack with a {@creature scorpion} tied to the end of a 5-foot-long pole. {@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 piercing damage, and the target must make a {@dc 9} Constitution saving throw, taking 4 ({@damage 1d8}) poison damage on a failed save, or half as much damage on a successful one."
+										"The kobold makes a melee attack with a {@creature scorpion} tied to the end of a 5-foot-long pole. {1d20+4} to hit, reach 5 ft., one target. 1 piercing damage, and the target must make a {9} Constitution saving throw, taking 4 (1d8}) poison damage on a failed save, or half as much damage on a successful one."
 									],
 									"type": "item"
 								},
 								{
 									"name": "7: Skunk in a Cage",
 									"entries": [
-										"The kobold releases a skunk into an unoccupied space within 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must succeed on a {@dc 9} Constitution saving throw, or it retches and is {@condition incapacitated} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn't need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can't do so again until it finishes a short or long rest."
+										"The kobold releases a skunk into an unoccupied space within 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must succeed on a {9} Constitution saving throw, or it retches and is {incapacitated} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn't need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can't do so again until it finishes a short or long rest."
 									],
 									"type": "item"
 								},
@@ -21286,17 +21286,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The kobold casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 12}):"
+						"The kobold casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell prestidigitation}"
+						"{ mage hand}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell charm person}",
-							"{@spell fog cloud}",
-							"{@spell levitate}"
+							"{ charm person}",
+							"{ fog cloud}",
+							"{ levitate}"
 						]
 					},
 					"ability": "cha",
@@ -21307,7 +21307,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {incapacitated}."
 					]
 				},
 				{
@@ -21327,13 +21327,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk mw,rw} +4} to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Chromatic Bolt",
 					"entries": [
-						"{@atk rs} {@hit 4} to hit, range 60 feet, one target. {@h}9 ({@damage 2d6 + 2}) of a type of the kobold's choice: acid, cold, fire, lightning, poison, or thunder."
+						"{@atk rs} +4} to hit, range 60 feet, one target. 9 (2d6 + 2}) of a type of the kobold's choice: acid, cold, fire, lightning, poison, or thunder."
 					]
 				}
 			],
@@ -21454,16 +21454,16 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The korred casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 13}):"
+						"The korred casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell commune with nature} (as an action)",
-						"{@spell meld into stone}",
-						"{@spell stone shape}"
+						"{ commune with nature} (as an action)",
+						"{ meld into stone}",
+						"{ stone shape}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Otto's irresistible dance}"
+							"{ Otto's irresistible dance}"
 						]
 					},
 					"ability": "wis",
@@ -21488,13 +21488,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Greatclub",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) bludgeoning damage, or 19 ({@damage 3d8 + 6}) bludgeoning damage if the korred is on the ground."
+						"{1d20+9} to hit, reach 5 ft., one target. 10 (1d8 + 6}) bludgeoning damage, or 19 (3d8 + 6}) bludgeoning damage if the korred is on the ground."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 60/120 ft., one target. {@h}10 ({@damage 1d8 + 6}) bludgeoning damage, or 19 ({@damage 3d8 + 6}) bludgeoning damage if the korred is on the ground."
+						"1d20+9} to hit, range 60/120 ft., one target. 10 (1d8 + 6}) bludgeoning damage, or 19 (3d8 + 6}) bludgeoning damage if the korred is on the ground."
 					]
 				}
 			],
@@ -21502,7 +21502,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Command Hair",
 					"entries": [
-						"The korred has at least one 50-foot-long rope woven out of its hair. The korred commands one such rope within 30 feet of it to move up to 20 feet and entangle a Large or smaller creature that the korred can see. The target must succeed on a {@dc 13} Dexterity saving throw or become {@condition grappled} by the rope (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}. The korred can use a bonus action to release the target, which is also freed if the korred dies or becomes {@condition incapacitated}.",
+						"The korred has at least one 50-foot-long rope woven out of its hair. The korred commands one such rope within 30 feet of it to move up to 20 feet and entangle a Large or smaller creature that the korred can see. The target must succeed on a {13} Dexterity saving throw or become {grappled} by the rope (escape {13}). Until this grapple ends, the target is {restrained}. The korred can use a bonus action to release the target, which is also freed if the korred dies or becomes {incapacitated}.",
 						"A rope of korred hair has AC 20 and 20 hit points. It regains 1 hit point at the start of each of the korred's turns while the rope has at least 1 hit point and the korred is alive. If the rope drops to 0 hit points, it is destroyed."
 					]
 				}
@@ -21605,21 +21605,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The priest casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 13}):"
+						"The priest casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell command}",
-						"{@spell create or destroy water}"
+						"{ command}",
+						"{ create or destroy water}"
 					],
 					"daily": {
 						"1": [
-							"{@spell Evard's black tentacles}"
+							"{ Evard's black tentacles}"
 						],
 						"3e": [
-							"{@spell control water}",
-							"{@spell darkness}",
-							"{@spell water breathing}",
-							"{@spell water walk}"
+							"{ control water}",
+							"{ darkness}",
+							"{ water breathing}",
+							"{ water walk}"
 						]
 					},
 					"ability": "wis",
@@ -21644,19 +21644,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Thunderous Touch",
 					"entries": [
-						"{@atk ms} {@hit 5} to hit, reach 5 ft., one target. {@h}27 ({@damage 5d10}) thunder damage."
+						"{1d20 +5} to hit, reach 5 ft., one target. 27 (5d10}) thunder damage."
 					]
 				},
 				{
 					"name": "Thunderbolt",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 60 ft., one target. {@h}11 ({@damage 2d10}) lightning damage plus 11 ({@dice 2d10}) thunder damage, and the target is knocked {@condition prone}."
+						"{@atk rs} +5} to hit, range 60 ft., one target. 11 (2d10}) lightning damage plus 11 ({@dice 2d10}) thunder damage, and the target is knocked {prone}."
 					]
 				},
 				{
 					"name": "Voice of the Kraken (Recharges after a Short or Long Rest)",
 					"entries": [
-						"A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a {@dc 14} Wisdom saving throw or be {@condition frightened} of the priest for 1 minute. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a {14} Wisdom saving throw or be {frightened} of the priest for 1 minute. A {frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -21755,7 +21755,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {incapacitated}."
 					]
 				},
 				{
@@ -21775,19 +21775,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Stab",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage."
+						"{1d20+7} to hit, reach 10 ft., one target. 9 (1d10 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Spike",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+						"1d20+6} to hit, range 30/120 ft., one target. 7 (1d6 + 4}) piercing damage."
 					]
 				},
 				{
-					"name": "Acid Spray {@recharge 5}",
+					"name": "Acid Spray {Recharge - 5}",
 					"entries": [
-						"The kruthik sprays acid in a 15-foot cone. Each creature in that area must make a {@dc 14} Dexterity saving throw, taking 22 ({@damage 4d10}) acid damage on a failed save, or half as much damage on a successful one."
+						"The kruthik sprays acid in a 15-foot cone. Each creature in that area must make a {14} Dexterity saving throw, taking 22 (4d10}) acid damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -21884,13 +21884,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Mimicry",
 					"entries": [
-						"The leucrotta can mimic Beast sounds and Humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful {@dc 14} Wisdom ({@skill Insight}) check."
+						"The leucrotta can mimic Beast sounds and Humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful {14} Wisdom ({@skill Insight}) check."
 					]
 				},
 				{
 					"name": "Stench",
 					"entries": [
-						"Any creature other than a leucrotta or gnoll that starts its turn within 5 feet of the leucrotta must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} until the start of the creature's next turn. On a successful saving throw, the creature is immune to the Stench of all leucrottas for 1 hour."
+						"Any creature other than a leucrotta or gnoll that starts its turn within 5 feet of the leucrotta must succeed on a {12} Constitution saving throw or be {poisoned} until the start of the creature's next turn. On a successful saving throw, the creature is immune to the Stench of all leucrottas for 1 hour."
 					]
 				}
 			],
@@ -21904,13 +21904,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage. If the leucrotta scores a critical hit, it rolls the damage dice three times, instead of twice."
+						"{1d20+6} to hit, reach 5 ft., one target. 8 (1d8 + 4}) piercing damage. If the leucrotta scores a critical hit, it rolls the damage dice three times, instead of twice."
 					]
 				},
 				{
 					"name": "Hooves",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 11 (2d6 + 4}) bludgeoning damage."
 					]
 				}
 			],
@@ -22059,19 +22059,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 20 ft., one target. {@h}21 ({@damage 2d12 + 8}) bludgeoning damage plus 13 ({@damage 2d12}) acid damage."
+						"{1d20+14} to hit, reach 20 ft., one target. 21 (2d12 + 8}) bludgeoning damage plus 13 (2d12}) acid damage."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d10 + 8}) bludgeoning damage plus 10 ({@damage 3d6}) acid damage."
+						"{1d20+14} to hit, reach 20 ft., one target. 19 (2d10 + 8}) bludgeoning damage plus 10 (3d6}) acid damage."
 					]
 				},
 				{
-					"name": "Tidal Wave {@recharge}",
+					"name": "Tidal Wave {Recharge -}",
 					"entries": [
-						"The leviathan magically creates a wave of water that extends from a point it can see within 120 feet of itself. The wave is up to 250 feet long, up to 250 feet tall, and up to 50 feet wide. Each creature in the wave must make a {@dc 24} Strength saving throw. On a failed save, a creature takes 45 ({@damage 7d12}) bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}. The water spreads out across the ground in all directions, extinguishing unprotected flames in its area and within 250 feet of it, and then it vanishes."
+						"The leviathan magically creates a wave of water that extends from a point it can see within 120 feet of itself. The wave is up to 250 feet long, up to 250 feet tall, and up to 50 feet wide. Each creature in the wave must make a {24} Strength saving throw. On a failed save, a creature takes 45 (7d12}) bludgeoning damage and is knocked {prone}. On a successful save, a creature takes half as much damage and isn't knocked {prone}. The water spreads out across the ground in all directions, extinguishing unprotected flames in its area and within 250 feet of it, and then it vanishes."
 					]
 				}
 			],
@@ -22186,7 +22186,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Psychic Leech",
 					"entries": [
-						"At the start of each of the sorrowsworn's turns, each creature within 5 feet of it must succeed on a {@dc 15} Wisdom saving throw or take 10 ({@damage 3d6}) psychic damage."
+						"At the start of each of the sorrowsworn's turns, each creature within 5 feet of it must succeed on a {15} Wisdom saving throw or take 10 (3d6}) psychic damage."
 					]
 				},
 				{
@@ -22206,13 +22206,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Harpoon Arm",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 60 ft., one target. {@h}21 ({@damage 4d8 + 3}) piercing damage, and the target is {@condition grappled} (escape {@dc 15}) if it is a Large or smaller creature. The sorrowsworn has two harpoon arms and can grapple up to two creatures at once."
+						"{1d20+7} to hit, reach 60 ft., one target. 21 (4d8 + 3}) piercing damage, and the target is {grappled} (escape {15}) if it is a Large or smaller creature. The sorrowsworn has two harpoon arms and can grapple up to two creatures at once."
 					]
 				},
 				{
 					"name": "Sorrowful Embrace",
 					"entries": [
-						"Each creature {@condition grappled} by the sorrowsworn must make a {@dc 15} Wisdom saving throw, taking 18 ({@damage 4d8}) psychic damage on a failed save, or half as much damage on a successful one. In either case, the sorrowsworn pulls each of those creatures up to 30 feet straight toward it."
+						"Each creature {grappled} by the sorrowsworn must make a {15} Wisdom saving throw, taking 18 (4d8}) psychic damage on a failed save, or half as much damage on a successful one. In either case, the sorrowsworn pulls each of those creatures up to 30 feet straight toward it."
 					]
 				}
 			],
@@ -22324,13 +22324,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Arm Spike",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d10 + 3}) piercing damage."
+						"{1d20+6} to hit, reach 10 ft., one target. 14 (2d10 + 3}) piercing damage."
 					]
 				},
 				{
-					"name": "Embrace {@recharge 4}",
+					"name": "Embrace {Recharge - 4}",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}25 ({@damage 4d10 + 3}) piercing damage, and the target is {@condition grappled} (escape {@dc 14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition frightened}, and it takes 27 ({@damage 6d8}) psychic damage at the end of each of its turns. The sorrowsworn can grapple only one creature at a time."
+						"{1d20+6} to hit, reach 5 ft., one target. 25 (4d10 + 3}) piercing damage, and the target is {grappled} (escape {14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {frightened}, and it takes 27 (6d8}) psychic damage at the end of each of its turns. The sorrowsworn can grapple only one creature at a time."
 					]
 				}
 			],
@@ -22338,7 +22338,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tightening Embrace",
 					"entries": [
-						"If the sorrowsworn takes damage, the creature {@condition grappled} by Embrace takes 18 ({@damage 4d8}) psychic damage."
+						"If the sorrowsworn takes damage, the creature {grappled} by Embrace takes 18 (4d8}) psychic damage."
 					]
 				}
 			],
@@ -22446,13 +22446,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage plus 4 ({@damage 1d8}) poison damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 6 (1d8 + 2}) piercing damage plus 4 (1d8}) poison damage."
 					]
 				},
 				{
 					"name": "Sticky Leg",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one Small or Tiny creature. {@h}The target is stuck to the steeder's leg and {@condition grappled} (escape {@dc 12}). The steeder can have only one creature {@condition grappled} at a time."
+						"{1d20+4} to hit, reach 5 ft., one Small or Tiny creature. The target is stuck to the steeder's leg and {grappled} (escape {12}). The steeder can have only one creature {grappled} at a time."
 					]
 				}
 			],
@@ -22548,7 +22548,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. Once per turn, the adept can cause one of the following additional effects (choose one or roll a {@dice d4}):",
+						"{1d20+5} to hit, reach 5 ft., one target. 7 (1d8 + 3}) bludgeoning damage. Once per turn, the adept can cause one of the following additional effects (choose one or roll a {@dice d4}):",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -22556,12 +22556,12 @@ export const bestiaryMPMM = {
 								{
 									"type": "item",
 									"name": "1\u20132: Knock Down.",
-									"entry": "The target must succeed on a {@dc 13} Dexterity saving throw or be knocked {@condition prone}."
+									"entry": "The target must succeed on a {13} Dexterity saving throw or be knocked {prone}."
 								},
 								{
 									"type": "item",
 									"name": "3\u20134: Push.",
-									"entry": "The target must succeed on a {@dc 13} Strength saving throw or be pushed up to 10 feet directly away from the adept."
+									"entry": "The target must succeed on a {13} Strength saving throw or be pushed up to 10 feet directly away from the adept."
 								}
 							]
 						}
@@ -22570,7 +22570,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dart",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+						"1d20+5} to hit, range 20/60 ft., one target. 5 (1d4 + 3}) piercing damage."
 					]
 				}
 			],
@@ -22738,19 +22738,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Unerring Slam",
 					"entries": [
-						"{@atk mw} automatic hit, reach 5 ft., one target. {@h}60 force damage, and the target is pushed up to 5 feet away from the marut if it is Huge or smaller."
+						"{@atk mw} automatic hit, reach 5 ft., one target. 60 force damage, and the target is pushed up to 5 feet away from the marut if it is Huge or smaller."
 					]
 				},
 				{
-					"name": "Blazing Edict {@recharge 5}",
+					"name": "Blazing Edict {Recharge - 5}",
 					"entries": [
-						"Arcane energy emanates from the marut's chest in a 60-foot cube. Every creature in that area takes 45 radiant damage. Each creature that takes any of this damage must succeed on a {@dc 20} Wisdom saving throw or be {@condition stunned} until the end of the marut's next turn."
+						"Arcane energy emanates from the marut's chest in a 60-foot cube. Every creature in that area takes 45 radiant damage. Each creature that takes any of this damage must succeed on a {20} Wisdom saving throw or be {stunned} until the end of the marut's next turn."
 					]
 				},
 				{
 					"name": "Plane Shift (3/Day)",
 					"entries": [
-						"The marut casts {@spell plane shift}, requiring no material components and using Intelligence as the spellcasting ability. The marut can cast the spell normally, or it can cast the spell on an unwilling creature it can see within 60 feet of it. If it uses the latter option, the targeted creature must succeed on a {@dc 20} Charisma saving throw or be banished to a teleportation circle in the Hall of Concordance in Sigil."
+						"The marut casts { plane shift}, requiring no material components and using Intelligence as the spellcasting ability. The marut can cast the spell normally, or it can cast the spell on an unwilling creature it can see within 60 feet of it. If it uses the latter option, the targeted creature must succeed on a {20} Charisma saving throw or be banished to a teleportation circle in the Hall of Concordance in Sigil."
 					]
 				}
 			],
@@ -22846,7 +22846,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the thief is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided the thief isn't {@condition incapacitated}."
+						"If the thief is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the thief instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided the thief isn't {incapacitated}."
 					]
 				}
 			],
@@ -22860,13 +22860,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 7 (1d6 + 4}) piercing damage plus 3 (1d6}) poison damage."
 					]
 				},
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+						"1d20+7} to hit, range 80/320 ft., one target. 7 (1d6 + 4}) piercing damage plus 3 (1d6}) poison damage."
 					]
 				}
 			],
@@ -23019,17 +23019,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d10 + 3}) piercing damage. If the target is a Humanoid, its Charisma score is reduced by {@dice 1d4}. This reduction lasts until the target finishes a short or long rest. The target dies if this reduces its Charisma to 0. It rises 24 hours later as a {@creature ghoul}  unless it has been revived or its corpse has been destroyed."
+						"{1d20+6} to hit, reach 5 ft., one target. 14 (2d10 + 3}) piercing damage. If the target is a Humanoid, its Charisma score is reduced by {@dice 1d4}. This reduction lasts until the target finishes a short or long rest. The target dies if this reduces its Charisma to 0. It rises 24 hours later as a {@creature ghoul}  unless it has been revived or its corpse has been destroyed."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage. If the target is a creature other than an Undead, it must succeed on a {@dc 12} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+6} to hit, reach 5 ft., one target. 12 (2d8 + 3}) slashing damage. If the target is a creature other than an Undead, it must succeed on a {12} Constitution saving throw or be {paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
-					"name": "Raise Ghoul {@recharge 5}",
+					"name": "Raise Ghoul {Recharge - 5}",
 					"entries": [
 						"The maurezhi targets one dead ghoul or {@creature ghast} it can see within 30 feet of it. The target is revived with all its hit points."
 					]
@@ -23141,13 +23141,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 11 (2d8 + 2}) piercing damage."
 					]
 				},
 				{
-					"name": "Disgorge {@recharge}",
+					"name": "Disgorge {Recharge -}",
 					"entries": [
-						"The demon vomits in a 15-foot cube. Each creature in that area must succeed on a {@dc 11} Dexterity saving throw or take 11 ({@damage 2d10}) acid damage and fall {@condition prone} in the spew."
+						"The demon vomits in a 15-foot cube. Each creature in that area must succeed on a {11} Dexterity saving throw or take 11 (2d10}) acid damage and fall {prone} in the spew."
 					]
 				}
 			],
@@ -23231,20 +23231,20 @@ export const bestiaryMPMM = {
 				{
 					"name": "Garrote",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target of the meazel's size or smaller. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 13} with disadvantage). Until the grapple ends, the target takes 10 ({@damage 2d6 + 3}) bludgeoning damage at the start of each of the meazel's turns. The meazel can't make weapon attacks while grappling a creature in this way."
+						"{1d20+5} to hit, reach 5 ft., one target of the meazel's size or smaller. 6 (1d6 + 3}) bludgeoning damage, and the target is {grappled} (escape {13} with disadvantage). Until the grapple ends, the target takes 10 (2d6 + 3}) bludgeoning damage at the start of each of the meazel's turns. The meazel can't make weapon attacks while grappling a creature in this way."
 					]
 				},
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 3 ({@damage 1d6}) necrotic damage"
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) piercing damage plus 3 (1d6}) necrotic damage"
 					]
 				},
 				{
-					"name": "Shadow Teleport {@recharge 5}",
+					"name": "Shadow Teleport {Recharge - 5}",
 					"entries": [
 						"The meazel, any equipment it is wearing or carrying, and any creature it is grappling teleport to an unoccupied space within 500 feet of it, provided that the starting space and the destination are in dim light or darkness. The destination must be a place the meazel has seen before, but it need not be within line of sight. If the destination space is occupied, the teleportation leads to the nearest unoccupied space.",
-						"Any other creature the meazel teleports becomes cursed for 1 hour or until the curse is ended by {@spell remove curse} or {@spell greater restoration}. Until this curse ends, every Undead and every creature native to the Shadowfell within 300 feet of the cursed creature can sense it, which prevents that creature from hiding from them."
+						"Any other creature the meazel teleports becomes cursed for 1 hour or until the curse is ended by { remove curse} or { greater restoration}. Until this curse ends, every Undead and every creature native to the Shadowfell within 300 feet of the cursed creature can sense it, which prevents that creature from hiding from them."
 					]
 				}
 			],
@@ -23351,7 +23351,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fear Aura",
 					"entries": [
-						"Any Beast or Humanoid that starts its turn within 10 feet of the meenlock must succeed on a {@dc 11} Wisdom saving throw or be {@condition frightened} until the start of the creature's next turn."
+						"Any Beast or Humanoid that starts its turn within 10 feet of the meenlock must succeed on a {11} Wisdom saving throw or be {frightened} until the start of the creature's next turn."
 					]
 				},
 				{
@@ -23365,13 +23365,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) slashing damage, and the target must succeed on a {@dc 11} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+4} to hit, reach 5 ft., one target. 7 (2d4 + 2}) slashing damage, and the target must succeed on a {11} Constitution saving throw or be {paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Shadow Teleport {@recharge 5}",
+					"name": "Shadow Teleport {Recharge - 5}",
 					"entries": [
 						"The meenlock teleports to an unoccupied space within 30 feet of it, provided that both the space it's teleporting from and its destination are in dim light or darkness. The destination need not be within line of sight."
 					]
@@ -23507,13 +23507,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Halberd",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage."
+						"{1d20+6} to hit, reach 10 ft., one target. 9 (1d10 + 4}) slashing damage."
 					]
 				},
 				{
 					"name": "Heavy Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+						"1d20+4} to hit, range 100/400 ft., one target. 7 (1d10 + 2}) piercing damage."
 					]
 				}
 			],
@@ -23645,18 +23645,18 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The merrenoloth casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+						"The merrenoloth casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell charm person}",
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell gust of wind}"
+						"{ charm person}",
+						"{ darkness}",
+						"{ detect magic}",
+						"{ dispel magic}",
+						"{ gust of wind}"
 					],
 					"daily": {
 						"3": [
-							"{@spell control water}"
+							"{ control water}"
 						]
 					},
 					"ability": "int",
@@ -23681,13 +23681,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Oar",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) fire damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 8 (2d4 + 3}) fire damage."
 					]
 				},
 				{
 					"name": "Fear Gaze",
 					"entries": [
-						"The merrenoloth targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 13} Wisdom saving throw or become {@condition frightened} of the merrenoloth for 1 minute. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The merrenoloth targets one creature it can see within 60 feet of it. The target must succeed on a {13} Wisdom saving throw or become {frightened} of the merrenoloth for 1 minute. The {frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -23833,13 +23833,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}16 ({@damage 4d6 + 2}) piercing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 16 (4d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one creature. {@h}20 ({@damage 4d8 + 2}) psychic damage. If the target is Large or smaller, it is {@condition grappled} (escape {@dc 13}), and it must succeed on a {@dc 13} Intelligence saving throw or be {@condition restrained} until this grapple ends."
+						"{1d20+5} to hit, reach 10 ft., one creature. 20 (4d8 + 2}) psychic damage. If the target is Large or smaller, it is {grappled} (escape {13}), and it must succeed on a {13} Intelligence saving throw or be {restrained} until this grapple ends."
 					]
 				},
 				{
@@ -23853,42 +23853,42 @@ export const bestiaryMPMM = {
 								{
 									"name": "1: Aversion Ray",
 									"entries": [
-										"The targeted creature must make a {@dc 13} Charisma saving throw. On a failed save, the target has disadvantage on attack rolls for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+										"The targeted creature must make a {13} Charisma saving throw. On a failed save, the target has disadvantage on attack rolls for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									],
 									"type": "item"
 								},
 								{
 									"name": "2: Fear Ray",
 									"entries": [
-										"The targeted creature must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+										"The targeted creature must succeed on a {13} Wisdom saving throw or be {frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									],
 									"type": "item"
 								},
 								{
 									"name": "3: Psychic Ray",
 									"entries": [
-										"The target must succeed on a {@dc 13} Intelligence saving throw or take 27 ({@damage 6d8}) psychic damage."
+										"The target must succeed on a {13} Intelligence saving throw or take 27 (6d8}) psychic damage."
 									],
 									"type": "item"
 								},
 								{
 									"name": "4: Slowing Ray",
 									"entries": [
-										"The targeted creature must make a {@dc 13} Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn but not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+										"The targeted creature must make a {13} Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn but not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									],
 									"type": "item"
 								},
 								{
 									"name": "5: Stunning Ray",
 									"entries": [
-										"The targeted creature must succeed on a {@dc 13} Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+										"The targeted creature must succeed on a {13} Constitution saving throw or be {stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									],
 									"type": "item"
 								},
 								{
 									"name": "6: Telekinetic Ray",
 									"entries": [
-										"If the target is a creature, it must make a {@dc 13} Strength saving throw. On a failed save, the mindwitness moves it up to 30 feet in any direction, and it is {@condition restrained} by the ray's telekinetic grip until the start of the mindwitness's next turn or until the mindwitness is {@condition incapacitated}.",
+										"If the target is a creature, it must make a {13} Strength saving throw. On a failed save, the mindwitness moves it up to 30 feet in any direction, and it is {restrained} by the ray's telekinetic grip until the start of the mindwitness's next turn or until the mindwitness is {incapacitated}.",
 										"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved up to 30 feet in any direction. The mindwitness can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
 									],
 									"type": "item"
@@ -24026,17 +24026,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Moloch casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
+						"Moloch casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {21}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell confusion}",
-						"{@spell detect magic}",
-						"{@spell fly}",
-						"{@spell major image}",
-						"{@spell stinking cloud}",
-						"{@spell suggestion}",
-						"{@spell wall of fire}"
+						"{ alter self} (can become Medium when changing his appearance)",
+						"{ confusion}",
+						"{ detect magic}",
+						"{ fly}",
+						"{ major image}",
+						"{ stinking cloud}",
+						"{ suggestion}",
+						"{ wall of fire}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -24072,25 +24072,25 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}26 ({@damage 4d8 + 8}) fire damage."
+						"{1d20+15} to hit, reach 5 ft., one target. 26 (4d8 + 8}) fire damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d8 + 8}) force damage."
+						"{1d20+15} to hit, reach 10 ft., one target. 17 (2d8 + 8}) force damage."
 					]
 				},
 				{
 					"name": "Many-Tailed Whip",
 					"entries": [
-						"{@atk mw} {@hit 15} to hit, reach 30 ft., one target. {@h}13 ({@damage 2d4 + 8}) lightning damage plus 11 ({@damage 2d10}) thunder damage. If the target is a creature, it must succeed on a {@dc 24} Strength saving throw or be pulled up to 30 feet in a straight line toward Moloch."
+						"{1d20+15} to hit, reach 30 ft., one target. 13 (2d4 + 8}) lightning damage plus 11 (2d10}) thunder damage. If the target is a creature, it must succeed on a {24} Strength saving throw or be pulled up to 30 feet in a straight line toward Moloch."
 					]
 				},
 				{
-					"name": "Breath of Despair {@recharge 5}",
+					"name": "Breath of Despair {Recharge - 5}",
 					"entries": [
-						"Moloch exhales in a 30-foot cube. Each creature in that area must succeed on a {@dc 21} Wisdom saving throw or take 27 ({@damage 5d10}) psychic damage, drop whatever it is holding, and become {@condition frightened} of Moloch for 1 minute. While {@condition frightened} in this way, a creature must take the {@action Dash} action and move away from Moloch by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the {@action Dash} action. If the creature ends its turn in a location where it doesn't have line of sight to Moloch, the creature can repeat the saving throw, ending the effect on itself on a success."
+						"Moloch exhales in a 30-foot cube. Each creature in that area must succeed on a {21} Wisdom saving throw or take 27 (5d10}) psychic damage, drop whatever it is holding, and become {frightened} of Moloch for 1 minute. While {frightened} in this way, a creature must take the {@action Dash} action and move away from Moloch by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the {@action Dash} action. If the creature ends its turn in a location where it doesn't have line of sight to Moloch, the creature can repeat the saving throw, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -24261,17 +24261,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The molydeus casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 22}):"
+						"The molydeus casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {22}):"
 					],
 					"will": [
-						"{@spell dispel magic}",
-						"{@spell polymorph}",
-						"{@spell telekinesis}",
-						"{@spell teleport}"
+						"{ dispel magic}",
+						"{ polymorph}",
+						"{ telekinesis}",
+						"{ teleport}"
 					],
 					"daily": {
 						"3": [
-							"{@spell lightning bolt}"
+							"{ lightning bolt}"
 						]
 					},
 					"ability": "cha",
@@ -24302,19 +24302,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Demonic Weapon",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}35 ({@damage 4d12 + 9}) force damage. If the target has at least one head and the molydeus rolled a 20 on the attack roll, the target is decapitated and dies if it can't survive without that head. A target is immune to this effect if it takes none of the damage, has legendary actions, or is Huge or larger. Such a creature takes an extra 27 ({@damage 6d8}) force damage from the hit."
+						"{1d20+16} to hit, reach 15 ft., one target. 35 (4d12 + 9}) force damage. If the target has at least one head and the molydeus rolled a 20 on the attack roll, the target is decapitated and dies if it can't survive without that head. A target is immune to this effect if it takes none of the damage, has legendary actions, or is Huge or larger. Such a creature takes an extra 27 (6d8}) force damage from the hit."
 					]
 				},
 				{
 					"name": "Snakebite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one creature. {@h}16 ({@damage 2d6 + 9}) poison damage. The target must succeed on a {@dc 22} Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a {@spell wish} spell."
+						"{1d20+16} to hit, reach 15 ft., one creature. 16 (2d6 + 9}) poison damage. The target must succeed on a {22} Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target transforms into a {@creature manes} if this reduces its hit point maximum to 0. This transformation can be ended only by a { wish} spell."
 					]
 				},
 				{
 					"name": "Wolf Bite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}25 ({@damage 3d10 + 9}) necrotic damage."
+						"{1d20+16} to hit, reach 10 ft., one target. 25 (3d10 + 9}) necrotic damage."
 					]
 				}
 			],
@@ -24467,19 +24467,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The morkoth casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
+						"The morkoth casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {17}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell mage hand}"
+						"{ detect magic}",
+						"{ mage hand}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell darkness}",
-							"{@spell dimension door}",
-							"{@spell dispel magic}",
-							"{@spell lightning bolt}",
-							"{@spell sending}"
+							"{ darkness}",
+							"{ dimension door}",
+							"{ dispel magic}",
+							"{ lightning bolt}",
+							"{ sending}"
 						]
 					},
 					"ability": "int",
@@ -24504,19 +24504,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage plus 10 ({@damage 3d6}) psychic damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 9 (2d6 + 2}) slashing damage plus 10 (3d6}) psychic damage."
 					]
 				},
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}15 ({@damage 3d8 + 2}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 14}) if it is a Large or smaller creature. Until this grapple ends, the target is {@condition restrained} and takes 15 ({@dice 3d8 + 2}) bludgeoning damage at the start of each of its turns, and the morkoth can't use its tentacles on another target."
+						"{1d20+6} to hit, reach 15 ft., one target. 15 (3d8 + 2}) bludgeoning damage, and the target is {grappled} (escape {14}) if it is a Large or smaller creature. Until this grapple ends, the target is {restrained} and takes 15 ({@dice 3d8 + 2}) bludgeoning damage at the start of each of its turns, and the morkoth can't use its tentacles on another target."
 					]
 				},
 				{
 					"name": "Hypnosis",
 					"entries": [
-						"The morkoth projects a 30-foot cone of magical energy. Each creature in that area must make a {@dc 17} Wisdom saving throw. On a failed save, the creature is {@condition charmed} by the morkoth for 1 minute. While {@condition charmed} in this way, the target tries to get as close to the morkoth as possible, using its actions to {@action Dash} until it is within 5 feet of the morkoth. A {@condition charmed} target can repeat the saving throw at the end of each of its turns and whenever it takes damage, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature has advantage on saving throws against the morkoth's Hypnosis for 24 hours."
+						"The morkoth projects a 30-foot cone of magical energy. Each creature in that area must make a {17} Wisdom saving throw. On a failed save, the creature is {charmed} by the morkoth for 1 minute. While {charmed} in this way, the target tries to get as close to the morkoth as possible, using its actions to {@action Dash} until it is within 5 feet of the morkoth. A {charmed} target can repeat the saving throw at the end of each of its turns and whenever it takes damage, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature has advantage on saving throws against the morkoth's Hypnosis for 24 hours."
 					]
 				}
 			],
@@ -24640,7 +24640,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Mouth of Chaos",
 					"entries": [
-						"The giant is immune to the {@spell confusion} spell.",
+						"The giant is immune to the { confusion} spell.",
 						"On each of its turns, the giant uses all its movement to move toward the nearest creature or whatever else it might perceive as food. Roll a {@dice d10} at the start of each of the giant's turns to determine its action for that turn:",
 						{
 							"type": "list",
@@ -24659,7 +24659,7 @@ export const bestiaryMPMM = {
 								{
 									"type": "item",
 									"name": "6\u20137:",
-									"entry": "The giant makes one Bite attack against one random creature within reach. If no other creatures are within reach, its eyes glaze over and it is {@condition stunned} until the start of its next turn."
+									"entry": "The giant makes one Bite attack against one random creature within reach. If no other creatures are within reach, its eyes glaze over and it is {stunned} until the start of its next turn."
 								},
 								{
 									"type": "item",
@@ -24675,13 +24675,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}15 ({@damage 3d6 + 5}) piercing damage, and the giant magically regains hit points equal to the damage dealt."
+						"{1d20+8} to hit, reach 5 ft., one creature. 15 (3d6 + 5}) piercing damage, and the giant magically regains hit points equal to the damage dealt."
 					]
 				},
 				{
 					"name": "Fist",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage."
+						"{1d20+8} to hit, reach 10 ft., one target. 18 (3d8 + 5}) bludgeoning damage."
 					]
 				}
 			],
@@ -24800,7 +24800,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Devour Soul",
 					"entries": [
-						"A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a Construct nor an Undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice (d8s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 ({@damage 1d6}) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a {@spell wish} spell."
+						"A nabassu can eat the soul of a creature it has killed within the last hour, provided that creature is neither a Construct nor an Undead. The devouring requires the nabassu to be within 5 feet of the corpse for at least 10 minutes, after which it gains a number of Hit Dice (d8s) equal to half the creature's number of Hit Dice. Roll those dice, and increase the nabassu's hit points by the numbers rolled. For every 4 Hit Dice the nabassu gains in this way, its attacks deal an extra 3 (1d6}) damage on a hit. The nabassu retains these benefits for 6 days. A creature devoured by a nabassu can be restored to life only by a { wish} spell."
 					]
 				},
 				{
@@ -24820,19 +24820,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}38 ({@damage 5d12 + 6}) necrotic damage."
+						"{1d20+11} to hit, reach 5 ft., one target. 38 (5d12 + 6}) necrotic damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}28 ({@damage 4d10 + 6}) force damage."
+						"{1d20+11} to hit, reach 5 ft., one target. 28 (4d10 + 6}) force damage."
 					]
 				},
 				{
 					"name": "Soul-Stealing Gaze",
 					"entries": [
-						"The nabassu targets one creature it can see within 30 feet of it. If the target isn't a Construct or an Undead, it must succeed on a {@dc 16} Charisma saving throw or take 13 ({@damage 2d12}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage dealt, and the nabassu regains hit points equal to half that amount. This reduction lasts until the target finishes a short or long rest. The target dies if its hit point maximum is reduced to 0, and if the target is a Humanoid, it immediately rises as a {@creature ghoul} under the nabassu's control."
+						"The nabassu targets one creature it can see within 30 feet of it. If the target isn't a Construct or an Undead, it must succeed on a {16} Charisma saving throw or take 13 (2d12}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage dealt, and the nabassu regains hit points equal to half that amount. This reduction lasts until the target finishes a short or long rest. The target dies if its hit point maximum is reduced to 0, and if the target is a Humanoid, it immediately rises as a {@creature ghoul} under the nabassu's control."
 					]
 				}
 			],
@@ -24940,26 +24940,26 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The nagpa casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 20}):"
+						"The nagpa casts one of the following spells, using Intelligence as the spellcasting ability (spell save {20}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell mage hand}",
-						"{@spell message}",
-						"{@spell minor illusion}"
+						"{ detect magic}",
+						"{ mage hand}",
+						"{ message}",
+						"{ minor illusion}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell fireball}",
-							"{@spell fly}",
-							"{@spell hold person}",
-							"{@spell suggestion}",
-							"{@spell wall of fire}"
+							"{ fireball}",
+							"{ fly}",
+							"{ hold person}",
+							"{ suggestion}",
+							"{ wall of fire}"
 						],
 						"1e": [
-							"{@spell dominate person}",
-							"{@spell etherealness}",
-							"{@spell feeblemind}"
+							"{ dominate person}",
+							"{ etherealness}",
+							"{ feeblemind}"
 						]
 					},
 					"ability": "int",
@@ -24976,13 +24976,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Staff",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) bludgeoning damage plus 24 ({@damage 7d6}) necrotic damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 9 (2d6 + 2}) bludgeoning damage plus 24 (7d6}) necrotic damage."
 					]
 				},
 				{
 					"name": "Deathly Ray",
 					"entries": [
-						"{@atk rs} {@hit 12} to hit, range 120 ft., one target. {@h}30 ({@damage 7d6 + 6}) necrotic damage."
+						"{@atk rs} +12} to hit, range 120 ft., one target. 30 (7d6 + 6}) necrotic damage."
 					]
 				}
 			],
@@ -24990,13 +24990,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Corruption",
 					"entries": [
-						"The nagpa targets one creature it can see within 90 feet of it. The target must make a {@dc 20} Charisma saving throw. An evil creature makes the save with disadvantage. On a failed save, the target is {@condition charmed} by the nagpa until the start of the nagpa's next turn. On a successful save, the target becomes immune to the nagpa's Corruption for the next 24 hours."
+						"The nagpa targets one creature it can see within 90 feet of it. The target must make a {20} Charisma saving throw. An evil creature makes the save with disadvantage. On a failed save, the target is {charmed} by the nagpa until the start of the nagpa's next turn. On a successful save, the target becomes immune to the nagpa's Corruption for the next 24 hours."
 					]
 				},
 				{
-					"name": "Paralysis {@recharge 6}",
+					"name": "Paralysis {Recharge - 6}",
 					"entries": [
-						"The nagpa forces each creature within 30 feet of it to make a {@dc 20} Wisdom saving throw, excluding Undead and Constructs. On a failed save, a target is {@condition paralyzed} for 1 minute. A {@condition paralyzed} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The nagpa forces each creature within 30 feet of it to make a {20} Wisdom saving throw, excluding Undead and Constructs. On a failed save, a target is {paralyzed} for 1 minute. A {paralyzed} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -25160,19 +25160,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Hellfire Lance",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d12 + 5}) piercing damage plus 16 ({@damage 3d10}) fire damage. If this damage kills a creature with a soul, the soul rises from the River Styx as a {@creature lemure} in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a {@spell wish} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+						"{1d20+10} to hit, reach 10 ft., one target. 11 (1d12 + 5}) piercing damage plus 16 (3d10}) fire damage. If this damage kills a creature with a soul, the soul rises from the River Styx as a {@creature lemure} in Avernus in {@dice 1d4} hours. If the creature isn't revived before then, only a { wish} spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
 					]
 				},
 				{
 					"name": "Infernal Command",
 					"entries": [
-						"Each ally of the narzugon within 60 feet of it can't be {@condition charmed} or {@condition frightened} until the end of the narzugon's next turn."
+						"Each ally of the narzugon within 60 feet of it can't be {charmed} or {frightened} until the end of the narzugon's next turn."
 					]
 				},
 				{
 					"name": "Terrifying Command",
 					"entries": [
-						"Each creature within 60 feet of the narzugon that isn't a Fiend must succeed on a {@dc 17} Charisma saving throw or become {@condition frightened} of the narzugon for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that makes a successful saving throw is immune to this narzugon's Terrifying Command for 24 hours."
+						"Each creature within 60 feet of the narzugon that isn't a Fiend must succeed on a {17} Charisma saving throw or become {frightened} of the narzugon for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that makes a successful saving throw is immune to this narzugon's Terrifying Command for 24 hours."
 					]
 				},
 				{
@@ -25239,7 +25239,7 @@ export const bestiaryMPMM = {
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -25276,22 +25276,22 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The necromancer casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"The necromancer casts one of the following spells, using Intelligence as the spellcasting ability (spell save {15}):"
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell mage hand}",
-						"{@spell prestidigitation}"
+						"{ dancing lights}",
+						"{ mage hand}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell bestow curse}",
-							"{@spell dimension door}",
-							"{@spell mage armor}",
-							"{@spell web}"
+							"{ bestow curse}",
+							"{ dimension door}",
+							"{ mage armor}",
+							"{ web}"
 						],
 						"1e": [
-							"{@spell circle of death}"
+							"{ circle of death}"
 						]
 					},
 					"ability": "int",
@@ -25308,7 +25308,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Arcane Burst",
 					"entries": [
-						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}25 ({@damage 4d10 + 3}) necrotic damage."
+						"{1d20 +7} to hit, reach 5 ft. or range 120 ft., one target. 25 (4d10 + 3}) necrotic damage."
 					]
 				}
 			],
@@ -25324,7 +25324,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Grim Harvest (1/Turn)",
 					"entries": [
-						"When the necromancer kills a creature with necrotic damage, the necromancer regains 9 ({@damage 2d8}) hit points. "
+						"When the necromancer kills a creature with necrotic damage, the necromancer regains 9 (2d8}) hit points. "
 					]
 				}
 			],
@@ -25419,7 +25419,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Mental Fortitude",
 					"entries": [
-						"The neogi has advantage on saving throws against being {@condition charmed} or {@condition frightened}, and magic can't put the neogi to sleep."
+						"The neogi has advantage on saving throws against being {charmed} or {frightened}, and magic can't put the neogi to sleep."
 					]
 				},
 				{
@@ -25439,13 +25439,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 14 ({@damage 4d6}) poison damage, and the target must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) piercing damage plus 14 (4d6}) poison damage, and the target must succeed on a {12} Constitution saving throw or become {poisoned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) slashing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 8 (2d4 + 3}) slashing damage."
 					]
 				}
 			],
@@ -25453,7 +25453,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Enslave (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The neogi targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 14} Wisdom saving throw or be magically {@condition charmed} by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The {@condition charmed} target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the {@condition charmed} target takes damage, it can repeat the saving throw, ending the effect on itself on a success."
+						"The neogi targets one creature it can see within 30 feet of it. The target must succeed on a {14} Wisdom saving throw or be magically {charmed} by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The {charmed} target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the {charmed} target takes damage, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -25543,7 +25543,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Mental Fortitude",
 					"entries": [
-						"The neogi has advantage on saving throws against being {@condition charmed} or {@condition frightened}, and magic can't put the neogi to sleep."
+						"The neogi has advantage on saving throws against being {charmed} or {frightened}, and magic can't put the neogi to sleep."
 					]
 				},
 				{
@@ -25557,7 +25557,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage plus 3 ({@damage 1d6}) poison damage, and the target must succeed on a {@dc 10} Constitution saving throw or become {@condition poisoned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+3} to hit, reach 5 ft., one target. 3 (1d4 + 1}) piercing damage plus 3 (1d6}) poison damage, and the target must succeed on a {10} Constitution saving throw or become {poisoned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -25660,19 +25660,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The neogi casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}):"
+						"The neogi casts one of the following spells, using Charisma as the spellcasting ability (spell save {14}):"
 					],
 					"will": [
-						"{@spell guidance}",
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
-						"{@spell prestidigitation}"
+						"{ guidance}",
+						"{ mage hand}",
+						"{ minor illusion}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dimension door}",
-							"{@spell hold person}",
-							"{@spell hunger of Hadar}"
+							"{ dimension door}",
+							"{ hold person}",
+							"{ hunger of Hadar}"
 						]
 					},
 					"ability": "cha",
@@ -25689,7 +25689,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Mental Fortitude",
 					"entries": [
-						"The neogi has advantage on saving throws against being {@condition charmed} or {@condition frightened}, and magic can't put the neogi to sleep."
+						"The neogi has advantage on saving throws against being {charmed} or {frightened}, and magic can't put the neogi to sleep."
 					]
 				},
 				{
@@ -25709,19 +25709,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 14 ({@damage 4d6}) poison damage, and the target must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) piercing damage plus 14 (4d6}) poison damage, and the target must succeed on a {12} Constitution saving throw or become {poisoned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 8 (2d4 + 3}) piercing damage."
 					]
 				},
 				{
 					"name": "Tentacle of Hadar",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 120 ft., one target. {@h}14 ({@damage 3d6 + 4}) necrotic damage, and the target can't take reactions until the end of the neogi's next turn, as a spectral tentacle clings to the target."
+						"{@atk rs} +6} to hit, range 120 ft., one target. 14 (3d6 + 4}) necrotic damage, and the target can't take reactions until the end of the neogi's next turn, as a spectral tentacle clings to the target."
 					]
 				}
 			],
@@ -25729,7 +25729,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Enslave (Recharges after a Short or Long Rest)",
 					"entries": [
-						"The neogi targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 14} Wisdom saving throw or be magically {@condition charmed} by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The {@condition charmed} target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the {@condition charmed} target takes damage, it can repeat the saving throw, ending the effect on itself on a success."
+						"The neogi targets one creature it can see within 30 feet of it. The target must succeed on a {14} Wisdom saving throw or be magically {charmed} by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The {charmed} target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the {charmed} target takes damage, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -25838,16 +25838,16 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"The neothelid casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 16}):"
+						"The neothelid casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell levitate}"
+						"{ levitate}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell confusion}",
-							"{@spell feeblemind}",
-							"{@spell telekinesis}"
+							"{ confusion}",
+							"{ feeblemind}",
+							"{ telekinesis}"
 						]
 					},
 					"ability": "wis",
@@ -25858,7 +25858,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Creature Sense",
 					"entries": [
-						"The neothelid is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's Intelligence score, but can't sense anything else about it. A creature protected by a {@spell mind blank} spell, a {@spell nondetection} spell, or similar magic can't be perceived in this manner."
+						"The neothelid is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's Intelligence score, but can't sense anything else about it. A creature protected by a { mind blank} spell, a { nondetection} spell, or similar magic can't be perceived in this manner."
 					]
 				},
 				{
@@ -25872,14 +25872,14 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}21 ({@damage 3d8 + 8}) bludgeoning damage plus 11 ({@damage 2d10}) psychic damage. If the target is a Large or smaller creature, it must succeed on a {@dc 18} Strength saving throw or be swallowed by the neothelid. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the neothelid, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the neothelid's turns.",
-						"If the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a {@dc 18} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+						"{1d20+13} to hit, reach 15 ft., one target. 21 (3d8 + 8}) bludgeoning damage plus 11 (2d10}) psychic damage. If the target is a Large or smaller creature, it must succeed on a {18} Strength saving throw or be swallowed by the neothelid. A swallowed creature is {blinded} and {restrained}, it has total cover against attacks and other effects outside the neothelid, and it takes 21 (6d6}) acid damage at the start of each of the neothelid's turns.",
+						"If the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a {18} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {prone} in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer {restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {prone}."
 					]
 				},
 				{
-					"name": "Acid Breath {@recharge 5}",
+					"name": "Acid Breath {Recharge - 5}",
 					"entries": [
-						"The neothelid exhales acid in a 60- foot cone. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking 35 ({@damage 10d6}) acid damage on a failed save, or half as much damage on a successful one."
+						"The neothelid exhales acid in a 60- foot cone. Each creature in that area must make a {18} Dexterity saving throw, taking 35 (10d6}) acid damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -26005,13 +26005,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Annihilating Aura",
 					"entries": [
-						"Any creature that starts its turn within 30 feet of the nightwalker must succeed on a {@dc 21} Constitution saving throw or take 21 ({@damage 6d6}) necrotic damage. Undead are immune to this aura."
+						"Any creature that starts its turn within 30 feet of the nightwalker must succeed on a {21} Constitution saving throw or take 21 (6d6}) necrotic damage. Undead are immune to this aura."
 					]
 				},
 				{
 					"name": "Life Eater",
 					"entries": [
-						"A creature dies if reduced to 0 hit points by the nightwalker and can't be revived except by a {@spell wish} spell."
+						"A creature dies if reduced to 0 hit points by the nightwalker and can't be revived except by a { wish} spell."
 					]
 				},
 				{
@@ -26031,13 +26031,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Enervating Focus",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}28 ({@damage 5d8 + 6}) necrotic damage. The target must succeed on a {@dc 21} Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+						"{1d20+12} to hit, reach 15 ft., one target. 28 (5d8 + 6}) necrotic damage. The target must succeed on a {21} Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
-					"name": "Finger of Doom {@recharge}",
+					"name": "Finger of Doom {Recharge -}",
 					"entries": [
-						"The nightwalker points at one creature it can see within 300 feet of it. The target must succeed on a {@dc 21} Wisdom saving throw or take 39 ({@damage 6d12}) necrotic damage and become {@condition frightened} until the end of the nightwalker's next turn. While {@condition frightened} in this way, the creature is also {@condition paralyzed}. If a target's saving throw is successful, the target is immune to the nightwalker's Finger of Doom for the next 24 hours."
+						"The nightwalker points at one creature it can see within 300 feet of it. The target must succeed on a {21} Wisdom saving throw or take 39 (6d12}) necrotic damage and become {frightened} until the end of the nightwalker's next turn. While {frightened} in this way, the creature is also {paralyzed}. If a target's saving throw is successful, the target is immune to the nightwalker's Finger of Doom for the next 24 hours."
 					]
 				}
 			],
@@ -26137,11 +26137,11 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The nilbog casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 12}):"
+						"The nilbog casts one of the following spells, using Charisma as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell Tasha's hideous laughter}"
+						"{ mage hand}",
+						"{ Tasha's hideous laughter}"
 					],
 					"ability": "cha",
 					"displayAs": "action"
@@ -26151,7 +26151,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Nilbogism",
 					"entries": [
-						"Any creature that attempts to damage the nilbog must first succeed on a {@dc 12} Charisma saving throw or be {@condition charmed} until the end of the creature's next turn. A creature {@condition charmed} in this way must use its action praising the nilbog.",
+						"Any creature that attempts to damage the nilbog must first succeed on a {12} Charisma saving throw or be {charmed} until the end of the creature's next turn. A creature {charmed} in this way must use its action praising the nilbog.",
 						"The nilbog can't regain hit points, including through magical healing, except through its Reversal of Fortune reaction."
 					]
 				}
@@ -26160,13 +26160,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fool's Scepter",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 (1d6 + 2}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Mocking Word",
 					"entries": [
-						"The nilbog targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 12} Wisdom saving throw or take 5 ({@damage 2d4}) psychic damage and have disadvantage on its next attack roll before the end of its next turn."
+						"The nilbog targets one creature it can see within 60 feet of it. The target must succeed on a {12} Wisdom saving throw or take 5 (2d4}) psychic damage and have disadvantage on its next attack roll before the end of its next turn."
 					]
 				}
 			],
@@ -26297,7 +26297,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Cloud of Vermin",
 					"entries": [
-						"Any creature, other than a devil, that starts its turn within 20 feet of one or more nupperibos must succeed on a {@dc 11} Constitution saving throw or take 5 ({@damage 2d4}) acid damage. A creature within the areas of two or more nupperibos makes the saving throw with disadvantage."
+						"Any creature, other than a devil, that starts its turn within 20 feet of one or more nupperibos must succeed on a {11} Constitution saving throw or take 5 (2d4}) acid damage. A creature within the areas of two or more nupperibos makes the saving throw with disadvantage."
 					]
 				},
 				{
@@ -26311,7 +26311,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) piercing damage."
 					]
 				}
 			],
@@ -26412,7 +26412,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage plus 2 ({@damage 1d4}) psychic damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 5 (1d4 + 3}) bludgeoning damage plus 2 (1d4}) psychic damage."
 					]
 				}
 			],
@@ -26506,7 +26506,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bash",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) bludgeoning damage, and the ogre can push the target 5 feet away if the target is Huge or smaller."
+						"{1d20+6} to hit, reach 5 ft., one target. 15 (2d10 + 4}) bludgeoning damage, and the ogre can push the target 5 feet away if the target is Huge or smaller."
 					]
 				}
 			],
@@ -26603,13 +26603,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fist",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 9 (2d4 + 4}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Bolt Launcher",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 120/480 ft., one target. {@h}17 ({@damage 3d10 + 1}) piercing damage."
+						"1d20+3} to hit, range 120/480 ft., one target. 17 (3d10 + 1}) piercing damage."
 					]
 				}
 			],
@@ -26693,19 +26693,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fist",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 9 (2d4 + 4}) bludgeoning damage."
 					]
 				},
 				{
-					"name": "Chain Smash {@recharge}",
+					"name": "Chain Smash {Recharge -}",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and the target must make a {@dc 14} Constitution saving throw or be {@condition stunned} for 1 minute. The target repeats the saving throw if it takes damage and at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+6} to hit, reach 10 ft., one target. 13 (2d8 + 4}) bludgeoning damage, and the target must make a {14} Constitution saving throw or be {stunned} for 1 minute. The target repeats the saving throw if it takes damage and at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Chain Sweep",
 					"entries": [
-						"The ogre swings its chain, and every creature within 10 feet of it must make a {@dc 14} Dexterity saving throw. On a failed saving throw, a creature takes 8 ({@damage 1d8 + 4}) bludgeoning damage and is knocked {@condition prone}. On a successful save, the creature takes half as much damage and isn't knocked {@condition prone}."
+						"The ogre swings its chain, and every creature within 10 feet of it must make a {14} Dexterity saving throw. On a failed saving throw, a creature takes 8 (1d8 + 4}) bludgeoning damage and is knocked {prone}. On a successful save, the creature takes half as much damage and isn't knocked {prone}."
 					]
 				}
 			],
@@ -26800,7 +26800,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Mace",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 11 (2d6 + 4}) bludgeoning damage."
 					]
 				}
 			],
@@ -26920,19 +26920,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The oinoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+						"The oinoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell hold monster}",
-						"{@spell invisibility} (self only)"
+						"{ darkness}",
+						"{ detect magic}",
+						"{ dispel magic}",
+						"{ hold monster}",
+						"{ invisibility} (self only)"
 					],
 					"daily": {
 						"1e": [
-							"{@spell feeblemind}",
-							"{@spell globe of invulnerability}"
+							"{ feeblemind}",
+							"{ globe of invulnerability}"
 						]
 					},
 					"ability": "cha",
@@ -26957,13 +26957,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) slashing damage plus 22 ({@damage 4d10}) necrotic damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 14 (3d6 + 4}) slashing damage plus 22 (4d10}) necrotic damage."
 					]
 				},
 				{
-					"name": "Corrupted Healing {@recharge}",
+					"name": "Corrupted Healing {Recharge -}",
 					"entries": [
-						"The oinoloth touches one willing creature within 5 feet of it. The target regains all its hit points. In addition, the oinoloth can end one disease on the target or remove one of the following conditions from it: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}. The target then gains 1 level of {@condition exhaustion}, and its hit point maximum is reduced by 7 ({@dice 2d6}). This reduction can be removed only by a {@spell wish} spell or by casting {@spell greater restoration} on the target three times within the same hour. The target dies if its hit point maximum is reduced to 0."
+						"The oinoloth touches one willing creature within 5 feet of it. The target regains all its hit points. In addition, the oinoloth can end one disease on the target or remove one of the following conditions from it: {blinded}, {deafened}, {paralyzed}, or {poisoned}. The target then gains 1 level of {exhaustion}, and its hit point maximum is reduced by 7 ({@dice 2d6}). This reduction can be removed only by a { wish} spell or by casting { greater restoration} on the target three times within the same hour. The target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
@@ -26975,11 +26975,11 @@ export const bestiaryMPMM = {
 			],
 			"bonus": [
 				{
-					"name": "Bringer of Plagues {@recharge 5}",
+					"name": "Bringer of Plagues {Recharge - 5}",
 					"entries": [
 						"The oinoloth blights the area in a 30-foot-radius sphere centered on itself. The blight lasts for 24 hours. While the area is blighted, all normal plants there wither and die.",
-						"Furthermore, when a creature moves into the blighted area or starts its turn there, that creature must make a {@dc 16} Constitution saving throw. On a failed save, the creature takes 14 ({@damage 4d6}) poison damage and is {@condition poisoned}. On a successful save, the creature is immune to the oinoloth's Bringer of Plagues for the next 24 hours.",
-						"The {@condition poisoned} creature can't regain hit points. After every 24 hours that elapse, the {@condition poisoned} creature can repeat the saving throw. On a failed save, the creature's hit point maximum is reduced by 5 ({@damage 1d10}). This reduction lasts until the poison ends, and the target dies if its hit point maximum is reduced to 0. The poison ends after the creature successfully saves against it three times."
+						"Furthermore, when a creature moves into the blighted area or starts its turn there, that creature must make a {16} Constitution saving throw. On a failed save, the creature takes 14 (4d6}) poison damage and is {poisoned}. On a successful save, the creature is immune to the oinoloth's Bringer of Plagues for the next 24 hours.",
+						"The {poisoned} creature can't regain hit points. After every 24 hours that elapse, the {poisoned} creature can repeat the saving throw. On a failed save, the creature's hit point maximum is reduced by 5 (1d10}). This reduction lasts until the poison ends, and the target dies if its hit point maximum is reduced to 0. The poison ends after the creature successfully saves against it three times."
 					]
 				}
 			],
@@ -27132,17 +27132,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Orcus casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 23}):"
+						"Orcus casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {23}):"
 					],
 					"will": [
-						"{@spell detect magic}"
+						"{ detect magic}"
 					],
 					"daily": {
 						"1": [
-							"{@spell time stop}"
+							"{ time stop}"
 						],
 						"3": [
-							"{@spell dispel magic}"
+							"{ dispel magic}"
 						]
 					},
 					"ability": "cha",
@@ -27151,20 +27151,20 @@ export const bestiaryMPMM = {
 				{
 					"name": "Wand Spellcasting",
 					"headerEntries": [
-						"While holding the {@item Wand of Orcus}, Orcus casts one of the following spells (spell save {@dc 18}), some of which require charges; the wand has 7 charges to fuel these spells, and it regains {@dice 1d4 + 3} charges daily at dawn:"
+						"While holding the {@item Wand of Orcus}, Orcus casts one of the following spells (spell save {18}), some of which require charges; the wand has 7 charges to fuel these spells, and it regains {@dice 1d4 + 3} charges daily at dawn:"
 					],
 					"will": [
-						"{@spell animate dead} (as an action)",
-						"{@spell blight}",
-						"{@spell speak with dead}"
+						"{ animate dead} (as an action)",
+						"{ blight}",
+						"{ speak with dead}"
 					],
 					"charges": {
 						"1e": [
-							"{@spell circle of death}",
-							"{@spell finger of death}"
+							"{ circle of death}",
+							"{ finger of death}"
 						],
 						"2e": [
-							"{@spell power word kill}"
+							"{ power word kill}"
 						]
 					},
 					"chargesItem": "wand of orcus|dmg",
@@ -27187,7 +27187,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Master of Undeath",
 					"entries": [
-						"Orcus can cast {@spell animate dead} (at will) and {@spell create undead} (3/day). He chooses the level at which the spells are cast, and the creatures created by them remain under his control indefinitely. Additionally, he can cast {@spell create undead} even when it isn't night."
+						"Orcus can cast { animate dead} (at will) and { create undead} (3/day). He chooses the level at which the spells are cast, and the creatures created by them remain under his control indefinitely. Additionally, he can cast { create undead} even when it isn't night."
 					]
 				},
 				{
@@ -27207,19 +27207,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Wand of Orcus",
 					"entries": [
-						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}24 ({@damage 3d8 + 11}) bludgeoning damage plus 13 ({@damage 2d12}) necrotic damage."
+						"{1d20+19} to hit, reach 10 ft., one target. 24 (3d8 + 11}) bludgeoning damage plus 13 (2d12}) necrotic damage."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}21 ({@damage 3d8 + 8}) force damage plus 9 ({@damage 2d8}) poison damage."
+						"{1d20+16} to hit, reach 10 ft., one target. 21 (3d8 + 8}) force damage plus 9 (2d8}) poison damage."
 					]
 				},
 				{
 					"name": "Necrotic Bolt",
 					"entries": [
-						"{@atk rs} {@hit 15} to hit, range 120 ft., one target. {@h}29 ({@damage 5d8 + 7}) necrotic damage."
+						"{@atk rs} +15} to hit, range 120 ft., one target. 29 (5d8 + 7}) necrotic damage."
 					]
 				},
 				{
@@ -27386,13 +27386,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Infernal Dagger",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d4 + 6}) force damage, and the target must make a {@dc 17} Constitution saving throw, taking 22 ({@damage 4d10}) poison damage on a failed save, or half as much damage on a successful one. On a failure, the target is {@condition poisoned} for 1 minute. The {@condition poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+10} to hit, reach 5 ft., one target. 11 (2d4 + 6}) force damage, and the target must make a {17} Constitution saving throw, taking 22 (4d10}) poison damage on a failed save, or half as much damage on a successful one. On a failure, the target is {poisoned} for 1 minute. The {poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Brass Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 100/400 ft., one target. {@h}14 ({@damage 2d10 + 3}) force damage. The target also suffers one of the following effects of the orthon's choice; the orthon can't use the same effect two rounds in a row:",
+						"1d20+7} to hit, range 100/400 ft., one target. 14 (2d10 + 3}) force damage. The target also suffers one of the following effects of the orthon's choice; the orthon can't use the same effect two rounds in a row:",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -27400,27 +27400,27 @@ export const bestiaryMPMM = {
 								{
 									"type": "item",
 									"name": "Acid",
-									"entry": "The target must make a {@dc 17} Constitution saving throw, taking an additional 17 ({@damage 5d6}) acid damage on a failed save, or half as much damage on a successful one."
+									"entry": "The target must make a {17} Constitution saving throw, taking an additional 17 (5d6}) acid damage on a failed save, or half as much damage on a successful one."
 								},
 								{
 									"type": "item",
 									"name": "Blindness",
-									"entry": "The target takes 5 ({@damage 1d10}) radiant damage. In addition, the target and all other creatures within 20 feet of it must each make a successful {@dc 17} Dexterity saving throw or be {@condition blinded} until the end of the orthon's next turn."
+									"entry": "The target takes 5 (1d10}) radiant damage. In addition, the target and all other creatures within 20 feet of it must each make a successful {17} Dexterity saving throw or be {blinded} until the end of the orthon's next turn."
 								},
 								{
 									"type": "item",
 									"name": "Concussion",
-									"entry": "The target and each creature within 20 feet of it must make a {@dc 17} Constitution saving throw, taking 13 ({@damage 2d12}) thunder damage on a failed save, or half as much damage on a successful one."
+									"entry": "The target and each creature within 20 feet of it must make a {17} Constitution saving throw, taking 13 (2d12}) thunder damage on a failed save, or half as much damage on a successful one."
 								},
 								{
 									"type": "item",
 									"name": "Entanglement",
-									"entry": "The target must make a successful {@dc 17} Dexterity saving throw or be {@condition restrained} for 1 hour by strands of sticky webbing. The target can escape by taking an action to make a {@dc 17} Strength or Dexterity check and succeeding."
+									"entry": "The target must make a successful {17} Dexterity saving throw or be {restrained} for 1 hour by strands of sticky webbing. The target can escape by taking an action to make a {17} Strength or Dexterity check and succeeding."
 								},
 								{
 									"type": "item",
 									"name": "Paralysis",
-									"entry": "The target takes 22 ({@damage 4d10}) lightning damage and must make a successful {@dc 17} Constitution saving throw or be {@condition paralyzed} for 1 minute. The {@condition paralyzed} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+									"entry": "The target takes 22 (4d10}) lightning damage and must make a successful {17} Constitution saving throw or be {paralyzed} for 1 minute. The {paralyzed} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 								},
 								{
 									"type": "item",
@@ -27434,9 +27434,9 @@ export const bestiaryMPMM = {
 			],
 			"bonus": [
 				{
-					"name": "Invisibility Field {@recharge 4}",
+					"name": "Invisibility Field {Recharge - 4}",
 					"entries": [
-						"The orthon becomes {@condition invisible}. Any equipment it wears or carries is also {@condition invisible} as long as the equipment is on its person. This invisibility ends immediately after it makes an attack roll or is hit by an attack roll."
+						"The orthon becomes {invisible}. Any equipment it wears or carries is also {invisible} as long as the equipment is on its person. This invisibility ends immediately after it makes an attack roll or is hit by an attack roll."
 					]
 				}
 			],
@@ -27444,7 +27444,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Explosive Retribution",
 					"entries": [
-						"In response to dropping to 15 hit points or fewer, the orthon explodes. All other creatures within 30 feet of it must each make a {@dc 17} Dexterity saving throw, taking 9 ({@damage 2d8}) fire damage plus 9 ({@damage 2d8}) thunder damage on a failed save, or half as much damage on a successful one. The orthon, its infernal dagger, and its brass crossbow are destroyed."
+						"In response to dropping to 15 hit points or fewer, the orthon explodes. All other creatures within 30 feet of it must each make a {17} Dexterity saving throw, taking 9 (2d8}) fire damage plus 9 (2d8}) thunder damage on a failed save, or half as much damage on a successful one. The orthon, its infernal dagger, and its brass crossbow are destroyed."
 					]
 				}
 			],
@@ -27545,7 +27545,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Gore",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage. If the ox moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 ({@damage 2d6}) piercing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 7 (1d6 + 4}) piercing damage. If the ox moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 (2d6}) piercing damage."
 					]
 				}
 			],
@@ -27639,15 +27639,15 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fiery Death and Rebirth",
 					"entries": [
-						"If the phoenix dies, it explodes. Each creature in 60-foot-radius sphere centered on the phoenix must make a {@dc 20} Dexterity saving throw, taking 22 ({@damage 4d10}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.",
-						"The explosion destroys the phoenix's body and leaves behind an egg-shaped cinder, which weighs 5 pounds. The cinder deals 21 ({@damage 6d6}) fire damage to any creature that touches it, though no more than once per round. The cinder is immune to all damage, and after {@dice 1d6} days, it hatches a new phoenix."
+						"If the phoenix dies, it explodes. Each creature in 60-foot-radius sphere centered on the phoenix must make a {20} Dexterity saving throw, taking 22 (4d10}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.",
+						"The explosion destroys the phoenix's body and leaves behind an egg-shaped cinder, which weighs 5 pounds. The cinder deals 21 (6d6}) fire damage to any creature that touches it, though no more than once per round. The cinder is immune to all damage, and after {@dice 1d6} days, it hatches a new phoenix."
 					]
 				},
 				{
 					"name": "Fire Form",
 					"entries": [
 						"The phoenix can move through a space as narrow as 1 inch wide without squeezing.",
-						"Any creature that touches the phoenix or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) fire damage. In addition, the phoenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 ({@damage 1d10}) fire damage.",
+						"Any creature that touches the phoenix or hits it with a melee attack while within 5 feet of it takes 5 (1d10}) fire damage. In addition, the phoenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10}) fire damage.",
 						"With a touch, the phoenix can also ignite flammable objects that aren't worn or carried (no action required)."
 					]
 				},
@@ -27686,13 +27686,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Beak",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d6 + 8}) fire damage."
+						"{1d20+13} to hit, reach 15 ft., one target. 15 (2d6 + 8}) fire damage."
 					]
 				},
 				{
 					"name": "Fiery Talons",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d8 + 8}) fire damage."
+						"{1d20+13} to hit, reach 15 ft., one target. 17 (2d8 + 8}) fire damage."
 					]
 				}
 			],
@@ -27809,7 +27809,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 10 ft., one creature. {@h}12 ({@damage 3d6 + 2}) piercing damage. If the quetzalcoatlus flew least 30 feet toward the target immediately before the hit, the target takes an extra 10 ({@damage 3d6}) piercing damage."
+						"{1d20+4} to hit, reach 10 ft., one creature. 12 (3d6 + 2}) piercing damage. If the quetzalcoatlus flew least 30 feet toward the target immediately before the hit, the target takes an extra 10 (3d6}) piercing damage."
 					]
 				}
 			],
@@ -27889,13 +27889,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Blurred Movement",
 					"entries": [
-						"Attack rolls against the quickling have disadvantage unless it is {@condition incapacitated} or its speed is 0."
+						"Attack rolls against the quickling have disadvantage unless it is {incapacitated} or its speed is 0."
 					]
 				},
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the quickling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it isn't {@condition incapacitated}."
+						"If the quickling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it isn't {incapacitated}."
 					]
 				}
 			],
@@ -27909,7 +27909,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}8 ({@damage 1d4 + 6}) piercing damage."
+						"{@atk mw,rw} +8} to hit, reach 5 ft. or range 20/60 ft., one target. 8 (1d4 + 6}) piercing damage."
 					]
 				}
 			],
@@ -28051,31 +28051,31 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage plus 38 ({@damage 7d10}) fire damage."
+						"{1d20+12} to hit, reach 5 ft., one target. 22 (3d10 + 6}) piercing damage plus 38 (7d10}) fire damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) force damage plus 11 ({@damage 2d10}) fire damage."
+						"{1d20+12} to hit, reach 5 ft., one target. 17 (2d10 + 6}) force damage plus 11 (2d10}) fire damage."
 					]
 				},
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the abishai's choice that is within 120 feet and aware of the abishai must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} of it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the abishai's Frightful Presence for the next 24 hours."
+						"Each creature of the abishai's choice that is within 120 feet and aware of the abishai must succeed on a {18} Wisdom saving throw or become {frightened} of it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the abishai's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
 					"name": "Incite Fanaticism",
 					"entries": [
-						"The abishai chooses up to four other creatures within 60 feet of it that can see it. Until the start of the abishai's next turn, each of those creatures makes attack rolls with advantage and can't be {@condition frightened}."
+						"The abishai chooses up to four other creatures within 60 feet of it that can see it. Until the start of the abishai's next turn, each of those creatures makes attack rolls with advantage and can't be {frightened}."
 					]
 				},
 				{
 					"name": "Power of the Dragon Queen",
 					"entries": [
-						"The abishai targets one Dragon it can see within 120 feet of it. The Dragon must make a {@dc 18} Charisma saving throw. A chromatic dragon makes this save with disadvantage. On a successful save, the target is immune to the abishai's Power of the Dragon Queen for 1 hour. On a failed save, the target is {@condition charmed} by the abishai for 1 hour. While {@condition charmed} in this way, the target regards the abishai as a trusted friend to be heeded and protected. This effect ends if the abishai or its companions deal damage to the target."
+						"The abishai targets one Dragon it can see within 120 feet of it. The Dragon must make a {18} Charisma saving throw. A chromatic dragon makes this save with disadvantage. On a successful save, the target is immune to the abishai's Power of the Dragon Queen for 1 hour. On a failed save, the target is {charmed} by the abishai for 1 hour. While {charmed} in this way, the target regards the abishai as a trusted friend to be heeded and protected. This effect ends if the abishai or its companions deal damage to the target."
 					]
 				}
 			],
@@ -28196,13 +28196,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Wicked Sickle",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 9 (2d4 + 4}) slashing damage."
 					]
 				},
 				{
 					"name": "Ironbound Pursuit",
 					"entries": [
-						"The redcap moves up to its speed to a creature it can see and kicks with its iron boots. The target must succeed on a {@dc 14} Dexterity saving throw or take 20 ({@damage 3d10 + 4}) bludgeoning damage and be knocked {@condition prone}."
+						"The redcap moves up to its speed to a creature it can see and kicks with its iron boots. The target must succeed on a {14} Dexterity saving throw or take 20 (3d10 + 4}) bludgeoning damage and be knocked {prone}."
 					]
 				}
 			],
@@ -28325,12 +28325,12 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The retriever casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {@dc 13}):"
+						"The retriever casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save {13}):"
 					],
 					"daily": {
 						"3e": [
-							"{@spell plane shift} (only self and up to one incapacitated creature, which is considered willing for the spell)",
-							"{@spell web}"
+							"{ plane shift} (only self and up to one incapacitated creature, which is considered willing for the spell)",
+							"{ web}"
 						]
 					},
 					"ability": "wis",
@@ -28355,20 +28355,20 @@ export const bestiaryMPMM = {
 				{
 					"name": "Foreleg",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage."
+						"{1d20+11} to hit, reach 10 ft., one target. 15 (2d8 + 6}) slashing damage."
 					]
 				},
 				{
 					"name": "Force Beam",
 					"entries": [
-						"The retriever targets one creature it can see within 60 feet of it. The target must make a {@dc 16} Dexterity saving throw, taking 27 ({@damage 5d10}) force damage on a failed save, or half as much damage on a successful one."
+						"The retriever targets one creature it can see within 60 feet of it. The target must make a {16} Dexterity saving throw, taking 27 (5d10}) force damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
-					"name": "Paralyzing Beam {@recharge 5}",
+					"name": "Paralyzing Beam {Recharge - 5}",
 					"entries": [
-						"The retriever targets one creature it can see within 60 feet of it. The target must succeed on a {@dc 18} Constitution saving throw or be {@condition paralyzed} for 1 minute. The {@condition paralyzed} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-						"If the {@condition paralyzed} creature is Medium or smaller, the retriever can pick it up as part of the retriever's move and walk or climb with it at full speed."
+						"The retriever targets one creature it can see within 60 feet of it. The target must succeed on a {18} Constitution saving throw or be {paralyzed} for 1 minute. The {paralyzed} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"If the {paralyzed} creature is Medium or smaller, the retriever can pick it up as part of the retriever's move and walk or climb with it at full speed."
 					]
 				}
 			],
@@ -28476,7 +28476,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Rancid Degeneration",
 					"entries": [
-						"At the end of each of the troll's turns, each creature within 5 feet of it takes 11 ({@damage 2d10}) necrotic damage, unless the troll has taken acid or fire damage since the end of its last turn."
+						"At the end of each of the troll's turns, each creature within 5 feet of it takes 11 (2d10}) necrotic damage, unless the troll has taken acid or fire damage since the end of its last turn."
 					]
 				}
 			],
@@ -28490,13 +28490,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage plus 16 ({@damage 3d10}) necrotic damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 9 (1d10 + 4}) piercing damage plus 16 (3d10}) necrotic damage."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 7 ({@damage 2d6}) necrotic damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 11 (2d6 + 4}) slashing damage plus 7 (2d6}) necrotic damage."
 					]
 				}
 			],
@@ -28597,7 +28597,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Immobilizing Fear",
 					"entries": [
-						"When a creature that isn't a demon starts its turn within 30 feet of one or more rutterkins, that creature must make a {@dc 11} Wisdom saving throw. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. On a failed save, the creature becomes {@condition frightened} of the rutterkins for 1 minute. While {@condition frightened} in this way, the creature is {@condition restrained}. At the end of each of the {@condition frightened} creature's turns, it can repeat the saving throw, ending the effect on itself on a success. On a successful save, the creature is immune to the Crippling Fear of all rutterkins for 24 hours."
+						"When a creature that isn't a demon starts its turn within 30 feet of one or more rutterkins, that creature must make a {11} Wisdom saving throw. The creature has disadvantage on the save if it's within 30 feet of six or more rutterkins. On a failed save, the creature becomes {frightened} of the rutterkins for 1 minute. While {frightened} in this way, the creature is {restrained}. At the end of each of the {frightened} creature's turns, it can repeat the saving throw, ending the effect on itself on a success. On a successful save, the creature is immune to the Crippling Fear of all rutterkins for 24 hours."
 					]
 				}
 			],
@@ -28605,7 +28605,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 3d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw against disease or become {@condition poisoned}. At the end of each long rest, the {@condition poisoned} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {@condition poisoned} in this way, it dies and instantly transforms into a living {@creature manes}. The transformation can be undone only by a {@spell wish} spell."
+						"{1d20+4} to hit, reach 5 ft., one target. 12 (3d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {13} Constitution saving throw against disease or become {poisoned}. At the end of each long rest, the {poisoned} target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while {poisoned} in this way, it dies and instantly transforms into a living {@creature manes}. The transformation can be undone only by a { wish} spell."
 					]
 				}
 			],
@@ -28716,13 +28716,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the statue is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the statue move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the statue isn't an object."
+						"If the statue is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the statue move or act, that creature must succeed on a {18} Intelligence ({@skill Investigation}) check to discern that the statue isn't an object."
 					]
 				},
 				{
 					"name": "Ghostly Inhabitant",
 					"entries": [
-						"The {@creature eidolon|MPMM} that enters the statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the {@spell dispel evil and good} spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue."
+						"The {@creature eidolon|MPMM} that enters the statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the { dispel evil and good} spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue."
 					]
 				},
 				{
@@ -28748,13 +28748,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}43 ({@damage 6d12 + 4}) bludgeoning damage."
+						"{1d20+8} to hit, reach 10 ft., one target. 43 (6d12 + 4}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"{@atk rw} {@hit 8} to hit, range 60 ft./240 ft., one target. {@h}37 ({@damage 6d10 + 4}) bludgeoning damage."
+						"1d20+8} to hit, range 60 ft./240 ft., one target. 37 (6d10 + 4}) bludgeoning damage."
 					]
 				}
 			],
@@ -28854,7 +28854,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 4 (1d4 + 2}) bludgeoning damage."
 					]
 				},
 				{
@@ -28869,21 +28869,21 @@ export const bestiaryMPMM = {
 									"name": "1\u20132: Bite",
 									"type": "item",
 									"entries": [
-										"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+										"{1d20+4} to hit, reach 5 ft., one target. 4 (1d4 + 2}) piercing damage."
 									]
 								},
 								{
 									"name": "3\u20134: Poison Quills",
 									"type": "item",
 									"entries": [
-										"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d6}) poison damage, and the target must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+										"{1d20+4} to hit, reach 5 ft., one creature. 3 (1d6}) poison damage, and the target must succeed on a {12} Constitution saving throw or be {poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									]
 								},
 								{
 									"name": "5\u20136: Tentacle",
 									"type": "item",
 									"entries": [
-										"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 12}) if it is a Medium or smaller creature. Until this grapple ends, the sea spawn can't use this tentacle on another target."
+										"{1d20+4} to hit, reach 10 ft., one target. 5 (1d6 + 2}) bludgeoning damage, and the target is {grappled} (escape {12}) if it is a Medium or smaller creature. Until this grapple ends, the sea spawn can't use this tentacle on another target."
 									]
 								}
 							]
@@ -28991,24 +28991,24 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The shadar-kai casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+						"The shadar-kai casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell arcane eye}",
-						"{@spell mage armor}",
-						"{@spell minor illusion}",
-						"{@spell prestidigitation}",
-						"{@spell speak with dead}"
+						"{ arcane eye}",
+						"{ mage armor}",
+						"{ minor illusion}",
+						"{ prestidigitation}",
+						"{ speak with dead}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell arcane gate}",
-							"{@spell bane}",
-							"{@spell confusion}",
-							"{@spell darkness}",
-							"{@spell fear}",
-							"{@spell major image}",
-							"{@spell true seeing}"
+							"{ arcane gate}",
+							"{ bane}",
+							"{ confusion}",
+							"{ darkness}",
+							"{ fear}",
+							"{ major image}",
+							"{ true seeing}"
 						]
 					},
 					"ability": "cha",
@@ -29025,7 +29025,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The shadar-kai has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+						"The shadar-kai has advantage on saving throws against being {charmed}, and magic can't put it to sleep."
 					]
 				}
 			],
@@ -29039,15 +29039,15 @@ export const bestiaryMPMM = {
 				{
 					"name": "Shadow Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 8} to hit, reach 5 ft. or range 30/120, one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 26 ({@damage 4d12}) necrotic damage. Hit or Miss: The spear magically returns to the shadar-kai's hand immediately after a ranged attack."
+						"{@atk mw,rw} +8} to hit, reach 5 ft. or range 30/120, one target. 7 (1d6 + 4}) piercing damage plus 26 (4d12}) necrotic damage. Hit or Miss: The spear magically returns to the shadar-kai's hand immediately after a ranged attack."
 					]
 				}
 			],
 			"reaction": [
 				{
-					"name": "Misty Escape {@recharge 6}",
+					"name": "Misty Escape {Recharge - 6}",
 					"entries": [
-						"When the shadar-kai takes damage, it turns {@condition invisible} and teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see. It remains {@condition invisible} until the start of its next turn or until it attacks or casts a spell."
+						"When the shadar-kai takes damage, it turns {invisible} and teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see. It remains {invisible} until the start of its next turn or until it attacks or casts a spell."
 					]
 				}
 			],
@@ -29161,7 +29161,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The shadar-kai has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+						"The shadar-kai has advantage on saving throws against being {charmed}, and magic can't put it to sleep."
 					]
 				}
 			],
@@ -29176,7 +29176,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spiked Chain",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. The target must succeed on a {@dc 14} Dexterity saving throw or suffer one of the following effects (choose one or roll a {@dice d6}):",
+						"{1d20+6} to hit, reach 10 ft., one target. 10 (2d6 + 3}) piercing damage. The target must succeed on a {14} Dexterity saving throw or suffer one of the following effects (choose one or roll a {@dice d6}):",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -29185,21 +29185,21 @@ export const bestiaryMPMM = {
 									"name": "1\u20132: Decay",
 									"type": "item",
 									"entries": [
-										"The target takes 22 ({@damage 4d10}) necrotic damage."
+										"The target takes 22 (4d10}) necrotic damage."
 									]
 								},
 								{
 									"name": "3\u20134: Grapple",
 									"type": "item",
 									"entries": [
-										"The target is {@condition grappled} (escape {@dc 14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition restrained}, and the shadar-kai can't grapple another target."
+										"The target is {grappled} (escape {14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {restrained}, and the shadar-kai can't grapple another target."
 									]
 								},
 								{
 									"name": "5\u20136: Topple",
 									"type": "item",
 									"entries": [
-										"The target is knocked {@condition prone}."
+										"The target is knocked {prone}."
 									]
 								}
 							]
@@ -29329,14 +29329,14 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The shadar-kai casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
+						"The shadar-kai casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {16}):"
 					],
 					"daily": {
 						"1e": [
-							"{@spell bestow curse}",
-							"{@spell finger of death}",
-							"{@spell gaseous form}",
-							"{@spell seeming}"
+							"{ bestow curse}",
+							"{ finger of death}",
+							"{ gaseous form}",
+							"{ seeming}"
 						]
 					},
 					"ability": "int",
@@ -29347,7 +29347,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fey Ancestry",
 					"entries": [
-						"The shadar-kai has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+						"The shadar-kai has advantage on saving throws against being {charmed}, and magic can't put it to sleep."
 					]
 				},
 				{
@@ -29379,13 +29379,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Shadow Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}13 ({@damage 4d4 + 3}) piercing damage plus 19 ({@damage 3d12}) necrotic damage, and the target has disadvantage on saving throws until the end of the shadar-kai's next turn. Hit or Miss: The dagger magically returns to the shadar-kai's hand immediately after a ranged attack."
+						"{@atk mw,rw} +7} to hit, reach 5 ft. or range 20/60 ft., one target. 13 (4d4 + 3}) piercing damage plus 19 (3d12}) necrotic damage, and the target has disadvantage on saving throws until the end of the shadar-kai's next turn. Hit or Miss: The dagger magically returns to the shadar-kai's hand immediately after a ranged attack."
 					]
 				},
 				{
-					"name": "Wave of Weariness {@recharge 4}",
+					"name": "Wave of Weariness {Recharge - 4}",
 					"entries": [
-						"The shadar-kai emits weariness in a 60-foot cube. Each creature in that area must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 45 ({@damage 10d8}) psychic damage and suffers 1 level of {@condition exhaustion}. On a successful save, it takes half as much damage and doesn't gain a level of {@condition exhaustion}."
+						"The shadar-kai emits weariness in a 60-foot cube. Each creature in that area must make a {16} Constitution saving throw. On a failed save, a creature takes 45 (10d8}) psychic damage and suffers 1 level of {exhaustion}. On a successful save, it takes half as much damage and doesn't gain a level of {exhaustion}."
 					]
 				}
 			],
@@ -29508,7 +29508,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"{1d20+5} to hit, reach 5 ft., one target. 10 (2d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {13} Strength saving throw or be knocked {prone}."
 					]
 				}
 			],
@@ -29516,7 +29516,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Shadow Blend",
 					"entries": [
-						"While in dim light or darkness, the shadow mastiff becomes {@condition invisible}, along with anything it is wearing or carrying. The invisibility lasts until the shadow mastiff uses a bonus action to end it or until the shadow mastiff attacks, is in bright light, or is {@condition incapacitated}."
+						"While in dim light or darkness, the shadow mastiff becomes {invisible}, along with anything it is wearing or carrying. The invisibility lasts until the shadow mastiff uses a bonus action to end it or until the shadow mastiff attacks, is in bright light, or is {incapacitated}."
 					]
 				}
 			],
@@ -29618,13 +29618,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+						"{1d20+5} to hit, reach 5 ft., one target. 10 (2d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {13} Strength saving throw or be knocked {prone}."
 					]
 				},
 				{
-					"name": "Terrifying Howl {@recharge}",
+					"name": "Terrifying Howl {Recharge -}",
 					"entries": [
-						"The shadow mastiff howls. Any Beast or Humanoid within 300 feet of it must succeed on a {@dc 11} Wisdom saving throw or be {@condition frightened} of it for 1 minute. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's save is successful or the effect ends for it, the target is immune to any shadow mastiff's Terrifying Howl for the next 24 hours."
+						"The shadow mastiff howls. Any Beast or Humanoid within 300 feet of it must succeed on a {11} Wisdom saving throw or be {frightened} of it for 1 minute. A {frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's save is successful or the effect ends for it, the target is immune to any shadow mastiff's Terrifying Howl for the next 24 hours."
 					]
 				}
 			],
@@ -29632,7 +29632,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Shadow Blend",
 					"entries": [
-						"While in dim light or darkness, the shadow mastiff becomes {@condition invisible}, along with anything it is wearing or carrying. The invisibility lasts until the shadow mastiff uses a bonus action to end it or until the shadow mastiff attacks, is in bright light, or is {@condition incapacitated}."
+						"While in dim light or darkness, the shadow mastiff becomes {invisible}, along with anything it is wearing or carrying. The invisibility lasts until the shadow mastiff uses a bonus action to end it or until the shadow mastiff attacks, is in bright light, or is {incapacitated}."
 					]
 				}
 			],
@@ -29744,13 +29744,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}26 ({@damage 4d10 + 4}) piercing damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 26 (4d10 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Tail Stinger",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 15 ft., one creature. {@h}13 ({@damage 2d8 + 4}) piercing damage, and the target must succeed on a {@dc 14} Constitution saving throw or become {@condition poisoned}. While {@condition poisoned} in this way, the target is also {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+7} to hit, reach 15 ft., one creature. 13 (2d8 + 4}) piercing damage, and the target must succeed on a {14} Constitution saving throw or become {poisoned}. While {poisoned} in this way, the target is also {paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -29890,16 +29890,16 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The sibriex casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
+						"The sibriex casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {21}):"
 					],
 					"will": [
-						"{@spell command}",
-						"{@spell dispel magic}",
-						"{@spell hold monster}"
+						"{ command}",
+						"{ dispel magic}",
+						"{ hold monster}"
 					],
 					"daily": {
 						"1": [
-							"{@spell feeblemind}"
+							"{ feeblemind}"
 						]
 					},
 					"ability": "cha",
@@ -29910,7 +29910,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Contamination",
 					"entries": [
-						"The sibriex emits an aura of corruption 30 feet in every direction. Vegetation withers in the aura, and the ground in the aura is {@quickref difficult terrain||3} for other creatures. Any creature that starts its turn in the aura must succeed on a {@dc 20} Constitution saving throw or take 14 ({@damage 4d6}) poison damage. A creature that succeeds on the save is immune to this sibriex's Contamination for 24 hours."
+						"The sibriex emits an aura of corruption 30 feet in every direction. Vegetation withers in the aura, and the ground in the aura is {@quickref difficult terrain||3} for other creatures. Any creature that starts its turn in the aura must succeed on a {20} Constitution saving throw or take 14 (4d6}) poison damage. A creature that succeeds on the save is immune to this sibriex's Contamination for 24 hours."
 					]
 				},
 				{
@@ -29936,19 +29936,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Chain",
 					"entries": [
-						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d12 + 7}) force damage."
+						"{1d20+13} to hit, reach 15 ft., one target. 20 (2d12 + 7}) force damage."
 					]
 				},
 				{
 					"name": "Squirt Bile",
 					"entries": [
-						"The sibriex targets one creature it can see within 120 feet of it. The target must succeed on a {@dc 20} Dexterity saving throw or take 31 ({@damage 9d6}) acid damage."
+						"The sibriex targets one creature it can see within 120 feet of it. The target must succeed on a {20} Dexterity saving throw or take 31 (9d6}) acid damage."
 					]
 				},
 				{
 					"name": "Warp Creature",
 					"entries": [
-						"The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a {@dc 20} Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is {@condition poisoned}, which causes it to also gain 1 level of {@condition exhaustion}. While {@condition poisoned} in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of {@condition exhaustion} caused by it. Each failed save causes the target to gain another level of {@condition exhaustion}. Once the target reaches 6 levels of {@condition exhaustion}, it dies and instantly transforms into a living {@creature manes} under the sibriex's control. The transformation of the body can be undone only by a {@spell wish} spell."
+						"The sibriex targets up to three creatures it can see within 120 feet of it. Each target must make a {20} Constitution saving throw. On a successful save, a creature becomes immune to this sibriex's Warp Creature. On a failed save, the target is {poisoned}, which causes it to also gain 1 level of {exhaustion}. While {poisoned} in this way, the target must repeat the saving throw at the start of each of its turns. Three successful saves against the poison end it, and ending the poison removes any levels of {exhaustion} caused by it. Each failed save causes the target to gain another level of {exhaustion}. Once the target reaches 6 levels of {exhaustion}, it dies and instantly transforms into a living {@creature manes} under the sibriex's control. The transformation of the body can be undone only by a { wish} spell."
 					]
 				}
 			],
@@ -30016,7 +30016,7 @@ export const bestiaryMPMM = {
 								],
 								[
 									"31\u201335",
-									"The target's ears tear free from its head and scurry away; the target is {@condition deafened}."
+									"The target's ears tear free from its head and scurry away; the target is {deafened}."
 								],
 								[
 									"36\u201340",
@@ -30068,7 +30068,7 @@ export const bestiaryMPMM = {
 								],
 								[
 									"96\u201300",
-									"The target grows another head, causing it to have advantage on saving throws against being {@condition charmed}, {@condition frightened}, or {@condition stunned}."
+									"The target grows another head, causing it to have advantage on saving throws against being {charmed}, {frightened}, or {stunned}."
 								]
 							]
 						}
@@ -30184,7 +30184,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fallible Invisibility",
 					"entries": [
-						"The skulk is {@condition invisible}. This invisibility can be circumvented by three things:",
+						"The skulk is {invisible}. This invisibility can be circumvented by three things:",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -30225,7 +30225,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage plus 3 ({@damage 1d6}) necrotic damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 6 (1d4 + 4}) slashing damage plus 3 (1d6}) necrotic damage."
 					]
 				}
 			],
@@ -30350,20 +30350,20 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The skull, lord casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 18}):"
+						"The skull, lord casts one of the following spells, using Charisma as the spellcasting ability (spell save {18}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell message}"
+						"{ mage hand}",
+						"{ message}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell dimension door}",
-							"{@spell fear}"
+							"{ dimension door}",
+							"{ fear}"
 						],
 						"1e": [
-							"{@spell cloudkill}",
-							"{@spell cone of cold}"
+							"{ cloudkill}",
+							"{ cone of cold}"
 						]
 					},
 					"ability": "cha",
@@ -30374,7 +30374,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Evasion",
 					"entries": [
-						"If the skull lord is subjected to an effect that allows it to make a Dexterity saving throw to take only half the damage, the skull lord instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it isn't {@condition incapacitated}."
+						"If the skull lord is subjected to an effect that allows it to make a Dexterity saving throw to take only half the damage, the skull lord instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it isn't {incapacitated}."
 					]
 				},
 				{
@@ -30406,13 +30406,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bone Staff",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage plus 21 ({@damage 6d6}) necrotic damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 7 (1d8 + 3}) bludgeoning damage plus 21 (6d6}) necrotic damage."
 					]
 				},
 				{
 					"name": "Deathly Ray",
 					"entries": [
-						"{@atk rs} {@hit 10} to hit, range 60 ft., one target. {@h}27 ({@damage 5d8 + 5}) necrotic damage."
+						"{@atk rs} +10} to hit, range 60 ft., one target. 27 (5d8 + 5}) necrotic damage."
 					]
 				}
 			],
@@ -30559,7 +30559,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the slithering tracker is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the slithering tracker move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the slithering tracker isn't a puddle."
+						"If the slithering tracker is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the slithering tracker move or act, that creature must succeed on a {18} Intelligence ({@skill Investigation}) check to discern that the slithering tracker isn't a puddle."
 					]
 				},
 				{
@@ -30579,13 +30579,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) bludgeoning damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 8 (1d10 + 3}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Life Leech",
 					"entries": [
-						"One Large or smaller creature that the slithering tracker can see within 5 feet of it must succeed on a {@dc 13} Dexterity saving throw or be {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained} and unable to breathe unless it can breathe water. In addition, the {@condition grappled} target takes 16 ({@damage 3d10}) necrotic damage at the start of each of its turns. The slithering tracker can grapple only one target at a time.",
+						"One Large or smaller creature that the slithering tracker can see within 5 feet of it must succeed on a {13} Dexterity saving throw or be {grappled} (escape {13}). Until this grapple ends, the target is {restrained} and unable to breathe unless it can breathe water. In addition, the {grappled} target takes 16 (3d10}) necrotic damage at the start of each of its turns. The slithering tracker can grapple only one target at a time.",
 						"While grappling the target, the slithering tracker takes only half any damage dealt to it (rounded down), and the target takes the other half."
 					]
 				}
@@ -30714,13 +30714,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage plus 7 ({@damage 2d6}) necrotic damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 6 (1d6 + 3}) slashing damage plus 7 (2d6}) necrotic damage."
 					]
 				},
 				{
 					"name": "Burrowing Worm",
 					"entries": [
-						"A worm launches from the spawn of Kyuss at one Humanoid that the spawn can see within 10 feet of it. The worm latches onto the target's skin unless the target succeeds on a {@dc 11} Dexterity saving throw. The worm is a Tiny Undead with AC 6, 1 hit point, a 2 (-4) in every ability score, and a speed of 1 foot. While on the target's skin, the worm can be killed by normal means or scraped off using an action (the spawn can use Burrowing Worm to launch a scraped-off worm at a Humanoid it can see within 10 feet of the worm). Otherwise, the worm burrows under the target's skin at the end of the target's next turn, dealing 1 piercing damage to it. At the end of each of its turns thereafter, the target takes 7 ({@damage 2d6}) necrotic damage per worm infesting it (maximum of {@damage 10d6}), and if it drops to 0 hit points, it dies and then rises 10 minutes later as a spawn of Kyuss. If a worm-infested target is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away."
+						"A worm launches from the spawn of Kyuss at one Humanoid that the spawn can see within 10 feet of it. The worm latches onto the target's skin unless the target succeeds on a {11} Dexterity saving throw. The worm is a Tiny Undead with AC 6, 1 hit point, a 2 (-4) in every ability score, and a speed of 1 foot. While on the target's skin, the worm can be killed by normal means or scraped off using an action (the spawn can use Burrowing Worm to launch a scraped-off worm at a Humanoid it can see within 10 feet of the worm). Otherwise, the worm burrows under the target's skin at the end of the target's next turn, dealing 1 piercing damage to it. At the end of each of its turns thereafter, the target takes 7 (2d6}) necrotic damage per worm infesting it (maximum of 10d6}), and if it drops to 0 hit points, it dies and then rises 10 minutes later as a spawn of Kyuss. If a worm-infested target is targeted by an effect that cures disease or removes a curse, all the worms infesting it wither away."
 					]
 				}
 			],
@@ -30838,7 +30838,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The troll can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The troll can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 (1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -30858,13 +30858,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}19 ({@damage 3d10 + 3}) psychic damage, and the target must succeed on a {@dc 15} Wisdom saving throw or be {@condition stunned} for 1 minute. The {@condition stunned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+7} to hit, reach 5 ft., one creature. 19 (3d10 + 3}) psychic damage, and the target must succeed on a {15} Wisdom saving throw or be {stunned} for 1 minute. The {stunned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}19 ({@damage 3d10 + 3}) psychic damage."
+						"{1d20+7} to hit, reach 5 ft., one creature. 19 (3d10 + 3}) psychic damage."
 					]
 				}
 			],
@@ -30971,15 +30971,15 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The eladrin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+						"The eladrin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell Tasha's hideous laughter}"
+						"{ Tasha's hideous laughter}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell major image}",
-							"{@spell suggestion}"
+							"{ major image}",
+							"{ suggestion}"
 						]
 					},
 					"ability": "cha",
@@ -30990,8 +30990,8 @@ export const bestiaryMPMM = {
 				{
 					"name": "Joyful Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {@dc 16} Wisdom saving throw. On a failed save, the creature becomes {@condition charmed} by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Joyful Presence for 24 hours.",
-						"Whenever the eladrin deals damage to the {@condition charmed} creature, the {@condition charmed} creature can repeat the saving throw, ending the effect on itself on a success."
+						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {16} Wisdom saving throw. On a failed save, the creature becomes {charmed} by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Joyful Presence for 24 hours.",
+						"Whenever the eladrin deals damage to the {charmed} creature, the {charmed} creature can repeat the saving throw, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -31011,19 +31011,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with two hands, plus 22 ({@damage 5d8}) psychic damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 6 (1d8 + 2}) slashing damage, or 7 (1d10 + 2}) slashing damage if used with two hands, plus 22 (5d8}) psychic damage."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 22 ({@damage 5d8}) psychic damage."
+						"1d20+7} to hit, range 150/600 ft., one target. 7 (1d8 + 3}) piercing damage plus 22 (5d8}) psychic damage."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Fey Step {@recharge 4}",
+					"name": "Fey Step {Recharge - 4}",
 					"entries": [
 						"The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
 					]
@@ -31133,7 +31133,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Confounding Bite",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) piercing damage, and the target must succeed on a {@dc 10} Wisdom saving throw or attack rolls against it have advantage until the start of the grue's next turn."
+						"{1d20+3} to hit, reach 5 ft., one target. 6 (2d4 + 1}) piercing damage, and the target must succeed on a {10} Wisdom saving throw or attack rolls against it have advantage until the start of the grue's next turn."
 					]
 				}
 			],
@@ -31243,19 +31243,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The hulk makes two Slam attacks. If both attacks hit the same target, the target also takes 9 ({@damage 2d8}) psychic damage and must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of the target's next turn."
+						"The hulk makes two Slam attacks. If both attacks hit the same target, the target also takes 9 (2d8}) psychic damage and must succeed on a {17} Constitution saving throw or be {stunned} until the end of the target's next turn."
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage."
+						"{1d20+9} to hit, reach 10 ft., one target. 14 (2d8 + 5}) bludgeoning damage."
 					]
 				},
 				{
-					"name": "Reaping Arms {@recharge 5}",
+					"name": "Reaping Arms {Recharge - 5}",
 					"entries": [
-						"The hulk makes a separate Slam attack against each creature within 10 feet of it. Each creature that is hit must also succeed on a {@dc 17} Dexterity saving throw or be knocked {@condition prone}."
+						"The hulk makes a separate Slam attack against each creature within 10 feet of it. Each creature that is hit must also succeed on a {17} Dexterity saving throw or be knocked {prone}."
 					]
 				}
 			],
@@ -31372,16 +31372,16 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The mage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+						"The mage casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell mage hand}",
-						"{@spell message}",
-						"{@spell minor illusion}"
+						"{ mage hand}",
+						"{ message}",
+						"{ minor illusion}"
 					],
 					"daily": {
 						"1": [
-							"{@spell dominate monster}"
+							"{ dominate monster}"
 						]
 					},
 					"ability": "cha",
@@ -31406,19 +31406,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage, and the target must succeed on a {@dc 19} Constitution saving throw or be {@condition poisoned} until the end of its next turn."
+						"{1d20+8} to hit, reach 10 ft., one target. 7 (1d8 + 3}) bludgeoning damage, and the target must succeed on a {19} Constitution saving throw or be {poisoned} until the end of its next turn."
 					]
 				},
 				{
 					"name": "Eldritch Bolt",
 					"entries": [
-						"{@atk rs} {@hit 8} to hit, range 60 ft., one target. {@h}19 ({@damage 3d10 + 3}) force damage."
+						"{@atk rs} +8} to hit, range 60 ft., one target. 19 (3d10 + 3}) force damage."
 					]
 				},
 				{
-					"name": "Plague of Worms {@recharge}",
+					"name": "Plague of Worms {Recharge -}",
 					"entries": [
-						"Each creature other than a star spawn within 10 feet of the mage must succeed on a {@dc 19} Dexterity saving throw or take 22 ({@damage 5d8}) necrotic damage and be {@condition blinded} and {@condition restrained} by masses of swarming worms. The affected creature takes 22 ({@damage 5d8}) necrotic damage at the start of each of the mage's turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Each creature other than a star spawn within 10 feet of the mage must succeed on a {19} Dexterity saving throw or take 22 (5d8}) necrotic damage and be {blinded} and {restrained} by masses of swarming worms. The affected creature takes 22 (5d8}) necrotic damage at the start of each of the mage's turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -31446,7 +31446,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Feed (Costs 3 Actions)",
 					"entries": [
-						"Each creature {@condition restrained} by the mage's Plague of Worms takes 13 ({@damage 3d8}) necrotic damage, and the mage gains 6 temporary hit points."
+						"Each creature {restrained} by the mage's Plague of Worms takes 13 (3d8}) necrotic damage, and the mage gains 6 temporary hit points."
 					]
 				}
 			],
@@ -31571,11 +31571,11 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage. If the attack roll has advantage, the target also takes 7 ({@damage 2d6}) psychic damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 8 (1d8 + 4}) slashing damage. If the attack roll has advantage, the target also takes 7 (2d6}) psychic damage."
 					]
 				},
 				{
-					"name": "Flurry of Claws {@recharge 5}",
+					"name": "Flurry of Claws {Recharge - 5}",
 					"entries": [
 						"The mangler makes six Claw attacks. Either before or after these attacks, it can move up to its speed without provoking {@action opportunity attack||opportunity attacks}."
 					]
@@ -31699,8 +31699,8 @@ export const bestiaryMPMM = {
 					"name": "Out-Of-Phase Movement",
 					"entries": [
 						"The seer can move through other creatures and objects as if they were {@quickref difficult terrain||3}, and its movement doesn't provoke {@action opportunity attack||opportunity attacks}.",
-						"Each creature it moves through takes 5 ({@damage 1d10}) psychic damage; no creature can take this damage more than once per turn.",
-						"The seer takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"Each creature it moves through takes 5 (1d10}) psychic damage; no creature can take this damage more than once per turn.",
+						"The seer takes 5 (1d10}) force damage if it ends its turn inside an object."
 					]
 				}
 			],
@@ -31714,19 +31714,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Comet Staff",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) bludgeoning damage plus 18 ({@damage 4d8}) psychic damage, and if the target is a creature, it must succeed on a {@dc 19} Constitution saving throw or be {@condition incapacitated} until the end of its next turn."
+						"{1d20+11} to hit, reach 5 ft., one target. 10 (1d8 + 6}) bludgeoning damage plus 18 (4d8}) psychic damage, and if the target is a creature, it must succeed on a {19} Constitution saving throw or be {incapacitated} until the end of its next turn."
 					]
 				},
 				{
 					"name": "Psychic Orb",
 					"entries": [
-						"{@atk rs} {@hit 11} to hit, range 120 feet, one creature. {@h}27 ({@damage 5d10}) psychic damage."
+						"{@atk rs} +11} to hit, range 120 feet, one creature. 27 (5d10}) psychic damage."
 					]
 				},
 				{
-					"name": "Collapse Distance {@recharge}",
+					"name": "Collapse Distance {Recharge -}",
 					"entries": [
-						"The seer warps space around one creature it can see within 30 feet of it. That creature must make a {@dc 19} Wisdom saving throw. On a failed save, the target, along with any equipment it is wearing or carrying, is teleported up to 60 feet to an unoccupied space the seer can see, and then each creature within 10 feet of the target's original space takes 39 ({@damage 6d12}) psychic damage. On a successful save, the target takes 19 ({@damage 3d12}) psychic damage and isn't teleported."
+						"The seer warps space around one creature it can see within 30 feet of it. That creature must make a {19} Wisdom saving throw. On a failed save, the target, along with any equipment it is wearing or carrying, is teleported up to 60 feet to an unoccupied space the seer can see, and then each creature within 10 feet of the target's original space takes 39 (6d12}) psychic damage. On a successful save, the target takes 19 (3d12}) psychic damage and isn't teleported."
 					]
 				}
 			],
@@ -31864,8 +31864,8 @@ export const bestiaryMPMM = {
 					],
 					"daily": {
 						"3e": [
-							"{@spell dimension door} (self only)",
-							"{@spell plane shift} (self only)"
+							"{ dimension door} (self only)",
+							"{ plane shift} (self only)"
 						]
 					},
 					"ability": "wis",
@@ -31896,19 +31896,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}18 ({@damage 2d10 + 7}) lightning damage."
+						"{1d20+12} to hit, reach 5 ft., one target. 18 (2d10 + 7}) lightning damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d8 + 7}) force damage."
+						"{1d20+12} to hit, reach 5 ft., one target. 16 (2d8 + 7}) force damage."
 					]
 				},
 				{
-					"name": "Stunning Roar {@recharge 5}",
+					"name": "Stunning Roar {Recharge - 5}",
 					"entries": [
-						"The steel predator emits a roar in a 60-foot cone. Each creature in that area must make a {@dc 19} Constitution saving throw. On a failed save, a creature takes 33 ({@damage 6d10}) thunder damage, drops everything it's holding, and is {@condition stunned} for 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a successful save, a creature takes half as much damage and isn't {@condition stunned}."
+						"The steel predator emits a roar in a 60-foot cone. Each creature in that area must make a {19} Constitution saving throw. On a failed save, a creature takes 33 (6d10}) thunder damage, drops everything it's holding, and is {stunned} for 1 minute. The {stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a successful save, a creature takes half as much damage and isn't {stunned}."
 					]
 				}
 			],
@@ -32005,7 +32005,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}26 ({@damage 6d6 + 5}) piercing damage."
+						"{1d20+7} to hit, reach 10 ft., one target. 26 (6d6 + 5}) piercing damage."
 					]
 				}
 			],
@@ -32080,7 +32080,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Stench",
 					"entries": [
-						"Any creature other than a stench kow that starts its turn within 5 feet of the stench kow must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned} until the start of the creature's next turn. On a successful saving throw, the creature is immune to the Stench of all stench kows for 1 hour."
+						"Any creature other than a stench kow that starts its turn within 5 feet of the stench kow must succeed on a {12} Constitution saving throw or be {poisoned} until the start of the creature's next turn. On a successful saving throw, the creature is immune to the Stench of all stench kows for 1 hour."
 					]
 				}
 			],
@@ -32088,7 +32088,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Gore",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage. If the stench kow moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 ({@damage 2d6}) piercing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 7 (1d6 + 4}) piercing damage. If the stench kow moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 (2d6}) piercing damage."
 					]
 				}
 			],
@@ -32183,7 +32183,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the stone cursed is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the stone cursed move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the stone cursed isn't a statue."
+						"If the stone cursed is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the stone cursed move or act, that creature must succeed on a {18} Intelligence ({@skill Investigation}) check to discern that the stone cursed isn't a statue."
 					]
 				},
 				{
@@ -32197,7 +32197,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Petrifying Claws",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) slashing damage. If the target is a creature, it must succeed on a {@dc 12} Constitution saving throw, or it begins to turn to stone and is {@condition restrained} until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is {@condition petrified} for 24 hours."
+						"{1d20+5} to hit, reach 5 ft., one target. 12 (2d8 + 3}) slashing damage. If the target is a creature, it must succeed on a {12} Constitution saving throw, or it begins to turn to stone and is {restrained} until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is {petrified} for 24 hours."
 					]
 				}
 			],
@@ -32297,7 +32297,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dreamwalker's Charm",
 					"entries": [
-						"An enemy that starts its turn within 30 feet of the giant must make a {@dc 13} Charisma saving throw, provided that the giant isn't {@condition incapacitated}. On a failed save, the creature is {@condition charmed} by the giant. A creature {@condition charmed} in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the saving throw, the creature is immune to this giant's Dreamwalker's Charm for 24 hours."
+						"An enemy that starts its turn within 30 feet of the giant must make a {13} Charisma saving throw, provided that the giant isn't {incapacitated}. On a failed save, the creature is {charmed} by the giant. A creature {charmed} in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the saving throw, the creature is immune to this giant's Dreamwalker's Charm for 24 hours."
 					]
 				}
 			],
@@ -32311,19 +32311,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Greatclub",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}24 ({@damage 4d8 + 6}) bludgeoning damage."
+						"{1d20+10} to hit, reach 15 ft., one target. 24 (4d8 + 6}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"{@atk rw} {@hit 10} to hit, range 60/240 ft., one target. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+						"1d20+10} to hit, range 60/240 ft., one target. 22 (3d10 + 6}) bludgeoning damage. If the target is a creature, it must succeed on a {17} Strength saving throw or be knocked {prone}."
 					]
 				},
 				{
 					"name": "Petrifying Touch",
 					"entries": [
-						"The giant touches one Medium or smaller creature within 10 feet of it that is {@condition charmed} by it. The target must make a {@dc 17} Constitution saving throw. On a failed save, the target becomes {@condition petrified}, and the giant can adhere the target to its stony body. {@spell greater restoration} spells and other magic that can undo petrification have no effect on a {@condition petrified} creature adhered to the giant unless the giant is dead, in which case the magic works normally, freeing the {@condition petrified} creature as well as ending the {@condition petrified} condition on it."
+						"The giant touches one Medium or smaller creature within 10 feet of it that is {charmed} by it. The target must make a {17} Constitution saving throw. On a failed save, the target becomes {petrified}, and the giant can adhere the target to its stony body. { greater restoration} spells and other magic that can undo petrification have no effect on a {petrified} creature adhered to the giant unless the giant is dead, in which case the magic works normally, freeing the {petrified} creature as well as ending the {petrified} condition on it."
 					]
 				}
 			],
@@ -32464,13 +32464,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Lightning Sword",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}40 ({@damage 9d6 + 9}) lightning damage."
+						"{1d20+14} to hit, reach 15 ft., one target. 40 (9d6 + 9}) lightning damage."
 					]
 				},
 				{
 					"name": "Wind Javelin",
 					"entries": [
-						"The giant coalesces wind into a javelin-like form and hurls it at a creature it can see within 600 feet of it. The javelin deals 19 ({@damage 3d6 + 9}) force damage to the target, striking unerringly. The javelin disappears after it hits."
+						"The giant coalesces wind into a javelin-like form and hurls it at a creature it can see within 600 feet of it. The javelin deals 19 (3d6 + 9}) force damage to the target, striking unerringly. The javelin disappears after it hits."
 					]
 				}
 			],
@@ -32478,19 +32478,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Gust",
 					"entries": [
-						"The giant targets a creature it can see within 60 feet of it and creates a magical gust of wind around the target, who must succeed on a {@dc 18} Strength saving throw or be moved up to 20 feet in any horizontal direction the giant chooses."
+						"The giant targets a creature it can see within 60 feet of it and creates a magical gust of wind around the target, who must succeed on a {18} Strength saving throw or be moved up to 20 feet in any horizontal direction the giant chooses."
 					]
 				},
 				{
 					"name": "Thunderbolt (Costs 2 Actions)",
 					"entries": [
-						"The giant hurls a thunderbolt at a creature it can see within 600 feet of it. The target must make a {@dc 18} Dexterity saving throw, taking 22 ({@damage 4d10}) thunder damage on a failed save, or half as much damage on a successful one."
+						"The giant hurls a thunderbolt at a creature it can see within 600 feet of it. The target must make a {18} Dexterity saving throw, taking 22 (4d10}) thunder damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
 					"name": "One with the Storm (Costs 3 Actions)",
 					"entries": [
-						"The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can't be targeted by attacks, spells, or other effects. The giant can't use this ability outside its lair, nor can it use this ability if another creature is using a {@spell control weather} spell or similar magic to quell the storm."
+						"The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can't be targeted by attacks, spells, or other effects. The giant can't use this ability outside its lair, nor can it use this ability if another creature is using a { control weather} spell or similar magic to quell the storm."
 					]
 				}
 			],
@@ -32601,7 +32601,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fearsome Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {@dc 16} Wisdom saving throw. On a failed save, the creature becomes {@condition frightened} of the eladrin for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours."
+						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {16} Wisdom saving throw. On a failed save, the creature becomes {frightened} of the eladrin for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours."
 					]
 				},
 				{
@@ -32621,19 +32621,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage, or 15 ({@damage 2d10 + 4}) slashing damage if used with two hands, plus 9 ({@damage 2d8}) fire damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 13 (2d8 + 4}) slashing damage, or 15 (2d10 + 4}) slashing damage if used with two hands, plus 9 (2d8}) fire damage."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 150/600 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage plus 9 ({@damage 2d8}) fire damage."
+						"1d20+9} to hit, range 150/600 ft., one target. 14 (2d8 + 5}) piercing damage plus 9 (2d8}) fire damage."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Fey Step {@recharge 4}",
+					"name": "Fey Step {Recharge - 4}",
 					"entries": [
 						"The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
 					]
@@ -32752,17 +32752,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"As long as it has more than half of its hit points remaining, the swarm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+						"As long as it has more than half of its hit points remaining, the swarm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell command}",
-						"{@spell comprehend languages}",
-						"{@spell detect thoughts}"
+						"{ command}",
+						"{ comprehend languages}",
+						"{ detect thoughts}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell confusion}",
-							"{@spell dominate monster}"
+							"{ confusion}",
+							"{ dominate monster}"
 						]
 					},
 					"ability": "int",
@@ -32787,7 +32787,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bites",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 0 ft., one target in the swarm's space. {@h}14 ({@damage 4d6}) piercing damage, or 7 ({@damage 2d6}) piercing damage if the swarm has half of its hit points or fewer, plus 22 ({@damage 5d8}) psychic damage."
+						"{1d20+5} to hit, reach 0 ft., one target in the swarm's space. 14 (4d6}) piercing damage, or 7 (2d6}) piercing damage if the swarm has half of its hit points or fewer, plus 22 (5d8}) psychic damage."
 					]
 				}
 			],
@@ -32902,7 +32902,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bites",
 					"entries": [
-						"{@atk mw} {@hit 0} to hit, reach 0 ft., one creature in the swarm's space. {@h}7 ({@damage 2d6}) piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned}. At the end of each of the {@condition poisoned} target's turns, the target takes 3 ({@damage 1d6}) poison damage. Whenever the {@condition poisoned} target takes fire damage, the target can repeat the saving throw, ending the effect on itself on a success. If the {@condition poisoned} target ends its turn with 0 hit points, it dies."
+						"{1d20+0} to hit, reach 0 ft., one creature in the swarm's space. 7 (2d6}) piercing damage, and the target must succeed on a {10} Constitution saving throw or be {poisoned}. At the end of each of the {poisoned} target's turns, the target takes 3 (1d6}) poison damage. Whenever the {poisoned} target takes fire damage, the target can repeat the saving throw, ending the effect on itself on a success. If the {poisoned} target ends its turn with 0 hit points, it dies."
 					]
 				}
 			],
@@ -32998,13 +32998,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+						"{@atk mw,rw} +6} to hit, reach 5 ft. or range 20/60 ft., one target. 6 (1d4 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Rapier",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 8 (1d8 + 4}) piercing damage."
 					]
 				}
 			],
@@ -33140,13 +33140,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands."
+						"{1d20+7} to hit, reach 5 ft., one target. 8 (1d8 + 4}) slashing damage, or 9 (1d10 + 4}) slashing damage if used with two hands."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"1d20+5} to hit, range 150/600 ft., one target. 6 (1d8 + 2}) piercing damage."
 					]
 				},
 				{
@@ -33160,7 +33160,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Martial Fury",
 					"entries": [
-						"The commander makes one Longsword or Longbow attack, which deals an extra 9 ({@damage 2d8}) necrotic damage on a hit, and attack rolls against it have advantage until the start of its next turn."
+						"The commander makes one Longsword or Longbow attack, which deals an extra 9 (2d8}) necrotic damage on a hit, and attack rolls against it have advantage until the start of its next turn."
 					]
 				}
 			],
@@ -33280,13 +33280,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Battleaxe",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands."
+						"{1d20+6} to hit, reach 5 ft., one target. 8 (1d8 + 4}) slashing damage, or 9 (1d10 + 4}) slashing damage if used with two hands."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 150/600 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+						"1d20+3} to hit, range 150/600 ft., one target. 5 (1d8 + 1}) piercing damage."
 					]
 				}
 			],
@@ -33409,13 +33409,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 8 (1d8 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Greatsword",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 11 (2d6 + 4}) slashing damage."
 					]
 				}
 			],
@@ -33537,7 +33537,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Thorny Body",
 					"entries": [
-						"At the start of its turn, the thorny deals 2 ({@damage 1d4}) piercing damage to any creature grappling it."
+						"At the start of its turn, the thorny deals 2 (1d4}) piercing damage to any creature grappling it."
 					]
 				}
 			],
@@ -33545,7 +33545,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d8 + 1}) piercing damage."
+						"{1d20+3} to hit, reach 5 ft., one target. 10 (2d8 + 1}) piercing damage."
 					]
 				}
 			],
@@ -33666,19 +33666,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Titivilus casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 21}):"
+						"Titivilus casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {21}):"
 					],
 					"will": [
-						"{@spell alter self}",
-						"{@spell major image}",
-						"{@spell nondetection}",
-						"{@spell sending}",
-						"{@spell suggestion}"
+						"{ alter self}",
+						"{ major image}",
+						"{ nondetection}",
+						"{ sending}",
+						"{ suggestion}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell mislead}",
-							"{@spell modify memory}"
+							"{ mislead}",
+							"{ modify memory}"
 						]
 					},
 					"ability": "cha",
@@ -33721,13 +33721,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Silver Sword",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) force damage, or 9 ({@damage 1d10 + 4}) force damage if used with two hands, plus 16 ({@damage 3d10}) necrotic damage. If the target is a creature, its hit point maximum is reduced by an amount equal to half the necrotic damage taken."
+						"{1d20+9} to hit, reach 5 ft., one target. 8 (1d8 + 4}) force damage, or 9 (1d10 + 4}) force damage if used with two hands, plus 16 (3d10}) necrotic damage. If the target is a creature, its hit point maximum is reduced by an amount equal to half the necrotic damage taken."
 					]
 				},
 				{
 					"name": "Frightful Word",
 					"entries": [
-						"Titivilus targets one creature he can see within 10 feet of him. The target must succeed on a {@dc 21} Wisdom saving throw or become {@condition frightened} of him for 1 minute. While {@condition frightened} in this way, the target must take the {@action Dash} action and move away from Titivilus by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the {@action Dash} action. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Titivilus targets one creature he can see within 10 feet of him. The target must succeed on a {21} Wisdom saving throw or become {frightened} of him for 1 minute. While {frightened} in this way, the target must take the {@action Dash} action and move away from Titivilus by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the {@action Dash} action. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -33739,7 +33739,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Twisting Words",
 					"entries": [
-						"Titivilus targets one creature he can see within 60 feet of him. The target must succeed on a {@dc 21} Charisma saving throw or become {@condition charmed} by Titivilus for 1 minute. The {@condition charmed} target can repeat the saving throw if Titivilus deals any damage to it. A creature that succeeds on the saving throw is immune to Titivilus's Twisting Words for 24 hours."
+						"Titivilus targets one creature he can see within 60 feet of him. The target must succeed on a {21} Charisma saving throw or become {charmed} by Titivilus for 1 minute. The {charmed} target can repeat the saving throw if Titivilus deals any damage to it. A creature that succeeds on the saving throw is immune to Titivilus's Twisting Words for 24 hours."
 					]
 				}
 			],
@@ -33747,7 +33747,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Corrupting Guidance",
 					"entries": [
-						"Titivilus uses Twisting Words. Alternatively, he targets one creature {@condition charmed} by him that is within 60 feet of him; that {@condition charmed} target must succeed on a {@dc 21} Charisma saving throw, or Titivilus decides how the target acts during its next turn."
+						"Titivilus uses Twisting Words. Alternatively, he targets one creature {charmed} by him that is within 60 feet of him; that {charmed} target must succeed on a {21} Charisma saving throw, or Titivilus decides how the target acts during its next turn."
 					]
 				},
 				{
@@ -33876,19 +33876,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+						"{1d20+6} to hit, reach 5 ft., one target. 7 (1d8 + 3}) slashing damage, or 8 (1d10 + 3}) slashing damage if used with two hands."
 					]
 				},
 				{
 					"name": "Spiked Chain",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target is {@condition grappled} (escape {@dc 11}) if it is a Large or smaller creature. Until this grapple ends, the target is {@condition restrained}, and the tlincalli can't use the spiked chain against another target."
+						"{1d20+6} to hit, reach 10 ft., one target. 6 (1d6 + 3}) piercing damage, and the target is {grappled} (escape {11}) if it is a Large or smaller creature. Until this grapple ends, the target is {restrained}, and the tlincalli can't use the spiked chain against another target."
 					]
 				},
 				{
 					"name": "Sting",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 14 ({@damage 4d6}) poison damage, and the target must succeed on a {@dc 14} Constitution saving throw or be {@condition poisoned} for 1 minute. If it fails the saving throw by 5 or more, the target is also {@condition paralyzed} while {@condition poisoned}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{1d20+6} to hit, reach 5 ft., one creature. 6 (1d6 + 3}) piercing damage plus 14 (4d6}) poison damage, and the target must succeed on a {14} Constitution saving throw or be {poisoned} for 1 minute. If it fails the saving throw by 5 or more, the target is also {paralyzed} while {poisoned}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -33987,25 +33987,25 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 4 (1d4 + 2}) slashing damage."
 					]
 				},
 				{
 					"name": "Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands in melee."
+						"{@atk mw,rw} +4} to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d6 + 2}) piercing damage, or 6 (1d8 + 2}) piercing damage if used with two hands in melee."
 					]
 				},
 				{
 					"name": "Light Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 2} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
+						"1d20+2} to hit, range 80/320 ft., one target. 4 (1d8}) piercing damage."
 					]
 				},
 				{
 					"name": "Shell Defense",
 					"entries": [
-						"The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is {@condition prone}, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge."
+						"The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is {prone}, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge."
 					]
 				}
 			],
@@ -34090,18 +34090,18 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The tortle casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 12}):"
+						"The tortle casts one of the following spells, using Wisdom as the spellcasting ability (spell save {12}):"
 					],
 					"will": [
-						"{@spell druidcraft}",
-						"{@spell guidance}"
+						"{ druidcraft}",
+						"{ guidance}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell cure wounds}",
-							"{@spell hold person}",
-							"{@spell speak with animals}",
-							"{@spell thunderwave}"
+							"{ cure wounds}",
+							"{ hold person}",
+							"{ speak with animals}",
+							"{ thunderwave}"
 						]
 					},
 					"ability": "wis",
@@ -34126,19 +34126,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 4 (1d4 + 2}) slashing damage."
 					]
 				},
 				{
 					"name": "Nature's Wrath",
 					"entries": [
-						"{@atk rs} {@hit 4} to hit, range 90 ft., one target. {@h}9 ({@damage 2d6 + 2}) damage of a type chosen by the tortle: cold, fire, lightning, or thunder."
+						"{@atk rs} +4} to hit, range 90 ft., one target. 9 (2d6 + 2}) damage of a type chosen by the tortle: cold, fire, lightning, or thunder."
 					]
 				},
 				{
 					"name": "Shell Defense",
 					"entries": [
-						"The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is {@condition prone}, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge."
+						"The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is {prone}, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge."
 					]
 				}
 			],
@@ -34200,7 +34200,7 @@ export const bestiaryMPMM = {
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -34234,24 +34234,24 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The transmuter casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}):"
+						"The transmuter casts one of the following spells, using Intelligence as the spellcasting ability (spell save {14}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell message}",
-						"{@spell prestidigitation}"
+						"{ light}",
+						"{ message}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"2e": [
-							"{@spell fireball}",
-							"{@spell hold person}",
-							"{@spell knock}",
-							"{@spell mage armor}",
-							"{@spell polymorph}",
-							"{@spell slow}"
+							"{ fireball}",
+							"{ hold person}",
+							"{ knock}",
+							"{ mage armor}",
+							"{ polymorph}",
+							"{ slow}"
 						],
 						"1e": [
-							"{@spell telekinesis}"
+							"{ telekinesis}"
 						]
 					},
 					"ability": "int",
@@ -34302,15 +34302,15 @@ export const bestiaryMPMM = {
 				{
 					"name": "Arcane Burst",
 					"entries": [
-						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 120 ft., one target. {@h}19 ({@damage 3d10 + 3}) acid damage."
+						"{1d20 +6} to hit, reach 5 ft. or range 120 ft., one target. 19 (3d10 + 3}) acid damage."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Transmute {@recharge 4}",
+					"name": "Transmute {Recharge - 4}",
 					"entries": [
-						"The transmuter casts {@spell alter self} or changes the benefit of Transmuter's Stone if bearing the stone."
+						"The transmuter casts { alter self} or changes the benefit of Transmuter's Stone if bearing the stone."
 					]
 				}
 			],
@@ -34395,7 +34395,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "False Appearance",
 					"entries": [
-						"If the trapper is motionless on a floor, wall, or ceiling at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the trapper move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation}) check to discern that the trapper isn't part of the floor, wall, or ceiling."
+						"If the trapper is motionless on a floor, wall, or ceiling at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the trapper move or act, that creature must succeed on a {18} Intelligence ({@skill Investigation}) check to discern that the trapper isn't part of the floor, wall, or ceiling."
 					]
 				},
 				{
@@ -34409,7 +34409,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Smother",
 					"entries": [
-						"One Large or smaller creature within 10 feet of the trapper must succeed on a {@dc 13} Dexterity saving throw or be {@condition grappled} (escape {@dc 14}). Until the grapple ends, the target takes 13 ({@damage 3d6 + 3}) bludgeoning damage plus 3 ({@damage 1d6}) acid damage at the start of each of its turns. While {@condition grappled} in this way, the target is {@condition restrained}, {@condition blinded}, and deprived of air. The trapper can smother only one creature at a time."
+						"One Large or smaller creature within 10 feet of the trapper must succeed on a {13} Dexterity saving throw or be {grappled} (escape {14}). Until the grapple ends, the target takes 13 (3d6 + 3}) bludgeoning damage plus 3 (1d6}) acid damage at the start of each of its turns. While {grappled} in this way, the target is {restrained}, {blinded}, and deprived of air. The trapper can smother only one creature at a time."
 					]
 				}
 			],
@@ -34511,21 +34511,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Psionics)",
 					"headerEntries": [
-						"The ulitharid casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 17}):"
+						"The ulitharid casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {17}):"
 					],
 					"will": [
-						"{@spell detect thoughts}",
-						"{@spell levitate}"
+						"{ detect thoughts}",
+						"{ levitate}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dominate monster}",
-							"{@spell feeblemind}",
-							"{@spell mass suggestion}",
-							"{@spell plane shift} (self only)",
-							"{@spell project image}",
-							"{@spell scrying}",
-							"{@spell telekinesis}"
+							"{ dominate monster}",
+							"{ feeblemind}",
+							"{ mass suggestion}",
+							"{ plane shift} (self only)",
+							"{ project image}",
+							"{ scrying}",
+							"{ telekinesis}"
 						]
 					},
 					"ability": "int",
@@ -34536,7 +34536,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Creature Sense",
 					"entries": [
-						"The ulitharid is aware of the presence of creatures within 2 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's intelligence score, but can't sense anything else about it. A creature protected by a {@spell mind blank} spell, a {@spell nondetection} spell, or similar magic can't be perceived in this manner."
+						"The ulitharid is aware of the presence of creatures within 2 miles of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's intelligence score, but can't sense anything else about it. A creature protected by a { mind blank} spell, a { nondetection} spell, or similar magic can't be perceived in this manner."
 					]
 				},
 				{
@@ -34556,19 +34556,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one creature. {@h}27 ({@damage 4d10 + 5}) psychic damage. If the target is Large or smaller, it is {@condition grappled} (escape {@dc 14}) and must succeed on a {@dc 17} Intelligence saving throw or be {@condition stunned} until this grapple ends."
+						"{1d20+9} to hit, reach 10 ft., one creature. 27 (4d10 + 5}) psychic damage. If the target is Large or smaller, it is {grappled} (escape {14}) and must succeed on a {17} Intelligence saving throw or be {stunned} until this grapple ends."
 					]
 				},
 				{
 					"name": "Extract Brain",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one {@condition incapacitated} Humanoid {@condition grappled} by the ulitharid. {@h}55 ({@damage 10d10}) piercing damage. If this damage reduces the target to 0 hit points, the ulitharid kills the target by extracting and devouring its brain."
+						"{1d20+9} to hit, reach 5 ft., one {incapacitated} Humanoid {grappled} by the ulitharid. 55 (10d10}) piercing damage. If this damage reduces the target to 0 hit points, the ulitharid kills the target by extracting and devouring its brain."
 					]
 				},
 				{
-					"name": "Mind Blast {@recharge 5}",
+					"name": "Mind Blast {Recharge - 5}",
 					"entries": [
-						"The ulitharid magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 17} Intelligence saving throw or take 31 ({@damage 4d12 + 5}) psychic damage and be {@condition stunned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The ulitharid magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {17} Intelligence saving throw or take 31 (4d12 + 5}) psychic damage and be {stunned} for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -34737,7 +34737,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Life Drain",
 					"entries": [
-						"The mist touches one creature in its space. The target must succeed on a {@dc 13} Constitution saving throw (Undead and Constructs automatically succeed), or it takes 10 ({@damage 2d6 + 3}) necrotic damage, the mist regains 10 hit points, and the target's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+						"The mist touches one creature in its space. The target must succeed on a {13} Constitution saving throw (Undead and Constructs automatically succeed), or it takes 10 (2d6 + 3}) necrotic damage, the mist regains 10 hit points, and the target's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
 					]
 				}
 			],
@@ -34840,19 +34840,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 (1d6 + 2}) piercing damage plus 10 (3d6}) poison damage."
 					]
 				},
 				{
 					"name": "Abyssal Curse",
 					"entries": [
-						"The vargouille targets one {@condition incapacitated} Humanoid within 5 feet of it. The target must succeed on a {@dc 12} Charisma saving throw or become cursed. The cursed target loses 1 point of Charisma after each hour, as its head takes on fiendish aspects. The curse doesn't advance while the target is in sunlight or the area of a {@spell daylight} spell; don't count that time. When the cursed target's Charisma becomes 2, it dies, and its head tears from its body and becomes a new vargouille. Casting {@spell remove curse}, {@spell greater restoration}, or a similar spell on the target before the transformation is complete can end the curse. Doing so undoes the changes made to the target by the curse."
+						"The vargouille targets one {incapacitated} Humanoid within 5 feet of it. The target must succeed on a {12} Charisma saving throw or become cursed. The cursed target loses 1 point of Charisma after each hour, as its head takes on fiendish aspects. The curse doesn't advance while the target is in sunlight or the area of a { daylight} spell; don't count that time. When the cursed target's Charisma becomes 2, it dies, and its head tears from its body and becomes a new vargouille. Casting { remove curse}, { greater restoration}, or a similar spell on the target before the transformation is complete can end the curse. Doing so undoes the changes made to the target by the curse."
 					]
 				},
 				{
-					"name": "Stunning Shriek {@recharge 5}",
+					"name": "Stunning Shriek {Recharge - 5}",
 					"entries": [
-						"The vargouille shrieks. Each Humanoid and Beast within 30 feet of the vargouille and able to hear it must succeed on a {@dc 12} Wisdom saving throw or be {@condition frightened} of the vargouille until the end of the vargouille's next turn. While {@condition frightened} in this way, a target is {@condition stunned}. If a target's saving throw is successful or the effect ends for it, the target is immune to the Stunning Shriek of all vargouilles for 1 hour."
+						"The vargouille shrieks. Each Humanoid and Beast within 30 feet of the vargouille and able to hear it must succeed on a {12} Wisdom saving throw or be {frightened} of the vargouille until the end of the vargouille's next turn. While {frightened} in this way, a target is {stunned}. If a target's saving throw is successful or the effect ends for it, the target is immune to the Stunning Shriek of all vargouilles for 1 hour."
 					]
 				}
 			],
@@ -34961,13 +34961,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 (1d6 + 2}) slashing damage."
 					]
 				},
 				{
 					"name": "Sling",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+						"1d20+4} to hit, range 30/120 ft., one target. 4 (1d4 + 2}) bludgeoning damage."
 					]
 				}
 			],
@@ -35079,19 +35079,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 (1d6 + 2}) slashing damage."
 					]
 				},
 				{
 					"name": "Spear",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack."
+						"{@atk mw,rw} +4} to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d6 + 2}) piercing damage, or 6 (1d8 + 2}) piercing damage if used with two hands to make a melee attack."
 					]
 				},
 				{
 					"name": "Spores (1/Day)",
 					"entries": [
-						"A 15-foot-radius cloud of toxic spores extends out from the vegepygmy. The spores spread around corners. Each creature in that area that isn't a Plant must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned}. While {@condition poisoned} in this way, a target takes 9 ({@damage 2d8}) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"A 15-foot-radius cloud of toxic spores extends out from the vegepygmy. The spores spread around corners. Each creature in that area that isn't a Plant must succeed on a {12} Constitution saving throw or be {poisoned}. While {poisoned} in this way, a target takes 9 (2d8}) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -35185,7 +35185,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The velociraptor has advantage on an attack roll against a creature if at least one of the velociraptor's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The velociraptor has advantage on an attack roll against a creature if at least one of the velociraptor's allies is within 5 feet of the creature and the ally isn't {incapacitated}."
 					]
 				}
 			],
@@ -35199,13 +35199,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one creature. 5 (1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 4 (1d4 + 2}) slashing damage."
 					]
 				}
 			],
@@ -35294,7 +35294,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Poison Splash",
 					"entries": [
-						"When the troll takes damage of any type but psychic, each creature within 5 feet of the troll takes 9 ({@damage 2d8}) poison damage."
+						"When the troll takes damage of any type but psychic, each creature within 5 feet of the troll takes 9 (2d8}) poison damage."
 					]
 				},
 				{
@@ -35314,19 +35314,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 4 ({@damage 1d8}) poison damage, and the creature is {@condition poisoned} until the start of the troll's next turn."
+						"{1d20+7} to hit, reach 5 ft., one target. 7 (1d6 + 4}) piercing damage plus 4 (1d8}) poison damage, and the creature is {poisoned} until the start of the troll's next turn."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 4 ({@damage 1d8}) poison damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 11 (2d6 + 4}) slashing damage plus 4 (1d8}) poison damage."
 					]
 				},
 				{
-					"name": "Venom Spray {@recharge}",
+					"name": "Venom Spray {Recharge -}",
 					"entries": [
-						"The troll slices itself with a claw, releasing a spray of poison in a 15-foot cube. The troll takes 7 ({@damage 2d6}) slashing damage (this damage can't be reduced in any way). Each creature in the area must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) poison damage and is {@condition poisoned} for 1 minute. On a successful save, the creature takes half as much damage and isn't {@condition poisoned}. A {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The troll slices itself with a claw, releasing a spray of poison in a 15-foot cube. The troll takes 7 (2d6}) slashing damage (this damage can't be reduced in any way). Each creature in the area must make a {16} Constitution saving throw. On a failed save, a creature takes 18 (4d8}) poison damage and is {poisoned} for 1 minute. On a successful save, the creature takes half as much damage and isn't {poisoned}. A {poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -35427,23 +35427,23 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The war priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}):"
+						"The war priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save {15}):"
 					],
 					"will": [
-						"{@spell light}",
-						"{@spell spare the dying}",
-						"{@spell thaumaturgy}"
+						"{ light}",
+						"{ spare the dying}",
+						"{ thaumaturgy}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell banishment}",
-							"{@spell command}",
-							"{@spell dispel magic}",
-							"{@spell flame strike}",
-							"{@spell guardian of faith}",
-							"{@spell hold person}",
-							"{@spell lesser restoration}",
-							"{@spell revivify}"
+							"{ banishment}",
+							"{ command}",
+							"{ dispel magic}",
+							"{ flame strike}",
+							"{ guardian of faith}",
+							"{ hold person}",
+							"{ lesser restoration}",
+							"{ revivify}"
 						]
 					},
 					"ability": "wis",
@@ -35460,19 +35460,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Maul",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage  plus {@h}10 ({@damage 3d6}) radiant damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 10 (2d6 + 3}) bludgeoning damage  plus 10 (3d6}) radiant damage."
 					]
 				},
 				{
 					"name": "Holy Fire",
 					"entries": [
-						"The war priest targets one creature it can see within 60 feet of it. The target must make a {@dc 15} Wisdom saving throw. On a failed save, the target takes 12 ({@damage 2d8 + 3}) radiant damage, and it is {@condition blinded} until the start of the war priest's next turn. On a successful save, the target takes half as much damage and isn't {@condition blinded}."
+						"The war priest targets one creature it can see within 60 feet of it. The target must make a {15} Wisdom saving throw. On a failed save, the target takes 12 (2d8 + 3}) radiant damage, and it is {blinded} until the start of the war priest's next turn. On a successful save, the target takes half as much damage and isn't {blinded}."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Healing Light {@recharge 4}",
+					"name": "Healing Light {Recharge - 4}",
 					"entries": [
 						"The war priest or one creature of its choice within 60 feet of it regains 12 ({@dice 2d8 + 3}) hit points."
 					]
@@ -35541,7 +35541,7 @@ export const bestiaryMPMM = {
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -35580,22 +35580,22 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The warlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 14}): "
+						"The warlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {14}): "
 					],
 					"will": [
-						"{@spell dancing lights}",
-						"{@spell disguise self}",
-						"{@spell mage armor} (self only)",
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
-						"{@spell prestidigitation}",
-						"{@spell speak with animals}"
+						"{ dancing lights}",
+						"{ disguise self}",
+						"{ mage armor} (self only)",
+						"{ mage hand}",
+						"{ minor illusion}",
+						"{ prestidigitation}",
+						"{ speak with animals}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell charm person}",
-							"{@spell dimension door}",
-							"{@spell hold monster}"
+							"{ charm person}",
+							"{ dimension door}",
+							"{ hold monster}"
 						]
 					},
 					"ability": "cha",
@@ -35612,13 +35612,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Rapier",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 7 ({@damage 2d6}) piercing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 7 (1d8 + 3}) piercing damage plus 7 (2d6}) piercing damage."
 					]
 				},
 				{
 					"name": "Bewildering Word",
 					"entries": [
-						"The warlock utters a magical bewilderment, targeting one creature it can see within 60 feet of it. The target must succeed on a {@dc 14} Wisdom saving throw or take 9 ({@damage 2d8}) psychic damage and have disadvantage on attack rolls until the end of the warlock's next turn."
+						"The warlock utters a magical bewilderment, targeting one creature it can see within 60 feet of it. The target must succeed on a {14} Wisdom saving throw or take 9 (2d8}) psychic damage and have disadvantage on attack rolls until the end of the warlock's next turn."
 					]
 				}
 			],
@@ -35626,7 +35626,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Misty Escape (Recharges after a Short or Long Rest)",
 					"entries": [
-						"In response to taking damage, the warlock turns {@condition invisible} and teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see. It remains {@condition invisible} until the start of its next turn or until it attacks, makes a damage roll, or casts a spell."
+						"In response to taking damage, the warlock turns {invisible} and teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see. It remains {invisible} until the start of its next turn or until it attacks, makes a damage roll, or casts a spell."
 					]
 				}
 			],
@@ -35693,7 +35693,7 @@ export const bestiaryMPMM = {
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -35740,20 +35740,20 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The warlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 15}): "
+						"The warlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {15}): "
 					],
 					"will": [
-						"{@spell alter self}",
-						"{@spell mage armor} (self only)",
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
-						"{@spell prestidigitation}"
+						"{ alter self}",
+						"{ mage armor} (self only)",
+						"{ mage hand}",
+						"{ minor illusion}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell banishment}",
-							"{@spell plane shift}",
-							"{@spell suggestion}"
+							"{ banishment}",
+							"{ plane shift}",
+							"{ suggestion}"
 						]
 					},
 					"ability": "cha",
@@ -35778,13 +35778,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage plus 14 ({@damage 4d6}) fire damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 6 (1d6 + 3}) slashing damage plus 14 (4d6}) fire damage."
 					]
 				},
 				{
 					"name": "Hellfire",
 					"entries": [
-						"Green flame explodes in a 10-foot-radius sphere centered on a point within 120 feet of the warlock. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 16 ({@damage 3d10}) fire damage and 11 ({@damage 2d10}) necrotic damage on a failed save, or half as much damage on a successful one."
+						"Green flame explodes in a 10-foot-radius sphere centered on a point within 120 feet of the warlock. Each creature in that area must make a {15} Dexterity saving throw, taking 16 (3d10}) fire damage and 11 (2d10}) necrotic damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -35792,7 +35792,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Fiendish Rebuke (3/Day)",
 					"entries": [
-						"In response to being damaged by a visible creature within 60 feet of it, the warlock forces that creature to make a {@dc 15} Constitution saving throw, taking 22 ({@damage 4d10}) necrotic damage on a failed save, or half as much damage on a successful one."
+						"In response to being damaged by a visible creature within 60 feet of it, the warlock forces that creature to make a {15} Constitution saving throw, taking 22 (4d10}) necrotic damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -35858,7 +35858,7 @@ export const bestiaryMPMM = {
 				13,
 				{
 					"ac": 16,
-					"condition": "with {@spell mage armor}",
+					"condition": "with { mage armor}",
 					"braces": true
 				}
 			],
@@ -35899,22 +35899,22 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The warlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 15}): "
+						"The warlock casts one of the following spells, using Charisma as the spellcasting ability (spell save {15}): "
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell guidance}",
-						"{@spell levitate}",
-						"{@spell mage armor} (self only)",
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
-						"{@spell prestidigitation}"
+						"{ detect magic}",
+						"{ guidance}",
+						"{ levitate}",
+						"{ mage armor} (self only)",
+						"{ mage hand}",
+						"{ minor illusion}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell arcane gate}",
-							"{@spell detect thoughts}",
-							"{@spell true seeing}"
+							"{ arcane gate}",
+							"{ detect thoughts}",
+							"{ true seeing}"
 						]
 					},
 					"ability": "cha",
@@ -35925,7 +35925,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Whispering Aura",
 					"entries": [
-						"At the start of each of the warlock's turns, each creature of its choice within 5 feet of it must succeed on a {@dc 15} Wisdom saving throw or take 10 ({@damage 3d6}) psychic damage, provided that the warlock isn't {@condition incapacitated}."
+						"At the start of each of the warlock's turns, each creature of its choice within 5 feet of it must succeed on a {15} Wisdom saving throw or take 10 (3d6}) psychic damage, provided that the warlock isn't {incapacitated}."
 					]
 				}
 			],
@@ -35939,13 +35939,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Dagger",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 10 ({@damage 3d6}) psychic damage."
+						"{@atk mw,rw} +6} to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3}) piercing damage plus 10 (3d6}) psychic damage."
 					]
 				},
 				{
 					"name": "Howling Void",
 					"entries": [
-						"The warlock opens a momentary extraplanar rift within 60 feet of it. The rift is a scream-filled, 20-foot cube. Each creature in that area must make a {@dc 15} Wisdom saving throw. On a failed save, a creature takes 9 ({@damage 2d8}) psychic damage and is {@condition frightened} of the warlock until the start of the war lock's next turn. On a successful save, a creature takes half as much damage and isn't {@condition frightened}."
+						"The warlock opens a momentary extraplanar rift within 60 feet of it. The rift is a scream-filled, 20-foot cube. Each creature in that area must make a {15} Wisdom saving throw. On a failed save, a creature takes 9 (2d8}) psychic damage and is {frightened} of the warlock until the start of the war lock's next turn. On a successful save, a creature takes half as much damage and isn't {frightened}."
 					]
 				}
 			],
@@ -36074,13 +36074,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Greatsword",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+						"{1d20+9} to hit, reach 5 ft., one target. 12 (2d6 + 5}) slashing damage."
 					]
 				},
 				{
 					"name": "Shortbow",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+						"1d20+7} to hit, range 80/320 ft., one target. 6 (1d6 + 3}) piercing damage."
 					]
 				}
 			],
@@ -36100,7 +36100,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Frighten Foe (Costs 2 Actions)",
 					"entries": [
-						"The warlord targets one creature it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a {@dc 16} Wisdom saving throw or be {@condition frightened} until the end of warlord's next turn."
+						"The warlord targets one creature it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a {16} Wisdom saving throw or be {frightened} until the end of warlord's next turn."
 					]
 				}
 			],
@@ -36223,7 +36223,7 @@ export const bestiaryMPMM = {
 					"name": "Corrupt Water",
 					"entries": [
 						"At the start of each of the wastrilith's turns, exposed water within 30 feet of it is befouled. Underwater, this effect lightly obscures the area until a current clears it away. Water in containers remains corrupted until it evaporates.",
-						"A creature that consumes this foul water or swims in it must make a {@dc 18} Constitution saving throw. On a successful save, the creature is immune to the foul water for 24 hours. On a failed save, the creature takes 14 ({@damage 4d6}) poison damage and is {@condition poisoned} for 1 minute. At the end of this time, the {@condition poisoned} creature must repeat the saving throw. On a failure, the creature takes 18 ({@damage 4d8}) poison damage and is {@condition poisoned} until it finishes a long rest.",
+						"A creature that consumes this foul water or swims in it must make a {18} Constitution saving throw. On a successful save, the creature is immune to the foul water for 24 hours. On a failed save, the creature takes 14 (4d6}) poison damage and is {poisoned} for 1 minute. At the end of this time, the {poisoned} creature must repeat the saving throw. On a failure, the creature takes 18 (4d8}) poison damage and is {poisoned} until it finishes a long rest.",
 						"If another demon drinks the foul water as an action, it gains 11 ({@dice 2d10}) temporary hit points."
 					]
 				},
@@ -36244,19 +36244,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}30 ({@damage 4d12 + 4}) piercing damage."
+						"{1d20+9} to hit, reach 10 ft., one target. 30 (4d12 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}18 ({@damage 4d6 + 4}) slashing damage."
+						"{1d20+9} to hit, reach 10 ft., one target. 18 (4d6 + 4}) slashing damage."
 					]
 				},
 				{
 					"name": "Grasping Spout",
 					"entries": [
-						"The wastrilith magically launches a spout of water at one creature it can see within 60 feet of it. The target must make a {@dc 17} Strength saving throw, and it has disadvantage if it's underwater. On a failed save, it takes 22 ({@damage 4d8 + 4}) acid damage and is pulled up to 60 feet toward the wastrilith. On a successful save, it takes half as much damage and isn't pulled."
+						"The wastrilith magically launches a spout of water at one creature it can see within 60 feet of it. The target must make a {17} Strength saving throw, and it has disadvantage if it's underwater. On a failed save, it takes 22 (4d8 + 4}) acid damage and is pulled up to 60 feet toward the wastrilith. On a successful save, it takes half as much damage and isn't pulled."
 					]
 				}
 			],
@@ -36389,13 +36389,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Trident",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}7 ({@damage 1d6 + 4}) force damage, or 8 ({@damage 1d8 + 4}) force damage if used with two hands to make a melee attack."
+						"{@atk mw,rw} +7} to hit, reach 5 ft. or range 20/60 ft., one target. 7 (1d6 + 4}) force damage, or 8 (1d8 + 4}) force damage if used with two hands to make a melee attack."
 					]
 				},
 				{
-					"name": "Freezing Strikes {@recharge}",
+					"name": "Freezing Strikes {Recharge -}",
 					"entries": [
-						"The myrmidon uses Multiattack. Each attack that hits deals an extra 5 ({@damage 1d10}) cold damage. A target that is hit by one or more of these attacks has its speed reduced by 10 feet until the end of the myrmidon's next turn."
+						"The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10}) cold damage. A target that is hit by one or more of these attacks has its speed reduced by 10 feet until the end of the myrmidon's next turn."
 					]
 				}
 			],
@@ -36534,19 +36534,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 3 ({@damage 1d6}) cold damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 5 (1d4 + 3}) piercing damage plus 3 (1d6}) cold damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 8 (1d10 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) force damage, or 8 ({@damage 1d10 + 3}) force damage if used with two hands."
+						"{1d20+6} to hit, reach 5 ft., one target. 7 (1d8 + 3}) force damage, or 8 (1d10 + 3}) force damage if used with two hands."
 					]
 				}
 			],
@@ -36656,12 +36656,12 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The eladrin casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 16}):"
+						"The eladrin casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell fog cloud}",
-						"{@spell gust of wind}",
-						"{@spell sleet storm}"
+						"{ fog cloud}",
+						"{ gust of wind}",
+						"{ sleet storm}"
 					],
 					"ability": "int",
 					"displayAs": "action"
@@ -36677,8 +36677,8 @@ export const bestiaryMPMM = {
 				{
 					"name": "Sorrowful Presence",
 					"entries": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {@dc 13} Wisdom saving throw. On a failed save, the creature becomes {@condition charmed} by the eladrin for 1 minute. While {@condition charmed} in this way, the creature has disadvantage on ability checks and saving throws. The {@condition charmed} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Sorrowful Presence for the next 24 hours.",
-						"Whenever the eladrin deals damage to the {@condition charmed} creature, the {@condition charmed} creature can repeat the saving throw, ending the effect on itself on a success."
+						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a {13} Wisdom saving throw. On a failed save, the creature becomes {charmed} by the eladrin for 1 minute. While {charmed} in this way, the creature has disadvantage on ability checks and saving throws. The {charmed} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Sorrowful Presence for the next 24 hours.",
+						"Whenever the eladrin deals damage to the {charmed} creature, the {charmed} creature can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -36692,19 +36692,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) slashing damage, or 5 ({@damage 1d10}) slashing damage if used with two hands, plus 13 ({@damage 3d8}) cold damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 4 (1d8}) slashing damage, or 5 (1d10}) slashing damage if used with two hands, plus 13 (3d8}) cold damage."
 					]
 				},
 				{
 					"name": "Longbow",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 13 ({@damage 3d8}) cold damage."
+						"1d20+7} to hit, range 150/600 ft., one target. 7 (1d8 + 3}) piercing damage plus 13 (3d8}) cold damage."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Fey Step {@recharge 4}",
+					"name": "Fey Step {Recharge - 4}",
 					"entries": [
 						"The eladrin teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see."
 					]
@@ -36714,7 +36714,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Frigid Rebuke",
 					"entries": [
-						"When the eladrin takes damage from a creature the eladrin can see within 60 feet of it, the eladrin can force that creature to make a {@dc 16} Constitution saving throw. On a failed save, the creature takes 11 ({@damage 2d10}) cold damage."
+						"When the eladrin takes damage from a creature the eladrin can see within 60 feet of it, the eladrin can force that creature to make a {16} Constitution saving throw. On a failed save, the creature takes 11 (2d10}) cold damage."
 					]
 				}
 			],
@@ -36859,7 +36859,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Club",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@hit 14} ({@damage 4d4 + 4}) force damage."
+						"{1d20+7} to hit, reach 5 ft., one target. +14} (4d4 + 4}) force damage."
 					]
 				}
 			],
@@ -36953,7 +36953,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Wretched Pack Tactics",
 					"entries": [
-						"The sorrowsworn has advantage on an attack roll against a creature if at least one of the sorrowsworn's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}. The sorrowsworn otherwise has disadvantage on attack rolls."
+						"The sorrowsworn has advantage on an attack roll against a creature if at least one of the sorrowsworn's allies is within 5 feet of the creature and the ally isn't {incapacitated}. The sorrowsworn otherwise has disadvantage on attack rolls."
 					]
 				}
 			],
@@ -36961,7 +36961,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the sorrowsworn attaches to the target. While attached, the sorrowsworn can't attack, and at the start of each of the sorrowsworn's turns, the target takes 6 ({@damage 1d10 + 1}) necrotic damage.",
+						"{1d20+3} to hit, reach 5 ft., one target. 6 (1d10 + 1}) piercing damage, and the sorrowsworn attaches to the target. While attached, the sorrowsworn can't attack, and at the start of each of the sorrowsworn's turns, the target takes 6 (1d10 + 1}) necrotic damage.",
 						"The attached sorrowsworn moves with the target whenever the target moves, requiring none of the sorrowsworn's movement. The sorrowsworn can detach itself by spending 5 feet of its movement on its turn. A creature, including the target, can use its action to detach the sorrowsworn."
 					]
 				}
@@ -37052,13 +37052,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Shortsword",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@dice 1d6 + 2}) piercing damage. If at least one of the xvart's allies is within 5 feet of the target, the xvart can push the target 5 feet if the target is a Medium or smaller creature."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 ({@dice 1d6 + 2}) piercing damage. If at least one of the xvart's allies is within 5 feet of the target, the xvart can push the target 5 feet if the target is a Medium or smaller creature."
 					]
 				},
 				{
 					"name": "Sling",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+						"1d20+4} to hit, range 30/120 ft., one target. 4 (1d4 + 2}) bludgeoning damage."
 					]
 				}
 			],
@@ -37146,19 +37146,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The xvart casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 11}):"
+						"The xvart casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {11}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell mage armor} (self only)",
-						"{@spell mage hand}",
-						"{@spell minor illusion}",
-						"{@spell prestidigitation}"
+						"{ detect magic}",
+						"{ mage armor} (self only)",
+						"{ mage hand}",
+						"{ minor illusion}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell burning hands}",
-							"{@spell invisibility}"
+							"{ burning hands}",
+							"{ invisibility}"
 						]
 					},
 					"ability": "cha",
@@ -37189,13 +37189,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Scimitar",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@dice 1d6 + 2}) slashing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 ({@dice 1d6 + 2}) slashing damage."
 					]
 				},
 				{
 					"name": "Raxivort's Bite",
 					"entries": [
-						"{@atk rs} {@hit 3} to hit, range 30 ft., one creature. {@h}7 ({@damage 1d10 + 2}) poison damage."
+						"{@atk rs} +3} to hit, range 30 ft., one creature. 7 (1d10 + 2}) poison damage."
 					]
 				}
 			],
@@ -37336,18 +37336,18 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The yagnoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 16}):"
+						"The yagnoloth casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {16}):"
 					],
 					"will": [
-						"{@spell darkness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell invisibility} (self only)",
-						"{@spell suggestion}"
+						"{ darkness}",
+						"{ detect magic}",
+						"{ dispel magic}",
+						"{ invisibility} (self only)",
+						"{ suggestion}"
 					],
 					"daily": {
 						"3": [
-							"{@spell lightning bolt}"
+							"{ lightning bolt}"
 						]
 					},
 					"ability": "cha",
@@ -37372,17 +37372,17 @@ export const bestiaryMPMM = {
 				{
 					"name": "Electrified Touch",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}27 ({@damage 6d8}) lightning damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 27 (6d8}) lightning damage."
 					]
 				},
 				{
 					"name": "Massive Arm",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}23 ({@damage 3d12 + 4}) force damage. If the target is a creature, it must succeed on a {@dc 16} Constitution saving throw or become {@condition stunned} until the end of the yagnoloth's next turn."
+						"{1d20+8} to hit, reach 15 ft., one target. 23 (3d12 + 4}) force damage. If the target is a creature, it must succeed on a {16} Constitution saving throw or become {stunned} until the end of the yagnoloth's next turn."
 					]
 				},
 				{
-					"name": "Battlefield Cunning {@recharge 4}",
+					"name": "Battlefield Cunning {Recharge - 4}",
 					"entries": [
 						"Up to two allied yugoloths within 60 feet of the yagnoloth that can hear it can use their reactions to make one melee attack each."
 					]
@@ -37390,7 +37390,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Life Leech",
 					"entries": [
-						"The yagnoloth touches one {@condition incapacitated} creature within 15 feet of it. The target takes 36 ({@damage 7d8 + 4}) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a {@dc 16} Constitution saving throw, or its hit point maximum is reduced by an amount equal to half the necrotic damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0."
+						"The yagnoloth touches one {incapacitated} creature within 15 feet of it. The target takes 36 (7d8 + 4}) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a {16} Constitution saving throw, or its hit point maximum is reduced by an amount equal to half the necrotic damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is reduced to 0."
 					]
 				},
 				{
@@ -37541,19 +37541,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Yeenoghu casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+						"Yeenoghu casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {17}):"
 					],
 					"will": [
-						"{@spell detect magic}"
+						"{ detect magic}"
 					],
 					"daily": {
 						"1": [
-							"{@spell teleport}"
+							"{ teleport}"
 						],
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell fear}",
-							"{@spell invisibility}"
+							"{ dispel magic}",
+							"{ fear}",
+							"{ invisibility}"
 						]
 					},
 					"ability": "cha",
@@ -37584,7 +37584,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Flail",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}22 ({@damage 2d12 + 9}) force damage. If it's his turn, Yeenoghu can cause the target to suffer one of the following additional effects, each of which he can apply only once per turn",
+						"{1d20+16} to hit, reach 15 ft., one target. 22 (2d12 + 9}) force damage. If it's his turn, Yeenoghu can cause the target to suffer one of the following additional effects, each of which he can apply only once per turn",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -37593,21 +37593,21 @@ export const bestiaryMPMM = {
 									"type": "item",
 									"name": "Confusion",
 									"entries": [
-										"The target must succeed on a {@dc 17} Wisdom saving throw or be affected by the confusion spell until the start of Yeenoghu's next turn."
+										"The target must succeed on a {17} Wisdom saving throw or be affected by the confusion spell until the start of Yeenoghu's next turn."
 									]
 								},
 								{
 									"type": "item",
 									"name": "Force",
 									"entries": [
-										"The target takes an extra 13 ({@damage 2d12}) force damage."
+										"The target takes an extra 13 (2d12}) force damage."
 									]
 								},
 								{
 									"type": "item",
 									"name": "Paralysis",
 									"entries": [
-										"The target must succeed on a {@dc 17} Constitution saving throw or be {@condition paralyzed} until the start of Yeenoghu's next turn."
+										"The target must succeed on a {17} Constitution saving throw or be {paralyzed} until the start of Yeenoghu's next turn."
 									]
 								}
 							]
@@ -37617,7 +37617,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}20 ({@damage 2d10 + 9}) acid damage."
+						"{1d20+16} to hit, reach 10 ft., one target. 20 (2d10 + 9}) acid damage."
 					]
 				}
 			],
@@ -37639,7 +37639,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Swat Away",
 					"entries": [
-						"Yeenoghu makes one Flail attack. If the attack hits, the target must succeed on a {@dc 24} Strength saving throw or be pushed up to 15 feet in a straight line away from Yeenoghu. If the saving throw fails by 5 or more, the target is also knocked {@condition prone}."
+						"Yeenoghu makes one Flail attack. If the attack hits, the target must succeed on a {24} Strength saving throw or be pushed up to 15 feet in a straight line away from Yeenoghu. If the saving throw fails by 5 or more, the target is also knocked {prone}."
 					]
 				},
 				{
@@ -37787,13 +37787,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, plus 14 ({@damage 4d6}) psychic damage if the target is {@condition frightened}."
+						"{1d20+6} to hit, reach 5 ft., one target. 11 (2d6 + 4}) piercing damage, plus 14 (4d6}) psychic damage if the target is {frightened}."
 					]
 				},
 				{
 					"name": "Baleful Baying",
 					"entries": [
-						"The yeth hound bays magically. Every enemy within 300 feet of the hound that can hear it must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} of the hound until the end of the hound's next turn or until the hound is {@condition incapacitated}. A {@condition frightened} target that starts its turn within 30 feet of the hound must use all its movement on that turn to get as far from the hound as possible, must finish the move before taking an action, and must take the most direct route, even if hazards lie that way. A target that successfully saves is immune to the baying of all yeth hounds for the next 24 hours."
+						"The yeth hound bays magically. Every enemy within 300 feet of the hound that can hear it must succeed on a {13} Wisdom saving throw or be {frightened} of the hound until the end of the hound's next turn or until the hound is {incapacitated}. A {frightened} target that starts its turn within 30 feet of the hound must use all its movement on that turn to get as far from the hound as possible, must finish the move before taking an action, and must take the most direct route, even if hazards lie that way. A target that successfully saves is immune to the baying of all yeth hounds for the next 24 hours."
 					]
 				}
 			],
@@ -37885,7 +37885,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't {incapacitated}."
 					]
 				},
 				{
@@ -37899,7 +37899,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Stab",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 5 (1d4 + 3}) piercing damage."
 					]
 				}
 			],
@@ -38004,18 +38004,18 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Anathema Form Only)",
 					"headerEntries": [
-						"The anathema casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+						"The anathema casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {17}):"
 					],
 					"will": [
-						"{@spell animal friendship} (snakes only)"
+						"{ animal friendship} (snakes only)"
 					],
 					"daily": {
 						"3e": [
-							"{@spell darkness}",
-							"{@spell entangle}",
-							"{@spell fear}",
-							"{@spell polymorph}",
-							"{@spell suggestion}"
+							"{ darkness}",
+							"{ entangle}",
+							"{ fear}",
+							"{ polymorph}",
+							"{ suggestion}"
 						]
 					},
 					"ability": "cha",
@@ -38032,13 +38032,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Ophidiophobia Aura",
 					"entries": [
-						"Any creature of the anathema's choice, other than a snake or a yuan-ti, that starts its turn within 30 feet of the anathema must succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} of snakes and yuan-ti. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this anathama's aura for the next 24 hours."
+						"Any creature of the anathema's choice, other than a snake or a yuan-ti, that starts its turn within 30 feet of the anathema must succeed on a {17} Wisdom saving throw or become {frightened} of snakes and yuan-ti. A {frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this anathama's aura for the next 24 hours."
 					]
 				},
 				{
 					"name": "Six Heads",
 					"entries": [
-						"The anathema has advantage on saves against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}."
+						"The anathema has advantage on saves against being {blinded}, {charmed}, {deafened}, {frightened}, {stunned}, or knocked {unconscious}."
 					]
 				}
 			],
@@ -38052,19 +38052,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Claw (Anathema Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+						"{1d20+10} to hit, reach 10 ft., one target. 13 (2d6 + 6}) slashing damage."
 					]
 				},
 				{
 					"name": "Flurry of Bites (Anathema Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft., one creature. {@h}27 ({@damage 6d6 + 6}) piercing damage plus 14 ({@damage 4d6}) poison damage."
+						"{1d20+10} to hit, reach 10 ft., one creature. 27 (6d6 + 6}) piercing damage plus 14 (4d6}) poison damage."
 					]
 				},
 				{
 					"name": "Constrict (Snake Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 15 ft., one Large or smaller creature. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage plus 7 ({@damage 2d6}) acid damage, and the target is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and it takes 16 ({@damage 3d6 + 6}) bludgeoning damage plus 7 ({@damage 2d6}) acid damage at the start of each of its turns. The anathema can constrict only one creature at a time."
+						"{1d20+10} to hit, reach 15 ft., one Large or smaller creature. 16 (3d6 + 6}) bludgeoning damage plus 7 (2d6}) acid damage, and the target is {grappled} (escape {16}). Until this grapple ends, the target is {restrained}, and it takes 16 (3d6 + 6}) bludgeoning damage plus 7 (2d6}) acid damage at the start of each of its turns. The anathema can constrict only one creature at a time."
 					]
 				}
 			],
@@ -38213,13 +38213,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 6 (1d8 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 (1d6 + 2}) slashing damage."
 					]
 				}
 			],
@@ -38330,21 +38330,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Yuan-ti Form Only)",
 					"headerEntries": [
-						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell animal friendship} (snakes only)",
-						"{@spell message}",
-						"{@spell minor illusion}",
-						"{@spell prestidigitation}"
+						"{ animal friendship} (snakes only)",
+						"{ message}",
+						"{ minor illusion}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"3": [
-							"{@spell suggestion}"
+							"{ suggestion}"
 						],
 						"2e": [
-							"{@spell detect thoughts}",
-							"{@spell hypnotic pattern}"
+							"{ detect thoughts}",
+							"{ hypnotic pattern}"
 						]
 					},
 					"ability": "cha",
@@ -38381,19 +38381,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 5 (1d4 + 3}) piercing damage plus 7 (2d6}) poison damage."
 					]
 				},
 				{
 					"name": "Scimitar (Yuan-ti Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Spectral Fangs",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 120 ft., one target. {@h}16 ({@damage 3d8 + 3}) psychic damage."
+						"{@atk rs} +5} to hit, range 120 ft., one target. 16 (3d8 + 3}) psychic damage."
 					]
 				}
 			],
@@ -38521,21 +38521,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Yuan-ti Form Only)",
 					"headerEntries": [
-						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {13}):"
 					],
 					"will": [
-						"{@spell animal friendship} (snakes only)",
-						"{@spell mage hand}",
-						"{@spell message}",
-						"{@spell prestidigitation}"
+						"{ animal friendship} (snakes only)",
+						"{ mage hand}",
+						"{ message}",
+						"{ prestidigitation}"
 					],
 					"daily": {
 						"3": [
-							"{@spell suggestion}"
+							"{ suggestion}"
 						],
 						"2e": [
-							"{@spell darkness}",
-							"{@spell fear}"
+							"{ darkness}",
+							"{ fear}"
 						]
 					},
 					"ability": "cha",
@@ -38566,26 +38566,26 @@ export const bestiaryMPMM = {
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 14}) if it is a Large or smaller creature. Until this grapple ends, the target is {@condition restrained}. The yuan-ti can constrict only one creature at a time."
+						"{1d20+5} to hit, reach 10 ft., one target. 10 (2d6 + 3}) bludgeoning damage, and the target is {grappled} (escape {14}) if it is a Large or smaller creature. Until this grapple ends, the target is {restrained}. The yuan-ti can constrict only one creature at a time."
 					]
 				},
 				{
 					"name": "Scimitar (Yuan-ti Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) slashing damage."
 					]
 				},
 				{
 					"name": "Spectral Fangs",
 					"entries": [
-						"{@atk rs} {@hit 5} to hit, range 120 ft., one target. {@h}16 ({@damage 3d8 + 3}) necrotic damage."
+						"{@atk rs} +5} to hit, range 120 ft., one target. 16 (3d8 + 3}) necrotic damage."
 					]
 				},
 				{
 					"name": "Invoke Nightmare (Recharges after a Short or Long Rest)",
 					"entries": [
 						"The yuan-ti taps into the nightmares of one creature it can see within 60 feet of it and creates an illusory, immobile manifestation of the creature's deepest fears, visible only to that creature.",
-						"The target must make a {@dc 13} Intelligence saving throw. On a failed save, the target takes 22 ({@damage 4d10}) psychic damage and is {@condition frightened} of the manifestation, believing it to be real. The yuan-ti must concentrate to maintain the illusion (as if concentrating on a spell), which lasts for up to 1 minute and can't be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success or taking 11 ({@damage 2d10}) psychic damage on a failure."
+						"The target must make a {13} Intelligence saving throw. On a failed save, the target takes 22 (4d10}) psychic damage and is {frightened} of the manifestation, believing it to be real. The yuan-ti must concentrate to maintain the illusion (as if concentrating on a spell), which lasts for up to 1 minute and can't be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success or taking 11 (2d10}) psychic damage on a failure."
 					]
 				}
 			],
@@ -38720,21 +38720,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting (Yuan-ti Form Only)",
 					"headerEntries": [
-						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+						"The yuan-ti casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {14}):"
 					],
 					"will": [
-						"{@spell animal friendship} (snakes only)",
-						"{@spell guidance}",
-						"{@spell mage hand}",
-						"{@spell message}"
+						"{ animal friendship} (snakes only)",
+						"{ guidance}",
+						"{ mage hand}",
+						"{ message}"
 					],
 					"daily": {
 						"3": [
-							"{@spell suggestion}"
+							"{ suggestion}"
 						],
 						"2e": [
-							"{@spell hold person}",
-							"{@spell invisibility}"
+							"{ hold person}",
+							"{ invisibility}"
 						]
 					},
 					"ability": "cha",
@@ -38765,19 +38765,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+						"{1d20+6} to hit, reach 5 ft., one target. 5 (1d4 + 3}) piercing damage plus 7 (2d6}) poison damage."
 					]
 				},
 				{
 					"name": "Spectral Fangs",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 120 ft., one target. {@h}16 ({@damage 3d8 + 3}) poison damage."
+						"{@atk rs} +6} to hit, range 120 ft., one target. 16 (3d8 + 3}) poison damage."
 					]
 				},
 				{
 					"name": "Merrshaulk's Slumber (1/Day)",
 					"entries": [
-						"The yuan-ti targets up to five creatures that it can see within 60 feet of it. Each target must succeed on a {@dc 13} Constitution saving throw or fall into a magical sleep and be {@condition unconscious} for 10 minutes. A sleeping target awakens if it takes damage or if someone uses an action to shake or slap it awake. This magical sleep has no effect on a creature immune to being {@condition charmed}."
+						"The yuan-ti targets up to five creatures that it can see within 60 feet of it. Each target must succeed on a {13} Constitution saving throw or fall into a magical sleep and be {unconscious} for 10 minutes. A sleeping target awakens if it takes damage or if someone uses an action to shake or slap it awake. This magical sleep has no effect on a creature immune to being {charmed}."
 					]
 				}
 			],
@@ -38934,25 +38934,25 @@ export const bestiaryMPMM = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 20 ft., one target. {@h}28 ({@damage 4d8 + 10}) force damage."
+						"{1d20+17} to hit, reach 20 ft., one target. 28 (4d8 + 10}) force damage."
 					]
 				},
 				{
 					"name": "Stomp",
 					"entries": [
-						"{@atk mw} {@hit 17} to hit, reach 20 ft., one target. {@h}26 ({@damage 3d10 + 10}) thunder damage."
+						"{1d20+17} to hit, reach 20 ft., one target. 26 (3d10 + 10}) thunder damage."
 					]
 				},
 				{
 					"name": "Spit Rock",
 					"entries": [
-						"{@atk rw} {@hit 17} to hit, range 120 ft./240 ft., one target. {@h}31 ({@damage 6d8 + 10}) force damage."
+						"1d20+17} to hit, range 120 ft./240 ft., one target. 31 (6d8 + 10}) force damage."
 					]
 				},
 				{
-					"name": "Spew Debris {@recharge 5}",
+					"name": "Spew Debris {Recharge - 5}",
 					"entries": [
-						"The zaratan exhales rocky debris in a 90-foot cube. Each creature in that area must make a {@dc 25} Dexterity saving throw. A creature takes 33 ({@damage 6d10}) bludgeoning damage on a failed save, or half as much damage on a successful one. A creature that fails the save by 5 or more is knocked {@condition prone}."
+						"The zaratan exhales rocky debris in a 90-foot cube. Each creature in that area must make a {25} Dexterity saving throw. A creature takes 33 (6d10}) bludgeoning damage on a failed save, or half as much damage on a successful one. A creature that fails the save by 5 or more is knocked {prone}."
 					]
 				}
 			],
@@ -38960,7 +38960,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Earth-Shaking Movement",
 					"entries": [
-						"After moving at least 10 feet on the ground, the zaratan sends a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes {@quickref difficult terrain||3} for 1 minute. Each creature on the ground that is concentrating must succeed on a {@dc 25} Constitution saving throw or the creature's concentration is broken. The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height must make a {@dc 25} Dexterity saving throw. On a failed save, the creature takes 17 ({@damage 5d6}) bludgeoning damage, is knocked {@condition prone}, and is trapped in the rubble. A trapped creature is {@condition restrained}, requiring a successful {@dc 20} Strength ({@skill Athletics}) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. On a successful save, the creature takes half as much damage and doesn't fall {@condition prone} or become trapped."
+						"After moving at least 10 feet on the ground, the zaratan sends a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes {@quickref difficult terrain||3} for 1 minute. Each creature on the ground that is concentrating must succeed on a {25} Constitution saving throw or the creature's concentration is broken. The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height must make a {25} Dexterity saving throw. On a failed save, the creature takes 17 (5d6}) bludgeoning damage, is knocked {prone}, and is trapped in the rubble. A trapped creature is {restrained}, requiring a successful {20} Strength ({@skill Athletics}) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. On a successful save, the creature takes half as much damage and doesn't fall {prone} or become trapped."
 					]
 				}
 			],
@@ -38986,7 +38986,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Retract (Costs 2 Actions)",
 					"entries": [
-						"The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all damage, and it is {@condition restrained}. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
+						"The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all damage, and it is {restrained}. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
 					]
 				},
 				{
@@ -39136,21 +39136,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Zariel casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 26}):"
+						"Zariel casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {26}):"
 					],
 					"will": [
-						"{@spell alter self} (can become Medium when changing her appearance)",
-						"{@spell detect evil and good}",
-						"{@spell fireball}",
-						"{@spell invisibility} (self only)",
-						"{@spell major image}",
-						"{@spell wall of fire}"
+						"{ alter self} (can become Medium when changing her appearance)",
+						"{ detect evil and good}",
+						"{ fireball}",
+						"{ invisibility} (self only)",
+						"{ major image}",
+						"{ wall of fire}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell blade barrier}",
-							"{@spell dispel evil and good}",
-							"{@spell finger of death}"
+							"{ blade barrier}",
+							"{ dispel evil and good}",
+							"{ finger of death}"
 						]
 					},
 					"ability": "cha",
@@ -39193,19 +39193,19 @@ export const bestiaryMPMM = {
 				{
 					"name": "Flail",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d8 + 8}) force damage plus 36 ({@damage 8d8}) fire damage."
+						"{1d20+16} to hit, reach 10 ft., one target. 17 (2d8 + 8}) force damage plus 36 (8d8}) fire damage."
 					]
 				},
 				{
 					"name": "Longsword",
 					"entries": [
-						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d8 + 8}) radiant damage, or 19 ({@damage 2d10 + 8}) radiant damage when used with two hands, plus 36 ({@damage 8d8}) fire damage."
+						"{1d20+16} to hit, reach 10 ft., one target. 17 (2d8 + 8}) radiant damage, or 19 (2d10 + 8}) radiant damage when used with two hands, plus 36 (8d8}) fire damage."
 					]
 				},
 				{
-					"name": "Horrid Touch {@recharge 5}",
+					"name": "Horrid Touch {Recharge - 5}",
 					"entries": [
-						"Zariel touches one creature within 10 feet of her. The target must succeed on a {@dc 26} Constitution saving throw or take 44 ({@damage 8d10}) necrotic damage and be {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the target is {@condition blinded} and {@condition deafened}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"Zariel touches one creature within 10 feet of her. The target must succeed on a {26} Constitution saving throw or take 44 (8d10}) necrotic damage and be {poisoned} for 1 minute. While {poisoned} in this way, the target is {blinded} and {deafened}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
@@ -39225,7 +39225,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Immolating Gaze (Costs 2 Actions)",
 					"entries": [
-						"Zariel turns her magical gaze toward one creature she can see within 120 feet of her and commands it to burn. The target must succeed on a {@dc 26} Wisdom saving throw or take 22 ({@damage 4d10}) fire damage."
+						"Zariel turns her magical gaze toward one creature she can see within 120 feet of her and commands it to burn. The target must succeed on a {26} Wisdom saving throw or take 22 (4d10}) fire damage."
 					]
 				}
 			],
@@ -39377,21 +39377,21 @@ export const bestiaryMPMM = {
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Zuggtmoy casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 22}):"
+						"Zuggtmoy casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {22}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell locate animals or plants}"
+						"{ detect magic}",
+						"{ locate animals or plants}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell dispel magic}",
-							"{@spell entangle}",
-							"{@spell plant growth}"
+							"{ dispel magic}",
+							"{ entangle}",
+							"{ plant growth}"
 						],
 						"1e": [
-							"{@spell etherealness}",
-							"{@spell teleport}"
+							"{ etherealness}",
+							"{ teleport}"
 						]
 					},
 					"ability": "cha",
@@ -39422,7 +39422,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"{@atk mw} {@hit +13} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) force damage plus 9 ({@damage 2d8}) poison damage."
+						"{1d20++13} to hit, reach 10 ft., one target. 15 (2d8 + 6}) force damage plus 9 (2d8}) poison damage."
 					]
 				}
 			],
@@ -39430,13 +39430,13 @@ export const bestiaryMPMM = {
 				{
 					"name": "Infestation Spores (3/Day)",
 					"entries": [
-						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Any creature in the cloud when it appears, or that enters it later, must make a {@dc 19} Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy, which lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a {@creature quaggoth spore servant||spore servant} if it's a type of creature that can be."
+						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Any creature in the cloud when it appears, or that enters it later, must make a {19} Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy, which lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a {@creature quaggoth spore servant||spore servant} if it's a type of creature that can be."
 					]
 				},
 				{
-					"name": "Mind Control Spores {@recharge 5}",
+					"name": "Mind Control Spores {Recharge - 5}",
 					"entries": [
-						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and Beasts in the cloud when it appears, or that enter it later, must make a {@dc 19} Wisdom saving throw. On a successful save, a creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected in this way, the creature is {@condition charmed} by her and can't be reinfected by these spores."
+						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and Beasts in the cloud when it appears, or that enter it later, must make a {19} Wisdom saving throw. On a successful save, a creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected in this way, the creature is {charmed} by her and can't be reinfected by these spores."
 					]
 				}
 			],
@@ -39444,7 +39444,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Protective Thrall",
 					"entries": [
-						"When Zuggtmoy is hit by an attack roll, one creature within 10 feet of her that is {@condition charmed} by her is hit by the attack instead."
+						"When Zuggtmoy is hit by an attack roll, one creature within 10 feet of her that is {charmed} by her is hit by the attack instead."
 					]
 				}
 			],
@@ -39458,7 +39458,7 @@ export const bestiaryMPMM = {
 				{
 					"name": "Exert Will",
 					"entries": [
-						"One creature {@condition charmed} by Zuggtmoy that she can see must use its reaction, if a available, to move up to its speed as she directs or to make one weapon attack against a target that she designates."
+						"One creature {charmed} by Zuggtmoy that she can see must use its reaction, if a available, to move up to its speed as she directs or to make one weapon attack against a target that she designates."
 					]
 				}
 			],

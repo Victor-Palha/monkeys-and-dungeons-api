@@ -746,9 +746,9 @@ export const MPMMFluff = {
 			"name": "Berbalang",
 			"source": "MPMM",
 			"entries": [
-				"Berbalangs creep across the {@condition petrified} remains of dead gods adrift on the Astral Plane. Obsessed with gathering secrets, both from the gods they inhabit and from the bones of dead creatures, they call forth the spirits of the dead and force them to divulge what they learned in life.",
+				"Berbalangs creep across the {petrified} remains of dead gods adrift on the Astral Plane. Obsessed with gathering secrets, both from the gods they inhabit and from the bones of dead creatures, they call forth the spirits of the dead and force them to divulge what they learned in life.",
 				"Berbalangs prefer to speak only to dead things, and specifically only to the spirits they call forth in the hope of learning secrets. They record their stories on the bones that once belonged to these creatures, thus preserving the information they gain.",
-				"Pursuit of knowledge drives everything berbalangs do. Although they mostly learn their secrets from the dead, they aren't above spying on the living to take knowledge from them as well. A berbalang can create a spectral duplicate of itself and send the duplicate out to gather information on other planes by watching places where the gods and their servants gather. When a berbalang is perceiving its environment through its duplicate, its actual body is {@condition unconscious} and can't protect itself. Thus, a berbalang typically uses its duplicate for only a short time before returning its consciousness to its body.",
+				"Pursuit of knowledge drives everything berbalangs do. Although they mostly learn their secrets from the dead, they aren't above spying on the living to take knowledge from them as well. A berbalang can create a spectral duplicate of itself and send the duplicate out to gather information on other planes by watching places where the gods and their servants gather. When a berbalang is perceiving its environment through its duplicate, its actual body is {unconscious} and can't protect itself. Thus, a berbalang typically uses its duplicate for only a short time before returning its consciousness to its body.",
 				"The knowledge that berbalangs accumulate makes them great sources of information for powerful people traveling the planes. Berbalangs ignore petitioners, however, unless they come bearing a choice secret or the bones of a particularly interesting creature. Some githyanki have been able to strike deals with the creatures, using berbalangs to spy on their enemies and to watch over their creches on the Material Plane."
 			],
 			"images": [
@@ -925,7 +925,7 @@ export const MPMMFluff = {
 				"Boggles are the little bogeys of fairy tales. They lurk in the fringes of the Feywild and are also found on the Material Plane, where they hide under beds and in closets, waiting to frighten and bedevil folk with their mischief.",
 				"Boggles are born out of feelings of loneliness. They materialize when a sapient being feels isolated or abandoned near a place where the Feywild touches the world. For example, a forsaken child might unintentionally conjure a boggle and see them as a sort of imaginary friend. A boggle might also appear in the attic of a lonely widower's house or in a hermit's cave.",
 				"Boggles engage in petty pranks to amuse themselves, using the oil they excrete to cause trouble. A boggle also isn't above breaking dishes, hiding tools, startling cows to decrease their milk, or hiding a baby in an attic. Although a boggle's antics might cause distress and unintentional harm, mischief\u2014not mayhem\u2014is usually the intent. If threatened, a boggle flees rather than stand and fight.",
-				"A boggle can create magical openings to travel short distances or to pilfer items that would otherwise be beyond its reach. To create such a rift in space, a boggle must be adjacent to a space defined by a frame, such as an open window or a doorway, a gap between the bars of a cage, or the opening between the feet of a bed and the floor. The rift is {@condition invisible} and disappears after a few seconds\u2014just enough time for the boggle to step, reach, or attack through it."
+				"A boggle can create magical openings to travel short distances or to pilfer items that would otherwise be beyond its reach. To create such a rift in space, a boggle must be adjacent to a space defined by a frame, such as an open window or a doorway, a gap between the bars of a cage, or the opening between the feet of a bed and the floor. The rift is {invisible} and disappears after a few seconds\u2014just enough time for the boggle to step, reach, or attack through it."
 			],
 			"images": [
 				{
@@ -1019,7 +1019,7 @@ export const MPMMFluff = {
 					"by": "Mordenkainen"
 				},
 				"A type of yugoloth, canoloths are fiendish trackers and guardians employed by evil powers. They prefer to enter into contracts to guard valuable treasures and important locations. They always do exactly as asked\u2014never any more, never any less.",
-				"With senses sharp enough to pinpoint the locations of nearby {@condition invisible} creatures, canoloths respond unfailingly to any threat to their charges. Furthermore, they emit a magical distortion field that prevents creatures close to them from teleporting. Canoloths confront intruders with swift and terrible force, projecting long, spiny tongues to grab their foes and drag them close. What happens next depends on the contract. Unless instructed to kill, a canoloth merely holds on to its prisoner, but if given the order to do so, it tears its prey limb from limb."
+				"With senses sharp enough to pinpoint the locations of nearby {invisible} creatures, canoloths respond unfailingly to any threat to their charges. Furthermore, they emit a magical distortion field that prevents creatures close to them from teleporting. Canoloths confront intruders with swift and terrible force, projecting long, spiny tongues to grab their foes and drag them close. What happens next depends on the contract. Unless instructed to kill, a canoloth merely holds on to its prisoner, but if given the order to do so, it tears its prey limb from limb."
 			],
 			"images": [
 				{
@@ -1087,7 +1087,7 @@ export const MPMMFluff = {
 					"name": "Valuable Parts",
 					"type": "entries",
 					"entries": [
-						"Nearly every part of a cave fisher is useful after the creature has been dispatched. Cave fisher filaments can be woven into rope that is thin, tough, and nearly {@condition invisible}. The creature's shell is used in the manufacture of tools, armor, and jewelry. Its blood is alcoholic and tastes like strong liquor. Several dwarven spirits include cave fisher blood, and some dwarves, especially berserkers, drink the blood straight. Cave fisher meat is edible, tasting much like crab cooked in strong wine.",
+						"Nearly every part of a cave fisher is useful after the creature has been dispatched. Cave fisher filaments can be woven into rope that is thin, tough, and nearly {invisible}. The creature's shell is used in the manufacture of tools, armor, and jewelry. Its blood is alcoholic and tastes like strong liquor. Several dwarven spirits include cave fisher blood, and some dwarves, especially berserkers, drink the blood straight. Cave fisher meat is edible, tasting much like crab cooked in strong wine.",
 						"While some folk hunt cave fishers to kill them to harvest their filaments, shells, and blood, others capture cave fisher eggs and rear the hatchlings, which can be trained to guard passages or serve as beasts of war. Cave fishers have a natural aversion to fire, since their blood is flammable. As such, Underdark denizens often use the threat of fire when training them."
 					]
 				}
@@ -1441,7 +1441,7 @@ export const MPMMFluff = {
 									"rows": [
 										[
 											"1",
-											"{@b Faulty Sensors.} Roll a {@dice d6} at the start of the clock work's turn. If you roll a 1, the clockwork is {@condition blinded} until the end of its turn."
+											"{@b Faulty Sensors.} Roll a {@dice d6} at the start of the clock work's turn. If you roll a 1, the clockwork is {blinded} until the end of its turn."
 										],
 										[
 											"2",
@@ -1465,7 +1465,7 @@ export const MPMMFluff = {
 										],
 										[
 											"7",
-											"{@b Overheats.} Roll a {@dice d6} at the start of the clockwork's turn. If you roll a 1, the clockwork is {@condition incapacitated} until the end of its turn."
+											"{@b Overheats.} Roll a {@dice d6} at the start of the clockwork's turn. If you roll a 1, the clockwork is {incapacitated} until the end of its turn."
 										],
 										[
 											"8",
@@ -2533,7 +2533,7 @@ export const MPMMFluff = {
 							"name": "Changeable Natures",
 							"type": "entries",
 							"entries": [
-								"Whenever one of the eladrin presented here finishes a long rest, they can associate themself with a different season, provided they aren't {@condition incapacitated}. When the eladrin makes this change, they use the stat block of the new season rather than their old stat block. Any damage the eladrin sustained in their previous form applies to the new form, as do any conditions or other ongoing effects affecting them."
+								"Whenever one of the eladrin presented here finishes a long rest, they can associate themself with a different season, provided they aren't {incapacitated}. When the eladrin makes this change, they use the stat block of the new season rather than their old stat block. Any damage the eladrin sustained in their previous form applies to the new form, as do any conditions or other ongoing effects affecting them."
 							]
 						}
 					]
@@ -3041,7 +3041,7 @@ export const MPMMFluff = {
 					"name": "Gunpowder by the Keg",
 					"type": "entries",
 					"entries": [
-						"In addition to their personal gunpowder weapons, giff ships and mercenary companies carry spare gunpowder in kegs. In an emergency, or if a large explosion is needed, a whole keg can be detonated. A giff lights the fuse on the keg and can then throw the keg up to 15 feet as part of the same action. The keg explodes at the start of the giff's next turn. Each creature within 20 feet of the exploding keg must make a {@dc 12} Dexterity saving throw. On a failed save, a creature takes 24 ({@damage 7d6}) fire damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}.",
+						"In addition to their personal gunpowder weapons, giff ships and mercenary companies carry spare gunpowder in kegs. In an emergency, or if a large explosion is needed, a whole keg can be detonated. A giff lights the fuse on the keg and can then throw the keg up to 15 feet as part of the same action. The keg explodes at the start of the giff's next turn. Each creature within 20 feet of the exploding keg must make a {12} Dexterity saving throw. On a failed save, a creature takes 24 (7d6}) fire damage and is knocked {prone}. On a successful save, a creature takes half as much damage and isn't knocked {prone}.",
 						"Every other keg of gunpowder within 20 feet of an exploding keg has a {@chance 50|50 percent} chance of also exploding. Check each keg only once per turn, no matter how many other kegs explode around it."
 					]
 				}
@@ -4337,7 +4337,7 @@ export const MPMMFluff = {
 					"name": "Telepathic Torment",
 					"type": "entries",
 					"entries": [
-						"Up to four meenlocks can telepathically torment one {@condition incapacitated} creature, filling its mind with disturbing sounds and dreadful imagery. Participating meenlocks can't use their telepathy for any other purpose during this time, though they can move about and take actions and reactions as normal. This torment has no effect on a creature that is immune to the {@condition frightened} condition. If the creature is susceptible and remains {@condition incapacitated} for 1 hour, the creature must make a Wisdom saving throw, taking 10 ({@damage 3d6}) psychic damage on a failed save, or half as much damage on a successful one. The save DC is 10 + the number of meenlocks participating in the torment, considering only those that remain within sight of the victim for the entire hour and aren't {@condition incapacitated} during it. The process can be repeated. A Humanoid that drops to 0 hit points as a result of this damage instantly transforms into a meenlock at full health and under the DM's control. Only a {@spell wish} spell or divine intervention can restore a transformed creature to its former state."
+						"Up to four meenlocks can telepathically torment one {incapacitated} creature, filling its mind with disturbing sounds and dreadful imagery. Participating meenlocks can't use their telepathy for any other purpose during this time, though they can move about and take actions and reactions as normal. This torment has no effect on a creature that is immune to the {frightened} condition. If the creature is susceptible and remains {incapacitated} for 1 hour, the creature must make a Wisdom saving throw, taking 10 (3d6}) psychic damage on a failed save, or half as much damage on a successful one. The save DC is 10 + the number of meenlocks participating in the torment, considering only those that remain within sight of the victim for the entire hour and aren't {incapacitated} during it. The process can be repeated. A Humanoid that drops to 0 hit points as a result of this damage instantly transforms into a meenlock at full health and under the DM's control. Only a { wish} spell or divine intervention can restore a transformed creature to its former state."
 					]
 				}
 			],
@@ -4389,7 +4389,7 @@ export const MPMMFluff = {
 			"name": "Mindwitness",
 			"source": "MPMM",
 			"entries": [
-				"If a beholder is {@condition stunned} and brought to the brine pool of an elder brain, the beholder can be converted into a mindwitness. This alters some of its eye rays and transforms four of its eyestalks into tentacles similar to a mind flayer's. The mindwitness is psychically imprinted with devotion to the elder brain and submission to illithid commands.",
+				"If a beholder is {stunned} and brought to the brine pool of an elder brain, the beholder can be converted into a mindwitness. This alters some of its eye rays and transforms four of its eyestalks into tentacles similar to a mind flayer's. The mindwitness is psychically imprinted with devotion to the elder brain and submission to illithid commands.",
 				"A mindwitness's primary function is to improve telepathic communication in a mind flayer colony. A creature in telepathic communication with a mindwitness can converse through it to as many as seven other creatures the mindwitness can see, rapidly disseminating commands and other information.",
 				"If separated from its illithid masters, a mindwitness seeks out other telepathic creatures to tell it what to do. Mindwitnesses have been known to ally with {@creature flumph||flumphs} and planar beings such as demons, shifting their worldview and alignment to match those of their new masters."
 			],
@@ -4453,7 +4453,7 @@ export const MPMMFluff = {
 			"source": "MPMM",
 			"entries": [
 				"Ancient and devious, morkoths are voracious collectors. Each one floats through the planes on a strange, mobile island, amassing the valuables, oddities, and castoffs of the multiverse in a massive, ever-growing collection.",
-				"The first morkoths arose in the Astral Plane when the {@condition petrified} body of a deity of greed and strife collided with a remnant of celestial matter imbued with life-giving magic. The collision released a storm of chaotic energy and sent countless islands spinning away into the void. Within some of them, bits of the god's {@condition petrified} flesh came back to life as morkoths: tentacled monstrosities brimming with malice and greed.",
+				"The first morkoths arose in the Astral Plane when the {petrified} body of a deity of greed and strife collided with a remnant of celestial matter imbued with life-giving magic. The collision released a storm of chaotic energy and sent countless islands spinning away into the void. Within some of them, bits of the god's {petrified} flesh came back to life as morkoths: tentacled monstrosities brimming with malice and greed.",
 				"Morkoths are driven by greed and selfishness mixed with a yearning for conflict. They hoard vast stores of treasure, knowledge, and captives on their islands. Some of these prisoners are the descendants of people captured generations before; they might know of no other world outside their island. A morkoth may allow a visitor to bargain for something or someone it has claimed if that visitor offers the morkoth something it desires more. It shows no mercy, however, to those who break a deal or try to steal from it. A morkoth knows every person and object in its collection.",
 				"A morkoth's island has the qualities of a dreamscape. It holds a jumble of objects and creatures the morkoth has collected, some of which date from forgotten times. An island might have natural-looking illumination, but most are shrouded in twilight, and on any of them, mists and shadows can appear without notice. The environment is warm and wet, a subtropical or tropical climate that keeps the morkoth and its \"guests\" comfortable.",
 				"Each island glides on planar currents and is safe from most harmful external effects\u2014one could float in the skies of Avernus in the Nine Hells without harm to it or its residents. A morkoth's island might be found anywhere from the bottom of the ocean to the void of the Astral Plane. Anything on or within a certain distance of a morkoth's isle is drawn with it in its journey through the planes. Thus, people from lost civilizations and creatures or objects from bygone ages might be found within a morkoth's dominion.",
@@ -4722,7 +4722,7 @@ export const MPMMFluff = {
 					"type": "entries",
 					"entries": [
 						"A nilbog is an invisible spirit that possesses only goblins. When bereft of a host, the spirit has a flying speed of 30 feet, it can't be attacked, and it is immune to all damage and conditions. Acting on initiative count 20 (losing initiative ties), the only action it can take is to attempt to possess a goblin within 5 feet of it.",
-						"A goblin targeted by the spirit must succeed on a {@dc 15} Charisma saving throw or become possessed. While possessed, the goblin uses the nilbog stat block. If the save succeeds, the spirit can't possess that goblin for 24 hours.",
+						"A goblin targeted by the spirit must succeed on a {15} Charisma saving throw or become possessed. While possessed, the goblin uses the nilbog stat block. If the save succeeds, the spirit can't possess that goblin for 24 hours.",
 						"If its host is killed or the possession is ended by a spell such as hallow, magic circle, or protection from evil and good, the spirit searches for another goblin to possess. The spirit can leave its host at any time, but it won't do so willingly unless it knows there's another potential host nearby. A goblin stripped of their nilbog spirit reverts to their normal statistics and loses the traits they gained while possessed."
 					]
 				}
@@ -5448,7 +5448,7 @@ export const MPMMFluff = {
 					],
 					"by": "Mordenkainen"
 				},
-				"Skulks are the soulless shells of travelers who became lost in the Shadowfell, wandering its gray wastes until they lost all sense of self. They are so devoid of identity that they have become permanently {@condition invisible}. Only children can see a skulk without the help of a mirror or a special candle. On the rare occasions when a skulk is visible, it appears as a drab, featureless, hairless biped.",
+				"Skulks are the soulless shells of travelers who became lost in the Shadowfell, wandering its gray wastes until they lost all sense of self. They are so devoid of identity that they have become permanently {invisible}. Only children can see a skulk without the help of a mirror or a special candle. On the rare occasions when a skulk is visible, it appears as a drab, featureless, hairless biped.",
 				"A skulk can be summoned from the Shadowfell by performing a ritual, and it is bound to obey the summoner's commands for 30 days. During this time, if the skulk is visible, an astute observer might deduce who summoned it, because the skulk assumes a vague likeness of its master.",
 				"Cruel and chaotic, skulks carry out their orders in the most violent manner possible. A summoned skulk can't return to the Shadowfell until it dies, so many throw themselves into creating bloodshed and mayhem with no regard for their own lives. After killing a person on the Material Plane, some skulks take up a silent imitation of that person's life. In extreme cases, skulks have invaded villages, killed all the occupants, and turned the places into seeming ghost towns where flavorless food is prepared daily, colorless clothes are hung up to dry, and livestock is shifted from pen to pen until it starves."
 			],
@@ -5858,14 +5858,14 @@ export const MPMMFluff = {
 			"name": "Stone Cursed",
 			"source": "MPMM",
 			"entries": [
-				"Stone cursed are spawned through a foul alchemical ritual performed on a Humanoid that has been turned to stone. The ritual, which requires a mixture of basilisk blood and the ashes from the burned feathers of a cockatrice, awakens a dim echo of the {@condition petrified} victim's spirit, animating the statue and turning it into a useful guardian.",
+				"Stone cursed are spawned through a foul alchemical ritual performed on a Humanoid that has been turned to stone. The ritual, which requires a mixture of basilisk blood and the ashes from the burned feathers of a cockatrice, awakens a dim echo of the {petrified} victim's spirit, animating the statue and turning it into a useful guardian.",
 				"Stone cursed possess a malevolent drive to slay the living, yet they are utterly loyal to whoever performed the ritual to animate them, and they obey that being's orders to the best of their ability. In combat, stony claws that drip with thick, gray sludge emerge from a stone cursed's fingers. This alchemical sludge transforms those slashed by the claws into statues.",
 				"As part of the ritual used to create a stone cursed, a fist-sized obsidian skull forms within the creature's torso. The skull isn't visible while the stone cursed is active, but when it is slain, the statue shatters and the skull clatters to the ground. Because it is the nexus for the alchemy used to create these horrors, a faint echo of the original victim's memories resonates within the skull. A skilled magic-wielder can attempt to extract memories from it to gain insight into the victim's past or find lore that otherwise would be lost.",
 				{
 					"name": "Cryptic Whispers",
 					"type": "entries",
 					"entries": [
-						"Even though a creature transformed into a stone cursed is long dead, a vague whisper of their memories lives on in the obsidian skull embedded within the stone cursed's body. At the end of a short rest, a character can make a {@dc 20} Intelligence ({@skill Arcana}) check to attempt to extract a memory from the skull that is a response to a verbal question posed to the skull by the character. Once this check is made, whether it succeeds or fails, the skull can't be used in this manner again."
+						"Even though a creature transformed into a stone cursed is long dead, a vague whisper of their memories lives on in the obsidian skull embedded within the stone cursed's body. At the end of a short rest, a character can make a {20} Intelligence ({@skill Arcana}) check to attempt to extract a memory from the skull that is a response to a verbal question posed to the skull by the character. Once this check is made, whether it succeeds or fails, the skull can't be used in this manner again."
 					]
 				}
 			],
@@ -5972,7 +5972,7 @@ export const MPMMFluff = {
 					"page": 237,
 					"entries": [
 						"Rot grubs pose a threat both singly and as a swarm. See the stat block for the mechanics of a swarm of rot grubs. A single rot grub has no stat block.",
-						"Any creature that comes into contact with a single rot grub must succeed on a {@dc 10} Constitution saving throw or be {@condition poisoned}, as the rot grub burrows into the creature. The {@condition poisoned} creature takes 3 ({@damage 1d6}) poison damage at the end of each of its turns. Whenever the {@condition poisoned} creature takes fire damage, the creature can repeat the saving throw, ending the effect on itself on a success. If the {@condition poisoned} creature ends its turn with 0 hit points, it dies, as the rot grub kills it."
+						"Any creature that comes into contact with a single rot grub must succeed on a {10} Constitution saving throw or be {poisoned}, as the rot grub burrows into the creature. The {poisoned} creature takes 3 (1d6}) poison damage at the end of each of its turns. Whenever the {poisoned} creature takes fire damage, the creature can repeat the saving throw, ending the effect on itself on a success. If the {poisoned} creature ends its turn with 0 hit points, it dies, as the rot grub kills it."
 					]
 				}
 			],
@@ -6416,7 +6416,7 @@ export const MPMMFluff = {
 				"Shrieking, flapping, and hideous to behold\u2014with a body like a severed head and wings in place of ears\u2014vargouilles boil out of the Abyss to infest other planes of existence, such as Carceri, where they are a menace. Each vargouille carries a disease that creates more of its kind; a flock of vargouilles on the wing is a plague of chaos and evil.",
 				"Swarms of vargouilles flap through the caverns and skies of the Abyss. They are given little regard by powerful and intelligent demons since vargouilles can do them no harm. Even the weakest demon, such as a manes or a dretch, fears vargouilles only if they appear in great numbers. In the Lower Planes, vargouilles rarely get the chance to eat live prey other than vermin. More often, they lap up the ichor left behind when one Fiend kills another.",
 				"Because of their hunger for living prey, vargouilles are eager to escape the Lower Planes. On rare occasions, summoning a demon to another plane can bring a vargouille along for the ride, attached like a tick. The precautions a mortal takes to control a summoned demon rarely account for a stowaway, enabling the vargouille to escape into the world.",
-				"Vargouilles that roam free on the Material Plane are a dire threat to all creatures. Their awful shrieking can {@condition paralyzed||paralyze} other creatures with fear, which also makes the creatures susceptible to the vargouille's curse. If the curse is allowed to run its course, an abyssal spirit invades the person's body, causing a gruesome transformation. Over a period of hours, the victim's head takes on fiendish aspects, such as fangs, tentacles, and horns. At the same time, the person's ears grow larger, expanding into wing-like appendages. In the final moments, the victim's head tears away from the body in a fountain of blood, becoming another vargouille, which often then eagerly laps up the blood spilling from its former body. Sunlight or the brilliant illumination of a {@spell daylight} spell can delay this transformation; otherwise, only magic can overcome the curse. "
+				"Vargouilles that roam free on the Material Plane are a dire threat to all creatures. Their awful shrieking can {paralyzed||paralyze} other creatures with fear, which also makes the creatures susceptible to the vargouille's curse. If the curse is allowed to run its course, an abyssal spirit invades the person's body, causing a gruesome transformation. Over a period of hours, the victim's head takes on fiendish aspects, such as fangs, tentacles, and horns. At the same time, the person's ears grow larger, expanding into wing-like appendages. In the final moments, the victim's head tears away from the body in a fountain of blood, becoming another vargouille, which often then eagerly laps up the blood spilling from its former body. Sunlight or the brilliant illumination of a { daylight} spell can delay this transformation; otherwise, only magic can overcome the curse. "
 			],
 			"images": [
 				{

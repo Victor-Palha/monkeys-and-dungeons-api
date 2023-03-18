@@ -40,9 +40,9 @@ export const TCESpells = {
 				}
 			],
 			"entries": [
-				"You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration. When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure within 5 feet of the blade. On a hit, the target takes {@damage 4d12} force damage. This attack scores a critical hit if the number on the {@dice d20} is 18 or higher. On a critical hit, the blade deals an extra {@damage 8d12} force damage (for a total of {@damage 12d12} force damage).",
+				"You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration. When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure within 5 feet of the blade. On a hit, the target takes 4d12} force damage. This attack scores a critical hit if the number on the {@dice d20} is 18 or higher. On a critical hit, the blade deals an extra 8d12} force damage (for a total of 12d12} force damage).",
 				"As a bonus action on your turn, you can move the blade up to 30 feet to an unoccupied space you can see and then make up to two melee spell attacks with it again.",
-				"The blade can harmlessly pass through any barrier, including a {@spell wall of force}."
+				"The blade can harmlessly pass through any barrier, including a { wall of force}."
 			],
 			"damageInflict": [
 				"force"
@@ -100,8 +100,8 @@ export const TCESpells = {
 				}
 			],
 			"entries": [
-				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes {@damage 1d8} thunder damage, and the spell ends.",
-				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} thunder damage to the target on a hit, and the damage the target takes for moving increases to {@damage 2d8}. Both damage rolls increase by 1d8 at 11th level ({@damage 2d8} and {@damage 3d8}) and again at 17th level ({@damage 3d8} and {@damage 4d8})."
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes 1d8} thunder damage, and the spell ends.",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8} thunder damage to the target on a hit, and the damage the target takes for moving increases to 2d8}. Both damage rolls increase by 1d8 at 11th level (2d8} and 3d8}) and again at 17th level (3d8} and 4d8})."
 			],
 			"scalingLevelDice": [
 				{
@@ -167,7 +167,7 @@ export const TCESpells = {
 				}
 			],
 			"entries": [
-				"You and up to eight willing creatures within range fall {@condition unconscious} for the spell's duration and experience visions of another world on the Material Plane, such as Oerth, Toril, Krynn, or Eberron. If the spell reaches its full duration, the visions conclude with each of you encountering and pulling back a mysterious blue curtain. The spell then ends with you mentally and physically transported to the world that was in the visions.",
+				"You and up to eight willing creatures within range fall {unconscious} for the spell's duration and experience visions of another world on the Material Plane, such as Oerth, Toril, Krynn, or Eberron. If the spell reaches its full duration, the visions conclude with each of you encountering and pulling back a mysterious blue curtain. The spell then ends with you mentally and physically transported to the world that was in the visions.",
 				"To cast this spell, you must have a magic item that originated on the world you wish to reach, and you must be aware of the world's existence, even if you don't know the world's name. Your destination in the other world is a safe location within 1 mile of where the magic item was created. Alternatively, you can cast the spell if one of the affected creatures was born on the other world, which causes your destination to be a safe location within 1 mile of where that creature was born.",
 				"The spell ends early on a creature if that creature takes any damage, and the creature isn't transported. If you take any damage, the spell ends for you and all the other creatures, with none of you being transported."
 			],
@@ -219,7 +219,7 @@ export const TCESpells = {
 			],
 			"entries": [
 				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.",
-				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} fire damage to the target on a hit, and the fire damage to the second creature increases to {@damage 1d8} + your spellcasting ability modifier. Both damage rolls increase by {@damage 1d8} at 11th level ({@damage 2d8} and {@damage 2d8}) and 17th level ({@damage 3d8} and {@damage 3d8})."
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8} fire damage to the target on a hit, and the fire damage to the second creature increases to 1d8} + your spellcasting ability modifier. Both damage rolls increase by 1d8} at 11th level (2d8} and 2d8}) and 17th level (3d8} and 3d8})."
 			],
 			"scalingLevelDice": [
 				{
@@ -339,8 +339,8 @@ export const TCESpells = {
 				}
 			],
 			"entries": [
-				"You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take {@damage 1d8} lightning damage if it is within 5 feet of you.",
-				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+				"You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8} lightning damage if it is within 5 feet of you.",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level (2d8}), 11th level (3d8}), and 17th level (4d8})."
 			],
 			"scalingLevelDice": {
 				"label": "lightning damage",
@@ -398,7 +398,7 @@ export const TCESpells = {
 				}
 			],
 			"entries": [
-				"You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take {@damage 1d6} psychic damage and subtract {@dice 1d4} from the next saving throw it makes before the end of your next turn.",
+				"You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6} psychic damage and subtract {@dice 1d4} from the next saving throw it makes before the end of your next turn.",
 				"This spell's damage increases by {@dice 1d6} when you reach certain levels: 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
 			],
 			"scalingLevelDice": {
@@ -459,7 +459,7 @@ export const TCESpells = {
 			],
 			"entries": [
 				"You call forth spirits of the dead, which flit around you for the spell's duration. The spirits are intangible and invulnerable.",
-				"Until the spell ends, any attack you make deals {@damage 1d8} extra damage when you hit a creature within 10 feet of you. This damage is radiant, necrotic, or cold (your choice when you cast the spell). Any creature that takes this damage can't regain hit points until the start of your next turn.",
+				"Until the spell ends, any attack you make deals 1d8} extra damage when you hit a creature within 10 feet of you. This damage is radiant, necrotic, or cold (your choice when you cast the spell). Any creature that takes this damage can't regain hit points until the start of your next turn.",
 				"In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn."
 			],
 			"entriesHigherLevel": [
@@ -1011,8 +1011,8 @@ export const TCESpells = {
 				}
 			],
 			"entries": [
-				"You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take {@damage 1d6} force damage.",
-				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+				"You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take 1d6} force damage.",
+				"This spell's damage increases by {@dice 1d6} when you reach 5th level (2d6}), 11th level (3d6}), and 17th level (4d6})."
 			],
 			"scalingLevelDice": {
 				"label": "force damage",
@@ -1071,7 +1071,7 @@ export const TCESpells = {
 				}
 			],
 			"entries": [
-				"A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes {@damage 2d4} acid damage at start of each of its turns."
+				"A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 2d4} acid damage at start of each of its turns."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1121,7 +1121,7 @@ export const TCESpells = {
 				}
 			],
 			"entries": [
-				"You psychically lash out at one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} psychic damage, and it can't take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell's other effects."
+				"You psychically lash out at one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 3d6} psychic damage, and it can't take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell's other effects."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1188,7 +1188,7 @@ export const TCESpells = {
 					"type": "list",
 					"items": [
 						"You are immune to fire and poison damage (Lower Planes) or radiant and necrotic damage (Upper Planes).",
-						"You are immune to the {@condition poisoned} condition (Lower Planes) or the {@condition charmed} condition (Upper Planes).",
+						"You are immune to the {poisoned} condition (Lower Planes) or the {charmed} condition (Upper Planes).",
 						"Spectral wings appear on your back, giving you a flying speed of 40 feet.",
 						"You have a +2 bonus to AC.",
 						"All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls.",

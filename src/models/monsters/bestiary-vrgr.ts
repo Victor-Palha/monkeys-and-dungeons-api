@@ -79,14 +79,14 @@ export const bestiaryVRGR = {
 				{
 					"name": "Vine Lash",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 20 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage. If the target is a creature, it is {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target is {@condition restrained}. The plant has four vines, each of which can grapple one target."
+						"{1d20+7} to hit, reach 20 ft., one target. 11 (2d6 + 4}) slashing damage. If the target is a creature, it is {grappled} (escape {15}). Until the grapple ends, the target is {restrained}. The plant has four vines, each of which can grapple one target."
 					]
 				},
 				{
 					"name": "Entrapping Pod",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one Medium or smaller creature {@condition grappled} by the plant. {@h}22 ({@damage 4d8 + 4}) acid damage, and the target is pulled into the plant's space and enveloped by the pod, and the grapple ends. While enveloped, the target is {@condition restrained}, and it has total cover against attacks and effects originating outside the pod. The enveloped target must also immediately succeed on a {@dc 16} Constitution saving throw or be {@condition stunned} by the plant's sapping enzymes until it is removed from the pod or the plant dies. The enveloped target doesn't require air and gains 1 level of {@condition exhaustion} for each hour it spends in the pod. If the target dies while enveloped, it immediately emerges from the pod as a living podling, wearing or carrying all of the original creature's equipment.",
-						"As an action, a creature within 5 feet of the bodytaker plant that is outside the pod can open the pod and pull the target free with a successful {@dc 15} Strength check. If the plant dies, the target is no longer {@condition restrained} and can escape from the pod by spending 10 feet of movement, exiting {@condition prone}. The plant has one pod, which can envelop one creature at a time."
+						"{1d20+7} to hit, reach 5 ft., one Medium or smaller creature {grappled} by the plant. 22 (4d8 + 4}) acid damage, and the target is pulled into the plant's space and enveloped by the pod, and the grapple ends. While enveloped, the target is {restrained}, and it has total cover against attacks and effects originating outside the pod. The enveloped target must also immediately succeed on a {16} Constitution saving throw or be {stunned} by the plant's sapping enzymes until it is removed from the pod or the plant dies. The enveloped target doesn't require air and gains 1 level of {exhaustion} for each hour it spends in the pod. If the target dies while enveloped, it immediately emerges from the pod as a living podling, wearing or carrying all of the original creature's equipment.",
+						"As an action, a creature within 5 feet of the bodytaker plant that is outside the pod can open the pod and pull the target free with a successful {15} Strength check. If the plant dies, the target is no longer {restrained} and can escape from the pod by spending 10 feet of movement, exiting {prone}. The plant has one pod, which can envelop one creature at a time."
 					]
 				}
 			],
@@ -183,19 +183,19 @@ export const bestiaryVRGR = {
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The boneless makes two Slam attacks. If both attacks hit a Large or smaller creature, the creature is {@condition grappled} (escape {@dc 13}), and the boneless can use Crushing Embrace."
+						"The boneless makes two Slam attacks. If both attacks hit a Large or smaller creature, the creature is {grappled} (escape {13}), and the boneless can use Crushing Embrace."
 					]
 				},
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 5 (1d4 + 3}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Crushing Embrace",
 					"entries": [
-						"The boneless wraps its body around a Large or smaller creature {@condition grappled} by it. While the boneless is attached, the target is {@condition blinded} and is unable to breathe. The target must succeed on a {@dc 13} Strength saving throw at the start of each of the boneless' turns or take 5 ({@damage 1d4 + 3}) bludgeoning damage. If something moves the target, the boneless moves with it. The boneless can detach itself by spending 5 feet of its movement. A creature, including the target, can use its action to try to detach the boneless and force it to move into the nearest unoccupied space, doing so with a successful {@dc 13} Strength check. When the boneless dies, it detaches from any creature it is attached to."
+						"The boneless wraps its body around a Large or smaller creature {grappled} by it. While the boneless is attached, the target is {blinded} and is unable to breathe. The target must succeed on a {13} Strength saving throw at the start of each of the boneless' turns or take 5 (1d4 + 3}) bludgeoning damage. If something moves the target, the boneless moves with it. The boneless can detach itself by spending 5 feet of its movement. A creature, including the target, can use its action to try to detach the boneless and force it to move into the nearest unoccupied space, doing so with a successful {13} Strength check. When the boneless dies, it detaches from any creature it is attached to."
 					]
 				}
 			],
@@ -294,24 +294,24 @@ export const bestiaryVRGR = {
 				{
 					"name": "Innate Spellcasting (Psionics)",
 					"headerEntries": [
-						"The brain's innate spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+						"The brain's innate spellcasting ability is Intelligence (spell save {14}, +6} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
 					],
 					"will": [
-						"{@spell chill touch} (see \"Actions\" below)",
-						"{@spell detect thoughts}",
-						"{@spell mage hand}",
-						"{@spell zone of truth}"
+						"{ chill touch} (see \"Actions\" below)",
+						"{ detect thoughts}",
+						"{ mage hand}",
+						"{ zone of truth}"
 					],
 					"daily": {
 						"3e": [
-							"{@spell charm person}",
-							"{@spell hold person}"
+							"{ charm person}",
+							"{ hold person}"
 						],
 						"1e": [
-							"{@spell compulsion}",
-							"{@spell hold monster}",
-							"{@spell sleep} (3rd-level version)",
-							"{@spell Tasha's hideous laughter}"
+							"{ compulsion}",
+							"{ hold monster}",
+							"{ sleep} (3rd-level version)",
+							"{ Tasha's hideous laughter}"
 						]
 					},
 					"ability": "int"
@@ -321,7 +321,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Detect Sentience",
 					"entries": [
-						"The brain can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a {@spell mind blank} spell."
+						"The brain can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a { mind blank} spell."
 					]
 				},
 				{
@@ -341,13 +341,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Chill Touch (Cantrip)",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 120 ft., one creature. {@h}13 ({@damage 3d8}) necrotic damage, and the target can't regain hit points until the start of the brain's next turn. If the target is undead, it also has disadvantage on attack rolls against the brain until the end of the brain's next turn."
+						"{@atk rs} +6} to hit, range 120 ft., one creature. 13 (3d8}) necrotic damage, and the target can't regain hit points until the start of the brain's next turn. If the target is undead, it also has disadvantage on attack rolls against the brain until the end of the brain's next turn."
 					]
 				},
 				{
-					"name": "Mind Blast {@recharge 5}",
+					"name": "Mind Blast {Recharge - 5}",
 					"entries": [
-						"The brain magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {@dc 14} Intelligence saving throw or take 17 ({@damage 3d8 + 4}) psychic damage and be {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The brain magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a {14} Intelligence saving throw or take 17 (3d8 + 4}) psychic damage and be {stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -440,15 +440,15 @@ export const bestiaryVRGR = {
 				{
 					"name": "Tentacle",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) piercing damage, and the carrion stalker attaches to the target and pulls itself into the target's space. While attached, the carrion stalker moves with the target and has advantage on attack rolls against it.",
-						"A creature can use its action to try to detach the carrion stalker and force it to move into the nearest unoccupied space, doing so with a successful {@dc 11} Strength check. On its turn, the carrion stalker can detach itself from the target by using 5 feet of movement. When it dies, the carrion stalker detaches from any creature it is attached to."
+						"{1d20+5} to hit, reach 5 ft., one creature. 5 (1d4 + 3}) piercing damage, and the carrion stalker attaches to the target and pulls itself into the target's space. While attached, the carrion stalker moves with the target and has advantage on attack rolls against it.",
+						"A creature can use its action to try to detach the carrion stalker and force it to move into the nearest unoccupied space, doing so with a successful {11} Strength check. On its turn, the carrion stalker can detach itself from the target by using 5 feet of movement. When it dies, the carrion stalker detaches from any creature it is attached to."
 					]
 				},
 				{
 					"name": "Larval Burst (1/Day)",
 					"entries": [
-						"The carrion stalker releases a burst of larvae in a 10-foot-radius sphere centered on itself. Each creature in that area must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned}. A creature {@condition poisoned} in this way takes 7 ({@damage 2d6}) poison damage at the start of each of its turns as larvae infest its body. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Any effect that cures disease or removes the {@condition poisoned} condition instantly kills the larvae in the creature, ending the effect on it.",
-						"If a creature is reduced to 0 hit points by the infestation, it dies. The larvae remain in the corpse, and one survives to become a fully grown carrion stalker in {@dice 1d4} weeks. Any effect that cures diseases or removes the {@condition poisoned} condition that targets the corpse instantly kills the larvae."
+						"The carrion stalker releases a burst of larvae in a 10-foot-radius sphere centered on itself. Each creature in that area must succeed on a {13} Constitution saving throw or be {poisoned}. A creature {poisoned} in this way takes 7 (2d6}) poison damage at the start of each of its turns as larvae infest its body. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Any effect that cures disease or removes the {poisoned} condition instantly kills the larvae in the creature, ending the effect on it.",
+						"If a creature is reduced to 0 hit points by the infestation, it dies. The larvae remain in the corpse, and one survives to become a fully grown carrion stalker in {@dice 1d4} weeks. Any effect that cures diseases or removes the {poisoned} condition that targets the corpse instantly kills the larvae."
 					]
 				}
 			],
@@ -521,7 +521,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "False Object",
 					"entries": [
-						"If the carrionette is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the carrionette move or act, that creature must succeed on a {@dc 15} Wisdom (Perception) check to discern that the carrionette is animate."
+						"If the carrionette is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the carrionette move or act, that creature must succeed on a {15} Wisdom (Perception) check to discern that the carrionette is animate."
 					]
 				},
 				{
@@ -535,14 +535,14 @@ export const bestiaryVRGR = {
 				{
 					"name": "Silver Needle",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}1 piercing damage plus 3 ({@damage 1d6}) necrotic damage, and the target must succeed on a {@dc 12} Charisma saving throw or become cursed for 1 minute. While cursed in this way, the target's speed is reduced by 10 feet, and it must roll a {@dice 1d4} and subtract the number rolled from each ability check or attack roll it makes."
+						"{1d20+4} to hit, reach 5 ft., one creature. 1 piercing damage plus 3 (1d6}) necrotic damage, and the target must succeed on a {12} Charisma saving throw or become cursed for 1 minute. While cursed in this way, the target's speed is reduced by 10 feet, and it must roll a {@dice 1d4} and subtract the number rolled from each ability check or attack roll it makes."
 					]
 				},
 				{
 					"name": "Soul Swap",
 					"entries": [
-						"The carrionette targets a creature it can see within 15 feet of it that is cursed by its Silver Needle. Unless the target is protected by a {@spell protection from evil and good} spell, it must succeed on a {@dc 12} Charisma saving throw or have its consciousness swapped with the carrionette. The carrionette gains control of the target's body, and the target is {@condition unconscious} for 1 hour, after which it gains control of the carrionette's body. While controlling the target's body, the carrionette retains its Intelligence, Wisdom, and Charisma scores. It otherwise uses the controlled body's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
-						"If the carrionette's body is destroyed, both the carrionette and the target die. A {@spell protection from evil and good} spell cast on the controlled body drives the carrionette out and returns the consciousness of both creatures to their original bodies. The swap is also undone if the controlled body takes damage from the carrionette's Silver Needle."
+						"The carrionette targets a creature it can see within 15 feet of it that is cursed by its Silver Needle. Unless the target is protected by a { protection from evil and good} spell, it must succeed on a {12} Charisma saving throw or have its consciousness swapped with the carrionette. The carrionette gains control of the target's body, and the target is {unconscious} for 1 hour, after which it gains control of the carrionette's body. While controlling the target's body, the carrionette retains its Intelligence, Wisdom, and Charisma scores. It otherwise uses the controlled body's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+						"If the carrionette's body is destroyed, both the carrionette and the target die. A { protection from evil and good} spell cast on the controlled body drives the carrionette out and returns the consciousness of both creatures to their original bodies. The swap is also undone if the controlled body takes damage from the carrionette's Silver Needle."
 					]
 				}
 			],
@@ -620,19 +620,19 @@ export const bestiaryVRGR = {
 				{
 					"name": "Gnashing Bite (Gnashing Head Only)",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage plus 7 ({@damage 2d6}) necrotic damage."
+						"{1d20+3} to hit, reach 5 ft., one target. 4 (1d6 + 1}) piercing damage plus 7 (2d6}) necrotic damage."
 					]
 				},
 				{
 					"name": "Mind-Bending Bite (Aberrant Head Only)",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage plus 5 ({@damage 1d10}) necrotic damage, and the target must succeed on a {@dc 10} Intelligence saving throw or it can't take a reaction until the end of its next turn. Moreover, on its next turn, the target must choose whether it gets a move, an action, or a bonus action; it gets only one of the three."
+						"{1d20+3} to hit, reach 5 ft., one target. 4 (1d6 + 1}) piercing damage plus 5 (1d10}) necrotic damage, and the target must succeed on a {10} Intelligence saving throw or it can't take a reaction until the end of its next turn. Moreover, on its next turn, the target must choose whether it gets a move, an action, or a bonus action; it gets only one of the three."
 					]
 				},
 				{
 					"name": "Petrifying Bite (Petrifying Head Only)",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or be {@condition restrained} as it begins to turn to stone. The target must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the target is {@condition petrified} for 10 minutes."
+						"{1d20+3} to hit, reach 5 ft., one target. 3 (1d4 + 1}) piercing damage, and the target must succeed on a {10} Constitution saving throw or be {restrained} as it begins to turn to stone. The target must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the target is {petrified} for 10 minutes."
 					]
 				}
 			],
@@ -711,7 +711,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Headless Summoning (Recharges after a Short or Long Rest)",
 					"entries": [
-						"If the dullahan is reduced to 0 hit points, it doesn't die or fall {@condition unconscious}. Instead, it regains 97 hit points. In addition, it summons three {@creature death's head|VRGR|death's heads}, one of each type, in unoccupied spaces within 5 feet of it. The death's heads are under the dullahan's control and act immediately after the dullahan in the initiative order. Additionally, the dullahan can now use the options in the \"Mythic Actions\" section. Award a party an additional 5,900 XP (11,800 XP total) for defeating the dullahan after it uses Headless Summoning."
+						"If the dullahan is reduced to 0 hit points, it doesn't die or fall {unconscious}. Instead, it regains 97 hit points. In addition, it summons three {@creature death's head|VRGR|death's heads}, one of each type, in unoccupied spaces within 5 feet of it. The death's heads are under the dullahan's control and act immediately after the dullahan in the initiative order. Additionally, the dullahan can now use the options in the \"Mythic Actions\" section. Award a party an additional 5,900 XP (11,800 XP total) for defeating the dullahan after it uses Headless Summoning."
 					]
 				},
 				{
@@ -737,13 +737,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Battleaxe",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands, plus 11 ({@damage 2d10}) necrotic damage. If the dullahan scores a critical hit against a creature, the target must succeed on a {@dc 15} Constitution saving throw or the dullahan cuts off the target's head. The target dies if it can't survive without the lost head. A creature that doesn't have or need a head, or has legendary actions, instead takes an extra 27 ({@damage 6d8}) slashing damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 8 (1d8 + 4}) slashing damage, or 9 (1d10 + 4}) slashing damage if used with two hands, plus 11 (2d10}) necrotic damage. If the dullahan scores a critical hit against a creature, the target must succeed on a {15} Constitution saving throw or the dullahan cuts off the target's head. The target dies if it can't survive without the lost head. A creature that doesn't have or need a head, or has legendary actions, instead takes an extra 27 (6d8}) slashing damage."
 					]
 				},
 				{
 					"name": "Fiery Skull",
 					"entries": [
-						"{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}14 ({@damage 2d10 + 3}) fire damage."
+						"{@atk rs} +7} to hit, range 120 ft., one target. 14 (2d10 + 3}) fire damage."
 					]
 				}
 			],
@@ -757,13 +757,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Frightful Presence (Costs 2 Actions)",
 					"entries": [
-						"Each creature of the dullahan's choice within 30 feet of it must succeed on a {@dc 15} Wisdom saving throw or become {@condition frightened} of the dullahan until the end of its next turn."
+						"Each creature of the dullahan's choice within 30 feet of it must succeed on a {15} Wisdom saving throw or become {frightened} of the dullahan until the end of its next turn."
 					]
 				},
 				{
 					"name": "Head Hunt (Costs 3 Actions)",
 					"entries": [
-						"The dullahan moves up to its speed without provoking opportunity attacks and makes one Battleaxe attack with advantage. If the attack hits, but is not a critical hit, the attack deals an extra 27 ({@damage 6d8}) necrotic damage."
+						"The dullahan moves up to its speed without provoking opportunity attacks and makes one Battleaxe attack with advantage. If the attack hits, but is not a critical hit, the attack deals an extra 27 (6d8}) necrotic damage."
 					]
 				}
 			],
@@ -783,7 +783,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Headless Wail (Costs 2 Actions)",
 					"entries": [
-						"An echoing shriek issues from the dullahan's headless stump. Each creature of the dullahan's choice within 10 feet of it must make a {@dc 15} Wisdom saving throw. Each creature takes 16 ({@damage 3d10}) psychic damage on a failed save, or half as much damage on a successful one. If one or more creatures fail the saving throw, the dullahan gains 10 temporary hit points."
+						"An echoing shriek issues from the dullahan's headless stump. Each creature of the dullahan's choice within 10 feet of it must make a {15} Wisdom saving throw. Each creature takes 16 (3d10}) psychic damage on a failed save, or half as much damage on a successful one. If one or more creatures fail the saving throw, the dullahan gains 10 temporary hit points."
 					]
 				}
 			],
@@ -911,7 +911,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 13 (2d8 + 4}) bludgeoning damage."
 					]
 				}
 			],
@@ -1019,7 +1019,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The gallows speaker can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends it turn inside an object."
+						"The gallows speaker can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 (1d10}) force damage if it ends it turn inside an object."
 					]
 				},
 				{
@@ -1033,13 +1033,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Foretelling Touch",
 					"entries": [
-						"{@atk ms} {@hit 7} to hit, reach 5 ft., one creature. {@h}15 ({@damage 2d10 + 4}) psychic damage, and the target must roll a {@dice d4} and subtract the number rolled from the next attack roll or saving throw it makes before the start of the gallows speaker's next turn."
+						"{1d20 +7} to hit, reach 5 ft., one creature. 15 (2d10 + 4}) psychic damage, and the target must roll a {@dice d4} and subtract the number rolled from the next attack roll or saving throw it makes before the start of the gallows speaker's next turn."
 					]
 				},
 				{
 					"name": "Suffering Echoes",
 					"entries": [
-						"The gallows speaker targets a creature it can see within 30 feet of it. The target must make a {@dc 15} Wisdom saving throw. On a failed save, the target takes 19 ({@damage 3d12}) psychic damage, and waves of painful memories leap from the target to up to three other creatures of the gallows speaker's choice that are within 30 feet of the target, each of which takes 13 ({@damage 3d8}) psychic damage."
+						"The gallows speaker targets a creature it can see within 30 feet of it. The target must make a {15} Wisdom saving throw. On a failed save, the target takes 19 (3d12}) psychic damage, and waves of painful memories leap from the target to up to three other creatures of the gallows speaker's choice that are within 30 feet of the target, each of which takes 13 (3d8}) psychic damage."
 					]
 				}
 			],
@@ -1148,19 +1148,19 @@ export const bestiaryVRGR = {
 				{
 					"name": "Lashing Maw",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 7}) piercing damage plus 13 ({@damage 3d8}) acid damage."
+						"{1d20+14} to hit, reach 15 ft., one target. 20 (2d10 + 7}) piercing damage plus 13 (3d8}) acid damage."
 					]
 				},
 				{
 					"name": "Psychic Orb",
 					"entries": [
-						"{@atk rs} {@hit 15} to hit, range 120 ft., one creature. {@h}27 ({@damage 3d12 + 8}) psychic damage."
+						"{@atk rs} +15} to hit, range 120 ft., one creature. 27 (3d12 + 8}) psychic damage."
 					]
 				},
 				{
-					"name": "Unearthly Bile {@recharge 5}",
+					"name": "Unearthly Bile {Recharge - 5}",
 					"entries": [
-						"The emissary expels bile that splashes all creatures in a 30-foot-radius sphere centered on a point within 120 feet of the emissary. Each creature in that area must make a {@dc 23} Dexterity saving throw, taking 55 ({@damage 10d10}) acid damage on a failed save, or half as much damage on a successful one. For each creature that fails the saving throw, a {@creature gibbering mouther} (see its entry in the Monster Manual) appears in an unoccupied space on a surface that can support it within 30 feet of that creature. The gibbering mouthers act right after the emissary on the same initiative count, gaining a +7 bonus to their attack and damage rolls, and fighting until they are destroyed. They disappear when the emissary dies."
+						"The emissary expels bile that splashes all creatures in a 30-foot-radius sphere centered on a point within 120 feet of the emissary. Each creature in that area must make a {23} Dexterity saving throw, taking 55 (10d10}) acid damage on a failed save, or half as much damage on a successful one. For each creature that fails the saving throw, a {@creature gibbering mouther} (see its entry in the Monster Manual) appears in an unoccupied space on a surface that can support it within 30 feet of that creature. The gibbering mouthers act right after the emissary on the same initiative count, gaining a +7 bonus to their attack and damage rolls, and fighting until they are destroyed. They disappear when the emissary dies."
 					]
 				}
 			],
@@ -1174,13 +1174,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Warp Space (Costs 2 Actions)",
 					"entries": [
-						"The emissary causes the ground in a 20-foot square that it can see within 90 feet of it to turn into teeth and maws until the start of its next turn. The area becomes {@quickref difficult terrain||3} for the duration. Any creature takes 10 ({@damage 3d6}) piercing damage for each 5 feet it moves on this terrain."
+						"The emissary causes the ground in a 20-foot square that it can see within 90 feet of it to turn into teeth and maws until the start of its next turn. The area becomes {@quickref difficult terrain||3} for the duration. Any creature takes 10 (3d6}) piercing damage for each 5 feet it moves on this terrain."
 					]
 				},
 				{
 					"name": "Mind Cloud (Costs 3 Actions)",
 					"entries": [
-						"The emissary unleashes a psychic wave. Each creature within 30 feet of the emissary must succeed on a {@dc 23} Wisdom saving throw or take 32 ({@damage 5d12}) psychic damage. In addition, every spell ends on creatures and objects of the emissary's choice in that area."
+						"The emissary unleashes a psychic wave. Each creature within 30 feet of the emissary must succeed on a {23} Wisdom saving throw or take 32 (5d12}) psychic damage. In addition, every spell ends on creatures and objects of the emissary's choice in that area."
 					]
 				}
 			],
@@ -1248,7 +1248,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4 + 2}) piercing damage plus 3 ({@damage 1d6}) force damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 2 (1d4 + 2}) piercing damage plus 3 (1d6}) force damage."
 					]
 				}
 			],
@@ -1260,7 +1260,7 @@ export const bestiaryVRGR = {
 						{
 							"type": "item",
 							"name": "1-2",
-							"entry": "The gremishka emanates magical energy. Each creature within 30 feet of the gremishka must succeed on a {@dc 10} Constitution saving throw or take 3 ({@damage 1d6}) force damage."
+							"entry": "The gremishka emanates magical energy. Each creature within 30 feet of the gremishka must succeed on a {10} Constitution saving throw or take 3 (1d6}) force damage."
 						},
 						{
 							"type": "item",
@@ -1349,21 +1349,21 @@ export const bestiaryVRGR = {
 				{
 					"name": "Innate Spellcasting (Psionics)",
 					"headerEntries": [
-						"The inquisitor casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+						"The inquisitor casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save {15}):"
 					],
 					"will": [
-						"{@spell arcane eye}",
-						"{@spell calm emotions}",
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell dispel magic}",
-						"{@spell sending}",
-						"{@spell suggestion}"
+						"{ arcane eye}",
+						"{ calm emotions}",
+						"{ detect magic}",
+						"{ detect thoughts}",
+						"{ dispel magic}",
+						"{ sending}",
+						"{ suggestion}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell mass suggestion}",
-							"{@spell modify memory}"
+							"{ mass suggestion}",
+							"{ modify memory}"
 						]
 					},
 					"ability": "cha",
@@ -1380,19 +1380,19 @@ export const bestiaryVRGR = {
 				{
 					"name": "Silver Longsword",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@dice 1d10 + 4}) if used with two hands, plus 18 ({@damage 4d8}) force damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 8 (1d8 + 4}) slashing damage, or 9 ({@dice 1d10 + 4}) if used with two hands, plus 18 (4d8}) force damage."
 					]
 				},
 				{
 					"name": "Mind Fire",
 					"entries": [
-						"The inquisitor targets one creature it can see within 120 feet of it. The target must succeed on a {@dc 15} Intelligence saving throw or take 17 ({@damage 3d8 + 4}) psychic damage and be {@condition stunned} until the start of the inquisitor's next turn."
+						"The inquisitor targets one creature it can see within 120 feet of it. The target must succeed on a {15} Intelligence saving throw or take 17 (3d8 + 4}) psychic damage and be {stunned} until the start of the inquisitor's next turn."
 					]
 				},
 				{
-					"name": "Inquisitor's Command {@recharge 5}",
+					"name": "Inquisitor's Command {Recharge - 5}",
 					"entries": [
-						"Each creature of the inquisitor's choice that it can see within 60 feet of it must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} until the start of the inquisitor's next turn. On the {@condition charmed} target's turn, the inquisitor can telepathically control the target's move, action, or both. When controlled in this way, the target can take only the Attack (inquisitor chooses the target) or Dash action."
+						"Each creature of the inquisitor's choice that it can see within 60 feet of it must succeed on a {15} Wisdom saving throw or be {charmed} until the start of the inquisitor's next turn. On the {charmed} target's turn, the inquisitor can telepathically control the target's move, action, or both. When controlled in this way, the target can take only the Attack (inquisitor chooses the target) or Dash action."
 					]
 				}
 			],
@@ -1487,19 +1487,19 @@ export const bestiaryVRGR = {
 				{
 					"name": "Innate Spellcasting (Psionics)",
 					"headerEntries": [
-						"The inquisitor casts one of the following spells, requiring no components and using Wisdom as the spellcasting ability (spell save {@dc 15}):"
+						"The inquisitor casts one of the following spells, requiring no components and using Wisdom as the spellcasting ability (spell save {15}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell detect thoughts}",
-						"{@spell dispel magic}",
-						"{@spell sending}"
+						"{ detect magic}",
+						"{ detect thoughts}",
+						"{ dispel magic}",
+						"{ sending}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell dimension door}",
-							"{@spell fly}",
-							"{@spell greater invisibility}"
+							"{ dimension door}",
+							"{ fly}",
+							"{ greater invisibility}"
 						]
 					},
 					"ability": "wis",
@@ -1524,7 +1524,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Silver Longsword",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@dice 1d10 + 4}) if used with two hands, plus 18 ({@damage 4d8}) force damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 8 (1d8 + 4}) slashing damage, or 9 ({@dice 1d10 + 4}) if used with two hands, plus 18 (4d8}) force damage."
 					]
 				}
 			],
@@ -1619,20 +1619,20 @@ export const bestiaryVRGR = {
 				{
 					"name": "Innate Spellcasting (Psionics)",
 					"headerEntries": [
-						"The inquisitor casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+						"The inquisitor casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (spell save {15}):"
 					],
 					"will": [
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell levitate}",
-						"{@spell mage armor}",
-						"{@spell mage hand}",
-						"{@spell sending}"
+						"{ detect magic}",
+						"{ dispel magic}",
+						"{ levitate}",
+						"{ mage armor}",
+						"{ mage hand}",
+						"{ sending}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell Otiluke's resilient sphere}",
-							"{@spell telekinesis}"
+							"{ Otiluke's resilient sphere}",
+							"{ telekinesis}"
 						]
 					},
 					"ability": "int",
@@ -1649,19 +1649,19 @@ export const bestiaryVRGR = {
 				{
 					"name": "Force Bolt",
 					"entries": [
-						"{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}22 ({@damage 4d8 + 4}) force damage, and if the target is a Large or smaller creature, the inquisitor can push it up to 10 feet away."
+						"{@atk rs} +7} to hit, range 120 ft., one target. 22 (4d8 + 4}) force damage, and if the target is a Large or smaller creature, the inquisitor can push it up to 10 feet away."
 					]
 				},
 				{
 					"name": "Silver Longsword",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@dice 1d10 + 4}) if used with two hands, plus 18 ({@damage 4d8}) force damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 8 (1d8 + 4}) slashing damage, or 9 ({@dice 1d10 + 4}) if used with two hands, plus 18 (4d8}) force damage."
 					]
 				},
 				{
-					"name": "Implode {@recharge 4}",
+					"name": "Implode {Recharge - 4}",
 					"entries": [
-						"Each creature in a 20-foot-radius sphere centered on a point the inquisitor can see within 120 feet of it must succeed on a {@dc 15} Constitution saving throw or take 31 ({@damage 6d8 + 4}) force damage and be knocked {@condition prone} and moved to the unoccupied space closest to the sphere's center. Large and smaller objects that aren't being worn or carried in the sphere automatically take the damage and are similarly moved."
+						"Each creature in a 20-foot-radius sphere centered on a point the inquisitor can see within 120 feet of it must succeed on a {15} Constitution saving throw or take 31 (6d8 + 4}) force damage and be knocked {prone} and moved to the unoccupied space closest to the sphere's center. Large and smaller objects that aren't being worn or carried in the sphere automatically take the damage and are similarly moved."
 					]
 				}
 			],
@@ -1788,16 +1788,16 @@ export const bestiaryVRGR = {
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"Isolde's spellcasting ability is Charisma (spell save {@dc 14}). Isolde can innately cast the following spells, requiring no material components:"
+						"Isolde's spellcasting ability is Charisma (spell save {14}). Isolde can innately cast the following spells, requiring no material components:"
 					],
 					"daily": {
 						"1": [
-							"{@spell plane shift} (self only)"
+							"{ plane shift} (self only)"
 						],
 						"3e": [
-							"{@spell alter self}",
-							"{@spell command}",
-							"{@spell detect magic}"
+							"{ alter self}",
+							"{ command}",
+							"{ detect magic}"
 						]
 					},
 					"ability": "cha"
@@ -1827,19 +1827,19 @@ export const bestiaryVRGR = {
 				{
 					"name": "Nepenthe",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft.., one target. {@h}11 ({@damage 1d8 + 7}) slashing damage, or 12 ({@damage 1d10 + 7}) slashing damage if used with two hands to make a melee attack. If the target is a fiend or an undead, it takes an extra 11 ({@damage 2d10}) radiant damage."
+						"{1d20+10} to hit, reach 5 ft.., one target. 11 (1d8 + 7}) slashing damage, or 12 (1d10 + 7}) slashing damage if used with two hands to make a melee attack. If the target is a fiend or an undead, it takes an extra 11 (2d10}) radiant damage."
 					]
 				},
 				{
 					"name": "Fire Ray",
 					"entries": [
-						"{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}10 ({@damage 3d6}) fire damage."
+						"{@atk rs} +7} to hit, range 120 ft., one target. 10 (3d6}) fire damage."
 					]
 				},
 				{
 					"name": "Fiendish Charm",
 					"entries": [
-						"One humanoid Isolde can see within 30 feet of it must succeed on a {@dc 14} Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys Isolde's spoken commands. If the target suffers any harm from Isolde or another creature or receives a suicidal command from Isolde, the target can repeat the saving throw, ending the effect on itself on a success. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to Isolde's Fiendish Charm for the next 24 hours."
+						"One humanoid Isolde can see within 30 feet of it must succeed on a {14} Wisdom saving throw or be magically {charmed} for 1 day. The {charmed} target obeys Isolde's spoken commands. If the target suffers any harm from Isolde or another creature or receives a suicidal command from Isolde, the target can repeat the saving throw, ending the effect on itself on a success. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to Isolde's Fiendish Charm for the next 24 hours."
 					]
 				}
 			],
@@ -1957,13 +1957,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 13 (2d8 + 4}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "Consume Energy",
 					"entries": [
-						"The jiangshi draws energy from a creature it can see within 30 feet of it. The target makes a {@dc 16} Constitution saving throw, taking 18 ({@damage 4d8}) necrotic damage on a failed save, or half as much damage on a successful one. The jiangshi regains hit points equal to the amount of necrotic damage dealt. After regaining hit points from this action, the jiangshi gains the following benefits for 7 days: its walking speed increases to 40 feet, and it gains a flying speed equal to its walking speed and can hover.",
+						"The jiangshi draws energy from a creature it can see within 30 feet of it. The target makes a {16} Constitution saving throw, taking 18 (4d8}) necrotic damage on a failed save, or half as much damage on a successful one. The jiangshi regains hit points equal to the amount of necrotic damage dealt. After regaining hit points from this action, the jiangshi gains the following benefits for 7 days: its walking speed increases to 40 feet, and it gains a flying speed equal to its walking speed and can hover.",
 						"A Humanoid slain by this necrotic damage rises as a wight (see its entry in the Monster Manual) at the end of the jiangshi's turn. The wight acts immediately after the jiangshi in the initiative order. If this wight slays a Humanoid with its Life Drain, the wight transforms into a jiangshi 5 days later."
 					]
 				},
@@ -2091,13 +2091,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Lashing Maw",
 					"entries": [
-						"{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage plus 13 ({@damage 3d8}) acid damage."
+						"{1d20+11} to hit, reach 15 ft., one target. 16 (2d10 + 5}) piercing damage plus 13 (3d8}) acid damage."
 					]
 				},
 				{
 					"name": "Psychic Orb",
 					"entries": [
-						"{@atk rs} {@hit 13} to hit, range 120 ft., one creature. {@h}18 ({@damage 2d10 + 7}) psychic damage."
+						"{@atk rs} +13} to hit, range 120 ft., one creature. 18 (2d10 + 7}) psychic damage."
 					]
 				},
 				{
@@ -2123,7 +2123,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Psychic Lash (Costs 3 Actions)",
 					"entries": [
-						"The emissary targets a creature it can see within 30 feet of it and psychically lashes at that creature's mind. The target must succeed on a {@dc 21} Wisdom saving throw or take 36 ({@damage 8d8}) psychic damage and be {@condition stunned} until the start of its next turn."
+						"The emissary targets a creature it can see within 30 feet of it and psychically lashes at that creature's mind. The target must succeed on a {21} Wisdom saving throw or take 36 (8d8}) psychic damage and be {stunned} until the start of its next turn."
 					]
 				}
 			],
@@ -2248,19 +2248,19 @@ export const bestiaryVRGR = {
 				{
 					"name": "Bite (Dire Wolf or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage plus 14 ({@damage 4d6}) necrotic damage. If the target is a Humanoid, it must succeed on a {@dc 17} Constitution saving throw or be cursed with loup garou lycanthropy."
+						"{1d20+9} to hit, reach 5 ft., one target. 13 (2d8 + 4}) piercing damage plus 14 (4d6}) necrotic damage. If the target is a Humanoid, it must succeed on a {17} Constitution saving throw or be cursed with loup garou lycanthropy."
 					]
 				},
 				{
 					"name": "Claws (Dire Wolf or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
+						"{1d20+9} to hit, reach 5 ft., one target. 11 (2d6 + 4}) slashing damage. If the target is a creature, it must succeed on a {17} Strength saving throw or be knocked {prone}."
 					]
 				},
 				{
 					"name": "Longsword (Humanoid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage, or 15 ({@damage 2d10 + 4}) slashing damage if used with two hands."
+						"{1d20+9} to hit, reach 5 ft., one target. 13 (2d8 + 4}) slashing damage, or 15 (2d10 + 4}) slashing damage if used with two hands."
 					]
 				}
 			],
@@ -2390,7 +2390,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Rejuvenation",
 					"entries": [
-						"Unless its lifeless remains are splashed with holy water or placed in a vessel under the effects of the {@spell hallow} spell, the destroyed necrichor re-forms in {@dice 1d10} days, regaining all its hits points and appearing in the place it died or in the nearest unoccupied space."
+						"Unless its lifeless remains are splashed with holy water or placed in a vessel under the effects of the { hallow} spell, the destroyed necrichor re-forms in {@dice 1d10} days, regaining all its hits points and appearing in the place it died or in the nearest unoccupied space."
 					]
 				},
 				{
@@ -2416,19 +2416,19 @@ export const bestiaryVRGR = {
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d6 + 2}) necrotic damage, and the target must succeed on a {@dc 14} Constitution saving throw or be {@condition paralyzed} until the start of the necrichor's next turn."
+						"{1d20+5} to hit, reach 10 ft., one target. 5 (1d6 + 2}) necrotic damage, and the target must succeed on a {14} Constitution saving throw or be {paralyzed} until the start of the necrichor's next turn."
 					]
 				},
 				{
 					"name": "Necrotic Bolt",
 					"entries": [
-						"{@atk rs} {@hit 6} to hit, range 120 ft., one creature. {@h}12 ({@damage 2d8 + 3}) necrotic damage, and the target can't regain hit points until the start of the necrichor's next turn."
+						"{@atk rs} +6} to hit, range 120 ft., one creature. 12 (2d8 + 3}) necrotic damage, and the target can't regain hit points until the start of the necrichor's next turn."
 					]
 				},
 				{
-					"name": "Blood Puppeteering {@recharge}",
+					"name": "Blood Puppeteering {Recharge -}",
 					"entries": [
-						"The necrichor targets a creature it can see within 5 feet of it that is missing any of its hit points. If the target isn't a Construct or an Undead, it must succeed on a {@dc 14} Constitution saving throw or the necrichor enters the target's space and attaches itself to the target for 1 minute. While attached, the necrichor takes only half damage dealt to it (round down), and the target takes the remaining damage. The necrichor can attach to only one creature at a time.",
+						"The necrichor targets a creature it can see within 5 feet of it that is missing any of its hit points. If the target isn't a Construct or an Undead, it must succeed on a {14} Constitution saving throw or the necrichor enters the target's space and attaches itself to the target for 1 minute. While attached, the necrichor takes only half damage dealt to it (round down), and the target takes the remaining damage. The necrichor can attach to only one creature at a time.",
 						"The attached necrichor can telepathically control the target's move, action, or both. When controlled this way, the target can take only the Attack action (necrichor chooses the target) or the Dash action. The attached target can repeat the saving throw at the end of each of its turns, detaching from the necrichor and forcing it to move into the nearest unoccupied space on a success."
 					]
 				}
@@ -2552,20 +2552,20 @@ export const bestiaryVRGR = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 9 (1d8 + 5}) slashing damage."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. If the target is missing any of its hit points, it instead takes 11 ({@damage 2d10}) necrotic damage.",
+						"{1d20+8} to hit, reach 5 ft., one creature. 9 (1d8 + 5}) piercing damage plus 7 (2d6}) necrotic damage. If the target is missing any of its hit points, it instead takes 11 (2d10}) necrotic damage.",
 						"The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the nosferatu regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0. A Humanoid slain in this way and then buried in the ground rises as a nosferatu after {@dice 1d10} days."
 					]
 				},
 				{
-					"name": "Blood Disgorge {@recharge 5}",
+					"name": "Blood Disgorge {Recharge - 5}",
 					"entries": [
-						"The nosferatu vomits blood in a 15-foot cone. Each creature in that area must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) necrotic damage, and it can't regain hit points for 1 minute. On a successful save, the creature takes half as much damage with no additional effects."
+						"The nosferatu vomits blood in a 15-foot cone. Each creature in that area must make a {16} Constitution saving throw. On a failed save, a creature takes 18 (4d8}) necrotic damage, and it can't regain hit points for 1 minute. On a successful save, the creature takes half as much damage with no additional effects."
 					]
 				}
 			],
@@ -2640,7 +2640,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Semblance of Life",
 					"entries": [
-						"The podling is a physical copy of a creature digested by a bodytaker plant. The podling has the digested creature's memories and behaves like that creature, but with occasional lapses. An observer familiar with the digested creature can recognize the discrepancies with a successful {@dc 20} Wisdom (Insight) check, or automatically if the podling does something in direct contradiction to the digested creature's established beliefs or behavior. The podling melts into a slurry when it dies, when the bodytaker plant that created it dies, or when the bodytaker plant dismisses it (no action required)."
+						"The podling is a physical copy of a creature digested by a bodytaker plant. The podling has the digested creature's memories and behaves like that creature, but with occasional lapses. An observer familiar with the digested creature can recognize the discrepancies with a successful {20} Wisdom (Insight) check, or automatically if the podling does something in direct contradiction to the digested creature's established beliefs or behavior. The podling melts into a slurry when it dies, when the bodytaker plant that created it dies, or when the bodytaker plant dismisses it (no action required)."
 					]
 				},
 				{
@@ -2654,7 +2654,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 (1d6 + 2}) bludgeoning damage."
 					]
 				}
 			],
@@ -2741,19 +2741,19 @@ export const bestiaryVRGR = {
 				{
 					"name": "Soul Blade",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage, and if the target is a creature, it is {@condition paralyzed} until the start of the priest's next turn. If this damage reduces a Medium or smaller creature to 0 hit points, the creature dies, and its soul is trapped in the priest's body, manifesting as a shadowy Soul Tattoo on the priest. The soul is freed if the priest dies."
+						"{1d20+5} to hit, reach 5 ft., one target. 7 (2d4 + 2}) piercing damage, and if the target is a creature, it is {paralyzed} until the start of the priest's next turn. If this damage reduces a Medium or smaller creature to 0 hit points, the creature dies, and its soul is trapped in the priest's body, manifesting as a shadowy Soul Tattoo on the priest. The soul is freed if the priest dies."
 					]
 				},
 				{
 					"name": "Necrotic Bolt",
 					"entries": [
-						"{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}17 ({@damage 3d8 + 4}) necrotic damage, and the target can't regain hit points until the start of the priest's next turn."
+						"{@atk rs} +7} to hit, range 120 ft., one target. 17 (3d8 + 4}) necrotic damage, and the target can't regain hit points until the start of the priest's next turn."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Soul Tattoo {@recharge 5}",
+					"name": "Soul Tattoo {Recharge - 5}",
 					"entries": [
 						"The priest touches one of the Soul Tattoos on its body. The tattoo vanishes as the trapped soul manifests as a shadowy creature that appears in an unoccupied space the priest can see within 30 feet of it. The creature has the size and silhouette of its original body, but it otherwise uses the stat block of a shadow.",
 						"The shadow obeys the priest's mental commands (no action required) and takes its turn immediately after the priest. If the creature is within 5 feet of the priest, it can turn back into a tattoo as an action, reappearing on the priest's flesh and regaining all its hit points."
@@ -2784,7 +2784,7 @@ export const bestiaryVRGR = {
 										"type": "entries",
 										"name": "Dread",
 										"entries": [
-											"Eerie whispers can now be heard around the priest. Any non-Undead creature that starts its turn within 30 feet of the priest must succeed on a DC 15 Wisdom saving throw or be {@condition frightened} of the priest until the start of the creature's next turn."
+											"Eerie whispers can now be heard around the priest. Any non-Undead creature that starts its turn within 30 feet of the priest must succeed on a DC 15 Wisdom saving throw or be {frightened} of the priest until the start of the creature's next turn."
 										]
 									}
 								],
@@ -2834,10 +2834,10 @@ export const bestiaryVRGR = {
 										"type": "entries",
 										"name": "Deathly",
 										"entries": [
-											"The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast {@spell animate dead} and {@spell create undead} once per day each, using Intelligence as the spellcasting ability, and it gains the following action:",
+											"The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast { animate dead} and { create undead} once per day each, using Intelligence as the spellcasting ability, and it gains the following action:",
 											{
 												"type": "entries",
-												"name": "Circle of Death (Spell; {@recharge 5|m})",
+												"name": "Circle of Death (Spell; {Recharge - 5|m})",
 												"entries": [
 													"Each creature in a 60-foot-radius sphere centered on a point the priest can see within 150 feet of it must make a DC 15 Constitution saving throw, taking 28 ({@dice 8d6}) necrotic damage on a failed save, or half as much damage on a successful one.)"
 												]
@@ -2898,7 +2898,7 @@ export const bestiaryVRGR = {
 						"action": {
 							"mode": "appendArr",
 							"items": {
-								"name": "Circle of Death (Spell; {@recharge 5|m})",
+								"name": "Circle of Death (Spell; {Recharge - 5|m})",
 								"entries": [
 									"Each creature in a 60-foot-radius sphere centered on a point the priest can see within 150 feet of it must make a DC 15 Constitution saving throw, taking 28 ({@dice 8d6}) necrotic damage on a failed save, or half as much damage on a successful one.)"
 								]
@@ -2911,18 +2911,18 @@ export const bestiaryVRGR = {
 						{
 							"name": "Innate Spellcasting",
 							"headerEntries": [
-								"The priest casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+								"The priest casts one of the following spells, requiring no components and using Intelligence as the spellcasting ability (spell save {15}):"
 							],
 							"will": [
 								{
-									"entry": "{@spell circle of death}",
+									"entry": "{ circle of death}",
 									"hidden": true
 								}
 							],
 							"daily": {
 								"1e": [
-									"{@spell animate dead}",
-									"{@spell create undead}"
+									"{ animate dead}",
+									"{ create undead}"
 								]
 							},
 							"ability": "int",
@@ -2940,7 +2940,7 @@ export const bestiaryVRGR = {
 							"items": {
 								"name": "Dread Boon",
 								"entries": [
-									"Eerie whispers can now be heard around the priest. Any non-Undead creature that starts its turn within 30 feet of the priest must succeed on a DC 15 Wisdom saving throw or be {@condition frightened} of the priest until the start of the creature's next turn."
+									"Eerie whispers can now be heard around the priest. Any non-Undead creature that starts its turn within 30 feet of the priest must succeed on a DC 15 Wisdom saving throw or be {frightened} of the priest until the start of the creature's next turn."
 								]
 							}
 						}
@@ -3082,31 +3082,31 @@ export const bestiaryVRGR = {
 				{
 					"name": "Executioner's Pick",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage, and if the target is a creature, its speed is reduced by 10 feet until the start of the juggernaut's next turn."
+						"{1d20+10} to hit, reach 5 ft., one target. 17 (2d10 + 6}) piercing damage, and if the target is a creature, its speed is reduced by 10 feet until the start of the juggernaut's next turn."
 					]
 				},
 				{
 					"name": "Fist",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) bludgeoning damage, and if the target is a Large or smaller creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+						"{1d20+10} to hit, reach 5 ft., one target. 11 (1d10 + 6}) bludgeoning damage, and if the target is a Large or smaller creature, it must succeed on a {18} Strength saving throw or be knocked {prone}."
 					]
 				},
 				{
-					"name": "Deadly Shaping {@recharge 5}",
+					"name": "Deadly Shaping {Recharge - 5}",
 					"entries": [
-						"The juggernaut magically shapes a feature of its surroundings into a deadly implement. A creature the juggernaut can see within 60 feet of it must make a {@dc 18} Dexterity saving throw. If the saving throw fails, the targeted creature is struck by one of the following (juggernaut's choice):"
+						"The juggernaut magically shapes a feature of its surroundings into a deadly implement. A creature the juggernaut can see within 60 feet of it must make a {18} Dexterity saving throw. If the saving throw fails, the targeted creature is struck by one of the following (juggernaut's choice):"
 					]
 				},
 				{
 					"name": "Flying Stone",
 					"entries": [
-						"The target takes 22 ({@damage 5d8}) bludgeoning damage and is {@condition incapacitated} until the start of the juggernaut's next turn, and the implement vanishes."
+						"The target takes 22 (5d8}) bludgeoning damage and is {incapacitated} until the start of the juggernaut's next turn, and the implement vanishes."
 					]
 				},
 				{
 					"name": "Scything Shrapnel",
 					"entries": [
-						"The target takes 14 ({@damage 4d6}) slashing damage, and the implement vanishes. At the start of each of its turns, the target takes 10 ({@damage 3d6}) necrotic damage from the wound left by the shrapnel. The wound ends if the target regains any hit points or if a creature uses an action to stanch the wound, which requires a successful {@dc 15} Wisdom (Medicine) check."
+						"The target takes 14 (4d6}) slashing damage, and the implement vanishes. At the start of each of its turns, the target takes 10 (3d6}) necrotic damage from the wound left by the shrapnel. The wound ends if the target regains any hit points or if a creature uses an action to stanch the wound, which requires a successful {15} Wisdom (Medicine) check."
 					]
 				}
 			],
@@ -3114,7 +3114,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Implacable Advance",
 					"entries": [
-						"The juggernaut moves up to its speed, ignoring {@quickref difficult terrain||3}. Any object in its path takes 55 ({@damage 10d10}) bludgeoning damage if it isn't being worn or carried."
+						"The juggernaut moves up to its speed, ignoring {@quickref difficult terrain||3}. Any object in its path takes 55 (10d10}) bludgeoning damage if it isn't being worn or carried."
 					]
 				},
 				{
@@ -3232,7 +3232,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Slasher's Knife",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 30/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage plus 21 ({@damage 6d6}) necrotic damage. If the target is a creature, it suffers a lingering wound that causes it to take 7 ({@damage 2d6}) necrotic damage at the start of each of its turns. Each time the slasher hits the wounded target with this attack, the damage dealt by the wound increases by 3 ({@dice 1d6}). The wound ends if the target regains hit points or if a creature uses an action to stanch the wound, which requires a successful {@dc 15} Wisdom (Medicine) check."
+						"{@atk mw,rw} +7} to hit, reach 5 ft. or range 30/60 ft., one target. 6 (1d4 + 4}) slashing damage plus 21 (6d6}) necrotic damage. If the target is a creature, it suffers a lingering wound that causes it to take 7 (2d6}) necrotic damage at the start of each of its turns. Each time the slasher hits the wounded target with this attack, the damage dealt by the wound increases by 3 ({@dice 1d6}). The wound ends if the target regains hit points or if a creature uses an action to stanch the wound, which requires a successful {15} Wisdom (Medicine) check."
 					]
 				}
 			],
@@ -3240,7 +3240,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Slice",
 					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 30/60 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+						"{@atk mw,rw} +7} to hit, reach 5 ft. or range 30/60 ft., one target. 7 (1d6 + 4}) slashing damage."
 					]
 				},
 				{
@@ -3346,13 +3346,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 6 ({@damage 1d12}) acid damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 7 (1d8 + 3}) slashing damage plus 6 (1d12}) acid damage."
 					]
 				},
 				{
 					"name": "Proboscis",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d10 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage, and the strigoi regains hit points equal to the amount of necrotic damage dealt. A creature reduced to 0 hit points from this attack dies and leaves nothing behind except its skin and its equipment."
+						"{1d20+5} to hit, reach 5 ft., one creature. 8 (1d10 + 3}) piercing damage plus 10 (3d6}) necrotic damage, and the strigoi regains hit points equal to the amount of necrotic damage dealt. A creature reduced to 0 hit points from this attack dies and leaves nothing behind except its skin and its equipment."
 					]
 				},
 				{
@@ -3455,7 +3455,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Bites",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 0 ft., one target in the swarm's space. {@h}12 ({@damage 3d6 + 2}) piercing damage, or 5 ({@damage 1d6 + 2}) piercing damage if the swarm has half of its hit points or fewer, plus 7 ({@damage 2d6}) force damage."
+						"{1d20+4} to hit, reach 0 ft., one target in the swarm's space. 12 (3d6 + 2}) piercing damage, or 5 (1d6 + 2}) piercing damage if the swarm has half of its hit points or fewer, plus 7 (2d6}) force damage."
 					]
 				}
 			],
@@ -3545,7 +3545,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Infestation",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer. A creature damaged by the swarm must succeed on a {@dc 12} Constitution saving throw or contract a disease.",
+						"{1d20+3} to hit, reach 0 ft., one target in the swarm's space. 10 (4d4}) piercing damage, or 5 (2d4}) piercing damage if the swarm has half of its hit points or fewer. A creature damaged by the swarm must succeed on a {12} Constitution saving throw or contract a disease.",
 						"Each time the diseased creature finishes a long rest, roll a {@dice d6} to determine the disease's effect:",
 						{
 							"type": "list",
@@ -3555,7 +3555,7 @@ export const bestiaryVRGR = {
 									"type": "item",
 									"name": "1-2",
 									"entries": [
-										"The creature is {@condition blinded} until it finishes a long rest."
+										"The creature is {blinded} until it finishes a long rest."
 									]
 								},
 								{
@@ -3672,7 +3672,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Ravenous Bites",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 0 ft., one target in the swarm's space. {@h}14 ({@damage 4d6}) piercing damage, or 7 ({@damage 2d6}) piercing damage if the swarm has half of its hit points or fewer. If the target is a creature, scarabs burrow into its body, and the creature takes 3 ({@damage 1d6}) piercing damage at the start of each of its turns. Any creature can use an action to kill or remove the scarabs with fire or a weapon that deals piercing damage, causing 1 damage of the appropriate type to the target. A creature reduced to 0 hit points by the swarm's piercing damage dies."
+						"{1d20+4} to hit, reach 0 ft., one target in the swarm's space. 14 (4d6}) piercing damage, or 7 (2d6}) piercing damage if the swarm has half of its hit points or fewer. If the target is a creature, scarabs burrow into its body, and the creature takes 3 (1d6}) piercing damage at the start of each of its turns. Any creature can use an action to kill or remove the scarabs with fire or a weapon that deals piercing damage, causing 1 damage of the appropriate type to the target. A creature reduced to 0 hit points by the swarm's piercing damage dies."
 					]
 				}
 			],
@@ -3768,13 +3768,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Undead Mass",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 0 ft., one target in the swarm's space. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, or 4 ({@damage 1d4 + 2}) bludgeoning damage if the swarm has half of its hit points or fewer."
+						"{1d20+4} to hit, reach 0 ft., one target in the swarm's space. 5 (1d6 + 2}) bludgeoning damage, or 4 (1d4 + 2}) bludgeoning damage if the swarm has half of its hit points or fewer."
 					]
 				},
 				{
 					"name": "Grasping Limbs",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 0 ft., one creature in the swarm's space. {@h}7 ({@damage 2d6}) necrotic damage, and the creature must succeed on a {@dc 12} Strength saving throw or be {@condition restrained}. The creature can repeat the saving throw at the end of each of its turns, taking 7 ({@damage 2d6}) necrotic damage on a failed save. The creature is freed if it succeeds on this saving throw, the swarm moves out of the creature's space, or the swarm dies."
+						"{1d20+4} to hit, reach 0 ft., one creature in the swarm's space. 7 (2d6}) necrotic damage, and the creature must succeed on a {12} Strength saving throw or be {restrained}. The creature can repeat the saving throw at the end of each of its turns, taking 7 (2d6}) necrotic damage on a failed save. The creature is freed if it succeeds on this saving throw, the swarm moves out of the creature's space, or the swarm dies."
 					]
 				}
 			],
@@ -3821,7 +3821,7 @@ export const bestiaryVRGR = {
 								{
 									"name": "Grappler",
 									"entries": [
-										"The Bagman has advantage on attack rolls against any creature {@condition grappled} by it."
+										"The Bagman has advantage on attack rolls against any creature {grappled} by it."
 									]
 								},
 								{
@@ -3833,7 +3833,7 @@ export const bestiaryVRGR = {
 								{
 									"name": "Alien Mind",
 									"entries": [
-										"If a creature tries to read the Bagman's thoughts, that creature must succeed on a {@dc 8} Intelligence saving throw or be {@condition stunned} for 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+										"If a creature tries to read the Bagman's thoughts, that creature must succeed on a {8} Intelligence saving throw or be {stunned} for 1 minute. The {stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									]
 								}
 							]
@@ -3913,13 +3913,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Bile Body (Oozing Organs Only)",
 					"entries": [
-						"Any creature that touches the horror or hits it with a melee attack takes 5 ({@damage 1d10}) acid damage."
+						"Any creature that touches the horror or hits it with a melee attack takes 5 (1d10}) acid damage."
 					]
 				},
 				{
 					"name": "Relentless Stride (Loathsome Limbs Only)",
 					"entries": [
-						"The horror can move through the space of another creature. The first time on a turn that the horror enters a creature's space during this move, the creature must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+						"The horror can move through the space of another creature. The first time on a turn that the horror enters a creature's space during this move, the creature must succeed on a {16} Strength saving throw or be knocked {prone}."
 					]
 				}
 			],
@@ -3933,13 +3933,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Limbs",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}21 ({@damage 3d10 + 5}) bludgeoning damage."
+						"{1d20+8} to hit, reach 5 ft., one target. 21 (3d10 + 5}) bludgeoning damage."
 					]
 				},
 				{
-					"name": "Hex Blast {@recharge 5}",
+					"name": "Hex Blast {Recharge - 5}",
 					"entries": [
-						"The horror expels necrotic energy in a 30-foot cone. Each creature in that area must make a {@dc 15} Constitution saving throw, taking 45 ({@damage 7d12}) necrotic damage on a failed save, or half as much damage on a successful one."
+						"The horror expels necrotic energy in a 30-foot cone. Each creature in that area must make a {15} Constitution saving throw, taking 45 (7d12}) necrotic damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -3968,7 +3968,7 @@ export const bestiaryVRGR = {
 										"type": "entries",
 										"name": "Aberrant Armor",
 										"entries": [
-											"The horror's body is armored in {@condition petrified} wood, alien crystal, rusted mechanisms, sculpted stone, or an exoskeleton."
+											"The horror's body is armored in {petrified} wood, alien crystal, rusted mechanisms, sculpted stone, or an exoskeleton."
 										]
 									}
 								],
@@ -4020,9 +4020,9 @@ export const bestiaryVRGR = {
 									"1",
 									{
 										"type": "entries",
-										"name": "Beguiling Hex {@recharge 5}",
+										"name": "Beguiling Hex {Recharge - 5}",
 										"entries": [
-											"The horror expels a wave of mind-altering magic. Each creature within 30 feet of the horror must make a DC 15 Wisdom saving throw, taking 33 ({@dice 6d10}) psychic damage and being {@condition incapacitated} until the end of the creature's next turn on a failed save, or taking half as much damage on a successful one."
+											"The horror expels a wave of mind-altering magic. Each creature within 30 feet of the horror must make a DC 15 Wisdom saving throw, taking 33 ({@dice 6d10}) psychic damage and being {incapacitated} until the end of the creature's next turn on a failed save, or taking half as much damage on a successful one."
 										]
 									}
 								],
@@ -4030,7 +4030,7 @@ export const bestiaryVRGR = {
 									"2",
 									{
 										"type": "entries",
-										"name": "Bile Hex {@recharge 5}",
+										"name": "Bile Hex {Recharge - 5}",
 										"entries": [
 											"The horror expels acidic bile in a 60-foot line that is 5 feet wide. Each creature in that line must succeed on a DC 15 Dexterity saving throw or be covered in bile. A creature covered in bile takes 31 ({@dice 7d8}) acid damage at the start of each of its turns until it or another creature uses its action to scrape or wash off the bile that covers it."
 										]
@@ -4040,9 +4040,9 @@ export const bestiaryVRGR = {
 									"3",
 									{
 										"type": "entries",
-										"name": "Petrifying Hex {@recharge 5}",
+										"name": "Petrifying Hex {Recharge - 5}",
 										"entries": [
-											"The horror expels petrifying gas in a 30-foot cone. Each creature in that area must succeed on a DC 15 Constitution saving throw or take 14 ({@dice 4d6}) necrotic damage and be {@condition restrained} as it begins to turn to stone. A {@condition restrained} creature must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is {@condition petrified} until freed by the {@spell greater restoration} spell or other magic."
+											"The horror expels petrifying gas in a 30-foot cone. Each creature in that area must succeed on a DC 15 Constitution saving throw or take 14 ({@dice 4d6}) necrotic damage and be {restrained} as it begins to turn to stone. A {restrained} creature must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is {petrified} until freed by the { greater restoration} spell or other magic."
 										]
 									}
 								],
@@ -4050,9 +4050,9 @@ export const bestiaryVRGR = {
 									"4",
 									{
 										"type": "entries",
-										"name": "Reality-Stealing Hex {@recharge 5}",
+										"name": "Reality-Stealing Hex {Recharge - 5}",
 										"entries": [
-											"The horror expels a wave of perception-distorting energy. Each creature within 30 feet of the horror must make a DC 15 Wisdom saving throw. On a failed save, the target takes 22 ({@dice 5d8}) psychic damage and is {@condition deafened} until the end of its next turn. If the saving throw fails by 5 or more, the target is also {@condition blinded} until the end of its next turn."
+											"The horror expels a wave of perception-distorting energy. Each creature within 30 feet of the horror must make a DC 15 Wisdom saving throw. On a failed save, the target takes 22 ({@dice 5d8}) psychic damage and is {deafened} until the end of its next turn. If the saving throw fails by 5 or more, the target is also {blinded} until the end of its next turn."
 										]
 									}
 								]
@@ -4096,7 +4096,7 @@ export const bestiaryVRGR = {
 										"type": "entries",
 										"name": "Grasping Tentacle",
 										"entries": [
-											"The horror's limb is a grasping tentacle. When the horror hits a creature with this limb, the creature is also {@condition grappled} (escape DC 16). The limb can have only one creature {@condition grappled} at a time."
+											"The horror's limb is a grasping tentacle. When the horror hits a creature with this limb, the creature is also {grappled} (escape DC 16). The limb can have only one creature {grappled} at a time."
 										]
 									}
 								],
@@ -4106,7 +4106,7 @@ export const bestiaryVRGR = {
 										"type": "entries",
 										"name": "Poisonous Limb",
 										"entries": [
-											"The horror's limb deals piercing damage instead of bludgeoning damage. In addition, when the horror hits a creature with this limb, the creature must succeed on a DC 15 Constitution saving throw or take 7 ({@dice 2d6}) poison damage and be {@condition poisoned} until the end of its next turn."
+											"The horror's limb deals piercing damage instead of bludgeoning damage. In addition, when the horror hits a creature with this limb, the creature must succeed on a DC 15 Constitution saving throw or take 7 ({@dice 2d6}) poison damage and be {poisoned} until the end of its next turn."
 										]
 									}
 								]
@@ -4239,27 +4239,27 @@ export const bestiaryVRGR = {
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage plus 10 ({@damage 3d6}) necrotic damage."
+						"{1d20+7} to hit, reach 5 ft., one target. 8 (1d8 + 4}) slashing damage plus 10 (3d6}) necrotic damage."
 					]
 				},
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d6 + 4}) piercing damage, and if the target is a creature, it is {@condition grappled} (escape {@dc 15})."
+						"{1d20+7} to hit, reach 5 ft., one creature. 7 (1d6 + 4}) piercing damage, and if the target is a creature, it is {grappled} (escape {15})."
 					]
 				},
 				{
 					"name": "Drink Sapience",
 					"entries": [
-						"The mind flayer targets one creature it is grappling. The target must succeed on a {@dc 15} Wisdom saving throw or take 14 ({@damage 4d6}) psychic damage and gain 1 level of {@condition exhaustion}. The mind flayer regains a number of hit points equal to the psychic damage dealt. A creature reduced to 0 hit points by the psychic damage dies."
+						"The mind flayer targets one creature it is grappling. The target must succeed on a {15} Wisdom saving throw or take 14 (4d6}) psychic damage and gain 1 level of {exhaustion}. The mind flayer regains a number of hit points equal to the psychic damage dealt. A creature reduced to 0 hit points by the psychic damage dies."
 					]
 				}
 			],
 			"bonus": [
 				{
-					"name": "Disrupt Psyche {@recharge 5}",
+					"name": "Disrupt Psyche {Recharge - 5}",
 					"entries": [
-						"The mind flayer magically emits psionic energy in a 30-foot-radius sphere centered on itself. Each creature in that area must succeed on a {@dc 15} Intelligence saving throw or be {@condition incapacitated} for 1 minute. The {@condition incapacitated} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The mind flayer magically emits psionic energy in a 30-foot-radius sphere centered on itself. Each creature in that area must succeed on a {15} Intelligence saving throw or be {incapacitated} for 1 minute. The {incapacitated} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -4361,7 +4361,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Mimicry",
 					"entries": [
-						"The wereraven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 10} Wisdom (Insight) check."
+						"The wereraven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {10} Wisdom (Insight) check."
 					]
 				},
 				{
@@ -4381,19 +4381,19 @@ export const bestiaryVRGR = {
 				{
 					"name": "Beak (Raven or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 piercing damage in raven form, or 4 ({@damage 1d4 + 2}) piercing damage in hybrid form. If the target is humanoid, it must succeed on a {@dc 10} Constitution saving throw or be cursed with wereraven lycanthropy."
+						"{1d20+4} to hit, reach 5 ft., one target. 1 piercing damage in raven form, or 4 (1d4 + 2}) piercing damage in hybrid form. If the target is humanoid, it must succeed on a {10} Constitution saving throw or be cursed with wereraven lycanthropy."
 					]
 				},
 				{
 					"name": "Shortsword (Human or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"{1d20+4} to hit, reach 5 ft., one target. 5 (1d6 + 2}) piercing damage."
 					]
 				},
 				{
 					"name": "Hand Crossbow (Human or Hybrid Form Only)",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+						"1d20+4} to hit, range 30/120 ft., one target. 5 (1d6 + 2}) piercing damage."
 					]
 				}
 			],
@@ -4475,7 +4475,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Deathly Stench",
 					"entries": [
-						"Any creature that starts its turn within 10 feet of the zombie must succeed on a {@dc 14} Constitution saving throw or take 9 ({@damage 2d8}) poison damage and be {@condition poisoned} until the start of the creature's next turn."
+						"Any creature that starts its turn within 10 feet of the zombie must succeed on a {14} Constitution saving throw or take 9 (2d8}) poison damage and be {poisoned} until the start of the creature's next turn."
 					]
 				},
 				{
@@ -4501,14 +4501,14 @@ export const bestiaryVRGR = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d8 + 5}) bludgeoning damage."
+						"{1d20+8} to hit, reach 10 ft., one target. 18 (3d8 + 5}) bludgeoning damage."
 					]
 				},
 				{
-					"name": "Flesh Entomb {@recharge 5}",
+					"name": "Flesh Entomb {Recharge - 5}",
 					"entries": [
-						"The zombie flings a detached clump of corpses at a creature it can see within 30 feet of it. The target must succeed on a {@dc 16} Strength saving throw or take 16 ({@damage 3d10}) bludgeoning damage, and if the target is a Large or smaller creature, it becomes entombed in dead flesh.",
-						"A creature entombed in the dead flesh is {@condition restrained}, has total cover against attacks and other effects outside the dead flesh, and takes 10 ({@damage 3d6}) necrotic damage at the start of each of its turns. The creature can be freed if the dead flesh is destroyed. The dead flesh is a Large object with AC 10, 25 hit points, and immunity to poison and psychic damage."
+						"The zombie flings a detached clump of corpses at a creature it can see within 30 feet of it. The target must succeed on a {16} Strength saving throw or take 16 (3d10}) bludgeoning damage, and if the target is a Large or smaller creature, it becomes entombed in dead flesh.",
+						"A creature entombed in the dead flesh is {restrained}, has total cover against attacks and other effects outside the dead flesh, and takes 10 (3d6}) necrotic damage at the start of each of its turns. The creature can be freed if the dead flesh is destroyed. The dead flesh is a Large object with AC 10, 25 hit points, and immunity to poison and psychic damage."
 					]
 				}
 			],
@@ -4601,7 +4601,7 @@ export const bestiaryVRGR = {
 				{
 					"name": "Viral Aura",
 					"entries": [
-						"Any creature that starts its turn within 10 feet of the plague spreader must make a {@dc 12} Constitution saving throw. On a failed save, the creature is {@condition poisoned} and can't regain hit points until the end of its next turn. On a successful save, the creature is immune to this plague spreader's Viral Aura for 24 hours."
+						"Any creature that starts its turn within 10 feet of the plague spreader must make a {12} Constitution saving throw. On a failed save, the creature is {poisoned} and can't regain hit points until the end of its next turn. On a successful save, the creature is immune to this plague spreader's Viral Aura for 24 hours."
 					]
 				}
 			],
@@ -4615,13 +4615,13 @@ export const bestiaryVRGR = {
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 9 ({@damage 2d8}) necrotic damage."
+						"{1d20+5} to hit, reach 5 ft., one target. 6 (1d6 + 3}) bludgeoning damage plus 9 (2d8}) necrotic damage."
 					]
 				},
 				{
 					"name": "Virulent Miasma (1/Day)",
 					"entries": [
-						"The plague spreader releases toxic gas in a 30-foot-radius sphere centered on itself. Each creature in that area must make a {@dc 12} Constitution saving throw, taking 14 ({@damage 4d6}) poison damage on a failed save, or half as much damage on a successful one. A Humanoid reduced to 0 hit points by this damage dies and rises as a zombie (see its stat block in the Monster Manual) 1 minute later. The zombie acts immediately after the plague spreader in the initiative count."
+						"The plague spreader releases toxic gas in a 30-foot-radius sphere centered on itself. Each creature in that area must make a {12} Constitution saving throw, taking 14 (4d6}) poison damage on a failed save, or half as much damage on a successful one. A Humanoid reduced to 0 hit points by this damage dies and rises as a zombie (see its stat block in the Monster Manual) 1 minute later. The zombie acts immediately after the plague spreader in the initiative count."
 					]
 				}
 			],

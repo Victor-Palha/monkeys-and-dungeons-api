@@ -770,7 +770,7 @@ export const items = {
 			"weight": 1,
 			"value": 2500,
 			"entries": [
-				"As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes {@damage 2d6} acid damage."
+				"As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6} acid damage."
 			]
 		},
 		{
@@ -855,7 +855,7 @@ export const items = {
 					"type": "entries",
 					"name": "Hammer of the Forge",
 					"entries": [
-						"This magic warhammer grants a +3 bonus to attack and damage rolls made with it. When you hit with an attack using it, the target takes an extra {@damage 3d10} fire damage."
+						"This magic warhammer grants a +3 bonus to attack and damage rolls made with it. When you hit with an attack using it, the target takes an extra 3d10} fire damage."
 					]
 				},
 				{
@@ -892,14 +892,14 @@ export const items = {
 					"type": "entries",
 					"name": "Reforged",
 					"entries": [
-						"While holding the hammer, you have resistance to fire damage and are immune to {@condition exhaustion}. Additionally, you have proficiency with {@item smith's tools|PHB} and have advantage on all ability checks made using them."
+						"While holding the hammer, you have resistance to fire damage and are immune to {exhaustion}. Additionally, you have proficiency with {@item smith's tools|PHB} and have advantage on all ability checks made using them."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"While the hammer is on your person, you can use an action to cast one of the following spells (save DC 18): {@spell animate objects}, {@spell heat metal}, {@spell fabricate}, {@spell magic weapon}, {@spell mending}, {@spell shatter}. Once you use the hammer to cast a spell, the spell can't be cast again from it until the next dusk."
+						"While the hammer is on your person, you can use an action to cast one of the following spells (save DC 18): { animate objects}, { heat metal}, { fabricate}, { magic weapon}, { mending}, { shatter}. Once you use the hammer to cast a spell, the spell can't be cast again from it until the next dusk."
 					]
 				},
 				{
@@ -940,7 +940,7 @@ export const items = {
 				"Wizard"
 			],
 			"entries": [
-				"Acrid odors cling to this stained, heavy volume. The book's metal fittings are copper, iron, lead, silver, and gold, some frozen mid-transition from one metal to another. When found, the book contains the following spells: {@spell enlarge/reduce}, {@spell feather fall}, {@spell flesh to stone}, {@spell gaseous form}, {@spell magic weapon}, and {@spell polymorph}. It functions as a spellbook for you.",
+				"Acrid odors cling to this stained, heavy volume. The book's metal fittings are copper, iron, lead, silver, and gold, some frozen mid-transition from one metal to another. When found, the book contains the following spells: { enlarge/reduce}, { feather fall}, { flesh to stone}, { gaseous form}, { magic weapon}, and { polymorph}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
 				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
@@ -986,7 +986,7 @@ export const items = {
 			"weight": 1,
 			"value": 5000,
 			"entries": [
-				"This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes {@damage 1d4} fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+				"This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4} fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
 			]
 		},
 		{
@@ -1378,7 +1378,7 @@ export const items = {
 					"type": "entries",
 					"name": "Reverse Gravity",
 					"entries": [
-						"As an action, you can expend 3 charges to cast {@spell reverse gravity} from the stone (save DC 18)."
+						"As an action, you can expend 3 charges to cast { reverse gravity} from the stone (save DC 18)."
 					]
 				}
 			],
@@ -1515,15 +1515,15 @@ export const items = {
 					"rows": [
 						[
 							"01-20",
-							"The symbol of {@creature Acererak|ToA} is burned into your flesh, a curse that can only be removed with a {@spell remove curse} spell or similar magic. Until the curse ends, your hit points can't be restored by magic."
+							"The symbol of {@creature Acererak|ToA} is burned into your flesh, a curse that can only be removed with a { remove curse} spell or similar magic. Until the curse ends, your hit points can't be restored by magic."
 						],
 						[
 							"21-35",
-							"You grow larger as if affected by an {@spell enlarge/reduce} spell, except the effect lasts for 1 hour."
+							"You grow larger as if affected by an { enlarge/reduce} spell, except the effect lasts for 1 hour."
 						],
 						[
 							"36-50",
-							"You grow smaller as if affected by an {@spell enlarge/reduce} spell, except the effect lasts for 1 hour."
+							"You grow smaller as if affected by an { enlarge/reduce} spell, except the effect lasts for 1 hour."
 						],
 						[
 							"51-70",
@@ -1531,11 +1531,11 @@ export const items = {
 						],
 						[
 							"71-95",
-							"You are {@condition paralyzed} for 1 minute or until this effect is ended with a {@spell lesser restoration} spell or similar magic."
+							"You are {paralyzed} for 1 minute or until this effect is ended with a { lesser restoration} spell or similar magic."
 						],
 						[
 							"96-00",
-							"You become {@condition petrified}. This effect can be ended only with a {@spell greater restoration} spell or similar magic."
+							"You become {petrified}. This effect can be ended only with a { greater restoration} spell or similar magic."
 						]
 					]
 				}
@@ -1563,7 +1563,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast the {@spell plane shift} spell. On a failure, you and each creature and object within 15 feet of you travel to a random destination. Roll a {@dice d100}. On a 1-60, you travel to a random location on the plane you named. On a 61-100, you travel to a randomly determined plane of existence."
+				"While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast the { plane shift} spell. On a failure, you and each creature and object within 15 feet of you travel to a random destination. Roll a {@dice d100}. On a 1-60, you travel to a random location on the plane you named. On a 61-100, you travel to a randomly determined plane of existence."
 			],
 			"attachedSpells": [
 				"plane shift"
@@ -1585,7 +1585,7 @@ export const items = {
 			"weight": 6,
 			"ac": 2,
 			"entries": [
-				"While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are {@condition incapacitated} or die, at which point the shield falls to the ground or into your hand if you have one free."
+				"While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are {incapacitated} or die, at which point the shield falls to the ground or into your hand if you have one free."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -1644,7 +1644,7 @@ export const items = {
 					]
 				},
 				"To be used as a vehicle, the apparatus requires one pilot. While the apparatus's hatch is closed, the compartment is airtight and watertight. The compartment holds enough air for 10 hours of breathing, divided by the number of breathing creatures inside.",
-				"The apparatus floats on water. It can also go underwater to a depth of 900 feet. Below that, the vehicle takes {@damage 2d6} bludgeoning damage per minute from pressure.",
+				"The apparatus floats on water. It can also go underwater to a depth of 900 feet. Below that, the vehicle takes 2d6} bludgeoning damage per minute from pressure.",
 				"A creature in the compartment can use an action to move as many as two of the apparatus's levers up or down. After each use, a lever goes back to its neutral position. Each lever, from left to right, functions as shown in the Apparatus of Kwalish Levers table.",
 				{
 					"type": "table",
@@ -1682,8 +1682,8 @@ export const items = {
 						],
 						[
 							"5",
-							"Each extended claw makes the following melee weapon attack: {@hit 8} to hit, reach 5 ft., one target. {@h} 7 ({@damage 2d6}) bludgeoning damage.",
-							"Each extended claw makes the following melee weapon attack: {@hit 8} to hit, reach 5 ft., one target. {@h} The target is {@condition grappled} (escape {@dc 15})."
+							"Each extended claw makes the following melee weapon attack: +8} to hit, reach 5 ft., one target.  7 (2d6}) bludgeoning damage.",
+							"Each extended claw makes the following melee weapon attack: +8} to hit, reach 5 ft., one target.  The target is {grappled} (escape {15})."
 						],
 						[
 							"6",
@@ -1756,35 +1756,35 @@ export const items = {
 					"type": "entries",
 					"name": "Acid Jet",
 					"entries": [
-						"The cannon discharges acid in a line 300 feet long and 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 22 ({@damage 4d10}) acid damage on a failed save, or half as much damage on a successful one. In addition, a creature that fails its saving throw takes 11 ({@damage 2d10}) acid damage at the start of each of its turns; a creature can end this damage by using its action to wash off the acid with a pint or more of water."
+						"The cannon discharges acid in a line 300 feet long and 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 22 (4d10}) acid damage on a failed save, or half as much damage on a successful one. In addition, a creature that fails its saving throw takes 11 (2d10}) acid damage at the start of each of its turns; a creature can end this damage by using its action to wash off the acid with a pint or more of water."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Fire Jet",
 					"entries": [
-						"The cannon discharges fire in a line 300 feet long and 5 feet wide. Each creature in the area must make a DC 15 Dexterity saving throw, taking 33 ({@damage 6d10}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried."
+						"The cannon discharges fire in a line 300 feet long and 5 feet wide. Each creature in the area must make a DC 15 Dexterity saving throw, taking 33 (6d10}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Frost Shot",
 					"entries": [
-						"The cannon shoots a ball of frost to a point you can see within 1,200 feet of the cannon. The ball then expands to form a 30-foot-radius sphere centered on that point. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 22 ({@damage 4d10}) cold damage, and its speed is reduced by 10 feet for 1 minute. On a successful save, the creature takes half as much damage, and its speed isn't reduced. A creature whose speed is reduced by this effect can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+						"The cannon shoots a ball of frost to a point you can see within 1,200 feet of the cannon. The ball then expands to form a 30-foot-radius sphere centered on that point. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 22 (4d10}) cold damage, and its speed is reduced by 10 feet for 1 minute. On a successful save, the creature takes half as much damage, and its speed isn't reduced. A creature whose speed is reduced by this effect can repeat the save at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lightning Shot",
 					"entries": [
-						"The cannon shoots a ball of lightning to a point you can see within 1,200 feet of the cannon. The lightning then expands to form a 20-foot-radius sphere centered on that point. Each creature in that area must make a DC 15 Dexterity saving throw, taking 33 ({@damage 6d10}) lightning damage on a failed save, or half as much damage on a successful one. Creatures wearing metal armor have disadvantage on the save."
+						"The cannon shoots a ball of lightning to a point you can see within 1,200 feet of the cannon. The lightning then expands to form a 20-foot-radius sphere centered on that point. Each creature in that area must make a DC 15 Dexterity saving throw, taking 33 (6d10}) lightning damage on a failed save, or half as much damage on a successful one. Creatures wearing metal armor have disadvantage on the save."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Poison Spray",
 					"entries": [
-						"The cannon expels poison gas in a 60-foot cone. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, the creature takes 22 ({@damage 4d10}) poison damage and is {@condition poisoned} for 1 minute. On a successful save, the creature takes half as much damage and isn't {@condition poisoned}. A creature {@condition poisoned} in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The cannon expels poison gas in a 60-foot cone. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, the creature takes 22 (4d10}) poison damage and is {poisoned} for 1 minute. On a successful save, the creature takes half as much damage and isn't {poisoned}. A creature {poisoned} in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			]
@@ -1811,7 +1811,7 @@ export const items = {
 					"items": [
 						"The prosthetic is a fully capable part of your body.",
 						"You can take an action to remove the prosthetic, and it removes itself if your attunement to it ends. It can't be removed against your will.",
-						"The prosthetic is a magic melee weapon with which you're proficient. It deals {@damage 1d8} force damage on a hit and has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When thrown, the prosthetic detaches and flies at the target of the attack, then immediately returns to you and reattaches."
+						"The prosthetic is a magic melee weapon with which you're proficient. It deals 1d8} force damage on a hit and has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When thrown, the prosthetic detaches and flies at the target of the attack, then immediately returns to you and reattaches."
 					]
 				}
 			],
@@ -1868,7 +1868,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This armor is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the {@spell remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to piercing and slashing damage."
+						"This armor is cursed, a fact that is revealed only when an { identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the { remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to piercing and slashing damage."
 					]
 				}
 			]
@@ -1901,7 +1901,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This armor is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the {@spell remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to bludgeoning and slashing damage."
+						"This armor is cursed, a fact that is revealed only when an { identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the { remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to bludgeoning and slashing damage."
 					]
 				}
 			]
@@ -1934,7 +1934,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This armor is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the {@spell remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to bludgeoning and piercing damage."
+						"This armor is cursed, a fact that is revealed only when an { identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the { remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to bludgeoning and piercing damage."
 					]
 				}
 			]
@@ -2025,21 +2025,21 @@ export const items = {
 							"type": "item",
 							"name": "Chromatic",
 							"entries": [
-								"{@spell Hold monster}, {@spell Rime's binding ice|FTD}"
+								"{ Hold monster}, { Rime's binding ice|FTD}"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Gem",
 							"entries": [
-								"{@spell Rary's telepathic bond}, {@spell Raulothim's psychic lance|FTD}"
+								"{ Rary's telepathic bond}, { Raulothim's psychic lance|FTD}"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Metallic",
 							"entries": [
-								"{@spell Fizban's platinum shield|FTD}, {@spell legend lore}"
+								"{ Fizban's platinum shield|FTD}, { legend lore}"
 							]
 						}
 					]
@@ -2060,7 +2060,7 @@ export const items = {
 			"rarity": "legendary",
 			"entries": [
 				"This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.",
-				"You gain a +1 bonus to AC, and you can't be {@condition charmed} or {@condition frightened}. Moreover, each creature of your choice within 30 feet of you has advantage on saving throws it makes to avoid being {@condition charmed} or {@condition frightened} or to end those conditions on itself.",
+				"You gain a +1 bonus to AC, and you can't be {charmed} or {frightened}. Moreover, each creature of your choice within 30 feet of you has advantage on saving throws it makes to avoid being {charmed} or {frightened} or to end those conditions on itself.",
 				"When you would take damage of the type dealt by the breath of the dragon in whose hoard the ornament became Wakened, you can use your reaction to take no damage instead, and you regain hit points equal to the damage you would have taken. Once this property is used, it can't be used again until the next dawn.",
 				"While you are wearing the ornament, you gain a flying speed equal to your walking speed and can hover. While you are flying using this speed, spectral dragon wings appear on your back."
 			]
@@ -2075,7 +2075,7 @@ export const items = {
 			"value": 15000,
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 ({@damage 1d12}) poison damage and is {@condition poisoned} for 24 hours. On a successful save, the creature takes half damage and isn't {@condition poisoned}."
+				"A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 (1d12}) poison damage and is {poisoned} for 24 hours. On a successful save, the creature takes half damage and isn't {poisoned}."
 			],
 			"poisonTypes": [
 				"ingested"
@@ -2122,7 +2122,7 @@ export const items = {
 				"Wizard"
 			],
 			"entries": [
-				"This brass disc of articulated, concentric rings unfolds into an armillary sphere. As a bonus action, you can unfold it into the sphere or back into a disc. When found, it contains the following spells, which are wizard spells for you while you are attuned to it: {@spell augury}, {@spell divination}, {@spell find the path}, {@spell foresight}, {@spell locate creature}, and {@spell locate object}. It functions as a spellbook for you, with spells encoded on the rings.",
+				"This brass disc of articulated, concentric rings unfolds into an armillary sphere. As a bonus action, you can unfold it into the sphere or back into a disc. When found, it contains the following spells, which are wizard spells for you while you are attuned to it: { augury}, { divination}, { find the path}, { foresight}, { locate creature}, and { locate object}. It functions as a spellbook for you, with spells encoded on the rings.",
 				"While you are holding the archive, you can use it as a spellcasting focus for your wizard spells.",
 				"The archive has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
@@ -2162,7 +2162,7 @@ export const items = {
 				"Wizard"
 			],
 			"entries": [
-				"This thick book is bound in dark leather, crisscrossed with inlaid silver lines suggesting a map or chart. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: {@spell arcane gate}, {@spell dimension door}, {@spell gate}, {@spell misty step}, {@spell plane shift}, {@spell teleportation circle}, and {@spell word of recall}. It functions as a spellbook for you.",
+				"This thick book is bound in dark leather, crisscrossed with inlaid silver lines suggesting a map or chart. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: { arcane gate}, { dimension door}, { gate}, { misty step}, { plane shift}, { teleportation circle}, and { word of recall}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
 				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
@@ -2265,21 +2265,21 @@ export const items = {
 					"type": "entries",
 					"name": "Conjure Earth Elemental",
 					"entries": [
-						"If you are holding the axe, you can use your action to cast the {@spell conjure elemental} spell from it, summoning an {@creature earth elemental}. You can't use this property again until the next dawn."
+						"If you are holding the axe, you can use your action to cast the { conjure elemental} spell from it, summoning an {@creature earth elemental}. You can't use this property again until the next dawn."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Travel the Depths",
 					"entries": [
-						"You can use an action to touch the axe to a fixed piece of dwarven stonework and cast the {@spell teleport} spell from the axe. If your intended destination is underground, there is no chance of a mishap or arriving somewhere unexpected. You can't use this property again until 3 days have passed."
+						"You can use an action to touch the axe to a fixed piece of dwarven stonework and cast the { teleport} spell from the axe. If your intended destination is underground, there is no chance of a mishap or arriving somewhere unexpected. You can't use this property again until 3 days have passed."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"The axe bears a curse that affects any non-dwarf that becomes attuned to it. Even if the attunement ends, the curse remains. With each passing day, the creature's physical appearance and stature become more dwarflike. After seven days, the creature looks like a typical dwarf, but the creature neither loses its racial traits nor gains the racial traits of a dwarf. The physical changes wrought by the axe aren't considered magical in nature (and therefore can't be dispelled), but they can be undone by any effect that removes a curse, such as a {@spell greater restoration} or {@spell remove curse} spell."
+						"The axe bears a curse that affects any non-dwarf that becomes attuned to it. Even if the attunement ends, the curse remains. With each passing day, the creature's physical appearance and stature become more dwarflike. After seven days, the creature looks like a typical dwarf, but the creature neither loses its racial traits nor gains the racial traits of a dwarf. The physical changes wrought by the axe aren't considered magical in nature (and therefore can't be dispelled), but they can be undone by any effect that removes a curse, such as a { greater restoration} or { remove curse} spell."
 					]
 				},
 				{
@@ -2307,7 +2307,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring, adorned with the symbol of Azorius, allows you to cast {@spell ensnaring strike}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Azorius's recognition and favor.",
+				"This ring, adorned with the symbol of Azorius, allows you to cast { ensnaring strike}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Azorius's recognition and favor.",
 				"A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13)."
 			],
 			"attachedSpells": [
@@ -2359,8 +2359,8 @@ export const items = {
 			"entries": [
 				"Forged by the archwizard Ahghairon, this intelligent battleaxe was crafted to defend Waterdeep. Its current wielder is a former member of Force Grey named {@creature Meloon Wardragon|WDH}, but the weapon is searching for a new owner.",
 				"Azuredge has a solid steel handle etched with tiny runes, wrapped in blue dragon hide with a star sapphire set into the pommel. The axe head is forged from silver, electrum, and steel alloys whose edges constantly shimmer with a deep blue luminescence.",
-				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. The {@spell shield} spell provides no defense against the axe, which passes through that spell's barrier of magical force.",
-				"When you hit a fiend or an undead with the axe, cold blue flames erupt from its blade and deal an extra {@damage 2d6} radiant damage to the target.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. The { shield} spell provides no defense against the axe, which passes through that spell's barrier of magical force.",
+				"When you hit a fiend or an undead with the axe, cold blue flames erupt from its blade and deal an extra 2d6} radiant damage to the target.",
 				{
 					"type": "entries",
 					"name": "Hurling",
@@ -2388,7 +2388,7 @@ export const items = {
 					"name": "Personality",
 					"entries": [
 						"Azuredge is sworn to protect Waterdeep, and it desires to be wielded by a law-abiding person willing to dedicate everything to the city's defense. The weapon is patient and takes its time finding its ideal wielder.",
-						"If someone tries to use Azuredge against its will, the axe can become ten times heavier than normal, and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, the axe can't be wielded. Nothing short of a {@spell wish} spell can separate the axe from the item or surface to which it is adhered without destroying one or the other, though the axe can choose to end the effect at any time."
+						"If someone tries to use Azuredge against its will, the axe can become ten times heavier than normal, and can magically adhere to any Medium or larger object or surface it comes into contact with. Once it does so, the axe can't be wielded. Nothing short of a { wish} spell can separate the axe from the item or surface to which it is adhered without destroying one or the other, though the axe can choose to end the effect at any time."
 					]
 				}
 			],
@@ -2447,7 +2447,7 @@ export const items = {
 					"name": "Properties of the Pestle",
 					"entries": [
 						"The pestle is a 6-inch-long, worn wooden tool. Once during your turn while you are holding the pestle, you can extend it into a quarterstaff or shrink it back into a pestle (no action required). As a quarterstaff, the pestle is a magic weapon that grants a +3 bonus to attack and damage rolls made with it.",
-						"The pestle has 12 charges. When you hit with a melee attack using the pestle, you can expend up to 3 of its charges to deal an extra {@damage 1d8} force damage for each charge expended. The pestle regains all expended charges daily at dawn."
+						"The pestle has 12 charges. When you hit with a melee attack using the pestle, you can expend up to 3 of its charges to deal an extra 1d8} force damage for each charge expended. The pestle regains all expended charges daily at dawn."
 					]
 				},
 				{
@@ -2462,7 +2462,7 @@ export const items = {
 					"type": "entries",
 					"name": "Primal Parts",
 					"entries": [
-						"As an action while the pestle and the mortar is within 5 feet of you, you can command the pestle to grind. For the next minute, or until you use your action to verbally command it to stop, the pestle moves on its own, grinding the contents of the mortar into a mush or fine powder that's equally useful for cooking or alchemy. At the start of each of your turns, whatever is in the mortar takes {@damage 4d10} force damage. If this reduces the target's hit points to 0, the target is reduced to powder, pulp, or paste, as appropriate. Only magic items are unaffected. If you wish, when the pestle stops, you can have the mortar separate its contents-like powdered bone, crushed herbs, pulped organs-into separate piles."
+						"As an action while the pestle and the mortar is within 5 feet of you, you can command the pestle to grind. For the next minute, or until you use your action to verbally command it to stop, the pestle moves on its own, grinding the contents of the mortar into a mush or fine powder that's equally useful for cooking or alchemy. At the start of each of your turns, whatever is in the mortar takes 4d10} force damage. If this reduces the target's hit points to 0, the target is reduced to powder, pulp, or paste, as appropriate. Only magic items are unaffected. If you wish, when the pestle stops, you can have the mortar separate its contents-like powdered bone, crushed herbs, pulped organs-into separate piles."
 					]
 				},
 				{
@@ -2513,7 +2513,7 @@ export const items = {
 			"weapon": true,
 			"entries": [
 				"The pestle is a 6-inch-long, worn wooden tool. Once during your turn while you are holding the pestle, you can extend it into a quarterstaff or shrink it back into a pestle (no action required). As a quarterstaff, the pestle is a magic weapon that grants a +3 bonus to attack and damage rolls made with it.",
-				"The pestle has 12 charges. When you hit with a melee attack using the pestle, you can expend up to 3 of its charges to deal an extra {@damage 1d8} force damage for each charge expended. The pestle regains all expended charges daily at dawn."
+				"The pestle has 12 charges. When you hit with a melee attack using the pestle, you can expend up to 3 of its charges to deal an extra 1d8} force damage for each charge expended. The pestle regains all expended charges daily at dawn."
 			]
 		},
 		{
@@ -2572,7 +2572,7 @@ export const items = {
 			"weight": 0.5,
 			"entries": [
 				"Inside this heavy cloth bag are {@dice 3d4} dry beans. The bag weighs ½ pound plus ¼ pound for each bean it contains.",
-				"If you dump the bag's contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking {@damage 5d4} fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.",
+				"If you dump the bag's contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking 5d4} fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.",
 				"If you remove a bean from the bag, plant it in dirt or sand, and then water it, the bean produces an effect 1 minute later from the ground where it was planted. The DM can choose an effect from the following table, determine it randomly, or create an effect.",
 				{
 					"type": "table",
@@ -2587,7 +2587,7 @@ export const items = {
 					"rows": [
 						[
 							"01",
-							"{@dice 5d4} toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take {@damage 5d6} poison damage and become {@condition poisoned} for 1 hour. On an even roll, the eater gains {@dice 5d6} temporary hit points for 1 hour."
+							"{@dice 5d4} toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take 5d6} poison damage and become {poisoned} for 1 hour. On an even roll, the eater gains {@dice 5d6} temporary hit points for 1 hour."
 						],
 						[
 							"02-10",
@@ -2623,7 +2623,7 @@ export const items = {
 						],
 						[
 							"81-90",
-							"A nest of {@dice 1d4 + 3} eggs springs up. Any creature that eats an egg must make a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes {@damage 10d6} force damage from an internal magical explosion."
+							"A nest of {@dice 1d4 + 3} eggs springs up. Any creature that eats an egg must make a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes 10d6} force damage from an internal magical explosion."
 						],
 						[
 							"91-99",
@@ -2648,7 +2648,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"This is a sturdy leather sack with tiny Siberys shards embedded into the lining. If you have the Mark of Hospitality you can use an action to cast {@spell create food and water}, drawing a feast from within the bag. You shape this meal with your thoughts. You can create the standard bland fare without requiring any sort of check, but you can attempt to create finer food by making a Charisma check; if you're proficient with {@item cook's utensils|PHB}, add your bonus to this check. A failed check results in a sour and squalid meal.",
+				"This is a sturdy leather sack with tiny Siberys shards embedded into the lining. If you have the Mark of Hospitality you can use an action to cast { create food and water}, drawing a feast from within the bag. You shape this meal with your thoughts. You can create the standard bland fare without requiring any sort of check, but you can attempt to create finer food by making a Charisma check; if you're proficient with {@item cook's utensils|PHB}, add your bonus to this check. A failed check results in a sour and squalid meal.",
 				{
 					"type": "table",
 					"colLabels": [
@@ -2947,7 +2947,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"This scale bears celestial symbols on one pan and fiendish symbols on the other. You can use the scale to cast {@spell detect evil and good} as a ritual. Doing so requires you to place the scale on a solid surface, then sprinkle the pans with holy water or place a transparent gem worth 100 gp in each pan. The scale remains motionless if it detects nothing, tips to one side or the other for good (consecrated) or evil (desecrated), and fluctuates slightly if it detects a creature appropriate to the spell but neither good nor evil. By touching the scales after casting the ritual, you instantly learn any information the spell can normally convey, and then the effect ends."
+				"This scale bears celestial symbols on one pan and fiendish symbols on the other. You can use the scale to cast { detect evil and good} as a ritual. Doing so requires you to place the scale on a solid surface, then sprinkle the pans with holy water or place a transparent gem worth 100 gp in each pan. The scale remains motionless if it detects nothing, tips to one side or the other for good (consecrated) or evil (desecrated), and fluctuates slightly if it detects a creature appropriate to the spell but neither good nor evil. By touching the scales after casting the ritual, you instantly learn any information the spell can normally convey, and then the effect ends."
 			],
 			"attachedSpells": [
 				"detect evil and good"
@@ -2978,7 +2978,7 @@ export const items = {
 			"weight": 2,
 			"value": 100,
 			"entries": [
-				"As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall {@condition prone}. A creature moving through the area at half speed doesn't need to make the saving throw."
+				"As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall {prone}. A creature moving through the area at half speed doesn't need to make the saving throw."
 			],
 			"packContents": [
 				{
@@ -2995,7 +2995,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"This backpack contains the spirit of an {@creature air elemental} and a compact leather balloon. While you're wearing the backpack, you can deploy the balloon as an action and gain the effect of the {@spell levitate} spell for 10 minutes, targeting yourself and requiring no concentration. Alternatively, you can use a reaction to deploy the balloon when you're falling and gain the effect of the {@spell feather fall} spell for yourself.",
+				"This backpack contains the spirit of an {@creature air elemental} and a compact leather balloon. While you're wearing the backpack, you can deploy the balloon as an action and gain the effect of the { levitate} spell for 10 minutes, targeting yourself and requiring no concentration. Alternatively, you can use a reaction to deploy the balloon when you're falling and gain the effect of the { feather fall} spell for yourself.",
 				"When either spell ends, the balloon slowly deflates as the elemental spirit escapes and returns to the Elemental Plane of Air. As the balloon deflates, you descend gently toward the ground for up to 60 feet. If you are still in the air at the end of this distance, you fall if you have no other means of staying aloft.",
 				"After the spirit departs, the backpack's property is unusable unless the backpack is recharged for 1 hour in an elemental air node, which binds another spirit to the backpack."
 			],
@@ -3041,14 +3041,14 @@ export const items = {
 					"name": "Mark of Courage",
 					"type": "entries",
 					"entries": [
-						"As a bonus action, you can touch the unfurled banner and cause it to emanate courage. You and your allies are immune to the {@condition frightened} condition while within 20 feet of it. This benefit lasts for 10 minutes or until the banner is furled. Once you use this property, you can't use it again until you finish a short or long rest."
+						"As a bonus action, you can touch the unfurled banner and cause it to emanate courage. You and your allies are immune to the {frightened} condition while within 20 feet of it. This benefit lasts for 10 minutes or until the banner is furled. Once you use this property, you can't use it again until you finish a short or long rest."
 					]
 				},
 				{
 					"name": "Sentinel Standard",
 					"type": "entries",
 					"entries": [
-						"You can see {@condition invisible} creatures while they are within 20 feet of the unfurled banner and within your line of sight."
+						"You can see {invisible} creatures while they are within 20 feet of the unfurled banner and within your line of sight."
 					]
 				},
 				{
@@ -3063,7 +3063,7 @@ export const items = {
 					"type": "entries",
 					"entries": [
 						"You can transfer the banner's magic to a place by tracing the krig rune on the ground with your finger. The point where you trace it becomes the center of a spherical area of magic that has a 500-foot radius and that is fixed to the place. The transfer takes 8 hours of work that requires the banner to be within 5 feet of you and during which you choose creatures, creature types, or both that will benefit from the magic. At the end, the banner is destroyed, and the area gains the following property:",
-						"While in the 500-foot-radius sphere, the creatures you chose during the transfer process are immune to the {@condition frightened} condition and gain a +1 bonus to attack rolls and AC."
+						"While in the 500-foot-radius sphere, the creatures you chose during the transfer process are immune to the {frightened} condition and gain a +1 bonus to attack rolls and AC."
 					]
 				}
 			]
@@ -3154,7 +3154,7 @@ export const items = {
 						],
 						[
 							"21\u201322",
-							"The {@condition petrified} cocoon of an unknown insect"
+							"The {petrified} cocoon of an unknown insect"
 						],
 						[
 							"23\u201324",
@@ -3174,7 +3174,7 @@ export const items = {
 						],
 						[
 							"31\u201332",
-							"A bead that suppresses your hearing when secreted inside either ear, causing you to be {@condition deafened}"
+							"A bead that suppresses your hearing when secreted inside either ear, causing you to be {deafened}"
 						],
 						[
 							"33\u201334",
@@ -3514,7 +3514,7 @@ export const items = {
 			"value": 10000,
 			"poison": true,
 			"entries": [
-				"You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take {@damage 1d4} poison damage. Once applied, the poison retains potency for 1 minute before drying."
+				"You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4} poison damage. Once applied, the poison retains potency for 1 minute before drying."
 			]
 		},
 		{
@@ -3552,7 +3552,7 @@ export const items = {
 			"charges": 3,
 			"entries": [
 				"While holding this iron tower shield, you gain a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
-				"Additionally, the shield has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you are holding the shield and push a creature within your reach at least 5 feet away, you can expend 1 charge to push that creature an additional 10 feet, knock it {@condition prone}, or both."
+				"Additionally, the shield has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you are holding the shield and push a creature within your reach at least 5 feet away, you can expend 1 charge to push that creature an additional 10 feet, knock it {prone}, or both."
 			]
 		},
 		{
@@ -3563,7 +3563,7 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"This hell-forged battle standard is made of infernal iron and fitted with a small, unopenable cage containing a {@creature quasit}. The trapped {@creature quasit} is {@condition incapacitated}, and its cage has AC 19, 10 hit points, and immunity to all types of damage except force damage. If killed or somehow released, the {@creature quasit} disappears in a cloud of smoke, and a new one appears in the cage, provided the cage is intact.",
+				"This hell-forged battle standard is made of infernal iron and fitted with a small, unopenable cage containing a {@creature quasit}. The trapped {@creature quasit} is {incapacitated}, and its cage has AC 19, 10 hit points, and immunity to all types of damage except force damage. If killed or somehow released, the {@creature quasit} disappears in a cloud of smoke, and a new one appears in the cage, provided the cage is intact.",
 				"While you hold the banner, your weapon attacks and those of all allied creatures within 300 feet of you count as magical for the purposes of overcoming damage immunities and resistances."
 			],
 			"hasFluffImages": true
@@ -3579,7 +3579,7 @@ export const items = {
 			"weight": 0.0625,
 			"entries": [
 				"This small black sphere measures ¾ of an inch in diameter and weighs an ounce. Typically, {@dice 1d4 + 4} {@italic beads of force} are found together.",
-				"You can use an action to throw the bead up to 60 feet. The bead explodes on impact and is destroyed. Each creature within a 10-foot radius of where the bead landed must succeed on a DC 15 Dexterity saving throw or take {@damage 5d4} force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save, or are partially within the area, are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the sphere's wall. No attack or other effect can.",
+				"You can use an action to throw the bead up to 60 feet. The bead explodes on impact and is destroyed. Each creature within a 10-foot radius of where the bead landed must succeed on a DC 15 Dexterity saving throw or take 5d4} force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save, or are partially within the area, are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the sphere's wall. No attack or other effect can.",
 				"An enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's walking speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside."
 			],
 			"lootTables": [
@@ -3655,7 +3655,7 @@ export const items = {
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"The crown has 10 charges. While wearing it, you can use an action to expend some of its charges to cast one of the following spells from it (spell save DC 16): {@spell charm person} (1 charge), {@spell disintegrate} (6 charges), {@spell fear} (3 charges), {@spell finger of death} (7 charges), {@spell flesh to stone} (6 charges), {@spell hold person} (2 charges), {@spell ray of enfeeblement} (2 charges), {@spell sleep} (1 charge), {@spell slow} (3 charges), {@spell telekinesis} (5 charges).",
+						"The crown has 10 charges. While wearing it, you can use an action to expend some of its charges to cast one of the following spells from it (spell save DC 16): { charm person} (1 charge), { disintegrate} (6 charges), { fear} (3 charges), { finger of death} (7 charges), { flesh to stone} (6 charges), { hold person} (2 charges), { ray of enfeeblement} (2 charges), { sleep} (1 charge), { slow} (3 charges), { telekinesis} (5 charges).",
 						"The crown regains {@dice 1d6 + 3} expended charges daily at dawn."
 					]
 				},
@@ -3720,7 +3720,7 @@ export const items = {
 					"type": "list",
 					"items": [
 						"As a bonus action, you can expend 1 charge to detect the presence of aberrations, celestials, constructs, elementals, fey, fiends, or undead within 60 feet of you. If such creatures are present and don't have total cover from you, the bells ring softly, their tone indicating the creature types present.",
-						"As an action, you can expend 1 charge to cast {@spell protection from evil and good}."
+						"As an action, you can expend 1 charge to cast { protection from evil and good}."
 					]
 				}
 			],
@@ -3929,7 +3929,7 @@ export const items = {
 			"rarity": "none",
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or become {@condition poisoned} for 1 minute. The {@condition poisoned} creature must use its action to make a melee attack against a randomly determined creature within its reach. If there is no other creature within its reach, the {@condition poisoned} creature does nothing on its turn. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+				"A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or become {poisoned} for 1 minute. The {poisoned} creature must use its action to make a melee attack against a randomly determined creature within its reach. If there is no other creature within its reach, the {poisoned} creature does nothing on its turn. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 			],
 			"poisonTypes": [
 				"inhaled"
@@ -3964,7 +3964,7 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"Any creature that attunes to the tablet must make a DC 20 Wisdom saving throw at the end of its next long rest. On a failed save, the creature becomes afflicted with a random form of long-term madness (see \"{@book Madness|dmg|8|Madness}\" in chapter 8 of the {@book Dungeon Master's Guide|dmg}).",
-				"As an action, a creature attuned to the Black Crystal Tablet can use it to cast {@spell eyebite} or {@spell gate} (the portal created by this spell links to the Far Realm only). After the tablet is used to cast a spell, it cannot be used again until the next dawn."
+				"As an action, a creature attuned to the Black Crystal Tablet can use it to cast { eyebite} or { gate} (the portal created by this spell links to the Far Realm only). After the tablet is used to cast a spell, it cannot be used again until the next dawn."
 			],
 			"attachedSpells": [
 				"eyebite",
@@ -4070,7 +4070,7 @@ export const items = {
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"Every few years, a ghost orchid colony grows a black pod as thick as a human fist that holds three soft, black seeds. A creature that consumes one of these black seeds is affected by the spell {@spell feign death}. If the creature is unaware of the pod's effects or does not wish to be affected, it can resist the effect by succeeding on a DC 16 Constitution saving throw. Otherwise, it is considered to be a willing recipient of the spell."
+				"Every few years, a ghost orchid colony grows a black pod as thick as a human fist that holds three soft, black seeds. A creature that consumes one of these black seeds is affected by the spell { feign death}. If the creature is unaware of the pod's effects or does not wish to be affected, it can resist the effect by succeeding on a DC 16 Constitution saving throw. Otherwise, it is considered to be a willing recipient of the spell."
 			]
 		},
 		{
@@ -4103,8 +4103,8 @@ export const items = {
 			"rarity": "none",
 			"value": 30000,
 			"entries": [
-				"This tarry substance harvested from the dark boughs of the death's head willow is a powerful intoxicant. It can be smoked as a concentrate or injected directly into the bloodstream. A creature subjected to a dose of black sap cannot be {@condition charmed} or {@condition frightened} for {@dice 1d6} hours.",
-				"For each dose of black sap consumed, a creature must succeed on a DC 15 Constitution saving throw or become {@condition poisoned} for {@dice 2d4} hours\u2014an effect that is cumulative with multiple doses."
+				"This tarry substance harvested from the dark boughs of the death's head willow is a powerful intoxicant. It can be smoked as a concentrate or injected directly into the bloodstream. A creature subjected to a dose of black sap cannot be {charmed} or {frightened} for {@dice 1d6} hours.",
+				"For each dose of black sap consumed, a creature must succeed on a DC 15 Constitution saving throw or become {poisoned} for {@dice 2d4} hours\u2014an effect that is cumulative with multiple doses."
 			]
 		},
 		{
@@ -4162,17 +4162,17 @@ export const items = {
 					"name": "Devour Soul",
 					"type": "entries",
 					"entries": [
-						"Whenever you use it to reduce a creature to 0 hit points, the sword slays the creature and devours its soul, unless it is a construct or an undead. A creature whose soul has been devoured by Blackrazor can be restored to life only by a {@spell wish} spell.",
+						"Whenever you use it to reduce a creature to 0 hit points, the sword slays the creature and devours its soul, unless it is a construct or an undead. A creature whose soul has been devoured by Blackrazor can be restored to life only by a { wish} spell.",
 						"When it devours a soul, Blackrazor grants you temporary hit points equal to the slain creature's hit point maximum. These hit points fade after 24 hours. As long as these temporary hit points last and you keep Blackrazor in hand, you have advantage on attack rolls, saving throws, and ability checks.",
-						"If you hit an undead with this weapon, you take {@damage 1d10} necrotic damage and the target regains {@dice 1d10} hit points. If this necrotic damage reduces you to 0 hit points, Blackrazor devours your soul."
+						"If you hit an undead with this weapon, you take 1d10} necrotic damage and the target regains {@dice 1d10} hit points. If this necrotic damage reduces you to 0 hit points, Blackrazor devours your soul."
 					]
 				},
 				{
 					"name": "Soul Hunter",
 					"type": "entries",
 					"entries": [
-						"While you hold the weapon. you are aware of the presence of Tiny or larger creatures within 60 feet of you that aren't constructs or undead. You also can't be {@condition charmed} or {@condition frightened}.",
-						"Blackrazor can cast the {@spell haste} spell on you once per day. It decides when to cast the spell and maintains concentration on it so that you don't have to."
+						"While you hold the weapon. you are aware of the presence of Tiny or larger creatures within 60 feet of you that aren't constructs or undead. You also can't be {charmed} or {frightened}.",
+						"Blackrazor can cast the { haste} spell on you once per day. It decides when to cast the spell and maintains concentration on it so that you don't have to."
 					]
 				},
 				{
@@ -4234,14 +4234,14 @@ export const items = {
 					"name": "Power Strike",
 					"type": "entries",
 					"entries": [
-						"When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra {@damage 1d6} force damage to the target."
+						"When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra 1d6} force damage to the target."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: {@spell cone of cold} (5 charges), {@spell fireball} (5th-level version, 5 charges), {@spell globe of invulnerability} (6 charges), {@spell hold monster} (5 charges), {@spell levitate} (2 charges). {@spell lightning bolt} (5th-level version, 5 charges), {@spell magic missile} (1 charge), {@spell ray of enfeeblement} (1 charge), or {@spell wall of force} (5 charges)."
+						"While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: { cone of cold} (5 charges), { fireball} (5th-level version, 5 charges), { globe of invulnerability} (6 charges), { hold monster} (5 charges), { levitate} (2 charges). { lightning bolt} (5th-level version, 5 charges), { magic missile} (1 charge), { ray of enfeeblement} (1 charge), or { wall of force} (5 charges)."
 					]
 				},
 				{
@@ -4288,7 +4288,7 @@ export const items = {
 					"type": "entries",
 					"name": "Dispel Magic",
 					"entries": [
-						"You can expend 1 of the staff's charges as a bonus action to cast {@spell dispel magic} on a creature, an object, or a magical effect that you touch with the tip of the staff. If the target is an unwilling creature or an object in the possession of such a creature, you must hit the creature with a melee attack using the Blackstaff before you can expend the charge to cast the spell."
+						"You can expend 1 of the staff's charges as a bonus action to cast { dispel magic} on a creature, an object, or a magical effect that you touch with the tip of the staff. If the target is an unwilling creature or an object in the possession of such a creature, you must hit the creature with a melee attack using the Blackstaff before you can expend the charge to cast the spell."
 					]
 				},
 				{
@@ -4361,7 +4361,7 @@ export const items = {
 			"bonusWeapon": "+3",
 			"entries": [
 				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.",
-				"When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra {@damage 6d8} slashing damage from the hit.",
+				"When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8} slashing damage from the hit.",
 				{
 					"type": "entries",
 					"name": "Random Properties",
@@ -4381,14 +4381,14 @@ export const items = {
 					"type": "entries",
 					"name": "Ruler of Avernus",
 					"entries": [
-						"As an action, you can point this sword at one devil you can see within 60 feet of you. That devil must succeed on a DC 22 Charisma saving throw or be {@condition charmed} by you for 1 hour. While {@condition charmed} in this way, the devil follows your orders to the best of its ability. If you command the devil to do something it perceives as suicidal, the effect ends and you can no longer use this power of the sword against that devil."
+						"As an action, you can point this sword at one devil you can see within 60 feet of you. That devil must succeed on a DC 22 Charisma saving throw or be {charmed} by you for 1 hour. While {charmed} in this way, the devil follows your orders to the best of its ability. If you command the devil to do something it perceives as suicidal, the effect ends and you can no longer use this power of the sword against that devil."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Infernal Recall",
 					"entries": [
-						"As an action, you can use the sword to cast {@spell word of recall}. Creatures transported by this spell appear in an unoccupied space within 30 feet of the current ruler of Avernus, or a sanctuary you designate if you rule Avernus."
+						"As an action, you can use the sword to cast { word of recall}. Creatures transported by this spell appear in an unoccupied space within 30 feet of the current ruler of Avernus, or a sanctuary you designate if you rule Avernus."
 					]
 				},
 				{
@@ -4422,7 +4422,7 @@ export const items = {
 									"type": "list",
 									"items": [
 										"The weapon's bonus to attack and damage rolls increases to +2.",
-										"While holding the weapon, you can use an action to cast one of the following spells from it (save DC 15): {@spell fabricate}, {@spell hallucinatory terrain}, {@spell major image}, or {@spell phantasmal killer}. Once a spell has been cast using the dagger, that spell can't be cast from the dagger again until the next dawn."
+										"While holding the weapon, you can use an action to cast one of the following spells from it (save DC 15): { fabricate}, { hallucinatory terrain}, { major image}, or { phantasmal killer}. Once a spell has been cast using the dagger, that spell can't be cast from the dagger again until the next dawn."
 									]
 								}
 							]
@@ -4529,7 +4529,7 @@ export const items = {
 									"items": [
 										"The weapon's bonus to attack and damage rolls increases to +3.",
 										"The saving throw DC for spells cast from the dagger increases to 17.",
-										"While holding the dagger, you can turn {@condition invisible} as an action. Anything you are wearing or carrying is {@condition invisible} with you. You remain {@condition invisible} until you stop holding the dagger, until you attack or cast a spell that forces a creature to make a saving throw, or until you use a bonus action to become visible again."
+										"While holding the dagger, you can turn {invisible} as an action. Anything you are wearing or carrying is {invisible} with you. You remain {invisible} until you stop holding the dagger, until you attack or cast a spell that forces a creature to make a saving throw, or until you use a bonus action to become visible again."
 									]
 								}
 							]
@@ -4569,7 +4569,7 @@ export const items = {
 			],
 			"entries": [
 				"The Blast Scepter can be used as an arcane focus.",
-				"Whoever is attuned to the Blast Scepter gains resistance to fire and lightning damage and can, as an action, use it to cast {@spell thunderwave} as a 4th-level spell (save DC 16) without expending a spell slot."
+				"Whoever is attuned to the Blast Scepter gains resistance to fire and lightning damage and can, as an action, use it to cast { thunderwave} as a 4th-level spell (save DC 16) without expending a spell slot."
 			],
 			"attachedSpells": [
 				"thunderwave"
@@ -4582,7 +4582,7 @@ export const items = {
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"This volatile alchemical powder comes in a small pouch. When ignited by an open flame or a fuse, the powder explodes. Each creature within 5 feet of the exploding pouch must make a DC 13 Dexterity saving throw, taking {@damage 3d6} bludgeoning damage on a failed save, or half as much damage on a successful one.",
+				"This volatile alchemical powder comes in a small pouch. When ignited by an open flame or a fuse, the powder explodes. Each creature within 5 feet of the exploding pouch must make a DC 13 Dexterity saving throw, taking 3d6} bludgeoning damage on a failed save, or half as much damage on a successful one.",
 				"A character can bind multiple pouches of blasting powder together so they explode at the same time. Each additional pouch increases the damage by {@dice 1d6} (maximum of {@dice 10d6}) and the blast radius by 5 feet (maximum of 20 feet)."
 			]
 		},
@@ -4594,7 +4594,7 @@ export const items = {
 			"rarity": "none",
 			"value": 20000,
 			"entries": [
-				"This bitter chartreuse concoction is distilled from a fungus native to the Blightshore badlands. The sickly green liqueur harbors potent psychedelic properties. Provided it is neither a construct nor undead, a creature subjected to a dose of blight ichor gains advantage on Intelligence and Wisdom checks, as well as vulnerability to psychic damage, for 1 hour. For each dose of blight ichor consumed, the creature must succeed on a DC 15 Constitution saving throw or become {@condition poisoned} for {@dice 1d6} hours and suffer the effects of a {@spell confusion} spell for 1 minute. An undead creature subjected to a dose of blight ichor gains advantage on all Dexterity checks and is immune to the {@condition frightened} condition for 1 hour."
+				"This bitter chartreuse concoction is distilled from a fungus native to the Blightshore badlands. The sickly green liqueur harbors potent psychedelic properties. Provided it is neither a construct nor undead, a creature subjected to a dose of blight ichor gains advantage on Intelligence and Wisdom checks, as well as vulnerability to psychic damage, for 1 hour. For each dose of blight ichor consumed, the creature must succeed on a DC 15 Constitution saving throw or become {poisoned} for {@dice 1d6} hours and suffer the effects of a { confusion} spell for 1 minute. An undead creature subjected to a dose of blight ichor gains advantage on all Dexterity checks and is immune to the {frightened} condition for 1 hour."
 			]
 		},
 		{
@@ -4652,7 +4652,7 @@ export const items = {
 						{
 							"type": "list",
 							"items": [
-								"When you hit a creature with a weapon attack, you can expend a charge to deal an extra {@damage 4d6} necrotic damage to the target, and you regain a number of hit points equal to the necrotic damage dealt.",
+								"When you hit a creature with a weapon attack, you can expend a charge to deal an extra 4d6} necrotic damage to the target, and you regain a number of hit points equal to the necrotic damage dealt.",
 								"When a creature you can see damages you, you can expend a charge and use your reaction to make a melee attack against that creature, with advantage on your attack roll."
 							]
 						}
@@ -4676,7 +4676,7 @@ export const items = {
 					"type": "list",
 					"items": [
 						"Your attack rolls score a critical hit on a {@dice d20} roll of 19 or 20.",
-						"When you score a critical hit against a creature, that target takes an extra {@damage 4d6} necrotic damage, and you gain a number of temporary hit points equal to the necrotic damage dealt.",
+						"When you score a critical hit against a creature, that target takes an extra 4d6} necrotic damage, and you gain a number of temporary hit points equal to the necrotic damage dealt.",
 						"When a creature you can see damages you, you can use your reaction to make a melee attack against that creature, with advantage on your attack roll."
 					]
 				},
@@ -4697,7 +4697,7 @@ export const items = {
 			"rarity": "none",
 			"poison": true,
 			"entries": [
-				"This poison is created from blood harvested from a dead or {@condition incapacitated} lycanthrope in its animal or hybrid form. A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be cursed with lycanthropy (see the Monster Manual). The curse lasts until removed by the {@spell remove curse} spell or similar magic.",
+				"This poison is created from blood harvested from a dead or {incapacitated} lycanthrope in its animal or hybrid form. A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be cursed with lycanthropy (see the Monster Manual). The curse lasts until removed by the { remove curse} spell or similar magic.",
 				"The type of lycanthropy depends on the lycanthrope used to create the poison. To determine the type of lycanthropy randomly, roll a {@dice d6}:",
 				{
 					"type": "table",
@@ -4785,7 +4785,7 @@ export const items = {
 			"axe": true,
 			"weapon": true,
 			"entries": [
-				"You gain a +2 bonus to attack and damage rolls made with this magic axe. The axe deals an extra {@damage 1d6} necrotic damage to creatures that aren't constructs or undead. If you reduce such a creature to 0 hit points with an attack using this axe, you gain 10 temporary hit points.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic axe. The axe deals an extra 1d6} necrotic damage to creatures that aren't constructs or undead. If you reduce such a creature to 0 hit points with an attack using this axe, you gain 10 temporary hit points.",
 				"This axe is forged from a dark, rust-colored metal and once belonged to the goliath barbarian Grog Strongjaw of Vox Machina."
 			]
 		},
@@ -4976,7 +4976,7 @@ export const items = {
 			"value": 15000,
 			"age": "renaissance",
 			"entries": [
-				"As an action, a character can light this bomb and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take {@damage 3d6} fire damage."
+				"As an action, a character can light this bomb and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take 3d6} fire damage."
 			]
 		},
 		{
@@ -5050,7 +5050,7 @@ export const items = {
 			"entries": [
 				"The definitive treatise on all that is good in the multiverse, the fabled Book of Exalted Deeds figures prominently in many religions. Rather than being a scripture devoted to a particular faith, the book's various authors filled the pages with their own vision of true virtue, providing guidance for defeating evil.",
 				"The Book of Exalted Deeds rarely lingers in one place. As soon as the book is read, it vanishes to some other corner of the multiverse where its moral guidance can bring light to a darkened world. Although attempts have been made to copy the work, efforts to do so fail to capture its magical nature or translate the benefits it offers to those pure of heart and firm of purpose.",
-				"A heavy clasp, wrought to look like angel wings, keeps the book's contents secure. Only a creature of good alignment that is attuned to the book can release the clasp that holds it shut. Once the book is opened, the attuned creature must spend 80 hours reading and studying the book to digest its contents and gain its benefits. Other creatures that peruse the book's open pages can read the text but glean no deeper meaning and reap no benefits. An evil creature that tries to read from the book takes {@damage 24d6} radiant damage. This damage ignores resistance and immunity, and can't be reduced or avoided by any means. A creature reduced to 0 hit points by this damage disappears in a blinding flash and is destroyed, leaving its possessions behind.",
+				"A heavy clasp, wrought to look like angel wings, keeps the book's contents secure. Only a creature of good alignment that is attuned to the book can release the clasp that holds it shut. Once the book is opened, the attuned creature must spend 80 hours reading and studying the book to digest its contents and gain its benefits. Other creatures that peruse the book's open pages can read the text but glean no deeper meaning and reap no benefits. An evil creature that tries to read from the book takes 24d6} radiant damage. This damage ignores resistance and immunity, and can't be reduced or avoided by any means. A creature reduced to 0 hit points by this damage disappears in a blinding flash and is destroyed, leaving its possessions behind.",
 				"Benefits granted by the Book of Exalted Deeds last only as long as you strive to do good. If you fail to perform at least one act of kindness or generosity within the span of 10 days, or if you willingly perform an evil act, you lose all the benefits granted by the book.",
 				{
 					"name": "Random Properties",
@@ -5163,7 +5163,7 @@ export const items = {
 					"name": "Command Evil",
 					"type": "entries",
 					"entries": [
-						"While you are attuned to the book and holding it, you can use an action to cast the {@spell dominate monster} spell on an evil target (save DC 18). You can't use this property again until the next dawn."
+						"While you are attuned to the book and holding it, you can use an action to cast the { dominate monster} spell on an evil target (save DC 18). You can't use this property again until the next dawn."
 					]
 				},
 				{
@@ -5177,7 +5177,7 @@ export const items = {
 					"name": "Dark Speech",
 					"type": "entries",
 					"entries": [
-						"While you carry the Book of Vile Darkness and are attuned to it, you can use an action to recite word from its pages in a foul language known as Dark Speech. Each time you do so, you take {@damage 1d12} psychic damage, and each non-evil creature within 15 feet of you takes {@damage 3d6} psychic damage."
+						"While you carry the Book of Vile Darkness and are attuned to it, you can use an action to recite word from its pages in a foul language known as Dark Speech. Each time you do so, you take 1d12} psychic damage, and each non-evil creature within 15 feet of you takes 3d6} psychic damage."
 					]
 				},
 				{
@@ -5219,21 +5219,21 @@ export const items = {
 										"type": "item",
 										"name": "Circle of Death",
 										"entries": [
-											"While attuned to the book, you can cast {@spell circle of death} (save DC 20) from it as an action. After you cast the spell, roll a {@dice d6}. On a roll of 1-5, you can't use this property again until the next dawn."
+											"While attuned to the book, you can cast { circle of death} (save DC 20) from it as an action. After you cast the spell, roll a {@dice d6}. On a roll of 1-5, you can't use this property again until the next dawn."
 										]
 									},
 									{
 										"type": "item",
 										"name": "Condition Immunities",
 										"entries": [
-											"While attuned to the book, you can't be {@condition charmed} or {@condition frightened}."
+											"While attuned to the book, you can't be {charmed} or {frightened}."
 										]
 									},
 									{
 										"type": "item",
 										"name": "Evil Presence",
 										"entries": [
-											"The book houses an evil spirit that is hostile toward you. When you become attuned to the book, the spirit tries to leave the book and enter your body. If you fail a DC 20 Charisma saving throw, it succeeds, and you become an NPC under the DM's control until the intruding spirit is banished using magic such as the {@spell dispel evil and good} spell. The banished spirit returns to the book."
+											"The book houses an evil spirit that is hostile toward you. When you become attuned to the book, the spirit tries to leave the book and enter your body. If you fail a DC 20 Charisma saving throw, it succeeds, and you become an NPC under the DM's control until the intruding spirit is banished using magic such as the { dispel evil and good} spell. The banished spirit returns to the book."
 										]
 									}
 								]
@@ -5270,8 +5270,8 @@ export const items = {
 					"items": [
 						"Cause a blue gem set into the dagger's pommel to shed bright light in a 20-foot radius and dim light for an additional 20 feet, or make the gem go dark.",
 						"Turn the dagger into a compass that, while resting on your palm, points north.",
-						"Cast {@spell dimension door} from the dagger. Once this property is used, it can't be used again until the next dawn.",
-						"Cast {@spell compulsion} (save DC 15) from the dagger. The range of the spell increases to 90 feet but it targets only spiders that are beasts. Once this property is used, it can't be used again until the next dawn."
+						"Cast { dimension door} from the dagger. Once this property is used, it can't be used again until the next dawn.",
+						"Cast { compulsion} (save DC 15) from the dagger. The range of the spell increases to 90 feet but it targets only spiders that are beasts. Once this property is used, it can't be used again until the next dawn."
 					]
 				}
 			],
@@ -5321,7 +5321,7 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While you wear these boots, you can use an action to cast the {@spell levitate} spell on yourself at will."
+				"While you wear these boots, you can use an action to cast the { levitate} spell on yourself at will."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -5431,7 +5431,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring, adorned with the symbol of Boros, allows you to cast {@spell heroism}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Boros' recognition and favor.",
+				"This ring, adorned with the symbol of Boros, allows you to cast { heroism}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Boros' recognition and favor.",
 				"A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13)."
 			],
 			"attachedSpells": [
@@ -5486,7 +5486,7 @@ export const items = {
 			"rarity": "uncommon",
 			"entries": [
 				"This bottle contains a breath of elemental air. When you inhale it, you either exhale it or hold it.",
-				"If you exhale the breath, you gain the effect of the {@spell gust of wind} spell. If you hold the breath, you don't need to breathe for 1 hour, though you can end this benefit early (for example, to speak). Ending it early doesn't give you the benefit of exhaling the breath."
+				"If you exhale the breath, you gain the effect of the { gust of wind} spell. If you hold the breath, you don't need to breathe for 1 hour, though you can end this benefit early (for example, to speak). Ending it early doesn't give you the benefit of exhaling the breath."
 			],
 			"attachedSpells": [
 				"gust of wind"
@@ -5502,7 +5502,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 3,
 			"entries": [
-				"While this bowl is filled with water, you can use an action to speak the bowl's command word and summon a {@creature water elemental}, as if you had cast the {@spell conjure elemental} spell. The bowl can't be used this way again until the next dawn.",
+				"While this bowl is filled with water, you can use an action to speak the bowl's command word and summon a {@creature water elemental}, as if you had cast the { conjure elemental} spell. The bowl can't be used this way again until the next dawn.",
 				"The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons."
 			],
 			"attachedSpells": [
@@ -5531,12 +5531,12 @@ export const items = {
 			"curse": true,
 			"weight": 1,
 			"entries": [
-				"While you wear this gold bracelet, it grants you immunity to being {@condition petrified}, and it allows you to cast {@spell flesh to stone} (save DC 15) as an action. Once the spell has been cast three times, the bracelet can no longer cast it. Thereafter, you can cast {@spell stone shape} as an action. After you have done this thirteen times, the bracelet loses its magic and turns from gold to lead.",
+				"While you wear this gold bracelet, it grants you immunity to being {petrified}, and it allows you to cast { flesh to stone} (save DC 15) as an action. Once the spell has been cast three times, the bracelet can no longer cast it. Thereafter, you can cast { stone shape} as an action. After you have done this thirteen times, the bracelet loses its magic and turns from gold to lead.",
 				{
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"The bracelet's affinity with earth manifests as an unusual curse. Creatures of flesh that are strongly related to earth and stone, such as stone giants and dwarves, have advantage on the saving throw against {@spell flesh to stone} cast from the bracelet. If such a creature's save is successful, the bracelet breaks your attunement to it and casts the spell on you. You make your saving throw with disadvantage, and on a failed save you are {@condition petrified} instantly."
+						"The bracelet's affinity with earth manifests as an unusual curse. Creatures of flesh that are strongly related to earth and stone, such as stone giants and dwarves, have advantage on the saving throw against { flesh to stone} cast from the bracelet. If such a creature's save is successful, the bracelet breaks your attunement to it and casts the spell on you. You make your saving throw with disadvantage, and on a failed save you are {petrified} instantly."
 					]
 				}
 			],
@@ -5641,7 +5641,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 5,
 			"entries": [
-				"While a fire burns in this brass brazier, you can use an action to speak the brazier's command word and summon a {@creature fire elemental}, as if you had cast the {@spell conjure elemental} spell. The brazier can't be used this way again until the next dawn.",
+				"While a fire burns in this brass brazier, you can use an action to speak the brazier's command word and summon a {@creature fire elemental}, as if you had cast the { conjure elemental} spell. The brazier can't be used this way again until the next dawn.",
 				"The brazier weighs 5 pounds."
 			],
 			"attachedSpells": [
@@ -5757,7 +5757,7 @@ export const items = {
 			"rarity": "rare",
 			"wondrous": true,
 			"entries": [
-				"This fine leather bridle tugs at the hand when first held, as though it longs to reach out for a beast nearby. When you hold one end of the bridle, you can use an action to speak its command word, causing the other end to lash out at a beast you can see within 20 feet of you. The target must succeed on a DC 17 Charisma saving throw or have the bridle tie itself around its neck, then fall under your command as if subjected to the {@spell dominate beast} spell. Once the targeted is affected, you do not need to hold the other end of the bridle to command it. With a successful saving throw, the target becomes immune to the bridle's power until the next dawn.",
+				"This fine leather bridle tugs at the hand when first held, as though it longs to reach out for a beast nearby. When you hold one end of the bridle, you can use an action to speak its command word, causing the other end to lash out at a beast you can see within 20 feet of you. The target must succeed on a DC 17 Charisma saving throw or have the bridle tie itself around its neck, then fall under your command as if subjected to the { dominate beast} spell. Once the targeted is affected, you do not need to hold the other end of the bridle to command it. With a successful saving throw, the target becomes immune to the bridle's power until the next dawn.",
 				"A creature controlled by the bridle can be released by the creature that bound it as a bonus action. A creature controlled by the bridle can make a DC 17 Charisma check each day at dawn. On a success, the creature is no longer affected by the bridle."
 			],
 			"attachedSpells": [
@@ -5826,7 +5826,7 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the {@spell magic missile} spell."
+				"While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the { magic missile} spell."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -5956,7 +5956,7 @@ export const items = {
 			"value": 50000,
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 ({@damage 3d6}) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 ({@damage 1d6}) poison damage. After three successful saves, the poison ends."
+				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 (3d6}) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 (1d6}) poison damage. After three successful saves, the poison ends."
 			],
 			"poisonTypes": [
 				"inhaled"
@@ -6146,7 +6146,7 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"This slender taper is dedicated to a deity and shares that deity's alignment. The candle's alignment can be detected with the {@spell detect evil and good} spell. The DM chooses the god and associated alignment or determines the alignment randomly.",
+				"This slender taper is dedicated to a deity and shares that deity's alignment. The candle's alignment can be detected with the { detect evil and good} spell. The DM chooses the god and associated alignment or determines the alignment randomly.",
 				{
 					"type": "table",
 					"colLabels": [
@@ -6198,7 +6198,7 @@ export const items = {
 				},
 				"The candle's magic is activated when the candle is lit, which requires an action. After burning for 4 hours, the candle is destroyed. You can snuff it out early for use at a later time. Deduct the time it burned in increments of 1 minute from the candle's total burn time.",
 				"While lit, the candle sheds dim light in a 30-foot radius. Any creature within that light whose alignment matches that of the candle makes attack rolls, saving throws, and ability checks with advantage. In addition, a cleric or druid in the light whose alignment matches the candle's can cast 1st-level spells he or she has prepared without expending spell slots, though the spell's effect is as if cast with a 1st-level slot.",
-				"Alternatively, when you light the candle for the first time, you can cast the {@spell gate} spell with it. Doing so destroys the candle."
+				"Alternatively, when you light the candle for the first time, you can cast the { gate} spell with it. Doing so destroys the candle."
 			],
 			"attachedSpells": [
 				"gate"
@@ -6273,7 +6273,7 @@ export const items = {
 			"rarity": "rare",
 			"wondrous": true,
 			"entries": [
-				"This cape smells faintly of brimstone. While wearing it, you can use it to cast the {@spell dimension door} spell as an action. This property of the cape can't be used again until the next dawn.",
+				"This cape smells faintly of brimstone. While wearing it, you can use it to cast the { dimension door} spell as an action. This property of the cape can't be used again until the next dawn.",
 				"When you disappear, you leave behind a cloud of smoke, and you appear in a similar cloud of smoke at your destination. The smoke lightly obscures the space you left and the space you appear in, and it dissipates at the end of your next turn. A light or stronger wind disperses the smoke."
 			],
 			"attachedSpells": [
@@ -6467,7 +6467,7 @@ export const items = {
 			"value": 20000,
 			"poison": true,
 			"entries": [
-				"This poison must be harvested from a dead or {@condition incapacitated} {@creature carrion crawler}. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {@condition poisoned} for 1 minute. The {@condition poisoned} creature is {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+				"This poison must be harvested from a dead or {incapacitated} {@creature carrion crawler}. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {poisoned} for 1 minute. The {poisoned} creature is {paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 			],
 			"poisonTypes": [
 				"contact"
@@ -6679,7 +6679,7 @@ export const items = {
 			"rarity": "unknown",
 			"entries": [
 				"A catapult munition roughly the size and weight of a cannonball.",
-				"The munition can be thrown up to 30 feet and explodes on impact. Any creature within a 15-foot-radius sphere centered on the point of impact must make a DC 14 Dexterity saving throw, taking 35 ({@damage 10d6}) fire damage on a failed save, or half as much damage on a successful one. In addition, each object in that area that isn't being worn or carried takes 35 ({@damage 10d6}) fire damage."
+				"The munition can be thrown up to 30 feet and explodes on impact. Any creature within a 15-foot-radius sphere centered on the point of impact must make a DC 14 Dexterity saving throw, taking 35 (10d6}) fire damage on a failed save, or half as much damage on a successful one. In addition, each object in that area that isn't being worn or carried takes 35 (10d6}) fire damage."
 			]
 		},
 		{
@@ -6714,9 +6714,9 @@ export const items = {
 			],
 			"wondrous": true,
 			"entries": [
-				"This Tiny pot bears relief scenes of heroes on its cast iron sides. You can use the cauldron as a spellcasting focus for your spells, and it functions as a suitable component for the {@spell scrying} spell. When you finish a long rest, you can use the cauldron to create a {@item potion of greater healing}. The potion lasts for 24 hours, then loses its magic if not consumed.",
+				"This Tiny pot bears relief scenes of heroes on its cast iron sides. You can use the cauldron as a spellcasting focus for your spells, and it functions as a suitable component for the { scrying} spell. When you finish a long rest, you can use the cauldron to create a {@item potion of greater healing}. The potion lasts for 24 hours, then loses its magic if not consumed.",
 				"As an action, you can cause the cauldron to grow large enough for a Medium creature to crouch within. You can revert the cauldron to its normal size as an action, harmlessly shunting anything that can't fit inside to the nearest unoccupied space.",
-				"If you place the corpse of a humanoid into the cauldron and cover the corpse with 200 pounds of salt (which costs 10 gp) for at least 8 hours, the salt is consumed and the creature returns to life as if by {@spell raise dead} at the next dawn. Once used, this property can't be used again for 7 days."
+				"If you place the corpse of a humanoid into the cauldron and cover the corpse with 200 pounds of salt (which costs 10 gp) for at least 8 hours, the salt is consumed and the creature returns to life as if by { raise dead} at the next dawn. Once used, this property can't be used again for 7 days."
 			],
 			"attachedSpells": [
 				"raise dead",
@@ -6734,7 +6734,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"While incense is burning in this censer, you can use an action to speak the censer's command word and summon an {@creature air elemental}, as if you had cast the {@spell conjure elemental} spell. The censer can't be used this way again until the next dawn.",
+				"While incense is burning in this censer, you can use an action to speak the censer's command word and summon an {@creature air elemental}, as if you had cast the { conjure elemental} spell. The censer can't be used this way again until the next dawn.",
 				"This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound."
 			],
 			"attachedSpells": [
@@ -6857,7 +6857,7 @@ export const items = {
 			"charges": 3,
 			"entries": [
 				"This fist-sized charm is made from a bundle of dried plant stems wrapped in silver thread. Hung on a leather thong, it is typically worn around the neck or attached to a belt.",
-				"This charm has 3 charges. While you bear the charm, you can expend 1 charge as an action to cast the {@spell speak with plants} spell. For the duration of the spell, you also have advantage on Charisma checks made to influence the behavior, demeanor, and attitude of plants. The charm regains all expended charges at dawn each day."
+				"This charm has 3 charges. While you bear the charm, you can expend 1 charge as an action to cast the { speak with plants} spell. For the duration of the spell, you also have advantage on Charisma checks made to influence the behavior, demeanor, and attitude of plants. The charm regains all expended charges at dawn each day."
 			],
 			"attachedSpells": [
 				"speak with plants"
@@ -6955,23 +6955,23 @@ export const items = {
 					"type": "entries",
 					"name": "Linked Room",
 					"entries": [
-						"Each chip of creation is inextricably linked to its own demiplanar room, as per the {@spell demiplane} spell. This room exists as long as both this chip and the Stone of Creation do. A door to the room only exists when created using a {@spell demiplane} spell, whether a chip of creation is used in the casting or not."
+						"Each chip of creation is inextricably linked to its own demiplanar room, as per the { demiplane} spell. This room exists as long as both this chip and the Stone of Creation do. A door to the room only exists when created using a { demiplane} spell, whether a chip of creation is used in the casting or not."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Demiplane",
 					"entries": [
-						"While attuned to a chip of creation, you can cast {@spell demiplane} at will but only to reach the demiplanar room associated with that chip of creation or another demiplane that you know the nature and contents of, and only if the target demiplane was created by another piece of the {@item Stone of Creation|AitFR-AVT}."
+						"While attuned to a chip of creation, you can cast { demiplane} at will but only to reach the demiplanar room associated with that chip of creation or another demiplane that you know the nature and contents of, and only if the target demiplane was created by another piece of the {@item Stone of Creation|AitFR-AVT}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Destroying a Chip",
 					"entries": [
-						"A chip of creation is an artifact in its own right and impervious to most damage, but a {@spell disintegrate} spell is sufficient to destroy it. After it has been attuned once, a chip that has gone {@dice 1d4 + 1} days unattuned becomes an inert, powerless bit of rock.",
+						"A chip of creation is an artifact in its own right and impervious to most damage, but a { disintegrate} spell is sufficient to destroy it. After it has been attuned once, a chip that has gone {@dice 1d4 + 1} days unattuned becomes an inert, powerless bit of rock.",
 						"If the {@item Stone of Creation|AitFR-AVT} is destroyed, all its chips break attunement, lose all magical properties, and linked demiplanar rooms cease to exist at once. Creatures or objects within the room are instantly expelled into the immediate vicinity of the destroyed chip.",
-						"If it reaches the Elemental Chaos or is struck by a forked, metal rod attuned to the Elemental Chaos (as per the {@spell plane shift} spell), a chip is destroyed."
+						"If it reaches the Elemental Chaos or is struck by a forked, metal rod attuned to the Elemental Chaos (as per the { plane shift} spell), a chip is destroyed."
 					]
 				}
 			],
@@ -7064,7 +7064,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"While wearing this circlet, you can use an action to cast the {@spell scorching ray} spell with it. When you make the spell's attacks, you do so with an attack bonus of {@hit 5}. The circlet can't be used this way again until the next dawn."
+				"While wearing this circlet, you can use an action to cast the { scorching ray} spell with it. When you make the spell's attacks, you do so with an attack bonus of +5}. The circlet can't be used this way again until the next dawn."
 			],
 			"attachedSpells": [
 				"scorching ray"
@@ -7155,7 +7155,7 @@ export const items = {
 			},
 			"entries": [
 				"These heavy gauntlets of brown iron are forged in the shape of an {@creature umber hulk||umber hulk's} claws, and they fit the wearer's hands and forearms all the way up to the elbow. While wearing both claws, you gain a burrowing speed of 20 feet, and you can tunnel through solid rock at a rate of 1 foot per round.",
-				"You can use a claw as a melee weapon while wearing it. You have proficiency with it, and it deals {@damage 1d8} slashing damage on a hit (your Strength modifier applies to the attack and damage rolls, as normal).",
+				"You can use a claw as a melee weapon while wearing it. You have proficiency with it, and it deals 1d8} slashing damage on a hit (your Strength modifier applies to the attack and damage rolls, as normal).",
 				"While wearing the claws, you can't manipulate objects or cast spells with somatic components."
 			]
 		},
@@ -7216,7 +7216,7 @@ export const items = {
 						"You have a climbing speed equal to your walking speed.",
 						"You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.",
 						"You can't be caught in webs of any sort and can move through webs as if they were {@quickref difficult terrain||3}.",
-						"You can use an action to cast the {@spell web} spell (save DC 13). The web created by the spell fills twice its normal area. Once used, this property of the cloak can't be used again until the next dawn."
+						"You can use an action to cast the { web} spell (save DC 13). The web created by the spell fills twice its normal area. Once used, this property of the cloak can't be used again until the next dawn."
 					]
 				}
 			],
@@ -7248,7 +7248,7 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while you are {@condition incapacitated}, {@condition restrained}, or otherwise unable to move."
+				"While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while you are {incapacitated}, {restrained}, or otherwise unable to move."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -7286,7 +7286,7 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While wearing this cloak, you can pull its hood over your head to cause yourself to become {@condition invisible}. While you are {@condition invisible}, anything you are carrying or wearing is {@condition invisible} with you. You become visible when you cease wearing the hood. Pulling the hood up or down requires an action.",
+				"While wearing this cloak, you can pull its hood over your head to cause yourself to become {invisible}. While you are {invisible}, anything you are carrying or wearing is {invisible} with you. You become visible when you cease wearing the hood. Pulling the hood up or down requires an action.",
 				"Deduct the time you are invisible, in increments of 1 minute, from the cloak's maximum duration of 2 hours. After 2 hours of use, the cloak ceases to function. For every uninterrupted period of 12 hours the cloak goes unused, it regains 1 hour of duration."
 			],
 			"lootTables": [
@@ -7340,7 +7340,7 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"While wearing this cloak, you have advantage on Dexterity ({@skill Stealth}) checks. In an area of dim light or darkness, you can grip the edges of the cloak with both hands and use it to fly at a speed of 40 feet. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in dim light or darkness, you lose this flying speed.",
-				"While wearing the cloak in an area of dim light or darkness, you can use your action to cast {@spell polymorph} on yourself, transforming into a {@creature bat}. While you are in the form of the {@creature bat}, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can't be used this way again until the next dawn."
+				"While wearing the cloak in an area of dim light or darkness, you can use your action to cast { polymorph} on yourself, transforming into a {@creature bat}. While you are in the form of the {@creature bat}, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can't be used this way again until the next dawn."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -7494,7 +7494,7 @@ export const items = {
 					"type": "entries",
 					"name": "Maintain Shoes",
 					"entries": [
-						"As part of a long rest, you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making saving throws to avoid {@condition exhaustion}."
+						"As part of a long rest, you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making saving throws to avoid {exhaustion}."
 					]
 				},
 				{
@@ -7550,7 +7550,7 @@ export const items = {
 					"type": "entries",
 					"name": "Grasping Tendrils",
 					"entries": [
-						"While the tattoo is on your skin, you can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you. The creature must succeed on a DC 14 Strength saving throw or take {@damage 3d6} force damage and be {@condition grappled} by you. As an action, the creature can escape the grapple by succeeding on a DC 14 Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature."
+						"While the tattoo is on your skin, you can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you. The creature must succeed on a DC 14 Strength saving throw or take 3d6} force damage and be {grappled} by you. As an action, the creature can escape the grapple by succeeding on a DC 14 Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature."
 					]
 				}
 			]
@@ -7564,7 +7564,7 @@ export const items = {
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
-				"This tattoo has long intertwining designs. While the tattoo is on your skin, you can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you. The creature must succeed on a DC 14 Strength saving throw or take {@damage 3d6} force damage and be {@condition grappled} by you. As an action, the creature can escape the grapple by succeeding on a DC 14 Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.",
+				"This tattoo has long intertwining designs. While the tattoo is on your skin, you can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you. The creature must succeed on a DC 14 Strength saving throw or take 3d6} force damage and be {grappled} by you. As an action, the creature can escape the grapple by succeeding on a DC 14 Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check. The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.",
 				{
 					"type": "entries",
 					"name": "Tattoo Attunement",
@@ -7711,7 +7711,7 @@ export const items = {
 				"A concertina is a less charming kind of accordion.",
 				"In addition to knocking out a killer polka, a creature playing the concertina can use an action to cause an area of mist or water up to 30 feet in diameter and 6 inches deep to freeze solid.",
 				"Once used, this feature of the concertina can't be used again until the next dawn.",
-				"Any creatures touching the floor must succeed on a DC 20 Dexterity saving throw or be {@condition restrained} by the ice. As an action, a {@condition restrained} creature can attempt to free itself or another creature within its reach from the ice, doing so with a successful DC 20 Strength ({@skill Athletics}) check. A character freed from the ice is no longer {@condition restrained} by it. The ice melts in an hour."
+				"Any creatures touching the floor must succeed on a DC 20 Dexterity saving throw or be {restrained} by the ice. As an action, a {restrained} creature can attempt to free itself or another creature within its reach from the ice, doing so with a successful DC 20 Strength ({@skill Athletics}) check. A character freed from the ice is no longer {restrained} by it. The ice melts in an hour."
 			]
 		},
 		{
@@ -7722,7 +7722,7 @@ export const items = {
 			"rarity": "unknown (magic)",
 			"weight": 2,
 			"entries": [
-				"You can use an action to blow this pearlescent conch like a {@item horn|PHB}, creating an effect identical with that of a {@spell Leomund's tiny hut} spell. The conch disappears once the spell takes effect. The effect ends if you leave the spell's area."
+				"You can use an action to blow this pearlescent conch like a {@item horn|PHB}, creating an effect identical with that of a { Leomund's tiny hut} spell. The conch disappears once the spell takes effect. The effect ends if you leave the spell's area."
 			]
 		},
 		{
@@ -7734,7 +7734,7 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"This item is an ordinary, albeit rather large, conch shell that has been inscribed with the uvar rune. The conch measures 2½ feet long and weighs 20 pounds.",
-				"As an action, you can cast the {@spell teleport} spell by blowing into the shell. The destination is fixed, and there is no chance of either a mishap or the spell being off target. Anyone teleported by the conch appears in a specific location designated by the item's creator at the time the uvar rune is inscribed on the conch. It doesn't allow teleportation to any other destination. Once its spell is cast, the conch can't be used again until the next dawn."
+				"As an action, you can cast the { teleport} spell by blowing into the shell. The destination is fixed, and there is no chance of either a mishap or the spell being off target. Anyone teleported by the conch appears in a specific location designated by the item's creator at the time the uvar rune is inscribed on the conch. It doesn't allow teleportation to any other destination. Once its spell is cast, the conch can't be used again until the next dawn."
 			],
 			"attachedSpells": [
 				"teleport"
@@ -7783,8 +7783,8 @@ export const items = {
 					"name": "Guardian Portrait",
 					"entries": [
 						"While you are attuned to the painting, you can command it to guard its location against one or more creatures you identify as the painting's enemies. The painting performs this function until you command it to stop or until your attunement to the painting ends.",
-						"The painting has 3 charges. When a creature the painting identifies as its enemy starts its turn in a space the painting can see, the painting expends 1 of its charges to cast {@spell magic missile} (3 missiles), targeting that creature. The painting regains all expended charges daily at dawn.",
-						"The painting is a Small object with AC 12, 20 hit points, and immunity to poison damage. In its gold-leaf frame, the painting weighs 15 pounds. If the painting has at least 1 hit point and is targeted by a {@spell mending} spell, it regains {@dice 2d6} hit points."
+						"The painting has 3 charges. When a creature the painting identifies as its enemy starts its turn in a space the painting can see, the painting expends 1 of its charges to cast { magic missile} (3 missiles), targeting that creature. The painting regains all expended charges daily at dawn.",
+						"The painting is a Small object with AC 12, 20 hit points, and immunity to poison damage. In its gold-leaf frame, the painting weighs 15 pounds. If the painting has at least 1 hit point and is targeted by a { mending} spell, it regains {@dice 2d6} hit points."
 					]
 				}
 			],
@@ -8011,7 +8011,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the {@spell light} spell."
+				"This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the { light} spell."
 			],
 			"attachedSpells": [
 				"light"
@@ -8026,7 +8026,7 @@ export const items = {
 			"weight": 0.25,
 			"value": 200,
 			"entries": [
-				"A crampon is a metal plate with spikes that is strapped to the sole of a boot. A creature wearing crampons can't fall {@condition prone} while moving across {@hazard slippery ice}."
+				"A crampon is a metal plate with spikes that is strapped to the sole of a boot. A creature wearing crampons can't fall {prone} while moving across {@hazard slippery ice}."
 			]
 		},
 		{
@@ -8060,7 +8060,7 @@ export const items = {
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"The crook has 6 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: {@spell aura of life} (2 charges), {@spell aura of purity} (2 charges), {@spell banishment} (1 charge), {@spell beacon of hope} (1 charge), {@spell mass cure wounds} (3 charges). The crook regains {@dice 1d6} expended charges daily at dawn."
+						"The crook has 6 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: { aura of life} (2 charges), { aura of purity} (2 charges), { banishment} (1 charge), { beacon of hope} (1 charge), { mass cure wounds} (3 charges). The crook regains {@dice 1d6} expended charges daily at dawn."
 					]
 				},
 				{
@@ -8081,7 +8081,7 @@ export const items = {
 					"type": "entries",
 					"name": "Iggwilv's Curse",
 					"entries": [
-						"When the Crook was last used against Iggwilv, the Witch Queen lashed out at the artifact, infecting its magical matrix. Over the years, this curse has spread within the crook, threatening to violently pervert its ancient magic. If this occurs, the Crook of Rao, as it is currently known, is destroyed, its magical matrix inverting and exploding into a 50-foot-diameter portal. This portal functions as a permanent {@spell gate} spell cast by Iggwilv. The gate then, once per round on initiative count 20, audibly speaks a fiend's name in Iggwilv's voice, doing so until the gate calls on every fiend ever banished by the Crook of Rao. If the fiend still exists, it is drawn through the gate. This process takes eighteen years to complete, at the end of which the gate becomes a permanent portal to Pazunia, the first layer of the Abyss.",
+						"When the Crook was last used against Iggwilv, the Witch Queen lashed out at the artifact, infecting its magical matrix. Over the years, this curse has spread within the crook, threatening to violently pervert its ancient magic. If this occurs, the Crook of Rao, as it is currently known, is destroyed, its magical matrix inverting and exploding into a 50-foot-diameter portal. This portal functions as a permanent { gate} spell cast by Iggwilv. The gate then, once per round on initiative count 20, audibly speaks a fiend's name in Iggwilv's voice, doing so until the gate calls on every fiend ever banished by the Crook of Rao. If the fiend still exists, it is drawn through the gate. This process takes eighteen years to complete, at the end of which the gate becomes a permanent portal to Pazunia, the first layer of the Abyss.",
 						{
 							"type": "table",
 							"caption": "Extraplanar Reversal",
@@ -8191,7 +8191,7 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"While wearing this crown, a character automatically fails any Intelligence ({@skill Investigation}) check made to see through an illusion. An illusion that is touched still has its true nature revealed. However, a character wearing a crown has such a strong sense that the illusion is real that they might not know which of their senses to believe.",
-				"If this crown is closely examined by a character who succeeds on a DC 20 Intelligence ({@skill Nature}) or Wisdom ({@skill Perception}) check, or with a {@spell detect magic} spell cast using a 3rd-level or higher spell slot, the nature of its magic is discovered."
+				"If this crown is closely examined by a character who succeeds on a DC 20 Intelligence ({@skill Nature}) or Wisdom ({@skill Perception}) check, or with a { detect magic} spell cast using a 3rd-level or higher spell slot, the nature of its magic is discovered."
 			]
 		},
 		{
@@ -8205,7 +8205,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 3,
 			"entries": [
-				"This crystal ball is about 6 inches in diameter. While touching it, you can cast the {@spell scrying} spell (save DC 17) with it."
+				"This crystal ball is about 6 inches in diameter. While touching it, you can cast the { scrying} spell (save DC 17) with it."
 			],
 			"attachedSpells": [
 				"scrying"
@@ -8224,8 +8224,8 @@ export const items = {
 			"wondrous": true,
 			"weight": 3,
 			"entries": [
-				"This {@item crystal ball} is about 6 inches in diameter. While touching it, you can cast the {@spell scrying} spell (save DC 17) with it.",
-				"You can use an action to cast the {@spell detect thoughts} spell (save DC 17) while you are {@spell scrying} with the {@item crystal ball}, targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this {@spell detect thoughts} to maintain it during its duration, but it ends if {@spell scrying} ends."
+				"This {@item crystal ball} is about 6 inches in diameter. While touching it, you can cast the { scrying} spell (save DC 17) with it.",
+				"You can use an action to cast the { detect thoughts} spell (save DC 17) while you are { scrying} with the {@item crystal ball}, targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this { detect thoughts} to maintain it during its duration, but it ends if { scrying} ends."
 			],
 			"attachedSpells": [
 				"scrying",
@@ -8245,8 +8245,8 @@ export const items = {
 			"wondrous": true,
 			"weight": 3,
 			"entries": [
-				"This {@item crystal ball} is about 6 inches in diameter. While touching it, you can cast the {@spell scrying} spell (save DC 17) with it.",
-				"While {@spell scrying} with the {@item crystal ball}, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the {@spell suggestion} spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this suggestion to maintain it during its duration, but it ends if {@spell scrying} ends. Once used, the suggestion power of the {@item crystal ball} can't be used again until the next dawn."
+				"This {@item crystal ball} is about 6 inches in diameter. While touching it, you can cast the { scrying} spell (save DC 17) with it.",
+				"While { scrying} with the {@item crystal ball}, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the { suggestion} spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this suggestion to maintain it during its duration, but it ends if { scrying} ends. Once used, the suggestion power of the {@item crystal ball} can't be used again until the next dawn."
 			],
 			"attachedSpells": [
 				"scrying",
@@ -8266,8 +8266,8 @@ export const items = {
 			"wondrous": true,
 			"weight": 3,
 			"entries": [
-				"This {@item crystal ball} is about 6 inches in diameter. While touching it, you can cast the {@spell scrying} spell (save DC 17) with it.",
-				"While {@spell scrying} with the {@item crystal ball}, you have {@sense truesight} with a radius of 120 feet centered on the spell's sensor."
+				"This {@item crystal ball} is about 6 inches in diameter. While touching it, you can cast the { scrying} spell (save DC 17) with it.",
+				"While { scrying} with the {@item crystal ball}, you have {@sense truesight} with a radius of 120 feet centered on the spell's sensor."
 			],
 			"attachedSpells": [
 				"scrying"
@@ -8296,8 +8296,8 @@ export const items = {
 				"Wizard"
 			],
 			"entries": [
-				"An etched crystal sphere the size of a grapefruit hums faintly and pulses with irregular flares of inner light. While you are touching the crystal, you can retrieve and store information and spells within the crystal at the same rate as reading and writing. When found, the crystal contains the following spells: {@spell detect thoughts}, {@spell intellect fortress|TCE}, {@spell Rary's telepathic bond}, {@spell sending}, {@spell telekinesis}, {@spell Tasha's mind whip|TCE}, and {@spell Tenser's floating disk}. It functions as a spellbook for you, with its spells and other writing psychically encoded within it.",
-				"While you are holding the crystal, you can use it as a spellcasting focus for your wizard spells, and you know the {@spell mage hand}, {@spell mind sliver|TCE} (appears in this book), and {@spell message} cantrips if you don't already know them.",
+				"An etched crystal sphere the size of a grapefruit hums faintly and pulses with irregular flares of inner light. While you are touching the crystal, you can retrieve and store information and spells within the crystal at the same rate as reading and writing. When found, the crystal contains the following spells: { detect thoughts}, { intellect fortress|TCE}, { Rary's telepathic bond}, { sending}, { telekinesis}, { Tasha's mind whip|TCE}, and { Tenser's floating disk}. It functions as a spellbook for you, with its spells and other writing psychically encoded within it.",
+				"While you are holding the crystal, you can use it as a spellcasting focus for your wizard spells, and you know the { mage hand}, { mind sliver|TCE} (appears in this book), and { message} cantrips if you don't already know them.",
 				"The crystal has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
 					"type": "list",
@@ -8335,7 +8335,7 @@ export const items = {
 			"charges": 36,
 			"entries": [
 				"This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains {@dice 1d20} expended charges daily at dawn.",
-				"You can use an action to press one of the cube's faces, expending a number of charges based on the chosen face, as shown in the Cube of Force Faces table. Each face has a different effect. If the cube has insufficient charges remaining, nothing happens. Otherwise, a barrier of {@condition invisible} force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to press the cube's sixth face, or the cube runs out of charges. You can change the barrier's effect by pressing a different face of the cube and expending the requisite number of charges, resetting the duration. If your movement causes the barrier to come into contact with a solid object that can't pass through the cube, you can't move any closer to that object as long as the barrier remains.",
+				"You can use an action to press one of the cube's faces, expending a number of charges based on the chosen face, as shown in the Cube of Force Faces table. Each face has a different effect. If the cube has insufficient charges remaining, nothing happens. Otherwise, a barrier of {invisible} force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to press the cube's sixth face, or the cube runs out of charges. You can change the barrier's effect by pressing a different face of the cube and expending the requisite number of charges, resetting the duration. If your movement causes the barrier to come into contact with a solid object that can't pass through the cube, you can't move any closer to that object as long as the barrier remains.",
 				{
 					"type": "table",
 					"caption": "Cube of Force Faces",
@@ -8395,7 +8395,7 @@ export const items = {
 					],
 					"rows": [
 						[
-							"{@spell Disintegrate}",
+							"{ Disintegrate}",
 							"{@dice 1d12}"
 						],
 						[
@@ -8403,15 +8403,15 @@ export const items = {
 							"{@dice 1d10}"
 						],
 						[
-							"{@spell Passwall}",
+							"{ Passwall}",
 							"{@dice 1d6}"
 						],
 						[
-							"{@spell Prismatic spray}",
+							"{ Prismatic spray}",
 							"{@dice 1d20}"
 						],
 						[
-							"{@spell Wall of fire}",
+							"{ Wall of fire}",
 							"{@dice 1d4}"
 						]
 					]
@@ -8435,7 +8435,7 @@ export const items = {
 			"charges": 3,
 			"entries": [
 				"This cube is 3 inches across and radiates palpable magical energy. The six sides of the cube are each keyed to a different plane of existence, one of which is the Material Plane. The other sides are linked to planes determined by the DM.",
-				"You can use an action to press one side of the cube to cast the {@spell gate} spell with it, opening a portal to the plane keyed to that side. Alternatively, if you use an action to press one side twice, you can cast the {@spell plane shift} spell (save DC 17) with the cube and transport the targets to the plane keyed to that side.",
+				"You can use an action to press one side of the cube to cast the { gate} spell with it, opening a portal to the plane keyed to that side. Alternatively, if you use an action to press one side twice, you can cast the { plane shift} spell (save DC 17) with the cube and transport the targets to the plane keyed to that side.",
 				"The cube has 3 charges. Each use of the cube expends 1 charge. The cube regains {@dice 1d3} expended charges daily at dawn."
 			],
 			"attachedSpells": [
@@ -8455,7 +8455,7 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"Representing one of the mascots of Strixhaven, this soft, Tiny, magic toy is perfect for cuddling. If you press it to your arm, shoulder, or leg as an action, the toy stays attached there for 1 hour or until you use an action to remove it.",
-				"The toy can also be used to fight off fear. When you make a saving throw to avoid or end the {@condition frightened} condition on yourself, you can give yourself advantage on the roll if the toy is on your person. You must decide to do so before rolling the {@dice d20}. If the save succeeds, you can't use the toy in this way until you finish a long rest."
+				"The toy can also be used to fight off fear. When you make a saving throw to avoid or end the {frightened} condition on yourself, you can give yourself advantage on the roll if the toy is on your person. You must decide to do so before rolling the {@dice d20}. If the save succeeds, you can't use the toy in this way until you finish a long rest."
 			]
 		},
 		{
@@ -8472,7 +8472,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This item is cursed. Attuning to it curses you until you are targeted by a {@spell remove curse} spell or similar magic. As long as you remain cursed, you cannot discard the stone, which immediately teleports back into your pocket or pack. After you use the stone's magic, your next two ability checks are made with disadvantage."
+						"This item is cursed. Attuning to it curses you until you are targeted by a { remove curse} spell or similar magic. As long as you remain cursed, you cannot discard the stone, which immediately teleports back into your pocket or pack. After you use the stone's magic, your next two ability checks are made with disadvantage."
 					]
 				}
 			]
@@ -8487,9 +8487,9 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"You can use an action to place this 1-inch metal cube on the ground and speak its command word. The cube rapidly grows into a fortress that remains until you use an action to speak the command word that dismisses it, which works only if the fortress is empty.",
-				"The fortress is a square tower, 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors. with a ladder running along one wall to connect them. The ladder ends at a trapdoor leading to the roof. When activated, the tower has a small door on the side facing you. The door opens only at your command, which you can speak as a bonus action. It is immune to the {@spell knock} spell and similar magic, such as that of a {@item chime of opening}.",
-				"Each creature in the area where the fortress appears must make a DC 15 Dexterity saving throw, taking {@damage 10d10} bludgeoning damage on a failed save, or half as much damage on a successful one. In either case, the creature is pushed to an unoccupied space outside but next to the fortress. Objects in the area that aren't being worn or carried take this damage and are pushed automatically.",
-				"The tower is made of adamantine, and its magic prevents it from being tipped over. The roof, the door, and the walls each have 100 hit points, immunity to damage from nonmagical weapons excluding siege weapons, and resistance to all other damage. Only a {@spell wish} spell can repair the fortress (this use of the spell counts as replicating a spell of 8th level or lower). Each casting of {@spell wish} causes the roof, the door, or one wall to regain 50 hit points."
+				"The fortress is a square tower, 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors. with a ladder running along one wall to connect them. The ladder ends at a trapdoor leading to the roof. When activated, the tower has a small door on the side facing you. The door opens only at your command, which you can speak as a bonus action. It is immune to the { knock} spell and similar magic, such as that of a {@item chime of opening}.",
+				"Each creature in the area where the fortress appears must make a DC 15 Dexterity saving throw, taking 10d10} bludgeoning damage on a failed save, or half as much damage on a successful one. In either case, the creature is pushed to an unoccupied space outside but next to the fortress. Objects in the area that aren't being worn or carried take this damage and are pushed automatically.",
+				"The tower is made of adamantine, and its magic prevents it from being tipped over. The roof, the door, and the walls each have 100 hit points, immunity to damage from nonmagical weapons excluding siege weapons, and resistance to all other damage. Only a { wish} spell can repair the fortress (this use of the spell counts as replicating a spell of 8th level or lower). Each casting of { wish} causes the roof, the door, or one wall to regain 50 hit points."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -8563,7 +8563,7 @@ export const items = {
 			"bonusWeapon": "+1",
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"You can use an action to cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} poison damage and become {@condition poisoned} for 1 minute. The dagger can't be used this way again until the next dawn."
+				"You can use an action to cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10} poison damage and become {poisoned} for 1 minute. The dagger can't be used this way again until the next dawn."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -8600,8 +8600,8 @@ export const items = {
 			"rarity": "unknown (magic)",
 			"value": 500,
 			"entries": [
-				"This rare magical fruit produces enough juice to fill a vial. Any humanoid that eats a dancing monkey fruit or drinks its juice must succeed on a DC 14 Constitution saving throw or begin a comic dance that lasts for 1 minute. Humanoids that can't be {@condition poisoned} are immune to this magical effect.",
-				"The dancer must use all its movement to dance without leaving its space and has disadvantage on attack rolls and Dexterity saving throws, and other creatures have advantage on attack rolls against it. Each time it takes damage, the dancer can repeat the saving throw, ending the effect on itself on a success. When the dancing effect ends, the humanoid suffers the {@condition poisoned} condition for 1 hour."
+				"This rare magical fruit produces enough juice to fill a vial. Any humanoid that eats a dancing monkey fruit or drinks its juice must succeed on a DC 14 Constitution saving throw or begin a comic dance that lasts for 1 minute. Humanoids that can't be {poisoned} are immune to this magical effect.",
+				"The dancer must use all its movement to dance without leaving its space and has disadvantage on attack rolls and Dexterity saving throws, and other creatures have advantage on attack rolls against it. Each time it takes damage, the dancer can repeat the saving throw, ending the effect on itself on a success. When the dancing effect ends, the humanoid suffers the {poisoned} condition for 1 hour."
 			]
 		},
 		{
@@ -8622,7 +8622,7 @@ export const items = {
 								{
 									"type": "list",
 									"items": [
-										"You see {@condition invisible} creatures and objects within 60 feet of you as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.",
+										"You see {invisible} creatures and objects within 60 feet of you as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.",
 										"As a bonus action, you can speak a command word and use the goggles to see into and through solid matter. This vision has a radius of 60 feet and lasts for 1 minute. To you, solid objects within that radius appear transparent. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead. This property can't be used again until the next dawn.",
 										"As a bonus action, you can speak a command word to switch the goggles into spyglass mode. While in this mode, creatures and objects viewed through the goggles are magnified to twice their size. Speaking the command word again reverts the goggles to their normal operation."
 									]
@@ -8646,7 +8646,7 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"These mithral-frame goggles with clear diamond lenses were used by the evoker Danoth Oro to spot {@condition invisible} enemies and scout areas from afar.",
+				"These mithral-frame goggles with clear diamond lenses were used by the evoker Danoth Oro to spot {invisible} enemies and scout areas from afar.",
 				{
 					"type": "entries",
 					"name": "Dormant",
@@ -8676,7 +8676,7 @@ export const items = {
 									"type": "list",
 									"items": [
 										"You automatically detect illusions you can see and automatically succeed on saving throws against them. In addition, you see a bright aura around any creature that isn't in its true form.",
-										"As an action, you can cast the {@spell antimagic field} spell from the visor. This property can't be used again until the next dawn."
+										"As an action, you can cast the { antimagic field} spell from the visor. This property can't be used again until the next dawn."
 									]
 								}
 							]
@@ -8752,9 +8752,9 @@ export const items = {
 			"bonusWeapon": "+2",
 			"entries": [
 				"Lost for ages in the Underdark, Dawnbringer appears to be a gilded longsword hilt. While grasping the hilt, you can use a bonus action to make a blade of pure radiance spring from the hilt, or cause the blade to disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with {@item shortsword|phb|shortswords} or {@item longsword|phb|longswords}, you are proficient with Dawnbringer.",
-				"You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra {@damage 1d8} radiant damage.",
+				"You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra 1d8} radiant damage.",
 				"The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.",
-				"While holding the weapon, you can use an action to touch a creature with the blade and cast {@spell lesser restoration} on that creature. Once used, this ability can't be used again until the next dawn.",
+				"While holding the weapon, you can use an action to touch a creature with the blade and cast { lesser restoration} on that creature. Once used, this ability can't be used again until the next dawn.",
 				{
 					"name": "Sentience",
 					"type": "entries",
@@ -8794,7 +8794,7 @@ export const items = {
 					"items": [
 						"\"Stream\" produces 1 gallon of water.",
 						"\"Fountain\" produces 5 gallons of water.",
-						"\"Geyser\" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take {@damage 1d4} bludgeoning damage and fall {@condition prone}. Instead of a creature, you can target an object that isn't being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you."
+						"\"Geyser\" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take 1d4} bludgeoning damage and fall {prone}. Instead of a creature, you can target an object that isn't being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you."
 					]
 				}
 			],
@@ -9458,7 +9458,7 @@ export const items = {
 					"type": "entries",
 					"name": "Moon",
 					"entries": [
-						"You are granted the ability to cast the {@spell wish} spell {@dice 1d3} times."
+						"You are granted the ability to cast the { wish} spell {@dice 1d3} times."
 					]
 				},
 				{
@@ -9521,7 +9521,7 @@ export const items = {
 					"type": "entries",
 					"name": "The Void",
 					"entries": [
-						"This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the DM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is {@condition incapacitated}. A {@spell wish} spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards."
+						"This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the DM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is {incapacitated}. A { wish} spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards."
 					]
 				},
 				{
@@ -9549,7 +9549,7 @@ export const items = {
 					"type": "entries",
 					"name": "Donjon",
 					"entries": [
-						"You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you were wearing and carrying stays behind in the space you occupied when you disappeared. You remain imprisoned until you are found and removed from the sphere. You can't be located by any divination magic, but a {@spell wish} spell can reveal the location of your prison. You draw no more cards."
+						"You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you were wearing and carrying stays behind in the space you occupied when you disappeared. You remain imprisoned until you are found and removed from the sphere. You can't be located by any divination magic, but a { wish} spell can reveal the location of your prison. You draw no more cards."
 					]
 				},
 				{
@@ -9570,7 +9570,7 @@ export const items = {
 					"type": "entries",
 					"name": "Rogue",
 					"entries": [
-						"A nonplayer character of the DM's choice becomes hostile toward you. The identity of your new enemy isn't known until the NPC or someone else reveals it. Nothing less than a {@spell wish} spell or divine intervention can end the NPC's hostility toward you."
+						"A nonplayer character of the DM's choice becomes hostile toward you. The identity of your new enemy isn't known until the NPC or someone else reveals it. Nothing less than a { wish} spell or divine intervention can end the NPC's hostility toward you."
 					]
 				},
 				{
@@ -10015,7 +10015,7 @@ export const items = {
 					"type": "entries",
 					"name": "The Void",
 					"entries": [
-						"This black card spells disaster. Your soul is drawn from your body and held within machinery in either the control room of the Monastery of the Distressed Body (area M8) or Kwalish's lab in Daoine Gloine (area O7), whichever comes later in the adventure. While your soul is trapped in this way, your body is {@condition incapacitated}. {@spell Divination}, {@spell contact other plane}, or a similar spell of 4th level or higher reveals the location of the machinery that holds your soul. You draw no more cards."
+						"This black card spells disaster. Your soul is drawn from your body and held within machinery in either the control room of the Monastery of the Distressed Body (area M8) or Kwalish's lab in Daoine Gloine (area O7), whichever comes later in the adventure. While your soul is trapped in this way, your body is {incapacitated}. { Divination}, { contact other plane}, or a similar spell of 4th level or higher reveals the location of the machinery that holds your soul. You draw no more cards."
 					]
 				},
 				{
@@ -10062,7 +10062,7 @@ export const items = {
 					"type": "entries",
 					"name": "Bident of the Deep",
 					"entries": [
-						"Thassa's signature weapon thrums with the icy currents of the deep ocean. This weapon functions as a trident that grants a +3 bonus to attack and damage rolls made with it. When you hit with an attack using the bident, the target takes an extra {@damage 2d10} cold damage."
+						"Thassa's signature weapon thrums with the icy currents of the deep ocean. This weapon functions as a trident that grants a +3 bonus to attack and damage rolls made with it. When you hit with an attack using the bident, the target takes an extra 2d10} cold damage."
 					]
 				},
 				{
@@ -10100,14 +10100,14 @@ export const items = {
 					"name": "Command the Deep",
 					"entries": [
 						"The bident holds the power to command the waves and its creatures. As an action, you can change the condition of the sea within 1 mile of you, creating strong winds and heavy rain that cause violent waves (see \"Weather at Sea\" in chapter 5 of the Dungeon Master's Guide) or calming a storm. In either case, the unnatural weather lasts for 1 hour before returning to normal. Once used, this property of the bident can't be used again until the next dusk.",
-						"Additionally, you can cast the {@spell dominate monster} spell (save DC 18) from the bident, but only on beasts and monstrosities that have an innate swimming speed. Once used, this property of the bident can't be used again until the next dusk."
+						"Additionally, you can cast the { dominate monster} spell (save DC 18) from the bident, but only on beasts and monstrosities that have an innate swimming speed. Once used, this property of the bident can't be used again until the next dusk."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Aquatic Metamorphosis",
 					"entries": [
-						"You can cast the {@spell true polymorph} spell (save DC 18) from the bident, but you must cast it on a creature to turn it into a kind of creature that has an innate swimming speed. Once used, this property of the bident can't be used again until the next dusk."
+						"You can cast the { true polymorph} spell (save DC 18) from the bident, but you must cast it on a creature to turn it into a kind of creature that has an innate swimming speed. Once used, this property of the bident can't be used again until the next dusk."
 					]
 				},
 				{
@@ -10146,7 +10146,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"Once you don this cursed armor, you can't doff it unless you are targeted by the {@spell remove curse} spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities."
+						"Once you don this cursed armor, you can't doff it unless you are targeted by the { remove curse} spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities."
 					]
 				}
 			],
@@ -10186,7 +10186,7 @@ export const items = {
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"The book has 8 charges. It regains {@dice 1d8} expended charges daily at dawn. While holding it, you can use an action to cast {@spell Tasha's hideous laughter} from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: {@spell magic circle} (1 charge), {@spell magic jar} (3 charges), {@spell planar ally} (3 charges), {@spell planar binding} (2 charges), {@spell plane shift} (to layers of the Abyss only; 3 charges), {@spell summon fiend|TCE} (3 charges)."
+						"The book has 8 charges. It regains {@dice 1d8} expended charges daily at dawn. While holding it, you can use an action to cast { Tasha's hideous laughter} from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: { magic circle} (1 charge), { magic jar} (3 charges), { planar ally} (3 charges), { planar binding} (2 charges), { plane shift} (to layers of the Abyss only; 3 charges), { summon fiend|TCE} (3 charges)."
 					]
 				},
 				{
@@ -10207,14 +10207,14 @@ export const items = {
 					"type": "entries",
 					"name": "Ensnarement",
 					"entries": [
-						"While carrying the book, whenever you cast the {@spell magic circle} spell naming only fiends, or the {@spell planar binding} spell targeting a fiend, the spell is cast at 9th level, regardless of what level spell slot you used, if any. Additionally, the fiend has disadvantage on its saving throw against the spell."
+						"While carrying the book, whenever you cast the { magic circle} spell naming only fiends, or the { planar binding} spell targeting a fiend, the spell is cast at 9th level, regardless of what level spell slot you used, if any. Additionally, the fiend has disadvantage on its saving throw against the spell."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Containment",
 					"entries": [
-						"The first 10 pages of the {@i Demonomicon} are blank. As an action while holding the book, you can target a fiend that you can see that is trapped within a {@spell magic circle}. The fiend must succeed on a DC 20 Charisma saving throw with disadvantage or become trapped within one of the {@i Demonomicon's} empty blank pages, which fills with writing detailing the trapped creature's widely known name and depravities. Once used, this action can't be used again until the next dawn.",
+						"The first 10 pages of the {@i Demonomicon} are blank. As an action while holding the book, you can target a fiend that you can see that is trapped within a { magic circle}. The fiend must succeed on a DC 20 Charisma saving throw with disadvantage or become trapped within one of the {@i Demonomicon's} empty blank pages, which fills with writing detailing the trapped creature's widely known name and depravities. Once used, this action can't be used again until the next dawn.",
 						"When you finish a long rest, if you and the {@i Demonomicon} are on the same plane of existence, the trapped creature of the highest challenge rating within the book can attempt to possess you. You must make a DC 20 Charisma saving throw. On a failure, you are possessed by the creature, which controls you like a puppet. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, the fiend can't try to possess you again for 7 days.",
 						"When the tome is discovered, it has {@dice 1d4} fiends occupying its pages, typically an assortment of demons."
 					]
@@ -10246,14 +10246,14 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"A devastation orb is an elemental bomb that can be created at the site of an elemental node by performing a ritual with an elemental weapon. The type of orb created depends on the node used. For example, an air node creates a devastation orb of air. The ritual takes 1 hour to complete and requires 2,000 gp worth of special components, which are consumed.",
-				"A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates {@dice 1d100} hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as {@spell identify} and {@spell divination} can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.",
+				"A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates {@dice 1d100} hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as { identify} and { divination} can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.",
 				"A special container can be crafted to contain a devastation orb and prevent it from detonating. The container must be inscribed with symbols of the orb's opposing element. For example, a case inscribed with earth symbols can be used to contain a devastation orb of air and keep it from detonating. While in the container, the orb thrums. If it is removed from the container after the time when it was supposed to detonate, it explodes {@dice 1d6} rounds later, unless it is returned to the container.",
 				"Regardless of the type of orb, its effect is contained within a sphere with a 1 mile radius. The orb is the sphere's point of origin. The orb is destroyed after one use.",
 				{
 					"name": "Air Orb",
 					"type": "entries",
 					"entries": [
-						"When this orb detonates, it creates a powerful windstorm that lasts for 1 hour. Whenever a creature ends its turn exposed to the wind, the creature must succeed on a DC 18 Constitution saving throw or take {@damage 1d4} bludgeoning damage, as the wind and debris batter it. The wind is strong enough to uproot weak trees and destroy light structures after at least 10 minutes of exposure. Otherwise, the rules for {@hazard strong wind} apply, as detailed in chapter 5 of the Dungeon Master's Guide."
+						"When this orb detonates, it creates a powerful windstorm that lasts for 1 hour. Whenever a creature ends its turn exposed to the wind, the creature must succeed on a DC 18 Constitution saving throw or take 1d4} bludgeoning damage, as the wind and debris batter it. The wind is strong enough to uproot weak trees and destroy light structures after at least 10 minutes of exposure. Otherwise, the rules for {@hazard strong wind} apply, as detailed in chapter 5 of the Dungeon Master's Guide."
 					]
 				}
 			]
@@ -10266,14 +10266,14 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"A devastation orb is an elemental bomb that can be created at the site of an elemental node by performing a ritual with an elemental weapon. The type of orb created depends on the node used. For example, an air node creates a {@item devastation orb of air|PotA}. The ritual takes 1 hour to complete and requires 2,000 gp worth of special components, which are consumed.",
-				"A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates {@dice 1d100} hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as {@spell identify} and {@spell divination} can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.",
+				"A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates {@dice 1d100} hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as { identify} and { divination} can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.",
 				"A special container can be crafted to contain a devastation orb and prevent it from detonating. The container must be inscribed with symbols of the orb's opposing element. For example, a case inscribed with earth symbols can be used to contain a {@item devastation orb of air|PotA} and keep it from detonating. While in the container, the orb thrums. If it is removed from the container after the time when it was supposed to detonate, it explodes {@dice 1d6} rounds later, unless it is returned to the container.",
 				"Regardless of the type of orb, its effect is contained within a sphere with a 1 mile radius. The orb is the sphere's point of origin. The orb is destroyed after one use.",
 				{
 					"name": "Earth Orb",
 					"type": "entries",
 					"entries": [
-						"When this orb detonates, it subjects the area to the effects of the {@spell earthquake} spell for 1 minute (spell save DC 18). For the purpose of the spell's effects, the spell is cast on the turn that the orb explodes."
+						"When this orb detonates, it subjects the area to the effects of the { earthquake} spell for 1 minute (spell save DC 18). For the purpose of the spell's effects, the spell is cast on the turn that the orb explodes."
 					]
 				}
 			]
@@ -10286,14 +10286,14 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"A devastation orb is an elemental bomb that can be created at the site of an elemental node by performing a ritual with an elemental weapon. The type of orb created depends on the node used. For example, an air node creates a {@item devastation orb of air|PotA}. The ritual takes 1 hour to complete and requires 2,000 gp worth of special components, which are consumed.",
-				"A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates {@dice 1d100} hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as {@spell identify} and {@spell divination} can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.",
+				"A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates {@dice 1d100} hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as { identify} and { divination} can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.",
 				"A special container can be crafted to contain a devastation orb and prevent it from detonating. The container must be inscribed with symbols of the orb's opposing element. For example, a case inscribed with earth symbols can be used to contain a {@item devastation orb of air|PotA} and keep it from detonating. While in the container, the orb thrums. If it is removed from the container after the time when it was supposed to detonate, it explodes {@dice 1d6} rounds later, unless it is returned to the container.",
 				"Regardless of the type of orb, its effect is contained within a sphere with a 1 mile radius. The orb is the sphere's point of origin. The orb is destroyed after one use.",
 				{
 					"name": "Fire Orb",
 					"type": "entries",
 					"entries": [
-						"When this orb detonates, it creates a dry heat wave that lasts for 24 hours. Within the area of effect, the rules for {@hazard extreme heat} apply, as detailed in chapter 5 of the Dungeon Master's Guide. At the end of each hour, there is a ten percent chance that the heat wave starts a wildfire in a random location within the area of effect. The wildfire covers a 10-foot-square area initially but expands to fill another 10-foot square each round until the fire is extinguished or burns itself out. A creature that comes within 10 feet of a wildfire for the first time on a turn or starts its turn there takes {@damage 3d6} fire damage."
+						"When this orb detonates, it creates a dry heat wave that lasts for 24 hours. Within the area of effect, the rules for {@hazard extreme heat} apply, as detailed in chapter 5 of the Dungeon Master's Guide. At the end of each hour, there is a ten percent chance that the heat wave starts a wildfire in a random location within the area of effect. The wildfire covers a 10-foot-square area initially but expands to fill another 10-foot square each round until the fire is extinguished or burns itself out. A creature that comes within 10 feet of a wildfire for the first time on a turn or starts its turn there takes 3d6} fire damage."
 					]
 				}
 			]
@@ -10306,7 +10306,7 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"A devastation orb is an elemental bomb that can be created at the site of an elemental node by performing a ritual with an elemental weapon. The type of orb created depends on the node used. For example, an air node creates a {@item devastation orb of air|PotA}. The ritual takes 1 hour to complete and requires 2,000 gp worth of special components, which are consumed.",
-				"A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates {@dice 1d100} hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as {@spell identify} and {@spell divination} can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.",
+				"A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates {@dice 1d100} hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as { identify} and { divination} can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.",
 				"A special container can be crafted to contain a devastation orb and prevent it from detonating. The container must be inscribed with symbols of the orb's opposing element. For example, a case inscribed with earth symbols can be used to contain a {@item devastation orb of air|PotA} and keep it from detonating. While in the container, the orb thrums. If it is removed from the container after the time when it was supposed to detonate, it explodes {@dice 1d6} rounds later, unless it is returned to the container.",
 				"Regardless of the type of orb, its effect is contained within a sphere with a 1 mile radius. The orb is the sphere's point of origin. The orb is destroyed after one use.",
 				{
@@ -10328,7 +10328,7 @@ export const items = {
 				"_mod": {
 					"entries": {
 						"mode": "appendArr",
-						"items": "If you attune to this staff, you transform into a goat-humanoid hybrid over the course of 3 days. Tieflings are immune to this curse. Throughout the first day, shaggy fur begins to grow all over your body. After 24 hours, your eyes become goat-like, and stumpy horns sprout from your brow. On the last day, your fingers and toes meld into double digits, and the horns grow to full length. This transformation doesn't prevent you from wielding weapons or casting spells. {@spell Remove curse}, {@spell greater restoration}, or any other effect that ends a curse restores your original appearance, but only a {@spell wish} spell can rid the staff of its power to transform those who attune to it."
+						"items": "If you attune to this staff, you transform into a goat-humanoid hybrid over the course of 3 days. Tieflings are immune to this curse. Throughout the first day, shaggy fur begins to grow all over your body. After 24 hours, your eyes become goat-like, and stumpy horns sprout from your brow. On the last day, your fingers and toes meld into double digits, and the horns grow to full length. This transformation doesn't prevent you from wielding weapons or casting spells. { Remove curse}, { greater restoration}, or any other effect that ends a curse restores your original appearance, but only a { wish} spell can rid the staff of its power to transform those who attune to it."
 					}
 				}
 			},
@@ -10356,7 +10356,7 @@ export const items = {
 			"dmgType": "B",
 			"weapon": true,
 			"entries": [
-				"The rounded head of this flail is perforated with tiny holes, arranged in symbols and patterns. The flail counts as a holy symbol for you. When you hit with an attack using this magic flail, the target takes an extra {@damage 1d8} radiant damage.",
+				"The rounded head of this flail is perforated with tiny holes, arranged in symbols and patterns. The flail counts as a holy symbol for you. When you hit with an attack using this magic flail, the target takes an extra 1d8} radiant damage.",
 				"As a bonus action, you can speak the command word to cause the flail to emanate a thin cloud of incense out to 10 feet for 1 minute. At the start of each of your turns, you and any other creatures in the incense each regain {@dice 1d4} hit points. This property can't be used again until the next dawn."
 			],
 			"hasFluffImages": true
@@ -10424,7 +10424,7 @@ export const items = {
 			"rarity": "rare",
 			"wondrous": true,
 			"entries": [
-				"You can use an action to place these shackles on an {@condition incapacitated} creature. The shackles adjust to fit a creature of Small to Large size. In addition to serving as mundane manacles, the shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don't prevent the creature from passing-through an interdimensional portal.",
+				"You can use an action to place these shackles on an {incapacitated} creature. The shackles adjust to fit a creature of Small to Large size. In addition to serving as mundane manacles, the shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don't prevent the creature from passing-through an interdimensional portal.",
 				"You and any creature you designate when you use the shackles can use an action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength ({@skill Athletics}) check. On a success, the creature breaks free and destroys the shackles."
 			],
 			"optionalfeatures": [
@@ -10447,7 +10447,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring, adorned with the symbol of Dimir, allows you to cast {@spell disguise self}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Dimir's recognition and favor.",
+				"This ring, adorned with the symbol of Dimir, allows you to cast { disguise self}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Dimir's recognition and favor.",
 				"A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13)."
 			],
 			"attachedSpells": [
@@ -10671,7 +10671,7 @@ export const items = {
 						"A docent has the following properties:",
 						"{@b Languages}. The docent knows Common, Giant, and {@dice 1d4} additional languages chosen by the DM. If a docent knows fewer than six languages, it can learn a new language after it hears or reads the language through your senses.",
 						"{@b Skills}. The docent has a +7 bonus to one of the following skills (roll a {@dice d4}): (1) {@skill Arcana}, (2) {@skill History}, (3) {@skill Investigation}, or (4) {@skill Nature}.",
-						"{@b Spells}. The docent knows one of the following spells and can cast it at will, requiring no components (roll a {@dice d6}): (1\u20132) {@spell detect evil and good} or (3\u20136) {@spell detect magic}. The docent decides when to cast the spell."
+						"{@b Spells}. The docent knows one of the following spells and can cast it at will, requiring no components (roll a {@dice d6}): (1\u20132) { detect evil and good} or (3\u20136) { detect magic}. The docent decides when to cast the spell."
 					]
 				},
 				{
@@ -10700,7 +10700,7 @@ export const items = {
 					"name": "Satchel of Holding",
 					"entries": [
 						"At rank 3, your documancy satchel gains additional features and becomes an uncommon magic item. One of the satchel's pouches now functions as a {@item bag of holding}.",
-						"Additionally, you can use an action to draw forth from the documancy satchel a {@item spell scroll} of {@spell comprehend languages}. The scroll vanishes when used, or ten minutes after it appears. This property of the bag can't be used again until the next dawn."
+						"Additionally, you can use an action to draw forth from the documancy satchel a {@item spell scroll} of { comprehend languages}. The scroll vanishes when used, or ten minutes after it appears. This property of the bag can't be used again until the next dawn."
 					]
 				},
 				{
@@ -10738,23 +10738,23 @@ export const items = {
 					"rows": [
 						[
 							"1\u20132",
-							"The dodecahedron explodes and is destroyed. Each creature within 20 feet of the exploding die must make a DC 13 Dexterity saving throw, taking 40 ({@damage 9d8}) force damage on a failed save, or half as much damage on a successful one."
+							"The dodecahedron explodes and is destroyed. Each creature within 20 feet of the exploding die must make a DC 13 Dexterity saving throw, taking 40 (9d8}) force damage on a failed save, or half as much damage on a successful one."
 						],
 						[
 							"3\u20134",
-							"The dodecahedron casts {@spell light} on itself. The effect lasts until a creature touches the die."
+							"The dodecahedron casts { light} on itself. The effect lasts until a creature touches the die."
 						],
 						[
 							"5\u20136",
-							"The dodecahedron casts {@spell ray of frost} (+5 to hit), targeting a random creature within 60 feet of it that doesn't have total cover against the attack."
+							"The dodecahedron casts { ray of frost} (+5 to hit), targeting a random creature within 60 feet of it that doesn't have total cover against the attack."
 						],
 						[
 							"7\u20138",
-							"The dodecahedron casts {@spell shocking grasp} (+5 to hit) on the next creature that touches it."
+							"The dodecahedron casts { shocking grasp} (+5 to hit) on the next creature that touches it."
 						],
 						[
 							"9\u201310",
-							"The dodecahedron casts {@spell darkness} on itself. The effect has a duration of 10 minutes."
+							"The dodecahedron casts { darkness} on itself. The effect has a duration of 10 minutes."
 						],
 						[
 							"11\u201312",
@@ -10820,8 +10820,8 @@ export const items = {
 				"The low, moaning drone of the Draakhorn discomfits normal animals within a few miles, and it alerts all dragons within two thousand miles to rise and be wary, for great danger is at hand. Coded blasts were once used to signal specific messages. Knowledge of those codes has been lost to the ages.",
 				"Those with knowledge of the Draakhorn's history know that it was first built to signal danger to chromatic dragons\u2014a purpose the Cult of the Dragon has corrupted to call chromatic dragons to the Well of Dragons from across the North.",
 				"Within 50 feet of any enclosed space where the horn is blown, the air begins to shimmer from the sound. Any character within 20 feet of the entry to the enclosed space must succeed on a DC 12 Strength check to continue pushing against the pressure of the sound. A failure indicates the character can advance no farther toward the entry.",
-				"For any character entering the enclosed space, the sound fades to silence\u2014because any creature that enters the enclosed space is temporarily {@condition deafened} and must make a DC 12 Constitution saving throw. Success indicates the deafness ends 2 minutes after the Draakhorn ceases to sound. Failure indicates the character remains {@condition deafened} for 1 hour after the Draakhorn ceases to sound.",
-				"While the horn is sounding, a creature must make a DC 15 Constitution saving throw the first time on a turn the creature enters a 150-foot cone in front of the horn or starts its turn there. On a failed save, the creature takes 27 ({@damage 6d8}) thunder damage and is knocked {@condition prone}. On a successful save, the creature takes half damage and isn't knocked {@condition prone}."
+				"For any character entering the enclosed space, the sound fades to silence\u2014because any creature that enters the enclosed space is temporarily {deafened} and must make a DC 12 Constitution saving throw. Success indicates the deafness ends 2 minutes after the Draakhorn ceases to sound. Failure indicates the character remains {deafened} for 1 hour after the Draakhorn ceases to sound.",
+				"While the horn is sounding, a creature must make a DC 15 Constitution saving throw the first time on a turn the creature enters a 150-foot cone in front of the horn or starts its turn there. On a failed save, the creature takes 27 (6d8}) thunder damage and is knocked {prone}. On a successful save, the creature takes half damage and isn't knocked {prone}."
 			],
 			"hasFluffImages": true
 		},
@@ -10907,7 +10907,7 @@ export const items = {
 			"weapon": true,
 			"entries": [
 				"This red dragon's thighbone is 14 feet long, 250 lbs, and is wrapped in old leather, suggesting that it was once used as a giant's greatclub.",
-				"When you hit a creature of the dragon type with this weapon, it deals an extra {@damage 2d8} bludgeoning damage.",
+				"When you hit a creature of the dragon type with this weapon, it deals an extra 2d8} bludgeoning damage.",
 				"If you attune to the greatclub, it magically shrinks to a size that you can wield effectively."
 			]
 		},
@@ -10918,7 +10918,7 @@ export const items = {
 			"type": "OTH",
 			"rarity": "none",
 			"entries": [
-				"Introduced into Sharn by Daask, dragon's blood is a potent and highly addictive stimulant. In addition to inducing euphoria, it can enhance spellcasting ability or even temporarily imbue a user with the ability to cast sorcerer spells. The drug's effects are potentially dangerous and always unpredictable. This isn't something a player character should want to use; adventurers are more likely to interfere with Daask smugglers or deal with an addict who accidentally casts a {@spell fireball} in a crowded street. The specific effects of dragon's blood are up to you, but you can take inspiration from the {@table Wild Magic Surge|PHB} table in the {@book Player's Handbook|PHB}."
+				"Introduced into Sharn by Daask, dragon's blood is a potent and highly addictive stimulant. In addition to inducing euphoria, it can enhance spellcasting ability or even temporarily imbue a user with the ability to cast sorcerer spells. The drug's effects are potentially dangerous and always unpredictable. This isn't something a player character should want to use; adventurers are more likely to interfere with Daask smugglers or deal with an addict who accidentally casts a { fireball} in a crowded street. The specific effects of dragon's blood are up to you, but you can take inspiration from the {@table Wild Magic Surge|PHB} table in the {@book Player's Handbook|PHB}."
 			]
 		},
 		{
@@ -10957,7 +10957,7 @@ export const items = {
 			"charges": 10,
 			"weapon": true,
 			"entries": [
-				"This spear is enchanted with 10 charges of a {@spell daylight} spell for use in twilight or dark forest underbrush. The command phrase is \"Tiamat's eyes shine,\" written in Draconic runes on the spear's crossguard."
+				"This spear is enchanted with 10 charges of a { daylight} spell for use in twilight or dark forest underbrush. The command phrase is \"Tiamat's eyes shine,\" written in Draconic runes on the spear's crossguard."
 			],
 			"attachedSpells": [
 				"daylight"
@@ -10998,7 +10998,7 @@ export const items = {
 			"entries": [
 				"While holding the dragonstaff of Ahghairon, you have advantage on saving throws against the spells and breath weapons of dragons, as well as the breath weapons of other creatures of the dragon type (such as dragon turtles).",
 				"A creature of the dragon type that you touch with the staff can move through the city of Waterdeep, ignoring Ahghairon's dragonward (see \"Ahghairon's Dragonward,\" in the Introduction). This effect lasts until the creature is touched again by the staff or until a time you proclaim when you confer the benefit.",
-				"The staff has 10 charges. While holding it, you can expend 1 charge as an action to cast the {@spell command} spell. If you target a dragon with this casting, the dragon has disadvantage on its saving throw. The staff regains {@dice 1d10} charges daily at dawn."
+				"The staff has 10 charges. While holding it, you can expend 1 charge as an action to cast the { command} spell. If you target a dragon with this casting, the dragon has disadvantage on its saving throw. The staff regains {@dice 1d10} charges daily at dawn."
 			],
 			"attachedSpells": [
 				"command"
@@ -11031,7 +11031,7 @@ export const items = {
 			"bonusWeapon": "+1",
 			"entries": [
 				"A dagger fashioned from the tooth of a dragon. While the blade is obviously a fang or predator's tooth, the handle is leather wrapped around the root of the tooth, and there is no crossguard.",
-				"You gain a +1 bonus to attack and damage rolls made with this weapon. On a hit with this weapon, the target takes an extra {@damage 1d6} acid damage.",
+				"You gain a +1 bonus to attack and damage rolls made with this weapon. On a hit with this weapon, the target takes an extra 1d6} acid damage.",
 				{
 					"name": "Draconic Potency",
 					"type": "entries",
@@ -11061,7 +11061,7 @@ export const items = {
 			"type": "OTH",
 			"rarity": "none",
 			"entries": [
-				"A psychoactive liquid that smells and tastes like your favorite beverage, essence of dreamlily is a Sarlonan opiate. First imported to help manage pain during the Last War, it's now the most commonly abused substance in Sharn. Though dreamlily isn't illegal if used for medicinal purposes, it's heavily taxed, and thus most dreamlily is smuggled in and sold on the black market. Dreamlily dens can be found across the lower wards. Consuming dreamlily causes disorienting euphoria and brings about remarkable resistance to pain. A creature under the effects of dreamlily is {@condition poisoned} for 1 hour. While {@condition poisoned} in this way, the creature is immune to fear, and the first time it drops to 0 hit points without being killed outright, it drops to 1 hit point instead. A dose of dreamlily costs around 1 gp, or up to ten times that if purchased through legal channels. There are many varieties of the drug, however, and the duration or the price might vary accordingly."
+				"A psychoactive liquid that smells and tastes like your favorite beverage, essence of dreamlily is a Sarlonan opiate. First imported to help manage pain during the Last War, it's now the most commonly abused substance in Sharn. Though dreamlily isn't illegal if used for medicinal purposes, it's heavily taxed, and thus most dreamlily is smuggled in and sold on the black market. Dreamlily dens can be found across the lower wards. Consuming dreamlily causes disorienting euphoria and brings about remarkable resistance to pain. A creature under the effects of dreamlily is {poisoned} for 1 hour. While {poisoned} in this way, the creature is immune to fear, and the first time it drops to 0 hit points without being killed outright, it drops to 1 hit point instead. A dose of dreamlily costs around 1 gp, or up to ten times that if purchased through legal channels. There are many varieties of the drug, however, and the duration or the price might vary accordingly."
 			]
 		},
 		{
@@ -11073,7 +11073,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the {@spell light} or {@spell daylight} spell. Once used, the {@spell daylight} effect can't be used again until the next dawn.",
+				"This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the { light} or { daylight} spell. Once used, the { daylight} effect can't be used again until the next dawn.",
 				"You can speak another command word as an action to make the illuminated globe rise into the air and float no more than 5 feet off the ground. The globe hovers in this way until you or another creature grasps it. If you move more than 60 feet from the hovering globe, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the globe sinks gently to the ground and becomes inactive, and its light winks out."
 			],
 			"attachedSpells": [
@@ -11096,7 +11096,7 @@ export const items = {
 			"value": 20000,
 			"poison": true,
 			"entries": [
-				"This poison is typically made only by the {@creature drow}, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition unconscious} while {@condition poisoned} in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+				"This poison is typically made only by the {@creature drow}, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also {unconscious} while {poisoned} in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
 			],
 			"poisonTypes": [
 				"injury"
@@ -11127,7 +11127,7 @@ export const items = {
 			"bonusWeapon": "+1",
 			"entries": [
 				"A steel trident decorated with bronze barnacles along the upper part of its haft, Drown has a sea-green jewel just below the tines and a silver shell at the end of its haft. It floats on the surface if dropped onto water, and it floats in place if it is released underwater. The trident is always cool to the touch, and it is immune to any damage due to exposure to water. Drown contains a spark of {@creature Olhydra|pota}, the Princess of Evil Water.",
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the targets take an extra {@damage 1d8} cold damage.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the targets take an extra 1d8} cold damage.",
 				{
 					"name": "Water Mastery",
 					"type": "entries",
@@ -11140,7 +11140,7 @@ export const items = {
 					"items": [
 						"You can speak Aquan fluently.",
 						"You have resistance to cold damage.",
-						"You can cast {@spell dominate monster} (save DC 17) on a {@creature water elemental}. Once you have done so, Drown can't be used this way again until the next dawn."
+						"You can cast { dominate monster} (save DC 17) on a {@creature water elemental}. Once you have done so, Drown can't be used this way again until the next dawn."
 					]
 				},
 				{
@@ -11154,7 +11154,7 @@ export const items = {
 					"name": "Flaw",
 					"type": "entries",
 					"entries": [
-						"Drown makes its wielder covetous. While attuned to the weapon, you gain the following flaw: \"I demand and deserve the largest share of the spoils, and I refuse to part with anything that's mine.\" In addition, if you are attuned to Drown for 24 consecutive hours, barnacles form on your skin. The barnacles can be removed with a {@spell greater restoration} spell or similar magic, but not while you are attuned to the weapon."
+						"Drown makes its wielder covetous. While attuned to the weapon, you gain the following flaw: \"I demand and deserve the largest share of the spoils, and I refuse to part with anything that's mine.\" In addition, if you are attuned to Drown for 24 consecutive hours, barnacles form on your skin. The barnacles can be removed with a { greater restoration} spell or similar magic, but not while you are attuned to the weapon."
 					]
 				}
 			],
@@ -11254,7 +11254,7 @@ export const items = {
 			],
 			"entries": [
 				"To you, this book is a magical spellbook. To anyone else, the book appears to be a volume of verbose romance fiction. As an action, you can change the book's appearance and alter the plot of the romance.",
-				"When found, the book contains the following spells: {@spell hallucinatory terrain}, {@spell major image}, {@spell mirror image}, {@spell mislead}, {@spell Nystul's magic aura}, {@spell phantasmal force}, and {@spell silent image}. It functions as a spellbook for you.",
+				"When found, the book contains the following spells: { hallucinatory terrain}, { major image}, { mirror image}, { mislead}, { Nystul's magic aura}, { phantasmal force}, and { silent image}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
 				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
@@ -11295,8 +11295,8 @@ export const items = {
 			"weapon": true,
 			"entries": [
 				"This item takes the form of a leather-wrapped metal rod emblazoned with the symbol of Pelor, the Dawn Father. While grasping the rod, you can use a bonus action to cause a warhammer head of crackling radiance to spring into existence. The warhammer's radiant head emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. You can use an action to make the radiant head disappear.",
-				"While the radiant head is active, you gain a +2 bonus to attack and damage rolls made with this magic weapon, and attacks with the weapon deal radiant damage instead of bludgeoning damage. An undead creature hit by the weapon takes an extra {@damage 1d8} radiant damage.",
-				"While you are holding Duskcrusher and its radiant head is active, you can use an action to cast the {@spell sunbeam} spell (save DC 15) from the weapon, and this action can't be used again until the next dawn."
+				"While the radiant head is active, you gain a +2 bonus to attack and damage rolls made with this magic weapon, and attacks with the weapon deal radiant damage instead of bludgeoning damage. An undead creature hit by the weapon takes an extra 1d8} radiant damage.",
+				"While you are holding Duskcrusher and its radiant head is active, you can use an action to cast the { sunbeam} spell (save DC 15) from the weapon, and this action can't be used again until the next dawn."
 			],
 			"attachedSpells": [
 				"sunbeam"
@@ -11310,7 +11310,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"As an action, you can throw this dust into the air, filling a 10-foot cube that extends out from you. Surfaces and objects made of nonmagical ferrous metal in the area instantly corrode and turn to dust, becoming useless and unsalvageable. Any creature in the area that is made wholly or partly out of ferrous metal must make a DC 13 Constitution saving throw, taking {@damage 4d8} necrotic damage on a failed save, or half as much damage on a successful one.",
+				"As an action, you can throw this dust into the air, filling a 10-foot cube that extends out from you. Surfaces and objects made of nonmagical ferrous metal in the area instantly corrode and turn to dust, becoming useless and unsalvageable. Any creature in the area that is made wholly or partly out of ferrous metal must make a DC 13 Constitution saving throw, taking 4d8} necrotic damage on a failed save, or half as much damage on a successful one.",
 				"Found in a small packet, this dust is made from finely ground rust monster antennae. There is enough dust in each packet for one use."
 			]
 		},
@@ -11333,7 +11333,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"Found in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become {@condition invisible} for {@dice 2d4} minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature."
+				"Found in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become {invisible} for {@dice 2d4} minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature."
 			],
 			"lootTables": [
 				"Magic Item Table B"
@@ -11351,7 +11351,7 @@ export const items = {
 			"entries": [
 				"This small packet contains {@dice 1d6 + 4} pinches of dust. You can use an action to sprinkle a pinch of it over water. The dust turns a cube of water 15 feet on a side into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible.",
 				"Someone can use an action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so ends that pellet's magic.",
-				"An elemental composed mostly of water that is exposed to a pinch of the dust must make a DC 13 Constitution saving throw, taking {@damage 10d6} necrotic damage on a failed save, or half as much damage on a successful one."
+				"An elemental composed mostly of water that is exposed to a pinch of the dust must make a DC 13 Constitution saving throw, taking 10d6} necrotic damage on a failed save, or half as much damage on a successful one."
 			],
 			"lootTables": [
 				"Magic Item Table B"
@@ -11366,8 +11366,8 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"Found in a small container, this powder resembles very fine sand. It appears to be {@item dust of disappearance}, and an {@spell identify} spell reveals it to be such. There is enough of it for one use.",
-				"When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe while sneezing uncontrollably. A creature affected in this way is {@condition incapacitated} and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The {@spell lesser restoration} spell can also end the effect on a creature."
+				"Found in a small container, this powder resembles very fine sand. It appears to be {@item dust of disappearance}, and an { identify} spell reveals it to be such. There is enough of it for one use.",
+				"When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe while sneezing uncontrollably. A creature affected in this way is {incapacitated} and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The { lesser restoration} spell can also end the effect on a creature."
 			],
 			"lootTables": [
 				"Magic Item Table B"
@@ -11381,7 +11381,7 @@ export const items = {
 			"rarity": "none",
 			"poison": true,
 			"entries": [
-				"This poison is created during a mummy's embalming process, distilled from the dead creature's removed organs. A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed creature can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the creature's hit point maximum to 0, the creature dies, and its body turns to dust. The curse lasts until removed by the {@spell remove curse} spell or similar magic."
+				"This poison is created during a mummy's embalming process, distilled from the dead creature's removed organs. A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed creature can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the creature's hit point maximum to 0, the creature dies, and its body turns to dust. The curse lasts until removed by the { remove curse} spell or similar magic."
 			],
 			"poisonTypes": [
 				"inhaled"
@@ -11435,7 +11435,7 @@ export const items = {
 			"dmg2": "1d10",
 			"bonusWeapon": "+3",
 			"entries": [
-				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra {@damage 1d8} damage or, if the target is a giant, {@damage 2d8} damage. Immediately after the attack, the weapon flies back to your hand."
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra 1d8} damage or, if the target is a giant, 2d8} damage. Immediately after the attack, the weapon flies back to your hand."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -11451,8 +11451,8 @@ export const items = {
 			"weight": 1,
 			"age": "modern",
 			"entries": [
-				"As an action, a creature can light a stick of dynamite and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must make a DC 12 Dexterity saving throw, taking {@damage 3d6} bludgeoning damage on a failed save, or half as much damage on a successful one.",
-				"A character can bind sticks of dynamite together so they explode at the same time. Each additional stick increases the damage by {@damage 1d6} (to a maximum of {@damage 10d6}) and the burst radius by 5 feet (to a maximum of 20 feet).",
+				"As an action, a creature can light a stick of dynamite and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must make a DC 12 Dexterity saving throw, taking 3d6} bludgeoning damage on a failed save, or half as much damage on a successful one.",
+				"A character can bind sticks of dynamite together so they explode at the same time. Each additional stick increases the damage by 1d6} (to a maximum of 10d6}) and the burst radius by 5 feet (to a maximum of 20 feet).",
 				"Dynamite can be rigged with a longer fuse to explode after a set amount of time, usually 1 to 6 rounds. Roll initiative for the dynamite. After the set number of rounds goes by, the dynamite explodes on that initiative."
 			]
 		},
@@ -11476,7 +11476,7 @@ export const items = {
 			"weapon": true,
 			"entries": [
 				"This long, whip-like strand of tough muscle bears a sharp stinger at one end. To attune to this symbiotic weapon, you wrap the whip around your wrist for the entire attunement period, during which time the whip painfully embeds its tendrils into your arm.",
-				"You gain a +2 bonus to attack and damage rolls made with this magic whip, but attack rolls made against aberrations with this weapon have disadvantage. A creature hit by this weapon takes an extra {@damage 1d6} psychic damage. When you roll a 20 on the {@dice d20} for an attack roll with this weapon, the target is {@condition stunned} until the end of its next turn.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic whip, but attack rolls made against aberrations with this weapon have disadvantage. A creature hit by this weapon takes an extra 1d6} psychic damage. When you roll a 20 on the {@dice d20} for an attack roll with this weapon, the target is {stunned} until the end of its next turn.",
 				"As a bonus action, you can sheathe the whip by causing it to retract into your arm, or draw the whip out of your arm again.",
 				{
 					"type": "entries",
@@ -11514,7 +11514,7 @@ export const items = {
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
-				"While held up to your ear, this horn suppresses the effects of the {@condition deafened} condition on you, allowing you to hear normally."
+				"While held up to your ear, this horn suppresses the effects of the {deafened} condition on you, allowing you to hear normally."
 			]
 		},
 		{
@@ -11527,7 +11527,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d4 + 1}",
 			"charges": 5,
 			"entries": [
-				"The blue crystal of this earring is wrapped with delicate copper wire. The earring has 5 charges. While wearing it, you can use an action to expend 1 charge and cast the {@spell message} spell. The earring regains {@dice 1d4 + 1} expended charges daily at dawn."
+				"The blue crystal of this earring is wrapped with delicate copper wire. The earring has 5 charges. While wearing it, you can use an action to expend 1 charge and cast the { message} spell. The earring regains {@dice 1d4 + 1} expended charges daily at dawn."
 			],
 			"attachedSpells": [
 				"message"
@@ -11550,7 +11550,7 @@ export const items = {
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"The earworm has 4 charges. You can cast the following spells from it, expending the necessary number of charges (spell save DC 15): {@spell detect thoughts} (2 charges) or {@spell dissonant whispers} (1 charge). Each time you use the earworm to cast the {@spell detect thoughts} spell, it sends the information gleaned to the nearest daelkyr, or to the next nearest earworm until it reaches a daelkyr.",
+						"The earworm has 4 charges. You can cast the following spells from it, expending the necessary number of charges (spell save DC 15): { detect thoughts} (2 charges) or { dissonant whispers} (1 charge). Each time you use the earworm to cast the { detect thoughts} spell, it sends the information gleaned to the nearest daelkyr, or to the next nearest earworm until it reaches a daelkyr.",
 						"The earworm regains {@dice 1d4} expended charges daily at dawn."
 					]
 				},
@@ -11600,7 +11600,7 @@ export const items = {
 						],
 						[
 							"91-00",
-							"The {@creature efreeti} can cast the {@spell wish} spell three times for you. It disappears when it grants the final wish or after 1 hour, and the bottle loses its magic."
+							"The {@creature efreeti} can cast the { wish} spell three times for you. It disappears when it grants the final wish or after 1 hour, and the bottle loses its magic."
 						]
 					]
 				}
@@ -11677,7 +11677,7 @@ export const items = {
 					"type": "entries",
 					"name": "Eldritch Maul",
 					"entries": [
-						"As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee attacks with a weapon or an unarmed strike can reach a target up to 15 feet away from you, as inky tendrils launch toward the target. In addition, your melee attacks deal an extra {@damage 1d6} force damage on a hit. Once used, this bonus action can't be used again until the next dawn."
+						"As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee attacks with a weapon or an unarmed strike can reach a target up to 15 feet away from you, as inky tendrils launch toward the target. In addition, your melee attacks deal an extra 1d6} force damage on a hit. Once used, this bonus action can't be used again until the next dawn."
 					]
 				}
 			]
@@ -11697,7 +11697,7 @@ export const items = {
 					"type": "entries",
 					"name": "Eldritch Maul",
 					"entries": [
-						"As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee weapon attacks can reach a target up to 30 feet away from you, as tendrils of ink launch from your weapon or unarmed strike toward the target. In addition, your melee weapon attacks deal an extra {@damage 1d6} force damage on a hit. Once used, this bonus action can't be used again until the next dawn."
+						"As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee weapon attacks can reach a target up to 30 feet away from you, as tendrils of ink launch from your weapon or unarmed strike toward the target. In addition, your melee weapon attacks deal an extra 1d6} force damage on a hit. Once used, this bonus action can't be used again until the next dawn."
 					]
 				},
 				{
@@ -11738,14 +11738,14 @@ export const items = {
 					"type": "entries",
 					"name": "Eldritch Attack",
 					"entries": [
-						"When you hit with a melee attack using the staff, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra {@damage 1d8} lightning damage."
+						"When you hit with a melee attack using the staff, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d8} lightning damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Eldritch Escape",
 					"entries": [
-						"If you take damage while holding the staff, you can use your reaction to expend 3 of the staff's charges, whereupon you turn {@condition invisible} and teleport yourself, along with any equipment you are wearing or carrying, up to 60 feet to an unoccupied space that you can see. You remain {@condition invisible} until the start of your next turn or until you attack, cast a spell, or deal damage."
+						"If you take damage while holding the staff, you can use your reaction to expend 3 of the staff's charges, whereupon you turn {invisible} and teleport yourself, along with any equipment you are wearing or carrying, up to 60 feet to an unoccupied space that you can see. You remain {invisible} until the start of your next turn or until you attack, cast a spell, or deal damage."
 					]
 				}
 			]
@@ -11909,7 +11909,7 @@ export const items = {
 					"type": "entries",
 					"name": "Property",
 					"entries": [
-						"One target of the spell that you can see catches fire. The burning target takes {@damage 2d10} fire damage at the start of its next turn, and then the flames go out."
+						"One target of the spell that you can see catches fire. The burning target takes 2d10} fire damage at the start of its next turn, and then the flames go out."
 					]
 				}
 			]
@@ -11937,7 +11937,7 @@ export const items = {
 					"type": "entries",
 					"name": "Property",
 					"entries": [
-						"You create a wave of water that bursts out from you in a 10-foot radius. Each creature of your choice that you can see in that area takes {@damage 2d6} cold damage and must succeed on a Strength saving throw against your spell save DC or be pushed 10 feet away from you and fall {@condition prone}."
+						"You create a wave of water that bursts out from you in a 10-foot radius. Each creature of your choice that you can see in that area takes 2d6} cold damage and must succeed on a Strength saving throw against your spell save DC or be pushed 10 feet away from you and fall {prone}."
 					]
 				}
 			]
@@ -11951,7 +11951,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"This gem contains a mote of elemental energy. When you use an action to break the gem, an {@creature air elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
+				"This gem contains a mote of elemental energy. When you use an action to break the gem, an {@creature air elemental} is summoned as if you had cast the { conjure elemental} spell, and the gem's magic is lost."
 			],
 			"attachedSpells": [
 				"conjure elemental"
@@ -11966,7 +11966,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"This gem contains a mote of elemental energy. When you use an action to break the gem, a {@creature water elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
+				"This gem contains a mote of elemental energy. When you use an action to break the gem, a {@creature water elemental} is summoned as if you had cast the { conjure elemental} spell, and the gem's magic is lost."
 			],
 			"attachedSpells": [
 				"conjure elemental"
@@ -11981,7 +11981,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"This gem contains a mote of elemental energy. When you use an action to break the gem, a {@creature fire elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
+				"This gem contains a mote of elemental energy. When you use an action to break the gem, a {@creature fire elemental} is summoned as if you had cast the { conjure elemental} spell, and the gem's magic is lost."
 			],
 			"attachedSpells": [
 				"conjure elemental"
@@ -11996,7 +11996,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"This gem contains a mote of elemental energy. When you use an action to break the gem, an {@creature earth elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
+				"This gem contains a mote of elemental energy. When you use an action to break the gem, an {@creature earth elemental} is summoned as if you had cast the { conjure elemental} spell, and the gem's magic is lost."
 			],
 			"attachedSpells": [
 				"conjure elemental"
@@ -12022,7 +12022,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, and {@condition poisoned} conditions. The clear red liquid has tiny bubbles of light in it."
+				"When you drink this potion, it cures any disease afflicting you, and it removes the {blinded}, {deafened}, {paralyzed}, and {poisoned} conditions. The clear red liquid has tiny bubbles of light in it."
 			],
 			"lootTables": [
 				"Magic Item Table C"
@@ -12155,7 +12155,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"This pen is tipped with an emerald nib and requires no ink to write. While holding this pen, you can cast {@spell illusory script} at will, requiring no material components."
+				"This pen is tipped with an emerald nib and requires no ink to write. While holding this pen, you can cast { illusory script} at will, requiring no material components."
 			],
 			"attachedSpells": [
 				"illusory script"
@@ -12297,7 +12297,7 @@ export const items = {
 					"type": "entries",
 					"name": "Spring",
 					"entries": [
-						"As an action, you can fire this arrow, targeting a beast or a plant creature you can see within 320 feet of you. On a hit, the arrow deals no damage, and the target gains the benefits of the {@spell awaken} spell for 8 hours."
+						"As an action, you can fire this arrow, targeting a beast or a plant creature you can see within 320 feet of you. On a hit, the arrow deals no damage, and the target gains the benefits of the { awaken} spell for 8 hours."
 					]
 				},
 				{
@@ -12311,14 +12311,14 @@ export const items = {
 					"type": "entries",
 					"name": "Autumn",
 					"entries": [
-						"As an action, you can fire this arrow at a space on the ground that you can see within 320 feet of you, no attack roll required, casting the {@spell wall of thorns} spell there."
+						"As an action, you can fire this arrow at a space on the ground that you can see within 320 feet of you, no attack roll required, casting the { wall of thorns} spell there."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Winter",
 					"entries": [
-						"As an action, you can fire this arrow at a space that you can see within 320 feet of you, no attack roll required, casting the {@spell ice storm} spell there."
+						"As an action, you can fire this arrow at a space that you can see within 320 feet of you, no attack roll required, casting the { ice storm} spell there."
 					]
 				},
 				{
@@ -12364,7 +12364,7 @@ export const items = {
 			"value": 30000,
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {@condition poisoned} for 8 hours. The {@condition poisoned} creature is {@condition unconscious}. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {poisoned} for 8 hours. The {poisoned} creature is {unconscious}. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
 			],
 			"poisonTypes": [
 				"inhaled"
@@ -12383,7 +12383,7 @@ export const items = {
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
-				"This bullseye lantern contains an Eberron dragonshard that sheds light comparable to that produced by a {@spell continual flame} spell. An everbright lantern sheds light in a 120-foot cone; the closest 60 feet is bright light, and the farthest 60 feet is dim light."
+				"This bullseye lantern contains an Eberron dragonshard that sheds light comparable to that produced by a { continual flame} spell. An everbright lantern sheds light in a 120-foot cone; the closest 60 feet is bright light, and the farthest 60 feet is dim light."
 			]
 		},
 		{
@@ -12468,7 +12468,7 @@ export const items = {
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"This acorn-sized sphere of brass contains a small amount of blasting powder and a clockwork trigger. An explosive seed can be thrown up to 30 feet as an action, detonating on impact. Each creature within 5 feet of the exploding seed must make a DC 10 Dexterity saving throw, taking {@damage 1d8} bludgeoning damage on a failed save, or half as much damage on a successful one."
+				"This acorn-sized sphere of brass contains a small amount of blasting powder and a clockwork trigger. An explosive seed can be thrown up to 30 feet as an action, detonating on impact. Each creature within 5 feet of the exploding seed must make a DC 10 Dexterity saving throw, taking 1d8} bludgeoning damage on a failed save, or half as much damage on a successful one."
 			]
 		},
 		{
@@ -12526,7 +12526,7 @@ export const items = {
 					"items": [
 						"You have {@sense truesight}.",
 						"You can use an action to see as if you were wearing a {@item ring of X-ray vision}. You can end this effect as a bonus action.",
-						"The eye has 8 charges. You can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: {@spell clairvoyance} (2 charges), {@spell crown of madness} (1 charge), {@spell disintegrate} (4 charges), {@spell dominate monster} (5 charges), or {@spell eyebite} (4 charges). The eye regains {@dice 1d4 + 4} expended charges daily at dawn. Each time you cast a spell from the eye, there is a {@chance 5} chance that Vecna tears your soul from your body, devours it, and then takes control of the body like a puppet. If that happens, you become an NPC under the DM's control."
+						"The eye has 8 charges. You can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: { clairvoyance} (2 charges), { crown of madness} (1 charge), { disintegrate} (4 charges), { dominate monster} (5 charges), or { eyebite} (4 charges). The eye regains {@dice 1d4 + 4} expended charges daily at dawn. Each time you cast a spell from the eye, there is a {@chance 5} chance that Vecna tears your soul from your body, devours it, and then takes control of the body like a puppet. If that happens, you become an NPC under the DM's control."
 					]
 				},
 				{
@@ -12538,11 +12538,11 @@ export const items = {
 							"type": "list",
 							"items": [
 								"You are immune to disease and poison.",
-								"Using the eye's X-ray vision never causes you to suffer {@condition exhaustion}.",
-								"You experience premonitions of danger and, unless you are {@condition incapacitated}, can't be {@quickref Surprise|PHB|3|0|surprised}.",
+								"Using the eye's X-ray vision never causes you to suffer {exhaustion}.",
+								"You experience premonitions of danger and, unless you are {incapacitated}, can't be {@quickref Surprise|PHB|3|0|surprised}.",
 								"If you start your turn with at least 1 hit point, you regain {@dice 1d10} hit points.",
 								"If a creature has a skeleton, you can attempt to turn its bones to jelly with a touch of the {@item Hand of Vecna}. You can do so by using an action to make a melee attack against a creature you can reach, using your choice of your melee attack bonus for weapons or spells. On a hit, the target must succeed on a DC 18 Constitution saving throw or drop to 0 hit points.",
-								"You can use an action to cast {@spell wish}. This property can't be used again until 30 days have passed."
+								"You can use an action to cast { wish}. This property can't be used again until 30 days have passed."
 							]
 						}
 					]
@@ -12594,7 +12594,7 @@ export const items = {
 			"rechargeAmount": 3,
 			"charges": 3,
 			"entries": [
-				"These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the {@spell charm person} spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn."
+				"These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the { charm person} spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -12670,15 +12670,15 @@ export const items = {
 						],
 						[
 							"71-80 ",
-							"The creature sprinkled with dust must succeed on a DC 11 Constitution saving throw or fall {@condition unconscious} for 1 minute. The creature awakens if it takes damage or if it is shaken or slapped as an action."
+							"The creature sprinkled with dust must succeed on a DC 11 Constitution saving throw or fall {unconscious} for 1 minute. The creature awakens if it takes damage or if it is shaken or slapped as an action."
 						],
 						[
 							"81-90",
-							"The creature sprinkled with dust must succeed on a DC 11 Wisdom saving throw or be affected by a {@spell confusion} spell."
+							"The creature sprinkled with dust must succeed on a DC 11 Wisdom saving throw or be affected by a { confusion} spell."
 						],
 						[
 							"91-00",
-							"The creature sprinkled with dust becomes {@condition invisible} for 1 hour. Any equipment it is wearing or carrying is {@condition invisible} as long as it is on the creature's person. The effect on the creature ends if it attacks, deals any damage, or casts a spell."
+							"The creature sprinkled with dust becomes {invisible} for 1 hour. Any equipment it is wearing or carrying is {invisible} as long as it is on the creature's person. The effect on the creature ends if it attacks, deals any damage, or casts a spell."
 						]
 					]
 				}
@@ -12701,7 +12701,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 2,
 			"entries": [
-				"This wand has 2 charges. While holding it, you can use an action to expend 1 or more of its charges to cast either a green-flamed {@spell fireball} or a blue {@spell lightning bolt} at random from it (save DC 15).",
+				"This wand has 2 charges. While holding it, you can use an action to expend 1 or more of its charges to cast either a green-flamed { fireball} or a blue { lightning bolt} at random from it (save DC 15).",
 				"For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
@@ -12718,7 +12718,7 @@ export const items = {
 			"rarity": "unknown (magic)",
 			"curse": true,
 			"entries": [
-				"This steel helm is shaped like the head of a boar. Once you don the helm, it can't be removed until you die or until a {@spell remove curse} spell or similar magic is cast on it. If you wear the helm and are a humanoid, you gain the following flaw until the helm is removed: \"I'm exceedingly stubborn and think I'm right all the time.\" (This flaw supersedes any conflicting flaw.)"
+				"This steel helm is shaped like the head of a boar. Once you don the helm, it can't be removed until you die or until a { remove curse} spell or similar magic is cast on it. If you wear the helm and are a humanoid, you gain the following flaw until the helm is removed: \"I'm exceedingly stubborn and think I'm right all the time.\" (This flaw supersedes any conflicting flaw.)"
 			]
 		},
 		{
@@ -12754,7 +12754,7 @@ export const items = {
 			"bonusWeapon": "+3",
 			"entries": [
 				"Fane-Eater is a battleaxe belonging to {@creature Arkhan the Cruel|BGDIA}.",
-				"You gain a +3 bonus to attack and damage rolls with Fane-Eater. If you attack a creature with this weapon and roll a 20 on the attack roll, the creature takes an extra {@damage 2d8} necrotic damage, and you regain a number of hit points equal to the necrotic damage taken."
+				"You gain a +3 bonus to attack and damage rolls with Fane-Eater. If you attack a creature with this weapon and roll a 20 on the attack roll, the creature takes an extra 2d8} necrotic damage, and you regain a number of hit points equal to the necrotic damage taken."
 			]
 		},
 		{
@@ -12771,14 +12771,14 @@ export const items = {
 					"type": "entries",
 					"name": "Aberrant Ally",
 					"entries": [
-						"You can conjure an aberrant creature from the chaos of the multiverse to serve you. This functions as the {@spell conjure celestial} spell (no concentration required), except the creature you summon is an aberration of challenge rating 4 or lower. Once you use this feature of the far gear, it cannot be used again until the next dawn."
+						"You can conjure an aberrant creature from the chaos of the multiverse to serve you. This functions as the { conjure celestial} spell (no concentration required), except the creature you summon is an aberration of challenge rating 4 or lower. Once you use this feature of the far gear, it cannot be used again until the next dawn."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Unnatural Bane",
 					"entries": [
-						"You can cast the {@spell bane} spell (save DC 15), which affects any number of creatures within range for 1 minute. Once you use this feature of the far gear, it cannot be used again until the next dawn."
+						"You can cast the { bane} spell (save DC 15), which affects any number of creatures within range for 1 minute. Once you use this feature of the far gear, it cannot be used again until the next dawn."
 					]
 				},
 				{
@@ -12812,7 +12812,7 @@ export const items = {
 			],
 			"entries": [
 				"This writhing crystal is steeped in the warped essence of the Far Realm. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
-				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can cause a slimy tentacle to rip through the fabric of reality and strike one creature you can see within 30 feet of you. The creature must succeed on a Charisma saving throw against your spell save DC or take {@damage 3d6} psychic damage and become {@condition frightened} of you until the start of your next turn."
+				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can cause a slimy tentacle to rip through the fabric of reality and strike one creature you can see within 30 feet of you. The creature must succeed on a Charisma saving throw against your spell save DC or take 3d6} psychic damage and become {frightened} of you until the start of your next turn."
 			],
 			"hasFluffImages": true
 		},
@@ -13401,7 +13401,7 @@ export const items = {
 					"items": [
 						"The goat of traveling can become a Large goat with the same statistics as a {@creature riding horse}. It has 24 charges, and each hour or portion thereof it spends in beast form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and can't be used again until 7 days have passed, when it regains all its charges.",
 						"The goat of travail becomes a {@creature giant goat} for up to 3 hours. Once it has been used, it can't be used again until 30 days have passed.",
-						"The goat of terror becomes a {@creature giant goat} for up to 3 hours. The goat can't attack, but you can remove its horns and use them as weapons. One horn becomes a +1 lance, and the other becomes a +2 longsword. Removing a horn requires an action, and the weapons disappear and the horns return when the goat reverts to figurine form. In addition, the goat radiates a 30-foot-radius aura of terror while you are riding it. Any creature hostile to you that starts its turn in the aura must succeed on a DC 15 Wisdom saving throw or be {@condition frightened} of the goat for 1 minute, or until the goat reverts to figurine form. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it successfully saves against the effect, a creature is immune to the goat's aura for the next 24 hours. Once the figurine has been used, it can't be used again until 15 days have passed."
+						"The goat of terror becomes a {@creature giant goat} for up to 3 hours. The goat can't attack, but you can remove its horns and use them as weapons. One horn becomes a +1 lance, and the other becomes a +2 longsword. Removing a horn requires an action, and the weapons disappear and the horns return when the goat reverts to figurine form. In addition, the goat radiates a 30-foot-radius aura of terror while you are riding it. Any creature hostile to you that starts its turn in the aura must succeed on a DC 15 Wisdom saving throw or be {frightened} of the goat for 1 minute, or until the goat reverts to figurine form. The {frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it successfully saves against the effect, a creature is immune to the goat's aura for the next 24 hours. Once the figurine has been used, it can't be used again until 15 days have passed."
 					]
 				}
 			],
@@ -13461,7 +13461,7 @@ export const items = {
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
 				"{@creature mastiff||Onyx Dog}.",
-				"This onyx statuette of a dog can become a {@creature mastiff} for up to 6 hours. The {@creature mastiff} has an Intelligence of 8 and can speak Common. It also has {@sense darkvision} out to a range of 60 feet and can see {@condition invisible} creatures and objects within that range. Once it has been used, it can't be used again until 7 days have passed."
+				"This onyx statuette of a dog can become a {@creature mastiff} for up to 6 hours. The {@creature mastiff} has an Intelligence of 8 and can speak Common. It also has {@sense darkvision} out to a range of 60 feet and can see {invisible} creatures and objects within that range. Once it has been used, it can't be used again until 7 days have passed."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -13499,7 +13499,7 @@ export const items = {
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
 				"{@creature raven||Silver Raven}.",
-				"This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine allows you to cast the {@spell animal messenger} spell on it at will."
+				"This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine allows you to cast the { animal messenger} spell on it at will."
 			],
 			"attachedSpells": [
 				"animal messenger"
@@ -13535,7 +13535,7 @@ export const items = {
 					"type": "list",
 					"items": [
 						"When you make a Wisdom ({@skill Insight}) check, you can roll a {@dice d4} and add the number rolled to the check.",
-						"As an action, you can use the goggles to examine an object to identify the aura of the last creature that touched it. Make a Wisdom ({@skill Insight}) check against a DC of 13 + the number of days since the last contact occurred. On a success, you learn the creature's type and can immediately use the goggles to cast {@spell locate creature} to find that creature. This property can't be used again until the next dawn."
+						"As an action, you can use the goggles to examine an object to identify the aura of the last creature that touched it. Make a Wisdom ({@skill Insight}) check against a DC of 13 + the number of days since the last contact occurred. On a success, you learn the creature's type and can immediately use the goggles to cast { locate creature} to find that creature. This property can't be used again until the next dawn."
 					]
 				}
 			],
@@ -13672,8 +13672,8 @@ export const items = {
 			"bonusWeapon": "+3",
 			"weapon": true,
 			"entries": [
-				"This magic flail is made in the image of Tiamat, with five jagged heads shaped like the heads of five different chromatic dragons. You gain a +3 bonus to attack and damage rolls made with this flail. When you hit with an attack roll using it, the target takes an extra {@damage 5d4} damage of your choice of one of the following damage types: acid, cold, fire, lightning, or poison.",
-				"While holding the flail, you can use an action and speak a command word to cause the heads to breathe multicolored flames in a 90-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw. On a failed save, it takes {@damage 14d6} damage of one of the following damage types (your choice): acid, cold, fire, lightning, or poison. On a successful save, it takes half as much damage. Once this action is used, it can't be used again until the next dawn."
+				"This magic flail is made in the image of Tiamat, with five jagged heads shaped like the heads of five different chromatic dragons. You gain a +3 bonus to attack and damage rolls made with this flail. When you hit with an attack roll using it, the target takes an extra 5d4} damage of your choice of one of the following damage types: acid, cold, fire, lightning, or poison.",
+				"While holding the flail, you can use an action and speak a command word to cause the heads to breathe multicolored flames in a 90-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw. On a failed save, it takes 14d6} damage of one of the following damage types (your choice): acid, cold, fire, lightning, or poison. On a successful save, it takes half as much damage. Once this action is used, it can't be used again until the next dawn."
 			]
 		},
 		{
@@ -13695,7 +13695,7 @@ export const items = {
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra {@damage 2d6} fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.",
+				"You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6} fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.",
 				"While you are attuned to this sword you can use an action to mentally command it to detect gems and jewels. You learn the kind and number of such objects within 60 feet of the sword."
 			]
 		},
@@ -13852,7 +13852,7 @@ export const items = {
 					"type": "entries",
 					"name": "Crash",
 					"entries": [
-						"Should the flying citadel helm be destroyed, the citadel it is installed on loses power and begins to crumble. If the crumbling citadel is in the air, it descends at a rate of 30 feet per round, or 300 feet per minute. Any creature on the citadel or on the ground within 120 feet of the citadel when it lands must make a DC 20 Dexterity saving throw, taking 39 ({@damage 6d12}) bludgeoning damage on a failed save, or half as much damage on a successful one."
+						"Should the flying citadel helm be destroyed, the citadel it is installed on loses power and begins to crumble. If the crumbling citadel is in the air, it descends at a rate of 30 feet per round, or 300 feet per minute. Any creature on the citadel or on the ground within 120 feet of the citadel when it lands must make a DC 20 Dexterity saving throw, taking 39 (6d12}) bludgeoning damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			]
@@ -14021,7 +14021,7 @@ export const items = {
 			"age": "modern",
 			"entries": [
 				"As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away.",
-				"Each creature within 20 feet of an exploding fragmentation grenade must make a DC 15 Dexterity saving throw, taking {@damage 5d6} piercing damage on a failed save, or half as much damage on a successful one."
+				"Each creature within 20 feet of an exploding fragmentation grenade must make a DC 15 Dexterity saving throw, taking 5d6} piercing damage on a failed save, or half as much damage on a successful one."
 			]
 		},
 		{
@@ -14044,14 +14044,14 @@ export const items = {
 				"Wizard"
 			],
 			"entries": [
-				"This thick, scorched spellbook reeks of smoke and ozone, and sparks of energy crackles along the edges of its pages. When found, the book contains the following spells: {@spell contingency}, {@spell fireball}, {@spell gust of wind}, {@spell Leomund's tiny hut}, {@spell magic missile}, {@spell thunderwave}, and {@spell wall of force}. It functions as a spellbook for you.",
+				"This thick, scorched spellbook reeks of smoke and ozone, and sparks of energy crackles along the edges of its pages. When found, the book contains the following spells: { contingency}, { fireball}, { gust of wind}, { Leomund's tiny hut}, { magic missile}, { thunderwave}, and { wall of force}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
 				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
 					"type": "list",
 					"items": [
 						"If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the evocation school.",
-						"When one creature you can see takes damage from an evocation spell you cast, you can use your reaction and expend 1 charge to deal an extra {@damage 2d6} force damage to the creature and knock the creature {@condition prone} if it is Large or smaller."
+						"When one creature you can see takes damage from an evocation spell you cast, you can use your reaction and expend 1 charge to deal an extra 2d6} force damage to the creature and knock the creature {prone} if it is Large or smaller."
 					]
 				}
 			],
@@ -14081,8 +14081,8 @@ export const items = {
 				{
 					"type": "list",
 					"items": [
-						"You can cast {@spell fog cloud} as an action (1 charge).",
-						"You can cast {@spell misty step} as a bonus action (2 charges).",
+						"You can cast { fog cloud} as an action (1 charge).",
+						"You can cast { misty step} as a bonus action (2 charges).",
 						"You can summon a {@creature steam mephit} as an action (3 charges). The mephit is friendly to you, obeys your verbal commands, and acts on its own turn in the initiative order. It disappears in a harmless puff of steam after 1 minute or if it ends its turn more than 60 feet from the pipe."
 					]
 				}
@@ -14130,7 +14130,7 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While you wear both of these steel gauntlets, any non-magical weapon you grasp with either gauntlet is treated as a magic weapon. As a bonus action, you can use the gauntlets to cause magical flames to envelop one or two melee weapons in your grasp. Each flaming weapon deals an extra {@damage 1d6} fire damage on a hit. The flames last until you sheath or let go of either weapon. Once used, this property can't be used again until the next dawn."
+				"While you wear both of these steel gauntlets, any non-magical weapon you grasp with either gauntlet is treated as a magic weapon. As a bonus action, you can use the gauntlets to cause magical flames to envelop one or two melee weapons in your grasp. Each flaming weapon deals an extra 1d6} fire damage on a hit. The flames last until you sheath or let go of either weapon. Once used, this property can't be used again until the next dawn."
 			]
 		},
 		{
@@ -14209,7 +14209,7 @@ export const items = {
 					"type": "list",
 					"items": [
 						"The first command word causes the gem to shed bright light in a 30-foot radius and dim light for an additional 30 feet. This effect doesn't expend a charge. It lasts until you use a bonus action to repeat the command word or until you use another function of the gem.",
-						"The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become {@condition blinded} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become {blinded} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"The third command word expends 5 charges and causes the gem to flare with blinding light in a 30-foot cone originating from it. Each creature in the cone must make a saving throw as if struck by the beam created with the second command word."
 					]
 				},
@@ -14256,10 +14256,10 @@ export const items = {
 			"weight": 1,
 			"entries": [
 				"A restless spirit is trapped inside this lantern. While holding the lantern, you can command the spirit as a bonus action to shed bright light in a 30-foot radius and dim light for an additional 30 feet.",
-				"While holding the lantern, you can use an action to order the spirit to leave the lantern and duplicate the effect of the {@spell mage hand} spell. The spirit returns to the lantern when the spell ends.",
-				"If you fall {@condition unconscious} within 10 feet of the lantern, the spirit emerges from it, magically stabilizes you with a touch, and then quickly returns to the lantern.",
+				"While holding the lantern, you can use an action to order the spirit to leave the lantern and duplicate the effect of the { mage hand} spell. The spirit returns to the lantern when the spell ends.",
+				"If you fall {unconscious} within 10 feet of the lantern, the spirit emerges from it, magically stabilizes you with a touch, and then quickly returns to the lantern.",
 				"The spirit is bound to the lantern and can't be harmed, turned, or raised from the dead.",
-				"Casting a {@spell dispel evil and good} spell on the lantern releases the spirit to the afterlife and renders the lantern nonmagical."
+				"Casting a { dispel evil and good} spell on the lantern releases the spirit to the afterlife and renders the lantern nonmagical."
 			],
 			"attachedSpells": [
 				"mage hand"
@@ -14296,8 +14296,8 @@ export const items = {
 							"type": "list",
 							"items": [
 								"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
-								"You can't be {@condition grappled} or {@condition restrained}.",
-								"You can move through creatures and solid objects as if they were {@quickref difficult terrain||3}. If you end your turn in a solid object, you take {@damage 1d10} force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take {@damage 1d10} force damage for every 5 feet traveled."
+								"You can't be {grappled} or {restrained}.",
+								"You can move through creatures and solid objects as if they were {@quickref difficult terrain||3}. If you end your turn in a solid object, you take 1d10} force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take 1d10} force damage for every 5 feet traveled."
 							]
 						}
 					]
@@ -14322,8 +14322,8 @@ export const items = {
 					"type": "list",
 					"items": [
 						"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
-						"You can't be {@condition grappled} or {@condition restrained}.",
-						"You can move through creatures and solid objects as if they were {@quickref difficult terrain||3}. If you end your turn in a solid object, you take {@damage 1d10} force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take {@damage 1d10} force damage for every 5 feet traveled."
+						"You can't be {grappled} or {restrained}.",
+						"You can move through creatures and solid objects as if they were {@quickref difficult terrain||3}. If you end your turn in a solid object, you take 1d10} force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take 1d10} force damage for every 5 feet traveled."
 					]
 				},
 				{
@@ -14494,7 +14494,7 @@ export const items = {
 			},
 			"entries": [
 				"Your Constitution score is 20 while you wear these gloves. This property of the gloves has no effect on you if your Constitution is already 20 or higher.",
-				"After making a successful unarmed strike while wearing these gloves, you can use the gloves to deal an extra {@damage 2d10} force damage to the target, and you regain a number of hit points equal to the force damage dealt. Alternatively, instead of regaining hit points in this way, you can choose to gain advantage on one attack roll, ability check, or saving throw you make before the end of your next turn."
+				"After making a successful unarmed strike while wearing these gloves, you can use the gloves to deal an extra 2d10} force damage to the target, and you regain a number of hit points equal to the force damage dealt. Alternatively, instead of regaining hit points in this way, you can choose to gain advantage on one attack roll, ability check, or saving throw you make before the end of your next turn."
 			]
 		},
 		{
@@ -14526,7 +14526,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"These gloves are {@condition invisible} while worn. While wearing them, you gain a +5 bonus to Dexterity ({@skill Sleight of Hand}) checks and Dexterity checks made to pick locks."
+				"These gloves are {invisible} while worn. While wearing them, you gain a +5 bonus to Dexterity ({@skill Sleight of Hand}) checks and Dexterity checks made to pick locks."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -14547,8 +14547,8 @@ export const items = {
 				{
 					"type": "list",
 					"items": [
-						"Each creature must make a DC 15 Dexterity saving throw, taking 28 ({@damage 8d6}) fire damage on a failed save, or half as much fire damage on a successful one.",
-						"Each creature must make a DC 15 Constitution saving throw. On a failed save, it takes 28 ({@damage 8d6}) thunder damage and is {@condition stunned} until the end of its next turn. On a successful save, it takes half as much thunder damage and is not {@condition stunned}.",
+						"Each creature must make a DC 15 Dexterity saving throw, taking 28 (8d6}) fire damage on a failed save, or half as much fire damage on a successful one.",
+						"Each creature must make a DC 15 Constitution saving throw. On a failed save, it takes 28 (8d6}) thunder damage and is {stunned} until the end of its next turn. On a successful save, it takes half as much thunder damage and is not {stunned}.",
 						"The wielder rolls on the chart* for the {@item wand of wonder|dmg} three times, rerolling any duplicate results. Any effects that specify a target affect all creatures in range of the grenade when it explodes. Any effects that would affect the wielder of the wand instead affect the closest creature to the grenade when it goes off."
 					]
 				},
@@ -14595,7 +14595,7 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"These leather-framed goggles feature purple crystal lenses. While wearing the goggles, you have advantage on Intelligence ({@skill Arcana}) checks made to reveal information about a creature or object you can see.",
-				"In addition, you can cast the {@spell identify} spell using the googles. Once you do so, you can't do so again until the next dawn."
+				"In addition, you can cast the { identify} spell using the googles. Once you do so, you can't do so again until the next dawn."
 			],
 			"attachedSpells": [
 				"identify"
@@ -14849,7 +14849,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring, adorned with the symbol of Golgari, allows you to cast {@spell entangle}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Golgari's recognition and favor.",
+				"This ring, adorned with the symbol of Golgari, allows you to cast { entangle}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Golgari's recognition and favor.",
 				"A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13)."
 			],
 			"attachedSpells": [
@@ -14895,7 +14895,7 @@ export const items = {
 			"type": "OTH",
 			"rarity": "unknown (magic)",
 			"entries": [
-				"This gold ring is fitted with a star ruby worth 1,000 gp. A {@spell detect magic} spell reveals that the gem radiates a faint aura of divination magic. The gem's star-shaped core is a magical compass that guides the ring's wearer along the safest, shortest route to Gravenhollow."
+				"This gold ring is fitted with a star ruby worth 1,000 gp. A { detect magic} spell reveals that the gem radiates a faint aura of divination magic. The gem's star-shaped core is a magical compass that guides the ring's wearer along the safest, shortest route to Gravenhollow."
 			]
 		},
 		{
@@ -14924,7 +14924,7 @@ export const items = {
 			"dmgType": "S",
 			"bonusWeapon": "+3",
 			"entries": [
-				"This magic weapon grants a +3 bonus to attack and damage rolls made with it. While you hold the sword, you have advantage on Intelligence, Wisdom, and Charisma saving throws, you are immune to being {@condition charmed}, and you have resistance to psychic damage. In addition, if you score a critical hit with it against a creature's astral body, you can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
+				"This magic weapon grants a +3 bonus to attack and damage rolls made with it. While you hold the sword, you have advantage on Intelligence, Wisdom, and Charisma saving throws, you are immune to being {charmed}, and you have resistance to psychic damage. In addition, if you score a critical hit with it against a creature's astral body, you can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
 			],
 			"hasFluffImages": true
 		},
@@ -15103,7 +15103,7 @@ export const items = {
 					"type": "entries",
 					"name": "Dormant",
 					"entries": [
-						"Most of the book is blank, but the following spells are recorded in the first pages of the tome: {@spell alarm}, {@spell antimagic field}, {@spell Bigby's hand}, {@spell blight}, {@spell charm person}, {@spell confusion}, {@spell control weather}, {@spell create undead}, {@spell detect thoughts}, {@spell enlarge/reduce}, {@spell fear}, {@spell foresight}, {@spell gaseous form}, {@spell glyph of warding}, {@spell legend lore}, {@spell Leomund's tiny hut}, {@spell mass suggestion}, {@spell mislead}, {@spell misty step}, {@spell Mordenkainen's faithful hound}, {@spell prismatic spray}, {@spell ray of enfeeblement}, {@spell silent image}, {@spell teleport}, and {@spell thunderwave}.",
+						"Most of the book is blank, but the following spells are recorded in the first pages of the tome: { alarm}, { antimagic field}, { Bigby's hand}, { blight}, { charm person}, { confusion}, { control weather}, { create undead}, { detect thoughts}, { enlarge/reduce}, { fear}, { foresight}, { gaseous form}, { glyph of warding}, { legend lore}, { Leomund's tiny hut}, { mass suggestion}, { mislead}, { misty step}, { Mordenkainen's faithful hound}, { prismatic spray}, { ray of enfeeblement}, { silent image}, { teleport}, and { thunderwave}.",
 						"You can use the grimoire as your spellbook, and you can scribe new spells into it as normal. When you prepare wizard spells using the grimoire, the number of wizard spells you can prepare increases by 1."
 					]
 				}
@@ -15228,7 +15228,7 @@ export const items = {
 							"type": "list",
 							"items": [
 								"You can speak, read, and write Abyssal and Infernal.",
-								"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra {@damage 2d6} bludgeoning damage to the target. If you do, you take {@damage 1d6} psychic damage. The warhammer deals double damage to objects and structures.",
+								"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this warhammer, you can deal an extra 2d6} bludgeoning damage to the target. If you do, you take 1d6} psychic damage. The warhammer deals double damage to objects and structures.",
 								"While holding this weapon, you have advantage on Wisdom ({@skill Insight}) checks made to discern a lie spoken in a language you understand."
 							]
 						}
@@ -15263,8 +15263,8 @@ export const items = {
 									"type": "list",
 									"items": [
 										"The weapon's bonus to attack and damage rolls increases to +3.",
-										"When you have fewer hit points than half your hit point maximum, the warhammer deals an extra {@damage 2d6} bludgeoning damage on a hit. You can burrow through solid rock at half your burrowing speed and leave a 5-foot-diameter tunnel in your wake.",
-										"As an action, you can use the warhammer to cast one of the following spells from it (save DC 17): {@spell earthquake}, {@spell meld into stone}, or {@spell stone shape}. Once a spell has been cast using the warhammer, that spell can't be cast from the warhammer again until the next dawn."
+										"When you have fewer hit points than half your hit point maximum, the warhammer deals an extra 2d6} bludgeoning damage on a hit. You can burrow through solid rock at half your burrowing speed and leave a 5-foot-diameter tunnel in your wake.",
+										"As an action, you can use the warhammer to cast one of the following spells from it (save DC 17): { earthquake}, { meld into stone}, or { stone shape}. Once a spell has been cast using the warhammer, that spell can't be cast from the warhammer again until the next dawn."
 									]
 								}
 							]
@@ -15295,7 +15295,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring, adorned with the symbol of Gruul, allows you to cast {@spell compelled duel}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Gruul's recognition and favor.",
+				"This ring, adorned with the symbol of Gruul, allows you to cast { compelled duel}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Gruul's recognition and favor.",
 				"A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13)."
 			],
 			"attachedSpells": [
@@ -15396,7 +15396,7 @@ export const items = {
 			"age": "renaissance",
 			"entries": [
 				"Gunpowder is chiefly used to propel a bullet out of the barrel of a pistol or rifle, or it is formed into a bomb. Gunpowder is sold in small wooden kegs or in water-resistant powder horns.",
-				"Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it ({@damage 3d6} for a powder horn). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
+				"Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it (3d6} for a powder horn). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
 			]
 		},
 		{
@@ -15410,7 +15410,7 @@ export const items = {
 			"age": "renaissance",
 			"entries": [
 				"Gunpowder is chiefly used to propel a bullet out of the barrel of a pistol or rifle, or it is formed into a bomb. Gunpowder is sold in small wooden kegs or in water-resistant powder horns.",
-				"Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it ({@damage 7d6} for a keg). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
+				"Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it (7d6} for a keg). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
 			]
 		},
 		{
@@ -15432,9 +15432,9 @@ export const items = {
 			"bonusWeapon": "+1",
 			"entries": [
 				"In the Year of the Icy Axe (123 DR), the {@creature frost giant} Lord Gurt fell to Uthgar Gardolfsson\u2014leader of the folk who would become the Uthgardt barbarians\u2014in a battle that marked the ascendance of humankind over the giants in the Dessarin Valley. Gurt's greataxe was buried in Morgur's Mound until it was unearthed and brought back to Waterdeep. After laying in the city's vaults for decades, the axe was given to Harshnag, a {@creature frost giant} adventurer, in recognition of his service to Waterdeep. Uthgardt barbarians recognize the weapon on sight and attack any giant that wields it.",
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. It is sized for a giant, weighs 325 pounds, and deals {@damage 3d12} slashing damage on a hit, plus an extra {@damage 2d12} slashing damage if the target is human.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. It is sized for a giant, weighs 325 pounds, and deals 3d12} slashing damage on a hit, plus an extra 2d12} slashing damage if the target is human.",
 				"The axe sheds light as a torch when the temperature around it drops below 0 degrees Fahrenheit. The light can't be shut off in these conditions.",
-				"As an action, you can cast a version of the {@spell heat metal} spell (save DC 13) that deals cold damage instead of fire damage. Once this power is used, it can't be used again until the next dawn."
+				"As an action, you can cast a version of the { heat metal} spell (save DC 13) that deals cold damage instead of fire damage. Once this power is used, it can't be used again until the next dawn."
 			],
 			"attachedSpells": [
 				"heat metal"
@@ -15458,8 +15458,8 @@ export const items = {
 			"type": "OTH",
 			"rarity": "unknown (magic)",
 			"entries": [
-				"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and {@sense darkvision} with a radius of 60 feet. If it is destroyed, each coven member takes {@damage 3d10} psychic damage and is {@condition blinded} for 24 hours.",
-				"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+				"A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and {@sense darkvision} with a radius of 60 feet. If it is destroyed, each coven member takes 3d10} psychic damage and is {blinded} for 24 hours.",
+				"A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
 			]
 		},
 		{
@@ -15506,7 +15506,7 @@ export const items = {
 						"You must be wearing a {@italic belt of giant strength} (any variety) and {@item gauntlets of ogre power} to attune to this weapon. The attunement ends if you take off either of those items. While you are attuned to this weapon and holding it, your Strength score increases by 4 and can exceed 20, but not 30. When you roll a 20 on an attack roll made with this weapon against a giant, the giant must succeed on a DC 17 Constitution saving throw or die."
 					]
 				},
-				"The hammer also has 5 charges. While attuned to it, you can expend 1 charge and make a ranged weapon attack with the hammer, hurling it as if it had the thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the hammer unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it must succeed on a DC 17 Constitution saving throw or be {@condition stunned} until the end of your next turn. The hammer regains {@dice 1d4 + 1} expended charges daily at dawn."
+				"The hammer also has 5 charges. While attuned to it, you can expend 1 charge and make a ranged weapon attack with the hammer, hurling it as if it had the thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the hammer unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it must succeed on a DC 17 Constitution saving throw or be {stunned} until the end of your next turn. The hammer regains {@dice 1d4 + 1} expended charges daily at dawn."
 			],
 			"lootTables": [
 				"Magic Item Table I"
@@ -15608,8 +15608,8 @@ export const items = {
 					"type": "list",
 					"items": [
 						"Your Strength score becomes 20, unless it is already 20 or higher.",
-						"Any melee spell attack you make with the hand, and any melee weapon attack made with a weapon held by it, deals an extra {@damage 2d8} cold damage on a hit.",
-						"The hand has 8 charges. You can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: {@spell finger of death} (5 charges), {@spell sleep} (1 charge), {@spell slow} (2 charges), or {@spell teleport} (3 charges). The hand regains {@dice 1d4 + 4} expended charges daily at dawn. Each time you cast a spell from the hand, it casts the {@spell suggestion} spell on you (save DC 18), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you."
+						"Any melee spell attack you make with the hand, and any melee weapon attack made with a weapon held by it, deals an extra 2d8} cold damage on a hit.",
+						"The hand has 8 charges. You can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: { finger of death} (5 charges), { sleep} (1 charge), { slow} (2 charges), or { teleport} (3 charges). The hand regains {@dice 1d4 + 4} expended charges daily at dawn. Each time you cast a spell from the hand, it casts the { suggestion} spell on you (save DC 18), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you."
 					]
 				},
 				{
@@ -15621,11 +15621,11 @@ export const items = {
 							"type": "list",
 							"items": [
 								"You are immune to disease and poison.",
-								"Using the eye's X-ray vision never causes you to suffer {@condition exhaustion}.",
-								"You experience premonitions of danger and, unless you are {@condition incapacitated}, can't be {@quickref Surprise|PHB|3|0|surprised}.",
+								"Using the eye's X-ray vision never causes you to suffer {exhaustion}.",
+								"You experience premonitions of danger and, unless you are {incapacitated}, can't be {@quickref Surprise|PHB|3|0|surprised}.",
 								"If you start your turn with at least 1 hit point, you regain {@dice 1d10} hit points.",
 								"If a creature has a skeleton, you can attempt to turn its bones to jelly with a touch of the Hand of Vecna. You can do so by using an action to make a melee attack against a creature you can reach, using your choice of your melee attack bonus for weapons or spells. On a hit, the target must succeed on a DC 18 Constitution saving throw or drop to 0 hit points.",
-								"You can use an action to cast {@spell wish}. This property can't be used again until 30 days have passed."
+								"You can use an action to cast { wish}. This property can't be used again until 30 days have passed."
 							]
 						}
 					]
@@ -15673,7 +15673,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"Attuning to Harkon's Bite curses you until either Harkon Lukas removes the necklace from you or you are targeted by a {@spell remove curse} spell or similar magic. As long as you remain cursed, you cannot remove the necklace.",
+						"Attuning to Harkon's Bite curses you until either Harkon Lukas removes the necklace from you or you are targeted by a { remove curse} spell or similar magic. As long as you remain cursed, you cannot remove the necklace.",
 						"Upon donning or removing the necklace, whether you are attuned to it or not, you are afflicted with {@variantrule Player Characters as Lycanthropes|mm|werewolf lycanthropy} as detailed in the Monster Manual. The curse lasts until the dawn after the next full moon. If you are still wearing the necklace at this time, you are afflicted with the lycanthropy again."
 					]
 				}
@@ -15689,7 +15689,7 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While wearing this hat, you can use an action to cast the {@spell disguise self} spell from it at will. The spell ends if the hat is removed."
+				"While wearing this hat, you can use an action to cast the { disguise self} spell from it at will. The spell ends if the hat is removed."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -15772,19 +15772,19 @@ export const items = {
 			"rechargeAmount": "{@dice 1d4}",
 			"charges": 4,
 			"entries": [
-				"A sentient (neutral evil) greatsword, Hazirawn is capable of speech in Common and Netherese. Even if you aren't attuned to the sword, you gain a +1 bonus to attack and damage rolls made with this weapon. If you are not attuned to Hazirawn, you deal an extra {@damage 1d6} necrotic damage when you hit with the weapon.",
+				"A sentient (neutral evil) greatsword, Hazirawn is capable of speech in Common and Netherese. Even if you aren't attuned to the sword, you gain a +1 bonus to attack and damage rolls made with this weapon. If you are not attuned to Hazirawn, you deal an extra 1d6} necrotic damage when you hit with the weapon.",
 				{
 					"name": "Increased Potency",
 					"type": "entries",
 					"entries": [
-						"While you are attuned to this weapon, its bonus on attack and damage rolls increases to +2, and a hit deals an extra {@damage 2d6} necrotic damage (instead of {@dice 1d6})."
+						"While you are attuned to this weapon, its bonus on attack and damage rolls increases to +2, and a hit deals an extra 2d6} necrotic damage (instead of {@dice 1d6})."
 					]
 				},
 				{
 					"name": "Spells",
 					"type": "entries",
 					"entries": [
-						"Hazirawn has 4 charges to cast spells. As long as the sword is attuned to you and you are holding it in your hand, you can cast {@spell detect magic} (1 charge), {@spell detect evil and good} (1 charge), or {@spell detect thoughts} (2 charges). Each night at midnight, Hazirawn regains {@dice 1d4} expended charges."
+						"Hazirawn has 4 charges to cast spells. As long as the sword is attuned to you and you are holding it in your hand, you can cast { detect magic} (1 charge), { detect evil and good} (1 charge), or { detect thoughts} (2 charges). Each night at midnight, Hazirawn regains {@dice 1d4} expended charges."
 					]
 				},
 				{
@@ -15863,7 +15863,7 @@ export const items = {
 				"Wizard"
 			],
 			"entries": [
-				"This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: {@spell antipathy/sympathy}, {@spell charm person}, {@spell dominate person}, {@spell enthrall}, {@spell hypnotic pattern}, {@spell modify memory}, and {@spell suggestion}. It functions as a spellbook for you.",
+				"This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: { antipathy/sympathy}, { charm person}, { dominate person}, { enthrall}, { hypnotic pattern}, { modify memory}, and { suggestion}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
 				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
@@ -15904,15 +15904,15 @@ export const items = {
 			"curse": true,
 			"weight": 1,
 			"entries": [
-				"This dark cloak is made of cured {@creature hell hound} hide. As an action, you can command the cloak to transform you into a {@creature hell hound} for up to 1 hour. The transformation otherwise functions as the {@spell polymorph} spell, but you can use a bonus action to revert to your normal form.",
+				"This dark cloak is made of cured {@creature hell hound} hide. As an action, you can command the cloak to transform you into a {@creature hell hound} for up to 1 hour. The transformation otherwise functions as the { polymorph} spell, but you can use a bonus action to revert to your normal form.",
 				{
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This cloak is cursed with the essence of a {@creature hell hound}, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the cloak, keeping it within reach at all times."
+						"This cloak is cursed with the essence of a {@creature hell hound}, and becoming attuned to it extends the curse to you. Until the curse is broken with { remove curse} or similar magic, you are unwilling to part with the cloak, keeping it within reach at all times."
 					]
 				},
-				"The sixth time you use the cloak, and each time thereafter, you must make a DC 15 Charisma saving throw. On a failed save, the transformation lasts until dispelled or until you drop to 0 hit points, and you can't willingly return to normal form. If you ever remain in {@creature hell hound} form for 6 hours, the transformation becomes permanent and you lose your sense of self. All your statistics are then replaced by those of a {@creature hell hound}. Thereafter, only {@spell remove curse} or similar magic allows you to regain your identity and return to normal. If you remain in this permanent form for 6 days, only a {@spell wish} spell can reverse the transformation."
+				"The sixth time you use the cloak, and each time thereafter, you must make a DC 15 Charisma saving throw. On a failed save, the transformation lasts until dispelled or until you drop to 0 hit points, and you can't willingly return to normal form. If you ever remain in {@creature hell hound} form for 6 hours, the transformation becomes permanent and you lose your sense of self. All your statistics are then replaced by those of a {@creature hell hound}. Thereafter, only { remove curse} or similar magic allows you to regain your identity and return to normal. If you remain in this permanent form for 6 days, only a { wish} spell can reverse the transformation."
 			],
 			"attachedSpells": [
 				"polymorph"
@@ -15936,10 +15936,10 @@ export const items = {
 				{
 					"type": "list",
 					"items": [
-						"You can use an action to cast one of the following spells (save DC 18), using one of the helm's gems of the specified type as a component: {@spell daylight} (opal), {@spell fireball} (fire opal), {@spell prismatic spray} (diamond), or {@spell wall of fire} (ruby). The gem is destroyed when the spell is cast and disappears from the helm.",
-						"As long as it has at least one diamond, the helm emits dim light in a 30-foot radius when at least one undead is within that area. Any undead that starts its turn in that area takes {@damage 1d6} radiant damage.",
+						"You can use an action to cast one of the following spells (save DC 18), using one of the helm's gems of the specified type as a component: { daylight} (opal), { fireball} (fire opal), { prismatic spray} (diamond), or { wall of fire} (ruby). The gem is destroyed when the spell is cast and disappears from the helm.",
+						"As long as it has at least one diamond, the helm emits dim light in a 30-foot radius when at least one undead is within that area. Any undead that starts its turn in that area takes 1d6} radiant damage.",
 						"As long as the helm has at least one ruby, you have resistance to fire damage.",
-						"As long as the helm has at least one fire opal, you can use an action and speak a command word to cause one weapon you are holding to burst into flames. The flames emit bright light in a 10-foot radius and dim light for an additional 10 feet. The flames are harmless to you and the weapon. When you hit with an attack using the blazing weapon, the target takes an extra {@damage 1d6} fire damage. The flames last until you use a bonus action to speak the command word again or until you drop or stow the weapon."
+						"As long as the helm has at least one fire opal, you can use an action and speak a command word to cause one weapon you are holding to burst into flames. The flames emit bright light in a 10-foot radius and dim light for an additional 10 feet. The flames are harmless to you and the weapon. When you hit with an attack using the blazing weapon, the target takes an extra 1d6} fire damage. The flames last until you use a bonus action to speak the command word again or until you drop or stow the weapon."
 					]
 				},
 				"Roll a {@dice d20} if you are wearing the helm and take fire damage as a result of failing a saving throw against a spell. On a roll of 1, the helm emits beams of light from its remaining gems. Each creature within 60 feet of the helm other than you must succeed on a DC 17 Dexterity saving throw or be struck by a beam, taking radiant damage equal to the number of gems in the helm. The helm and its gems are then destroyed."
@@ -15964,7 +15964,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"While wearing this helm, you can use an action to cast the {@spell comprehend languages} spell from it at will."
+				"While wearing this helm, you can use an action to cast the { comprehend languages} spell from it at will."
 			],
 			"attachedSpells": [
 				"comprehend languages"
@@ -15990,8 +15990,8 @@ export const items = {
 			"entries": [
 				"This bulky, eyeless helmet is made for a {@creature pit fiend} but magically resizes to fit the heads of other wearers.",
 				"While wearing the helm, you can see out of it as though you weren't wearing it. In addition, you know the exact location and type of all devils within 1,000 feet of you. You can telepathically communicate with a devil within range, or you can broadcast your thoughts to all devils within range. The devils receiving your broadcasted thoughts have no special means of replying to them.",
-				"The helm has 3 charges. As an action, you can expend 1 charge to cast {@spell dominate monster} (save DC 21), which affects devils only. (The spell fails and the charge is wasted if you target any creature that's not a devil.) If a devil can see you when you cast this spell on it, the devil knows you tried to charm it. The helm regains all its charges 24 hours after its last charge is expended.",
-				"If you are not a devil, using the helm's {@spell dominate monster} property in the Nine Hells has a {@chance 20|20 percent} chance of attracting a {@creature narzugon|MTF}, which arrives on the back of a {@creature nightmare} mount in {@dice 1d4} hours. The narzugon tries to recover the helm, killing you if necessary to obtain it. If it gets the helm, the narzugon tries to deliver it to its infernal master."
+				"The helm has 3 charges. As an action, you can expend 1 charge to cast { dominate monster} (save DC 21), which affects devils only. (The spell fails and the charge is wasted if you target any creature that's not a devil.) If a devil can see you when you cast this spell on it, the devil knows you tried to charm it. The helm regains all its charges 24 hours after its last charge is expended.",
+				"If you are not a devil, using the helm's { dominate monster} property in the Nine Hells has a {@chance 20|20 percent} chance of attracting a {@creature narzugon|MTF}, which arrives on the back of a {@creature nightmare} mount in {@dice 1d4} hours. The narzugon tries to recover the helm, killing you if necessary to obtain it. If it gets the helm, the narzugon tries to deliver it to its infernal master."
 			],
 			"attachedSpells": [
 				"dominate monster"
@@ -16008,8 +16008,8 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While wearing this helm, you can use an action to cast the {@spell detect thoughts} spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply\u2014using a bonus action to do so\u2014while your focus on it continues.",
-				"While focusing on a creature with {@spell detect thoughts}, you can use an action to cast the {@spell suggestion} spell (save DC 13) from the helm on that creature. Once used, the suggestion property can't be used again until the next dawn."
+				"While wearing this helm, you can use an action to cast the { detect thoughts} spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply\u2014using a bonus action to do so\u2014while your focus on it continues.",
+				"While focusing on a creature with { detect thoughts}, you can use an action to cast the { suggestion} spell (save DC 13) from the helm on that creature. Once used, the suggestion property can't be used again until the next dawn."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -16037,7 +16037,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This helm has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the {@spell teleport} spell from it. The helm regains {@dice 1d3} expended charges daily at dawn."
+				"This helm has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the { teleport} spell from it. The helm regains {@dice 1d3} expended charges daily at dawn."
 			],
 			"attachedSpells": [
 				"teleport"
@@ -16074,63 +16074,63 @@ export const items = {
 					"rows": [
 						[
 							"Athreos",
-							"{@spell protection from evil and good}"
+							"{ protection from evil and good}"
 						],
 						[
 							"Ephara",
-							"{@spell sanctuary}"
+							"{ sanctuary}"
 						],
 						[
 							"Erebos",
-							"{@spell inflict wounds}"
+							"{ inflict wounds}"
 						],
 						[
 							"Heliod",
-							"{@spell guiding bolt}"
+							"{ guiding bolt}"
 						],
 						[
 							"Iroas",
-							"{@spell heroism}"
+							"{ heroism}"
 						],
 						[
 							"Karametra",
-							"{@spell goodberry}"
+							"{ goodberry}"
 						],
 						[
 							"Keranos",
-							"{@spell thunderous smite}"
+							"{ thunderous smite}"
 						],
 						[
 							"Klothys",
-							"{@spell entangle}"
+							"{ entangle}"
 						],
 						[
 							"Kruphix",
-							"{@spell dissonant whispers}"
+							"{ dissonant whispers}"
 						],
 						[
 							"Mogis",
-							"{@spell hellish rebuke}"
+							"{ hellish rebuke}"
 						],
 						[
 							"Nylea",
-							"{@spell faerie fire}"
+							"{ faerie fire}"
 						],
 						[
 							"Pharika",
-							"{@spell lesser restoration}"
+							"{ lesser restoration}"
 						],
 						[
 							"Phenax",
-							"{@spell charm person}"
+							"{ charm person}"
 						],
 						[
 							"Purphoros",
-							"{@spell searing smite}"
+							"{ searing smite}"
 						],
 						[
 							"Thassa",
-							"{@spell identify}"
+							"{ identify}"
 						]
 					]
 				}
@@ -16433,7 +16433,7 @@ export const items = {
 									"items": [
 										"The AC bonus of the armor increases to +2.",
 										"While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +2).",
-										"When you cast the {@spell polymorph} spell using this armor, you can transform into a {@creature cave bear}."
+										"When you cast the { polymorph} spell using this armor, you can transform into a {@creature cave bear}."
 									]
 								}
 							]
@@ -16472,7 +16472,7 @@ export const items = {
 							"items": [
 								"The armor grants you a +1 bonus to AC.",
 								"While you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +1 bonus to melee attack and damage rolls, and you retain the benefits of this armor.",
-								"As an action, you can use the armor to cast {@spell polymorph} on yourself, transforming into a {@creature giant owl} while retaining your Intelligence, Wisdom, and Charisma scores. This property can't be used again until the next dawn."
+								"As an action, you can use the armor to cast { polymorph} on yourself, transforming into a {@creature giant owl} while retaining your Intelligence, Wisdom, and Charisma scores. This property can't be used again until the next dawn."
 							]
 						}
 					]
@@ -16502,7 +16502,7 @@ export const items = {
 									"items": [
 										"The AC bonus of the armor increases to +3.",
 										"While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +3).",
-										"When you cast the {@spell polymorph} spell using this armor, you can transform into a {@creature guardian wolf|EGW}."
+										"When you cast the { polymorph} spell using this armor, you can transform into a {@creature guardian wolf|EGW}."
 									]
 								}
 							]
@@ -16549,7 +16549,7 @@ export const items = {
 					"name": "Hold Vampires",
 					"type": "entries",
 					"entries": [
-						"As an action, you can expend 1 charge and present the holy symbol to make it flare with holy power. Vampires and {@creature vampire spawn} within 30 feet of the holy symbol when it flares must make a DC 15 Wisdom saving throw. On a failed save, a target is {@condition paralyzed} for 1 minute. It can repeat the saving throw at the end of its turns to end the effect on itself."
+						"As an action, you can expend 1 charge and present the holy symbol to make it flare with holy power. Vampires and {@creature vampire spawn} within 30 feet of the holy symbol when it flares must make a DC 15 Wisdom saving throw. On a failed save, a target is {paralyzed} for 1 minute. It can repeat the saving throw at the end of its turns to end the effect on itself."
 					]
 				},
 				{
@@ -16580,7 +16580,7 @@ export const items = {
 			"weight": 1,
 			"value": 2500,
 			"entries": [
-				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes {@damage 2d6} radiant damage.",
+				"As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6} radiant damage.",
 				"A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot."
 			]
 		},
@@ -16628,7 +16628,7 @@ export const items = {
 						[
 							"11-14",
 							"Yellow with black stripes",
-							"Once removed from the hook, this awful-tasting fish can be thrown up to 120 feet, targeting a creature the thrower can see. The target must succeed on a DC 15 Strength saving throw or be knocked {@condition prone}. The fish then disappears."
+							"Once removed from the hook, this awful-tasting fish can be thrown up to 120 feet, targeting a creature the thrower can see. The target must succeed on a DC 15 Strength saving throw or be knocked {prone}. The fish then disappears."
 						],
 						[
 							"15-18",
@@ -16668,8 +16668,8 @@ export const items = {
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
-				"You can use an action to speak the horn's command word and then blow the horn, which emits a thunderous blast in a 30-foot cone that is audible 600 feet away. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes {@damage 5d6} thunder damage and is {@condition deafened} for 1 minute. On a successful save, a creature takes half as much damage and isn't {@condition deafened}. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take {@damage 10d6} thunder damage instead of {@dice 5d6}.",
-				"Each use of the horn's magic has a {@chance 20} chance of causing the horn to explode. The explosion deals {@damage 10d6} fire damage to the blower and destroys the horn."
+				"You can use an action to speak the horn's command word and then blow the horn, which emits a thunderous blast in a 30-foot cone that is audible 600 feet away. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 5d6} thunder damage and is {deafened} for 1 minute. On a successful save, a creature takes half as much damage and isn't {deafened}. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take 10d6} thunder damage instead of {@dice 5d6}.",
+				"Each use of the horn's magic has a {@chance 20} chance of causing the horn to explode. The explosion deals 10d6} fire damage to the blower and destroys the horn."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -16691,7 +16691,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d4}",
 			"charges": 4,
 			"entries": [
-				"This horn has 4 charges. When you use an action to blow it, one creature of your choice can hear the horns blare, provided the creature is within 600 feet of the horn and not {@condition deafened}. No other creature hears sound coming from the horn. The horn regains {@dice 1d4} expended charges daily at dawn."
+				"This horn has 4 charges. When you use an action to blow it, one creature of your choice can hear the horns blare, provided the creature is within 600 feet of the horn and not {deafened}. No other creature hears sound coming from the horn. The horn regains {@dice 1d4} expended charges daily at dawn."
 			]
 		},
 		{
@@ -17224,7 +17224,7 @@ export const items = {
 			"rarity": "very rare",
 			"wondrous": true,
 			"entries": [
-				"These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores {@quickref difficult terrain||3}. In addition, the creature can move at normal speed for up to 12 hours a day without suffering {@condition exhaustion} from a forced march."
+				"These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores {@quickref difficult terrain||3}. In addition, the creature can move at normal speed for up to 12 hours a day without suffering {exhaustion} from a forced march."
 			],
 			"lootTables": [
 				"Magic Item Table D"
@@ -17282,7 +17282,7 @@ export const items = {
 			"charges": 3,
 			"entries": [
 				"You have a +1 bonus to AC while wearing this armor.",
-				"The coat has 3 charges. When you hit a creature with an attack and that creature doesn't have all its hit points, you can expend 1 charge to deal an extra {@damage 1d10} necrotic damage to the target. The coat regains {@dice 1d3} expended charges daily at dawn.",
+				"The coat has 3 charges. When you hit a creature with an attack and that creature doesn't have all its hit points, you can expend 1 charge to deal an extra 1d10} necrotic damage to the target. The coat regains {@dice 1d3} expended charges daily at dawn.",
 				"The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
 			]
 		},
@@ -17297,7 +17297,7 @@ export const items = {
 			"weight": 25,
 			"value": 500,
 			"entries": [
-				"When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take {@damage 1d4} piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature."
+				"When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4} piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature."
 			]
 		},
 		{
@@ -17442,12 +17442,12 @@ export const items = {
 			"entries": [
 				"The Icon of Ravenloft is a 12-inch tall statuette made of the purest silver, weighing 10 pounds. It depicts a cleric kneeling in supplication.",
 				"The icon was given to Strahd by the archpriest Ciril Romulich, an old family friend, to consecrate the castle and its chapel.",
-				"While within 30 feet of the icon, a creature is under the effect of a {@spell protection from evil and good} spell against fiends and undead. Only a creature attuned to the icon can use its other properties.",
+				"While within 30 feet of the icon, a creature is under the effect of a { protection from evil and good} spell against fiends and undead. Only a creature attuned to the icon can use its other properties.",
 				{
 					"name": "Augury",
 					"type": "entries",
 					"entries": [
-						"You can use an action to cast an {@spell augury} spell from the icon, with no material components required. Once used, this property can't be used again until the next dawn."
+						"You can use an action to cast an { augury} spell from the icon, with no material components required. Once used, this property can't be used again until the next dawn."
 					]
 				},
 				{
@@ -17491,7 +17491,7 @@ export const items = {
 					"type": "entries",
 					"name": "Attunement",
 					"entries": [
-						"Any Humanoid creature that attunes to the cauldron must succeed on a DC 15 Constitution saving throw or be aged to the point of decrepitude. In this state, the creature's speed is halved, the range of its vision and hearing is reduced to 30 feet, and it has disadvantage on all ability checks, attack rolls, and saving throws. The creature will reach the end of its natural life span in {@dice 3d8} days. Only a {@spell wish} spell or divine intervention can reverse this aging effect on the creature.",
+						"Any Humanoid creature that attunes to the cauldron must succeed on a DC 15 Constitution saving throw or be aged to the point of decrepitude. In this state, the creature's speed is halved, the range of its vision and hearing is reduced to 30 feet, and it has disadvantage on all ability checks, attack rolls, and saving throws. The creature will reach the end of its natural life span in {@dice 3d8} days. Only a { wish} spell or divine intervention can reverse this aging effect on the creature.",
 						"Three hags can attune to the cauldron simultaneously, provided they have formed a coven. If the coven disbands, the attunement ends for all three hags."
 					]
 				},
@@ -17519,7 +17519,7 @@ export const items = {
 							"items": [
 								"If water is poured into the cauldron and stirred for 1 minute, it transforms into a hearty, hot stew that provides one nourishing meal for up to four people per gallon of water used. The stew remains hot while in the cauldron, then cools naturally after it is removed. The outside of the cauldron remains safe to touch despite the heat of the stew.",
 								"If wine is poured into the cauldron and stirred for 10 minutes, it transforms into a magical elixir that fortifies up to four people per gallon of wine used. Any creature that imbibes the elixir gains 10 temporary hit points. Any of the elixir that isn't consumed within 1 hour vanishes. Once used, this property of the cauldron can't be used again until the next dawn.",
-								"When the cauldron is filled with 90 gallons of water mixed with 10 gallons of wine, it can be used as the focus for a {@spell scrying} spell. When this spell is cast using the cauldron as its focus, the target of the spell fails its saving throw automatically, and the spell works even if its caster and the target are on different planes of existence. When the spell ends, all the liquid in the cauldron vanishes.",
+								"When the cauldron is filled with 90 gallons of water mixed with 10 gallons of wine, it can be used as the focus for a { scrying} spell. When this spell is cast using the cauldron as its focus, the target of the spell fails its saving throw automatically, and the spell works even if its caster and the target are on different planes of existence. When the spell ends, all the liquid in the cauldron vanishes.",
 								"Dipping the bristles of an ordinary broom into the water-filled cauldron transforms the broom into a broom of flying for 3 days. Once used, this property of the cauldron can't be used again until the next dawn."
 							]
 						}
@@ -17534,9 +17534,9 @@ export const items = {
 							"type": "list",
 							"items": [
 								"You can use an action to scream into the empty cauldron, which magically summons a {@creature swarm of bats} that flies out of the cauldron and acts immediately after you in the initiative order. The swarm obeys your commands and disappears after 1 minute if it hasn't been destroyed by then. Once used, this property of the cauldron can't be used again until the next dawn.",
-								"If at least 1 gallon of blood is poured into the cauldron and stirred for 1 minute, it turns into a cloud of harmless black smoke that erupts from the cauldron and dissipates quickly. At the same time, all Humanoid creatures within a certain radius of the cauldron fall {@condition unconscious} for 1 hour, except those that are attuned to the cauldron or immune to being {@condition charmed}. The radius of the effect is 100 feet per gallon of blood used. An {@condition unconscious} creature awakens if it takes damage or if someone uses an action to shake or slap it. Once used, this property of the cauldron can't be used again until the next dawn.",
+								"If at least 1 gallon of blood is poured into the cauldron and stirred for 1 minute, it turns into a cloud of harmless black smoke that erupts from the cauldron and dissipates quickly. At the same time, all Humanoid creatures within a certain radius of the cauldron fall {unconscious} for 1 hour, except those that are attuned to the cauldron or immune to being {charmed}. The radius of the effect is 100 feet per gallon of blood used. An {unconscious} creature awakens if it takes damage or if someone uses an action to shake or slap it. Once used, this property of the cauldron can't be used again until the next dawn.",
 								"Tying a dead frog or toad to the end of an ordinary branch and dipping it in the water-filled cauldron transforms the branch into a {@item wand of polymorph} with 3 charges. This wand can't recharge and crumbles to ashes when its final charge is expended. Once used, this property of the cauldron can't be used again for 8 days.",
-								"If you spend 1 minute touching the cauldron with a unicorn's horn while reciting the poem called \"The Witch Queen's Cauldron\" (see the accompanying sidebar), all creatures within 1,000 feet of the cauldron except those that are attuned to it become frozen in time. A time-frozen creature is {@condition incapacitated}, can't move or speak, doesn't age, and is unaware of its surroundings or the passage of time. Moreover, it can't be moved, harmed in any way, or affected by any other magic. All other conditions and effects on the creature are suppressed until it is no longer frozen in time. Destroying the cauldron, sending it to another plane of existence, or touching it with a unicorn's horn for 1 minute while reciting \"The Witch Queen's Cauldron\" ends the time-freezing effect on all creatures. The effect also ends on any creature that comes into contact with an antimagic field or is touched by a unicorn's horn."
+								"If you spend 1 minute touching the cauldron with a unicorn's horn while reciting the poem called \"The Witch Queen's Cauldron\" (see the accompanying sidebar), all creatures within 1,000 feet of the cauldron except those that are attuned to it become frozen in time. A time-frozen creature is {incapacitated}, can't move or speak, doesn't age, and is unaware of its surroundings or the passage of time. Moreover, it can't be moved, harmed in any way, or affected by any other magic. All other conditions and effects on the creature are suppressed until it is no longer frozen in time. Destroying the cauldron, sending it to another plane of existence, or touching it with a unicorn's horn for 1 minute while reciting \"The Witch Queen's Cauldron\" ends the time-freezing effect on all creatures. The effect also ends on any creature that comes into contact with an antimagic field or is touched by a unicorn's horn."
 							]
 						}
 					]
@@ -17553,7 +17553,7 @@ export const items = {
 					"type": "entries",
 					"name": "Reconstructing the Cauldron",
 					"entries": [
-						"If all eight pieces of the shattered cauldron are within 5 feet of one another, a {@spell wish} spell can reassemble them, restoring the cauldron and all its properties. The cauldron's reconstruction also restores the Shared Spellcasting trait of hag covens throughout the multiverse."
+						"If all eight pieces of the shattered cauldron are within 5 feet of one another, a { wish} spell can reassemble them, restoring the cauldron and all its properties. The cauldron's reconstruction also restores the Shared Spellcasting trait of hag covens throughout the multiverse."
 					]
 				},
 				{
@@ -17600,7 +17600,7 @@ export const items = {
 					"name": "Magical Scribing",
 					"entries": [
 						"While this tattoo is on your skin, you can write with your fingertip as if it were an ink pen that never runs out of ink.",
-						"As an action, you can touch a piece of writing up to one page in length and speak a creature's name. The writing becomes {@condition invisible} to everyone other than you and the named creature for the next 24 hours. Either of you can dismiss the invisibility by touching the script (no action required). Once used, this action can't be used again until the next dawn."
+						"As an action, you can touch a piece of writing up to one page in length and speak a creature's name. The writing becomes {invisible} to everyone other than you and the named creature for the next 24 hours. Either of you can dismiss the invisibility by touching the script (no action required). Once used, this action can't be used again until the next dawn."
 					]
 				}
 			]
@@ -17615,7 +17615,7 @@ export const items = {
 			"tattoo": true,
 			"entries": [
 				"This tattoo contains beautiful calligraphy, images of writing implements, and the like. While this tattoo is on your skin, you can write with your fingertip as if it were an ink pen that never runs out of ink.",
-				"As an action, you can touch a piece of writing up to one page in length and speak a creature's name. The writing becomes {@condition invisible} to everyone other than you and the named creature for the next 24 hours. Either of you can dismiss the invisibility by touching the script (no action required). Once used, this action can't be used again until the next dawn.",
+				"As an action, you can touch a piece of writing up to one page in length and speak a creature's name. The writing becomes {invisible} to everyone other than you and the named creature for the next 24 hours. Either of you can dismiss the invisibility by touching the script (no action required). Once used, this action can't be used again until the next dawn.",
 				{
 					"type": "entries",
 					"name": "Tattoo Attunement",
@@ -17670,7 +17670,7 @@ export const items = {
 			"entries": [
 				"An infernal puzzle box is a cube-shaped container 5 to 6 inches on a side, composed of airtight, interlocking parts made from materials found in the Nine Hells. Most of these boxes are made of infernal iron, though some are carved from bone or horn. Infernal puzzle boxes are used to safeguard diabolical contracts signed between devils and mortals, even after the terms of these contracts are fulfilled. An empty infernal puzzle box weighs 3 pounds regardless of the materials used to fashion it.",
 				"When an object small enough to fit inside an infernal puzzle box is placed in it, the container magically seals shut around the object, and no magic can force the box open. The sealed box becomes immune to all damage as well. Every infernal puzzle box is constructed with a unique means of opening it. The trick to solving the puzzle is always mundane, never magical. Once a creature figures out the trick or sequence of steps needed to open a particular infernal puzzle box, that creature can open the box as an action, allowing access to the box's contents.",
-				"A creature that spends 1 hour holding an infernal puzzle box while trying to open it can make a DC 30 Intelligence ({@skill Investigation}) check. If the check succeeds, the creature figures out the trick or sequence of steps needed to open the box. If the check fails by 5 or more, the creature must make a DC 18 Wisdom saving throw, taking 42 ({@damage 12d6}) psychic damage on a failed save, or half as much damage on a successful one."
+				"A creature that spends 1 hour holding an infernal puzzle box while trying to open it can make a DC 30 Intelligence ({@skill Investigation}) check. If the check succeeds, the creature figures out the trick or sequence of steps needed to open the box. If the check fails by 5 or more, the creature must make a DC 18 Wisdom saving throw, taking 42 (12d6}) psychic damage on a failed save, or half as much damage on a successful one."
 			]
 		},
 		{
@@ -17722,7 +17722,7 @@ export const items = {
 									"type": "list",
 									"items": [
 										"While holding the key, you can use a bonus action to transform the key into a magic dagger or back into a key. While the key is in the form of a dagger, you gain a +1 bonus to attack and damage rolls made with it, and it returns to your hand immediately after it is used to make a ranged attack.",
-										"While holding the key, you can use an action to cast one of the following spells from it: {@spell alter self}, {@spell invisibility}, {@spell knock}, or {@spell pass without trace}. Once a spell has been cast using the key, it can't be used to cast that spell again until the next dawn."
+										"While holding the key, you can use an action to cast one of the following spells from it: { alter self}, { invisibility}, { knock}, or { pass without trace}. Once a spell has been cast using the key, it can't be used to cast that spell again until the next dawn."
 									]
 								}
 							]
@@ -17790,7 +17790,7 @@ export const items = {
 									"type": "list",
 									"items": [
 										"As a bonus action, you can touch the key to a floor, wall, or ceiling that is no more than 5 feet thick and cause a magical opening to appear in the surface. When you create the opening, you choose its length and width, up to 10 feet for each dimension. The opening lasts until the key passes through it to the other side, at which point it disappears (if a creature is in the opening when the doorway closes, the creature is safely shunted to the nearest unoccupied space). The key can't be used to create another opening until the next dawn.",
-										"While holding the key, you can use an action to cast one of the following spells from it: {@spell dimension door}, {@spell gaseous form}, or {@spell mislead}. Once a spell has been cast using the key, it can't be used to cast that spell again until the next dawn."
+										"While holding the key, you can use an action to cast one of the following spells from it: { dimension door}, { gaseous form}, or { mislead}. Once a spell has been cast using the key, it can't be used to cast that spell again until the next dawn."
 									]
 								}
 							]
@@ -17956,7 +17956,7 @@ export const items = {
 			"rechargeAmount": 3,
 			"charges": 3,
 			"entries": [
-				"This musical instrument has 3 charges. While you are playing it, you can use an action to expend 1 charge from the instrument and write a magical message on a nonmagical object or surface that you can see within 30 feet of you. The message can be up to six words long and is written in a language you know. If you are a bard, you can scribe an additional seven words and choose to make the message glow faintly, allowing it to be seen in nonmagical darkness. Casting {@spell dispel magic} on the message erases it. Otherwise, the message fades away after 24 hours.",
+				"This musical instrument has 3 charges. While you are playing it, you can use an action to expend 1 charge from the instrument and write a magical message on a nonmagical object or surface that you can see within 30 feet of you. The message can be up to six words long and is written in a language you know. If you are a bard, you can scribe an additional seven words and choose to make the message glow faintly, allowing it to be seen in nonmagical darkness. Casting { dispel magic} on the message erases it. Otherwise, the message fades away after 24 hours.",
 				"The instrument regains all expended charges daily at dawn."
 			]
 		},
@@ -17976,11 +17976,11 @@ export const items = {
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
+				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Anstruth harp can be used to cast {@spell control weather}, {@spell cure wounds} (5th level), and {@spell wall of thorns}."
+				"You can play the instrument while casting a spell that causes any of its targets to be {charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+				"All instruments of the bards can be used to cast the following spells: { fly}, { invisibility}, { levitate}, and { protection from evil and good}.",
+				"In addition, the Anstruth harp can be used to cast { control weather}, { cure wounds} (5th level), and { wall of thorns}."
 			],
 			"attachedSpells": [
 				"control weather",
@@ -18012,11 +18012,11 @@ export const items = {
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
+				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Canaith mandolin can be used to cast {@spell cure wounds} (3rd level), {@spell dispel magic}, and {@spell protection from energy} (lightning only)."
+				"You can play the instrument while casting a spell that causes any of its targets to be {charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+				"All instruments of the bards can be used to cast the following spells: { fly}, { invisibility}, { levitate}, and { protection from evil and good}.",
+				"In addition, the Canaith mandolin can be used to cast { cure wounds} (3rd level), { dispel magic}, and { protection from energy} (lightning only)."
 			],
 			"attachedSpells": [
 				"cure wounds",
@@ -18048,11 +18048,11 @@ export const items = {
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
+				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Cli lyre can be used to cast {@spell stone shape}, {@spell wall of fire}, and {@spell wind wall}."
+				"You can play the instrument while casting a spell that causes any of its targets to be {charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+				"All instruments of the bards can be used to cast the following spells: { fly}, { invisibility}, { levitate}, and { protection from evil and good}.",
+				"In addition, the Cli lyre can be used to cast { stone shape}, { wall of fire}, and { wind wall}."
 			],
 			"attachedSpells": [
 				"stone shape",
@@ -18084,11 +18084,11 @@ export const items = {
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
+				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Doss lute can be used to cast {@spell animal friendship}, {@spell protection from energy} (fire only), and {@spell protection from poison}."
+				"You can play the instrument while casting a spell that causes any of its targets to be {charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+				"All instruments of the bards can be used to cast the following spells: { fly}, { invisibility}, { levitate}, and { protection from evil and good}.",
+				"In addition, the Doss lute can be used to cast { animal friendship}, { protection from energy} (fire only), and { protection from poison}."
 			],
 			"attachedSpells": [
 				"animal friendship",
@@ -18120,11 +18120,11 @@ export const items = {
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
+				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Fochlucan bandore can be used to cast {@spell entangle}, {@spell faerie fire}, {@spell shillelagh}, and {@spell speak with animals}."
+				"You can play the instrument while casting a spell that causes any of its targets to be {charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+				"All instruments of the bards can be used to cast the following spells: { fly}, { invisibility}, { levitate}, and { protection from evil and good}.",
+				"In addition, the Fochlucan bandore can be used to cast { entangle}, { faerie fire}, { shillelagh}, and { speak with animals}."
 			],
 			"attachedSpells": [
 				"entangle",
@@ -18157,11 +18157,11 @@ export const items = {
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
+				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Mac-Fuirmidh cittern can be used to cast {@spell barkskin}, {@spell cure wounds}, and {@spell fog cloud}."
+				"You can play the instrument while casting a spell that causes any of its targets to be {charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+				"All instruments of the bards can be used to cast the following spells: { fly}, { invisibility}, { levitate}, and { protection from evil and good}.",
+				"In addition, the Mac-Fuirmidh cittern can be used to cast { barkskin}, { cure wounds}, and { fog cloud}."
 			],
 			"attachedSpells": [
 				"barkskin",
@@ -18193,11 +18193,11 @@ export const items = {
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
+				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Ollamh harp can be used to cast {@spell confusion}, {@spell control weather}, and {@spell fire storm}."
+				"You can play the instrument while casting a spell that causes any of its targets to be {charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+				"All instruments of the bards can be used to cast the following spells: { fly}, { invisibility}, { levitate}, and { protection from evil and good}.",
+				"In addition, the Ollamh harp can be used to cast { confusion}, { control weather}, and { fire storm}."
 			],
 			"attachedSpells": [
 				"confusion",
@@ -18645,8 +18645,8 @@ export const items = {
 			"weight": 1,
 			"entries": [
 				"This rusty iron sphere measures 3 inches in diameter and weighs 1 pound. You can use an action to speak the command word and throw the sphere at a Huge or smaller creature you can see within 60 feet of you. As the sphere moves through the air, it opens into a tangle of metal bands.",
-				"Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your proficiency bonus. On a hit, the target is {@condition restrained} until you take a bonus action to speak the command word again to release it. Doing so, or missing with the attack, causes the bands to contract and become a sphere once more.",
-				"A creature, including the one {@condition restrained}, can use an action to make a DC 20 Strength check to break the iron bands. On a success, the item is destroyed, and the {@condition restrained} creature is freed. If the check fails, any further attempts made by that creature automatically fail until 24 hours have elapsed.",
+				"Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your proficiency bonus. On a hit, the target is {restrained} until you take a bonus action to speak the command word again to release it. Doing so, or missing with the attack, causes the bands to contract and become a sphere once more.",
+				"A creature, including the one {restrained}, can use an action to make a DC 20 Strength check to break the iron bands. On a success, the item is destroyed, and the {restrained} creature is freed. If the check fails, any further attempts made by that creature automatically fail until 24 hours have elapsed.",
 				"Once the bands are used, they can't be used again until the next dawn."
 			],
 			"lootTables": [
@@ -18666,7 +18666,7 @@ export const items = {
 			"entries": [
 				"This iron bottle has a brass stopper. You can use an action to speak the flask's command word, targeting a creature that you can see within 60 feet of you. If the target is native to a plane of existence other than the one you're on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask. If the target has been trapped by the flask before, it has advantage on the saving throw. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesn't need to breathe, eat, or drink and doesn't age.",
 				"You can use an action to remove the flask's stopper and release the creature the flask contains. The creature is friendly to you and your companions for 1 hour and obeys your commands for that duration. If you give no commands or give it a command that is likely to result in its death, it defends itself but otherwise takes no actions. At the end of the duration, the creature acts in accordance with its normal disposition and alignment.",
-				"An {@spell identify} spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask. A newly discovered bottle might already contain a creature chosen by the DM or determined randomly.",
+				"An { identify} spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask. A newly discovered bottle might already contain a creature chosen by the DM or determined randomly.",
 				{
 					"type": "table",
 					"colLabels": [
@@ -18870,7 +18870,7 @@ export const items = {
 			"charges": 3,
 			"entries": [
 				"A {@item war pick|phb} forged from a single piece of iron, Ironfang has a fang-like head inscribed with ancient runes. The pick is heavy in the hand, but when the wielder swings the pick in anger, the weapon seems almost weightless. This weapon is immune to any form of rust, acid, or corrosion\u2014nothing seems to mark it. Ironfang contains a spark of {@creature Ogrémoch|pota}, the Prince of Evil Earth.",
-				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra {@damage 1d8} thunder damage.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra 1d8} thunder damage.",
 				{
 					"type": "entries",
 					"name": "Earth Mastery",
@@ -18883,7 +18883,7 @@ export const items = {
 								"You have resistance to acid damage.",
 								"You have {@sense tremorsense|MM} out to a range of 60 feet.",
 								"You can sense the presence of precious metals and stones within 60 feet of you, but not their exact location.",
-								"You can cast {@spell dominate monster} (save DC 17) on an {@creature earth elemental}. Once you have done so, Ironfang can't be used this way again until the next dawn."
+								"You can cast { dominate monster} (save DC 17) on an {@creature earth elemental}. Once you have done so, Ironfang can't be used this way again until the next dawn."
 							]
 						}
 					]
@@ -18892,7 +18892,7 @@ export const items = {
 					"type": "entries",
 					"name": "Shatter",
 					"entries": [
-						"Ironfang has 3 charges. You can use your action to expend 1 charge and cast the 2nd-level version of {@spell shatter} (DC 17). Ironfang regains {@dice 1d3} expended charges daily at dawn."
+						"Ironfang has 3 charges. You can use your action to expend 1 charge and cast the 2nd-level version of { shatter} (DC 17). Ironfang regains {@dice 1d3} expended charges daily at dawn."
 					]
 				},
 				{
@@ -18924,7 +18924,7 @@ export const items = {
 			"rarity": "unknown",
 			"poison": true,
 			"entries": [
-				"This poison bears a distinct scent and chemical message from Ivana Boritsi. A creature subjected to this poison must succeed on a DC 18 Constitution saving throw or experience the effects of a {@spell dream} spell created by Ivana the next time they sleep. This poison is nonmagical, and Ivana doesn't directly communicate with those affected during the dream. Rather, she creates the illusion of speaking with her intended target by alchemically crafting her message, predicting her target's reactions, and chemically encoding in her responses. She wears this poison as a perfume or hides it within gift bouquets, allowing it to convey her message later."
+				"This poison bears a distinct scent and chemical message from Ivana Boritsi. A creature subjected to this poison must succeed on a DC 18 Constitution saving throw or experience the effects of a { dream} spell created by Ivana the next time they sleep. This poison is nonmagical, and Ivana doesn't directly communicate with those affected during the dream. Rather, she creates the illusion of speaking with her intended target by alchemically crafting her message, predicting her target's reactions, and chemically encoding in her responses. She wears this poison as a perfume or hides it within gift bouquets, allowing it to convey her message later."
 			],
 			"poisonTypes": [
 				"inhaled"
@@ -18944,7 +18944,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring, adorned with the symbol of Izzet, allows you to cast {@spell chaos bolt|XGE}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Izzet's recognition and favor.",
+				"This ring, adorned with the symbol of Izzet, allows you to cast { chaos bolt|XGE}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Izzet's recognition and favor.",
 				"A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13)."
 			],
 			"attachedSpells": [
@@ -19033,12 +19033,12 @@ export const items = {
 			"type": "OTH",
 			"rarity": "unknown (magic)",
 			"entries": [
-				"This staff is broken into five pieces, each worth 100 gp for the jade alone. The entire staff can be restored with {@spell mending} cantrips; each casting of the spell repairs one break in the staff. If the staff is made whole, it transforms from an object into an animated jade serpent that has the statistics of a {@creature giant poisonous snake}, with these changes:",
+				"This staff is broken into five pieces, each worth 100 gp for the jade alone. The entire staff can be restored with { mending} cantrips; each casting of the spell repairs one break in the staff. If the staff is made whole, it transforms from an object into an animated jade serpent that has the statistics of a {@creature giant poisonous snake}, with these changes:",
 				{
 					"type": "list",
 					"items": [
 						"The serpent is a construct that understands and obeys whoever was holding the staff when it transformed.",
-						"It has immunity to poison damage and the {@condition poisoned} condition. It doesn't require air, food, drink, or sleep.",
+						"It has immunity to poison damage and the {poisoned} condition. It doesn't require air, food, drink, or sleep.",
 						"When it drops to 0 hit points, roll a {@dice d6}. On a roll of 1, the snake turns to dust and is destroyed. On any other roll, it changes back into a staff and breaks into {@dice 1d4 + 1} pieces that must be magically mended before the staff can be used again."
 					]
 				}
@@ -19110,7 +19110,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the weapon, keeping it within reach at all times. In addition, you have disadvantage on attack rolls made with weapons other than this one."
+						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with { remove curse} or similar magic, you are unwilling to part with the weapon, keeping it within reach at all times. In addition, you have disadvantage on attack rolls made with weapons other than this one."
 					]
 				},
 				"Whenever you roll a 1 on an attack roll using this weapon, the weapon bends or flies to hit you in the back. Make a new attack roll with advantage against your own AC. If the result is a hit, you take damage as if you had attacked yourself with the javelin."
@@ -19134,7 +19134,7 @@ export const items = {
 			"dmg1": "1d6",
 			"dmgType": "P",
 			"entries": [
-				"This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking {@damage 4d6} lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus {@damage 4d6} lightning damage.",
+				"This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking 4d6} lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus 4d6} lightning damage.",
 				"The javelin's property can't be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon."
 			],
 			"lootTables": [
@@ -19180,7 +19180,7 @@ export const items = {
 								{
 									"type": "list",
 									"items": [
-										"You can expend 1 of the jewel's charges (no action required) to end one of the following conditions on yourself: {@condition grappled}, {@condition paralyzed}, or {@condition restrained}.",
+										"You can expend 1 of the jewel's charges (no action required) to end one of the following conditions on yourself: {grappled}, {paralyzed}, or {restrained}.",
 										"When another creature you can see within 60 feet of you fails a saving throw, you can expend 1 of the jewel's charges as a reaction to enable that creature to reroll the saving throw, potentially turning a failure into a success. The creature must use the new roll."
 									]
 								}
@@ -19221,7 +19221,7 @@ export const items = {
 							"items": [
 								"You gain a +1 bonus to AC while wearing the jewel.",
 								"While wearing or holding the jewel, you can use an action to cause it to shed bright light in a 15-foot radius and dim light for an additional 15 feet. The light lasts until you extinguish it (no action required).",
-								"The jewel has 3 charges and regains all its expended charges daily at dawn. While holding the jewel, you can expend 1 charge from it to cast the {@spell invisibility} spell."
+								"The jewel has 3 charges and regains all its expended charges daily at dawn. While holding the jewel, you can expend 1 charge from it to cast the { invisibility} spell."
 							]
 						}
 					]
@@ -19261,7 +19261,7 @@ export const items = {
 									"items": [
 										"You gain the ability to breathe water, and you gain a swimming speed equal to your walking speed.",
 										"Each of your allies within 30 feet of you gains the ability to breathe water and gains a swimming speed equal to its walking speed.",
-										"As a bonus action, you can expend 1 of the jewel's charges to target yourself or one willing creature you can see within 15 feet of yourself. The target teleports to an unoccupied space of your choice within 15 feet of yourself, along with any equipment the target is wearing or carrying. The target appears in a flash of golden radiance, and each creature of your choice within 5 feet of the target's new location must make a DC 18 Constitution saving throw. On a failed save, the creature takes {@damage 4d10} radiant damage and is {@condition blinded} until the start of your next turn. On a successful save, the creature takes half as much damage and isn't {@condition blinded}."
+										"As a bonus action, you can expend 1 of the jewel's charges to target yourself or one willing creature you can see within 15 feet of yourself. The target teleports to an unoccupied space of your choice within 15 feet of yourself, along with any equipment the target is wearing or carrying. The target appears in a flash of golden radiance, and each creature of your choice within 5 feet of the target's new location must make a DC 18 Constitution saving throw. On a failed save, the creature takes 4d10} radiant damage and is {blinded} until the start of your next turn. On a successful save, the creature takes half as much damage and isn't {blinded}."
 									]
 								}
 							]
@@ -19463,7 +19463,7 @@ export const items = {
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"A keg of alchemist's fire lobbed at a creature or an object deals 21 ({@damage 6d6}) fire damage on a hit. Further, the target is set ablaze and takes the damage again every round (in the case of a creature, at the start of each of its turns) until the fire is put out. A creature within reach of the blaze can take an action to smother the flames using a blanket or carpet, reducing the fire damage by {@dice 2d6}. Three such actions are needed to fully put out the fire."
+				"A keg of alchemist's fire lobbed at a creature or an object deals 21 (6d6}) fire damage on a hit. Further, the target is set ablaze and takes the damage again every round (in the case of a creature, at the start of each of its turns) until the fire is put out. A creature within reach of the blaze can take an action to smother the flames using a blanket or carpet, reducing the fire damage by {@dice 2d6}. Three such actions are needed to fully put out the fire."
 			]
 		},
 		{
@@ -19477,7 +19477,7 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"This glass jar, 3 inches in diameter, contains {@dice 1d4 + 1} doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh ½ pound.",
-				"As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains {@dice 2d8 + 2} hit points, ceases to be {@condition poisoned}, and is cured of any disease."
+				"As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains {@dice 2d8 + 2} hit points, ceases to be {poisoned}, and is cured of any disease."
 			],
 			"lootTables": [
 				"Magic Item Table B"
@@ -19503,7 +19503,7 @@ export const items = {
 			],
 			"wondrous": true,
 			"entries": [
-				"This small stylized key plays a vital role in the work of House Kundarak. If you cast the {@spell alarm}, {@spell arcane lock}, or {@spell glyph of warding} spell, you can tie the effect to the keycharm so that whoever holds it receives the notification from the {@spell alarm} spell, bypasses the lock of the {@spell arcane lock} spell, or avoids triggering the glyph placed by the {@spell glyph of warding} spell. In addition, the holder (who needn't be attuned to the item) can take an action to end any one spell tied to it, provided the holder knows the command word you set for ending the tied spells. The keycharm can have up to three tied spells at one time."
+				"This small stylized key plays a vital role in the work of House Kundarak. If you cast the { alarm}, { arcane lock}, or { glyph of warding} spell, you can tie the effect to the keycharm so that whoever holds it receives the notification from the { alarm} spell, bypasses the lock of the { arcane lock} spell, or avoids triggering the glyph placed by the { glyph of warding} spell. In addition, the holder (who needn't be attuned to the item) can take an action to end any one spell tied to it, provided the holder knows the command word you set for ending the tied spells. The keycharm can have up to three tied spells at one time."
 			]
 		},
 		{
@@ -19544,14 +19544,14 @@ export const items = {
 					"type": "entries",
 					"name": "Extradimensional Places",
 					"entries": [
-						"You can use the keystone to conjure an extradimensional space such as {@spell Mordenkainen's magnificent mansion}. The easiest way is to simply cast the spell using the artifact's power, which requires no spell slots or material components. Each time you cast a spell with the artifact, the subsequent casting replaces the prior one. For more detailed control of a conjured demiplane or extradimensional space, see \"Construction Details.\""
+						"You can use the keystone to conjure an extradimensional space such as { Mordenkainen's magnificent mansion}. The easiest way is to simply cast the spell using the artifact's power, which requires no spell slots or material components. Each time you cast a spell with the artifact, the subsequent casting replaces the prior one. For more detailed control of a conjured demiplane or extradimensional space, see \"Construction Details.\""
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Raising Structures",
 					"entries": [
-						"You can use the keystone to conjure a physical structure on the Material Plane. The easiest way is to simply cast the {@spell mighty fortress|XGE} spell using the artifact's power, which requires no spell slots or material components. Each time you cast a spell with the artifact, the subsequent casting replaces the prior one. For more detailed control of a conjured demiplane or extradimensional space, see \"Construction Details.\" Locations conjured by keystones cannot become permanent through repeated spell castings."
+						"You can use the keystone to conjure a physical structure on the Material Plane. The easiest way is to simply cast the { mighty fortress|XGE} spell using the artifact's power, which requires no spell slots or material components. Each time you cast a spell with the artifact, the subsequent casting replaces the prior one. For more detailed control of a conjured demiplane or extradimensional space, see \"Construction Details.\" Locations conjured by keystones cannot become permanent through repeated spell castings."
 					]
 				},
 				{
@@ -19565,10 +19565,10 @@ export const items = {
 					"type": "entries",
 					"name": "Destroying a Keystone",
 					"entries": [
-						"A keystone is an artifact in its own right and impervious to most damage, but a {@spell disintegrate} spell is sufficient to destroy an unattuned keystone.",
+						"A keystone is an artifact in its own right and impervious to most damage, but a { disintegrate} spell is sufficient to destroy an unattuned keystone.",
 						"After it has been attuned at least once, a given keystone requires attunement to maintain its magical power. Otherwise, its creations on the Material Plane gradually rot and decay over {@dice 1d12 + 1} days, and a demiplane relying on the keystone collapses over {@dice 1d20 + 10} minutes. Additional destructive forces like fire may hasten the destruction. A demiplane created or upheld by a keystone ejects all creatures within it to their home planes when it collapses.",
 						"When a keystone's creation is fully destroyed, the keystone becomes an inert, powerless rock. If the {@item Stone of Creation|AitFR-AVT} is destroyed, all its keystones break attunement, lose all magical properties, and their creations decay or collapse to nothing.",
-						"If it reaches the Elemental Chaos or is struck by a forked, metal rod attuned to the Elemental Chaos (as per the {@spell plane shift} spell), a keystone is destroyed."
+						"If it reaches the Elemental Chaos or is struck by a forked, metal rod attuned to the Elemental Chaos (as per the { plane shift} spell), a keystone is destroyed."
 					]
 				},
 				{
@@ -19586,8 +19586,8 @@ export const items = {
 											"type": "entries",
 											"name": "Demiplane Design",
 											"entries": [
-												"With a single keystone, you can conjure an extradimensional space in the shape of a dome or pyramid, up to 1 mile on each side, with whatever terrain you wish. The edges of this space are solid and impassable but may be {@condition invisible}, so that your space can appear to go on forever if you wish. With additional keystones, you can add an additional square mile to your creation, adding or combining terrain types.",
-												"Each square mile can include a single structure up to the size of {@spell Mordenkainen's magnificent mansion}, with all the attendant servants and feasts, or any number of smaller structures that together equal a magnificent mansion in total area.",
+												"With a single keystone, you can conjure an extradimensional space in the shape of a dome or pyramid, up to 1 mile on each side, with whatever terrain you wish. The edges of this space are solid and impassable but may be {invisible}, so that your space can appear to go on forever if you wish. With additional keystones, you can add an additional square mile to your creation, adding or combining terrain types.",
+												"Each square mile can include a single structure up to the size of { Mordenkainen's magnificent mansion}, with all the attendant servants and feasts, or any number of smaller structures that together equal a magnificent mansion in total area.",
 												"You cannot create flora or fauna that deal damage or otherwise harm creatures. If you create cliffs, waters, or other natural features, however, creatures in the space might fall, drown, or otherwise be harmed."
 											]
 										},
@@ -19643,7 +19643,7 @@ export const items = {
 					"type": "entries",
 					"name": "Spear of the Sun",
 					"entries": [
-						"This spear grants a +3 bonus to attack and damage rolls made with it. When you hit with an attack using this spear, the target takes an extra {@damage 2d8} radiant damage."
+						"This spear grants a +3 bonus to attack and damage rolls made with it. When you hit with an attack using this spear, the target takes an extra 2d8} radiant damage."
 					]
 				},
 				{
@@ -19692,14 +19692,14 @@ export const items = {
 					"type": "entries",
 					"name": "Sun's Retaliation",
 					"entries": [
-						"When you take damage from a creature within 5 feet of you, you can use your reaction to make a melee attack with the spear against that creature. On a hit, the spear deals damage as normal, and the creature is {@condition blinded} until the start of its next turn. This property of the spear can't be used again until the next dawn."
+						"When you take damage from a creature within 5 feet of you, you can use your reaction to make a melee attack with the spear against that creature. On a hit, the spear deals damage as normal, and the creature is {blinded} until the start of its next turn. This property of the spear can't be used again until the next dawn."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"The spear has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: {@spell guiding bolt} (1 charge), {@spell daylight} (3 charges, targeting the tip of the spear only), {@spell sunbeam} (6 charges). The spear regains {@dice 1d6 + 4} expended charges daily at dawn."
+						"The spear has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: { guiding bolt} (1 charge), { daylight} (3 charges, targeting the tip of the spear only), { sunbeam} (6 charges). The spear regains {@dice 1d6 + 4} expended charges daily at dawn."
 					]
 				},
 				{
@@ -19764,8 +19764,8 @@ export const items = {
 					"type": "list",
 					"items": [
 						"If you are underground or underwater, you can use an action to expend 1 charge to determine the distance to the surface.",
-						"As an action: you can expend 2 charges to cast the {@spell sending} spell from the scepter.",
-						"As an action: you can expend 3 charges to cast the {@spell teleport} spell from the scepter. If the destination is within 60 feet of the {@item Wyrmskull Throne|SKT}, there is no chance of a teleport error or mishap occurring."
+						"As an action: you can expend 2 charges to cast the { sending} spell from the scepter.",
+						"As an action: you can expend 3 charges to cast the { teleport} spell from the scepter. If the destination is within 60 feet of the {@item Wyrmskull Throne|SKT}, there is no chance of a teleport error or mishap occurring."
 					]
 				}
 			],
@@ -19794,7 +19794,7 @@ export const items = {
 					"type": "entries",
 					"name": "Resistant",
 					"entries": [
-						"While attuned to Kyrzin's ooze, you have resistance to poison and acid damage, and you're immune to the {@condition poisoned} condition."
+						"While attuned to Kyrzin's ooze, you have resistance to poison and acid damage, and you're immune to the {poisoned} condition."
 					]
 				},
 				{
@@ -19808,7 +19808,7 @@ export const items = {
 					"type": "entries",
 					"name": "Acid Breath",
 					"entries": [
-						"As an action, you can exhale acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 36 ({@damage 8d8}) acid damage on a failed save, or half as much damage on a successful one. Once you use this property, it can't be used again until the next dawn."
+						"As an action, you can exhale acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 36 (8d8}) acid damage on a failed save, or half as much damage on a successful one. Once you use this property, it can't be used again until the next dawn."
 					]
 				},
 				{
@@ -19881,7 +19881,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
-				"While lit, this {@item hooded lantern|phb} burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. {@condition Invisible} creatures and objects are visible as long as they are in the lantern's bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius."
+				"While lit, this {@item hooded lantern|phb} burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. {Invisible} creatures and objects are visible as long as they are in the lantern's bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -20028,7 +20028,7 @@ export const items = {
 									"items": [
 										"The weapon's bonus to attack and damage rolls increases to +2.",
 										"The saving throw DC for the weapon's poisons increases to 15.",
-										"The weapon gains a new poison option called Ghoul's Blood. A creature that fails the saving throw against this poison is {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the creature is {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+										"The weapon gains a new poison option called Ghoul's Blood. A creature that fails the saving throw against this poison is {poisoned} for 1 minute. While {poisoned} in this way, the creature is {paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									]
 								}
 							]
@@ -20097,12 +20097,12 @@ export const items = {
 										{
 											"type": "item",
 											"name": "Dead Eyes",
-											"entry": "A creature that fails the saving throw against this poison is {@condition poisoned} for 1 hour. While {@condition poisoned} in this way, the creature is {@condition blinded}."
+											"entry": "A creature that fails the saving throw against this poison is {poisoned} for 1 hour. While {poisoned} in this way, the creature is {blinded}."
 										},
 										{
 											"type": "item",
 											"name": "Serpent Venom",
-											"entry": "A creature that fails the saving throw against this poison takes {@damage 3d6} poison damage, or half as much damage on a successful save."
+											"entry": "A creature that fails the saving throw against this poison takes 3d6} poison damage, or half as much damage on a successful save."
 										}
 									]
 								}
@@ -20140,7 +20140,7 @@ export const items = {
 									"items": [
 										"The weapon's bonus to attack and damage rolls increases to +3.",
 										"The saving throw DC for the weapon's poisons increases to 17.",
-										"The weapon gains a new poison option called Cockatrice Tears. A creature that fails the saving throw against this poison begins to turn to stone and is {@condition restrained}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrified} for 24 hours."
+										"The weapon gains a new poison option called Cockatrice Tears. A creature that fails the saving throw against this poison begins to turn to stone and is {restrained}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {petrified} for 24 hours."
 									]
 								}
 							]
@@ -20196,7 +20196,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This armor is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unwilling to part with the armor. In addition, while you wear the cursed armor, you gain the following properties:",
+						"This armor is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a { remove curse} spell or similar magic, you are unwilling to part with the armor. In addition, while you wear the cursed armor, you gain the following properties:",
 						{
 							"type": "list",
 							"items": [
@@ -20211,7 +20211,7 @@ export const items = {
 									"type": "entries",
 									"name": "Berserk",
 									"entries": [
-										"Whenever a critical hit is made against you, roll a {@dice d6}. On a 6, the armor causes you to go berserk. On each of your turns while berserk, you attack the nearest creature you can see. If no creature is near enough to move to and attack, you attack an object, with preference for an object smaller than yourself. Once the armor causes you to go berserk, it cannot be removed. You continue to attack until you are {@condition incapacitated} or until another creature is able to calm you with appropriate magic (such as a {@spell calm emotions} spell) or a successful DC 15 Charisma ({@skill Persuasion}) check."
+										"Whenever a critical hit is made against you, roll a {@dice d6}. On a 6, the armor causes you to go berserk. On each of your turns while berserk, you attack the nearest creature you can see. If no creature is near enough to move to and attack, you attack an object, with preference for an object smaller than yourself. Once the armor causes you to go berserk, it cannot be removed. You continue to attack until you are {incapacitated} or until another creature is able to calm you with appropriate magic (such as a { calm emotions} spell) or a successful DC 15 Charisma ({@skill Persuasion}) check."
 									]
 								}
 							]
@@ -20322,7 +20322,7 @@ export const items = {
 				"Wizard"
 			],
 			"entries": [
-				"With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: {@spell animate dead}, {@spell circle of death}, {@spell false life}, {@spell finger of death}, {@spell speak with dead}, {@spell summon undead|TCE}, and {@spell vampiric touch}. It functions as a spellbook for you.",
+				"With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: { animate dead}, { circle of death}, { false life}, { finger of death}, { speak with dead}, { summon undead|TCE}, and { vampiric touch}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
 				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
@@ -20423,7 +20423,7 @@ export const items = {
 			"dmgType": "B",
 			"bonusWeapon": "+1",
 			"entries": [
-				"This +1 mace was made for a cleric of Lathander, the god of dawn. The head of the mace is shaped like a sunburst and made of solid brass. Named Lightbringer, this weapon glows as bright as a {@item torch|phb} when its wielder commands. While glowing, the mace deals an extra {@damage 1d6} radiant damage to undead creatures."
+				"This +1 mace was made for a cleric of Lathander, the god of dawn. The head of the mace is shaped like a sunburst and made of solid brass. Named Lightbringer, this weapon glows as bright as a {@item torch|phb} when its wielder commands. While glowing, the mace deals an extra 1d6} radiant damage to undead creatures."
 			]
 		},
 		{
@@ -20554,7 +20554,7 @@ export const items = {
 					"type": "entries",
 					"name": "Secret Satchel",
 					"entries": [
-						"As a rank 3 hoardsperson, your living loot satchel gets an upgrade to function as the replica chest used for the {@spell Leomund's secret chest} spell, becoming a rare magic item. You can open the secret chest through your living loot satchel to deposit or withdraw items\u2014even items that wouldn't normally fit in your satchel, but which fit within the chest. Thanks to Head Office striking deals you don't want to know about with extraplanar creatures you really don't want to know about, there is no chance for the spell to end."
+						"As a rank 3 hoardsperson, your living loot satchel gets an upgrade to function as the replica chest used for the { Leomund's secret chest} spell, becoming a rare magic item. You can open the secret chest through your living loot satchel to deposit or withdraw items\u2014even items that wouldn't normally fit in your satchel, but which fit within the chest. Thanks to Head Office striking deals you don't want to know about with extraplanar creatures you really don't want to know about, there is no chance for the spell to end."
 					]
 				},
 				{
@@ -20621,7 +20621,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"The stone is cursed, but its magical nature is hidden; {@spell detect magic} doesn't detect it. An {@spell identify} spell reveals the stone's true nature. If you use the {@action Dash} or {@action Disengage} action while the stone is on your person, its curse activates. Until the curse is broken with {@spell remove curse} or similar magic, your speed is reduced by 5 feet, and your maximum load and maximum lift capacities are halved. You also become unwilling to part with the stone."
+						"The stone is cursed, but its magical nature is hidden; { detect magic} doesn't detect it. An { identify} spell reveals the stone's true nature. If you use the {@action Dash} or {@action Disengage} action while the stone is on your person, its curse activates. Until the curse is broken with { remove curse} or similar magic, your speed is reduced by 5 feet, and your maximum load and maximum lift capacities are halved. You also become unwilling to part with the stone."
 					]
 				}
 			]
@@ -20800,7 +20800,7 @@ export const items = {
 					"items": [
 						"The sword continually sheds bright light in a 15-foot radius and dim light for an additional 15 feet. Only by destroying the sword can this light be extinguished.",
 						"A lawful good creature can attune itself to the sword in 1 minute.",
-						"While attuned to the weapon, the sword's wielder can use the sword to cast the {@spell crusader's mantle} spell. Once used, this property of the sword can't be used again until the next dawn."
+						"While attuned to the weapon, the sword's wielder can use the sword to cast the { crusader's mantle} spell. Once used, this property of the sword can't be used again until the next dawn."
 					]
 				}
 			],
@@ -20837,7 +20837,7 @@ export const items = {
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"While holding the deck, you can use an action to cast one of the following spells (save DC 18) from it: {@spell comprehend languages}, {@spell detect evil and good}, {@spell detect magic}, {@spell detect poison and disease}, {@spell locate object}, or {@spell scrying}. Once you use the deck to cast a spell, you can't cast that spell again from it until the next dawn."
+						"While holding the deck, you can use an action to cast one of the following spells (save DC 18) from it: { comprehend languages}, { detect evil and good}, { detect magic}, { detect poison and disease}, { locate object}, or { scrying}. Once you use the deck to cast a spell, you can't cast that spell again from it until the next dawn."
 					]
 				},
 				{
@@ -21077,8 +21077,8 @@ export const items = {
 			"weight": 2,
 			"grantsProficiency": true,
 			"entries": [
-				"While holding this {@item lyre|PHB}, you can cast {@spell mending} as an action. You can also play the {@item lyre|PHB} as a reaction when an object or a structure you can see within 300 feet of you takes damage, causing it to be immune to that damage and any further damage of the same type until the start of your next turn.",
-				"In addition, you can play the {@item lyre|PHB} as an action to cast {@spell fabricate}, {@spell move earth}, {@spell passwall}, or {@spell summon construct|TCE}, and that spell can't be cast from it again until the next dawn."
+				"While holding this {@item lyre|PHB}, you can cast { mending} as an action. You can also play the {@item lyre|PHB} as a reaction when an object or a structure you can see within 300 feet of you takes damage, causing it to be immune to that damage and any further damage of the same type until the start of your next turn.",
+				"In addition, you can play the {@item lyre|PHB} as an action to cast { fabricate}, { move earth}, { passwall}, or { summon construct|TCE}, and that spell can't be cast from it again until the next dawn."
 			],
 			"attachedSpells": [
 				"fabricate",
@@ -21103,7 +21103,7 @@ export const items = {
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"entries": [
-				"When you hit a fiend or an undead with this magic weapon, that creature takes an extra {@damage 2d6} radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes {@condition frightened} of you until the end of your next turn.",
+				"When you hit a fiend or an undead with this magic weapon, that creature takes an extra 2d6} radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes {frightened} of you until the end of your next turn.",
 				"While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
 			],
 			"lootTables": [
@@ -21128,7 +21128,7 @@ export const items = {
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the mace to attack a construct.",
 				"When you roll a 20 on an attack roll made with this weapon, the target takes an extra 7 bludgeoning damage, or an extra 14 bludgeoning damage if it's a construct. If a construct has 25 hit points or fewer after taking this damage, it is destroyed.",
-				"{@note Note: According to the SRD, it is an extra {@dice 2d6} and {@damage 4d6} bludgeoning damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}}."
+				"{@note Note: According to the SRD, it is an extra {@dice 2d6} and 4d6} bludgeoning damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}}."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -21153,7 +21153,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature of your choice in a 30-foot radius extending from you must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you for 1 minute. While it is {@condition frightened} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the {@action Dodge} action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.",
+				"This magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature of your choice in a 30-foot radius extending from you must succeed on a DC 15 Wisdom saving throw or become {frightened} of you for 1 minute. While it is {frightened} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the {@action Dodge} action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.",
 				"The mace regains {@dice 1d3} expended charges daily at dawn."
 			],
 			"lootTables": [
@@ -21242,7 +21242,7 @@ export const items = {
 							"items": [
 								"You can speak, read, and write Infernal.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-								"While holding the mace, you can use a bonus action to speak its Infernal command word, causing flames to erupt from the head. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the mace is ablaze, it deals an extra {@damage 1d6} fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you are no longer holding the mace.",
+								"While holding the mace, you can use a bonus action to speak its Infernal command word, causing flames to erupt from the head. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the mace is ablaze, it deals an extra 1d6} fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you are no longer holding the mace.",
 								"While holding the mace, you can use an action to summon an {@creature imp}. Any devil you summon with this mace is friendly to you and your companions for the duration. The imp obeys any verbal commands that you issue to it and returns to the Nine Hells 10 minutes after you summoned it. This property can't be used again until the next dawn."
 							]
 						}
@@ -21312,7 +21312,7 @@ export const items = {
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this longsword, which is made of laminated wood, and inset with jagged teeth of obsidian. It deals an extra {@damage 2d6} damage to any creature of the plant type."
+				"You have a +1 bonus to attack and damage rolls made with this longsword, which is made of laminated wood, and inset with jagged teeth of obsidian. It deals an extra 2d6} damage to any creature of the plant type."
 			]
 		},
 		{
@@ -21365,7 +21365,7 @@ export const items = {
 			"value": 25000,
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {@condition poisoned} for 1 hour. The {@condition poisoned} creature is {@condition blinded}."
+				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {poisoned} for 1 hour. The {poisoned} creature is {blinded}."
 			],
 			"poisonTypes": [
 				"inhaled"
@@ -21432,7 +21432,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 5,
 			"entries": [
-				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes {@damage 6d6} psychic damage.",
+				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes 6d6} psychic damage.",
 				"To create a {@creature clay golem}, you must spend 30 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 65,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
 			],
 			"hasFluffImages": true
@@ -21447,7 +21447,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 5,
 			"entries": [
-				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes {@damage 6d6} psychic damage.",
+				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes 6d6} psychic damage.",
 				"To create a {@creature flesh golem}, you must spend 60 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 50,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
 			],
 			"hasFluffImages": true
@@ -21481,7 +21481,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 5,
 			"entries": [
-				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes {@damage 6d6} psychic damage.",
+				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes 6d6} psychic damage.",
 				"To create an {@creature iron golem}, you must spend 120 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 100,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
 			],
 			"hasFluffImages": true
@@ -21516,7 +21516,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 5,
 			"entries": [
-				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes {@damage 6d6} psychic damage.",
+				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes 6d6} psychic damage.",
 				"To create a {@creature stone golem}, you must spend 90 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 80,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
 			],
 			"hasFluffImages": true
@@ -21562,7 +21562,7 @@ export const items = {
 			"rechargeAmount": 3,
 			"charges": 3,
 			"entries": [
-				"This wooden mask is shaped in the likeness of a beast's visage and has 3 charges. While wearing the mask you can expend 1 charge and use the mask to cast the {@spell animal friendship} spell as an action. The mask regains all expended charges at dawn."
+				"This wooden mask is shaped in the likeness of a beast's visage and has 3 charges. While wearing the mask you can expend 1 charge and use the mask to cast the { animal friendship} spell as an action. The mask regains all expended charges at dawn."
 			],
 			"attachedSpells": [
 				"animal friendship"
@@ -21672,7 +21672,7 @@ export const items = {
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
-				"A masque charm is a small silver pin. While wearing this charm, you can use an action to cast the {@spell disguise self} spell (DC 13 to discern the disguise). Once the spell is cast, it can't be cast from the charm again until the next sunset. When casting the spell, you can have the spell last for its normal 1 hour duration or for 6 hours. If you choose the 6-hour duration, the charm becomes nonmagical when the spell ends. In either case, the spell ends if the charm is removed from you."
+				"A masque charm is a small silver pin. While wearing this charm, you can use an action to cast the { disguise self} spell (DC 13 to discern the disguise). Once the spell is cast, it can't be cast from the charm again until the next sunset. When casting the spell, you can have the spell last for its normal 1 hour duration or for 6 hours. If you choose the 6-hour duration, the charm becomes nonmagical when the spell ends. In either case, the spell ends if the charm is removed from you."
 			],
 			"attachedSpells": [
 				"disguise self"
@@ -21707,7 +21707,7 @@ export const items = {
 					"type": "entries",
 					"name": "Disguise Self",
 					"entries": [
-						"As an action, you can use the tattoo to cast the {@spell disguise self} spell (DC 13 to discern the disguise). Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn."
+						"As an action, you can use the tattoo to cast the { disguise self} spell (DC 13 to discern the disguise). Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn."
 					]
 				}
 			],
@@ -21729,7 +21729,7 @@ export const items = {
 					"type": "entries",
 					"name": "Disguise Self",
 					"entries": [
-						"As an action, you can use the tattoo to cast the {@spell disguise self} spell. Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn."
+						"As an action, you can use the tattoo to cast the { disguise self} spell. Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn."
 					]
 				},
 				{
@@ -21752,7 +21752,7 @@ export const items = {
 			"type": "OTH",
 			"rarity": "unknown (magic)",
 			"entries": [
-				"Every {@creature shield guardian} has an amulet magically linked to it. A shield guardian can have only one corresponding amulet, and if that amulet is destroyed, the shield guardian is {@condition incapacitated} until a replacement amulet is created. A shield guardian's amulet is subject to direct attack if it isn't being worn or carried. It has AC 10, 10 hit points, and immunity to poison and psychic damage. Crafting an amulet requires 1 week and costs 1,000 gp in components.",
+				"Every {@creature shield guardian} has an amulet magically linked to it. A shield guardian can have only one corresponding amulet, and if that amulet is destroyed, the shield guardian is {incapacitated} until a replacement amulet is created. A shield guardian's amulet is subject to direct attack if it isn't being worn or carried. It has AC 10, 10 hit points, and immunity to poison and psychic damage. Crafting an amulet requires 1 week and costs 1,000 gp in components.",
 				"A shield guardian's solitary focus is to protect the amulet's wearer. The amulet's wearer can command the guardian to attack its enemies or to guard the wielder against attack. If an attack threatens to injure the wearer, the construct can magically absorb the blow into its own body, even at a distance.",
 				"A spellcaster can store a single spell within a shield guardian, which can then cast the spell on command or under specific conditions. Many a wizard has been rendered helpless by enemies, only to surprise those foes when its shield guardian unleashes potent magical power."
 			]
@@ -21801,7 +21801,7 @@ export const items = {
 					"type": "entries",
 					"name": "Whip of the Dead",
 					"entries": [
-						"Erebos's whip seethes with the enervating energy of the Underworld. This magic whip grants a +3 bonus to attack and damage rolls made with it. When you hit with an attack using this whip, the target takes an extra {@damage 2d8} necrotic damage and you regain hit points equal to half the amount of necrotic damage dealt.",
+						"Erebos's whip seethes with the enervating energy of the Underworld. This magic whip grants a +3 bonus to attack and damage rolls made with it. When you hit with an attack using this whip, the target takes an extra 2d8} necrotic damage and you regain hit points equal to half the amount of necrotic damage dealt.",
 						"Additionally, when you make an attack with the whip on your turn, you can increase the range of the attack to 300 feet. This property of the weapon can't be used again until the next dusk."
 					]
 				},
@@ -21839,7 +21839,7 @@ export const items = {
 					"type": "entries",
 					"name": "Erebos's Claim",
 					"entries": [
-						"While carrying the whip, you can use an action to cast either {@spell circle of death} or {@spell dominate monster} (targeting only undead) from the whip. The save DC for these spells is 18. Once you use the whip to cast a spell, that spell can't be cast from it again until the next dusk."
+						"While carrying the whip, you can use an action to cast either { circle of death} or { dominate monster} (targeting only undead) from the whip. The save DC for these spells is 18. Once you use the whip to cast a spell, that spell can't be cast from it again until the next dusk."
 					]
 				},
 				{
@@ -21874,7 +21874,7 @@ export const items = {
 			"dmg2": "1d10",
 			"entries": [
 				"Matalotok, the Frost Father, is an ancient hammer fashioned by Thrym, the god of frost giants. The favored weapon of the demon lord {@creature Kostchtchie|BGDIA}, Matalotok is frigid to the touch and wreathed in mist.",
-				"You are immune to cold damage while holding Matalotok. Whenever it deals damage to a creature, the hammer radiates a burst of intense cold in a 30-foot-radius sphere. Each creature in that area takes 10 ({@damage 3d6}) cold damage."
+				"You are immune to cold damage while holding Matalotok. Whenever it deals damage to a creature, the hammer radiates a burst of intense cold in a 30-foot-radius sphere. Each creature in that area takes 10 (3d6}) cold damage."
 			],
 			"hasFluffImages": true
 		},
@@ -21979,7 +21979,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the {@spell detect thoughts} spell (save DC 13) from it. The medallion regains {@dice 1d3} expended charges daily at dawn."
+				"The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the { detect thoughts} spell (save DC 13) from it. The medallion regains {@dice 1d3} expended charges daily at dawn."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -22002,7 +22002,7 @@ export const items = {
 			"weight": 0.0625,
 			"value": 200,
 			"entries": [
-				"The dried leaves of a menga bush can be ground, dissolved in a liquid, heated, and ingested. A creature that ingests 1 ounce of menga leaves in this fashion regains 1 hit point. A creature that ingests more than 5 ounces of menga leaves in a 24-hour period gains no additional benefit and must succeed on a DC 11 Constitution saving throw or fall {@condition unconscious} for 1 hour. The {@condition unconscious} creature awakens if it takes at least 5 damage on one turn.",
+				"The dried leaves of a menga bush can be ground, dissolved in a liquid, heated, and ingested. A creature that ingests 1 ounce of menga leaves in this fashion regains 1 hit point. A creature that ingests more than 5 ounces of menga leaves in a 24-hour period gains no additional benefit and must succeed on a DC 11 Constitution saving throw or fall {unconscious} for 1 hour. The {unconscious} creature awakens if it takes at least 5 damage on one turn.",
 				"A healthy menga bush usually has {@dice 2d6} ounces of leaves. Once picked, the leaves require 1 day to dry out before they can confer any benefit."
 			]
 		},
@@ -22044,7 +22044,7 @@ export const items = {
 			"value": 150000,
 			"poison": true,
 			"entries": [
-				"A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a DC 17 Constitution saving throw, taking 31 ({@damage 9d6}) poison damage on a failed save, or half as much damage on a successful one."
+				"A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a DC 17 Constitution saving throw, taking 31 (9d6}) poison damage on a failed save, or half as much damage on a successful one."
 			],
 			"poisonTypes": [
 				"ingested"
@@ -22073,7 +22073,7 @@ export const items = {
 					"type": "entries",
 					"name": "Controlling the Servant",
 					"entries": [
-						"While any creatures are attuned to the artifact, attuned creatures can open the hatch as easily as any other door. Other creatures can open the hatch as an action with a successful DC 25 Dexterity check using {@item thieves' tools|PHB}. A {@spell knock} spell cast on the hatch also opens it until the start of the caster's next turn.",
+						"While any creatures are attuned to the artifact, attuned creatures can open the hatch as easily as any other door. Other creatures can open the hatch as an action with a successful DC 25 Dexterity check using {@item thieves' tools|PHB}. A { knock} spell cast on the hatch also opens it until the start of the caster's next turn.",
 						"A creature can enter or exit through the hatch by spending 10 feet of movement. Those inside the servant have total cover from effects originating outside it. The controls within it allow creatures to see outside without obstruction.",
 						"While you are inside the servant, you can command it by using the controls. During your turn (for either attuned creature), you can command it in the following ways:",
 						{
@@ -22093,7 +22093,7 @@ export const items = {
 					"name": "Ghost in the Machine",
 					"entries": [
 						"Upon his death, the soul of the mighty warlord Leuk-o was drawn into the artifact and has become its animating force. The servant has been known to attack or move of its own accord, particularly if doing so will cause destruction. Once every 24 hours, the servant, at the DM's discretion, takes one action while uncrewed.",
-						"If the servant loses half of its hit points or more, each creature attuned to it must succeed on a DC 20 Wisdom saving throw or be {@condition charmed} for 24 hours. While {@condition charmed} in this way, the creature goes on a destructive spree, seeking to destroy structures and attack any unattuned creatures within sight of the servant, starting with those threatening the artifact-preferably using the servant, if possible."
+						"If the servant loses half of its hit points or more, each creature attuned to it must succeed on a DC 20 Wisdom saving throw or be {charmed} for 24 hours. While {charmed} in this way, the creature goes on a destructive spree, seeking to destroy structures and attack any unattuned creatures within sight of the servant, starting with those threatening the artifact-preferably using the servant, if possible."
 					]
 				},
 				{
@@ -22101,7 +22101,7 @@ export const items = {
 					"name": "Self-Destruct",
 					"entries": [
 						"By inputting a specific series of lever pulls and button presses, the servant's two crew members can cause it to explode. The self-destruct code is not revealed to crew members when they attune to the artifact. If the code is discovered (the DM determines how), it requires two attuned crew members to be inside the servant and spend their actions on 3 consecutive rounds performing the command. Should the crew members begin the process of entering the code, though, the servant uses its Ghost in the Machine property and turns the crew members against each other.",
-						"If the crew members successfully implement the code, at the end of the third round, the servant explodes. Every creature in a 100-foot-radius sphere centered on the servant must make a DC 25 Dexterity saving throw. On a failed save, a creature takes 87 ({@damage 25d6}) force damage, 87 ({@damage 25d6}) lightning damage, and 87 ({@damage 25d6}) thunder damage. On a successful save, a creature takes half as much damage. Objects and structures in the area take triple damage. Creatures inside the servant are slain instantly and leave behind no remains.",
+						"If the crew members successfully implement the code, at the end of the third round, the servant explodes. Every creature in a 100-foot-radius sphere centered on the servant must make a DC 25 Dexterity saving throw. On a failed save, a creature takes 87 (25d6}) force damage, 87 (25d6}) lightning damage, and 87 (25d6}) thunder damage. On a successful save, a creature takes half as much damage. Objects and structures in the area take triple damage. Creatures inside the servant are slain instantly and leave behind no remains.",
 						"This does not destroy the servant permanently. Rather, {@dice 2d6} days later, its parts\u2014left arm, left leg, right arm, right leg, lower torso, and upper torso\u2014drop from the sky in random places within 1,000 miles of the explosion. If brought within 5 feet of one another, the pieces reconnect and reform the servant."
 					]
 				},
@@ -22139,7 +22139,7 @@ export const items = {
 			"type": "OTH",
 			"rarity": "unknown (magic)",
 			"entries": [
-				"While you have the skull in your possession, you are {@condition invisible} to mind flayers, as is anything you are wearing or carrying."
+				"While you have the skull in your possession, you are {invisible} to mind flayers, as is anything you are wearing or carrying."
 			]
 		},
 		{
@@ -22157,7 +22157,7 @@ export const items = {
 			"dmg1": "1d4",
 			"dmgType": "S",
 			"entries": [
-				"In the hands of any creature other than a {@creature mind flayer}, a mind lash functions as a normal whip. In the hands of an illithid, this magic weapon strips away a creature's will to survive as it also strips away flesh, dealing an extra {@damage 2d4} psychic damage to any target it hits. Any creature that takes psychic damage from the mind lash must also succeed on a DC 15 Wisdom saving throw or have disadvantage on Intelligence, Wisdom, and Charisma saving throws for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+				"In the hands of any creature other than a {@creature mind flayer}, a mind lash functions as a normal whip. In the hands of an illithid, this magic weapon strips away a creature's will to survive as it also strips away flesh, dealing an extra 2d4} psychic damage to any target it hits. Any creature that takes psychic damage from the mind lash must also succeed on a DC 15 Wisdom saving throw or have disadvantage on Intelligence, Wisdom, and Charisma saving throws for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 			]
 		},
 		{
@@ -22205,8 +22205,8 @@ export const items = {
 			"entries": [
 				"This mirror of elven design allows those who stare into it to reflect on positive memories. The 3-foot-tall mirror weighs 25 pounds, and it has AC 11, 10 hit points, and vulnerability to bludgeoning damage. It shatters and is destroyed if reduced to 0 hit points.",
 				"While holding the mirror upright, you can use an action to speak its command word and activate it. While activated, the mirror hovers in the air, and it can be destroyed but not moved. It remains activated until you use an action to speak the command word again or your attunement to the mirror ends, at which point the mirror harmlessly floats to the ground. Once the mirror has been deactivated, it can't be activated again until the next dawn.",
-				"If a non-Construct creature other than you sees its reflection in the activated mirror while within 30 feet of it, that creature must succeed on a DC 15 Wisdom saving throw or become {@condition paralyzed} until the mirror is deactivated or until that creature can no longer see the mirror. A creature {@condition paralyzed} by the mirror can repeat the saving throw at the end of each of its turns, ending the effect on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this mirror's effect for the next 24 hours.",
-				"While {@condition paralyzed} by the mirror, the creature sees events from their past reflected in the mirror's glass. These memories aren't real, but rather idealized versions of those occurrences. Nearby observers can glimpse flashes of these memories if looking indirectly at the mirror."
+				"If a non-Construct creature other than you sees its reflection in the activated mirror while within 30 feet of it, that creature must succeed on a DC 15 Wisdom saving throw or become {paralyzed} until the mirror is deactivated or until that creature can no longer see the mirror. A creature {paralyzed} by the mirror can repeat the saving throw at the end of each of its turns, ending the effect on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this mirror's effect for the next 24 hours.",
+				"While {paralyzed} by the mirror, the creature sees events from their past reflected in the mirror's glass. These memories aren't real, but rather idealized versions of those occurrences. Nearby observers can glimpse flashes of these memories if looking indirectly at the mirror."
 			]
 		},
 		{
@@ -22264,27 +22264,27 @@ export const items = {
 					"rows": [
 						[
 							"1",
-							"{@spell burning hands}"
+							"{ burning hands}"
 						],
 						[
 							"2",
-							"{@spell chaos bolt|XGE}"
+							"{ chaos bolt|XGE}"
 						],
 						[
 							"3",
-							"{@spell color spray}"
+							"{ color spray}"
 						],
 						[
 							"4",
-							"{@spell faerie fire}"
+							"{ faerie fire}"
 						],
 						[
 							"5",
-							"{@spell fog cloud}"
+							"{ fog cloud}"
 						],
 						[
 							"6",
-							"{@spell thunderwave}"
+							"{ thunderwave}"
 						]
 					]
 				},
@@ -22302,27 +22302,27 @@ export const items = {
 					"rows": [
 						[
 							"1",
-							"{@spell blur}"
+							"{ blur}"
 						],
 						[
 							"2",
-							"{@spell gust of wind}"
+							"{ gust of wind}"
 						],
 						[
 							"3",
-							"{@spell heat metal}"
+							"{ heat metal}"
 						],
 						[
 							"4",
-							"{@spell Melf's acid arrow}"
+							"{ Melf's acid arrow}"
 						],
 						[
 							"5",
-							"{@spell scorching ray}"
+							"{ scorching ray}"
 						],
 						[
 							"6",
-							"{@spell shatter}"
+							"{ shatter}"
 						]
 					]
 				},
@@ -22340,27 +22340,27 @@ export const items = {
 					"rows": [
 						[
 							"1",
-							"{@spell fear}"
+							"{ fear}"
 						],
 						[
 							"2",
-							"{@spell feign death}"
+							"{ feign death}"
 						],
 						[
 							"3",
-							"{@spell fireball}"
+							"{ fireball}"
 						],
 						[
 							"4",
-							"{@spell gaseous form}"
+							"{ gaseous form}"
 						],
 						[
 							"5",
-							"{@spell sleet storm}"
+							"{ sleet storm}"
 						],
 						[
 							"6",
-							"{@spell stinking cloud}"
+							"{ stinking cloud}"
 						]
 					]
 				},
@@ -22378,19 +22378,19 @@ export const items = {
 					"rows": [
 						[
 							"1",
-							"{@spell confusion}"
+							"{ confusion}"
 						],
 						[
 							"2",
-							"{@spell conjure minor elementals}"
+							"{ conjure minor elementals}"
 						],
 						[
 							"3",
-							"{@spell Evard's black tentacles}"
+							"{ Evard's black tentacles}"
 						],
 						[
 							"4",
-							"{@spell ice storm}"
+							"{ ice storm}"
 						]
 					]
 				},
@@ -22408,19 +22408,19 @@ export const items = {
 					"rows": [
 						[
 							"1",
-							"{@spell animate objects}"
+							"{ animate objects}"
 						],
 						[
 							"2",
-							"{@spell cloudkill}"
+							"{ cloudkill}"
 						],
 						[
 							"3",
-							"{@spell cone of cold}"
+							"{ cone of cold}"
 						],
 						[
 							"4",
-							"{@spell flame strike}"
+							"{ flame strike}"
 						]
 					]
 				}
@@ -22443,14 +22443,14 @@ export const items = {
 					"type": "entries",
 					"name": "Molten Spray",
 					"entries": [
-						"You can expend 1 charge as an action to loose a 30-foot cone of molten mizzium. Each creature in the area must make a DC 15 Dexterity saving throw, taking {@damage 5d4} fire damage on a failed save, or half as much damage on a successful one."
+						"You can expend 1 charge as an action to loose a 30-foot cone of molten mizzium. Each creature in the area must make a DC 15 Dexterity saving throw, taking 5d4} fire damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Mizzium Bombard",
 					"entries": [
-						"You can expend 3 charges as an action to launch a hail of molten projectiles in a 20-foot-radius, 40-foot-high cylinder centered on a point you can see within 60 feet of you. Each creature in the area must make a DC 15 Dexterity saving throw. A creature takes {@damage 5d8} fire damage on a failed save, or half as much damage on a successful one."
+						"You can expend 3 charges as an action to launch a hail of molten projectiles in a 20-foot-radius, 40-foot-high cylinder centered on a point you can see within 60 feet of you. Each creature in the area must make a DC 15 Dexterity saving throw. A creature takes 5d8} fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			]
@@ -22599,15 +22599,15 @@ export const items = {
 						],
 						[
 							"91-92",
-							"When you hit with an attack using the moon blade, the attack deals an extra {@damage 1d6} slashing damage."
+							"When you hit with an attack using the moon blade, the attack deals an extra 1d6} slashing damage."
 						],
 						[
 							"93-94",
-							"When you hit a creature of a specific type (such as dragon, fiend, or undead) with the moonblade, the target takes an extra {@damage 1d6} damage of one of these types: acid, cold, fire, lightning, or thunder."
+							"When you hit a creature of a specific type (such as dragon, fiend, or undead) with the moonblade, the target takes an extra 1d6} damage of one of these types: acid, cold, fire, lightning, or thunder."
 						],
 						[
 							"95-96",
-							"You can use a bonus action to cause the moonblade to flash brightly. Each creature that can see you and is within 30 feet of you must succeed on a DC 15 Constitution saving throw or become {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This property can't be used again until you take a short rest while attuned to the weapon."
+							"You can use a bonus action to cause the moonblade to flash brightly. Each creature that can see you and is within 30 feet of you must succeed on a DC 15 Constitution saving throw or become {blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This property can't be used again until you take a short rest while attuned to the weapon."
 						],
 						[
 							"97-98",
@@ -22730,7 +22730,7 @@ export const items = {
 							"items": [
 								"The orb has an Intelligence of 20, a Wisdom of 16, and a Charisma of 16, as well as hearing and {@sense darkvision} out to a range of 30 feet.",
 								"The orb can speak, read, and understand Common, and it can communicate telepathically with any creature touching it.",
-								"At any time during your turn, the orb can cast the {@spell suggestion} spell (save DC 17), targeting you or one other creature that touched the orb within the last 24 hours. This isn't a power of the orb that you control."
+								"At any time during your turn, the orb can cast the { suggestion} spell (save DC 17), targeting you or one other creature that touched the orb within the last 24 hours. This isn't a power of the orb that you control."
 							]
 						}
 					]
@@ -22746,22 +22746,22 @@ export const items = {
 					"type": "entries",
 					"name": "Unconsciousness",
 					"entries": [
-						"The cursed creature falls {@condition unconscious} for 1 hour. The creature is roused if it takes damage or someone uses an action to shake or slap it awake."
+						"The cursed creature falls {unconscious} for 1 hour. The creature is roused if it takes damage or someone uses an action to shake or slap it awake."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Visions of Terror",
 					"entries": [
-						"The cursed creature sees terrifying visions, causing it to view all creatures that aren't also cursed as dangerous monsters for 10 minutes. The cursed creature must use its action each round to make one attack against the nearest non-cursed creature. If the cursed creature has multiple possible targets, it attacks one at random. This effect ends if the cursed creature is {@condition incapacitated}.",
-						"After either of these effects ends, the affected creature is no longer cursed. The curse can also be removed from a creature with a {@spell remove curse} spell or similar magic. All cases of the curse end if Murgaxor's orb is destroyed."
+						"The cursed creature sees terrifying visions, causing it to view all creatures that aren't also cursed as dangerous monsters for 10 minutes. The cursed creature must use its action each round to make one attack against the nearest non-cursed creature. If the cursed creature has multiple possible targets, it attacks one at random. This effect ends if the cursed creature is {incapacitated}.",
+						"After either of these effects ends, the affected creature is no longer cursed. The curse can also be removed from a creature with a { remove curse} spell or similar magic. All cases of the curse end if Murgaxor's orb is destroyed."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Magical Signature",
 					"entries": [
-						"As a side effect of the orb's curse, the spell {@spell detect magic} reveals an aura of enchantment surrounding creatures bearing the curse. This aura is distinctive, but in a way {@spell detect magic} offers no further details about."
+						"As a side effect of the orb's curse, the spell { detect magic} reveals an aura of enchantment surrounding creatures bearing the curse. This aura is distinctive, but in a way { detect magic} offers no further details about."
 					]
 				},
 				{
@@ -22953,7 +22953,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as {@spell cloudkill} and {@spell stinking cloud} effects, inhaled poisons, and the breath weapons of some dragons)."
+				"While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as { cloudkill} and { stinking cloud} effects, inhaled poisons, and the breath weapons of some dragons)."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce"
@@ -22981,8 +22981,8 @@ export const items = {
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"This necklace has {@dice 1d6 + 3} beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level {@spell fireball} spell (save DC 15).",
-				"You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the {@spell fireball} by 1 for each bead beyond the first."
+				"This necklace has {@dice 1d6 + 3} beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level { fireball} spell (save DC 15).",
+				"You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the { fireball} by 1 for each bead beyond the first."
 			],
 			"attachedSpells": [
 				"fireball"
@@ -23040,32 +23040,32 @@ export const items = {
 						[
 							"1-6",
 							"Blessing",
-							"{@spell Bless}"
+							"{ Bless}"
 						],
 						[
 							"7-12",
 							"Curing",
-							"{@spell Cure wounds} (2nd level) or {@spell lesser restoration}"
+							"{ Cure wounds} (2nd level) or { lesser restoration}"
 						],
 						[
 							"13-16",
 							"Favor",
-							"{@spell Greater restoration}"
+							"{ Greater restoration}"
 						],
 						[
 							"17-18",
 							"Smiting",
-							"{@spell Branding smite}"
+							"{ Branding smite}"
 						],
 						[
 							"19",
 							"Summons",
-							"{@spell Planar ally}"
+							"{ Planar ally}"
 						],
 						[
 							"20",
 							"Wind walking",
-							"{@spell Wind walk}"
+							"{ Wind walk}"
 						]
 					]
 				}
@@ -23131,7 +23131,7 @@ export const items = {
 			"weapon": true,
 			"entries": [
 				"This weapon is a magic dagger disguised as a sewing needle. When you hold it and use a bonus action to speak its command word, it transforms into a dagger or back into a needle.",
-				"You gain a +1 bonus to attack and damage rolls made with the dagger. While holding it, you can use an action to cast the {@spell mending} cantrip from it."
+				"You gain a +1 bonus to attack and damage rolls made with the dagger. While holding it, you can use an action to cast the { mending} cantrip from it."
 			],
 			"attachedSpells": [
 				"mending"
@@ -23163,7 +23163,7 @@ export const items = {
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra {@damage 2d10} radiant damage.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10} radiant damage.",
 				"While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet.",
 				{
 					"type": "entries",
@@ -23189,7 +23189,7 @@ export const items = {
 			"type": "SC",
 			"rarity": "legendary",
 			"entries": [
-				"Unlike most scrolls, a Nether Scroll of Azumar is not a consumable magic item. It takes 30 days of concentrated study\u2014at least 8 hours per day\u2014to attempt to understand this scroll. After completing this study, you must make a DC 25 Intelligence ({@skill Arcana}) check. If this check fails, you take {@damage 16d10} psychic damage, and you can attempt the check again after another 30 days of concentrated study.",
+				"Unlike most scrolls, a Nether Scroll of Azumar is not a consumable magic item. It takes 30 days of concentrated study\u2014at least 8 hours per day\u2014to attempt to understand this scroll. After completing this study, you must make a DC 25 Intelligence ({@skill Arcana}) check. If this check fails, you take 16d10} psychic damage, and you can attempt the check again after another 30 days of concentrated study.",
 				"When you succeed on the check, you gain the following benefits:",
 				{
 					"type": "list",
@@ -23221,7 +23221,7 @@ export const items = {
 			"weight": 1,
 			"entries": [
 				"This whistle is carved from transparent crystal, and it resembles a tiny dragon curled up like a snail. The name Night Caller is etched on the whistle in Dwarvish runes. If a character succeeds on a DC 20 Intelligence ({@skill Arcana} or {@skill History}) check, the character recalls lore that says the {@creature duergar} made several such whistles for various groups in an age past.",
-				"If you blow the whistle in darkness or under the night sky, it allows you to cast the {@spell animate dead} spell. The target can be affected through up to 10 feet of soft earth or similar material, and if it is, it takes 1 minute to claw its way to the surface to serve you. Once the whistle has animated an undead creature, it can't do so again until 7 days have passed.",
+				"If you blow the whistle in darkness or under the night sky, it allows you to cast the { animate dead} spell. The target can be affected through up to 10 feet of soft earth or similar material, and if it is, it takes 1 minute to claw its way to the surface to serve you. Once the whistle has animated an undead creature, it can't do so again until 7 days have passed.",
 				"Once every 24 hours, you can blow the whistle to reassert control over one or two creatures you animated with it."
 			],
 			"attachedSpells": [
@@ -23254,13 +23254,13 @@ export const items = {
 			"weapon": true,
 			"entries": [
 				"This heavy mace has a dark oaken handle and a head of blackened steel trimmed with gold. In combat, the mace's head is wreathed in inky black energy.",
-				"You gain a +3 bonus to attack and damage rolls made with this weapon. When you hit with an attack roll using it, the target takes an additional {@damage 4d4} radiant damage.",
+				"You gain a +3 bonus to attack and damage rolls made with this weapon. When you hit with an attack roll using it, the target takes an additional 4d4} radiant damage.",
 				"If you have an evil alignment, you also gain the following benefits when attuned to Nightbringer:",
 				{
 					"type": "entries",
 					"name": "Blessing of the Dragon Queen",
 					"entries": [
-						"You are immune to the {@condition charmed} and {@condition frightened} conditions, and you gain immunity to one of the following damage types (choose when you attune to the weapon): acid, cold, fire, lightning, or poison."
+						"You are immune to the {charmed} and {frightened} conditions, and you gain immunity to one of the following damage types (choose when you attune to the weapon): acid, cold, fire, lightning, or poison."
 					]
 				},
 				{
@@ -23274,7 +23274,7 @@ export const items = {
 					"type": "entries",
 					"name": "Midnight Shroud",
 					"entries": [
-						"The weapon has 6 charges. When you hit a creature with an attack using this weapon, you can expend one charge to force the creature to make a DC 20 Constitution saving throw. On a failed save, the creature is {@condition blinded} until the start of your next turn. The weapon regains {@dice 1d6} expended charges daily at dawn."
+						"The weapon has 6 charges. When you hit a creature with an attack using this weapon, you can expend one charge to force the creature to make a DC 20 Constitution saving throw. On a failed save, the creature is {blinded} until the start of your next turn. The weapon regains {@dice 1d6} expended charges daily at dawn."
 					]
 				}
 			]
@@ -23365,7 +23365,7 @@ export const items = {
 			"dmgType": "P",
 			"entries": [
 				"When you nock an arrow on this bow, it whispers in Elvish, \"Swift defeat to my enemies.\" When you use this weapon to make a ranged attack, you can, as a command phrase, say, \"Swift death to you who have wronged me.\" The target of your attack becomes your sworn enemy until it dies or until dawn seven days later. You can have only one such sworn enemy at a time. When your sworn enemy dies, you can choose a new one after the next dawn.",
-				"When you make a ranged attack roll with this weapon against your sworn enemy, you have advantage on the roll. In addition, your target gains no benefit from cover, other than total cover, and you suffer no disadvantage due to long range. If the attack hits, your sworn enemy takes an extra {@damage 3d6} piercing damage.",
+				"When you make a ranged attack roll with this weapon against your sworn enemy, you have advantage on the roll. In addition, your target gains no benefit from cover, other than total cover, and you suffer no disadvantage due to long range. If the attack hits, your sworn enemy takes an extra 3d6} piercing damage.",
 				"While your sworn enemy lives, you have disadvantage on attack rolls with all other weapons."
 			],
 			"ammoType": "arrow|phb",
@@ -23398,7 +23398,7 @@ export const items = {
 			"bonusAc": "+2",
 			"stealth": true,
 			"entries": [
-				"You gain a +2 bonus to AC and resistance to poison damage while you wear this armor. In addition, you gain advantage on ability checks and saving throws made to avoid or end the {@condition grappled} condition on yourself."
+				"You gain a +2 bonus to AC and resistance to poison damage while you wear this armor. In addition, you gain advantage on ability checks and saving throws made to avoid or end the {grappled} condition on yourself."
 			]
 		},
 		{
@@ -23484,7 +23484,7 @@ export const items = {
 					"type": "entries",
 					"name": "Eldritch Occultant",
 					"entries": [
-						"Starting at rank 2, your occultant abacus becomes an uncommon magic item that can track lives both eliminated and saved. While holding your occultant abacus within 5 feet of a creature killed within the past 24 hours, you can cast the {@spell augury} spell. The course of action you inquire about with the spell does not need to have any connection to the dead creature. This property of the occultant abacus can't be used again until the next dawn."
+						"Starting at rank 2, your occultant abacus becomes an uncommon magic item that can track lives both eliminated and saved. While holding your occultant abacus within 5 feet of a creature killed within the past 24 hours, you can cast the { augury} spell. The course of action you inquire about with the spell does not need to have any connection to the dead creature. This property of the occultant abacus can't be used again until the next dawn."
 					]
 				},
 				{
@@ -23545,7 +23545,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the {@spell etherealness} spell for 1 hour."
+				"Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the { etherealness} spell for 1 hour."
 			],
 			"attachedSpells": [
 				"etherealness"
@@ -23579,8 +23579,8 @@ export const items = {
 			"tier": "minor",
 			"rarity": "uncommon",
 			"entries": [
-				"This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a {@spell freedom of movement} spell for 8 hours.",
-				"Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the {@spell grease} spell in that area for 8 hours."
+				"This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a { freedom of movement} spell for 8 hours.",
+				"Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the { grease} spell in that area for 8 hours."
 			],
 			"attachedSpells": [
 				"freedom of movement"
@@ -23599,7 +23599,7 @@ export const items = {
 			"value": 40000,
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become {@condition poisoned} for 24 hours. The {@condition poisoned} creature is {@condition unconscious}. The creature wakes up if it takes damage."
+				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become {poisoned} for 24 hours. The {poisoned} creature is {unconscious}. The creature wakes up if it takes damage."
 			],
 			"poisonTypes": [
 				"contact"
@@ -23621,7 +23621,7 @@ export const items = {
 			"rarity": "none",
 			"value": 5000,
 			"entries": [
-				"These dried leaves of the Olisuba tree, when steeped to make a tea, can help a body recover from strenuous activity. If you drink a dose of Olisuba tea during a long rest, your {@condition exhaustion} level is reduced by 2 instead of 1 at the end of that long rest."
+				"These dried leaves of the Olisuba tree, when steeped to make a tea, can help a body recover from strenuous activity. If you drink a dose of Olisuba tea during a long rest, your {exhaustion} level is reduced by 2 instead of 1 at the end of that long rest."
 			]
 		},
 		{
@@ -23691,7 +23691,7 @@ export const items = {
 								{
 									"type": "item",
 									"name": "Weapon",
-									"entry": "The weapon is now an uncommon magic weapon. It deals an extra {@damage 1d6} fire damage to any target it hits."
+									"entry": "The weapon is now an uncommon magic weapon. It deals an extra 1d6} fire damage to any target it hits."
 								},
 								{
 									"type": "item",
@@ -23741,7 +23741,7 @@ export const items = {
 					"type": "entries",
 					"name": "Combustion (Complex Property)",
 					"entries": [
-						"As an action, you scribe this rune using ash onto a creature within your reach as you expend a spell slot. The creature automatically takes {@damage 1d10} fire damage plus {@damage 1d10} fire damage per level of the expended spell slot."
+						"As an action, you scribe this rune using ash onto a creature within your reach as you expend a spell slot. The creature automatically takes 1d10} fire damage plus 1d10} fire damage per level of the expended spell slot."
 					]
 				},
 				{
@@ -23792,8 +23792,8 @@ export const items = {
 				"As the Towers of High Sorcery fell in later ages, the orbs were destroyed or faded into legend, and only three are thought to survive. Their magic has been warped and twisted over the centuries, so although their primary purpose of calling dragons still functions, they also allow some measure of control over dragons.",
 				"Each orb contains the essence of an evil dragon, a presence that resents any attempt to coax magic from it. Those lacking in force of personality might find themselves enslaved to an orb.",
 				"An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.",
-				"While attuned to an orb, you can use an action to peer into the orb's depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become {@condition charmed} by the orb for as long as you remain attuned to it.",
-				"While you are {@condition charmed} by the orb, you can't voluntarily end your attunement to it, and the orb casts {@spell suggestion} on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of Takhisis ({@creature Tiamat|RoT|Tiamat's} name on Krynn), or something else the DM decides.",
+				"While attuned to an orb, you can use an action to peer into the orb's depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become {charmed} by the orb for as long as you remain attuned to it.",
+				"While you are {charmed} by the orb, you can't voluntarily end your attunement to it, and the orb casts { suggestion} on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of Takhisis ({@creature Tiamat|RoT|Tiamat's} name on Krynn), or something else the DM decides.",
 				{
 					"type": "entries",
 					"name": "Random Properties",
@@ -23813,7 +23813,7 @@ export const items = {
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"The orb has 7 charges and regains {@dice 1d4 + 3} expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: {@spell cure wounds} (5th-level version, 3 charges), {@spell daylight} (1 charge), {@spell death ward} (2 charges), or {@spell scrying} (3 charges). You can also use an action to cast the {@spell detect magic} spell from the orb without using any charges."
+						"The orb has 7 charges and regains {@dice 1d4 + 3} expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: { cure wounds} (5th-level version, 3 charges), { daylight} (1 charge), { death ward} (2 charges), or { scrying} (3 charges). You can also use an action to cast the { detect magic} spell from the orb without using any charges."
 					]
 				},
 				{
@@ -23827,7 +23827,7 @@ export const items = {
 					"type": "entries",
 					"name": "Destroying an Orb",
 					"entries": [
-						"An Orb of Dragonkind appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A {@spell disintegrate} spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however."
+						"An Orb of Dragonkind appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A { disintegrate} spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however."
 					]
 				}
 			],
@@ -23872,14 +23872,14 @@ export const items = {
 					"type": "entries",
 					"name": "Stone Soul",
 					"entries": [
-						"You can't be {@condition petrified}."
+						"You can't be {petrified}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Earthen Step",
 					"entries": [
-						"You can cast {@spell meld into stone} as a bonus action. Once you use this property, you can't use it again until you finish a short or long rest."
+						"You can cast { meld into stone} as a bonus action. Once you use this property, you can't use it again until you finish a short or long rest."
 					]
 				},
 				{
@@ -23899,7 +23899,7 @@ export const items = {
 								{
 									"type": "item",
 									"name": "Boots",
-									"entry": "The pair of boots is now an uncommon magic item that requires attunement. While you wear the boots, you have advantage on Strength saving throws, and you can use your reaction to avoid being knocked {@condition prone}."
+									"entry": "The pair of boots is now an uncommon magic item that requires attunement. While you wear the boots, you have advantage on Strength saving throws, and you can use your reaction to avoid being knocked {prone}."
 								}
 							]
 						}
@@ -23930,7 +23930,7 @@ export const items = {
 					"type": "entries",
 					"name": "Stone Soul (Simple Property)",
 					"entries": [
-						"While you are attuned to this rune, you cannot be {@condition petrified}."
+						"While you are attuned to this rune, you cannot be {petrified}."
 					]
 				},
 				{
@@ -23944,7 +23944,7 @@ export const items = {
 					"type": "entries",
 					"name": "Crushing Brand (Complex Property)",
 					"entries": [
-						"Over the course of a short rest, you inscribe this rune using dirt or crushed stone onto one weapon that deals bludgeoning damage. The weapon gains a ghostly brown aura, and bludgeoning damage dealt by the weapon ignores resistance and immunity. If you roll the maximum on the weapon's damage die or dice, the target of your attack is knocked {@condition prone} if it is a creature.",
+						"Over the course of a short rest, you inscribe this rune using dirt or crushed stone onto one weapon that deals bludgeoning damage. The weapon gains a ghostly brown aura, and bludgeoning damage dealt by the weapon ignores resistance and immunity. If you roll the maximum on the weapon's damage die or dice, the target of your attack is knocked {prone} if it is a creature.",
 						"In addition, you can expend a spell slot to grant the weapon a bonus to attack rolls and damage rolls equal to the spell slot's level divided by three.",
 						"These effects last for 24 hours or until you use this property again."
 					]
@@ -23953,14 +23953,14 @@ export const items = {
 					"type": "entries",
 					"name": "Earthen Step (Complex Property)",
 					"entries": [
-						"While you are attuned to this rune, you can cast {@spell meld into stone} as a bonus action. You regain this ability after a short or long rest."
+						"While you are attuned to this rune, you can cast { meld into stone} as a bonus action. You regain this ability after a short or long rest."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Overwhelming Bolt (Complex Property)",
 					"entries": [
-						"As an action, you scribe this rune using dirt or crushed rock onto a creature within your reach as you expend a spell slot. The creature must succeed on a Strength saving throw (DC 12 + the level of the expended spell slot). On a failure, the creature takes {@damage 2d8} bludgeoning damage plus {@damage 1d8} bludgeoning damage per level of the expended spell slot and is knocked {@condition prone}. On a successful saving throw, the creature takes half as much damage and is not knocked {@condition prone}."
+						"As an action, you scribe this rune using dirt or crushed rock onto a creature within your reach as you expend a spell slot. The creature must succeed on a Strength saving throw (DC 12 + the level of the expended spell slot). On a failure, the creature takes 2d8} bludgeoning damage plus 1d8} bludgeoning damage per level of the expended spell slot and is knocked {prone}. On a successful saving throw, the creature takes half as much damage and is not knocked {prone}."
 					]
 				}
 			]
@@ -24061,8 +24061,8 @@ export const items = {
 					"items": [
 						"You gain a +2 bonus to attack and damage rolls made with it.",
 						"When you roll a 20 on an attack roll with this weapon against an {@creature orc}, that {@creature orc} must succeed on a DC 17 Constitution saving throw or drop to 0 hit points.",
-						"You can't be {@quickref Surprise|PHB|3|0|surprised} by {@creature orc||orcs} while you're not {@condition incapacitated}. You are also aware when {@creature orc||orcs} are within 120 feet of you and aren't behind total cover, although you don't know their location.",
-						"You and any of your friends within 30 feet of you can't be {@condition frightened} while you're not {@condition incapacitated}."
+						"You can't be {@quickref Surprise|PHB|3|0|surprised} by {@creature orc||orcs} while you're not {incapacitated}. You are also aware when {@creature orc||orcs} are within 120 feet of you and aren't behind total cover, although you don't know their location.",
+						"You and any of your friends within 30 feet of you can't be {frightened} while you're not {incapacitated}."
 					]
 				},
 				{
@@ -24088,8 +24088,8 @@ export const items = {
 			"rarity": "unknown (magic)",
 			"wondrous": true,
 			"entries": [
-				"Carved from an ogre's {@condition petrified} heart, the gray figurine depicts the Demon Prince of Undeath in ghastly detail, clutching his skull-topped wand in one hand and three severed heads by the hair in the other. The figurine smells like decaying flesh, and this scent is detectable out to a range of 5 feet.",
-				"The figurine is a Tiny object with AC 17, 3 hit points, and immunity to all types of damage except radiant damage. A {@spell detect evil and good} spell or similar magic reveals that the figurine has been desecrated. As long as it has at least 1 hit point, the figurine has the following magical properties:",
+				"Carved from an ogre's {petrified} heart, the gray figurine depicts the Demon Prince of Undeath in ghastly detail, clutching his skull-topped wand in one hand and three severed heads by the hair in the other. The figurine smells like decaying flesh, and this scent is detectable out to a range of 5 feet.",
+				"The figurine is a Tiny object with AC 17, 3 hit points, and immunity to all types of damage except radiant damage. A { detect evil and good} spell or similar magic reveals that the figurine has been desecrated. As long as it has at least 1 hit point, the figurine has the following magical properties:",
 				{
 					"type": "list",
 					"items": [
@@ -24113,7 +24113,7 @@ export const items = {
 			"bonusAc": "+2",
 			"entries": [
 				"While holding this shield, you have a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
-				"The shield is emblazoned with a stylized silver dragon that is the emblem of the Order of the Silver Dragon (see {@adventure {@i Curse of Strahd}, chapter 7|CoS|7|The Order of the Silver Dragon}). The shield whispers warnings to its bearer, granting a +2 bonus to initiative if the bearer isn't {@condition incapacitated}.",
+				"The shield is emblazoned with a stylized silver dragon that is the emblem of the Order of the Silver Dragon (see {@adventure {@i Curse of Strahd}, chapter 7|CoS|7|The Order of the Silver Dragon}). The shield whispers warnings to its bearer, granting a +2 bonus to initiative if the bearer isn't {incapacitated}.",
 				"A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
 			]
 		},
@@ -24195,7 +24195,7 @@ export const items = {
 					"type": "entries",
 					"name": "Master of Travel",
 					"entries": [
-						"While all six components of the Orrery of the Wanderer are installed, the artifact has 7 charges. While touching the orrery, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 17): {@spell contact other plane} (3 charges), {@spell demiplane} (6 charges), {@spell gate} (7 charges), {@spell plane shift} (5 charges), or {@spell teleportation circle} (3 charges). The orrery regains {@dice 1d4 + 4} expended charges daily at dawn."
+						"While all six components of the Orrery of the Wanderer are installed, the artifact has 7 charges. While touching the orrery, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 17): { contact other plane} (3 charges), { demiplane} (6 charges), { gate} (7 charges), { plane shift} (5 charges), or { teleportation circle} (3 charges). The orrery regains {@dice 1d4 + 4} expended charges daily at dawn."
 					]
 				}
 			],
@@ -24219,7 +24219,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring, adorned with the symbol of Orzhov, allows you to cast {@spell command}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Orzhov's recognition and favor.",
+				"This ring, adorned with the symbol of Orzhov, allows you to cast { command}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Orzhov's recognition and favor.",
 				"A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13)."
 			],
 			"attachedSpells": [
@@ -24355,7 +24355,7 @@ export const items = {
 					"type": "entries",
 					"name": "Property",
 					"entries": [
-						"Choose one creature who takes damage from the spell. That target takes an extra {@damage 3d6} necrotic damage."
+						"Choose one creature who takes damage from the spell. That target takes an extra 3d6} necrotic damage."
 					]
 				}
 			]
@@ -24411,7 +24411,7 @@ export const items = {
 					"type": "entries",
 					"name": "Property",
 					"entries": [
-						"You can end one of the following conditions affecting yourself or one creature you can see within 30 feet of you: {@condition charmed}, {@condition blinded}, {@condition deafened}, {@condition frightened}, {@condition poisoned}, or {@condition stunned}."
+						"You can end one of the following conditions affecting yourself or one creature you can see within 30 feet of you: {charmed}, {blinded}, {deafened}, {frightened}, {poisoned}, or {stunned}."
 					]
 				}
 			]
@@ -24570,7 +24570,7 @@ export const items = {
 			"value": 25000,
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or take 3 ({@damage 1d6}) poison damage and become {@condition poisoned}. The {@condition poisoned} creature must repeat the saving throw every 24 hours, taking 3 ({@damage 1d6}) poison damage on a failed save. Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally."
+				"A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or take 3 (1d6}) poison damage and become {poisoned}. The {poisoned} creature must repeat the saving throw every 24 hours, taking 3 (1d6}) poison damage on a failed save. Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally."
 			],
 			"poisonTypes": [
 				"ingested"
@@ -24746,7 +24746,7 @@ export const items = {
 					"type": "entries",
 					"name": "Wind Walker",
 					"entries": [
-						"While you are attuned to this rune, you can cast {@spell levitate} as a bonus action. Once you use this property, you can't use it again until you finish a short or long rest."
+						"While you are attuned to this rune, you can cast { levitate} as a bonus action. Once you use this property, you can't use it again until you finish a short or long rest."
 					]
 				},
 				{
@@ -24766,7 +24766,7 @@ export const items = {
 								{
 									"type": "item",
 									"name": "Boots/Cloak",
-									"entry": "The pair of boots or cloak is now a rare magic item that requires attunement. While wearing the item, you can convert up to 20 feet of your movement on each of your turns into flight. If you don't land at the end of this flight, you fall unless you have another means of staying aloft. You can also cast {@spell feather fall} once from the item, and you regain the ability to do so when you finish a short or long rest."
+									"entry": "The pair of boots or cloak is now a rare magic item that requires attunement. While wearing the item, you can convert up to 20 feet of your movement on each of your turns into flight. If you don't land at the end of this flight, you fall unless you have another means of staying aloft. You can also cast { feather fall} once from the item, and you regain the ability to do so when you finish a short or long rest."
 								}
 							]
 						}
@@ -24821,14 +24821,14 @@ export const items = {
 					"type": "entries",
 					"name": "Shrieking Bolt (Complex Property)",
 					"entries": [
-						"As an action, you scribe this rune in the air between you and a creature you can see while you expend a spell slot. The creature must make a Strength saving throw (DC 12 + the spell slot's level). On a failure, it takes {@damage 2d8} bludgeoning damage plus {@damage 1d8} bludgeoning damage per level of the expended spell slot, and is pushed in a straight line directly away from you for 10 feet per level of the expended spell slot. On a successful saving throw, the creature takes half as much damage and is not pushed away from you."
+						"As an action, you scribe this rune in the air between you and a creature you can see while you expend a spell slot. The creature must make a Strength saving throw (DC 12 + the spell slot's level). On a failure, it takes 2d8} bludgeoning damage plus 1d8} bludgeoning damage per level of the expended spell slot, and is pushed in a straight line directly away from you for 10 feet per level of the expended spell slot. On a successful saving throw, the creature takes half as much damage and is not pushed away from you."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Wind Walker (Complex Property)",
 					"entries": [
-						"While you are attuned to this rune, you can cast {@spell levitate} as a bonus action. You regain this ability after a short or long rest."
+						"While you are attuned to this rune, you can cast { levitate} as a bonus action. You regain this ability after a short or long rest."
 					]
 				}
 			]
@@ -24912,7 +24912,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, poisons have no effect on you. You are immune to the {@condition poisoned} condition and have immunity to poison damage."
+				"This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, poisons have no effect on you. You are immune to the {poisoned} condition and have immunity to poison damage."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -24989,7 +24989,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "uncommon",
 			"entries": [
-				"The next time you see a creature within 10 minutes after drinking this philter, you become {@condition charmed} by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are {@condition charmed}. This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart."
+				"The next time you see a creature within 10 minutes after drinking this philter, you become {charmed} by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are {charmed}. This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart."
 			],
 			"lootTables": [
 				"Magic Item Table B"
@@ -25014,7 +25014,7 @@ export const items = {
 			"bonusWeapon": "+1",
 			"entries": [
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"A character attuned to the sword regains the maximum possible number of hit points from expended Hit Dice. However, the attuned character must eat twice as much food each day (a minimum of 2 pounds) to avoid {@condition exhaustion} (see \"The Environment\" in chapter 8 of the Player's Handbook.)"
+				"A character attuned to the sword regains the maximum possible number of hit points from expended Hit Dice. However, the attuned character must eat twice as much food each day (a minimum of 2 pounds) to avoid {exhaustion} (see \"The Environment\" in chapter 8 of the Player's Handbook.)"
 			]
 		},
 		{
@@ -25063,7 +25063,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"You must be proficient with wind instruments to use these pipes. They have 3 charges. You can use an action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these pipes for 24 hours. The pipes regain {@dice 1d3} expended charges daily at dawn."
+				"You must be proficient with wind instruments to use these pipes. They have 3 charges. You can use an action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play must succeed on a DC 15 Wisdom saving throw or become {frightened} of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these pipes for 24 hours. The pipes regain {@dice 1d3} expended charges daily at dawn."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -25181,7 +25181,7 @@ export const items = {
 			"entries": [
 				"This key is etched with sigils.",
 				"A planar key begins existence with {@dice 1d4 + 1} charges and cannot regain charges. When the key's last charge is expended, the key's sigils and magic fade away, but the key remains.",
-				"While touching the key, you can use your action to expend 1 charge and have the key cast {@spell plane shift} limited to the key's predefined destination only. Each planar key links to a single destination defined when the key is made."
+				"While touching the key, you can use your action to expend 1 charge and have the key cast { plane shift} limited to the key's predefined destination only. Each planar key links to a single destination defined when the key is made."
 			],
 			"attachedSpells": [
 				"plane shift"
@@ -25207,7 +25207,7 @@ export const items = {
 				"Wizard"
 			],
 			"entries": [
-				"The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: {@spell banishment}, {@spell find familiar}, {@spell gate}, {@spell magic circle}, {@spell planar binding}, and {@spell summon elemental|TCE}. It functions as a spellbook for you.",
+				"The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: { banishment}, { find familiar}, { gate}, { magic circle}, { planar binding}, and { summon elemental|TCE}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
 				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
@@ -25242,7 +25242,7 @@ export const items = {
 			"strength": "15",
 			"stealth": true,
 			"entries": [
-				"While you're wearing this armor, you can speak its command word as an action to gain the effect of the {@spell etherealness} spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn."
+				"While you're wearing this armor, you can speak its command word as an action to gain the effect of the { etherealness} spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn."
 			],
 			"attachedSpells": [
 				"etherealness"
@@ -25349,7 +25349,7 @@ export const items = {
 					"type": "entries",
 					"name": "Radiant Hammer",
 					"entries": [
-						"For 1 hour or until you dismiss it (no action required), the scale becomes a magic {@item light hammer|phb}, which you or another creature can use. The weapon deals {@damage 2d4} radiant damage, instead of the bludgeoning damage normal for a light hammer. It deals an extra {@damage 2d4} radiant damage to chromatic dragons.",
+						"For 1 hour or until you dismiss it (no action required), the scale becomes a magic {@item light hammer|phb}, which you or another creature can use. The weapon deals 2d4} radiant damage, instead of the bludgeoning damage normal for a light hammer. It deals an extra 2d4} radiant damage to chromatic dragons.",
 						"Once three scales have been pulled from the scarf, no more scales can be removed until the next dawn, when all the missing scales grow back. If you pull off a scale but don't speak a command word, it disappears after 1 minute."
 					]
 				}
@@ -25430,7 +25430,7 @@ export const items = {
 					"type": "entries",
 					"name": "Investigation, Perception",
 					"entries": [
-						"Your knowledge of poisons has taught you to handle those substances carefully, giving you an edge when you inspect {@condition poisoned} objects or try to extract clues from events that involve poison."
+						"Your knowledge of poisons has taught you to handle those substances carefully, giving you an edge when you inspect {poisoned} objects or try to extract clues from events that involve poison."
 					]
 				},
 				{
@@ -25467,7 +25467,7 @@ export const items = {
 					],
 					"rows": [
 						[
-							"Spot a {@condition poisoned} object",
+							"Spot a {poisoned} object",
 							"10"
 						],
 						[
@@ -25570,15 +25570,15 @@ export const items = {
 					"type": "entries",
 					"name": "Cards of Sending",
 					"entries": [
-						"At rank 3, the power of your portfolio keeper becomes more potent, making it a rare magic item. When you give out a business card stored in your portfolio keeper, you can choose to have the card allow its recipient to contact you through your {@item sending stone|AI} as if they had cast a {@spell sending} spell. A business card loses this power seven days after it has been given out, and no more than five cards can have this power at one time.",
-						"You can also use your {@item sending stone|AI} to cast {@spell sending} and contact anyone who has one of your business cards. Once you use this feature of the stone, you cannot use it again until dawn seven days later."
+						"At rank 3, the power of your portfolio keeper becomes more potent, making it a rare magic item. When you give out a business card stored in your portfolio keeper, you can choose to have the card allow its recipient to contact you through your {@item sending stone|AI} as if they had cast a { sending} spell. A business card loses this power seven days after it has been given out, and no more than five cards can have this power at one time.",
+						"You can also use your {@item sending stone|AI} to cast { sending} and contact anyone who has one of your business cards. Once you use this feature of the stone, you cannot use it again until dawn seven days later."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Charming Introduction",
 					"entries": [
-						"Also at rank 4, you are able to make a focused effort to keep a potential customer's attention. When you provide a humanoid with a business card from your portfolio keeper, you can cast {@spell charm person} on them (save DC 15). The spell ends prematurely if the character loses the business card."
+						"Also at rank 4, you are able to make a focused effort to keep a potential customer's attention. When you provide a humanoid with a business card from your portfolio keeper, you can cast { charm person} on them (save DC 15). The spell ends prematurely if the character loses the business card."
 					]
 				}
 			],
@@ -25641,7 +25641,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "uncommon",
 			"entries": [
-				"When you drink this potion, you can cast the {@spell animal friendship} spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair."
+				"When you drink this potion, you can cast the { animal friendship} spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair."
 			],
 			"attachedSpells": [
 				"animal friendship"
@@ -25662,7 +25662,7 @@ export const items = {
 				}
 			},
 			"entries": [
-				"When you drink this potion, you transform into a pool of water. You return to your true form after 10 minutes or if you are {@condition incapacitated} or die.",
+				"When you drink this potion, you transform into a pool of water. You return to your true form after 10 minutes or if you are {incapacitated} or die.",
 				"You're under the following effects while in this form:",
 				{
 					"type": "list",
@@ -25696,7 +25696,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"When you drink this potion, you gain the effect of the {@spell clairvoyance} spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened."
+				"When you drink this potion, you gain the effect of the { clairvoyance} spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened."
 			],
 			"attachedSpells": [
 				"clairvoyance"
@@ -25769,7 +25769,7 @@ export const items = {
 			"type": "P",
 			"rarity": "common",
 			"entries": [
-				"When you drink this potion, you gain the effect of a {@spell comprehend languages} spell for 1 hour. This liquid is a clear concoction with bits of salt and soot swirling in it."
+				"When you drink this potion, you gain the effect of a { comprehend languages} spell for 1 hour. This liquid is a clear concoction with bits of salt and soot swirling in it."
 			]
 		},
 		{
@@ -25781,7 +25781,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"When you drink this potion, you gain the \"reduce\" effect of the {@spell enlarge/reduce} spell for {@dice 1d4} hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process."
+				"When you drink this potion, you gain the \"reduce\" effect of the { enlarge/reduce} spell for {@dice 1d4} hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process."
 			],
 			"attachedSpells": [
 				"enlarge/reduce"
@@ -25808,7 +25808,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "uncommon",
 			"entries": [
-				"After drinking this potion, you can use a bonus action to exhale fire at a target within 30 feet of you. The target must make a DC 13 Dexterity saving throw, taking {@damage 4d6} fire damage on a failed save, or half as much damage on a successful one. The effect ends after you exhale the fire three times or when 1 hour has passed. This potion's orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened."
+				"After drinking this potion, you can use a bonus action to exhale fire at a target within 30 feet of you. The target must make a DC 13 Dexterity saving throw, taking 4d6} fire damage on a failed save, or half as much damage on a successful one. The effect ends after you exhale the fire three times or when 1 hour has passed. This potion's orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened."
 			],
 			"lootTables": [
 				"Magic Item Table B"
@@ -25918,7 +25918,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"When you drink this potion, you gain the effect of the {@spell gaseous form} spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water."
+				"When you drink this potion, you gain the effect of the { gaseous form} spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water."
 			],
 			"attachedSpells": [
 				"gaseous form"
@@ -25935,7 +25935,7 @@ export const items = {
 			"rarity": "legendary",
 			"entries": [
 				"When you drink this potion, you become Huge for 24 hours if you are Medium or smaller, otherwise the potion does nothing. For that duration, your Strength becomes 25, if it isn't already higher, and your hit point maximum is doubled (your current hit points are doubled when you drink the potion). In addition, the reach of your melee attacks increases by 5 feet.",
-				"Everything you are carrying and wearing also increases in size for the duration. When rolling damage for weapons enlarged in this manner, roll three times the normal number of dice; for example, an enlarged longsword would deal {@damage 3d8} slashing damage (instead of {@dice 1d8}), or {@damage 3d10} slashing damage (instead of {@dice 1d10}) when used with two hands.",
+				"Everything you are carrying and wearing also increases in size for the duration. When rolling damage for weapons enlarged in this manner, roll three times the normal number of dice; for example, an enlarged longsword would deal 3d8} slashing damage (instead of {@dice 1d8}), or 3d10} slashing damage (instead of {@dice 1d10}) when used with two hands.",
 				"When the effect ends, any hit points you have above your hit point maximum become temporary hit points. This potion is a pale white liquid made from the tongue of a giant clam, with a pungent aroma akin to that of rotting algae. It tastes sweet, however, when consumed."
 			]
 		},
@@ -25964,7 +25964,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "uncommon",
 			"entries": [
-				"When you drink this potion, you gain the \"enlarge\" effect of the {@spell enlarge/reduce} spell for {@dice 1d4} hours (no concentration required). The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process."
+				"When you drink this potion, you gain the \"enlarge\" effect of the { enlarge/reduce} spell for {@dice 1d4} hours (no concentration required). The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process."
 			],
 			"attachedSpells": [
 				"enlarge/reduce"
@@ -26005,7 +26005,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the {@spell bless} spell (no concentration required). This blue potion bubbles and steams as if boiling."
+				"For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the { bless} spell (no concentration required). This blue potion bubbles and steams as if boiling."
 			],
 			"attachedSpells": [
 				"bless"
@@ -26045,7 +26045,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "very rare",
 			"entries": [
-				"This potion's container looks empty but feels as though it holds liquid. When you drink it, you become {@condition invisible} for 1 hour. Anything you wear or carry is {@condition invisible} with you. The effect ends early if you attack or cast a spell."
+				"This potion's container looks empty but feels as though it holds liquid. When you drink it, you become {invisible} for 1 hour. Anything you wear or carry is {invisible} with you. The effect ends early if you attack or cast a spell."
 			],
 			"lootTables": [
 				"Magic Item Table D"
@@ -26129,7 +26129,7 @@ export const items = {
 			"rarity": "rare",
 			"entries": [
 				"When you drink a potion of mind control, you can cast a dominate spell (save DC 15) on a specific creature if you do so before the end of your next turn. If you don't, the potion is wasted.",
-				"A potion of mind control produces the effect of a {@spell dominate beast} spell. If the target's initial saving throw fails, the effect lasts for 1 hour, with no concentration required on your part. The {@condition charmed} creature has disadvantage on new saving throws to break the effect during this time."
+				"A potion of mind control produces the effect of a { dominate beast} spell. If the target's initial saving throw fails, the effect lasts for 1 hour, with no concentration required on your part. The {charmed} creature has disadvantage on new saving throws to break the effect during this time."
 			],
 			"attachedSpells": [
 				"dominate beast"
@@ -26143,7 +26143,7 @@ export const items = {
 			"rarity": "rare",
 			"entries": [
 				"When you drink a potion of mind control, you can cast a dominate spell (save DC 15) on a specific creature if you do so before the end of your next turn. If you don't, the potion is wasted.",
-				"A potion of mind control produces the effect of a {@spell dominate person} spell. If the target's initial saving throw fails, the effect lasts for 1 hour, with no concentration required on your part. The {@condition charmed} creature has disadvantage on new saving throws to break the effect during this time."
+				"A potion of mind control produces the effect of a { dominate person} spell. If the target's initial saving throw fails, the effect lasts for 1 hour, with no concentration required on your part. The {charmed} creature has disadvantage on new saving throws to break the effect during this time."
 			],
 			"attachedSpells": [
 				"dominate person"
@@ -26157,7 +26157,7 @@ export const items = {
 			"rarity": "very rare",
 			"entries": [
 				"When you drink a potion of mind control, you can cast a dominate spell (save DC 15) on a specific creature if you do so before the end of your next turn. If you don't, the potion is wasted.",
-				"A potion of mind control produces the effect of a {@spell dominate monster} spell. If the target's initial saving throw fails, the effect lasts for 1 hour, with no concentration required on your part. The {@condition charmed} creature has disadvantage on new saving throws to break the effect during this time."
+				"A potion of mind control produces the effect of a { dominate monster} spell. If the target's initial saving throw fails, the effect lasts for 1 hour, with no concentration required on your part. The {charmed} creature has disadvantage on new saving throws to break the effect during this time."
 			],
 			"attachedSpells": [
 				"dominate monster"
@@ -26172,7 +26172,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"When you drink this potion, you gain the effect of the {@spell detect thoughts} spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it."
+				"When you drink this potion, you gain the effect of the { detect thoughts} spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it."
 			],
 			"attachedSpells": [
 				"detect thoughts"
@@ -26206,8 +26206,8 @@ export const items = {
 			"tier": "minor",
 			"rarity": "uncommon",
 			"entries": [
-				"This concoction looks, smells, and tastes like a {@item potion of healing} or other beneficial potion. However, it is actually poison masked by illusion magic. An {@spell identify} spell reveals its true nature.",
-				"If you drink it, you take {@damage 3d6} poison damage, and you must succeed on a DC 13 Constitution saving throw or be {@condition poisoned}. At the start of each of your turns while you are {@condition poisoned} in this way, you take {@damage 3d6} poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by {@dice 1d6}. The poison ends when the damage decreases to 0."
+				"This concoction looks, smells, and tastes like a {@item potion of healing} or other beneficial potion. However, it is actually poison masked by illusion magic. An { identify} spell reveals its true nature.",
+				"If you drink it, you take 3d6} poison damage, and you must succeed on a DC 13 Constitution saving throw or be {poisoned}. At the start of each of your turns while you are {poisoned} in this way, you take 3d6} poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by {@dice 1d6}. The poison ends when the damage decreases to 0."
 			],
 			"lootTables": [
 				"Magic Item Table B"
@@ -26283,7 +26283,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "very rare",
 			"entries": [
-				"When you drink this potion, you gain the effect of the {@spell haste} spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own."
+				"When you drink this potion, you gain the effect of the { haste} spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own."
 			],
 			"attachedSpells": [
 				"haste"
@@ -26390,7 +26390,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "very rare",
 			"entries": [
-				"When you drink this potion, it removes any {@condition exhaustion} you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat."
+				"When you drink this potion, it removes any {exhaustion} you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat."
 			],
 			"lootTables": [
 				"Magic Item Table D"
@@ -26554,7 +26554,7 @@ export const items = {
 					"items": [
 						"Emit a force field to gain {@dice 2d6 + 5} temporary hit points (1 charge or 5 hit points).",
 						"Activate boosters to gain a flying speed of 15 feet for 1 minute (1 charge or 5 hit points).",
-						"Fire arm-mounted laser: {@atk rw} {@hit 8} to hit, range 120 feet, one target. {@h}{@damage 2d6} radiant damage (1 charge or 5 hit points).",
+						"Fire arm-mounted laser: 1d20+8} to hit, range 120 feet, one target. 2d6} radiant damage (1 charge or 5 hit points).",
 						"Translate any writing you can see in any nonmagical language, to a total of one thousand words over 1 minute (1 charge or 5 hit points).",
 						"Fill the armor with air, allowing you to breathe normally in any environment for up to 1 hour (1 charge or 5 hit points).",
 						"Gain {@sense darkvision} to a range of 60 feet for up to 1 hour (1 charge or 5 hit points)."
@@ -26570,14 +26570,14 @@ export const items = {
 							"type": "entries",
 							"name": "Automatic Defenses",
 							"entries": [
-								"Unless Kwalish deactivates the suit's automatic defenses, no one can approach the armor without setting those defenses off. Treat the armor as a {@creature shield guardian} that has stored a {@spell magic missile} spell cast using a 4th-level spell slot. When the armor is reduced to 0 hit points, its defenses are rendered inert and it can be safely approached."
+								"Unless Kwalish deactivates the suit's automatic defenses, no one can approach the armor without setting those defenses off. Treat the armor as a {@creature shield guardian} that has stored a { magic missile} spell cast using a 4th-level spell slot. When the armor is reduced to 0 hit points, its defenses are rendered inert and it can be safely approached."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Battle of Wills",
 							"entries": [
-								"When donned by a new user, the armor deems itself superior and attempts to take possession of that user. The user must succeed on a DC 13 Charisma saving throw or be possessed by the armor. While possessed, the user is {@condition incapacitated} and loses control of its body but retains its awareness. The armor uses the possessed user's statistics (as adjusted by the armor), but doesn't gain access to the user's knowledge, features, or proficiencies.",
+								"When donned by a new user, the armor deems itself superior and attempts to take possession of that user. The user must succeed on a DC 13 Charisma saving throw or be possessed by the armor. While possessed, the user is {incapacitated} and loses control of its body but retains its awareness. The armor uses the possessed user's statistics (as adjusted by the armor), but doesn't gain access to the user's knowledge, features, or proficiencies.",
 								"Freeing a creature trapped inside the armor first requires defeating the armor's automatic defenses (as above). The trapped creature can also attempt a DC 20 Charisma saving throw each day at dawn. On a successful save, the armor no longer controls the creature and can be safely donned by that creature at any time."
 							]
 						},
@@ -26695,7 +26695,7 @@ export const items = {
 			"page": 19,
 			"rarity": "unknown (magic)",
 			"entries": [
-				"This beaded jade necklace bears an ancient symbol of the River Heralds. When worn, the primal amulet allows its wearer to cast {@spell speak with animals}, {@spell locate object}, and {@spell pass without trace}. Once the amulet has been used to cast a spell, it can't be used to cast that spell again until the next dawn."
+				"This beaded jade necklace bears an ancient symbol of the River Heralds. When worn, the primal amulet allows its wearer to cast { speak with animals}, { locate object}, and { pass without trace}. Once the amulet has been used to cast a spell, it can't be used to cast that spell again until the next dawn."
 			]
 		},
 		{
@@ -26740,7 +26740,7 @@ export const items = {
 				"Each professor orb takes the form of a smooth, solid, 5-pound sphere of smoky gray quartz about the size of a grapefruit. Close examination reveals two or more pinpricks of silver light deep inside the sphere.",
 				"A Professor Orb is sentient and has the personality of a scholar. Its alignment is determined by rolling on the alignment table in the \"{@book Sentient Magic Items|DMG|7|Sentient Magic Items}\" section in chapter 7 of the {@book Dungeon Master's Guide|dmg}. Regardless of its disposition, the orb has an Intelligence of 18, and Wisdom and Charisma scores determined by rolling {@dice 3d6} for each ability. The orb speaks, reads, and understands four languages, and can see and hear normally out to a range of 60 feet. Unlike most sentient items, the orb has no will of its own and can't initiate a conflict with the creature in possession of it.",
 				"A Professor Orb has extensive knowledge of four narrow academic subjects. When making an Intelligence check to recall lore from any of its areas of expertise, the orb has a +9 bonus to its roll (including its Intelligence modifier).",
-				"In addition to the knowledge it possesses, a professor orb can cast the {@spell mage hand} cantrip at will. It uses the spell only to transport itself. Its spellcasting ability is Intelligence."
+				"In addition to the knowledge it possesses, a professor orb can cast the { mage hand} cantrip at will. It uses the spell only to transport itself. Its spellcasting ability is Intelligence."
 			],
 			"attachedSpells": [
 				"mage hand"
@@ -26768,7 +26768,7 @@ export const items = {
 				"When making an Intelligence check to recall lore from any of its areas of expertise, the orb has a +9 bonus to its roll (including its Intelligence modifier).",
 				"Professor Skant takes the form of a smooth, solid, 5-pound sphere of smoky gray quartz about the size of a grapefruit. Close examination reveals two or more pinpricks of silver light deep inside the sphere.",
 				"Professor Skant can see and hear normally out to a range of 60 feet. Unlike most sentient items, the orb has no will of its own and can't initiate a conflict with the creature in possession of it.",
-				"In addition to the knowledge it possesses, Professor Skant can cast the {@spell mage hand} cantrip at will. It uses the spell only to transport itself. Its spellcasting ability is Intelligence."
+				"In addition to the knowledge it possesses, Professor Skant can cast the { mage hand} cantrip at will. It uses the spell only to transport itself. Its spellcasting ability is Intelligence."
 			]
 		},
 		{
@@ -26785,7 +26785,7 @@ export const items = {
 			],
 			"wondrous": true,
 			"entries": [
-				"While worn, the helm allows its wearer to use an action to cast the {@spell levitate} spell, requiring no components. The helm's propeller spins and whirs loudly until the spell ends. Each time the spell ends, there is a {@chance 50|50 percent} chance that the helm loses its magic and becomes nonmagical."
+				"While worn, the helm allows its wearer to use an action to cast the { levitate} spell, requiring no components. The helm's propeller spins and whirs loudly until the spell ends. Each time the spell ends, there is a {@chance 50|50 percent} chance that the helm loses its magic and becomes nonmagical."
 			]
 		},
 		{
@@ -26828,7 +26828,7 @@ export const items = {
 				"Wizard"
 			],
 			"entries": [
-				"This leather-bound spellbook is reinforced with iron and silver fittings and an iron lock (DC 20 to open). As an action, you can touch the book's cover and cause it to lock as if you cast {@spell arcane lock} on it. When found, the book contains the following spells: {@spell arcane lock}, {@spell dispel magic}, {@spell globe of invulnerability}, {@spell glyph of warding}, {@spell Mordenkainen's private sanctum}, {@spell protection from evil and good||protection from evil}, and {@spell symbol}. It functions as a spellbook for you.",
+				"This leather-bound spellbook is reinforced with iron and silver fittings and an iron lock (DC 20 to open). As an action, you can touch the book's cover and cause it to lock as if you cast { arcane lock} on it. When found, the book contains the following spells: { arcane lock}, { dispel magic}, { globe of invulnerability}, { glyph of warding}, { Mordenkainen's private sanctum}, { protection from evil and good||protection from evil}, and { symbol}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
 				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
@@ -26855,7 +26855,7 @@ export const items = {
 			"page": 19,
 			"rarity": "unknown (magic)",
 			"entries": [
-				"A hooked blade useful on board a ship or as a cutting tool in the wilderness, this {@item +1 shortsword} grants its wielder advantage on Strength ({@skill Athletics}) checks to climb or to escape while {@condition restrained}."
+				"A hooked blade useful on board a ship or as a cutting tool in the wilderness, this {@item +1 shortsword} grants its wielder advantage on Strength ({@skill Athletics}) checks to climb or to escape while {restrained}."
 			]
 		},
 		{
@@ -26940,7 +26940,7 @@ export const items = {
 			"value": 200000,
 			"poison": true,
 			"entries": [
-				"This poison must be harvested from a dead or {@condition incapacitated} {@creature purple worm}. A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 42 ({@damage 12d6}) poison damage on a failed save, or half as much damage on a successful one."
+				"This poison must be harvested from a dead or {incapacitated} {@creature purple worm}. A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 42 (12d6}) poison damage on a failed save, or half as much damage on a successful one."
 			],
 			"poisonTypes": [
 				"injury"
@@ -26955,8 +26955,8 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"A Pyroconverger is an Izzet-made flamethrower. It carries a risk of malfunction each time you use it.",
-				"As an action, you can cause the Pyroconverger to project fire in a 10-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking {@damage 4d6} fire damage on a failed save, or half as much damage on a successful one.",
-				"Each time you use the Pyroconverger, roll a {@dice d10} and add the number of times you have used it since your last long rest. If the total is 11 or higher, the Pyroconverger malfunctions: you take {@damage 4d6} fire damage, and you can't use the Pyroconverger again until you finish a long rest."
+				"As an action, you can cause the Pyroconverger to project fire in a 10-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 4d6} fire damage on a failed save, or half as much damage on a successful one.",
+				"Each time you use the Pyroconverger, roll a {@dice d10} and add the number of times you have used it since your last long rest. If the total is 11 or higher, the Pyroconverger malfunctions: you take 4d6} fire damage, and you can't use the Pyroconverger again until you finish a long rest."
 			],
 			"hasFluffImages": true
 		},
@@ -26968,13 +26968,13 @@ export const items = {
 			"wondrous": true,
 			"curse": true,
 			"entries": [
-				"A creature that touches this ornate wooden vessel for 1 minute gains the benefits of a short rest. That creature also gains the effects of the {@spell bless} spell until the creature finishes a short or long rest. The creature can't gain these benefits again until it finishes a long rest.",
+				"A creature that touches this ornate wooden vessel for 1 minute gains the benefits of a short rest. That creature also gains the effects of the { bless} spell until the creature finishes a short or long rest. The creature can't gain these benefits again until it finishes a long rest.",
 				"If the vessel is opened, roll on the Pyxis of Pandemonium table to determine what happens. Any spells cast by the vessel have a spell save DC of 17. One minute after the vessel is opened, it disappears. It reappears, sealed, in a random location on the same plane of existence 24 hours later.",
 				{
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"Any creature that gains the benefit of a short rest from the vessel hears cloying telepathic whispers emanating from it. That creature must make a DC 17 Wisdom saving throw. On a failed save, the creature is {@condition charmed} by the vessel for 1 hour. The {@condition charmed} creature does everything it can to open the vessel as soon as possible. On a successful save, the creature is immune to the vessel's whispers for 24 hours."
+						"Any creature that gains the benefit of a short rest from the vessel hears cloying telepathic whispers emanating from it. That creature must make a DC 17 Wisdom saving throw. On a failed save, the creature is {charmed} by the vessel for 1 hour. The {charmed} creature does everything it can to open the vessel as soon as possible. On a successful save, the creature is immune to the vessel's whispers for 24 hours."
 					]
 				},
 				{
@@ -26994,19 +26994,19 @@ export const items = {
 						],
 						[
 							"2",
-							"{@b Bile Blight.} The vessel casts the {@spell harm} spell on each creature within 30 feet of it."
+							"{@b Bile Blight.} The vessel casts the { harm} spell on each creature within 30 feet of it."
 						],
 						[
 							"3",
-							"{@b Flood.} The vessel casts the {@spell tsunami} spell at a point of the DM's choice within 120 feet of it."
+							"{@b Flood.} The vessel casts the { tsunami} spell at a point of the DM's choice within 120 feet of it."
 						],
 						[
 							"4",
-							"{@b Medusa's Gaze.} The vessel casts the {@spell flesh to stone} spell on each creature within 30 feet of it."
+							"{@b Medusa's Gaze.} The vessel casts the { flesh to stone} spell on each creature within 30 feet of it."
 						],
 						[
 							"5",
-							"{@b Labyrinth.} The vessel casts the {@spell maze} spell on each creature within 30 feet of it."
+							"{@b Labyrinth.} The vessel casts the { maze} spell on each creature within 30 feet of it."
 						],
 						[
 							"6",
@@ -27014,11 +27014,11 @@ export const items = {
 						],
 						[
 							"7",
-							"{@b Swarming Insects.} The vessel casts the {@spell insect plague} spell, centered on itself and with a radius of 30 feet."
+							"{@b Swarming Insects.} The vessel casts the { insect plague} spell, centered on itself and with a radius of 30 feet."
 						],
 						[
 							"8",
-							"{@b Unbridled Revel.} The vessel casts the {@spell Otto's irresistible dance} spell on each creature within 30 feet of it."
+							"{@b Unbridled Revel.} The vessel casts the { Otto's irresistible dance} spell on each creature within 30 feet of it."
 						]
 					]
 				}
@@ -27134,8 +27134,8 @@ export const items = {
 					"name": "Whip",
 					"type": "entries",
 					"entries": [
-						"You can use an action to throw the token to a point within 10 feet of you. The token disappears, and a floating whip takes its place. You can then use a bonus action to make a melee spell attack against a creature within 10 feet of the whip, with an attack bonus of {@hit 9}. On a hit, the target takes {@damage 1d6 + 5} force damage.",
-						"As a bonus action on your turn, you can direct the whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of it. The whip disappears after 1 hour, when you use an action to dismiss it, or when you are {@condition incapacitated} or die."
+						"You can use an action to throw the token to a point within 10 feet of you. The token disappears, and a floating whip takes its place. You can then use a bonus action to make a melee spell attack against a creature within 10 feet of the whip, with an attack bonus of +9}. On a hit, the target takes 1d6 + 5} force damage.",
+						"As a bonus action on your turn, you can direct the whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of it. The whip disappears after 1 hour, when you use an action to dismiss it, or when you are {incapacitated} or die."
 					]
 				}
 			]
@@ -27245,7 +27245,7 @@ export const items = {
 			"bonusSpellAttack": "+1",
 			"entries": [
 				"While holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack. Radiance is in the form of an exquisite golden hand mirror.",
-				"While surrounded by darkness, it sheds dim light in a 5-foot radius. A creature that is attuned to Radiance can use a bonus action while holding the mirror to cast the {@spell enhance ability} spell, choosing itself and no other creature as the spell's target. Once this property of the wand is used, it can't be used again until the next dawn."
+				"While surrounded by darkness, it sheds dim light in a 5-foot radius. A creature that is attuned to Radiance can use a bonus action while holding the mirror to cast the { enhance ability} spell, choosing itself and no other creature as the spell's target. Once this property of the wand is used, it can't be used again until the next dawn."
 			],
 			"attachedSpells": [
 				"enhance ability"
@@ -27291,7 +27291,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring, adorned with the symbol of Rakdos, allows you to cast {@spell hellish rebuke}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Rakdos' recognition and favor.",
+				"This ring, adorned with the symbol of Rakdos, allows you to cast { hellish rebuke}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Rakdos' recognition and favor.",
 				"A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13)."
 			],
 			"attachedSpells": [
@@ -27339,8 +27339,8 @@ export const items = {
 			"dmgType": "P",
 			"bonusWeapon": "+1",
 			"entries": [
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. Its blade is cruelly serrated, and its hilt resembles a demonic head and wings. Whenever you slay a creature with an attack using the dagger, the creature's soul is imprisoned inside the dagger, and that creature can be restored to life only by a {@spell wish} spell. The dagger can hold a maximum of five souls.",
-				"For each soul imprisoned in the dagger, your attacks with it deal an extra {@damage 1d4} necrotic damage on a hit. While the dagger is within 5 feet of you, your dreams are haunted by whispers from the trapped souls.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. Its blade is cruelly serrated, and its hilt resembles a demonic head and wings. Whenever you slay a creature with an attack using the dagger, the creature's soul is imprisoned inside the dagger, and that creature can be restored to life only by a { wish} spell. The dagger can hold a maximum of five souls.",
+				"For each soul imprisoned in the dagger, your attacks with it deal an extra 1d4} necrotic damage on a hit. While the dagger is within 5 feet of you, your dreams are haunted by whispers from the trapped souls.",
 				"The dagger has the following additional properties.",
 				{
 					"type": "entries",
@@ -27447,7 +27447,7 @@ export const items = {
 					"type": "entries",
 					"name": "Dragon Fire",
 					"entries": [
-						"If you deal fire damage to a creature or flammable object, it starts burning. At the start of each of its turns, a creature burning in this way takes {@damage 1d6} fire damage. A creature that can reach the burning target can use an action to extinguish the fire."
+						"If you deal fire damage to a creature or flammable object, it starts burning. At the start of each of its turns, a creature burning in this way takes 1d6} fire damage. A creature that can reach the burning target can use an action to extinguish the fire."
 					]
 				}
 			]
@@ -27481,7 +27481,7 @@ export const items = {
 			"rarity": "very rare",
 			"wondrous": true,
 			"entries": [
-				"When this small pouch of purple dust is sprinkled on a dead humanoid or a piece of a dead humanoid, the dust is absorbed by the remains. If willing, the dead creature returns to life with a new body as if the {@spell reincarnate} spell had been cast on the remains."
+				"When this small pouch of purple dust is sprinkled on a dead humanoid or a piece of a dead humanoid, the dust is absorbed by the remains. If willing, the dead creature returns to life with a new body as if the { reincarnate} spell had been cast on the remains."
 			],
 			"attachedSpells": [
 				"reincarnate"
@@ -27538,7 +27538,7 @@ export const items = {
 			"bonusSpellSaveDc": "+2",
 			"entries": [
 				"While holding this concertina, you gain a +2 bonus to the saving throw DC of your bard spells.",
-				"As an action, you can use the concertina to cast {@spell Otto's irresistible dance} from the item. This property of the concertina can't be used again until the next dawn."
+				"As an action, you can use the concertina to cast { Otto's irresistible dance} from the item. This property of the concertina can't be used again until the next dawn."
 			],
 			"attachedSpells": [
 				"otto's irresistible dance"
@@ -27620,14 +27620,14 @@ export const items = {
 			"entries": [
 				"While wearing this ring, you have advantage on attack rolls against elementals from the Elemental Plane of Air, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Air.",
 				"The ring has 5 charges. It regains {@dice 1d4 + 1} expended charges daily at dawn. Spells cast from the ring have a save DC of 17.",
-				"You can expend 2 of the ring's charges to cast {@spell dominate monster} on an {@creature air elemental}. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.",
+				"You can expend 2 of the ring's charges to cast { dominate monster} on an {@creature air elemental}. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.",
 				"If you help slay an {@creature air elemental} while attuned to the ring, you gain access to the following additional properties:",
 				{
 					"type": "list",
 					"items": [
 						"You have resistance to lightning damage.",
 						"You have a flying speed equal to your walking speed and can hover.",
-						"You can cast the following spells from the ring, expending the necessary number of charges: {@spell chain lightning} (3 charges), {@spell gust of wind} (2 charges), or {@spell wind wall} (1 charge)."
+						"You can cast the following spells from the ring, expending the necessary number of charges: { chain lightning} (3 charges), { gust of wind} (2 charges), or { wind wall} (1 charge)."
 					]
 				}
 			],
@@ -27658,9 +27658,9 @@ export const items = {
 				{
 					"type": "list",
 					"items": [
-						"{@spell Animal friendship} (save DC 13)",
-						"{@spell Fear} (save DC 13), targeting only beasts that have an Intelligence of 3 or lower",
-						"{@spell Speak with animals}"
+						"{ Animal friendship} (save DC 13)",
+						"{ Fear} (save DC 13), targeting only beasts that have an Intelligence of 3 or lower",
+						"{ Speak with animals}"
 					]
 				}
 			],
@@ -27730,14 +27730,14 @@ export const items = {
 			"entries": [
 				"While wearing this ring, you have advantage on attack rolls against elementals from the Elemental Plane of Earth and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Earth.",
 				"The ring has 5 charges. It regains {@dice 1d4 + 1} expended charges daily at dawn. Spells cast from the ring have a save DC of 17.",
-				"You can expend 2 of the ring's charges to cast {@spell dominate monster} on an {@creature earth elemental}. In addition, you can move in {@quickref difficult terrain||3} that is composed of rubble, rocks, or dirt as if it were normal terrain. You can also speak and understand Terran.",
+				"You can expend 2 of the ring's charges to cast { dominate monster} on an {@creature earth elemental}. In addition, you can move in {@quickref difficult terrain||3} that is composed of rubble, rocks, or dirt as if it were normal terrain. You can also speak and understand Terran.",
 				"If you help slay an {@creature earth elemental} while attuned to the ring, you gain access to the following additional properties:",
 				{
 					"type": "list",
 					"items": [
 						"You have resistance to acid damage.",
 						"You can move through solid earth or rock as if those areas were {@quickref difficult terrain||3}. If you end your turn there, you are shunted out to the nearest unoccupied space you last occupied.",
-						"You can cast the following spells from the ring, expending the necessary number of charges: {@spell stone shape} (2 charges), {@spell stoneskin} (3 charges), or {@spell wall of stone} (3 charges)."
+						"You can cast the following spells from the ring, expending the necessary number of charges: { stone shape} (2 charges), { stoneskin} (3 charges), or { wall of stone} (3 charges)."
 					]
 				}
 			],
@@ -27810,13 +27810,13 @@ export const items = {
 			"entries": [
 				"While wearing this ring, you have advantage on attack rolls against elementals from the Elemental Plane of Fire and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Fire.",
 				"The ring has 5 charges. It regains {@dice 1d4 + 1} expended charges daily at dawn. Spells cast from the ring have a save DC of 17.",
-				"You can expend 2 of the ring's charges to cast {@spell dominate monster} on a {@creature fire elemental}. In addition, you have resistance to fire damage. You can also speak and understand Ignan.",
+				"You can expend 2 of the ring's charges to cast { dominate monster} on a {@creature fire elemental}. In addition, you have resistance to fire damage. You can also speak and understand Ignan.",
 				"If you help slay a {@creature fire elemental} while attuned to the ring, you gain access to the following additional properties:",
 				{
 					"type": "list",
 					"items": [
 						"You are immune to fire damage.",
-						"You can cast the following spells from the ring, expending the necessary number of charges: {@spell burning hands} (1 charge), {@spell fireball} (2 charges), and {@spell wall of fire} (3 charges)."
+						"You can cast the following spells from the ring, expending the necessary number of charges: { burning hands} (1 charge), { fireball} (2 charges), and { wall of fire} (3 charges)."
 					]
 				}
 			],
@@ -27878,7 +27878,7 @@ export const items = {
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
-				"While you wear this ring, {@quickref difficult terrain||3} doesn't cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be {@condition paralyzed} or {@condition restrained}."
+				"While you wear this ring, {@quickref difficult terrain||3} doesn't cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be {paralyzed} or {restrained}."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -27899,7 +27899,7 @@ export const items = {
 			"rarity": "legendary",
 			"reqAttune": true,
 			"entries": [
-				"While wearing this ring, you can turn {@condition invisible} as an action. Anything you are wearing or carrying is {@condition invisible} with you. You remain {@condition invisible} until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again."
+				"While wearing this ring, you can turn {invisible} as an action. Anything you are wearing or carrying is {invisible} with you. You remain {invisible} until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again."
 			],
 			"lootTables": [
 				"Magic Item Table I"
@@ -27916,7 +27916,7 @@ export const items = {
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"entries": [
-				"While wearing this ring, you can cast the {@spell jump} spell from it as a bonus action at will, but can target only yourself when you do so."
+				"While wearing this ring, you can cast the { jump} spell from it as a bonus action at will, but can target only yourself when you do so."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -27959,7 +27959,7 @@ export const items = {
 			"reqAttune": true,
 			"entries": [
 				"While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.",
-				"You can use an action to cause the ring to become {@condition invisible} until you use another action to make it visible, until you remove the ring, or until you die.",
+				"You can use an action to cause the ring to become {invisible} until you use another action to make it visible, until you remove the ring, or until you die.",
 				"If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
 			],
 			"optionalfeatures": [
@@ -28001,7 +28001,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This band of iron resembles a skull and is cold to the touch. It has 3 charges and regains {@dice 1d3} expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the {@spell fog cloud} spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no concentration required)."
+				"This band of iron resembles a skull and is cold to the touch. It has 3 charges and regains {@dice 1d3} expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the { fog cloud} spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no concentration required)."
 			],
 			"attachedSpells": [
 				"fog cloud"
@@ -28114,13 +28114,13 @@ export const items = {
 					"type": "entries",
 					"name": "Ruidium Rage",
 					"entries": [
-						"As a bonus action, you can use the ring to gain the following benefits, which last for 1 minute or until you are {@condition incapacitated}:",
+						"As a bonus action, you can use the ring to gain the following benefits, which last for 1 minute or until you are {incapacitated}:",
 						{
 							"type": "list",
 							"items": [
 								"You have advantage on Strength checks and Strength saving throws.",
 								"When you hit with an attack, you can add your proficiency bonus to the damage roll.",
-								"Difficult terrain doesn't cost you extra movement, and you are immune to the {@condition paralyzed} and {@condition restrained} conditions."
+								"Difficult terrain doesn't cost you extra movement, and you are immune to the {paralyzed} and {restrained} conditions."
 							]
 						},
 						"You can't use this property of the ring again until you finish a long rest."
@@ -28130,7 +28130,7 @@ export const items = {
 					"type": "entries",
 					"name": "Ruidium Corruption",
 					"entries": [
-						"When you use the Ruidium Rage property of the ring, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of {@condition exhaustion}. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save."
+						"When you use the Ruidium Rage property of the ring, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of {exhaustion}. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save."
 					]
 				},
 				{
@@ -28173,13 +28173,13 @@ export const items = {
 			"rechargeAmount": "{@dice 1d6}",
 			"charges": 6,
 			"entries": [
-				"While wearing this ring in dim light or darkness, you can cast {@spell dancing lights} and {@spell light} from the ring at will. Casting either spell from the ring requires an action.",
+				"While wearing this ring in dim light or darkness, you can cast { dancing lights} and { light} from the ring at will. Casting either spell from the ring requires an action.",
 				"The ring has 6 charges for the following other properties. The ring regains {@dice 1d6} expended charges daily at dawn.",
 				{
 					"name": "Faerie Fire",
 					"type": "entries",
 					"entries": [
-						"You can expend 1 charge as an action to cast {@spell faerie fire} from the ring."
+						"You can expend 1 charge as an action to cast { faerie fire} from the ring."
 					]
 				},
 				{
@@ -28195,7 +28195,7 @@ export const items = {
 					"name": "Shooting Stars",
 					"type": "entries",
 					"entries": [
-						"You can expend 1 to 3 charges as an action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of you. Each creature within a 15-foot cube originating from that point is showered in sparks and must make a DC 15 Dexterity saving throw, taking {@damage 5d4} fire damage on a failed save, or half as much damage on a successful one."
+						"You can expend 1 to 3 charges as an action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of you. Each creature within a 15-foot cube originating from that point is showered in sparks and must make a DC 15 Dexterity saving throw, taking 5d4} fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -28275,7 +28275,7 @@ export const items = {
 			"rarity": "very rare",
 			"reqAttune": true,
 			"entries": [
-				"While wearing this ring, you can cast the {@spell telekinesis} spell at will, but you can target only objects that aren't being worn or carried."
+				"While wearing this ring, you can cast the { telekinesis} spell at will, but you can target only objects that aren't being worn or carried."
 			],
 			"attachedSpells": [
 				"telekinesis"
@@ -28293,7 +28293,7 @@ export const items = {
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
-				"If you die while wearing this gray crystal ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space). You have a number of hit points equal to {@dice 3d6} + your Constitution modifier. If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount. If you have any levels of {@condition exhaustion}, reduce your level of {@condition exhaustion} by 1. Once the ring is used, it turns to dust and is destroyed."
+				"If you die while wearing this gray crystal ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space). You have a number of hit points equal to {@dice 3d6} + your Constitution modifier. If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount. If you have any levels of {exhaustion}, reduce your level of {exhaustion} by 1. Once the ring is used, it turns to dust and is destroyed."
 			]
 		},
 		{
@@ -28309,7 +28309,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to make a ranged spell attack against one creature you can see within 60 feet of you. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes {@damage 2d10} force damage and is pushed 5 feet away from you.",
+				"This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to make a ranged spell attack against one creature you can see within 60 feet of you. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10} force damage and is pushed 5 feet away from you.",
 				"Alternatively, you can expend 1 to 3 of the ring's charges as an action to try to break an object you can see within 60 feet of you that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend."
 			],
 			"optionalfeatures": [
@@ -28330,7 +28330,7 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"entries": [
-				"While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the {@spell wish} spell from it. The ring becomes nonmagical when you use the last charge."
+				"While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the { wish} spell from it. The ring becomes nonmagical when you use the last charge."
 			],
 			"attachedSpells": [
 				"wish"
@@ -28405,13 +28405,13 @@ export const items = {
 			"entries": [
 				"While wearing this ring, you have advantage on attack rolls against elementals from the Elemental Plane of Water and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the Elemental Plane of Water.",
 				"The ring has 5 charges. It regains {@dice 1d4 + 1} expended charges daily at dawn. Spells cast from the ring have a save DC of 17.",
-				"You can expend 2 of the ring's charges to cast {@spell dominate monster} on a {@creature water elemental}. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.",
+				"You can expend 2 of the ring's charges to cast { dominate monster} on a {@creature water elemental}. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.",
 				"If you help slay a {@creature water elemental} while attuned to the ring, you gain access to the following additional properties:",
 				{
 					"type": "list",
 					"items": [
 						"You can breathe underwater and have a swimming speed equal to your walking speed.",
-						"You can cast the following spells from the ring, expending the necessary number of charges: {@spell create or destroy water} (1 charge), {@spell control water} (3 charges), {@spell ice storm} (2 charges), or {@spell wall of ice} (3 charges)."
+						"You can cast the following spells from the ring, expending the necessary number of charges: { create or destroy water} (1 charge), { control water} (3 charges), { ice storm} (2 charges), or { wall of ice} (3 charges)."
 					]
 				}
 			],
@@ -28501,8 +28501,8 @@ export const items = {
 							"type": "list",
 							"items": [
 								"You can expend 1 charge as an action and use the ring to lower the temperature in a 120-foot-radius sphere centered on a point you can see within 300 feet of you. The temperature in that area drops 20 degrees per minute, to a minimum of -30 degrees Fahrenheit. Frost and ice begin to form on surfaces once the temperature drops below 32 degrees. This effect is permanent unless you use the ring to end it as an action, at which point the temperature in the area returns to normal at a rate of 10 degrees per minute.",
-								"You can cast one of the following spells from the ring (spell save DC 17) by expending the necessary number of charges: {@spell Bigby's hand} (2 charges; the hand is made of ice, is immune to cold damage, and deals bludgeoning damage instead of force damage as a clenched fist), {@spell cone of cold} (2 charges), flesh to ice (3 charges; as {@spell flesh to stone} except that the target turns to solid ice with the density and durability of stone), {@spell ice storm} (2 charges), {@spell Otiluke's freezing sphere} (3 charges), {@spell sleet storm} (1 charge), {@spell spike growth} (1 charge; the spikes are made of ice), or {@spell wall of ice} (2 charges).",
-								"You can expend the necessary number of charges as an action and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can't have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (your choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: {@condition charmed}, {@condition exhaustion}, {@condition frightened}, {@condition paralyzed}, {@condition petrified}, and {@condition poisoned}. The ice creature obeys only its creator's commands. The ice object or creature appears in an unoccupied space within 60 feet of you. It melts into a pool of normal water after 24 hours or when it drops to 0 hit points. In extreme heat, it loses 5 ({@dice 1d10}) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary."
+								"You can cast one of the following spells from the ring (spell save DC 17) by expending the necessary number of charges: { Bigby's hand} (2 charges; the hand is made of ice, is immune to cold damage, and deals bludgeoning damage instead of force damage as a clenched fist), { cone of cold} (2 charges), flesh to ice (3 charges; as { flesh to stone} except that the target turns to solid ice with the density and durability of stone), { ice storm} (2 charges), { Otiluke's freezing sphere} (3 charges), { sleet storm} (1 charge), { spike growth} (1 charge; the spikes are made of ice), or { wall of ice} (2 charges).",
+								"You can expend the necessary number of charges as an action and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can't have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (your choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: {charmed}, {exhaustion}, {frightened}, {paralyzed}, {petrified}, and {poisoned}. The ice creature obeys only its creator's commands. The ice object or creature appears in an unoccupied space within 60 feet of you. It melts into a pool of normal water after 24 hours or when it drops to 0 hit points. In extreme heat, it loses 5 ({@dice 1d10}) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary."
 							]
 						}
 					]
@@ -28545,7 +28545,7 @@ export const items = {
 			"reqAttune": true,
 			"entries": [
 				"While wearing this ring, you can use an action to speak its command word. When you do so, you can see into and through solid matter for 1 minute. This vision has a radius of 30 feet. To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead.",
-				"Whenever you use the ring again before taking a long rest, you must succeed on a DC 15 Constitution saving throw or gain one level of {@condition exhaustion}."
+				"Whenever you use the ring again before taking a long rest, you must succeed on a DC 15 Constitution saving throw or gain one level of {exhaustion}."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -28579,11 +28579,11 @@ export const items = {
 					"items": [
 						"The robe lets you see in all directions, and you have advantage on Wisdom ({@skill Perception}) checks that rely on sight.",
 						"You have {@sense darkvision} out to a range of 120 feet.",
-						"You can see {@condition invisible} creatures and objects, as well as see into the Ethereal Plane, out to a range of 120 feet."
+						"You can see {invisible} creatures and objects, as well as see into the Ethereal Plane, out to a range of 120 feet."
 					]
 				},
 				"The eyes on the robe can't be closed or averted. Although you can close or avert your own eyes, you are never considered to be doing so while wearing this robe.",
-				"A {@spell light} spell cast on the robe or a {@spell daylight} spell cast within 5 feet of the robe causes you to be {@condition blinded} for 1 minute. At the end of each of your turns, you can make a Constitution saving throw (DC 11 for {@spell light} or DC 15 for {@spell daylight}), ending the blindness on a success."
+				"A { light} spell cast on the robe or a { daylight} spell cast within 5 feet of the robe causes you to be {blinded} for 1 minute. At the end of each of your turns, you can make a Constitution saving throw (DC 11 for { light} or DC 15 for { daylight}), ending the blindness on a success."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -28603,7 +28603,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This robe has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While you wear it, you can use an action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Creatures that can see you have disadvantage on attack rolls against you. In addition, any creature in the bright light that can see you when the robe's power is activated must succeed on a DC 15 Wisdom saving throw or become {@condition stunned} until the effect ends."
+				"This robe has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While you wear it, you can use an action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Creatures that can see you have disadvantage on attack rolls against you. In addition, any creature in the bright light that can see you when the robe's power is activated must succeed on a DC 15 Wisdom saving throw or become {stunned} until the effect ends."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -28633,7 +28633,7 @@ export const items = {
 			"bonusSavingThrow": "+1",
 			"entries": [
 				"This black or dark blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.",
-				"Six stars, located on the robe's upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to cast {@spell magic missile} as a 5th-level spell. Daily at dusk, {@dice 1d6} removed stars reappear on the robe.",
+				"Six stars, located on the robe's upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to cast { magic missile} as a 5th-level spell. Daily at dusk, {@dice 1d6} removed stars reappear on the robe.",
 				"While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space."
 			],
 			"attachedSpells": [
@@ -28849,14 +28849,14 @@ export const items = {
 					"name": "Spells",
 					"type": "entries",
 					"entries": [
-						"While holding the rod, you can use an action to cast one of the following spells from it: {@spell detect evil and good}, {@spell detect magic}, {@spell detect poison and disease}, or {@spell see invisibility}."
+						"While holding the rod, you can use an action to cast one of the following spells from it: { detect evil and good}, { detect magic}, { detect poison and disease}, or { see invisibility}."
 					]
 				},
 				{
 					"name": "Protective Aura",
 					"type": "entries",
 					"entries": [
-						"As an action, you can plant the haft end of the rod in the ground, whereupon the rod's head sheds bright light in a 60-foot radius and dim light for an additional 60 feet. While in that bright light, you and any creature that is friendly to you gain a +1 bonus to AC and saving throws and can sense the location of any {@condition invisible} hostile creature that is also in the bright light.",
+						"As an action, you can plant the haft end of the rod in the ground, whereupon the rod's head sheds bright light in a 60-foot radius and dim light for an additional 60 feet. While in that bright light, you and any creature that is friendly to you gain a +1 bonus to AC and saving throws and can sense the location of any {invisible} hostile creature that is also in the bright light.",
 						"The rod's head stops glowing and the effect ends after 10 minutes, or when a creature uses an action to pull the rod from the ground. This property can't be used again until the next dawn."
 					]
 				}
@@ -28901,21 +28901,21 @@ export const items = {
 					"name": "Drain Life",
 					"type": "entries",
 					"entries": [
-						"When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failure, the target rakes an extra {@damage 4d6} necrotic damage, and you regain a number of hit points equal to half that necrotic damage. This property can't be used again until the next dawn."
+						"When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failure, the target rakes an extra 4d6} necrotic damage, and you regain a number of hit points equal to half that necrotic damage. This property can't be used again until the next dawn."
 					]
 				},
 				{
 					"name": "Paralyze",
 					"type": "entries",
 					"entries": [
-						"When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Strength saving throw. On a failure, the target is {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. This property can't be used again until the next dawn."
+						"When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Strength saving throw. On a failure, the target is {paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. This property can't be used again until the next dawn."
 					]
 				},
 				{
 					"name": "Terrify",
 					"type": "entries",
 					"entries": [
-						"While holding the rod, you can use an action to force each creature you can see within 30 feet of you to make a DC 17 Wisdom saving throw. On a failure, a target is {@condition frightened} of you for 1 minute. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This property can't be used again until the next dawn."
+						"While holding the rod, you can use an action to force each creature you can see within 30 feet of you to make a DC 17 Wisdom saving throw. On a failure, a target is {frightened} of you for 1 minute. A {frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This property can't be used again until the next dawn."
 					]
 				}
 			],
@@ -28948,7 +28948,7 @@ export const items = {
 			"rechargeAmount": 1,
 			"charges": 5,
 			"entries": [
-				"The rod has 5 charges. While you hold it, you can use an action to cast one of the following spells from it: {@spell heal} (expends 1 charge) or {@spell resurrection} (expends 5 charges).",
+				"The rod has 5 charges. While you hold it, you can use an action to cast one of the following spells from it: { heal} (expends 1 charge) or { resurrection} (expends 5 charges).",
 				"The rod regains 1 expended charge daily at dawn. If the rod is reduced to 0 charges, roll a {@dice d20}. On a 1, the rod disappears in a burst of radiance."
 			],
 			"attachedSpells": [
@@ -28973,7 +28973,7 @@ export const items = {
 			"charges": 3,
 			"entries": [
 				"This adamantine rod is tipped with a glowing crystalline eye. The rod has 3 charges and regains all its expended charges daily at dawn.",
-				"When a creature you can see within 60 feet of you damages you while you are holding this rod, you can use your reaction to expend 1 of the rod's charges to force the creature to make a DC 13 Dexterity saving throw. The creature takes {@damage 2d10} lightning damage on a failed save, or half as much damage on a successful one."
+				"When a creature you can see within 60 feet of you damages you while you are holding this rod, you can use your reaction to expend 1 of the rod's charges to force the creature to make a DC 13 Dexterity saving throw. The creature takes 2d10} lightning damage on a failed save, or half as much damage on a successful one."
 			]
 		},
 		{
@@ -28987,7 +28987,7 @@ export const items = {
 			"reqAttune": true,
 			"weight": 2,
 			"entries": [
-				"You can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be {@condition charmed} by you for 8 hours. While {@condition charmed} in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be {@condition charmed} in this way. The rod can't be used again until the next dawn."
+				"You can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be {charmed} by you for 8 hours. While {charmed} in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be {charmed} in this way. The rod can't be used again until the next dawn."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -29025,7 +29025,7 @@ export const items = {
 			"charges": 10,
 			"entries": [
 				"The {@creature fire giant} Duke Zalto hired a wizard to craft several of these adamantine rods. Each measures 4 feet long, weighs 100 pounds, and is sized to fit comfortably in a {@creature fire giant||fire giant's} hand. The rod has two prongs at one end and a molded handle grip on the opposite end.",
-				"The rod has 10 charges and regains {@dice 1d6 + 4} of its expended charges daily at dawn. As an action, you can grasp it by the handle and expend 1 charge to cast the {@spell locate object} spell from it. When the rod is used to detect objects made of adamantine, such as fragments of the Vonindod construct, its range increases to 10 miles."
+				"The rod has 10 charges and regains {@dice 1d6 + 4} of its expended charges daily at dawn. As an action, you can grasp it by the handle and expend 1 charge to cast the { locate object} spell from it. When the rod is used to detect objects made of adamantine, such as fragments of the Vonindod construct, its range increases to 10 miles."
 			],
 			"attachedSpells": [
 				"locate object"
@@ -29063,8 +29063,8 @@ export const items = {
 			"wondrous": true,
 			"weight": 3,
 			"entries": [
-				"This rope is 30 feet long and weighs 3 pounds. If you hold one end of the rope and use an action to speak its command word, the other end darts forward to entangle a creature you can see within 20 feet of you. The target must succeed on a DC 15 Dexterity saving throw or become {@condition restrained}.",
-				"You can release the creature by using a bonus action to speak a second command word. A target {@condition restrained} by the rope can use an action to make a DC 15 Strength or Dexterity check (target's choice). On a success, the creature is no longer {@condition restrained} by the rope.",
+				"This rope is 30 feet long and weighs 3 pounds. If you hold one end of the rope and use an action to speak its command word, the other end darts forward to entangle a creature you can see within 20 feet of you. The target must succeed on a DC 15 Dexterity saving throw or become {restrained}.",
+				"You can release the creature by using a bonus action to speak a second command word. A target {restrained} by the rope can use an action to make a DC 15 Strength or Dexterity check (target's choice). On a success, the creature is no longer {restrained} by the rope.",
 				"The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed."
 			],
 			"lootTables": [
@@ -29164,7 +29164,7 @@ export const items = {
 			"wondrous": true,
 			"focus": true,
 			"entries": [
-				"Etched with eldritch runes, this 1-inch-diameter ruby allows you to use a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} as a spellcasting focus for your spells. For this property to work, you must attach the ruby to the weapon by pressing the ruby against it for at least 10 minutes. Thereafter, the ruby can't be removed unless you detach it as an action or the weapon is destroyed. Not even an {@spell antimagic field} causes it to fall off. The ruby does fall off the weapon if your attunement to the ruby ends."
+				"Etched with eldritch runes, this 1-inch-diameter ruby allows you to use a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} as a spellcasting focus for your spells. For this property to work, you must attach the ruby to the weapon by pressing the ruby against it for at least 10 minutes. Thereafter, the ruby can't be removed unless you detach it as an action or the weapon is destroyed. Not even an { antimagic field} causes it to fall off. The ruby does fall off the weapon if your attunement to the ruby ends."
 			]
 		},
 		{
@@ -29239,7 +29239,7 @@ export const items = {
 					"type": "entries",
 					"name": "Ruidium Corruption",
 					"entries": [
-						"When you use the shield's Psychic Reflection property, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of {@condition exhaustion}. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save."
+						"When you use the shield's Psychic Reflection property, you must make a DC 20 Charisma saving throw. On a failed save, you gain 1 level of {exhaustion}. If you are not already suffering from ruidium corruption, you become corrupted when you fail this save."
 					]
 				},
 				{
@@ -29271,7 +29271,7 @@ export const items = {
 									"type": "list",
 									"items": [
 										"The weapon's bonus to attack and damage rolls increases to +2, and the extra piercing damage dealt by the weapon increases to {@dice 2d8}.",
-										"When you hurl the spear and speak a command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a creature you can see within 120 feet of you. Each creature in the line, excluding you, must make a DC 15 Dexterity saving throw, taking {@damage 8d6} lightning damage on a failed save, or half as much damage on a successful one. Ruin's Wake then returns to your hand. This property can't be used again until the next dawn."
+										"When you hurl the spear and speak a command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a creature you can see within 120 feet of you. Each creature in the line, excluding you, must make a DC 15 Dexterity saving throw, taking 8d6} lightning damage on a failed save, or half as much damage on a successful one. Ruin's Wake then returns to your hand. This property can't be used again until the next dawn."
 									]
 								}
 							]
@@ -29333,7 +29333,7 @@ export const items = {
 							"type": "list",
 							"items": [
 								"You can speak, read, and write Abyssal and Orc.",
-								"You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra {@damage 1d8} piercing damage to any target it hits. Immediately after you make a ranged attack with this weapon, it flies back to your hand.",
+								"You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals an extra 1d8} piercing damage to any target it hits. Immediately after you make a ranged attack with this weapon, it flies back to your hand.",
 								"As a reaction when you are hit by a melee attack, you can make a melee attack with Ruin's Wake with advantage against the attacker. You can't use this property again until you finish a short or long rest."
 							]
 						}
@@ -29406,27 +29406,27 @@ export const items = {
 			"entries": [
 				"Ruinblade is a unique weapon possessed by {@creature Moghadam|IMR}, the architect of the Tomb of Horrors. A symbol of his authority, Moghadam carries the weapon during the time frame of the adventure to intimidate the tomb's workers. (In later years, after {@creature Acererak|ToA} trapped Moghadam in the completed tomb as an undead archwraith, Moghadam was able to use the weapon as his own phylactery.)",
 				"A small jade version of the green devil face of the Tomb of Horrors is fashioned into the hilt of the weapon, with the blade extending from its open mouth. The blade always appears ruined and rusting, and causes its surroundings to appear reflected in the blade as if in a state of decay.",
-				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit an undead creature with it, the attack deals an extra {@damage 1d8} force damage.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit an undead creature with it, the attack deals an extra 1d8} force damage.",
 				"In addition, the weapon has the following properties:",
 				{
 					"type": "entries",
 					"name": "Blighted Ruin",
 					"entries": [
-						"You can cast the {@spell blight} spell from the weapon (DC 15). Once used, this property of the weapon can't be used until the next dawn."
+						"You can cast the { blight} spell from the weapon (DC 15). Once used, this property of the weapon can't be used until the next dawn."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Destructive Ruin",
 					"entries": [
-						"You can cast the {@spell disintegrate} spell from the weapon, but can target only a nonmagical object or a creation of magical force. Once used, this property of the weapon can't be used until dawn seven days later."
+						"You can cast the { disintegrate} spell from the weapon, but can target only a nonmagical object or a creation of magical force. Once used, this property of the weapon can't be used until dawn seven days later."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unwilling to part with the weapon.",
+						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a { remove curse} spell or similar magic, you are unwilling to part with the weapon.",
 						"The weapon must take direct part in the destruction of 1,000 gp worth of materials and objects every seven days, or a conflict arises between you and the weapon at the end of the seventh day."
 					]
 				},
@@ -29461,7 +29461,7 @@ export const items = {
 				"A fiery red crystal the size of a human palm.",
 				"Once per day as a bonus action, a villain can activate the ruinstone to undo one deed they have performed. The possibilities here are broad, but in combat it's simplest to allow them the opportunity to \"rewind\" one action and take it again, or to reroll a failed saving throw (if it can still take actions).",
 				"Each use of the artifact has a terrible side effect: someone known to the wielder is also erased from reality. After the villain uses the ruinstone, roll a {@dice d20}: on a 5-20, one of their allies disintegrates, on an 1-4, one of the player characters disintegrates.",
-				"If a creature bound its soul to the ruinstone in the \"Thalivar's Beacon\" quest, the artifact explodes when used and the creature who is bound to it disintegrates, disappearing from reality and can only be brought back with a {@spell wish} spell, or similar magic."
+				"If a creature bound its soul to the ruinstone in the \"Thalivar's Beacon\" quest, the artifact explodes when used and the creature who is bound to it disintegrates, disappearing from reality and can only be brought back with a { wish} spell, or similar magic."
 			]
 		},
 		{
@@ -29472,7 +29472,7 @@ export const items = {
 			"rarity": "unknown",
 			"value": 5000,
 			"entries": [
-				"Any creature that ingests a ryath root gains {@dice 2d4} temporary hit points. A creature that consumes more than one ryath root in a 24-hour period must succeed on a DC 13 Constitution saving throw or suffer the {@condition poisoned} condition for 1 hour."
+				"Any creature that ingests a ryath root gains {@dice 2d4} temporary hit points. A creature that consumes more than one ryath root in a 24-hour period must succeed on a DC 13 Constitution saving throw or suffer the {poisoned} condition for 1 hour."
 			]
 		},
 		{
@@ -29566,7 +29566,7 @@ export const items = {
 				"Markovia had long considered Strahd a mad tyrant, but only after his transformation into a {@creature vampire} did she dare to challenge him. As she rallied her followers and prepared to march on Castle Ravenloft, Strahd sent a group of {@creature vampire spawn} to her abbey. They confronted Markovia and were destroyed to a one.",
 				"Suffused with confidence born of a righteous victory, Markovia advanced on Castle Ravenloft. A great battle raged from the catacombs to the parapets. In the end, Markovia never returned to Barovia, and Strahd long afterward walked with a limp and a grimace of pain. It is said that he trapped Markovia in a crypt beneath his castle, and her remains linger there yet.",
 				"The essence of Markovia's saintliness passed partly into her bones as the rest of her body decomposed. Her remaining thighbone is imbued with power that inflicts grievous injury on the undead.",
-				"{@item Mace of Disruption}. When you hit a fiend or an undead with this magic weapon, that creature takes an extra {@damage 2d6} radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes {@condition frightened} of you until the end of your next turn.",
+				"{@item Mace of Disruption}. When you hit a fiend or an undead with this magic weapon, that creature takes an extra 2d6} radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes {frightened} of you until the end of your next turn.",
 				"While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
 			],
 			"hasFluffImages": true
@@ -29597,7 +29597,7 @@ export const items = {
 			"weight": 6,
 			"ac": 2,
 			"entries": [
-				"This crystalline blue shield is fashioned from a sapphire dragon's scale and is created to aid in rooting out the influence of Aberrations. While wielding the shield, you have resistance to psychic and thunder damage. Also, when you take damage from a creature that is within 5 feet of you, you can use your reaction to deal {@damage 2d6} thunder damage to that creature.",
+				"This crystalline blue shield is fashioned from a sapphire dragon's scale and is created to aid in rooting out the influence of Aberrations. While wielding the shield, you have resistance to psychic and thunder damage. Also, when you take damage from a creature that is within 5 feet of you, you can use your reaction to deal 2d6} thunder damage to that creature.",
 				"As an action, you can use the shield to help you locate Aberrations until the end of your next turn. If any Aberrations are within 1 mile of you, the shield emits a low humming tone for a moment, and you know the direction of all Aberrations within that range. Once this property is used, it can't be used again until the next dawn."
 			]
 		},
@@ -29723,8 +29723,8 @@ export const items = {
 				{
 					"type": "list",
 					"items": [
-						"You control the shadow's movements and can make the shadow move up to 30 feet across a solid or liquid surface, in any direction you choose (including along vertical surfaces), provided it remains within your sight at all times. The shadow is harmless and unable to be harmed, and it is {@condition invisible} in darkness. It can't speak, and it doesn't require air, sleep, or nourishment.",
-						"You can relinquish control of the shadow, at which point it becomes autonomous and behaves as the DM wishes. It uses the {@creature shadow} stat block in the Monster Manual, but its creature type is Fey instead of Undead. A creature whose Strength is reduced to 0 by this shadow's Strength Drain attack does not die but falls {@condition unconscious} instead. The creature regains consciousness and all its Strength after finishing a short or long rest."
+						"You control the shadow's movements and can make the shadow move up to 30 feet across a solid or liquid surface, in any direction you choose (including along vertical surfaces), provided it remains within your sight at all times. The shadow is harmless and unable to be harmed, and it is {invisible} in darkness. It can't speak, and it doesn't require air, sleep, or nourishment.",
+						"You can relinquish control of the shadow, at which point it becomes autonomous and behaves as the DM wishes. It uses the {@creature shadow} stat block in the Monster Manual, but its creature type is Fey instead of Undead. A creature whose Strength is reduced to 0 by this shadow's Strength Drain attack does not die but falls {unconscious} instead. The creature regains consciousness and all its Strength after finishing a short or long rest."
 					]
 				},
 				"A creature whose shadow has detached from it is cursed. If a shadowless creature is subjected to any spell that ends a curse, or if its detached shadow is reduced to 0 hit points, the detached shadow disappears, and the creature regains its normal shadow instantly."
@@ -29746,7 +29746,7 @@ export const items = {
 				{
 					"type": "list",
 					"items": [
-						"The armor improves your combat readiness, granting you a +5 bonus to initiative as long as you aren't {@condition incapacitated}.",
+						"The armor improves your combat readiness, granting you a +5 bonus to initiative as long as you aren't {incapacitated}.",
 						"The armor doesn't impose disadvantage on your Dexterity ({@skill Stealth}) checks.",
 						"The armor doesn't impose disadvantage on saving throws made to resist the effects of extreme heat (see chapter 5 of the Dungeon Master's Guide)."
 					]
@@ -29755,7 +29755,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This armor is cursed. Whenever you don or doff it, you must make a DC 15 Constitution saving throw, taking 100 ({@damage 10d10 + 45}) poison damage on a failed save, or half as much damage on a successful one. Only a {@spell wish} spell can remove the armor's curse."
+						"This armor is cursed. Whenever you don or doff it, you must make a DC 15 Constitution saving throw, taking 100 (10d10 + 45}) poison damage on a failed save, or half as much damage on a successful one. Only a { wish} spell can remove the armor's curse."
 					]
 				}
 			]
@@ -29799,8 +29799,8 @@ export const items = {
 			],
 			"wondrous": true,
 			"entries": [
-				"You can use this pen to write on any surface. You decide whether the writing is visible or {@condition invisible}, but the writing is always visible to a person with the Mark of Scribing.",
-				"Any creature with the Mark of Scribing can use an action to touch the {@condition invisible} writing, making it visible to all.",
+				"You can use this pen to write on any surface. You decide whether the writing is visible or {invisible}, but the writing is always visible to a person with the Mark of Scribing.",
+				"Any creature with the Mark of Scribing can use an action to touch the {invisible} writing, making it visible to all.",
 				"If you use the pen to write on a creature that isn't a construct, the writing fades after 7 days."
 			]
 		},
@@ -29812,7 +29812,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents aberrations from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an aberration would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Using an action to read the scroll encloses you in an {invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents aberrations from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an aberration would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
 		},
 		{
@@ -29823,7 +29823,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents beasts from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a beast would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Using an action to read the scroll encloses you in an {invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents beasts from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a beast would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
 		},
 		{
@@ -29834,7 +29834,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents celestials from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a celestial would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Using an action to read the scroll encloses you in an {invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents celestials from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a celestial would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
 		},
 		{
@@ -29845,7 +29845,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents elementals from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an elemental would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Using an action to read the scroll encloses you in an {invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents elementals from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an elemental would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
 		},
 		{
@@ -29856,7 +29856,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fey from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fey would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Using an action to read the scroll encloses you in an {invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fey from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fey would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
 		},
 		{
@@ -29867,7 +29867,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fiends from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fiend would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Using an action to read the scroll encloses you in an {invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fiends from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fiend would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
 		},
 		{
@@ -29878,7 +29878,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents plants from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a plant would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Using an action to read the scroll encloses you in an {invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents plants from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a plant would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
 		},
 		{
@@ -29889,7 +29889,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "rare",
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents undead from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an undead would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Using an action to read the scroll encloses you in an {invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents undead from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an undead would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
 		},
 		{
@@ -29910,7 +29910,7 @@ export const items = {
 			"rarity": "legendary",
 			"entries": [
 				"By using an action to read the scroll, you cause a comet to fall from the sky and crash to the ground at a point you can see up to 1 mile away from you. You must be outdoors when you use the scroll, or nothing happens and the scroll is wasted.",
-				"The comet creates a 50-foot-deep, 500-foot-radius crater on impact. Any creature in that radius must make a DC 20 Dexterity saving throw, taking {@damage 30d10} force damage on a failed saving throw, or half as much damage on a successful one. All structures in the crater are destroyed, as are all nonmagical objects that aren't being worn or held."
+				"The comet creates a 50-foot-deep, 500-foot-radius crater on impact. Any creature in that radius must make a DC 20 Dexterity saving throw, taking 30d10} force damage on a failed saving throw, or half as much damage on a successful one. All structures in the crater are destroyed, as are all nonmagical objects that aren't being worn or held."
 			]
 		},
 		{
@@ -29942,7 +29942,7 @@ export const items = {
 			"entries": [
 				"This small dart is decorated with designs like windy spirals that span the length of its shaft.",
 				"When you whisper the word \"seek\" and hurl this dart, it seeks out a target of your choice within 120 feet of you. You must have seen the target before, but you don't need to see it now. If the target isn't within range or if there is no clear path to it, the dart falls to the ground, its magic spent and wasted. Otherwise, elemental winds guide the dart instantly through the air to the target. The dart can pass though openings as narrow as 1 inch wide and can change direction to fly around corners.",
-				"When the dart reaches its target, the target must succeed on a DC 16 Dexterity saving throw or take {@damage 1d4} piercing damage and {@damage 3d4} lightning damage. The dart's magic is then spent, and it becomes an ordinary dart."
+				"When the dart reaches its target, the target must succeed on a DC 16 Dexterity saving throw or take 1d4} piercing damage and 3d4} lightning damage. The dart's magic is then spent, and it becomes an ordinary dart."
 			]
 		},
 		{
@@ -29966,7 +29966,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring, adorned with the symbol of Selesnya, allows you to cast {@spell charm person}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Selesnya's recognition and favor.",
+				"This ring, adorned with the symbol of Selesnya, allows you to cast { charm person}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Selesnya's recognition and favor.",
 				"A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13)."
 			],
 			"attachedSpells": [
@@ -30074,8 +30074,8 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the {@spell sending} spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.",
-				"Once {@spell sending} is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical."
+				"Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the { sending} spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.",
+				"Once { sending} is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -30129,7 +30129,7 @@ export const items = {
 			"value": 20000,
 			"poison": true,
 			"entries": [
-				"This poison must be harvested from a dead or {@condition incapacitated} {@creature giant poisonous snake}. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one."
+				"This poison must be harvested from a dead or {incapacitated} {@creature giant poisonous snake}. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 10 (3d6}) poison damage on a failed save, or half as much damage on a successful one."
 			],
 			"poisonTypes": [
 				"injury"
@@ -30153,7 +30153,7 @@ export const items = {
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"This single-edged magic sword is made from the scrimshawed fang of a giant serpent. Its hilt changes shape to adjust to the grasp of any creature that picks it up. The weapon deals an extra {@damage 1d10} poison damage to any target it hits."
+				"This single-edged magic sword is made from the scrimshawed fang of a giant serpent. Its hilt changes shape to adjust to the grasp of any creature that picks it up. The weapon deals an extra 1d10} poison damage to any target it hits."
 			]
 		},
 		{
@@ -30287,7 +30287,7 @@ export const items = {
 					"name": "Winters Howl",
 					"type": "entries",
 					"entries": [
-						"As an action, you can cast {@spell sleet storm} (spell save DC 17). You regain this ability after you finish a short or long rest."
+						"As an action, you can cast { sleet storm} (spell save DC 17). You regain this ability after you finish a short or long rest."
 					]
 				},
 				{
@@ -30355,7 +30355,7 @@ export const items = {
 					"type": "entries",
 					"name": "Freezing Bolt (Complex Property)",
 					"entries": [
-						"As an action, you scribe this rune using water onto a creature within your reach as you expend a spell slot. The rune freezes in place, and the creature must make a Constitution saving throw (DC 12 + the level of the expended spell slot). On a failure, the creature takes {@damage 2d8} cold damage plus {@damage 1d8} cold damage per level of the expended spell slot, and its speed is reduced to 0 until the end of your next turn. On a successful saving throw, the creature takes half as much damage and its speed is not affected."
+						"As an action, you scribe this rune using water onto a creature within your reach as you expend a spell slot. The rune freezes in place, and the creature must make a Constitution saving throw (DC 12 + the level of the expended spell slot). On a failure, the creature takes 2d8} cold damage plus 1d8} cold damage per level of the expended spell slot, and its speed is reduced to 0 until the end of your next turn. On a successful saving throw, the creature takes half as much damage and its speed is not affected."
 					]
 				},
 				{
@@ -30371,7 +30371,7 @@ export const items = {
 					"type": "entries",
 					"name": "Winter's Howl (Complex Property)",
 					"entries": [
-						"While you are attuned to this rune, you can cast {@spell sleet storm} as an action. You regain this ability after a short or long rest."
+						"While you are attuned to this rune, you can cast { sleet storm} as an action. You regain this ability after a short or long rest."
 					]
 				}
 			]
@@ -30405,7 +30405,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"Attuning to this item extends its curse to you. You remain cursed until you are targeted by a {@spell remove curse} spell or similar magic, or until the shard is reattached to Xeluan's {@condition petrified} heart.",
+						"Attuning to this item extends its curse to you. You remain cursed until you are targeted by a { remove curse} spell or similar magic, or until the shard is reattached to Xeluan's {petrified} heart.",
 						"The shard's curse causes misfortune to befall you. When you roll a 1 on an attack roll, an ability check, or a saving throw, roll on the Shard Misfortunes table to determine the misfortune. For as long as this misfortune lasts, no other shard misfortunes befall you."
 					]
 				},
@@ -30422,19 +30422,19 @@ export const items = {
 					"rows": [
 						[
 							"1",
-							"You accidentally cut yourself with the shard and are {@condition poisoned} until the next dawn."
+							"You accidentally cut yourself with the shard and are {poisoned} until the next dawn."
 						],
 						[
 							"2",
-							"You experience a vision of an ancient calamity\u2014a beautiful city threatened by crumbling mountains and erupting volcanoes\u2014and are {@condition stunned} until the end of your next turn."
+							"You experience a vision of an ancient calamity\u2014a beautiful city threatened by crumbling mountains and erupting volcanoes\u2014and are {stunned} until the end of your next turn."
 						],
 						[
 							"3",
-							"For a few seconds, the ground shakes under you. You and each creature within 10 feet of you must succeed on a DC 16 Dexterity saving throw or be knocked {@condition prone}."
+							"For a few seconds, the ground shakes under you. You and each creature within 10 feet of you must succeed on a DC 16 Dexterity saving throw or be knocked {prone}."
 						],
 						[
 							"4",
-							"The shard releases three glowing darts of magical force that target one random creature within 30 feet of you. If no such target exists, you become the target. Each dart hits automatically and deals 3 ({@damage 1d4 + 1}) force damage to the target."
+							"The shard releases three glowing darts of magical force that target one random creature within 30 feet of you. If no such target exists, you become the target. Each dart hits automatically and deals 3 (1d4 + 1}) force damage to the target."
 						],
 						[
 							"5",
@@ -30466,14 +30466,14 @@ export const items = {
 					"name": "Rift Step",
 					"entries": [
 						"As a bonus action, while wearing or holding the shard solitaire, you can teleport yourself, along with anything you're wearing or carrying, to an unoccupied space you can see within 30 feet of yourself.",
-						"When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a DC 16 Constitution saving throw or take {@damage 3d10} force damage immediately after you teleport."
+						"When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a DC 16 Constitution saving throw or take 3d10} force damage immediately after you teleport."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Spellcasting",
 					"entries": [
-						"The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The black sapphire shard solitaire can be used to cast the following spells: {@spell banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), {@spell mirror image} (1 charge), {@spell blight} (3 charges), {@spell finger of death} (6 charges)."
+						"The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The black sapphire shard solitaire can be used to cast the following spells: { banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), { mirror image} (1 charge), { blight} (3 charges), { finger of death} (6 charges)."
 					]
 				}
 			],
@@ -30502,14 +30502,14 @@ export const items = {
 					"name": "Rift Step",
 					"entries": [
 						"As a bonus action, while wearing or holding the shard solitaire, you can teleport yourself, along with anything you're wearing or carrying, to an unoccupied space you can see within 30 feet of yourself.",
-						"When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a DC 16 Constitution saving throw or take {@damage 3d10} force damage immediately after you teleport."
+						"When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a DC 16 Constitution saving throw or take 3d10} force damage immediately after you teleport."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Spellcasting",
 					"entries": [
-						"The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The diamond shard solitaire can be used to cast the following spells: {@spell banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), {@spell mirror image} (1 charge), {@spell ice storm} (3 charges), {@spell simulacrum} (6 charges; the duplicate created by the spell has the same number of hit points as the creature it imitates)."
+						"The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The diamond shard solitaire can be used to cast the following spells: { banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), { mirror image} (1 charge), { ice storm} (3 charges), { simulacrum} (6 charges; the duplicate created by the spell has the same number of hit points as the creature it imitates)."
 					]
 				}
 			],
@@ -30538,14 +30538,14 @@ export const items = {
 					"name": "Rift Step",
 					"entries": [
 						"As a bonus action, while wearing or holding the shard solitaire, you can teleport yourself, along with anything you're wearing or carrying, to an unoccupied space you can see within 30 feet of yourself.",
-						"When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a DC 16 Constitution saving throw or take {@damage 3d10} force damage immediately after you teleport."
+						"When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a DC 16 Constitution saving throw or take 3d10} force damage immediately after you teleport."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Spellcasting",
 					"entries": [
-						"The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The jacinth shard solitaire can be used to cast the following spells: {@spell banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), {@spell mirror image} (1 charge), {@spell fireball} (2 charges), {@spell fire storm} (6 charges)."
+						"The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The jacinth shard solitaire can be used to cast the following spells: { banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), { mirror image} (1 charge), { fireball} (2 charges), { fire storm} (6 charges)."
 					]
 				}
 			],
@@ -30574,14 +30574,14 @@ export const items = {
 					"name": "Rift Step",
 					"entries": [
 						"As a bonus action, while wearing or holding the shard solitaire, you can teleport yourself, along with anything you're wearing or carrying, to an unoccupied space you can see within 30 feet of yourself.",
-						"When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a DC 16 Constitution saving throw or take {@damage 3d10} force damage immediately after you teleport."
+						"When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a DC 16 Constitution saving throw or take 3d10} force damage immediately after you teleport."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Spellcasting",
 					"entries": [
-						"The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The rainbow pearl shard solitaire can be used to cast the following spells: {@spell banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), {@spell mirror image} (1 charge), {@spell prismatic spray} (6 charges), {@spell water breathing} (2 charges)."
+						"The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The rainbow pearl shard solitaire can be used to cast the following spells: { banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), { mirror image} (1 charge), { prismatic spray} (6 charges), { water breathing} (2 charges)."
 					]
 				}
 			],
@@ -30610,14 +30610,14 @@ export const items = {
 					"name": "Rift Step",
 					"entries": [
 						"As a bonus action, while wearing or holding the shard solitaire, you can teleport yourself, along with anything you're wearing or carrying, to an unoccupied space you can see within 30 feet of yourself.",
-						"When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a DC 16 Constitution saving throw or take {@damage 3d10} force damage immediately after you teleport."
+						"When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a DC 16 Constitution saving throw or take 3d10} force damage immediately after you teleport."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Spellcasting",
 					"entries": [
-						"The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The ruby shard solitaire can be used to cast the following spells: {@spell banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), {@spell mirror image} (1 charge), {@spell fly} (2 charges), {@spell teleport} (6 charges)."
+						"The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save DC 16). The ruby shard solitaire can be used to cast the following spells: { banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), { mirror image} (1 charge), { fly} (2 charges), { teleport} (6 charges)."
 					]
 				}
 			],
@@ -30657,7 +30657,7 @@ export const items = {
 			"type": "OTH",
 			"rarity": "unknown",
 			"entries": [
-				"A shatterstick is a nonmagical, 12-inch-long, 4-pound stake made of blue-tinged infernal iron mined on Cania, the eighth layer of the Nine Hells. When embedded in earth or pounded into solid rock, the stake emits a seismic vibration in a 20-foot radius centered on itself for 1 minute, shaking the ground in that area for the duration. When the effects ends, the shatterstick breaks apart, becoming useless, and all structures within 20 feet of it take 35 ({@damage 10d6}) bludgeoning damage."
+				"A shatterstick is a nonmagical, 12-inch-long, 4-pound stake made of blue-tinged infernal iron mined on Cania, the eighth layer of the Nine Hells. When embedded in earth or pounded into solid rock, the stake emits a seismic vibration in a 20-foot radius centered on itself for 1 minute, shaking the ground in that area for the duration. When the effects ends, the shatterstick breaks apart, becoming useless, and all structures within 20 feet of it take 35 (10d6}) bludgeoning damage."
 			]
 		},
 		{
@@ -30704,8 +30704,8 @@ export const items = {
 			],
 			"wondrous": true,
 			"entries": [
-				"The amulet is a 4-inch-wide disk composed of silver-framed wood, with a rune carved into its face. A {@spell detect magic} spell reveals a magical aura of enchantment around the amulet.",
-				"Every {@creature shield guardian} has an amulet magically linked to it. A shield guardian can have only one corresponding amulet, and if that amulet is destroyed, the shield guardian is {@condition incapacitated} until a replacement amulet is created.",
+				"The amulet is a 4-inch-wide disk composed of silver-framed wood, with a rune carved into its face. A { detect magic} spell reveals a magical aura of enchantment around the amulet.",
+				"Every {@creature shield guardian} has an amulet magically linked to it. A shield guardian can have only one corresponding amulet, and if that amulet is destroyed, the shield guardian is {incapacitated} until a replacement amulet is created.",
 				"A shield guardian's amulet is subject to direct attack if it isn't being worn or carried. It has AC 10, 10 hit points, and immunity to poison and psychic damage. Crafting an amulet requires 1 week and costs 1,000 gp in components.",
 				"A shield guardian's solitary focus is to protect the amulet's wearer. The amulet's wearer can command the guardian to attack its enemies or to guard the wielder against attack. If an attack threatens to injure the wearer, the construct can magically absorb the blow into its own body, even at a distance.",
 				"A humanoid that attunes to this amulet knows the distance and direction of the shield guardian, provided the amulet and the guardian are on the same plane of existence. As an action, the amulet's attuned wearer can try to reactivate the shield guardian, doing so with a successful DC 20 Intelligence ({@skill Arcana}) check. Reactivation can only be attempted while the amulet and guardian are within 10 feet of each other."
@@ -30735,7 +30735,7 @@ export const items = {
 			"ac": 2,
 			"entries": [
 				"A {@creature mind flayer} skilled at crafting magic items creates a shield of far sight by harvesting an eye from an intelligent humanoid and magically implanting it on the outer surface of a nonmagical shield. The shield becomes a magic item once the eyes is implanted, whereupon the {@creature mind flayer} can give the shield to a thrall or hang it on a wall in its lair. As long as the shield is on the same plane of existence as its creator, the {@creature mind flayer} can see through the shield's eye, which has {@sense darkvision} out to a range of 60 feet. While peering through this magical eye, the {@creature mind flayer} can use its Mind Blast action as though it were standing behind the shield.",
-				"If a shield of far sight is destroyed, the {@creature mind flayer} that created it is {@condition blinded} for {@dice 2d12} hours."
+				"If a shield of far sight is destroyed, the {@creature mind flayer} that created it is {blinded} for {@dice 2d12} hours."
 			]
 		},
 		{
@@ -30756,7 +30756,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This shield is cursed. Attuning to it curses you until you are targeted by the {@spell remove curse} spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead."
+						"This shield is cursed. Attuning to it curses you until you are targeted by the { remove curse} spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead."
 					]
 				}
 			],
@@ -30774,7 +30774,7 @@ export const items = {
 			"weight": 6,
 			"ac": 2,
 			"entries": [
-				"A {@spell detect magic} spell reveals an aura of transmutation magic around this shield, which has a minor magical property: words spoken by the shield's bearer are amplified and sound ten times louder than normal."
+				"A { detect magic} spell reveals an aura of transmutation magic around this shield, which has a minor magical property: words spoken by the shield's bearer are amplified and sound ten times louder than normal."
 			]
 		},
 		{
@@ -30804,8 +30804,8 @@ export const items = {
 							"items": [
 								"The shield has an Intelligence of 22, a Wisdom of 18, and a Charisma of 24, as well as hearing and {@sense truesight} out to a range of 120 feet.",
 								"The shield can speak, read, and understand Common and Infernal, and it can communicate telepathically with any creature it can sense within 120 feet of it. Its voice is a deep, hollow whisper.",
-								"The shield has 3 charges. You can use an action to expend 1 charge to cast {@spell fireball} or 2 charges to cast {@spell wall of fire} from the shield (save DC 21 for each). The {@spell wall of fire} spell lasts for 1 minute (no concentration required). The shield regains all expended charges daily at dawn.",
-								"Anytime during your turn, the shield can choose to radiate an aura of dread for 1 minute. (This is not a power of the shield that you control.) Any creature hostile to you that starts its turn within 20 feet of the shield must make a DC 18 Wisdom saving throw. On a failed save, the creature is {@condition frightened} until the start of its next turn. On a successful save, the creature is immune to this power of the shield for the next 24 hours. Once the shield uses this power, it can't use it again until the next dawn."
+								"The shield has 3 charges. You can use an action to expend 1 charge to cast { fireball} or 2 charges to cast { wall of fire} from the shield (save DC 21 for each). The { wall of fire} spell lasts for 1 minute (no concentration required). The shield regains all expended charges daily at dawn.",
+								"Anytime during your turn, the shield can choose to radiate an aura of dread for 1 minute. (This is not a power of the shield that you control.) Any creature hostile to you that starts its turn within 20 feet of the shield must make a DC 18 Wisdom saving throw. On a failed save, the creature is {frightened} until the start of its next turn. On a successful save, the creature is immune to this power of the shield for the next 24 hours. Once the shield uses this power, it can't use it again until the next dawn."
 							]
 						}
 					]
@@ -30823,7 +30823,7 @@ export const items = {
 					"type": "entries",
 					"name": "Freeing Gargauth",
 					"entries": [
-						"Casting {@spell dispel evil and good} on the shield has a {@chance 1|1 percent} chance of freeing the pit fiend, or automatically succeeds if the spell is cast by a {@creature solar}, a {@creature planetar}, or an archdevil. A god can release the pit fiend by touching the shield and speaking Gargauth's name. When released, Gargauth appears in a random, unoccupied space as close to the shield as possible."
+						"Casting { dispel evil and good} on the shield has a {@chance 1|1 percent} chance of freeing the pit fiend, or automatically succeeds if the spell is cast by a {@creature solar}, a {@creature planetar}, or an archdevil. A god can release the pit fiend by touching the shield and speaking Gargauth's name. When released, Gargauth appears in a random, unoccupied space as close to the shield as possible."
 					]
 				}
 			],
@@ -30860,14 +30860,14 @@ export const items = {
 					"type": "entries",
 					"name": "Deadly Rebuke",
 					"entries": [
-						"Immediately after a creature hits you with a melee attack, you can use your reaction to deal {@damage 3d6} necrotic damage to that creature."
+						"Immediately after a creature hits you with a melee attack, you can use your reaction to deal 3d6} necrotic damage to that creature."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Bane",
 					"entries": [
-						"You can cast the {@spell bane} spell from the shield (save DC 17). The spell does not require concentration and lasts for 1 minute. Once you cast the spell from the shield, you can't do so again until you finish a short or long rest."
+						"You can cast the { bane} spell from the shield (save DC 17). The spell does not require concentration and lasts for 1 minute. Once you cast the spell from the shield, you can't do so again until you finish a short or long rest."
 					]
 				},
 				{
@@ -31002,7 +31002,7 @@ export const items = {
 									"items": [
 										"The weapon's bonus to attack and damage rolls increases to +2.",
 										"The saving throw DC for the weapon's poison increases to 15.",
-										"While holding the rapier, you can use an action to cast one of the following spells from it (save DC 15): {@spell cloudkill}, {@spell darkness}, {@spell levitate}, or {@spell web}. Once a spell has been cast using the rapier, that spell can't be cast from the rapier again until the next dawn."
+										"While holding the rapier, you can use an action to cast one of the following spells from it (save DC 15): { cloudkill}, { darkness}, { levitate}, or { web}. Once a spell has been cast using the rapier, that spell can't be cast from the rapier again until the next dawn."
 									]
 								}
 							]
@@ -31074,7 +31074,7 @@ export const items = {
 								"You can speak, read, and write Abyssal, Elvish, and Undercommon.",
 								"You have {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision}, being attuned to the rapier increases the range of your {@sense darkvision} by 60 feet.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-								"You can use an action to cause poison to coat the rapier's blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or become {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition unconscious} while {@condition poisoned} in this way. The creature wakes up if it takes damage or if another creature uses its action to shake the creature awake.",
+								"You can use an action to cause poison to coat the rapier's blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or become {poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also {unconscious} while {poisoned} in this way. The creature wakes up if it takes damage or if another creature uses its action to shake the creature awake.",
 								"While carrying the rapier, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. Additionally, you can't be caught in webs of any sort and can move through webs as if they were {@quickref difficult terrain||3}."
 							]
 						}
@@ -31270,7 +31270,7 @@ export const items = {
 			"dmgType": "S",
 			"bonusWeapon": "+3",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this magic weapon. On a critical hit against a target in an astral body (as with the {@spell astral projection} spell), you can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
+				"You have a +3 bonus to attack and damage rolls made with this magic weapon. On a critical hit against a target in an astral body (as with the { astral projection} spell), you can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
 			]
 		},
 		{
@@ -31312,7 +31312,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring, adorned with the symbol of Simic, allows you to cast {@spell expeditious retreat}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Simic's recognition and favor.",
+				"This ring, adorned with the symbol of Simic, allows you to cast { expeditious retreat}. A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of Simic's recognition and favor.",
 				"A signet has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can expend 1 charge to cast the associated spell (save DC 13)."
 			],
 			"attachedSpells": [
@@ -31361,7 +31361,7 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"You can use an action to play this lyre and cast one of the following spells from it: {@spell animal friendship}, {@spell charm person}, {@spell enthrall}, {@spell suggestion}. If the spell requires a saving throw, the spell save DC is 13.",
+				"You can use an action to play this lyre and cast one of the following spells from it: { animal friendship}, { charm person}, { enthrall}, { suggestion}. If the spell requires a saving throw, the spell save DC is 13.",
 				"Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn."
 			],
 			"attachedSpells": [
@@ -31390,7 +31390,7 @@ export const items = {
 			"staff": true,
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic quarterstaff. While holding it, you gain a +1 bonus to spell attack rolls.",
-				"If a flying creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to hold the staff aloft and cause it to flare with light. The attacker has disadvantage on the attack roll, and it must succeed on a DC 15 Constitution saving throw or be {@condition blinded} until the start of its next turn."
+				"If a flying creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to hold the staff aloft and cause it to flare with light. The attacker has disadvantage on the attack roll, and it must succeed on a DC 15 Constitution saving throw or be {blinded} until the start of its next turn."
 			],
 			"hasFluffImages": true
 		},
@@ -31429,7 +31429,7 @@ export const items = {
 			"value": 5000,
 			"entries": [
 				"A sled dog (use the {@creature wolf} stat block in appendix A of the Monster Manual) costs 50 gp and can pull 360 pounds.",
-				"Sled dogs must take a short rest after pulling a sled for 1 hour; otherwise, they gain one level of {@condition exhaustion}."
+				"Sled dogs must take a short rest after pulling a sled for 1 hour; otherwise, they gain one level of {exhaustion}."
 			]
 		},
 		{
@@ -31467,15 +31467,15 @@ export const items = {
 					"rows": [
 						[
 							"1",
-							"{@b Banishment.} A creature that takes damage from this bullet must succeed on a DC 15 Charisma saving throw or be banished as though affected by the {@spell banishment} spell."
+							"{@b Banishment.} A creature that takes damage from this bullet must succeed on a DC 15 Charisma saving throw or be banished as though affected by the { banishment} spell."
 						],
 						[
 							"2",
-							"{@b Fulguration.} On a hit, this bullet deals an extra {@damage 2d8} lightning damage to its target. All other creatures within 10 feet of the target must each succeed on a DC 15 Constitution saving throw or take {@damage 1d8} thunder damage."
+							"{@b Fulguration.} On a hit, this bullet deals an extra 2d8} lightning damage to its target. All other creatures within 10 feet of the target must each succeed on a DC 15 Constitution saving throw or take 1d8} thunder damage."
 						],
 						[
 							"3",
-							"{@b Stunning.} On a hit, this bullet deals an extra {@damage 1d10} force damage, and the target is {@condition stunned} until the end of your next turn."
+							"{@b Stunning.} On a hit, this bullet deals an extra 1d10} force damage, and the target is {stunned} until the end of your next turn."
 						],
 						[
 							"4",
@@ -31565,7 +31565,7 @@ export const items = {
 			},
 			"entries": [
 				"This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.",
-				"You have advantage on saving throws you make to avoid being {@condition charmed} or {@condition frightened} or to end those conditions on you."
+				"You have advantage on saving throws you make to avoid being {charmed} or {frightened} or to end those conditions on you."
 			]
 		},
 		{
@@ -31696,7 +31696,7 @@ export const items = {
 			"entries": [
 				"Smokepowder is a magical explosive chiefly used to propel a bullet out of the barrel of a firearm. It is stored in airtight wooden kegs or tiny, waterproof leather packets. A packet contains enough smokepowder for five shots, and a keg holds enough smokepowder for five hundred shots.",
 				"If smokepowder is set on fire, dropped, or otherwise handled roughly, it explodes and deals fire damage to each creature or object within 20 feet of it: {@dice 1d6} for a packet, {@dice 9d6} for a keg. A successful DC 12 Dexterity saving throw halves the damage.",
-				"Casting {@spell dispel magic} on smokepowder renders it permanently inert."
+				"Casting { dispel magic} on smokepowder renders it permanently inert."
 			]
 		},
 		{
@@ -31732,7 +31732,7 @@ export const items = {
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"You gain a +3 bonus to attack and damage rolls made with this magic vorpal sword. In addition, the weapon ignores resistance to slashing damage. When you use this weapon to attack a creature that has at least one head and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, it doesn't have or need a head, it has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra {@damage 6d8} slashing damage from the hit.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic vorpal sword. In addition, the weapon ignores resistance to slashing damage. When you use this weapon to attack a creature that has at least one head and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, it doesn't have or need a head, it has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8} slashing damage from the hit.",
 				"While attuned to Snicker-Snack, you have proficiency with greatswords, and you can use your Charisma modifier instead of your Strength modifier for attack and damage rolls made with the weapon.",
 				{
 					"type": "entries",
@@ -31786,7 +31786,7 @@ export const items = {
 			"value": 15000,
 			"entries": [
 				"Soothsalts are derived from a naturally occurring crystalline substance discovered throughout the wilds of the Miskath Strand. The crimson crystals have been mined from cavernous veins like those in the mouth of the Miskath Pit and found within smaller geode formations near sites ravaged by the Calamity. Soothsalts are consumed orally in lozenge-sized doses, and frequent users can be identified by the telltale crimson stain around their mouths. A creature subjected to a dose of soothsalts gains advantage on all Intelligence checks for {@dice 1d4} hours.",
-				"For each dose of soothsalts consumed, the creature must succeed on a DC 15 Constitution saving throw or gain one level of {@condition exhaustion}\u2014an effect which is cumulative with multiple doses."
+				"For each dose of soothsalts consumed, the creature must succeed on a DC 15 Constitution saving throw or gain one level of {exhaustion}\u2014an effect which is cumulative with multiple doses."
 			]
 		},
 		{
@@ -31795,7 +31795,7 @@ export const items = {
 			"page": 19,
 			"rarity": "unknown (magic)",
 			"entries": [
-				"This elegant brass {@item spyglass|phb} features an intricate lens mechanism. A creature looking through the sorcerous spyglass has advantage on Wisdom ({@skill Perception}) checks to detect things that can be seen. In addition, the user can view magical auras while looking through the spyglass, as if under the effect of a {@spell detect magic} spell."
+				"This elegant brass {@item spyglass|phb} features an intricate lens mechanism. A creature looking through the sorcerous spyglass has advantage on Wisdom ({@skill Perception}) checks to detect things that can be seen. In addition, the user can view magical auras while looking through the spyglass, as if under the effect of a { detect magic} spell."
 			]
 		},
 		{
@@ -31876,7 +31876,7 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with {@item oil of slipperiness}. When found, a container contains {@dice 1d6 + 1} ounces.",
-				"One ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of {@item universal solvent} or {@item oil of etherealness}, or with a {@spell wish} spell."
+				"One ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of {@item universal solvent} or {@item oil of etherealness}, or with a { wish} spell."
 			],
 			"lootTables": [
 				"Magic Item Table E"
@@ -31910,7 +31910,7 @@ export const items = {
 			"rarity": "very rare",
 			"wondrous": true,
 			"entries": [
-				"The key to long-distance, virtually instantaneous communication across Khorvaire is House Sivis's network of message stations. Each station contains at least one speaking stone, which is carved from a Siberys dragonshard and inscribed with arcane symbols that uniquely identify it. If you're a gnome with the Mark of Scribing, you can touch the stone and use an action to cast the {@spell sending} spell from it. The target is any other speaking stone whose location or unique sequence of symbols you know. A creature within 5 feet of the stone hears the message as if they were the target.",
+				"The key to long-distance, virtually instantaneous communication across Khorvaire is House Sivis's network of message stations. Each station contains at least one speaking stone, which is carved from a Siberys dragonshard and inscribed with arcane symbols that uniquely identify it. If you're a gnome with the Mark of Scribing, you can touch the stone and use an action to cast the { sending} spell from it. The target is any other speaking stone whose location or unique sequence of symbols you know. A creature within 5 feet of the stone hears the message as if they were the target.",
 				"In a Sivis message station, a gnome is always on duty by the speaking stone, listening for messages that might come in and transcribing them for delivery to their intended recipients."
 			],
 			"attachedSpells": [
@@ -31943,7 +31943,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the weapon, keeping it within reach at all times. In addition, you have disadvantage on attack rolls made with weapons other than this one."
+						"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with { remove curse} or similar magic, you are unwilling to part with the weapon, keeping it within reach at all times. In addition, you have disadvantage on attack rolls made with weapons other than this one."
 					]
 				},
 				"Whenever you roll a 1 on an attack roll using this weapon, the weapon bends or flies to hit you in the back. Make a new attack roll with advantage against your own AC. If the result is a hit, you take damage as if you had attacked yourself with the spear."
@@ -31980,7 +31980,7 @@ export const items = {
 			"entries": [
 				"An amber spell gem can contain one spell from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
 				"If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
-				"An amber spell gem can store up to 4th level spells. Spells cast from the spell gem have a save DC of 15 and an attack bonus of {@hit 9}.",
+				"An amber spell gem can store up to 4th level spells. Spells cast from the spell gem have a save DC of 15 and an attack bonus of +9}.",
 				"You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell's level must be no higher than the gem's maximum. If the spell belongs to the school of abjuration and requires material components that are consumed, you must provide them, but they can be worth half as much as normal.",
 				"Once imbued with a spell, the gem can't be imbued again until the next dawn.",
 				"Deep gnomes created these magic gemstones and keep the creation process a secret."
@@ -32002,7 +32002,7 @@ export const items = {
 			"entries": [
 				"A bloodstone spell gem can contain one spell from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
 				"If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
-				"A bloodstone spell gem can store up to 3rd level spells. Spells cast from the spell gem have a save DC of 15 and an attack bonus of {@hit 7}.",
+				"A bloodstone spell gem can store up to 3rd level spells. Spells cast from the spell gem have a save DC of 15 and an attack bonus of +7}.",
 				"You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell's level must be no higher than the gem's maximum. If the spell belongs to the school of abjuration and requires material components that are consumed, you must provide them, but they can be worth half as much as normal.",
 				"Once imbued with a spell, the gem can't be imbued again until the next dawn.",
 				"Deep gnomes created these magic gemstones and keep the creation process a secret."
@@ -32024,7 +32024,7 @@ export const items = {
 			"entries": [
 				"A diamond spell gem can contain one spell from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
 				"If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
-				"A diamond spell gem can store up to 9th level spells. Spells cast from the spell gem have a save DC of 19 and an attack bonus of {@hit 11}.",
+				"A diamond spell gem can store up to 9th level spells. Spells cast from the spell gem have a save DC of 19 and an attack bonus of +11}.",
 				"You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell's level must be no higher than the gem's maximum. If the spell belongs to the school of abjuration and requires material components that are consumed, you must provide them, but they can be worth half as much as normal.",
 				"Once imbued with a spell, the gem can't be imbued again until the next dawn.",
 				"Deep gnomes created these magic gemstones and keep the creation process a secret."
@@ -32046,7 +32046,7 @@ export const items = {
 			"entries": [
 				"A jade spell gem can contain one spell from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
 				"If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
-				"A jade spell gem can store up to 5th level spells. Spells cast from the spell gem have a save DC of 17 and an attack bonus of {@hit 9}.",
+				"A jade spell gem can store up to 5th level spells. Spells cast from the spell gem have a save DC of 17 and an attack bonus of +9}.",
 				"You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell's level must be no higher than the gem's maximum. If the spell belongs to the school of abjuration and requires material components that are consumed, you must provide them, but they can be worth half as much as normal.",
 				"Once imbued with a spell, the gem can't be imbued again until the next dawn.",
 				"Deep gnomes created these magic gemstones and keep the creation process a secret."
@@ -32068,7 +32068,7 @@ export const items = {
 			"entries": [
 				"A lapis lazuli spell gem can contain one spell from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
 				"If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
-				"A lapis lazuli spell gem can store up to 1st level spells. Spells cast from the spell gem have a save DC of 13 and an attack bonus of {@hit 5}.",
+				"A lapis lazuli spell gem can store up to 1st level spells. Spells cast from the spell gem have a save DC of 13 and an attack bonus of +5}.",
 				"You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell's level must be no higher than the gem's maximum. If the spell belongs to the school of abjuration and requires material components that are consumed, you must provide them, but they can be worth half as much as normal.",
 				"Once imbued with a spell, the gem can't be imbued again until the next dawn.",
 				"Deep gnomes created these magic gemstones and keep the creation process a secret."
@@ -32090,7 +32090,7 @@ export const items = {
 			"entries": [
 				"An obsidian spell gem can contain one cantrip from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
 				"If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
-				"An obsidian spell gem can only store cantrips. Cantrips cast from the spell gem have a save DC of 13 and an attack bonus of {@hit 5}.",
+				"An obsidian spell gem can only store cantrips. Cantrips cast from the spell gem have a save DC of 13 and an attack bonus of +5}.",
 				"You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell's level must be no higher than the gem's maximum. If the spell belongs to the school of abjuration and requires material components that are consumed, you must provide them, but they can be worth half as much as normal.",
 				"Once imbued with a spell, the gem can't be imbued again until the next dawn.",
 				"Deep gnomes created these magic gemstones and keep the creation process a secret."
@@ -32112,7 +32112,7 @@ export const items = {
 			"entries": [
 				"A quartz spell gem can contain one spell from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
 				"If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
-				"A quartz spell gem can store up to 2nd level spells. Spells cast from the spell gem have a save DC of 13 and an attack bonus of {@hit 5}.",
+				"A quartz spell gem can store up to 2nd level spells. Spells cast from the spell gem have a save DC of 13 and an attack bonus of +5}.",
 				"You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell's level must be no higher than the gem's maximum. If the spell belongs to the school of abjuration and requires material components that are consumed, you must provide them, but they can be worth half as much as normal.",
 				"Once imbued with a spell, the gem can't be imbued again until the next dawn.",
 				"Deep gnomes created these magic gemstones and keep the creation process a secret."
@@ -32134,7 +32134,7 @@ export const items = {
 			"entries": [
 				"A ruby spell gem can contain one spell from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
 				"If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
-				"A ruby spell gem can store up to 8th level spells. Spells cast from the spell gem have a save DC of 18 and an attack bonus of {@hit 10}.",
+				"A ruby spell gem can store up to 8th level spells. Spells cast from the spell gem have a save DC of 18 and an attack bonus of +10}.",
 				"You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell's level must be no higher than the gem's maximum. If the spell belongs to the school of abjuration and requires material components that are consumed, you must provide them, but they can be worth half as much as normal.",
 				"Once imbued with a spell, the gem can't be imbued again until the next dawn.",
 				"Deep gnomes created these magic gemstones and keep the creation process a secret."
@@ -32156,7 +32156,7 @@ export const items = {
 			"entries": [
 				"A star ruby spell gem can contain one spell from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
 				"If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
-				"A star ruby spell gem can store up to 7th level spells. Spells cast from the spell gem have a save DC of 18 and an attack bonus of {@hit 10}.",
+				"A star ruby spell gem can store up to 7th level spells. Spells cast from the spell gem have a save DC of 18 and an attack bonus of +10}.",
 				"You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell's level must be no higher than the gem's maximum. If the spell belongs to the school of abjuration and requires material components that are consumed, you must provide them, but they can be worth half as much as normal.",
 				"Once imbued with a spell, the gem can't be imbued again until the next dawn.",
 				"Deep gnomes created these magic gemstones and keep the creation process a secret."
@@ -32178,7 +32178,7 @@ export const items = {
 			"entries": [
 				"A topaz spell gem can contain one spell from any class's spell list. You become aware of the spell when you learn the gem's properties. While holding the gem, you can cast the spell from it as an action if you know the spell or if the spell is on your class's spell list. Doing so doesn't require any components, and doesn't require attunement. The spell then disappears from the gem.",
 				"If the spell is of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the gem with no other effect.",
-				"A topaz spell gem can store up to 6th level spells. Spells cast from the spell gem have a save DC of 17 and an attack bonus of {@hit 10}.",
+				"A topaz spell gem can store up to 6th level spells. Spells cast from the spell gem have a save DC of 17 and an attack bonus of +10}.",
 				"You can imbue the gem with a spell if you're attuned to it and it's empty. To do so, you cast the spell while holding the gem. The spell is stored in the gem instead of having any effect. Casting the spell must require either 1 action or 1 minute or longer, and the spell's level must be no higher than the gem's maximum. If the spell belongs to the school of abjuration and requires material components that are consumed, you must provide them, but they can be worth half as much as normal.",
 				"Once imbued with a spell, the gem can't be imbued again until the next dawn.",
 				"Deep gnomes created these magic gemstones and keep the creation process a secret."
@@ -32197,7 +32197,7 @@ export const items = {
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 11. On a failed check, the spell disappears from the scroll with no other effect.",
 				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 13 and an attack bonus of {@hit 5}.",
+				"A spell cast from this scroll has a save DC of 13 and an attack bonus of +5}.",
 				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 11 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
 			],
 			"spellScrollLevel": 1,
@@ -32218,7 +32218,7 @@ export const items = {
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.",
 				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 13 and an attack bonus of {@hit 5}.",
+				"A spell cast from this scroll has a save DC of 13 and an attack bonus of +5}.",
 				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 12 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
 			],
 			"spellScrollLevel": 2,
@@ -32240,7 +32240,7 @@ export const items = {
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 13. On a failed check, the spell disappears from the scroll with no other effect.",
 				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 15 and an attack bonus of {@hit 7}.",
+				"A spell cast from this scroll has a save DC of 15 and an attack bonus of +7}.",
 				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 13 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
 			],
 			"spellScrollLevel": 3,
@@ -32261,7 +32261,7 @@ export const items = {
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 14. On a failed check, the spell disappears from the scroll with no other effect.",
 				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 15 and an attack bonus of {@hit 7}.",
+				"A spell cast from this scroll has a save DC of 15 and an attack bonus of +7}.",
 				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 14 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
 			],
 			"spellScrollLevel": 4,
@@ -32282,7 +32282,7 @@ export const items = {
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 15. On a failed check, the spell disappears from the scroll with no other effect.",
 				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 17 and an attack bonus of {@hit 9}.",
+				"A spell cast from this scroll has a save DC of 17 and an attack bonus of +9}.",
 				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 15 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
 			],
 			"spellScrollLevel": 5,
@@ -32303,7 +32303,7 @@ export const items = {
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 16. On a failed check, the spell disappears from the scroll with no other effect.",
 				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 17 and an attack bonus of {@hit 9}.",
+				"A spell cast from this scroll has a save DC of 17 and an attack bonus of +9}.",
 				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 16 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
 			],
 			"spellScrollLevel": 6,
@@ -32324,7 +32324,7 @@ export const items = {
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 17. On a failed check, the spell disappears from the scroll with no other effect.",
 				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 18 and an attack bonus of {@hit 10}.",
+				"A spell cast from this scroll has a save DC of 18 and an attack bonus of +10}.",
 				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 17 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
 			],
 			"spellScrollLevel": 7,
@@ -32345,7 +32345,7 @@ export const items = {
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 18. On a failed check, the spell disappears from the scroll with no other effect.",
 				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 18 and an attack bonus of {@hit 10}.",
+				"A spell cast from this scroll has a save DC of 18 and an attack bonus of +10}.",
 				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 18 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
 			],
 			"spellScrollLevel": 8,
@@ -32367,7 +32367,7 @@ export const items = {
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 19. On a failed check, the spell disappears from the scroll with no other effect.",
 				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 19 and an attack bonus of {@hit 11}.",
+				"A spell cast from this scroll has a save DC of 19 and an attack bonus of +11}.",
 				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 19 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
 			],
 			"spellScrollLevel": 9,
@@ -32388,7 +32388,7 @@ export const items = {
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 10. On a failed check, the spell disappears from the scroll with no other effect.",
 				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 13 and an attack bonus of {@hit 5}."
+				"A spell cast from this scroll has a save DC of 13 and an attack bonus of +5}."
 			],
 			"spellScrollLevel": 0,
 			"lootTables": [
@@ -32463,7 +32463,7 @@ export const items = {
 					"type": "inset",
 					"name": "Cost of a Spelljamming Helm",
 					"entries": [
-						"A spelljamming helm propels and steers a ship much as sails, oars, and rudders work on a seafaring vessel, and a spelljamming helm is easy to create if one has the proper spell. {@spell Create spelljamming helm|AAG} has a material component cost of 5,000 gp, so that's the least one can pay to acquire a spelljamming helm.",
+						"A spelljamming helm propels and steers a ship much as sails, oars, and rudders work on a seafaring vessel, and a spelljamming helm is easy to create if one has the proper spell. { Create spelljamming helm|AAG} has a material component cost of 5,000 gp, so that's the least one can pay to acquire a spelljamming helm.",
 						"Wildspace merchants, including {@creature dohwar|BAM|dohwars} and {@creature mercane|BAM|mercanes} (both described in {@book Boo's Astral Menagerie|BAM}), typically sell a spelljamming helm for substantially more than it cost to make. How much more depends on the market, but 7,500 gp would be a reasonable demand. A desperate buyer in a seller's market might pay 10,000 gp or more."
 					]
 				}
@@ -32642,10 +32642,10 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"This 2-foot-diameter black sphere is a hole in the multiverse, hovering in space and stabilized by a magical field surrounding it.",
-				"The sphere obliterates all matter it passes through and all matter that passes through it. Artifacts are the exception. Unless an artifact is susceptible to damage from a sphere of annihilation, it passes through the sphere unscathed. Anything else that touches the sphere but isn't wholly engulfed and obliterated by it takes {@damage 4d10} force damage.",
-				"The sphere is stationary until someone controls it. If you are within 60 feet of an uncontrolled sphere, you can use an action to make a DC 25 Intelligence ({@skill Arcana}) check. On a success, the sphere levitates in one direction of your choice, up to a number of feet equal to 5 × your Intelligence modifier (minimum 5 feet). On a failure, the sphere moves 10 feet toward you. A creature whose space the sphere enters must succeed on a DC 13 Dexterity saving throw or be touched by it, taking {@damage 4d10} force damage.",
+				"The sphere obliterates all matter it passes through and all matter that passes through it. Artifacts are the exception. Unless an artifact is susceptible to damage from a sphere of annihilation, it passes through the sphere unscathed. Anything else that touches the sphere but isn't wholly engulfed and obliterated by it takes 4d10} force damage.",
+				"The sphere is stationary until someone controls it. If you are within 60 feet of an uncontrolled sphere, you can use an action to make a DC 25 Intelligence ({@skill Arcana}) check. On a success, the sphere levitates in one direction of your choice, up to a number of feet equal to 5 × your Intelligence modifier (minimum 5 feet). On a failure, the sphere moves 10 feet toward you. A creature whose space the sphere enters must succeed on a DC 13 Dexterity saving throw or be touched by it, taking 4d10} force damage.",
 				"If you attempt to control a sphere that is under another creature's control, you make an Intelligence ({@skill Arcana}) check contested by the other creature's Intelligence ({@skill Arcana}) check. The winner of the contest gains control of the sphere and can levitate it as normal.",
-				"If the sphere comes into contact with a planar portal, such as that created by the {@spell gate} spell, or an extradimensional space, such as that within a {@item portable hole}, the DM determines randomly what happens, using the following table.",
+				"If the sphere comes into contact with a planar portal, such as that created by the { gate} spell, or an extradimensional space, such as that within a {@item portable hole}, the DM determines randomly what happens, using the following table.",
 				{
 					"type": "table",
 					"colLabels": [
@@ -32696,7 +32696,7 @@ export const items = {
 			"staff": true,
 			"entries": [
 				"The top of this black, adamantine staff is shaped like a spider. The staff weighs 6 pounds. You must be attuned to the staff to gain its benefits and cast its spells. The staff can be wielded as a quarterstaff. It deals {@dice 1d6} extra poison damage on a hit when used to make a weapon attack.",
-				"The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: {@spell spider climb} (1 charge) or {@spell web} (2 charges, spell save DC 15). No components are required.",
+				"The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: { spider climb} (1 charge) or { web} (2 charges, spell save DC 15). No components are required.",
 				"The staff regains {@dice 1d6 + 4} expended charges each day at dusk. If you expend the staff's last charge, roll a {@dice d20}. On a 1, the staff crumbles to dust and is destroyed."
 			],
 			"attachedSpells": [
@@ -32712,7 +32712,7 @@ export const items = {
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"This headpiece, crafted from dark metal, is worn curved around the ear. If you know a creature wearing another Spies' Murmur and that creature is within 1 mile of you, you can communicate telepathically with each other. As a bonus action, you can allow that creature to hear everything you hear for 1 hour. You can end this effect as a bonus action, and it ends if you're {@condition incapacitated}."
+				"This headpiece, crafted from dark metal, is worn curved around the ear. If you know a creature wearing another Spies' Murmur and that creature is within 1 mile of you, you can communicate telepathically with each other. As a bonus action, you can allow that creature to hear everything you hear for 1 hour. You can end this effect as a bonus action, and it ends if you're {incapacitated}."
 			]
 		},
 		{
@@ -32877,7 +32877,7 @@ export const items = {
 			"dmg2": "1d8",
 			"staff": true,
 			"entries": [
-				"While holding this staff, you can use an action to expend 1 of its 10 charges to cast {@spell charm person}, {@spell command}, or {@spell comprehend languages} from it using your spell save DC. The staff can also be used as a magic quarterstaff.",
+				"While holding this staff, you can use an action to expend 1 of its 10 charges to cast { charm person}, { command}, or { comprehend languages} from it using your spell save DC. The staff can also be used as a magic quarterstaff.",
 				"If you are holding the staff and fail a saving throw against an enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn. If you succeed on a save against an enchantment spell that targets only you, with or without the staff's intervention, you can use your reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.",
 				"The staff regains {@dice 1d8 + 2} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff becomes a nonmagical quarterstaff."
 			],
@@ -32913,7 +32913,7 @@ export const items = {
 			"entries": [
 				"This slender, hollow staff is made of glass yet is as strong as oak. It weighs 3 pounds. You must be attuned to the staff to gain its benefits and cast its spells.",
 				"While holding the staff, you have a +1 bonus to your Armor Class.",
-				"The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: {@spell mage armor} (1 charge) or {@spell shield} (2 charges). No components are required.",
+				"The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: { mage armor} (1 charge) or { shield} (2 charges). No components are required.",
 				"The staff regains {@dice 1d6 + 4} expended charges each day at dawn. If you expend the staff's last charge, roll a {@dice d20}. On a 1, the staff shatters and is destroyed."
 			],
 			"attachedSpells": [
@@ -32946,7 +32946,7 @@ export const items = {
 			"staff": true,
 			"entries": [
 				"This staff of polished gray wood bears numerous runes carved along its length. The staff has 10 charges and regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff turns into dust and is destroyed.",
-				"While holding the staff, you can use an action to expend 2 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: {@spell fortune's favor|egw} (2 charges), {@spell pulse wave|egw} (3 charges), or {@spell gravity sinkhole|egw} (4 charges).",
+				"While holding the staff, you can use an action to expend 2 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: { fortune's favor|egw} (2 charges), { pulse wave|egw} (3 charges), or { gravity sinkhole|egw} (4 charges).",
 				{
 					"type": "entries",
 					"name": "New Possibility",
@@ -33034,7 +33034,7 @@ export const items = {
 			"staff": true,
 			"entries": [
 				"You have resistance to fire damage while you hold this staff.",
-				"The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: {@spell burning hands} (1 charge), {@spell fireball} (3 charges), or {@spell wall of fire} (4 charges).",
+				"The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: { burning hands} (1 charge), { fireball} (3 charges), or { wall of fire} (4 charges).",
 				"The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff blackens, crumbles into cinders, and is destroyed."
 			],
 			"attachedSpells": [
@@ -33108,7 +33108,7 @@ export const items = {
 			"staff": true,
 			"entries": [
 				"You have resistance to cold damage while you hold this staff.",
-				"The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: {@spell cone of cold} (5 charges), {@spell fog cloud} (1 charge), {@spell ice storm} (4 charges), or {@spell wall of ice} (4 charges).",
+				"The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: { cone of cold} (5 charges), { fog cloud} (1 charge), { ice storm} (4 charges), or { wall of ice} (4 charges).",
 				"The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1. the staff turns to water and is destroyed."
 			],
 			"attachedSpells": [
@@ -33154,7 +33154,7 @@ export const items = {
 			"charges": 10,
 			"staff": true,
 			"entries": [
-				"This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: {@spell cure wounds} (1 charge per spell level, up to 4th), {@spell lesser restoration} (2 charges). or {@spell mass cure wounds} (5 charges).",
+				"This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: { cure wounds} (1 charge per spell level, up to 4th), { lesser restoration} (2 charges). or { mass cure wounds} (5 charges).",
 				"The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1. the staff vanishes in a flash of light, lost forever."
 			],
 			"attachedSpells": [
@@ -33209,14 +33209,14 @@ export const items = {
 					"name": "Power Strike",
 					"type": "entries",
 					"entries": [
-						"When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra {@damage 1d6} force damage to the target."
+						"When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra 1d6} force damage to the target."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: {@spell cone of cold} (5 charges), {@spell fireball} (5th-level version, 5 charges), {@spell globe of invulnerability} (6 charges), {@spell hold monster} (5 charges), {@spell levitate} (2 charges). {@spell lightning bolt} (5th-level version, 5 charges), {@spell magic missile} (1 charge), {@spell ray of enfeeblement} (1 charge), or {@spell wall of force} (5 charges)."
+						"While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: { cone of cold} (5 charges), { fireball} (5th-level version, 5 charges), { globe of invulnerability} (6 charges), { hold monster} (5 charges), { levitate} (2 charges). { lightning bolt} (5th-level version, 5 charges), { magic missile} (1 charge), { ray of enfeeblement} (1 charge), or { wall of force} (5 charges)."
 					]
 				},
 				{
@@ -33292,7 +33292,7 @@ export const items = {
 			"staff": true,
 			"entries": [
 				"This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.",
-				"The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra {@damage 1d6} force damage. The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff becomes a nonmagical quarterstaff."
+				"The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d6} force damage. The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff becomes a nonmagical quarterstaff."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -33344,7 +33344,7 @@ export const items = {
 					"name": "Spells",
 					"type": "entries",
 					"entries": [
-						"While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC: {@spell giant insect} (4 charges) or {@spell insect plague} (5 charges)."
+						"While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC: { giant insect} (4 charges) or { insect plague} (5 charges)."
 					]
 				},
 				{
@@ -33393,7 +33393,7 @@ export const items = {
 			"staff": true,
 			"entries": [
 				"You can use a bonus action to speak this staff's command word and make the head of the staff become that of an animate poisonous snake for 1 minute. By using another bonus action to speak the command word again, you return the staff to its normal inanimate form.",
-				"You can make a melee attack using the snake head, which has a reach of 5 feet. Your proficiency bonus applies to the attack roll. On a hit, the target takes {@damage 1d6} piercing damage and must succeed on a DC 15 Constitution saving throw or take {@damage 3d6} poison damage.",
+				"You can make a melee attack using the snake head, which has a reach of 5 feet. Your proficiency bonus applies to the attack roll. On a hit, the target takes 1d6} piercing damage and must succeed on a DC 15 Constitution saving throw or take 3d6} poison damage.",
 				"The snake head can be attacked while it is animate. It has an Armor Class of 15 and 20 hit points. If the head drops to 0 hit points, the staff is destroyed. As long as it's not destroyed, the staff regains all lost hit points when it reverts to its inanimate form."
 			],
 			"lootTables": [
@@ -33442,9 +33442,9 @@ export const items = {
 							"type": "list",
 							"items": [
 								"Your proficiency bonus to Intelligence ({@skill Arcana}) and Intelligence ({@skill History}) checks is doubled.",
-								"You can't be {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition petrified}, or {@condition stunned}.",
+								"You can't be {blinded}, {charmed}, {deafened}, {frightened}, {petrified}, or {stunned}.",
 								"Undead with a challenge rating of 2 or lower will neither threaten nor attack you unless you harm them.",
-								"You can wield the staff as a +3 quarterstaff that deals an extra 10 ({@damage 3d6}) necrotic damage on a hit."
+								"You can wield the staff as a +3 quarterstaff that deals an extra 10 (3d6}) necrotic damage on a hit."
 							]
 						}
 					]
@@ -33453,21 +33453,21 @@ export const items = {
 					"type": "entries",
 					"name": "Invoke Curse",
 					"entries": [
-						"The Staff of the Forgotten One has 7 charges and regains {@dice 1d4 + 3} expended charges daily at dawn. While holding the staff, you can use an action to expend 1 charge and target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw (using your spell save DC) or be cursed. While cursed in this way, the target can't regain hit points and has vulnerability to necrotic damage. A {@spell greater restoration}, {@spell remove curse}, or similar spell ends the curse on the target."
+						"The Staff of the Forgotten One has 7 charges and regains {@dice 1d4 + 3} expended charges daily at dawn. While holding the staff, you can use an action to expend 1 charge and target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw (using your spell save DC) or be cursed. While cursed in this way, the target can't regain hit points and has vulnerability to necrotic damage. A { greater restoration}, { remove curse}, or similar spell ends the curse on the target."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "The Forgotten One",
 					"entries": [
-						"The bodiless life force of a dead {@creature archmage} empowers the staff and is imprisoned within it. The rune carved into the staff's skull protects {@creature Acererak|ToA} from this spirit's vengeance. Each time a creature other than {@creature Acererak|ToA} expends any of the staff's charges, there is a {@chance 50} chance that the life force tries to possess the staff wielder. The wielder must succeed on a DC 20 Charisma saving throw or be possessed, becoming an NPC under the DM's control. If the intruding life force is targeted by magic such as a {@spell dispel evil and good} spell, it becomes trapped in the staff once more. Once it takes control of another creature, the insane spirit of the dead {@creature archmage} attempts to destroy the staff."
+						"The bodiless life force of a dead {@creature archmage} empowers the staff and is imprisoned within it. The rune carved into the staff's skull protects {@creature Acererak|ToA} from this spirit's vengeance. Each time a creature other than {@creature Acererak|ToA} expends any of the staff's charges, there is a {@chance 50} chance that the life force tries to possess the staff wielder. The wielder must succeed on a DC 20 Charisma saving throw or be possessed, becoming an NPC under the DM's control. If the intruding life force is targeted by magic such as a { dispel evil and good} spell, it becomes trapped in the staff once more. Once it takes control of another creature, the insane spirit of the dead {@creature archmage} attempts to destroy the staff."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Destroying the Staff",
 					"entries": [
-						"A creature in possession of the staff can use an action to break it over one knee or a solid surface. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it. Each creature in the area must make a DC 18 Dexterity saving throw, taking 132 ({@damage 24d10}) force damage on a failed save, or half as much damage on a successful one. When the staff is destroyed, the life force of the Forgotten One is released to the afterlife. Where it goes is anyone's guess."
+						"A creature in possession of the staff can use an action to break it over one knee or a solid surface. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it. Each creature in the area must make a DC 18 Dexterity saving throw, taking 132 (24d10}) force damage on a failed save, or half as much damage on a successful one. When the staff is destroyed, the life force of the Forgotten One is released to the afterlife. Where it goes is anyone's guess."
 					]
 				}
 			]
@@ -33494,7 +33494,7 @@ export const items = {
 			"bonusSpellAttack": "+1",
 			"staff": true,
 			"entries": [
-				"This gray-and-cerulean staff is topped with a small dragon claw carved from ivory. While holding the staff, you gain a +1 bonus to spell attack rolls. Whenever you score a critical hit with a spell attack, the target takes an extra {@damage 3d6} radiant damage."
+				"This gray-and-cerulean staff is topped with a small dragon claw carved from ivory. While holding the staff, you gain a +1 bonus to spell attack rolls. Whenever you score a critical hit with a spell attack, the target takes an extra 3d6} radiant damage."
 			]
 		},
 		{
@@ -33544,8 +33544,8 @@ export const items = {
 					"name": "Spells",
 					"type": "entries",
 					"entries": [
-						"While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: {@spell conjure elemental} (7 charges), {@spell dispel magic} (3 charges), {@spell fireball} (7th-level version, 7 charges), {@spell flaming sphere} (2 charges), {@spell ice storm} (4 charges), {@spell invisibility} (2 charges), {@spell knock} (2 charges), {@spell lightning bolt} (7th-level version, 7 charges), {@spell passwall} (5 charges), {@spell plane shift} (7 charges), {@spell telekinesis} (5 charges), {@spell wall of fire} (4 charges), or {@spell web} (2 charges).",
-						"You can also use an action to cast one of the following spells from the staff without using any charges: {@spell arcane lock}, {@spell detect magic}, {@spell enlarge/reduce}, {@spell light}, {@spell mage hand}, or {@spell protection from evil and good}."
+						"While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: { conjure elemental} (7 charges), { dispel magic} (3 charges), { fireball} (7th-level version, 7 charges), { flaming sphere} (2 charges), { ice storm} (4 charges), { invisibility} (2 charges), { knock} (2 charges), { lightning bolt} (7th-level version, 7 charges), { passwall} (5 charges), { plane shift} (7 charges), { telekinesis} (5 charges), { wall of fire} (4 charges), or { web} (2 charges).",
+						"You can also use an action to cast one of the following spells from the staff without using any charges: { arcane lock}, { detect magic}, { enlarge/reduce}, { light}, { mage hand}, or { protection from evil and good}."
 					]
 				},
 				{
@@ -33638,7 +33638,7 @@ export const items = {
 			"staff": true,
 			"entries": [
 				"You can use an action to speak this staff's command word and throw the staff on the ground within 10 feet of you. The staff becomes a {@creature giant constrictor snake} under your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake.",
-				"On your turn, you can mentally command the snake if it is within 60 feet of you and you aren't {@condition incapacitated}. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.",
+				"On your turn, you can mentally command the snake if it is within 60 feet of you and you aren't {incapacitated}. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.",
 				"If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them."
 			],
 			"lootTables": [
@@ -33680,15 +33680,15 @@ export const items = {
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: {@spell animal friendship} (1 charge), {@spell awaken} (5 charges), {@spell barkskin} (2 charges), {@spell locate animals or plants} (2 charges), {@spell speak with animals} (1 charge), {@spell speak with plants} (3 charges), or {@spell wall of thorns} (6 charges).",
-						"You can also use an action to cast the {@spell pass without trace} spell from the staff without using any charges."
+						"You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: { animal friendship} (1 charge), { awaken} (5 charges), { barkskin} (2 charges), { locate animals or plants} (2 charges), { speak with animals} (1 charge), { speak with plants} (3 charges), or { wall of thorns} (6 charges).",
+						"You can also use an action to cast the { pass without trace} spell from the staff without using any charges."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tree Form",
 					"entries": [
-						"You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by {@spell detect magic}. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff."
+						"You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by { detect magic}. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff."
 					]
 				}
 			],
@@ -33731,28 +33731,28 @@ export const items = {
 					"type": "entries",
 					"name": "Lightning",
 					"entries": [
-						"When you hit with a melee attack using the staff, you can cause the target to take an extra {@damage 2d6} lightning damage."
+						"When you hit with a melee attack using the staff, you can cause the target to take an extra 2d6} lightning damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Thunder",
 					"entries": [
-						"When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder, audible out to 300 feet. The target you hit must succeed on a DC 17 Constitution saving throw or become {@condition stunned} until the end of your next turn."
+						"When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder, audible out to 300 feet. The target you hit must succeed on a DC 17 Constitution saving throw or become {stunned} until the end of your next turn."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Lightning Strike",
 					"entries": [
-						"You can use an action to cause a bolt of lightning to leap from the staff's tip in a line that is 5 feet wide and 120 feet long. Each creature in that line must make a DC 17 Dexterity saving throw, taking {@damage 9d6} lightning damage on a failed save, or half as much damage on a successful one."
+						"You can use an action to cause a bolt of lightning to leap from the staff's tip in a line that is 5 feet wide and 120 feet long. Each creature in that line must make a DC 17 Dexterity saving throw, taking 9d6} lightning damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Thunderclap",
 					"entries": [
-						"You can use an action to cause the staff to issue a deafening thunderclap, audible out to 600 feet. Each creature within 60 feet of you (not including you) must make a DC 17 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} thunder damage and becomes {@condition deafened} for 1 minute. On a successful save, a creature takes half damage and isn't {@condition deafened}."
+						"You can use an action to cause the staff to issue a deafening thunderclap, audible out to 600 feet. Each creature within 60 feet of you (not including you) must make a DC 17 Constitution saving throw. On a failed save, a creature takes 2d6} thunder damage and becomes {deafened} for 1 minute. On a successful save, a creature takes half damage and isn't {deafened}."
 					]
 				},
 				{
@@ -33801,7 +33801,7 @@ export const items = {
 			"staff": true,
 			"entries": [
 				"This staff has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
-				"The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to deal an extra {@damage 2d10} necrotic damage to the target. In addition, the target must succeed on a DC 15 Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution."
+				"The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to deal an extra 2d10} necrotic damage to the target. In addition, the target must succeed on a DC 15 Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -33907,7 +33907,7 @@ export const items = {
 					"type": "entries",
 					"name": "Revivify",
 					"entries": [
-						"You can use an action to cast the {@spell revivify} spell from the sword. You must touch the target with the sword to cast the spell. Once this property of the weapon is used, it can't be used again until the next dawn."
+						"You can use an action to cast the { revivify} spell from the sword. You must touch the target with the sword to cast the spell. Once this property of the weapon is used, it can't be used again until the next dawn."
 					]
 				},
 				{
@@ -34008,7 +34008,7 @@ export const items = {
 			"bonusAc": "+1",
 			"entries": [
 				"This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.",
-				"You gain a +1 bonus to AC, and you can't be {@condition charmed} or {@condition frightened}. Moreover, each creature of your choice within 30 feet of you has advantage on saving throws it makes to avoid being {@condition charmed} or {@condition frightened} or to end those conditions on itself."
+				"You gain a +1 bonus to AC, and you can't be {charmed} or {frightened}. Moreover, each creature of your choice within 30 feet of you has advantage on saving throws it makes to avoid being {charmed} or {frightened} or to end those conditions on itself."
 			]
 		},
 		{
@@ -34021,7 +34021,7 @@ export const items = {
 			"wondrous": true,
 			"weight": 5,
 			"entries": [
-				"If the stone is touching the ground, you can use an action to speak its command word and summon an {@creature earth elemental}, as if you had cast the {@spell conjure elemental} spell. The stone can't be used this way again until the next dawn. The stone weighs 5 pounds."
+				"If the stone is touching the ground, you can use an action to speak its command word and summon an {@creature earth elemental}, as if you had cast the { conjure elemental} spell. The stone can't be used this way again until the next dawn. The stone weighs 5 pounds."
 			],
 			"attachedSpells": [
 				"conjure elemental"
@@ -34094,7 +34094,7 @@ export const items = {
 					"name": "Destroying the Stone",
 					"entries": [
 						"The Stone of Creation is a strange artifact that can be divided into smaller artifacts, yet the Stone is impervious to most damage. Only the smith attuned to the Stone can carve it. Destroying the Stone's lesser, derived artifacts (and their creations) does no damage to the Stone itself.",
-						"The Stone of Creation is destroyed if it reaches the Elemental Chaos or is struck with a forked metal rod attuned to the Elemental Chaos (as per the {@spell plane shift} spell). The Stone then shatters into harmless, inert shards of rock. Places created by the slab's chips and keystones crumble, decay, or fade away to nothing after the Stone of Creation is destroyed. Whether the Stone of Creation is itself a piece of a larger artifact remains unknown."
+						"The Stone of Creation is destroyed if it reaches the Elemental Chaos or is struck with a forked metal rod attuned to the Elemental Chaos (as per the { plane shift} spell). The Stone then shatters into harmless, inert shards of rock. Places created by the slab's chips and keystones crumble, decay, or fade away to nothing after the Stone of Creation is destroyed. Whether the Stone of Creation is itself a piece of a larger artifact remains unknown."
 					]
 				}
 			]
@@ -34130,8 +34130,8 @@ export const items = {
 					"type": "entries",
 					"name": "Legend Lore",
 					"entries": [
-						"The Stone of Golorr has 3 charges and regains {@dice 1d3} expended charges daily at dawn. While holding the stone, you can expend 1 of its charges to cast the {@spell legend lore} spell.",
-						"By using the stone to cast {@spell legend lore}, you communicate directly with the {@creature aboleth}, and it shares its knowledge with you. The aboleth can't lie to you, but the information it provides is often cryptic or vague.",
+						"The Stone of Golorr has 3 charges and regains {@dice 1d3} expended charges daily at dawn. While holding the stone, you can expend 1 of its charges to cast the { legend lore} spell.",
+						"By using the stone to cast { legend lore}, you communicate directly with the {@creature aboleth}, and it shares its knowledge with you. The aboleth can't lie to you, but the information it provides is often cryptic or vague.",
 						"The aboleth knows where Lord Neverember's secret vault is located. It also knows that three keys are needed to open the vault and that a gold dragon named Aurinax inhabits the vault and guards its treasures."
 					]
 				},
@@ -34139,7 +34139,7 @@ export const items = {
 					"type": "entries",
 					"name": "Failed Memory",
 					"entries": [
-						"When your attunement to the Stone of Golorr ends, you must make a DC 16 Wisdom saving throw. On a failed save, you lose all memory of the stone being in your possession and all knowledge imparted by it. A {@spell remove curse} spell cast on you has a {@chance 20} chance of restoring the lost knowledge and memories, and a {@spell greater restoration} spell does so automatically."
+						"When your attunement to the Stone of Golorr ends, you must make a DC 16 Wisdom saving throw. On a failed save, you lose all memory of the stone being in your possession and all knowledge imparted by it. A { remove curse} spell cast on you has a {@chance 20} chance of restoring the lost knowledge and memories, and a { greater restoration} spell does so automatically."
 					]
 				},
 				{
@@ -34161,7 +34161,7 @@ export const items = {
 					"type": "entries",
 					"name": "Destroying the Stone",
 					"entries": [
-						"While in stone form, the {@creature aboleth} isn't a creature and isn't subject to effects that target creatures. The Stone of Golorr is immune to all damage. Casting an {@spell antipathy/sympathy} spell on the stone destroys it if the antipathy effect is selected and the spell is directed to repel aberrations. When the spell is cast in this way, the stone transforms into mucus and is destroyed, and Golorr the aboleth appears in an unoccupied space within 30 feet of the stone's remains. The aboleth is incensed by the stone's destruction, and it attacks all other creatures it can see."
+						"While in stone form, the {@creature aboleth} isn't a creature and isn't subject to effects that target creatures. The Stone of Golorr is immune to all damage. Casting an { antipathy/sympathy} spell on the stone destroys it if the antipathy effect is selected and the spell is directed to repel aberrations. When the spell is cast in this way, the stone transforms into mucus and is destroyed, and Golorr the aboleth appears in an unoccupied space within 30 feet of the stone's remains. The aboleth is incensed by the stone's destruction, and it attacks all other creatures it can see."
 					]
 				}
 			],
@@ -34206,7 +34206,7 @@ export const items = {
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This item is cursed. While it is on your person, you take a -2 penalty to ability checks and saving throws. Until the curse is discovered, the DM secretly applies this penalty, assuming you are adding the item's bonus. You are unwilling to part with the stone until the curse is broken with {@spell remove curse} or similar magic."
+						"This item is cursed. While it is on your person, you take a -2 penalty to ability checks and saving throws. Until the curse is discovered, the DM secretly applies this penalty, assuming you are adding the item's bonus. You are unwilling to part with the stone until the curse is broken with { remove curse} or similar magic."
 					]
 				}
 			]
@@ -34223,7 +34223,7 @@ export const items = {
 			"charges": 10,
 			"entries": [
 				"Created by the stone giant librarians of Gravenhollow, this nineteen-inch-long shard of quartz grants you advantage on Intelligence ({@skill Investigation}) checks while it is on your person.",
-				"The crystal has 10 charges. While holding it, you can use an action to expend some of its charges to cast one of the following spells from it: {@spell speak with animals} (2 charges), {@spell speak with dead} (4 charges), or {@spell speak with plants} (3 charges).",
+				"The crystal has 10 charges. While holding it, you can use an action to expend some of its charges to cast one of the following spells from it: { speak with animals} (2 charges), { speak with dead} (4 charges), or { speak with plants} (3 charges).",
 				"When you cast a {@filter divination|spells|school=D} spell, you can use the crystal in place of one material component that would normally be consumed by the spell, at a cost of 1 charge per level of the spell. The crystal is not consumed when used in this way.",
 				"The crystal regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the crystal's last charge, roll a {@dice d20}. On a 1, the crystal vanishes, lost forever."
 			],
@@ -34242,7 +34242,7 @@ export const items = {
 			"rarity": "unknown (magic)",
 			"reqAttune": true,
 			"entries": [
-				"While wearing this ring, you can cast the {@spell telekinesis} spell at will, but you can target only objects that aren't being worn or carried.",
+				"While wearing this ring, you can cast the { telekinesis} spell at will, but you can target only objects that aren't being worn or carried.",
 				"Any character who attunes to the ring gains control of Stonky's creations, though the {@creature skitterwidget|cm|skitterwidgets} ignore commands spoken more than 30 feet away from them."
 			],
 			"attachedSpells": [
@@ -34260,7 +34260,7 @@ export const items = {
 			"dmg1": "1d4",
 			"dmgType": "B",
 			"entries": [
-				"This boomerang is a ranged weapon carved from {@creature griffon} bone and etched with the symbol of elemental air. When thrown, it has a range of 60/120 feet, and any creature that is proficient with the javelin is also proficient with this weapon. On a hit, the boomerang deals {@damage 1d4} bludgeoning damage and {@damage 3d4} thunder damage, and the target must succeed on a DC 10 Constitution saving throw or be {@condition stunned} until the end of its next turn. On a miss, the boomerang returns to the thrower's hand.",
+				"This boomerang is a ranged weapon carved from {@creature griffon} bone and etched with the symbol of elemental air. When thrown, it has a range of 60/120 feet, and any creature that is proficient with the javelin is also proficient with this weapon. On a hit, the boomerang deals 1d4} bludgeoning damage and 3d4} thunder damage, and the target must succeed on a DC 10 Constitution saving throw or be {stunned} until the end of its next turn. On a miss, the boomerang returns to the thrower's hand.",
 				"Once the boomerang deals thunder damage to a target, the weapon loses its ability to deal thunder damage and its ability to stun a target. These properties return after the boomerang spends at least 1 hour inside an elemental air node."
 			]
 		},
@@ -34283,7 +34283,7 @@ export const items = {
 									"type": "list",
 									"items": [
 										"Your Strength score becomes 23 if it isn't already 23 or higher.",
-										"Your Storm Avatar's lightning strike deals {@damage 4d6} lightning damage (instead of {@dice 3d6}).",
+										"Your Storm Avatar's lightning strike deals 4d6} lightning damage (instead of {@dice 3d6}).",
 										"While transformed into a Storm Avatar, you gain a flying speed of 30 feet and can hover."
 									]
 								}
@@ -34325,7 +34325,7 @@ export const items = {
 							"items": [
 								"You have immunity to lightning damage and thunder damage.",
 								"When you hit with a weapon attack that normally deals bludgeoning damage, it deals thunder damage instead. When you hit with a weapon attack that normally deals piercing or slashing damage, it deals lightning damage instead.",
-								"As a bonus action, you can choose one creature you can see within 30 feet of you to be struck by lightning. The target must make a DC 15 Dexterity saving throw, taking {@damage 3d6} lightning damage on a failed save, or half as much damage on a successful one."
+								"As a bonus action, you can choose one creature you can see within 30 feet of you to be struck by lightning. The target must make a DC 15 Dexterity saving throw, taking 3d6} lightning damage on a failed save, or half as much damage on a successful one."
 							]
 						},
 						"Once you use the girdle's Storm Avatar property, that property can't be used again until the next dawn."
@@ -34352,8 +34352,8 @@ export const items = {
 									"type": "list",
 									"items": [
 										"Your Strength score becomes 25 if it isn't already 25 or higher.",
-										"Your Storm Avatar's lightning strike deals {@damage 5d6} lightning damage (instead of {@dice 3d6}).",
-										"You can cast the {@spell control weather} spell from the girdle. This property can't be used again until the next dawn."
+										"Your Storm Avatar's lightning strike deals 5d6} lightning damage (instead of {@dice 3d6}).",
+										"You can cast the { control weather} spell from the girdle. This property can't be used again until the next dawn."
 									]
 								}
 							]
@@ -34420,7 +34420,7 @@ export const items = {
 			"bonusWeapon": "+2",
 			"entries": [
 				"This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure radiance to spring into existence, or make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with {@item shortsword|phb|shortswords} or {@item longsword|phb|longswords}, you are proficient with the sun blade.",
-				"You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra {@damage 1d8} radiant damage.",
+				"You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra 1d8} radiant damage.",
 				"The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each."
 			],
 			"lootTables": [
@@ -34447,7 +34447,7 @@ export const items = {
 			"bonusWeapon": "+2",
 			"entries": [
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
-				"As an action, you can hurl the weapon up to 120 feet to a point you can see. When it reaches that point, the weapon vanishes in an explosion, and each creature in a 20-foot-radius sphere centered on that point must make a DC 15 Dexterity saving throw, taking {@damage 6d6} fire damage on a failed save, or half as much damage on a successful one. Afterward, you can use an action to cause the weapon to reappear in your empty hand. You can't cause it to explode again until you finish a short or long rest.",
+				"As an action, you can hurl the weapon up to 120 feet to a point you can see. When it reaches that point, the weapon vanishes in an explosion, and each creature in a 20-foot-radius sphere centered on that point must make a DC 15 Dexterity saving throw, taking 6d6} fire damage on a failed save, or half as much damage on a successful one. Afterward, you can use an action to cause the weapon to reappear in your empty hand. You can't cause it to explode again until you finish a short or long rest.",
 				"If you don't call the weapon back to your hand, it reappears at the point where it exploded when you are no longer attuned to it or when 24 hours have passed."
 			],
 			"hasFluffImages": true
@@ -34478,7 +34478,7 @@ export const items = {
 				{
 					"type": "list",
 					"items": [
-						"You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra {@damage 1d8} radiant damage.",
+						"You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra 1d8} radiant damage.",
 						"The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each."
 					]
 				},
@@ -34510,7 +34510,7 @@ export const items = {
 			"stealth": true,
 			"entries": [
 				"This carapace-like augmentation encases portions of the wearer's shoulders, neck, and chest. A survival mantle is equivalent to a suit of nonmagical half plate armor and takes just as long to don or doff. It can't be worn with other kinds of armor.",
-				"A creature wearing a survival mantle can breathe normally in any environment (including a vacuum) and has advantage on saving throws against harmful gases (such as those created by a {@spell cloudkill} spell, a {@spell stinking cloud} spell, inhaled poisons, and the breath weapons of some dragons)."
+				"A creature wearing a survival mantle can breathe normally in any environment (including a vacuum) and has advantage on saving throws against harmful gases (such as those created by a { cloudkill} spell, a { stinking cloud} spell, inhaled poisons, and the breath weapons of some dragons)."
 			]
 		},
 		{
@@ -34822,8 +34822,8 @@ export const items = {
 			"entries": [
 				"When Vecna grew in power, he appointed an evil and ruthless lieutenant, Kas the Bloody Handed, to act as his bodyguard and right hand. This despicable villain served as advisor, warlord, and assassin. His successes earned him Vecna's admiration and a reward: a sword with as dark a pedigree as the man who would wield it.",
 				"For a long time, Kas faithfully served the {@creature lich} but as Kas's power grew, so did his hubris. His sword urged him to supplant Vecna, so that they could rule the {@creature lich||lich's} empire in Vecna's stead. Legend says Vecna's destruction came at Kas's hand, but Vecna also wrought his rebellious lieutenant's doom, leaving only Kas's sword behind. The world was made brighter thereby.",
-				"The Sword of Kas is a magic, sentient longsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra {@damage 2d10} slashing damage to undead.",
-				"If the sword isn't bathed in blood within 1 minute of being drawn from its scabbard, its wielder must make a DC 15 Charisma saving throw. On a successful save, the wielder takes {@damage 3d6} psychic damage. On a failed save, the wielder is dominated by the sword, as if by the {@spell dominate monster} spell, and the sword demands that it be bathed in blood. The spell effect ends when the sword's demand is met.",
+				"The Sword of Kas is a magic, sentient longsword that grants a +3 bonus to attack and damage rolls made with it. It scores a critical hit on a roll of 19 or 20, and deals an extra 2d10} slashing damage to undead.",
+				"If the sword isn't bathed in blood within 1 minute of being drawn from its scabbard, its wielder must make a DC 15 Charisma saving throw. On a successful save, the wielder takes 3d6} psychic damage. On a failed save, the wielder is dominated by the sword, as if by the { dominate monster} spell, and the sword demands that it be bathed in blood. The spell effect ends when the sword's demand is met.",
 				{
 					"name": "Random Properties",
 					"type": "entries",
@@ -34851,7 +34851,7 @@ export const items = {
 					"name": "Spells",
 					"type": "entries",
 					"entries": [
-						"While the sword is on your person, you can use an action to cast one of the following spells (save 18) from it: {@spell call lightning}, {@spell divine word}, or {@spell finger of death}. Once you use the sword to cast a spell, you can't cast that spell again from it until the next dawn."
+						"While the sword is on your person, you can use an action to cast one of the following spells (save 18) from it: { call lightning}, { divine word}, or { finger of death}. Once you use the sword to cast a spell, you can't cast that spell again from it until the next dawn."
 					]
 				},
 				{
@@ -34874,7 +34874,7 @@ export const items = {
 					"name": "Destroying the Sword",
 					"type": "entries",
 					"entries": [
-						"A creature attuned to both the {@item Eye of Vecna} and the {@item Hand of Vecna} can use the wish property of those combined artifacts to unmake the Sword of Kas. The creature must cast the {@spell wish} spell and make a Charisma check contested by the Charisma check of the sword. The sword must be within 30 feet of the creature, or the spell fails. If the sword wins the contest, nothing happens, and the {@spell wish} spell is wasted. If the sword loses the contest, it is destroyed."
+						"A creature attuned to both the {@item Eye of Vecna} and the {@item Hand of Vecna} can use the wish property of those combined artifacts to unmake the Sword of Kas. The creature must cast the { wish} spell and make a Charisma check contested by the Charisma check of the sword. The sword must be within 30 feet of the creature, or the spell fails. If the sword wins the contest, nothing happens, and the { wish} spell is wasted. If the sword loses the contest, it is destroyed."
 					]
 				}
 			],
@@ -34974,7 +34974,7 @@ export const items = {
 								{
 									"type": "item",
 									"name": "Truesight",
-									"entry": "Your eyes become luminous pools of silver. You can see in normal and magical darkness, see {@condition invisible} creatures and objects, automatically detect visual illusions and succeed on saving throws against them, perceive the original form of a shapechanger or a creature that is transformed by magic, and see into the Ethereal Plane, all within a range of 60 feet."
+									"entry": "Your eyes become luminous pools of silver. You can see in normal and magical darkness, see {invisible} creatures and objects, automatically detect visual illusions and succeed on saving throws against them, perceive the original form of a shapechanger or a creature that is transformed by magic, and see into the Ethereal Plane, all within a range of 60 feet."
 								},
 								{
 									"type": "item",
@@ -35166,7 +35166,7 @@ export const items = {
 					"type": "entries",
 					"name": "Searing Radiance",
 					"entries": [
-						"The sword deals an extra 9 ({@damage 2d8}) radiant damage to any creature it hits, or 16 ({@damage 3d10}) radiant damage if you're wielding the weapon with two hands. An evil creature that takes this radiant damage must succeed on a DC 17 Constitution saving throw or be {@condition blinded} until the end of its next turn."
+						"The sword deals an extra 9 (2d8}) radiant damage to any creature it hits, or 16 (3d10}) radiant damage if you're wielding the weapon with two hands. An evil creature that takes this radiant damage must succeed on a DC 17 Constitution saving throw or be {blinded} until the end of its next turn."
 					]
 				},
 				{
@@ -35203,7 +35203,7 @@ export const items = {
 			"reqAttune": "by a reigar who created it",
 			"wondrous": true,
 			"entries": [
-				"The {@creature reigar|BAM} who creates this piece of jewelry chooses its form: bracelet, brooch, diadem, or necklace. While the reigar wears the talarith, any weapon wielded by the {@creature reigar|BAM} deals an extra {@damage 1d6} force damage when it hits.",
+				"The {@creature reigar|BAM} who creates this piece of jewelry chooses its form: bracelet, brooch, diadem, or necklace. While the reigar wears the talarith, any weapon wielded by the {@creature reigar|BAM} deals an extra 1d6} force damage when it hits.",
 				"As an action, a reigar can use its talarith to summon a golem that looks just like the reigar. The golem obeys the reigar's commands and uses the {@creature reigar|BAM|reigar's} statistics, except it is a Construct that doesn't have a talarith of its own. The golem vanishes after 1 hour, or when it is reduced to 0 hit points. After summoning a golem, the reigar must finish a short or long rest before this property can be used again."
 			]
 		},
@@ -35227,7 +35227,7 @@ export const items = {
 			"bonusSpellAttack": "+2",
 			"charges": 7,
 			"entries": [
-				"This talisman is a mighty symbol of goodness. A creature that is neither good nor evil in alignment takes {@damage 6d6} radiant damage upon touching the talisman. An evil creature takes {@damage 8d6} radiant damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.",
+				"This talisman is a mighty symbol of goodness. A creature that is neither good nor evil in alignment takes 6d6} radiant damage upon touching the talisman. An evil creature takes 8d6} radiant damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.",
 				"If you are a good cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.",
 				"The talisman has 7 charges. If you are wearing or holding it, you can use an action to expend 1 charge from it and choose one creature you can see on the ground within 120 feet of you. If the target is of evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed."
 			],
@@ -35273,7 +35273,7 @@ export const items = {
 			"bonusSpellAttack": "+2",
 			"charges": 6,
 			"entries": [
-				"This item symbolizes unrepentant evil. A creature that is neither good nor evil in alignment takes {@damage 6d6} necrotic damage upon touching the talisman. A good creature takes {@damage 8d6} necrotic damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.",
+				"This item symbolizes unrepentant evil. A creature that is neither good nor evil in alignment takes 6d6} necrotic damage upon touching the talisman. A good creature takes 8d6} necrotic damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.",
 				"If you are an evil cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.",
 				"The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed."
 			],
@@ -35302,7 +35302,7 @@ export const items = {
 			"type": "OTH",
 			"rarity": "none",
 			"entries": [
-				"A tangler grenade is an alchemical, nonmagical item with an ovoid resin shell that shatters on impact. An as action, a creature can throw a tangler grenade at a point up to 60 feet away. Each creature within 10 feet of a shattered tangler grenade must succeed on a DC 15 Dexterity saving throw or be {@condition restrained} by sticky white webs. As an action, a creature can try to free itself or another creature within its reach from the webs, doing so with a successful DC 20 Strength ({@skill Athletics}) check. A gallon of alcohol dissolves the webs produced by a single tangler grenade. Otherwise, the webs dissolve on their own after 1 hour, freeing any creatures {@condition restrained} by them."
+				"A tangler grenade is an alchemical, nonmagical item with an ovoid resin shell that shatters on impact. An as action, a creature can throw a tangler grenade at a point up to 60 feet away. Each creature within 10 feet of a shattered tangler grenade must succeed on a DC 15 Dexterity saving throw or be {restrained} by sticky white webs. As an action, a creature can try to free itself or another creature within its reach from the webs, doing so with a successful DC 20 Strength ({@skill Athletics}) check. A gallon of alcohol dissolves the webs produced by a single tangler grenade. Otherwise, the webs dissolve on their own after 1 hour, freeing any creatures {restrained} by them."
 			]
 		},
 		{
@@ -35394,7 +35394,7 @@ export const items = {
 					"type": "entries",
 					"name": "Spells",
 					"entries": [
-						"The sword has 6 charges and regains {@dice 1d4 + 2} expended charges daily at dawn. A creature attuned to the sword can use an action and expend 1 or more charges to cast one of the following spells from it without material components: {@spell fly} (2 charges), {@spell polymorph} (3 charges), or {@spell transport via plants} (4 charges)."
+						"The sword has 6 charges and regains {@dice 1d4 + 2} expended charges daily at dawn. A creature attuned to the sword can use an action and expend 1 or more charges to cast one of the following spells from it without material components: { fly} (2 charges), { polymorph} (3 charges), or { transport via plants} (4 charges)."
 					]
 				},
 				{
@@ -35408,12 +35408,12 @@ export const items = {
 					"type": "entries",
 					"name": "Personality",
 					"entries": [
-						"Tearulai admires great beauty, music, fine art, and poetry. Vain, the weapon strives to improve its appearance. It craves gemstones and seeks out better ones with which to adorn itself. Most of all, it longs to return to the forests around Myth Drannor, where it was created. If its wielder's goals run counter to its own, Tearulai attempts to take control of its wielder and escape Undermountain, whereupon it can use its {@spell transport via plants} spell to return whence it came."
+						"Tearulai admires great beauty, music, fine art, and poetry. Vain, the weapon strives to improve its appearance. It craves gemstones and seeks out better ones with which to adorn itself. Most of all, it longs to return to the forests around Myth Drannor, where it was created. If its wielder's goals run counter to its own, Tearulai attempts to take control of its wielder and escape Undermountain, whereupon it can use its { transport via plants} spell to return whence it came."
 					]
 				},
 				"When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.",
 				"When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another {@dice d20}. If you roll a 20, you lop off one of the target's limbs, with the effect of such loss determined by the DM. If the creature has no limb to sever, you lop off a portion of its body instead.",
-				"{@note Note: According to the SRD, it is an extra {@damage 4d6} slashing damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}}.",
+				"{@note Note: According to the SRD, it is an extra 4d6} slashing damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}}.",
 				"In addition, you can speak the sword's command to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light."
 			],
 			"attachedSpells": [
@@ -35467,13 +35467,13 @@ export const items = {
 									"1",
 									"The Staring Cats of Uldun-dar (ivory cat molar)",
 									"9 {@creature cat||cats}",
-									"The tooth has 8 charges. As an action, you can expend 1 charge to cast the {@spell revivify} spell from the tooth. If you are dead at the start of your turn, the tooth expends 1 charge and casts {@spell revivify} on you."
+									"The tooth has 8 charges. As an action, you can expend 1 charge to cast the { revivify} spell from the tooth. If you are dead at the start of your turn, the tooth expends 1 charge and casts { revivify} on you."
 								],
 								[
 									"2",
 									"Duggle's Surprising Day (human molar)",
 									"1 {@creature commoner}",
-									"When you finish a long rest, the tooth casts {@spell sanctuary} (DC 18) on you, and the spell lasts for 24 hours or until you break it."
+									"When you finish a long rest, the tooth casts { sanctuary} (DC 18) on you, and the spell lasts for 24 hours or until you break it."
 								],
 								[
 									"3",
@@ -35485,13 +35485,13 @@ export const items = {
 									"4",
 									"The Mill Road Murders (halfling canine)",
 									"3 {@creature green hag||green hags} in a coven",
-									"When you damage a target that hasn't taken a turn in this combat, the target takes an extra {@damage 3d10} slashing damage from ghostly blades."
+									"When you damage a target that hasn't taken a turn in this combat, the target takes an extra 3d10} slashing damage from ghostly blades."
 								],
 								[
 									"5",
 									"Dooms of the Malpheggi (emerald lizardfolk fang)",
 									"1 {@creature lizard queen||lizardfolk queen} and 4 {@creature lizardfolk}",
-									"You gain reptilian scales, granting you a +2 bonus to your AC. Additionally, when you finish a long rest, you must succeed on a DC 15 Constitution saving throw or gain 1 level of {@condition exhaustion}."
+									"You gain reptilian scales, granting you a +2 bonus to your AC. Additionally, when you finish a long rest, you must succeed on a DC 15 Constitution saving throw or gain 1 level of {exhaustion}."
 								],
 								[
 									"6",
@@ -35509,7 +35509,7 @@ export const items = {
 									"8",
 									"Beyond the Rock of Bral (silver mind flayer tooth)",
 									"2 {@creature mind flayer||mind flayers}",
-									"You gain telepathy out to 120 feet as described in the Monster Manual, and you can cast the {@spell detect thoughts} spell at will, requiring no components. You also have disadvantage on Wisdom ({@skill Insight}) and Wisdom ({@skill Perception}) checks from constant whispers of memories and nearby minds."
+									"You gain telepathy out to 120 feet as described in the Monster Manual, and you can cast the { detect thoughts} spell at will, requiring no components. You also have disadvantage on Wisdom ({@skill Insight}) and Wisdom ({@skill Perception}) checks from constant whispers of memories and nearby minds."
 								],
 								[
 									"9",
@@ -35521,43 +35521,43 @@ export const items = {
 									"10",
 									"Legendry of Phantoms and Ghosts (obsidian human molar)",
 									"1 {@creature giant octopus}, 1 {@creature mage}, 1 {@creature specter}",
-									"As an action, you can use the tooth to cast the {@spell Evard's black tentacles} spell (DC 18). Once this property is used, it can't be used again until the next dawn."
+									"As an action, you can use the tooth to cast the { Evard's black tentacles} spell (DC 18). Once this property is used, it can't be used again until the next dawn."
 								],
 								[
 									"11",
 									"The Thousand Deaths of Jander Sunstar (yellowed vampire fang)",
 									"1 {@creature vampire}",
-									"You can make a bite attack as an unarmed strike. On a hit, it deals {@damage 1d6} piercing damage plus {@damage 3d6} necrotic damage. You regain a number of hit points equal to the necrotic damage dealt. While you are in sunlight, you can't regain hit points."
+									"You can make a bite attack as an unarmed strike. On a hit, it deals 1d6} piercing damage plus 3d6} necrotic damage. You regain a number of hit points equal to the necrotic damage dealt. While you are in sunlight, you can't regain hit points."
 								],
 								[
 									"12",
 									"Nightmares of Kaggash (twisted beholder tooth)",
 									"1 {@creature beholder}",
-									"As an action, you can cast the {@spell eyebite} spell from the tooth. Once you use this action, it can't be used again until the next dawn. Whenever you finish a long rest, roll a {@dice d20}. On a 20, an aberration chosen by the DM appears within 30 feet of you and attacks."
+									"As an action, you can cast the { eyebite} spell from the tooth. Once you use this action, it can't be used again until the next dawn. Whenever you finish a long rest, roll a {@dice d20}. On a 20, an aberration chosen by the DM appears within 30 feet of you and attacks."
 								],
 								[
 									"13",
 									"Three Bridges to the Sky (lapis lazuli oni fang)",
 									"3 {@creature oni}",
-									"You gain a flying speed of 30 feet, and you can use the tooth to cast the {@spell detect magic} spell at will. While you are attuned to fewer than 3 magic items, you gain 1 level of {@condition exhaustion} that can't be removed until you are attuned to three or more magic items."
+									"You gain a flying speed of 30 feet, and you can use the tooth to cast the { detect magic} spell at will. While you are attuned to fewer than 3 magic items, you gain 1 level of {exhaustion} that can't be removed until you are attuned to three or more magic items."
 								],
 								[
 									"14",
 									"The Claws of Dragotha (broken translucent fang)",
 									"1 {@creature adult red dracolich|tce}",
-									"You can use the tooth to cast the {@spell create undead} spell. Once this property is used, it can't be used again until the next dawn. Each time you create an undead creature using the tooth, a {@creature skeleton}, {@creature zombie}, or {@creature ghoul} also appears at a random location within 5 miles of you, searching for the living to kill. A humanoid killed by these undead rises as the same type of undead at the next midnight."
+									"You can use the tooth to cast the { create undead} spell. Once this property is used, it can't be used again until the next dawn. Each time you create an undead creature using the tooth, a {@creature skeleton}, {@creature zombie}, or {@creature ghoul} also appears at a random location within 5 miles of you, searching for the living to kill. A humanoid killed by these undead rises as the same type of undead at the next midnight."
 								],
 								[
 									"15",
 									"Ashes of the Ages and Eternal Fire (jade humanoid bicuspid)",
 									"1 {@creature dao}, 1 {@creature djinni}, 1 {@creature efreeti}, 1 {@creature marid}",
-									"You can use the tooth to cast {@spell counterspell} at 9th level. Once you use this property, it can't be used again until the next dawn. Whenever you finish a long rest, if you haven't used the tooth to counter a spell since your last long rest, your hit point maximum is reduced by {@dice 2d10}. If this reduces your hit point maximum to 0, you die."
+									"You can use the tooth to cast { counterspell} at 9th level. Once you use this property, it can't be used again until the next dawn. Whenever you finish a long rest, if you haven't used the tooth to counter a spell since your last long rest, your hit point maximum is reduced by {@dice 2d10}. If this reduces your hit point maximum to 0, you die."
 								],
 								[
 									"16",
 									"Daughters of Bel (green steel pit fiend fang)",
 									"1 {@creature pit fiend}",
-									"You can use the tooth to cast {@spell dominate monster} (DC 18). Once you use this property, it can't be used again until the next dawn. You smell strongly of burning sulfur."
+									"You can use the tooth to cast { dominate monster} (DC 18). Once you use this property, it can't be used again until the next dawn. You smell strongly of burning sulfur."
 								],
 								[
 									"17",
@@ -35575,7 +35575,7 @@ export const items = {
 									"19",
 									"Incendax's Tooth (ruby-veined red dragon fang)",
 									"1 {@creature ancient red dragon}",
-									"You gain immunity to fire damage, and as an action, you can exhale fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking {@damage 26d6} fire damage on a failed save, or half as much damage on a successful one. After using the breath weapon, you gain 2 levels of {@condition exhaustion}."
+									"You gain immunity to fire damage, and as an action, you can exhale fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 26d6} fire damage on a failed save, or half as much damage on a successful one. After using the breath weapon, you gain 2 levels of {exhaustion}."
 								],
 								[
 									"20",
@@ -35642,7 +35642,7 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"This clay tablet is eight inches long, four inches wide, and half an inch thick. Inscribed on it is the sigil sequence for a permanent teleportation circle. A creature that studies the sequence for 10 minutes can make a DC 21 Intelligence ({@skill Arcana}) check, learning the circle's destination on a success.",
-				"You can use an action to break the tablet in half, turning it to dust. If the tablet is broken while it is on the same plane of existence as the teleportation circle whose sigil sequence was engraved on it, a 10-foot-diameter teleportation circle of glowing blue light appears on the ground in an unoccupied space you choose within 30 feet of you. This teleportation circle has the characteristics of one created using the {@spell teleportation circle} spell, except that it connects to the teleportation circle whose sigil sequence appears on the tablet.",
+				"You can use an action to break the tablet in half, turning it to dust. If the tablet is broken while it is on the same plane of existence as the teleportation circle whose sigil sequence was engraved on it, a 10-foot-diameter teleportation circle of glowing blue light appears on the ground in an unoccupied space you choose within 30 feet of you. This teleportation circle has the characteristics of one created using the { teleportation circle} spell, except that it connects to the teleportation circle whose sigil sequence appears on the tablet.",
 				"The teleportation circle created by the tablet disappears at the end of your next turn."
 			]
 		},
@@ -35666,7 +35666,7 @@ export const items = {
 			"reqAttune": true,
 			"weight": 2,
 			"entries": [
-				"Made by the {@creature drow}, this rod is a magic weapon that ends in three rubbery tentacles. While holding the rod, you can use an action to direct each tentacle to attack a creature you can see within 15 feet of you. Each tentacle makes a melee attack roll with a +9 bonus. On a hit, the tentacle deals {@damage 1d6} bludgeoning damage. If you hit a target with all three tentacles, it must make a DC 15 Constitution saving throw. On a failure, the creature's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions for 1 minute. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success."
+				"Made by the {@creature drow}, this rod is a magic weapon that ends in three rubbery tentacles. While holding the rod, you can use an action to direct each tentacle to attack a creature you can see within 15 feet of you. Each tentacle makes a melee attack roll with a +9 bonus. On a hit, the tentacle deals 1d6} bludgeoning damage. If you hit a target with all three tentacles, it must make a DC 15 Constitution saving throw. On a failure, the creature's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions for 1 minute. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -35693,8 +35693,8 @@ export const items = {
 									"items": [
 										"The weapon's bonus to attack and damage rolls increases to +2.",
 										"The saving throw DC for spells cast from the morningstar increases to 15.",
-										"When you reduce a creature to 0 hit points with an attack using The Bloody End, you can cause the following effect: each creature of your choice within 15 feet of you must succeed on a DC 15 Wisdom saving throw or be {@condition frightened} of you until the end of your next turn. This property can't be used again until the next dawn.",
-										"When a creature hits you with a melee attack, you can use your reaction to deal {@damage 1d6} psychic damage to the attacker."
+										"When you reduce a creature to 0 hit points with an attack using The Bloody End, you can cause the following effect: each creature of your choice within 15 feet of you must succeed on a DC 15 Wisdom saving throw or be {frightened} of you until the end of your next turn. This property can't be used again until the next dawn.",
+										"When a creature hits you with a melee attack, you can use your reaction to deal 1d6} psychic damage to the attacker."
 									]
 								}
 							]
@@ -35750,7 +35750,7 @@ export const items = {
 							"items": [
 								"You can speak, read, and write Infernal.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-								"While holding the morningstar, you can use an action to cast one of the following spells from it (save DC 13): {@spell charm person}, {@spell dominate person}, or {@spell fear}. Once a spell has been cast using the morningstar, that spell can't be cast from it again until the next dawn.",
+								"While holding the morningstar, you can use an action to cast one of the following spells from it (save DC 13): { charm person}, { dominate person}, or { fear}. Once a spell has been cast using the morningstar, that spell can't be cast from it again until the next dawn.",
 								"While holding the morningstar, you have advantage on Charisma ({@skill Intimidation}) checks."
 							]
 						}
@@ -35789,8 +35789,8 @@ export const items = {
 									"type": "list",
 									"items": [
 										"The weapon's bonus to attack and damage rolls increases to +3.",
-										"Add {@spell dominate monster} to the list of spells that can be cast from the morningstar.",
-										"The saving throw DC for spells cast from the morningstar, as well as for creatures to avoid being {@condition frightened} by it, increases to 17.",
+										"Add { dominate monster} to the list of spells that can be cast from the morningstar.",
+										"The saving throw DC for spells cast from the morningstar, as well as for creatures to avoid being {frightened} by it, increases to 17.",
 										"When you use your reaction to deal psychic damage to a creature that hits you with a melee attack, the amount of psychic damage increases to {@dice 2d6}."
 									]
 								}
@@ -35814,7 +35814,7 @@ export const items = {
 			"entries": [
 				"The Codicil of White is a tall, thin volume bound in white ermine fur over seasoned boards of white pine and sealed with a clasp and lock of tarnished silver. The book is cold to the touch, and the fur is worn about the edges from use. The twenty-seven pages within are of vellum painted with silver gilt on the outer edges. The whole is sewn to a leather binding with strips of sinews, making it quite durable.",
 				"A creature with the codicil in its possession has resistance to cold damage.",
-				"The codicil was written by followers of Auril as a primer on her worship. The first page is a title page with the snowflake symbol of Auril on it. The remaining pages describe various priestly rituals and ceremonies in chilling detail. Nestled among these descriptions is a spell that wizards can learn ({@spell frost fingers|IDRotF}), and a poem called \"Rime of the Frostmaiden\" (see appendix E). The poem is an incantation, the power of which can be used to split a glacier (see chapter 6). The poem might have other capabilities, at your discretion"
+				"The codicil was written by followers of Auril as a primer on her worship. The first page is a title page with the snowflake symbol of Auril on it. The remaining pages describe various priestly rituals and ceremonies in chilling detail. Nestled among these descriptions is a spell that wizards can learn ({ frost fingers|IDRotF}), and a poem called \"Rime of the Frostmaiden\" (see appendix E). The poem is an incantation, the power of which can be used to split a glacier (see chapter 6). The poem might have other capabilities, at your discretion"
 			],
 			"hasFluffImages": true
 		},
@@ -35832,15 +35832,15 @@ export const items = {
 					"type": "list",
 					"style": "list-hang-notitle",
 					"items": [
-						"1st level: {@spell alarm}, {@spell detect magic}, {@spell identify}, {@spell magic missile}, {@spell shield}, {@spell Tasha's hideous laughter}, {@spell thunderwave}",
-						"2nd level: {@spell arcane lock}, {@spell continual flame}, {@spell invisibility}, {@spell knock}, {@spell levitate}, {@spell Melf's acid arrow}, {@spell mirror image}",
-						"3rd level: {@spell animate dead}, {@spell bestow curse}, {@spell clairvoyance}, {@spell counterspell}, {@spell dispel magic}, {@spell fireball}, {@spell glyph of warding}",
-						"4th level: {@spell arcane eye}, {@spell banishment}, {@spell blight}, {@spell dimension door}, {@spell Evard's black tentacles}, {@spell phantasmal killer}",
-						"5th level: {@spell Bigby's hand}, {@spell cloudkill}, {@spell dominate person}, {@spell planar binding}, {@spell scrying}, {@spell telekinesis}",
-						"6th level: {@spell create undead}, {@spell disintegrate}, {@spell globe of invulnerability}, {@spell move earth}, {@spell Otto's irresistible dance}",
-						"7th level: {@spell create magen|IDRotF}, {@spell finger of death}, {@spell prismatic spray}, {@spell teleport}",
-						"8th level: {@spell demiplane}, {@spell dominate monster}, {@spell mind blank}, {@spell power word stun}",
-						"9th level: {@spell blade of disaster|TCE}, {@spell power word kill}"
+						"1st level: { alarm}, { detect magic}, { identify}, { magic missile}, { shield}, { Tasha's hideous laughter}, { thunderwave}",
+						"2nd level: { arcane lock}, { continual flame}, { invisibility}, { knock}, { levitate}, { Melf's acid arrow}, { mirror image}",
+						"3rd level: { animate dead}, { bestow curse}, { clairvoyance}, { counterspell}, { dispel magic}, { fireball}, { glyph of warding}",
+						"4th level: { arcane eye}, { banishment}, { blight}, { dimension door}, { Evard's black tentacles}, { phantasmal killer}",
+						"5th level: { Bigby's hand}, { cloudkill}, { dominate person}, { planar binding}, { scrying}, { telekinesis}",
+						"6th level: { create undead}, { disintegrate}, { globe of invulnerability}, { move earth}, { Otto's irresistible dance}",
+						"7th level: { create magen|IDRotF}, { finger of death}, { prismatic spray}, { teleport}",
+						"8th level: { demiplane}, { dominate monster}, { mind blank}, { power word stun}",
+						"9th level: { blade of disaster|TCE}, { power word kill}"
 					]
 				}
 			],
@@ -35867,8 +35867,8 @@ export const items = {
 					"type": "entries",
 					"name": "Silver Wire",
 					"entries": [
-						"The Infernal Machine's great size makes it largely immobile. To make ongoing use of the machine (such as while adventuring), it can be connected to its attuned user by a silver wire, a supply of which can always be produced from the machine's inner workings. This silver wire shares the same general nature as the silvery cord of an {@spell astral projection} spell, connecting to the body of the user and trailing behind them. When so attached, the wire becomes {@condition invisible}, astral, and extends to virtually infinite length.",
-						"As long as the wire remains intact, the attuned user can make full use of the Infernal Machine's powers, with their effects centered around the user. If the wire is cut\u2014something that can happen only when an effect specifically states that it can cut an {@spell astral projection}'s silvery cord\u2014the user suffers a sudden burst of feedback from the machine that kills them instantly.",
+						"The Infernal Machine's great size makes it largely immobile. To make ongoing use of the machine (such as while adventuring), it can be connected to its attuned user by a silver wire, a supply of which can always be produced from the machine's inner workings. This silver wire shares the same general nature as the silvery cord of an { astral projection} spell, connecting to the body of the user and trailing behind them. When so attached, the wire becomes {invisible}, astral, and extends to virtually infinite length.",
+						"As long as the wire remains intact, the attuned user can make full use of the Infernal Machine's powers, with their effects centered around the user. If the wire is cut\u2014something that can happen only when an effect specifically states that it can cut an { astral projection}'s silvery cord\u2014the user suffers a sudden burst of feedback from the machine that kills them instantly.",
 						"Any effect of the Infernal Machine that requires concentration can be concentrated on by a remote user. The Infernal Machine's effects have a spell save DC of 14 or the attuned user's spell save DC, whichever is higher."
 					]
 				},
@@ -35881,9 +35881,9 @@ export const items = {
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								"1/day: {@spell conjure animals}, {@spell summon lesser demons|XGE}",
-								"1/7 days: {@spell conjure minor elementals}, {@spell conjure woodland beings}, {@spell summon greater demon|XGE}",
-								"1/month: {@spell conjure elemental}, {@spell conjure fey}"
+								"1/day: { conjure animals}, { summon lesser demons|XGE}",
+								"1/7 days: { conjure minor elementals}, { conjure woodland beings}, { summon greater demon|XGE}",
+								"1/month: { conjure elemental}, { conjure fey}"
 							]
 						}
 					]
@@ -35892,7 +35892,7 @@ export const items = {
 					"type": "entries",
 					"name": "Wish",
 					"entries": [
-						"The Infernal Machine has the ability to bend the nature of reality, with the proper combination of controls recreating the effect of a {@spell wish} spell (including all side effects). Due to the complex nature of its programming, this feature can be used only once per month. Each time this effect is used, there is a cumulative {@chance 10|10 percent} chance of the Infernal Machine malfunctioning, necessitating seven days' worth of repairs and reprogramming, as well as the expenditure of 500 gp in parts, before it can be used again. When these repairs are done, the cumulative chance of malfunction returns to 10 percent."
+						"The Infernal Machine has the ability to bend the nature of reality, with the proper combination of controls recreating the effect of a { wish} spell (including all side effects). Due to the complex nature of its programming, this feature can be used only once per month. Each time this effect is used, there is a cumulative {@chance 10|10 percent} chance of the Infernal Machine malfunctioning, necessitating seven days' worth of repairs and reprogramming, as well as the expenditure of 500 gp in parts, before it can be used again. When these repairs are done, the cumulative chance of malfunction returns to 10 percent."
 					]
 				},
 				{
@@ -35928,11 +35928,11 @@ export const items = {
 						[
 							"01",
 							"You have a flying speed of 150 feet but lose all other movement.",
-							"You are {@condition blinded}."
+							"You are {blinded}."
 						],
 						[
 							"02",
-							"You can cast the {@spell speak with animals} spell at will, but can use it to speak with only one animal of your choice.",
+							"You can cast the { speak with animals} spell at will, but can use it to speak with only one animal of your choice.",
 							"All animals despise you. You have disadvantage on Wisdom ({@skill Animal Handling}) checks."
 						],
 						[
@@ -35942,7 +35942,7 @@ export const items = {
 						],
 						[
 							"04",
-							"You can cast the {@spell legend lore} spell three times.",
+							"You can cast the { legend lore} spell three times.",
 							"Whenever you make an Intelligence check or use divination magic to learn something about a creature, that knowledge comes with added trivia of the DM's devising."
 						],
 						[
@@ -35957,7 +35957,7 @@ export const items = {
 						],
 						[
 							"07",
-							"You can cast the {@spell speak with animals} spell at will, but can use it to communicate only with insects.",
+							"You can cast the { speak with animals} spell at will, but can use it to communicate only with insects.",
 							"Disturbing whispers on the edge of hearing haunt all creatures within 30 feet of you, causing those creatures to recall their saddest memories."
 						],
 						[
@@ -35978,12 +35978,12 @@ export const items = {
 						[
 							"11",
 							"Your clothes are wrapped in illusion that makes them appear to be the very latest style, drawing praise and attention. You have a +1 bonus to Charisma checks.",
-							"Any food and drink you eat spoils as you swallow it. Each time you eat or drink, you are {@condition poisoned} for 1 hour."
+							"Any food and drink you eat spoils as you swallow it. Each time you eat or drink, you are {poisoned} for 1 hour."
 						],
 						[
 							"12",
 							"You have a +1 bonus to attack rolls with weapons or spells (your choice).",
-							"The {@spell cure wounds} spell restores no hit points for you."
+							"The { cure wounds} spell restores no hit points for you."
 						],
 						[
 							"13",
@@ -35993,11 +35993,11 @@ export const items = {
 						[
 							"14",
 							"You constantly see afterimages of all events that occurred within 30 feet of you over the previous hour.",
-							"You are distracted by voices and visions, forcing you to succeed on a Wisdom saving throw every 4 hours or gain one level of {@condition exhaustion}."
+							"You are distracted by voices and visions, forcing you to succeed on a Wisdom saving throw every 4 hours or gain one level of {exhaustion}."
 						],
 						[
 							"15",
-							"You understand all languages, as if under the effect of a {@spell comprehend languages} spell.",
+							"You understand all languages, as if under the effect of a { comprehend languages} spell.",
 							"Whenever you speak, you speak in a random language (possibly including languages you don't normally know)."
 						],
 						[
@@ -36012,12 +36012,12 @@ export const items = {
 						],
 						[
 							"18",
-							"While you are afflicted by a disease or suffering the {@condition poisoned} or {@condition frightened} condition, whenever you hit a humanoid with a melee attack, the target must succeed on a DC 15 Constitution saving throw. On a failed save, you transfer the disease or the condition to the target, and the disease or condition ends for you.",
-							"Water becomes intensely acidic to you. If you are submerged in water, you take {@damage 1d6} acid damage at the start of each of your turns, and drinking pure water causes you to be {@condition poisoned} for 1 hour."
+							"While you are afflicted by a disease or suffering the {poisoned} or {frightened} condition, whenever you hit a humanoid with a melee attack, the target must succeed on a DC 15 Constitution saving throw. On a failed save, you transfer the disease or the condition to the target, and the disease or condition ends for you.",
+							"Water becomes intensely acidic to you. If you are submerged in water, you take 1d6} acid damage at the start of each of your turns, and drinking pure water causes you to be {poisoned} for 1 hour."
 						],
 						[
 							"19",
-							"A random Huge beast appears next to you (chosen by the DM) as if with the {@spell conjure animals} spell. You have a telepathic link to this beast, such that you can give it commands even if it can't hear you.",
+							"A random Huge beast appears next to you (chosen by the DM) as if with the { conjure animals} spell. You have a telepathic link to this beast, such that you can give it commands even if it can't hear you.",
 							"A random Huge beast appears next to you (chosen by the DM) and attacks at once."
 						],
 						[
@@ -36027,12 +36027,12 @@ export const items = {
 						],
 						[
 							"21",
-							"If you drop to 0 hit points, a phantom guardian appears next to you, functioning as if you had cast the {@spell Mordenkainen's faithful hound} spell. The guardian disappears if you die, regain hit points, or regain consciousness.",
+							"If you drop to 0 hit points, a phantom guardian appears next to you, functioning as if you had cast the { Mordenkainen's faithful hound} spell. The guardian disappears if you die, regain hit points, or regain consciousness.",
 							"No one takes you seriously, imposing disadvantage on Charisma ({@skill Deception} and {@skill Persuasion}) checks, and causing you to automatically fail Charisma ({@skill Intimidation}) checks."
 						],
 						[
 							"22",
-							"You can cast the {@spell gaseous form} spell on yourself three times. When you do, instead of appearing as mist, you appear as a swirling puff of feathers.",
+							"You can cast the { gaseous form} spell on yourself three times. When you do, instead of appearing as mist, you appear as a swirling puff of feathers.",
 							"Your body is covered in feathers."
 						],
 						[
@@ -36042,12 +36042,12 @@ export const items = {
 						],
 						[
 							"24",
-							"You can cast {@spell speak with animals} at will, but can use it to communicate only with dogs.",
+							"You can cast { speak with animals} at will, but can use it to communicate only with dogs.",
 							"All cats are automatically hostile toward you."
 						],
 						[
 							"25",
-							"You can cast the {@spell raise dead} spell once, requiring no material components.",
+							"You can cast the { raise dead} spell once, requiring no material components.",
 							"If you drop to 0 hit points, you automatically suffer 1 failed death saving throw."
 						],
 						[
@@ -36062,12 +36062,12 @@ export const items = {
 						],
 						[
 							"28",
-							"You gain the benefit of a {@spell nondetection} spell.",
-							"Your appearance changes randomly as determined by the DM, as if you were under the effect of a {@spell disguise self} spell."
+							"You gain the benefit of a { nondetection} spell.",
+							"Your appearance changes randomly as determined by the DM, as if you were under the effect of a { disguise self} spell."
 						],
 						[
 							"29",
-							"You can cast the {@spell mage hand} cantrip at will.",
+							"You can cast the { mage hand} cantrip at will.",
 							"A disembodied spirit follows you around, stealing and scattering coins from you, crumbling your food, and playing with your weapons and gear."
 						],
 						[
@@ -36077,12 +36077,12 @@ export const items = {
 						],
 						[
 							"31",
-							"You can cast the {@spell speak with plants} spell three times.",
-							"Your skin turns green, and you must drink a half gallon of fresh water every 4 hours or take {@damage 1d4} necrotic damage."
+							"You can cast the { speak with plants} spell three times.",
+							"Your skin turns green, and you must drink a half gallon of fresh water every 4 hours or take 1d4} necrotic damage."
 						],
 						[
 							"32",
-							"You know whether creatures within 15 feet of you are lying, as if you were the center of a {@spell zone of truth} spell.",
+							"You know whether creatures within 15 feet of you are lying, as if you were the center of a { zone of truth} spell.",
 							"Whenever you would speak falsely, you cannot speak at all."
 						],
 						[
@@ -36112,7 +36112,7 @@ export const items = {
 						],
 						[
 							"38",
-							"Each time you finish a short rest, you suddenly sprout a covering of fragrant leaves. The leaves fall off after {@dice 1d10} minutes, revealing {@dice 1d6} magic fruits that can be plucked from your head. Each fruit functions as a berry created with the {@spell goodberry} spell.",
+							"Each time you finish a short rest, you suddenly sprout a covering of fragrant leaves. The leaves fall off after {@dice 1d10} minutes, revealing {@dice 1d6} magic fruits that can be plucked from your head. Each fruit functions as a berry created with the { goodberry} spell.",
 							"Whenever you stop moving for 10 minutes or more, you discover that your boots or shoes have set down roots that must be pulled free with a successful DC 20 Strength check."
 						],
 						[
@@ -36122,7 +36122,7 @@ export const items = {
 						],
 						[
 							"40",
-							"A group of small forest animals appears and follows you everywhere, singing and dancing. These magical creatures can perform any task you desire that could be performed by a {@spell prestidigitation} spell.",
+							"A group of small forest animals appears and follows you everywhere, singing and dancing. These magical creatures can perform any task you desire that could be performed by a { prestidigitation} spell.",
 							"You break out into song whenever you roll a 1 on any die."
 						],
 						[
@@ -36147,12 +36147,12 @@ export const items = {
 						],
 						[
 							"45",
-							"You can cast the {@spell detect thoughts} spell three times.",
-							"All creatures within 30 feet of you automatically know your surface thoughts, as if having cast {@spell detect thoughts} against you."
+							"You can cast the { detect thoughts} spell three times.",
+							"All creatures within 30 feet of you automatically know your surface thoughts, as if having cast { detect thoughts} against you."
 						],
 						[
 							"46",
-							"You can cast the {@spell misty step} spell three times. When you do, you must begin and end your teleportation in an area of shadow.",
+							"You can cast the { misty step} spell three times. When you do, you must begin and end your teleportation in an area of shadow.",
 							"While in direct sunlight, you have disadvantage on attack rolls as well as on Wisdom ({@skill Perception}) checks that rely on sight."
 						],
 						[
@@ -36163,12 +36163,12 @@ export const items = {
 						[
 							"48",
 							"You have increased lung capacity, increasing your walking speed by 10 feet and letting you hold your breath for twice as long as normal.",
-							"Whenever you exert yourself by fighting, running, and so forth, you breathe out intermittent gouts of flame that deal {@damage 1d4} fire damage to you."
+							"Whenever you exert yourself by fighting, running, and so forth, you breathe out intermittent gouts of flame that deal 1d4} fire damage to you."
 						],
 						[
 							"49",
-							"You can cast the {@spell daylight} spell three times.",
-							"An evil undead creature that comes within 30 feet of you for the first time is {@condition charmed} by you until the end of your next turn."
+							"You can cast the { daylight} spell three times.",
+							"An evil undead creature that comes within 30 feet of you for the first time is {charmed} by you until the end of your next turn."
 						],
 						[
 							"50",
@@ -36177,17 +36177,17 @@ export const items = {
 						],
 						[
 							"51",
-							"You shed light like a torch, as if you were the target of a {@spell light} cantrip.",
+							"You shed light like a torch, as if you were the target of a { light} cantrip.",
 							"No one else can take a short rest within 40 feet of you, as everything you say or do seems distracting to them."
 						],
 						[
 							"52",
-							"You can cast the {@spell divination} spell once.",
+							"You can cast the { divination} spell once.",
 							"Whenever you make an Intelligence check or saving throw, you receive a grim vision of the DM's determination, imposing disadvantage on your next attack roll, ability check, or saving throw."
 						],
 						[
 							"53",
-							"As an action, you can become incorporeal for 10 minutes, allowing you to move through other creatures and objects as if they were {@quickref difficult terrain||3}. You take 5 ({@damage 1d10}) force damage if you end your turn inside an object. You can use this property once.",
+							"As an action, you can become incorporeal for 10 minutes, allowing you to move through other creatures and objects as if they were {@quickref difficult terrain||3}. You take 5 (1d10}) force damage if you end your turn inside an object. You can use this property once.",
 							"Your senses diminish as if the world were faded around you, imposing disadvantage on Wisdom ({@skill Perception}) checks."
 						],
 						[
@@ -36198,7 +36198,7 @@ export const items = {
 						[
 							"55",
 							"As a bonus action, you can choose one creature within 10 feet of you and know one secret about it, as determined by the DM.",
-							"The {@spell remove curse}, {@spell lesser restoration}, and {@spell greater restoration} spells have no effect on you."
+							"The { remove curse}, { lesser restoration}, and { greater restoration} spells have no effect on you."
 						],
 						[
 							"56",
@@ -36212,7 +36212,7 @@ export const items = {
 						],
 						[
 							"58",
-							"You can cast {@spell speak with animals} at will, but you can use it to communicate only with goats. Any goat you speak with becomes {@condition charmed} by you for 1 hour.",
+							"You can cast { speak with animals} at will, but you can use it to communicate only with goats. Any goat you speak with becomes {charmed} by you for 1 hour.",
 							"You become distraught unless your clothing is all the same color, imposing disadvantage on Intelligence, Wisdom, and Charisma checks and saving throws."
 						],
 						[
@@ -36222,7 +36222,7 @@ export const items = {
 						],
 						[
 							"60",
-							"You have immunity to the {@condition charmed} and {@condition frightened} conditions.",
+							"You have immunity to the {charmed} and {frightened} conditions.",
 							"You can speak only in a monotone voice, imposing disadvantage on Charisma checks."
 						],
 						[
@@ -36232,8 +36232,8 @@ export const items = {
 						],
 						[
 							"62",
-							"The first creature you hit with a weapon attack on each of your turns takes {@damage 1d4} fire damage at the start of its next turn.",
-							"You are {@condition blinded} while in bright light, and your shadow takes on a monstrous appearance."
+							"The first creature you hit with a weapon attack on each of your turns takes 1d4} fire damage at the start of its next turn.",
+							"You are {blinded} while in bright light, and your shadow takes on a monstrous appearance."
 						],
 						[
 							"63",
@@ -36253,7 +36253,7 @@ export const items = {
 						[
 							"66",
 							"You increase one ability score of your choice by 2. You can increase an ability score above 20 using this property, but the increase is lost when this property ends.",
-							"Whenever you roll a 1 on an attack roll, ability check, or saving throw using your highest ability score, you take {@damage 1d4} psychic damage."
+							"Whenever you roll a 1 on an attack roll, ability check, or saving throw using your highest ability score, you take 1d4} psychic damage."
 						],
 						[
 							"67",
@@ -36262,7 +36262,7 @@ export const items = {
 						],
 						[
 							"68",
-							"As an action while you are in dim light or darkness, you can become {@condition invisible}, as if targeted by the {@spell invisibility} spell. In addition to becoming visible if you attack or cast a spell, you become visible if you move into bright light. You can use this property three times.",
+							"As an action while you are in dim light or darkness, you can become {invisible}, as if targeted by the { invisibility} spell. In addition to becoming visible if you attack or cast a spell, you become visible if you move into bright light. You can use this property three times.",
 							"While in bright light, you have disadvantage on initiative rolls."
 						],
 						[
@@ -36278,7 +36278,7 @@ export const items = {
 						[
 							"71",
 							"Whenever you roll a 20 on a {@dice d20}, you can immediately end one effect on you.",
-							"Whenever you roll a 1 on a {@dice d20}, you are {@condition blinded} until the end of your next turn."
+							"Whenever you roll a 1 on a {@dice d20}, you are {blinded} until the end of your next turn."
 						],
 						[
 							"72",
@@ -36297,7 +36297,7 @@ export const items = {
 						],
 						[
 							"75",
-							"You can cast the {@spell control weather} spell.",
+							"You can cast the { control weather} spell.",
 							"Each time you deal or take cold damage or fire damage, you must succeed on a DC 10 Charisma saving throw or accidentally summon a hostile {@creature air elemental} or {@creature fire elemental} (depending on the damage dealt)."
 						],
 						[
@@ -36307,18 +36307,18 @@ export const items = {
 						],
 						[
 							"77",
-							"A creature appears next to you that is a hybrid of any two nonmagical beasts (akin to the {@creature owlbear}). The creature serves you as if created by a {@spell conjure animals} spell. The DM determines the creature's statistics.",
+							"A creature appears next to you that is a hybrid of any two nonmagical beasts (akin to the {@creature owlbear}). The creature serves you as if created by a { conjure animals} spell. The DM determines the creature's statistics.",
 							"A creature appears next to you that is a hybrid of any two nonmagical beasts (akin to the {@creature owlbear}). Unless you succeed on a DC 12 Wisdom ({@skill Animal Handling}) check, the creature attacks you before wandering off. The DM determines the creature's statistics."
 						],
 						[
 							"78",
-							"You can cast the {@spell teleport} spell, always arriving on target when you do. You can use this property once.",
+							"You can cast the { teleport} spell, always arriving on target when you do. You can use this property once.",
 							"Each time you walk through a doorway or similar portal, you must succeed on a DC 10 Intelligence check or step into a skewed timeline. On a failure, you and all allies within 10 feet of you skip ahead {@dice 1d4} minutes. To other creatures, it appears that you and other affected creatures disappear for that length of time, then appear again in the doorway."
 						],
 						[
 							"79",
-							"You can cast the {@spell haste} spell on yourself. You can use this property three times.",
-							"Each time you are reduced to 0 hit points then stabilized, you suffer the effect of a {@spell slow} spell."
+							"You can cast the { haste} spell on yourself. You can use this property three times.",
+							"Each time you are reduced to 0 hit points then stabilized, you suffer the effect of a { slow} spell."
 						],
 						[
 							"80",
@@ -36327,7 +36327,7 @@ export const items = {
 						],
 						[
 							"81",
-							"Your blood is venomous, granting you immunity to poison and to the {@condition poisoned} condition. You can cast the {@spell speak with animals} spell at will, but you can use it to communicate only with snakes.",
+							"Your blood is venomous, granting you immunity to poison and to the {poisoned} condition. You can cast the { speak with animals} spell at will, but you can use it to communicate only with snakes.",
 							"Your tongue is long and forked, causing you to speak in a hiss. You have disadvantage on Charisma checks involving speech, and you must succeed on a DC 15 Constitution check to cast a spell with a verbal component."
 						],
 						[
@@ -36337,7 +36337,7 @@ export const items = {
 						],
 						[
 							"83",
-							"You can cast the {@spell misty step} spell three times. When you do, you must begin and end your teleportation in an area of fire. Any fire damage you take during the same turn in which you use {@spell misty step} is restored automatically at the end of your turn.",
+							"You can cast the { misty step} spell three times. When you do, you must begin and end your teleportation in an area of fire. Any fire damage you take during the same turn in which you use { misty step} is restored automatically at the end of your turn.",
 							"Whenever you start your turn within 30 feet of an ongoing fire effect, you must succeed on a DC 13 Wisdom saving throw or move toward the fire and into it if possible."
 						],
 						[
@@ -36347,7 +36347,7 @@ export const items = {
 						],
 						[
 							"85",
-							"You can cast the {@spell healing word} spell three times.",
+							"You can cast the { healing word} spell three times.",
 							"Undead are drawn to you, making it impossible for you to hide from them. Each undead creature you face in combat has advantage on its first attack roll against you."
 						],
 						[
@@ -36368,7 +36368,7 @@ export const items = {
 						[
 							"89",
 							"Each time you finish a short rest, you regain {@dice 1d8} hit points. Each creature that took a short rest with you and remained within 30 feet of you for the duration also gains this benefit.",
-							"Each time you finish a short rest, you take {@damage 3d8} psychic damage. At your determination, you can transfer some or all of this damage to any creatures that took a short rest with you and remained within 30 feet of you for the duration."
+							"Each time you finish a short rest, you take 3d8} psychic damage. At your determination, you can transfer some or all of this damage to any creatures that took a short rest with you and remained within 30 feet of you for the duration."
 						],
 						[
 							"90",
@@ -36387,12 +36387,12 @@ export const items = {
 						],
 						[
 							"93",
-							"While standing in a doorway, you can cast the {@spell teleport} spell. Your destination must be another doorway you know. You can use this property once.",
+							"While standing in a doorway, you can cast the { teleport} spell. Your destination must be another doorway you know. You can use this property once.",
 							"Each time you finish a short rest, you forget one of your allies (of the DM's choice) and no longer trust that character. You lose this distrust at the end of your next short rest."
 						],
 						[
 							"94",
-							"As an action, you cause a swirling storm of rocks and dust to surround you in a 10-foot radius for 1 minute. Each creature hostile to you that enters the area must succeed on a DC 12 Constitution saving throw or take {@damage 1d6} bludgeoning damage and be {@condition blinded} for 1 round. You can use this property three times.",
+							"As an action, you cause a swirling storm of rocks and dust to surround you in a 10-foot radius for 1 minute. Each creature hostile to you that enters the area must succeed on a DC 12 Constitution saving throw or take 1d6} bludgeoning damage and be {blinded} for 1 round. You can use this property three times.",
 							"{@creature fire elemental||Fire elementals}, {@creature water elemental||water elementals}, and other creatures of fire and water (as determined by the DM) regard you as their enemy, and focus their attacks against you to the exclusion of all else."
 						],
 						[
@@ -36402,7 +36402,7 @@ export const items = {
 						],
 						[
 							"96",
-							"You can cast the {@spell modify memory} spell once.",
+							"You can cast the { modify memory} spell once.",
 							"Whenever you make an Intelligence check or saving throw, you must succeed on a DC 13 Charisma saving throw or lose all your memories of the past hour."
 						],
 						[
@@ -36412,7 +36412,7 @@ export const items = {
 						],
 						[
 							"98",
-							"As an action, you conjure a mindless, shapeless force that is your exact duplicate. You control this force as if it were the product of an {@spell unseen servant} spell, except that it is visible.",
+							"As an action, you conjure a mindless, shapeless force that is your exact duplicate. You control this force as if it were the product of an { unseen servant} spell, except that it is visible.",
 							"Each time you see your own reflection, you must succeed on a DC 12 Charisma saving throw. On a failure, you treat your allies as enemies and vice versa for 1 minute, attacking the wrong targets, betraying your companions in social situations, and so forth. You can repeat the saving throw at the end of each of your turns, ending the effect on a success."
 						],
 						[
@@ -36504,7 +36504,7 @@ export const items = {
 			"rarity": "none",
 			"poison": true,
 			"entries": [
-				"This poison was first created using blood harvested from the artificer Thessalar. A creature subjected to the poison must succeed on a DC 15 Constitution saving throw or take on a new form as if affected by the {@spell polymorph} spell. The creature's new form is a random beast or a creature it has seen within the last 24 hours (as chosen by the DM). This transformation lasts until the end of the target's next long rest. This effect is not subject to {@spell dispel magic} or {@spell remove curse}, but a {@spell greater restoration} spell restores the creature to its original form."
+				"This poison was first created using blood harvested from the artificer Thessalar. A creature subjected to the poison must succeed on a DC 15 Constitution saving throw or take on a new form as if affected by the { polymorph} spell. The creature's new form is a random beast or a creature it has seen within the last 24 hours (as chosen by the DM). This transformation lasts until the end of the target's next long rest. This effect is not subject to { dispel magic} or { remove curse}, but a { greater restoration} spell restores the creature to its original form."
 			],
 			"poisonTypes": [
 				"ingested",
@@ -36521,7 +36521,7 @@ export const items = {
 			"type": "P",
 			"rarity": "uncommon",
 			"entries": [
-				"This potion appears to change color and texture each time you look at it. When you drink the potion, it ends the {@spell polymorph} effect imposed by thessaltoxin."
+				"This potion appears to change color and texture each time you look at it. When you drink the potion, it ends the { polymorph} effect imposed by thessaltoxin."
 			]
 		},
 		{
@@ -36644,7 +36644,7 @@ export const items = {
 			"wondrous": true,
 			"bonusSavingThrow": "+1",
 			"entries": [
-				"While attuned to this device, you have a +1 bonus to Dexterity saving throws and you always know which way is north. Additionally, you can cast the {@spell longstrider} spell on yourself at will.",
+				"While attuned to this device, you have a +1 bonus to Dexterity saving throws and you always know which way is north. Additionally, you can cast the { longstrider} spell on yourself at will.",
 				{
 					"type": "entries",
 					"name": "Turn-by-Turn Directions",
@@ -36657,7 +36657,7 @@ export const items = {
 					"type": "entries",
 					"name": "Get Away From It All",
 					"entries": [
-						"As an action, you can cast the {@spell teleport} spell. Once you use this feature of the timepiece of travel, it cannot be used again until the next dawn."
+						"As an action, you can cast the { teleport} spell. Once you use this feature of the timepiece of travel, it cannot be used again until the next dawn."
 					]
 				},
 				{
@@ -36712,7 +36712,7 @@ export const items = {
 			"bonusWeapon": "+2",
 			"entries": [
 				"A flint dagger, Tinderstrike is uncommonly sharp, and sparks cascade off its edge whenever it strikes something solid. Its handle is always warm to the touch, and the blade smolders for {@dice 1d4} minutes after it is used to deal damage. It contains a spark of {@creature Imix|PotA}, Prince of Evil Fire.",
-				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra {@damage 2d6} fire damage.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit with it, the target takes an extra 2d6} fire damage.",
 				{
 					"name": "Fire Mastery",
 					"type": "entries",
@@ -36725,7 +36725,7 @@ export const items = {
 					"items": [
 						"You can speak Ignan fluently.",
 						"You have resistance to fire damage.",
-						"You can cast {@spell dominate monster} (save DC 17) on a {@creature fire elemental}. Once you have done so, Tinderstrike can't be used this way again until the next dawn."
+						"You can cast { dominate monster} (save DC 17) on a {@creature fire elemental}. Once you have done so, Tinderstrike can't be used this way again until the next dawn."
 					]
 				},
 				{
@@ -36967,8 +36967,8 @@ export const items = {
 			"weapon": true,
 			"entries": [
 				"This magic ranged weapon resembles a {@item musket|DMG}, but in lieu of any ammunition, it holds a glowing yellow scale from a topaz dragon in its heart.",
-				"The weapon has a normal range of 100 feet and a long range of 300 feet, and it has the two-handed property. It deals {@damage 2d6} necrotic damage on a hit. If this damage reduces a creature or object to 0 hit points, the target is reduced to dust. A creature reduced to dust can be restored to life only by a {@spell true resurrection} or {@spell wish} spell.",
-				"While the weapon is on your person, you can use an action to cast the {@spell disintegrate} spell (save DC 18). Once this property is used, it can't be used again until the next dawn."
+				"The weapon has a normal range of 100 feet and a long range of 300 feet, and it has the two-handed property. It deals 2d6} necrotic damage on a hit. If this damage reduces a creature or object to 0 hit points, the target is reduced to dust. A creature reduced to dust can be restored to life only by a { true resurrection} or { wish} spell.",
+				"While the weapon is on your person, you can use an action to cast the { disintegrate} spell (save DC 18). Once this property is used, it can't be used again until the next dawn."
 			],
 			"attachedSpells": [
 				"disintegrate"
@@ -36998,7 +36998,7 @@ export const items = {
 			"value": 60000,
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {@condition poisoned} for {@dice 4d6} hours. The {@condition poisoned} creature is {@condition incapacitated}."
+				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {poisoned} for {@dice 4d6} hours. The {poisoned} creature is {incapacitated}."
 			],
 			"poisonTypes": [
 				"ingested"
@@ -37074,7 +37074,7 @@ export const items = {
 			"dmgType": "S",
 			"dmg2": "1d10",
 			"entries": [
-				"The axe's handle is carved with leaves and vines, and it weighs half as much as a normal battleaxe. When the axe hits a plant, whether an ordinary plant or a plant creature, the target takes an extra {@damage 1d8} slashing damage. When a creature of non-good alignment wields the axe, it sprouts thorns whenever its wielder makes an attack with it. These thorns prick the wielder for 1 piercing damage after the attack is made, and this damage is considered magical."
+				"The axe's handle is carved with leaves and vines, and it weighs half as much as a normal battleaxe. When the axe hits a plant, whether an ordinary plant or a plant creature, the target takes an extra 1d8} slashing damage. When a creature of non-good alignment wields the axe, it sprouts thorns whenever its wielder makes an attack with it. These thorns prick the wielder for 1 piercing damage after the attack is made, and this damage is considered magical."
 			]
 		},
 		{
@@ -37101,7 +37101,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast {@spell dominate beast} (save DC 15) from it on a beast that has an innate swimming speed. The trident regains {@dice 1d3} expended charges daily at dawn."
+				"This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast { dominate beast} (save DC 15) from it on a beast that has an innate swimming speed. The trident regains {@dice 1d3} expended charges daily at dawn."
 			],
 			"attachedSpells": [
 				"dominate beast"
@@ -38583,7 +38583,7 @@ export const items = {
 						],
 						[
 							"95",
-							"A {@condition petrified} mouse"
+							"A {petrified} mouse"
 						],
 						[
 							"96",
@@ -38620,7 +38620,7 @@ export const items = {
 			"value": 15000,
 			"poison": true,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or become {@condition poisoned} for 1 hour. The {@condition poisoned} creature can't knowingly speak a lie, as if under the effect of a {@spell zone of truth} spell."
+				"A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or become {poisoned} for 1 hour. The {poisoned} creature can't knowingly speak a lie, as if under the effect of a { zone of truth} spell."
 			],
 			"poisonTypes": [
 				"ingested"
@@ -38726,7 +38726,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "common",
 			"entries": [
-				"This arrow can't be broken, except when it is within an {@spell antimagic field}."
+				"This arrow can't be broken, except when it is within an { antimagic field}."
 			],
 			"hasFluffImages": true
 		},
@@ -38800,8 +38800,8 @@ export const items = {
 			"recharge": "dawn",
 			"entries": [
 				"These metallic nodules were created in response to the poisonous gases used on the battlefields of the Last War. When you attune to these lungs, they replace the lungs in your chest, which disappear. The lungs allow you to breathe normally, even in an antimagic field, and their breathing function can't be suppressed by magic.",
-				"Outside an antimagic field or any other effect that suppresses magic, these lungs allow you to breathe normally in any environment (including a vacuum), and you have advantage on saving throws against harmful gases such as those created by a {@spell cloudkill} spell, a {@spell stinking cloud} spell, inhaled poisons, and gaseous breath weapons.",
-				"As an action, you can use these lungs to exhale a gust of wind, as if you had cast the {@spell gust of wind} spell (spell save DC 15) with no components. This property of the lungs can't be used again until the next dawn.",
+				"Outside an antimagic field or any other effect that suppresses magic, these lungs allow you to breathe normally in any environment (including a vacuum), and you have advantage on saving throws against harmful gases such as those created by a { cloudkill} spell, a { stinking cloud} spell, inhaled poisons, and gaseous breath weapons.",
+				"As an action, you can use these lungs to exhale a gust of wind, as if you had cast the { gust of wind} spell (spell save DC 15) with no components. This property of the lungs can't be used again until the next dawn.",
 				"If your attunement to the lungs ends, your original lungs reappear."
 			],
 			"optionalfeatures": [
@@ -38830,8 +38830,8 @@ export const items = {
 									"type": "list",
 									"items": [
 										"You have resistance to poison damage.",
-										"You can use an action to cast the {@spell insect plague} spell (save DC 15) from the Verminshroud, requiring no material components. This property can't be used again until the next dawn.",
-										"When you cast the {@spell polymorph} spell using the Verminshroud, you can transform into a {@creature giant wasp}."
+										"You can use an action to cast the { insect plague} spell (save DC 15) from the Verminshroud, requiring no material components. This property can't be used again until the next dawn.",
+										"When you cast the { polymorph} spell using the Verminshroud, you can transform into a {@creature giant wasp}."
 									]
 								}
 							]
@@ -38872,7 +38872,7 @@ export const items = {
 							"type": "list",
 							"items": [
 								"You have advantage on Wisdom ({@skill Perception}) checks that rely on smell, you are immune to disease, and you have {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision}, wearing the cloak increases the range of your {@sense darkvision} by 60 feet.",
-								"As an action, you can use the Verminshroud to cast {@spell polymorph} on yourself, transforming into a {@creature giant rat} or {@creature rat} while retaining your Intelligence, Wisdom, and Charisma scores, as well as the properties of the cloak. This property can't be used again until the next dawn."
+								"As an action, you can use the Verminshroud to cast { polymorph} on yourself, transforming into a {@creature giant rat} or {@creature rat} while retaining your Intelligence, Wisdom, and Charisma scores, as well as the properties of the cloak. This property can't be used again until the next dawn."
 							]
 						}
 					]
@@ -38901,8 +38901,8 @@ export const items = {
 									"type": "list",
 									"items": [
 										"You gain a climbing speed equal to your walking speed.",
-										"Your teeth become razor-sharp natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You can make this attack as a bonus action. When you bite a creature and deal damage to it, the creature must succeed on a DC 17 Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.",
-										"When you cast the {@spell polymorph} spell using the Verminshroud, you can transform into a {@creature giant scorpion}."
+										"Your teeth become razor-sharp natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You can make this attack as a bonus action. When you bite a creature and deal damage to it, the creature must succeed on a DC 17 Constitution saving throw or be {poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.",
+										"When you cast the { polymorph} spell using the Verminshroud, you can transform into a {@creature giant scorpion}."
 									]
 								}
 							]
@@ -38955,7 +38955,7 @@ export const items = {
 			"type": "OTH",
 			"rarity": "unknown",
 			"entries": [
-				"Any creature that sprinkles the contents of a Vial of Stardust over itself gains the ability to cast the {@spell dream} spell once as an action (spell save DC 15), requiring no components."
+				"Any creature that sprinkles the contents of a Vial of Stardust over itself gains the ability to cast the { dream} spell once as an action (spell save DC 15), requiring no components."
 			],
 			"attachedSpells": [
 				"dream"
@@ -38968,7 +38968,7 @@ export const items = {
 			"rarity": "unknown (magic)",
 			"entries": [
 				"This dark blue vial allows you to read another's surface thoughts and capture them as thought strands, storing the strands within the vial. As an action, you can activate the vial to target a creature you can see within 10 feet of you to learn its surface thoughts and pull the thoughts learned out of the creature's head as a tangible glowing string of energy known as a thought strand. The strands can be stored in the vial for up to 24 hours or until the vial reaches capacity, in which case the oldest strands dissipate. A creature affected by the vial knows that its thoughts are being probed.",
-				"The vial can also store thought strands created by the {@spell encode thoughts|ggr} cantrip. It does not extend the duration of those strands beyond 8 hours, but stored strands do not disappear if you cast {@spell encode thoughts|ggr} again during the duration of the cantrip.",
+				"The vial can also store thought strands created by the { encode thoughts|ggr} cantrip. It does not extend the duration of those strands beyond 8 hours, but stored strands do not disappear if you cast { encode thoughts|ggr} again during the duration of the cantrip.",
 				"The vial has 3 charges and can store up to 3 thought strands. It regains all its charges daily at dusk."
 			]
 		},
@@ -38991,7 +38991,7 @@ export const items = {
 			"wondrous": true,
 			"entries": [
 				"At rank 4, your voting kit becomes a common magic item that conceals an extradimensional space. As a bonus action, you can place one tool kit that you are proficient with into the voting kit, or can remove it. No other type of object can be placed into the extradimensional space. A creature searching the voting kit finds and extracts the tool kit with a successful DC 20 Intelligence ({@skill Investigation}) or Wisdom ({@skill Perception}) check.",
-				"Additionally, you can use the voting kit to cast {@spell charm person} (save DC 15). This property of the kit can't be used again until the next dawn."
+				"Additionally, you can use the voting kit to cast { charm person} (save DC 15). This property of the kit can't be used again until the next dawn."
 			],
 			"attachedSpells": [
 				"charm person"
@@ -39034,7 +39034,7 @@ export const items = {
 			"staff": true,
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic quarterstaff. While you hold it, you gain a +1 bonus to spell attack rolls.",
-				"This staff has 10 charges. While holding it, you can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: {@spell banishment} (4 charges), {@spell blink} (3 charges), {@spell misty step} (2 charges), {@spell passwall} (5 charges), or {@spell teleport} (7 charges).",
+				"This staff has 10 charges. While holding it, you can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: { banishment} (4 charges), { blink} (3 charges), { misty step} (2 charges), { passwall} (5 charges), or { teleport} (7 charges).",
 				"The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff vanishes forever."
 			],
 			"attachedSpells": [
@@ -39123,21 +39123,21 @@ export const items = {
 							"type": "item",
 							"name": "Chromatic",
 							"entries": [
-								"{@spell Hold monster}, {@spell Rime's binding ice|FTD}"
+								"{ Hold monster}, { Rime's binding ice|FTD}"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Gem",
 							"entries": [
-								"{@spell Rary's telepathic bond}, {@spell Raulothim's psychic lance|FTD}"
+								"{ Rary's telepathic bond}, { Raulothim's psychic lance|FTD}"
 							]
 						},
 						{
 							"type": "item",
 							"name": "Metallic",
 							"entries": [
-								"{@spell Fizban's platinum shield|FTD}, {@spell legend lore}"
+								"{ Fizban's platinum shield|FTD}, { legend lore}"
 							]
 						}
 					]
@@ -39165,7 +39165,7 @@ export const items = {
 			"rarity": "very rare",
 			"entries": [
 				"This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes.",
-				"You gain a +1 bonus to AC, and you can't be {@condition charmed} or {@condition frightened}. Moreover, each creature of your choice within 30 feet of you has advantage on saving throws it makes to avoid being {@condition charmed} or {@condition frightened} or to end those conditions on itself.",
+				"You gain a +1 bonus to AC, and you can't be {charmed} or {frightened}. Moreover, each creature of your choice within 30 feet of you has advantage on saving throws it makes to avoid being {charmed} or {frightened} or to end those conditions on itself.",
 				"When you would take damage of the type dealt by the breath of the dragon in whose hoard the ornament became Wakened, you can use your reaction to take no damage instead, and you regain hit points equal to the damage you would have taken. Once this property is used, it can't be used again until the next dawn."
 			]
 		},
@@ -39193,14 +39193,14 @@ export const items = {
 					"name": "Spells",
 					"type": "entries",
 					"entries": [
-						"While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17): {@spell hold monster} (5 charges) or {@spell hold person} (2 charges)."
+						"While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17): { hold monster} (5 charges) or { hold person} (2 charges)."
 					]
 				},
 				{
 					"name": "Assisted Escape",
 					"type": "entries",
 					"entries": [
-						"While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being {@condition paralyzed} or {@condition restrained}, or you can expend 1 charge and gain advantage on any check you make to escape a grapple."
+						"While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being {paralyzed} or {restrained}, or you can expend 1 charge and gain advantage on any check you make to escape a grapple."
 					]
 				}
 			],
@@ -39243,7 +39243,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can use an action and expend 1 charge to speak its command word. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of hostile creatures that are ethereal, {@condition invisible}, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.",
+				"This wand has 7 charges. While holding it, you can use an action and expend 1 charge to speak its command word. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of hostile creatures that are ethereal, {invisible}, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"lootTables": [
@@ -39268,7 +39268,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the {@spell entangle} spell (save DC 13) from it.",
+				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the { entangle} spell (save DC 13) from it.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"attachedSpells": [
@@ -39294,14 +39294,14 @@ export const items = {
 					"name": "Command",
 					"type": "entries",
 					"entries": [
-						"While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with the {@spell command} spell (save DC 15)."
+						"While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with the { command} spell (save DC 15)."
 					]
 				},
 				{
 					"name": "Cone of Fear",
 					"type": "entries",
 					"entries": [
-						"While holding the wand, you can use an action to expend 2 charges, causing the wand's tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you for 1 minute. While it is {@condition frightened} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevent it from moving. If it has nowhere it can move, the creature can use the {@action Dodge} action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success."
+						"While holding the wand, you can use an action to expend 2 charges, causing the wand's tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become {frightened} of you for 1 minute. While it is {frightened} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevent it from moving. If it has nowhere it can move, the creature can use the {@action Dodge} action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -39332,7 +39332,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell fireball} spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
+				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the { fireball} spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"attachedSpells": [
@@ -39362,7 +39362,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell lightning bolt} spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
+				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the { lightning bolt} spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"attachedSpells": [
@@ -39387,7 +39387,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the {@spell detect magic} spell from it. The wand regains {@dice 1d3} expended charges daily at dawn."
+				"This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the { detect magic} spell from it. The wand regains {@dice 1d3} expended charges daily at dawn."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce",
@@ -39415,7 +39415,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell magic missile} spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
+				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the { magic missile} spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"attachedSpells": [
@@ -39448,8 +39448,8 @@ export const items = {
 			"entries": [
 				"The ghastly Wand of Orcus rarely leaves {@creature Orcus|MTF|Orcus's} side. The device, as evil as its creator, shares the demon lord's aims to snuff out the lives of all living things and bind the Material Plane in the stasis of undeath. {@creature Orcus|MTF} allows the wand to slip from his grasp from time to time. When it does, it magically appears wherever its master senses an opportunity to achieve some fell goal.",
 				"Made from bones as hard as iron, the wand is topped with a magically enlarged skull that once belonged to a human hero slain by {@creature Orcus|MTF}. The wand can magically change in size to better conform to the grip of its user. Plants wither, drinks spoil, flesh rots, and vermin thrive in the wand's presence.",
-				"Any creature besides {@creature Orcus|MTF} that tries to attune to the wand must make a DC 17 Constitution saving throw. On a successful save, the creature takes {@damage 10d6} necrotic damage. On a failed save, the creature dies and rises as a {@creature zombie}.",
-				"In the hands of one who is attuned to it, the wand can be wielded as a magic {@item mace|phb} that grants a +3 bonus to attack and damage rolls made with it. The wand deals an extra {@damage 2d12} necrotic damage on a hit.",
+				"Any creature besides {@creature Orcus|MTF} that tries to attune to the wand must make a DC 17 Constitution saving throw. On a successful save, the creature takes 10d6} necrotic damage. On a failed save, the creature dies and rises as a {@creature zombie}.",
+				"In the hands of one who is attuned to it, the wand can be wielded as a magic {@item mace|phb} that grants a +3 bonus to attack and damage rolls made with it. The wand deals an extra 2d12} necrotic damage on a hit.",
 				{
 					"name": "Random Properties",
 					"type": "entries",
@@ -39478,7 +39478,7 @@ export const items = {
 					"name": "Spells",
 					"type": "entries",
 					"entries": [
-						"The wand has 7 charges. While holding it, you can use an action and expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: {@spell animate dead} (1 charge), {@spell blight} (2 charges), {@spell circle of death} (3 charges), {@spell finger of death} (3 charges), {@spell power word kill} (4 charges), or {@spell speak with dead} (1 charge). The wand regains {@dice 1d4 + 3} expended charges daily at dawn.",
+						"The wand has 7 charges. While holding it, you can use an action and expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: { animate dead} (1 charge), { blight} (2 charges), { circle of death} (3 charges), { finger of death} (3 charges), { power word kill} (4 charges), or { speak with dead} (1 charge). The wand regains {@dice 1d4 + 3} expended charges daily at dawn.",
 						"While attuned to the wand, {@creature Orcus|MTF} or a follower blessed by him can cast each of the wand's spells using 2 fewer charges (minimum of 0)."
 					]
 				},
@@ -39543,7 +39543,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of you. The target must succeed on a DC 15 Constitution saving throw or be {@condition paralyzed} for 1 minute. At the end of each of the target's turns, it can repeat the saving throw, ending the effect on itself on a success.",
+				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of you. The target must succeed on a DC 15 Constitution saving throw or be {paralyzed} for 1 minute. At the end of each of the target's turns, it can repeat the saving throw, ending the effect on itself on a success.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"lootTables": [
@@ -39570,7 +39570,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the {@spell polymorph} spell (save DC 15) from it.",
+				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the { polymorph} spell (save DC 15) from it.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"attachedSpells": [
@@ -39665,8 +39665,8 @@ export const items = {
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"Crafted by the {@creature drow}, this slim black wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a small glob of viscous material to launch from the tip at one creature within 60 feet of you. Make a ranged attack roll against the target, with a bonus equal to your spellcasting modifier (or your Intelligence modifier, if you don't have a spellcasting modifier) plus your proficiency bonus. On a hit, the glob expands and dries on the target, which is {@condition restrained} for 1 hour. After that time, the viscous material cracks and falls away.",
-				"Applying a pint or more of alcohol to the {@condition restrained} creature dissolves the glob instantly, as does the application of {@item oil of etherealness} or {@item universal solvent}. The glob also dissolves instantly if exposed to sunlight. No other nonmagical process can remove the viscous material until it deteriorates on its own.",
+				"Crafted by the {@creature drow}, this slim black wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a small glob of viscous material to launch from the tip at one creature within 60 feet of you. Make a ranged attack roll against the target, with a bonus equal to your spellcasting modifier (or your Intelligence modifier, if you don't have a spellcasting modifier) plus your proficiency bonus. On a hit, the glob expands and dries on the target, which is {restrained} for 1 hour. After that time, the viscous material cracks and falls away.",
+				"Applying a pint or more of alcohol to the {restrained} creature dissolves the glob instantly, as does the application of {@item oil of etherealness} or {@item universal solvent}. The glob also dissolves instantly if exposed to sunlight. No other nonmagical process can remove the viscous material until it deteriorates on its own.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at midnight. If you expend the wands last charge, roll a {@dice d20}. On a 1, the wand melts into harmless slime and is destroyed.",
 				"A wand of viscous globs is destroyed if exposed to sunlight for 1 hour without interruption."
 			]
@@ -39690,7 +39690,7 @@ export const items = {
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the {@spell web} spell (save DC 15) from it.",
+				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the { web} spell (save DC 15) from it.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"attachedSpells": [
@@ -39720,7 +39720,7 @@ export const items = {
 			"charges": 7,
 			"entries": [
 				"This wand looks and feels like an icicle. You must be attuned to the wand to use it.",
-				"The wand has 7 charges, which are used to fuel the spells within it. With the wand in hand, you can use your action to cast one of the following spells from the wand, even if you are incapable of casting spells: {@spell ray of frost} (no charges, or 1 charge to cast at 5th level; +5 to hit with ranged spell attack), {@spell sleet storm} (3 charges; spell save DC 15), or {@spell ice storm} (4 charges; spell save DC 15). No components are required. The wand regains {@dice 1d6 + 1} expended charges each day at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 20, the wand melts away, forever destroyed."
+				"The wand has 7 charges, which are used to fuel the spells within it. With the wand in hand, you can use your action to cast one of the following spells from the wand, even if you are incapable of casting spells: { ray of frost} (no charges, or 1 charge to cast at 5th level; +5 to hit with ranged spell attack), { sleet storm} (3 charges; spell save DC 15), or { ice storm} (4 charges; spell save DC 15). No components are required. The wand regains {@dice 1d6 + 1} expended charges each day at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 20, the wand melts away, forever destroyed."
 			],
 			"attachedSpells": [
 				"ray of frost",
@@ -39765,27 +39765,27 @@ export const items = {
 					"rows": [
 						[
 							"01-05",
-							"You cast {@spell slow}."
+							"You cast { slow}."
 						],
 						[
 							"06-10",
-							"You cast {@spell faerie fire}."
+							"You cast { faerie fire}."
 						],
 						[
 							"11-15",
-							"You are {@condition stunned} until the start of your next turn, believing something awesome just happened."
+							"You are {stunned} until the start of your next turn, believing something awesome just happened."
 						],
 						[
 							"16-20",
-							"You cast {@spell gust of wind}."
+							"You cast { gust of wind}."
 						],
 						[
 							"21-25",
-							"You cast {@spell detect thoughts} on the target you chose. If you didn't target a creature, you instead take {@damage 1d6} psychic damage."
+							"You cast { detect thoughts} on the target you chose. If you didn't target a creature, you instead take 1d6} psychic damage."
 						],
 						[
 							"26-30",
-							"You cast {@spell stinking cloud}."
+							"You cast { stinking cloud}."
 						],
 						[
 							"31-33",
@@ -39797,7 +39797,7 @@ export const items = {
 						],
 						[
 							"37-46",
-							"You cast {@spell lightning bolt}."
+							"You cast { lightning bolt}."
 						],
 						[
 							"47-49",
@@ -39805,11 +39805,11 @@ export const items = {
 						],
 						[
 							"50-53",
-							"You enlarge the target as if you had cast {@spell enlarge/reduce}. If the target can't be affected by that spell or if you didn't target a creature, you become the target."
+							"You enlarge the target as if you had cast { enlarge/reduce}. If the target can't be affected by that spell or if you didn't target a creature, you become the target."
 						],
 						[
 							"54-58",
-							"You cast {@spell darkness}."
+							"You cast { darkness}."
 						],
 						[
 							"59-62",
@@ -39821,15 +39821,15 @@ export const items = {
 						],
 						[
 							"66-69",
-							"You shrink yourself as if you had cast {@spell enlarge/reduce} on yourself."
+							"You shrink yourself as if you had cast { enlarge/reduce} on yourself."
 						],
 						[
 							"70-79",
-							"You cast {@spell fireball}."
+							"You cast { fireball}."
 						],
 						[
 							"80-84",
-							"You cast {@spell invisibility} on yourself."
+							"You cast { invisibility} on yourself."
 						],
 						[
 							"85-87",
@@ -39841,7 +39841,7 @@ export const items = {
 						],
 						[
 							"91-95",
-							"A burst of colorful shimmering light extends from you in a 30-foot radius. You and each creature in the area that can see must succeed on a DC 15 Constitution saving throw or become {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+							"A burst of colorful shimmering light extends from you in a 30-foot radius. You and each creature in the area that can see must succeed on a DC 15 Constitution saving throw or become {blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 						],
 						[
 							"96-97",
@@ -39849,7 +39849,7 @@ export const items = {
 						],
 						[
 							"98-00",
-							"If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly {@condition petrified}. On any other failed save, the target is {@condition restrained} and begins to turn to stone. While {@condition restrained} in this way, the target must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the target is freed by the {@spell greater restoration} spell or similar magic."
+							"If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly {petrified}. On any other failed save, the target is {restrained} and begins to turn to stone. While {restrained} in this way, the target must repeat the saving throw at the end of its next turn, becoming {petrified} on a failure or ending the effect on a success. The petrification lasts until the target is freed by the { greater restoration} spell or similar magic."
 						]
 					]
 				}
@@ -39975,7 +39975,7 @@ export const items = {
 			"bonusAc": "+1",
 			"entries": [
 				"While you wear this helm, you gain a +1 bonus to AC and remain aware of your surroundings even while you're asleep, and you have advantage on Wisdom ({@skill Perception}) checks that rely on sight.",
-				"As a bonus action, you can cast the {@spell see invisibility} spell from the helm. Once this property of the helm is used, it can't be used again until the next dawn."
+				"As a bonus action, you can cast the { see invisibility} spell from the helm. Once this property of the helm is used, it can't be used again until the next dawn."
 			],
 			"attachedSpells": [
 				"see invisibility"
@@ -40025,7 +40025,7 @@ export const items = {
 					"type": "entries",
 					"entries": [
 						"Wave is a sentient weapon of neutral alignment, with an Intelligence of 14, a Wisdom of 10, and a Charisma of 18. It has hearing and {@sense darkvision} out to a range of 120 feet.",
-						"The weapon communicates telepathically with its wielder and can speak, read, and understand Aquan. It can also speak with aquatic animals as if using a {@spell speak with animals} spell, using telepathy to involve its wielder in the conversation."
+						"The weapon communicates telepathically with its wielder and can speak, read, and understand Aquan. It can also speak with aquatic animals as if using a { speak with animals} spell, using telepathy to involve its wielder in the conversation."
 					]
 				},
 				{
@@ -40062,7 +40062,7 @@ export const items = {
 			"bonusWeapon": "+1",
 			"entries": [
 				"Waythe is a unique greatsword most recently in the possession of a high-ranking {@creature cloud giant} ambassador.",
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature of the giant type with it, the giant takes an extra {@damage 2d6} slashing damage, and it must succeed on a DC 15 Strength saving throw or fall {@condition prone}.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature of the giant type with it, the giant takes an extra 2d6} slashing damage, and it must succeed on a DC 15 Strength saving throw or fall {prone}.",
 				"The sword also functions as a {@item wand of enemy detection}. It regains all of its expended charges at dawn and isn't at risk of crumbling if its last charge is used.",
 				{
 					"name": "Sentience",
@@ -40213,7 +40213,7 @@ export const items = {
 			"wondrous": true,
 			"bonusSavingThrow": "+1",
 			"entries": [
-				"While attuned to this device, you have a +1 bonus to Wisdom saving throws, and you can use an action to cast the {@spell dancing lights}, {@spell guidance}, or {@spell message} cantrips.",
+				"While attuned to this device, you have a +1 bonus to Wisdom saving throws, and you can use an action to cast the { dancing lights}, { guidance}, or { message} cantrips.",
 				{
 					"type": "entries",
 					"name": "Portent of the Stars",
@@ -40225,7 +40225,7 @@ export const items = {
 					"type": "entries",
 					"name": "Alter Gravity",
 					"entries": [
-						"As an action, you can cast {@spell fly} on yourself or you can cast {@spell levitate} (save DC 15). Once you use this feature of the wheel of stars, it cannot be used again until the next dawn."
+						"As an action, you can cast { fly} on yourself or you can cast { levitate} (save DC 15). Once you use this feature of the wheel of stars, it cannot be used again until the next dawn."
 					]
 				},
 				{
@@ -40293,21 +40293,21 @@ export const items = {
 					"name": "Thrown Weapon",
 					"type": "entries",
 					"entries": [
-						"Whelm has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged weapon attack using it, the target takes an extra {@damage 1d8} bludgeoning damage, or an extra {@damage 2d8} bludgeoning damage if the target is a giant. Each time you throw the weapon, it flies back to your hand after the attack. If you don't have a hand free, the weapon lands at your feet."
+						"Whelm has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged weapon attack using it, the target takes an extra 1d8} bludgeoning damage, or an extra 2d8} bludgeoning damage if the target is a giant. Each time you throw the weapon, it flies back to your hand after the attack. If you don't have a hand free, the weapon lands at your feet."
 					]
 				},
 				{
 					"name": "Shock Wave",
 					"type": "entries",
 					"entries": [
-						"You can use an action to strike the ground with Whelm and send a shock wave out from the point of impact. Each creature of your choice on the ground within 60 feet of that point must succeed on a DC 15 Constitution saving throw or become {@condition stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once used, this property can't be used again until the next dawn."
+						"You can use an action to strike the ground with Whelm and send a shock wave out from the point of impact. Each creature of your choice on the ground within 60 feet of that point must succeed on a DC 15 Constitution saving throw or become {stunned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once used, this property can't be used again until the next dawn."
 					]
 				},
 				{
 					"name": "Supernatural Awareness",
 					"type": "entries",
 					"entries": [
-						"While you are holding the weapon, it alerts you to the location of any secret or concealed doors within 30 feet of you. In addition, you can use an action to cast {@spell detect evil and good} or {@spell locate object} from the weapon. Once you cast either spell, you can't cast it from the weapon again until the next dawn."
+						"While you are holding the weapon, it alerts you to the location of any secret or concealed doors within 30 feet of you. In addition, you can use an action to cast { detect evil and good} or { locate object} from the weapon. Once you cast either spell, you can't cast it from the weapon again until the next dawn."
 					]
 				},
 				{
@@ -40415,7 +40415,7 @@ export const items = {
 					"type": "entries",
 					"name": "Whispered Arcana",
 					"entries": [
-						"Also at rank 4, your whisper jar gains access to even more magic. By whispering the name of one of the following spells into the jar as an action, you can cast that spell from the jar: {@spell detect evil and good}, {@spell detect magic}, {@spell detect poison and disease}, {@spell find traps}, {@spell identify}, or {@spell locate animals or plants}. This property of the whisper jar can't be used again until the next dawn."
+						"Also at rank 4, your whisper jar gains access to even more magic. By whispering the name of one of the following spells into the jar as an action, you can cast that spell from the jar: { detect evil and good}, { detect magic}, { detect poison and disease}, { find traps}, { identify}, or { locate animals or plants}. This property of the whisper jar can't be used again until the next dawn."
 					]
 				}
 			],
@@ -40526,7 +40526,7 @@ export const items = {
 					"type": "entries",
 					"name": "Winter's Fury",
 					"entries": [
-						"While your current hit points are equal to or less than half your hit point maximum, you deal an extra {@damage 1d8} cold damage with your melee attacks."
+						"While your current hit points are equal to or less than half your hit point maximum, you deal an extra 1d8} cold damage with your melee attacks."
 					]
 				}
 			]
@@ -40560,7 +40560,7 @@ export const items = {
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"More rarely, the orchids produce a smaller pod holding a single white seed. Among its various magical properties, if a white seed is ground and scattered over a dead body, the body is affected by the {@spell resurrection} spell. A white ghost orchid seed has no effect if consumed."
+				"More rarely, the orchids produce a smaller pod holding a single white seed. Among its various magical properties, if a white seed is ground and scattered over a dead body, the body is affected by the { resurrection} spell. A white ghost orchid seed has no effect if consumed."
 			]
 		},
 		{
@@ -40571,7 +40571,7 @@ export const items = {
 			"rarity": "unknown",
 			"value": 2500,
 			"entries": [
-				"Introducing the juice of a wildroot into a {@condition poisoned} creature's bloodstream (for example, by rubbing it on an open wound) rids the creature of the {@condition poisoned} condition. Once used in this way, a wildroot loses this property."
+				"Introducing the juice of a wildroot into a {poisoned} creature's bloodstream (for example, by rubbing it on an open wound) rids the creature of the {poisoned} condition. Once used in this way, a wildroot loses this property."
 			]
 		},
 		{
@@ -40603,7 +40603,7 @@ export const items = {
 									"type": "list",
 									"items": [
 										"The weapon's bonus to attack and damage rolls increases to +2.",
-										"The saving throw DC for the war pick's Breath Weapon property increases to 15, and that property deals {@damage 4d6} damage on a failed save, or half as much damage on a successful one.",
+										"The saving throw DC for the war pick's Breath Weapon property increases to 15, and that property deals 4d6} damage on a failed save, or half as much damage on a successful one.",
 										"The saving throw DC for the war pick's Frightful Presence property increases to 15.",
 										"While carrying the weapon, you have resistance to acid, cold, fire, lightning, and poison damage."
 									]
@@ -40668,8 +40668,8 @@ export const items = {
 							"items": [
 								"You can speak, read, and write Draconic and Infernal.",
 								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-								"As a bonus action while holding the war pick, you can cause the following effect: each creature of your choice that is within 30 feet of you and is aware of you must succeed on a DC 13 Wisdom saving throw or become {@condition frightened} of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours. This property can't be used again until the next dawn.",
-								"While holding the war pick, you can use your action to exhale destructive energy. Pick a damage type from the Will of the Talon Breath Weapons table. Each creature in the area of the exhalation must make a DC 13 saving throw, the type of which is specified in the table. A creature takes {@damage 3d6} damage on a failed save, or half as much damage on a successful one."
+								"As a bonus action while holding the war pick, you can cause the following effect: each creature of your choice that is within 30 feet of you and is aware of you must succeed on a DC 13 Wisdom saving throw or become {frightened} of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours. This property can't be used again until the next dawn.",
+								"While holding the war pick, you can use your action to exhale destructive energy. Pick a damage type from the Will of the Talon Breath Weapons table. Each creature in the area of the exhalation must make a DC 13 saving throw, the type of which is specified in the table. A creature takes 3d6} damage on a failed save, or half as much damage on a successful one."
 							]
 						},
 						"When you use the war pick to unleash a breath weapon of a specific damage type, you can't choose that same damage type again until the next dawn."
@@ -40744,7 +40744,7 @@ export const items = {
 									"type": "list",
 									"items": [
 										"The weapon's bonus to attack and damage rolls increases to +3.",
-										"The saving throw DC for the war pick's Breath Weapon property increases to 17, and that property deals {@damage 5d6} damage on a failed save, or half as much damage on a successful one.",
+										"The saving throw DC for the war pick's Breath Weapon property increases to 17, and that property deals 5d6} damage on a failed save, or half as much damage on a successful one.",
 										"The saving throw DC for the war pick's Frightful Presence property increases to 17."
 									]
 								}
@@ -40767,7 +40767,7 @@ export const items = {
 			"rarity": "none",
 			"value": 3000,
 			"entries": [
-				"A dark blue oil can be extracted from the rare fruit of the willowshade plant. A creature can use its action to apply the oil to another creature that has been {@condition petrified} for less than 1 minute, causing the {@condition petrified} condition on that creature to end at the start of what would be that creature's next turn."
+				"A dark blue oil can be extracted from the rare fruit of the willowshade plant. A creature can use its action to apply the oil to another creature that has been {petrified} for less than 1 minute, causing the {petrified} condition on that creature to end at the start of what would be that creature's next turn."
 			]
 		},
 		{
@@ -40779,7 +40779,7 @@ export const items = {
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"While holding this fan, you can use an action to cast the {@spell gust of wind} spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative {@chance 20} chance of not working and tearing into useless, nonmagical tatters."
+				"While holding this fan, you can use an action to cast the { gust of wind} spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative {@chance 20} chance of not working and tearing into useless, nonmagical tatters."
 			],
 			"attachedSpells": [
 				"gust of wind"
@@ -40815,7 +40815,7 @@ export const items = {
 			"bonusWeapon": "+2",
 			"entries": [
 				"A silver spear, Windvane has dark sapphires on the filigreed surface of its polished head. Held by its shining haft, the weapon feels insubstantial, as if clutching a cool, gently flowing breeze. The spear contains a spark of {@creature Yan-C-Bin|PotA}, the Prince of Evil Air.",
-				"You have a +2 bonus to attack and damage rolls made with this magic weapon, which has the finesse weapon property. When you hit with it, the target takes an extra {@damage 1d6} lightning damage.",
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon, which has the finesse weapon property. When you hit with it, the target takes an extra 1d6} lightning damage.",
 				{
 					"name": "Air Mastery",
 					"type": "entries",
@@ -40828,7 +40828,7 @@ export const items = {
 					"items": [
 						"You can speak Auran fluently.",
 						"You have resistance to lightning damage.",
-						"You can cast {@spell dominate monster} (save DC 17) on an {@creature air elemental}. Once you have done so, Windvane can't be used this way again until the next dawn."
+						"You can cast { dominate monster} (save DC 17) on an {@creature air elemental}. Once you have done so, Windvane can't be used this way again until the next dawn."
 					]
 				},
 				{
@@ -40954,7 +40954,7 @@ export const items = {
 					"type": "entries",
 					"name": "Magic Weapon",
 					"entries": [
-						"In the hands of one who is attuned to it, the vane can be wielded as a magic mace that grants a +3 bonus to attack and damage rolls made with it. In addition, the vane deals an extra {@damage 1d8} radiant damage on a hit."
+						"In the hands of one who is attuned to it, the vane can be wielded as a magic mace that grants a +3 bonus to attack and damage rolls made with it. In addition, the vane deals an extra 1d8} radiant damage on a hit."
 					]
 				},
 				{
@@ -40981,8 +40981,8 @@ export const items = {
 							"type": "list",
 							"items": [
 								"The creature holding the vane has vulnerability to lightning damage.",
-								"The creature attuned to the vane can't be {@condition blinded}, {@condition deafened}, {@condition petrified}, or {@condition stunned}.",
-								"While carrying the vane, the creature attuned to it can cast the {@spell dancing lights}, {@spell polymorph}, or {@spell ray of frost} spell as an action, requiring no spell components and using Charisma as the spellcasting ability. After the vane's {@spell polymorph} spell is cast, roll a {@dice d8}; on a roll of 3 or 8, the vane can't be used to cast this spell again until the next dawn."
+								"The creature attuned to the vane can't be {blinded}, {deafened}, {petrified}, or {stunned}.",
+								"While carrying the vane, the creature attuned to it can cast the { dancing lights}, { polymorph}, or { ray of frost} spell as an action, requiring no spell components and using Charisma as the spellcasting ability. After the vane's { polymorph} spell is cast, roll a {@dice d8}; on a roll of 3 or 8, the vane can't be used to cast this spell again until the next dawn."
 							]
 						}
 					]
@@ -41017,7 +41017,7 @@ export const items = {
 						{
 							"type": "list",
 							"items": [
-								"While carrying the watch, the creature attuned to it can cast the {@spell fire bolt}, {@spell invisibility}, or {@spell message} spell as an action, requiring no spell components and using Intelligence as the spellcasting ability. After the watch's {@spell invisibility} spell is cast, roll a {@dice d8}; on a roll of 3 or 8, the watch can't be used to cast this spell again until the next dawn.",
+								"While carrying the watch, the creature attuned to it can cast the { fire bolt}, { invisibility}, or { message} spell as an action, requiring no spell components and using Intelligence as the spellcasting ability. After the watch's { invisibility} spell is cast, roll a {@dice d8}; on a roll of 3 or 8, the watch can't be used to cast this spell again until the next dawn.",
 								"The creature attuned to the watch gains 30 pounds. This extra weight vanishes when the attunement ends.",
 								"The creature attuned to the watch must eat and drink eight times the normal amount each day."
 							]
@@ -41146,7 +41146,7 @@ export const items = {
 			"weapon": true,
 			"entries": [
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"When you use this axe to make an attack against a plant (an ordinary plant or a creature with the Plant type) or a wooden object that isn't being worn or carried, the attack deals an extra {@damage 2d6} slashing damage on a hit."
+				"When you use this axe to make an attack against a plant (an ordinary plant or a creature with the Plant type) or a wooden object that isn't being worn or carried, the attack deals an extra 2d6} slashing damage on a hit."
 			]
 		},
 		{
@@ -41196,7 +41196,7 @@ export const items = {
 					"name": "Dormant",
 					"entries": [
 						"While wearing the wreath in its dormant state, you have {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision}, wearing the wreath increases the range of your {@sense darkvision} by 60 feet.",
-						"When you hit a beast, dragon, or monstrosity of challenge rating 5 or lower with an attack, or when you grapple it, you can use the wreath to cast {@spell dominate monster} on the creature (save DC 13). On a successful save, the target is immune to the power of the wreath for 24 hours. On a failure, a shimmering, golden image of the wreath appears as a collar around the target's neck or as a crown on its head (your choice) until it is no longer {@condition charmed} by the spell. If you use the wreath to charm a second creature, the first spell immediately ends. When the spell ends, the target knows it was {@condition charmed} by you."
+						"When you hit a beast, dragon, or monstrosity of challenge rating 5 or lower with an attack, or when you grapple it, you can use the wreath to cast { dominate monster} on the creature (save DC 13). On a successful save, the target is immune to the power of the wreath for 24 hours. On a failure, a shimmering, golden image of the wreath appears as a collar around the target's neck or as a crown on its head (your choice) until it is no longer {charmed} by the spell. If you use the wreath to charm a second creature, the first spell immediately ends. When the spell ends, the target knows it was {charmed} by you."
 					]
 				}
 			],
@@ -41277,7 +41277,7 @@ export const items = {
 			"entries": [
 				"Built by dwarven gods and entrusted to the rulers of Shanatar, an ancient dwarven empire. The Wyrmskull Throne was a symbol of dwarven power and pride for ages untold. The throne hovers a foot off the ground and is a massive thing made of polished obsidian with oversized feet\u2014the impaled skulls of four ancient blue dragons. Runes glisten in the carved obsidian winking to life with blue energy when the throne's powers are activated.",
 				"After the fall of Shanatar, the Wyrmskull Throne fell into the clutches of less honorable creatures. A band of adventurers wrested the throne from the aquatic elf tyrant Gantar Kraok and sold it to the {@creature storm giant} Neri for a considerable fortune. Neri had the throne magically enlarged and gave it to her husband, King Hekaton, as a gift, along with one of the Ruling Scepters of Shanatar, which she had found in a wreck at the bottom of the Trackless Sea. Only a creature attuned to a Ruling Scepter and in possession of it can harness the powers of the Wyrmskull Throne, which has become the centerpiece of King Hekaton's throne room in the undersea citadel of Maelstrom. Fear of the throne's power has helped prevent evil giants from challenging or threatening Hekaton's leadership.",
-				"Any creature not attuned to a Ruling Scepter who sits on the throne is {@condition paralyzed} and encased in a magical force field. While encased, the creature can't be touched or moved from the throne. Touching a Ruling Scepter to the force field dispels the field, though the creature remains {@condition paralyzed} until it is separated from the throne.",
+				"Any creature not attuned to a Ruling Scepter who sits on the throne is {paralyzed} and encased in a magical force field. While encased, the creature can't be touched or moved from the throne. Touching a Ruling Scepter to the force field dispels the field, though the creature remains {paralyzed} until it is separated from the throne.",
 				"Any creature seated on the throne can hear faint Whispers in Draconic\u2014the whisperings of four blue dragons whose skulls adorn the throne. Although powerless, these spirits try to influence the decisions of the throne's master.",
 				{
 					"name": "Properties of the Throne",
@@ -41286,8 +41286,8 @@ export const items = {
 						"The throne has 9 charges and regains all expended charges daily at dawn. A creature that sits on the throne while attuned to a Ruling Sceptor in its possession can harness the throne's properties, which are as follows:",
 						"The throne gains a flying speed of 30 feet and can hover and flies where the creature wills. This property doesn't expend any charges.",
 						"Both the throne and the creature sitting on it can move through earth and stone without disturbing the material they move through. This property doesn't expend any charges.",
-						"As an action, the creature can expend 1 charge to cast {@spell lightning bolt} (spell save DC 19) from the throne. The spell is cast as though using a 9th-level spell slot and deals 49 ({@damage 14d6}) lightning damage. The bolt discharges from the mouth of one of the throne's blue dragon skulls.",
-						"As an action, the creature can expend 2 charges to cast the {@spell globe of invulnerability} spell from the throne. The globe encloses both the creature and the throne.",
+						"As an action, the creature can expend 1 charge to cast { lightning bolt} (spell save DC 19) from the throne. The spell is cast as though using a 9th-level spell slot and deals 49 (14d6}) lightning damage. The bolt discharges from the mouth of one of the throne's blue dragon skulls.",
+						"As an action, the creature can expend 2 charges to cast the { globe of invulnerability} spell from the throne. The globe encloses both the creature and the throne.",
 						"As an action, the creature can expend 3 charges to create a spectral image of an {@creature ancient blue dragon} that surrounds both it and the throne. The spectral dragon lasts for 1 minute. At the end of each of the creature's turns, the spectral dragon makes one bite attack and two claw attacks against targets of the creature's choice. These attacks have the same attack bonus, reach, and damage as an {@creature ancient blue dragon||ancient blue dragon's} bite and claw attacks."
 					]
 				},
@@ -41295,7 +41295,7 @@ export const items = {
 					"name": "Destroying the Throne",
 					"type": "entries",
 					"entries": [
-						"The Wyrmskull Throne can be destroyed by breaking at least five Ruling Scepters of Shanatar simultaneously on it. This fact has never been recorded or sung of among the dwarves or any bards or storytellers, and it can't be discovered with an ability check. Characters who want to destroy the throne must go on a quest to learn the method for doing so. The throne's destruction triggers an explosion, as shards of obsidian fly out in all directions. Each creature and object within a 30-foot-radius sphere centered on the throne must succeed on a DC 21 Dexterity saving throw, taking 70 ({@damage 20d6}) slashing damage on a failed save, or half as much damage on a successful one."
+						"The Wyrmskull Throne can be destroyed by breaking at least five Ruling Scepters of Shanatar simultaneously on it. This fact has never been recorded or sung of among the dwarves or any bards or storytellers, and it can't be discovered with an ability check. Characters who want to destroy the throne must go on a quest to learn the method for doing so. The throne's destruction triggers an explosion, as shards of obsidian fly out in all directions. Each creature and object within a 30-foot-radius sphere centered on the throne must succeed on a DC 21 Dexterity saving throw, taking 70 (20d6}) slashing damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -41315,7 +41315,7 @@ export const items = {
 			"value": 120000,
 			"poison": true,
 			"entries": [
-				"This poison must be harvested from a dead or {@condition incapacitated} {@creature wyvern}. A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+				"This poison must be harvested from a dead or {incapacitated} {@creature wyvern}. A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 24 (7d6}) poison damage on a failed save, or half as much damage on a successful one."
 			],
 			"poisonTypes": [
 				"injury"
@@ -41386,14 +41386,14 @@ export const items = {
 					"items": [
 						"While you're on the same plane of existence as the Ythryn mythallar, you can use an action to cause it to fly in any direction you choose at a speed of 30 feet. All matter within 500 feet of the device moves with it. The Ythryn mythallar and all structures held aloft by it hover in place when not in motion.",
 						"As an action, you can cause one magic item you are holding within 30 feet of the Ythryn mythallar to immediately regain all its expended charges or uses. A magic item recharged in this manner can't be recharged by the Ythryn mythallar again until after the item regains expended charges or uses on its own.",
-						"You can use the Ythryn mythallar to cast the {@spell control weather} spell without requiring any components and without the need for you to be outdoors. This casting of the spell has a 50-mile radius. For the duration of the spell's casting time, you must be within 30 feet of the Ythryn mythallar or the spell fails."
+						"You can use the Ythryn mythallar to cast the { control weather} spell without requiring any components and without the need for you to be outdoors. This casting of the spell has a 50-mile radius. For the duration of the spell's casting time, you must be within 30 feet of the Ythryn mythallar or the spell fails."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Touching the Mythallar",
 					"entries": [
-						"Any creature that touches the globe of the mythallar must make a DC 22 Constitution saving throw, taking 180 ({@damage 20d10 + 70}) radiant damage on a failed save, or half as much damage on a successful one. Undead have disadvantage on this saving throw. Any object that touches the globe, other than an artifact or the mythallar's cradle, is disintegrated instantly (no save)."
+						"Any creature that touches the globe of the mythallar must make a DC 22 Constitution saving throw, taking 180 (20d10 + 70}) radiant damage on a failed save, or half as much damage on a successful one. Undead have disadvantage on this saving throw. Any object that touches the globe, other than an artifact or the mythallar's cradle, is disintegrated instantly (no save)."
 					]
 				}
 			],
@@ -41409,7 +41409,7 @@ export const items = {
 			"rarity": "none",
 			"value": 1000,
 			"entries": [
-				"Zabou mushrooms feed on offal and the rotting wood of dead trees. If handled carefully, a zabou can be picked or uprooted without causing it to release its spores. If crushed or struck, a zabou releases its spores in a 10-foot-radius sphere. A zabou can also be hurled up to 30 feet away or dropped like a grenade, releasing its cloud of spores on impact. Any creature in that area must succeed on a DC 10 Constitution saving throw or be {@condition poisoned} for 1 minute. The {@condition poisoned} creature's skin itches for the duration. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+				"Zabou mushrooms feed on offal and the rotting wood of dead trees. If handled carefully, a zabou can be picked or uprooted without causing it to release its spores. If crushed or struck, a zabou releases its spores in a 10-foot-radius sphere. A zabou can also be hurled up to 30 feet away or dropped like a grenade, releasing its cloud of spores on impact. Any creature in that area must succeed on a DC 10 Constitution saving throw or be {poisoned} for 1 minute. The {poisoned} creature's skin itches for the duration. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 			]
 		},
 		{
