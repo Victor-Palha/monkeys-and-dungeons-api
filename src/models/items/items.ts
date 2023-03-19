@@ -643,7 +643,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 200
 		},
@@ -766,7 +766,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 2500,
 			"entries": [
@@ -795,7 +795,7 @@ export const items = {
 			"source": "WDH",
 			"page": 90,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 10,
 			"value": 100000
 		},
@@ -815,7 +815,7 @@ export const items = {
 			"source": "DMG",
 			"page": 119,
 			"type": "AIR",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2000000,
 			"crew": 10,
 			"vehAc": 13,
@@ -982,7 +982,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 5000,
 			"entries": [
@@ -1002,7 +1002,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 8,
 			"value": 5000,
 			"additionalEntries": [
@@ -1286,7 +1286,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "FD",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 20
 		},
 		{
@@ -1296,7 +1296,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "FD",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 4
 		},
 		{
@@ -1304,7 +1304,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50000,
 			"entries": [
 				"A transparent dark green gemstone."
@@ -1315,7 +1315,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"A transparent watery gold to rich gold gemstone."
@@ -1336,7 +1336,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"A transparent deep purple gemstone."
@@ -1394,7 +1394,7 @@ export const items = {
 			"basicRules": true,
 			"type": "SCF",
 			"scfType": "holy",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 500
 		},
@@ -1403,7 +1403,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -1599,7 +1599,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs."
@@ -1726,7 +1726,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50000,
 			"entries": [
 				"A transparent pale blue-green gemstone."
@@ -2071,7 +2071,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 15000,
 			"poison": true,
 			"entries": [
@@ -2189,7 +2189,7 @@ export const items = {
 			"source": "IDRotF",
 			"page": 20,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"An {@creature axe beak}'s splayed toes allow it to run across snow, and it can carry as much weight as a mule. A domesticated axe beak can be purchased in Ten-Towns for 50 gp."
@@ -2401,7 +2401,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"An opaque mottled deep blue gemstone."
@@ -2523,7 +2523,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 200,
 			"entries": [
@@ -2935,7 +2935,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 6,
 			"value": 3000
 		},
@@ -2960,7 +2960,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.002,
 			"value": 0.1,
 			"entries": [
@@ -2974,7 +2974,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 100,
 			"entries": [
@@ -3020,7 +3020,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"A translucent striped brown, blue, white, or red gemstone."
@@ -3085,7 +3085,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 70,
 			"value": 200,
 			"entries": [
@@ -3097,7 +3097,7 @@ export const items = {
 			"source": "LLK",
 			"page": 7,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"At any point while the characters are searching through unusual equipment or detritus in the Monastery of the Distressed Body or the city of Daoine Gloine, roll on the following table to determine what they find. Each character finds one Barrier Peaks trinket over the course of the adventure.",
 				{
@@ -3462,7 +3462,7 @@ export const items = {
 			"source": "AAG",
 			"page": 21,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10,
 			"entries": [
 				"Basic Fishing Equipment includes a pole, a line, a hook, and either a lure or some bait.",
@@ -3510,7 +3510,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"poison": true,
 			"entries": [
@@ -3524,7 +3524,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 40,
 			"entries": [
@@ -3618,7 +3618,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 7,
 			"value": 100
 		},
@@ -3627,7 +3627,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -3635,7 +3635,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -3688,7 +3688,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100
 		},
 		{
@@ -3905,7 +3905,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"Pan pipes or satyr pipes, also known as the shalm, these are sacred to {@deity Lliira|Faerûnian|scag} and popular with wood elf and wild elf bards."
 			]
@@ -3917,7 +3917,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TAH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 200
 		},
@@ -3926,7 +3926,7 @@ export const items = {
 			"source": "JttRC",
 			"page": 70,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"poison": true,
 			"entries": [
 				"A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or become {poisoned} for 1 minute. The {poisoned} creature must use its action to make a melee attack against a randomly determined creature within its reach. If there is no other creature within its reach, the {poisoned} creature does nothing on its turn. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
@@ -4068,7 +4068,7 @@ export const items = {
 			"source": "JttRC",
 			"page": 212,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"Every few years, a ghost orchid colony grows a black pod as thick as a human fist that holds three soft, black seeds. A creature that consumes one of these black seeds is affected by the spell { feign death}. If the creature is unaware of the pod's effects or does not wish to be affected, it can resist the effect by succeeding on a DC 16 Constitution saving throw. Otherwise, it is considered to be a willing recipient of the spell."
 			]
@@ -4078,7 +4078,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100000,
 			"entries": [
 				"A translucent dark green with black mottling and golden flecks gemstone."
@@ -4089,7 +4089,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50000,
 			"entries": [
 				"An opaque pure black gemstone."
@@ -4100,7 +4100,7 @@ export const items = {
 			"source": "EGW",
 			"page": 152,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 30000,
 			"entries": [
 				"This tarry substance harvested from the dark boughs of the death's head willow is a powerful intoxicant. It can be smoked as a concentrate or injected directly into the bloodstream. A creature subjected to a dose of black sap cannot be {charmed} or {frightened} for {@dice 1d6} hours.",
@@ -4112,7 +4112,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 500000,
 			"entries": [
 				"A translucent lustrous black with glowing highlights gemstone."
@@ -4123,7 +4123,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -4550,7 +4550,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"value": 50
 		},
@@ -4580,7 +4580,7 @@ export const items = {
 			"source": "EGW",
 			"page": 225,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"This volatile alchemical powder comes in a small pouch. When ignited by an open flame or a fuse, the powder explodes. Each creature within 5 feet of the exploding pouch must make a DC 13 Dexterity saving throw, taking 3d6} bludgeoning damage on a failed save, or half as much damage on a successful one.",
 				"A character can bind multiple pouches of blasting powder together so they explode at the same time. Each additional pouch increases the damage by {@dice 1d6} (maximum of {@dice 10d6}) and the blast radius by 5 feet (maximum of 20 feet)."
@@ -4591,7 +4591,7 @@ export const items = {
 			"source": "EGW",
 			"page": 152,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 20000,
 			"entries": [
 				"This bitter chartreuse concoction is distilled from a fungus native to the Blightshore badlands. The sickly green liqueur harbors potent psychedelic properties. Provided it is neither a construct nor undead, a creature subjected to a dose of blight ichor gains advantage on Intelligence and Wisdom checks, as well as vulnerability to psychic damage, for 1 hour. For each dose of blight ichor consumed, the creature must succeed on a DC 15 Constitution saving throw or become {poisoned} for {@dice 1d6} hours and suffer the effects of a { confusion} spell for 1 minute. An undead creature subjected to a dose of blight ichor gains advantage on all Dexterity checks and is immune to the {frightened} condition for 1 hour."
@@ -4604,7 +4604,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 100,
 			"entries": [
@@ -4694,7 +4694,7 @@ export const items = {
 			"name": "Blood of the Lycanthrope",
 			"source": "IMR",
 			"page": 93,
-			"rarity": "none",
+			"rarity": "common",
 			"poison": true,
 			"entries": [
 				"This poison is created from blood harvested from a dead or {incapacitated} lycanthrope in its animal or hybrid form. A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be cursed with lycanthropy (see the Monster Manual). The curse lasts until removed by the { remove curse} spell or similar magic.",
@@ -4794,7 +4794,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"An opaque dark gray with red flecks gemstone."
@@ -4906,7 +4906,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"A transparent pale blue gemstone."
@@ -4917,7 +4917,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100000,
 			"entries": [
 				"A transparent blue-white to medium blue gemstone."
@@ -4928,7 +4928,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50000,
 			"entries": [
 				"A transparent deep blue gemstone."
@@ -4971,7 +4971,7 @@ export const items = {
 			"source": "DMG",
 			"page": 268,
 			"type": "EXP",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 15000,
 			"age": "renaissance",
@@ -4984,7 +4984,7 @@ export const items = {
 			"source": "AAG",
 			"page": 26,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000000,
 			"crew": 12,
 			"vehAc": 15,
@@ -5022,7 +5022,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 2500,
 			"entries": [
@@ -5475,7 +5475,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -5518,7 +5518,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -5628,7 +5628,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -5682,7 +5682,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 9,
 			"value": 2000,
 			"additionalEntries": [
@@ -5769,7 +5769,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -5799,7 +5799,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -5862,7 +5862,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 5,
 			"entries": [
@@ -5876,7 +5876,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 1000,
 			"entries": [
@@ -5890,7 +5890,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 44.5,
 			"value": 1600,
 			"entries": [
@@ -5952,7 +5952,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50000,
 			"poison": true,
 			"entries": [
@@ -5994,7 +5994,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 1000,
 			"additionalEntries": [
@@ -6066,7 +6066,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.1,
 			"value": 5,
 			"entries": [
@@ -6080,7 +6080,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 100,
 			"entries": [
@@ -6101,7 +6101,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"carryingCapacity": 480,
 			"speed": 50
@@ -6113,7 +6113,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1,
 			"entries": [
 				"For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet."
@@ -6224,7 +6224,7 @@ export const items = {
 			"source": "ToA",
 			"page": 31,
 			"type": "SHP",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 100,
 			"value": 5000,
 			"crew": 1,
@@ -6243,7 +6243,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10
 		},
 		{
@@ -6289,7 +6289,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"An opaque orange to red-brown gemstone."
@@ -6308,7 +6308,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 6,
 			"value": 800,
 			"additionalEntries": [
@@ -6453,7 +6453,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "VEH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 600,
 			"value": 10000
 		},
@@ -6463,7 +6463,7 @@ export const items = {
 			"page": 258,
 			"srd": "Crawler Mucus (Contact)",
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 20000,
 			"poison": true,
 			"entries": [
@@ -6480,7 +6480,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "VEH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 200,
 			"value": 1500
 		},
@@ -6567,7 +6567,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 6,
 			"value": 1500,
 			"additionalEntries": [
@@ -6644,7 +6644,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -6652,7 +6652,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -6660,7 +6660,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -6668,7 +6668,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -6750,7 +6750,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -6758,7 +6758,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -6768,7 +6768,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 10,
 			"value": 500,
 			"entries": [
@@ -6780,7 +6780,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"An opaque white gemstone."
@@ -6793,7 +6793,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1
 		},
 		{
@@ -6809,7 +6809,7 @@ export const items = {
 				}
 			],
 			"type": "VEH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 100,
 			"value": 25000,
 			"additionalEntries": [
@@ -6885,7 +6885,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 25,
 			"value": 500,
 			"entries": [
@@ -6915,7 +6915,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2
 		},
 		{
@@ -7017,7 +7017,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"A transparent yellow-green to pale green gemstone."
@@ -7028,7 +7028,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"A translucent green gemstone."
@@ -7041,7 +7041,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "FD",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 30
 		},
 		{
@@ -7051,7 +7051,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 200
 		},
@@ -7095,7 +7095,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"A transparent pale yellow-brown gemstone."
@@ -7183,7 +7183,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 12,
 			"value": 2500,
 			"entries": [
@@ -7405,7 +7405,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -7413,7 +7413,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -7432,7 +7432,7 @@ export const items = {
 			"source": "IDRotF",
 			"page": 20,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 1000,
 			"entries": [
@@ -7447,7 +7447,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 300
 		},
@@ -7464,7 +7464,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 500,
 			"additionalEntries": [
@@ -7657,7 +7657,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"value": 50
 		},
@@ -7684,7 +7684,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "FD",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 20
 		},
 		{
@@ -7694,7 +7694,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 2500,
 			"entries": [
@@ -7806,7 +7806,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 8,
 			"value": 100,
 			"additionalEntries": [
@@ -7885,7 +7885,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 50
 		},
@@ -7894,7 +7894,7 @@ export const items = {
 			"source": "PHB",
 			"page": 143,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.02,
 			"value": 1,
 			"entries": [
@@ -7912,7 +7912,7 @@ export const items = {
 			"source": "GGR",
 			"page": 9,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1
 		},
 		{
@@ -7920,7 +7920,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -7950,7 +7950,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -7958,7 +7958,7 @@ export const items = {
 			"source": "GGR",
 			"page": 9,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1
 		},
 		{
@@ -7966,7 +7966,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"An opaque crimson gemstone."
@@ -7979,7 +7979,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 4,
 			"value": 500
 		},
@@ -7990,7 +7990,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50
 		},
 		{
@@ -8000,7 +8000,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000
 		},
 		{
@@ -8022,7 +8022,7 @@ export const items = {
 			"source": "IDRotF",
 			"page": 20,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.25,
 			"value": 200,
 			"entries": [
@@ -8155,7 +8155,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 100,
 			"entries": [
@@ -8176,7 +8176,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 200,
 			"entries": [
@@ -8575,7 +8575,7 @@ export const items = {
 			"source": "AAG",
 			"page": 28,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2000000,
 			"crew": 9,
 			"vehAc": 19,
@@ -10366,7 +10366,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 500000,
 			"entries": [
 				"A transparent blue-white, canary, pink, brown, or blue gemstone."
@@ -10379,7 +10379,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "GS",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10
 		},
 		{
@@ -10482,7 +10482,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 36,
 			"value": 3900,
 			"entries": [
@@ -10540,7 +10540,7 @@ export const items = {
 				}
 			],
 			"type": "T",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"value": 2500,
 			"entries": [
@@ -10775,7 +10775,7 @@ export const items = {
 			"source": "IDRotF",
 			"page": 20,
 			"type": "VEH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 300,
 			"value": 2000,
 			"entries": [
@@ -10789,7 +10789,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 800,
 			"carryingCapacity": 420,
 			"speed": 40
@@ -10853,7 +10853,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"carryingCapacity": 540,
 			"speed": 40
@@ -10863,7 +10863,7 @@ export const items = {
 			"source": "WDH",
 			"page": 169,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100,
 			"entries": [
 				"Gold coin, half again as large as a {@item nib|wdh} (1 dragon = 100 {@item nib|wdh|nibs})"
@@ -10916,7 +10916,7 @@ export const items = {
 			"source": "ERLW",
 			"page": 244,
 			"type": "OTH",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"Introduced into Sharn by Daask, dragon's blood is a potent and highly addictive stimulant. In addition to inducing euphoria, it can enhance spellcasting ability or even temporarily imbue a user with the ability to cast sorcerer spells. The drug's effects are potentially dangerous and always unpredictable. This isn't something a player character should want to use; adventurers are more likely to interfere with Daask smugglers or deal with an addict who accidentally casts a { fireball} in a crowded street. The specific effects of dragon's blood are up to you, but you can take inspiration from the {@table Wild Magic Surge|PHB} table in the {@book Player's Handbook|PHB}."
 			]
@@ -10927,7 +10927,7 @@ export const items = {
 			"page": 154,
 			"basicRules": true,
 			"type": "GS",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.5,
 			"value": 100
 		},
@@ -11059,7 +11059,7 @@ export const items = {
 			"source": "ERLW",
 			"page": 244,
 			"type": "OTH",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A psychoactive liquid that smells and tastes like your favorite beverage, essence of dreamlily is a Sarlonan opiate. First imported to help manage pain during the Last War, it's now the most commonly abused substance in Sharn. Though dreamlily isn't illegal if used for medicinal purposes, it's heavily taxed, and thus most dreamlily is smuggled in and sold on the black market. Dreamlily dens can be found across the lower wards. Consuming dreamlily causes disorienting euphoria and brings about remarkable resistance to pain. A creature under the effects of dreamlily is {poisoned} for 1 hour. While {poisoned} in this way, the creature is immune to fear, and the first time it drops to 0 hit points without being killed outright, it drops to 1 hit point instead. A dose of dreamlily costs around 1 gp, or up to ten times that if purchased through legal channels. There are many varieties of the drug, however, and the duration or the price might vary accordingly."
 			]
@@ -11092,7 +11092,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 20000,
 			"poison": true,
 			"entries": [
@@ -11170,7 +11170,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"value": 600
 		},
@@ -11181,7 +11181,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 10,
 			"value": 2500
 		},
@@ -11192,7 +11192,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 61.5,
 			"value": 1200,
 			"entries": [
@@ -11378,7 +11378,7 @@ export const items = {
 			"name": "Dust of the Mummy",
 			"source": "IMR",
 			"page": 93,
-			"rarity": "none",
+			"rarity": "common",
 			"poison": true,
 			"entries": [
 				"This poison is created during a mummy's embalming process, distilled from the dead creature's removed organs. A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed creature can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the creature's hit point maximum to 0, the creature dies, and its body turns to dust. The curse lasts until removed by the { remove curse} spell or similar magic."
@@ -11447,7 +11447,7 @@ export const items = {
 			"source": "DMG",
 			"page": 268,
 			"type": "EXP",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"age": "modern",
 			"entries": [
@@ -11755,7 +11755,7 @@ export const items = {
 			"source": "PHB",
 			"page": 143,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.02,
 			"value": 50,
 			"entries": [
@@ -11773,7 +11773,7 @@ export const items = {
 			"source": "GGR",
 			"page": 9,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50
 		},
 		{
@@ -12009,7 +12009,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 20000,
 			"carryingCapacity": 1320,
 			"speed": 40
@@ -12053,7 +12053,7 @@ export const items = {
 			"source": "MTF",
 			"page": 64,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				{
 					"type": "table",
@@ -12110,7 +12110,7 @@ export const items = {
 			"basicRules": true,
 			"type": "SCF",
 			"scfType": "holy",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 500
 		},
 		{
@@ -12118,7 +12118,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -12126,7 +12126,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -12134,7 +12134,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -12142,7 +12142,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100000,
 			"entries": [
 				"A transparent deep bright green gemstone."
@@ -12195,7 +12195,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 38,
 			"value": 4000,
 			"entries": [
@@ -12360,7 +12360,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 30000,
 			"poison": true,
 			"entries": [
@@ -12411,7 +12411,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TAH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 40,
 			"value": 6000,
 			"entries": [
@@ -12425,7 +12425,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 59,
 			"value": 1000,
 			"entries": [
@@ -12466,7 +12466,7 @@ export const items = {
 			"source": "EGW",
 			"page": 225,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"This acorn-sized sphere of brass contains a small amount of blasting powder and a clockwork trigger. An explosive seed can be thrown up to 30 feet as an action, detonating on impact. Each creature within 5 feet of the exploding seed must make a DC 10 Dexterity saving throw, taking 1d8} bludgeoning damage on a failed save, or half as much damage on a successful one."
 			]
@@ -12476,7 +12476,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"A translucent circles of gray, white, brown, blue, or green gemstone."
@@ -12570,7 +12570,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -12578,7 +12578,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -12821,7 +12821,7 @@ export const items = {
 			"source": "DSotDQ",
 			"page": 188,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"These backpack-sized devices are created in pairs, with matching numbers engraved on them, and allow communication over a long distance using radio frequencies. While wearing a fargab, you can use an action to speak into the device's mouthpiece and send a short message of twenty-five words or less to another creature wearing the matched fargab while it is within 18 miles of you. The message emits from the speakers of the device and can be heard up to 10 feet away from the device. If no creature is wearing the fargab, the speakers make static noises instead."
 			],
@@ -12861,7 +12861,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -12871,7 +12871,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TAH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 10,
 			"value": 5
 		},
@@ -12903,7 +12903,7 @@ export const items = {
 			"source": "WBtW",
 			"page": 7,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"The Feywild Trinkets table that follows offers a selection of trinkets appropriate for Feywild-themed adventures such as this one. Players whose characters have the feylost or Witchlight hand background can roll on this table instead of the {@book Trinkets|PHB|5|Trinkets} table in the {@book Player's Handbook|PHB} to determine what trinkets their characters possess. The adventure includes a few encounters that require you to roll on the table to determine what random trinkets the characters find in key locations.",
 				{
@@ -13550,7 +13550,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 6,
 			"value": 1500
 		},
@@ -13559,7 +13559,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -13567,7 +13567,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -13575,7 +13575,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -13583,7 +13583,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -13593,7 +13593,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "FD",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000
 		},
 		{
@@ -13601,7 +13601,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -13626,7 +13626,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100000,
 			"entries": [
 				"A translucent fiery red gemstone."
@@ -13650,7 +13650,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 4,
 			"value": 100,
 			"entries": [
@@ -13706,7 +13706,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 2,
 			"entries": [
@@ -13772,7 +13772,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 2
 		},
@@ -13783,7 +13783,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 200
 		},
@@ -13862,7 +13862,7 @@ export const items = {
 			"source": "AAG",
 			"page": 30,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2000000,
 			"crew": 10,
 			"vehAc": 15,
@@ -13930,7 +13930,7 @@ export const items = {
 				}
 			],
 			"type": "T",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 1500,
 			"entries": [
@@ -14016,7 +14016,7 @@ export const items = {
 			"source": "DMG",
 			"page": 268,
 			"type": "EXP",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"age": "modern",
 			"entries": [
@@ -14099,7 +14099,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "SHP",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 3000000,
 			"crew": 80,
 			"vehAc": 15,
@@ -14116,7 +14116,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"A transparent red, brown-green, or violet gemstone."
@@ -14343,7 +14343,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 100
 		},
@@ -14372,7 +14372,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 200,
 			"entries": [
@@ -14392,7 +14392,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 3000,
 			"additionalEntries": [
@@ -14454,7 +14454,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound."
 			]
@@ -14562,7 +14562,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100
 		},
 		{
@@ -14608,7 +14608,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 5000
 		},
@@ -14617,7 +14617,7 @@ export const items = {
 			"source": "PHB",
 			"page": 143,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.02,
 			"value": 100,
 			"entries": [
@@ -14635,7 +14635,7 @@ export const items = {
 			"source": "GGR",
 			"page": 9,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 500
 		},
 		{
@@ -14643,7 +14643,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -14651,7 +14651,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -14685,7 +14685,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -14693,7 +14693,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -14701,7 +14701,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -14709,7 +14709,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -14717,7 +14717,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -14747,7 +14747,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -14755,7 +14755,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -14763,7 +14763,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -14771,7 +14771,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -14779,7 +14779,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -14787,7 +14787,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -14795,7 +14795,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -14803,7 +14803,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -14811,7 +14811,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -14819,7 +14819,7 @@ export const items = {
 			"source": "GGR",
 			"page": 9,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100
 		},
 		{
@@ -14827,7 +14827,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -14835,7 +14835,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -14884,7 +14884,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 4,
 			"value": 200
 		},
@@ -15044,7 +15044,7 @@ export const items = {
 			"source": "DMG",
 			"page": 268,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 7,
 			"age": "modern",
 			"entries": [
@@ -15390,7 +15390,7 @@ export const items = {
 			"source": "DMG",
 			"page": 268,
 			"type": "EXP",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 3500,
 			"age": "renaissance",
@@ -15404,7 +15404,7 @@ export const items = {
 			"source": "DMG",
 			"page": 268,
 			"type": "EXP",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 20,
 			"value": 25000,
 			"age": "renaissance",
@@ -15445,7 +15445,7 @@ export const items = {
 			"source": "UAModernMagic",
 			"page": 4,
 			"type": "T",
-			"rarity": "none",
+			"rarity": "common",
 			"age": "modern",
 			"entries": [
 				"This kit contains the hardware and software necessary to allow access into most computer systems and electronic devices. Proficiency with hacking tools lets you add your proficiency bonus to any Intelligence checks you make to connect to or make use of a computer system or electronic device. The kit fits snugly in a backpack or toolbox. "
@@ -15469,7 +15469,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"value": 100
 		},
@@ -15523,7 +15523,7 @@ export const items = {
 				}
 			],
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 4000000,
 			"crew": 15,
 			"vehAc": 15,
@@ -15555,7 +15555,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A double-headed skin drum fitted with handles along its side."
 			]
@@ -15652,7 +15652,7 @@ export const items = {
 			"source": "WDH",
 			"page": 169,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"Platinum crescent inset with electrum, about three inches long with a hole large enough for a {@item nib|wdh} to fit in (1 harbor moon = 5,000 {@item nib|wdh|nibs})"
@@ -15835,7 +15835,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"value": 500,
 			"entries": [
@@ -16216,7 +16216,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"An opaque gray-black gemstone."
@@ -16229,7 +16229,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 10,
 			"value": 100,
 			"entries": [
@@ -16249,7 +16249,7 @@ export const items = {
 				}
 			],
 			"type": "T",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"value": 500,
 			"entries": [
@@ -16576,7 +16576,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 2500,
 			"entries": [
@@ -16591,7 +16591,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 500,
 			"entries": [
@@ -16654,7 +16654,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 300
 		},
@@ -16796,7 +16796,7 @@ export const items = {
 			"source": "VRGR",
 			"page": 36,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"Before you finish making a character, roll once on the Horror Trinkets table for a unique object your character has with them at the start of their adventuring career. These trinkets hint toward various horrific tales and might lead to dreadful revelations or be nothing more than grim keepsakes. At the DM's discretion any of these trinkets might also be a Mist talisman (detailed in {@book chapter 3|VRGR|3|Mist Talismans}), a focal item that can lead the bearer through the Mists to a particular Domain of Dread.",
 				{
@@ -17252,7 +17252,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 2500
 		},
@@ -17263,7 +17263,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "FD",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10
 		},
 		{
@@ -17293,7 +17293,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 25,
 			"value": 500,
 			"entries": [
@@ -17305,7 +17305,7 @@ export const items = {
 			"source": "IDRotF",
 			"page": 263,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				{
 					"type": "table",
@@ -17870,7 +17870,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"Ink (1-ounce bottle)"
@@ -17883,7 +17883,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2
 		},
 		{
@@ -17891,7 +17891,7 @@ export const items = {
 			"source": "ToA",
 			"page": 32,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10,
 			"charges": 1,
 			"entries": [
@@ -17904,7 +17904,7 @@ export const items = {
 			"source": "ToA",
 			"page": 32,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100,
 			"charges": 20,
 			"entries": [
@@ -18612,7 +18612,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 10
 		},
@@ -18813,7 +18813,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 10,
 			"value": 200,
 			"entries": [
@@ -18827,7 +18827,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.5,
 			"value": 10
 		},
@@ -18838,7 +18838,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 100,
 			"packContents": [
@@ -18977,7 +18977,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 500000,
 			"entries": [
 				"A transparent fiery orange gemstone."
@@ -18988,7 +18988,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"A translucent light green, deep green, or white gemstone."
@@ -18999,7 +18999,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -19007,7 +19007,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -19015,7 +19015,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -19023,7 +19023,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -19049,7 +19049,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -19057,7 +19057,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -19080,7 +19080,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"An opaque blue, black, or brown gemstone."
@@ -19147,7 +19147,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"An opaque deep black gemstone."
@@ -19287,7 +19287,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -19295,7 +19295,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -19303,7 +19303,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -19311,7 +19311,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -19327,7 +19327,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 2500,
 			"additionalEntries": [
@@ -19391,7 +19391,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 4,
 			"value": 2,
 			"entries": [
@@ -19440,7 +19440,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "SHP",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 300000,
 			"crew": 1,
 			"vehAc": 15,
@@ -19461,7 +19461,7 @@ export const items = {
 			"source": "LoX",
 			"page": 35,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A keg of alchemist's fire lobbed at a creature or an object deals 21 (6d6}) fire damage on a hit. Further, the target is set ablaze and takes the damage again every round (in the case of a creature, at the start of each of its turns) until the fire is put out. A creature within reach of the blaze can take an action to smother the flames using a blanket or carpet, reducing the fire damage by {@dice 2d6}. Three such actions are needed to fully put out the fire."
 			]
@@ -19828,7 +19828,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 25,
 			"value": 10,
 			"entries": [
@@ -19842,7 +19842,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 50,
 			"entries": [
@@ -19854,7 +19854,7 @@ export const items = {
 			"source": "AAG",
 			"page": 34,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2000000,
 			"crew": 15,
 			"vehAc": 15,
@@ -19962,7 +19962,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"An opaque light and dark blue with yellow flecks gemstone."
@@ -19973,7 +19973,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -19981,7 +19981,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -19989,7 +19989,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -19997,7 +19997,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -20005,7 +20005,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -20233,7 +20233,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 500,
 			"additionalEntries": [
@@ -20450,7 +20450,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 500
 		},
 		{
@@ -20589,7 +20589,7 @@ export const items = {
 			"source": "AAG",
 			"page": 36,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500000,
 			"crew": 5,
 			"vehAc": 15,
@@ -20633,7 +20633,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "FD",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2
 		},
 		{
@@ -20643,7 +20643,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 1000,
 			"entries": [
@@ -20666,7 +20666,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A Faerûnian flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves."
 			]
@@ -20678,7 +20678,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "SHP",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000000,
 			"crew": 40,
 			"vehAc": 15,
@@ -21011,7 +21011,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 3500
 		},
@@ -21020,7 +21020,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -21057,7 +21057,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 3000
 		},
@@ -21338,7 +21338,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed."
@@ -21349,7 +21349,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"An opaque striated light and dark green gemstone."
@@ -21361,7 +21361,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000,
 			"poison": true,
 			"entries": [
@@ -21378,7 +21378,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 6,
 			"value": 200,
 			"entries": [
@@ -21528,7 +21528,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 100,
 			"entries": [
@@ -21548,7 +21548,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -21601,7 +21601,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 8,
 			"value": 1000,
 			"additionalEntries": [
@@ -21762,7 +21762,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -21772,7 +21772,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500,
 			"carryingCapacity": 195,
 			"speed": 40
@@ -22013,7 +22013,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"value": 500,
 			"entries": [
@@ -22027,7 +22027,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 20,
 			"entries": [
@@ -22040,7 +22040,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 150000,
 			"poison": true,
 			"entries": [
@@ -22125,7 +22125,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TAH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 30,
 			"value": 2000,
 			"entries": [
@@ -22167,7 +22167,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 10,
 			"value": 200
 		},
@@ -22466,7 +22466,7 @@ export const items = {
 				}
 			],
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 48.5,
 			"value": 3300,
 			"entries": [
@@ -22648,7 +22648,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"A translucent white with pale blue glow gemstone."
@@ -22659,7 +22659,7 @@ export const items = {
 			"source": "EGW",
 			"page": 132,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 40000,
 			"entries": [
 				"Beasts of burden are common throughout Xhorhas, and often horses and other riding animals are the best or only option. For those who require speed and have a little more coin to spend, the best option is often a moorbounder. However, moorbounders that haven't undergone proper training or established bonds of trust with their masters tend to attack and even eat their riders.",
@@ -22671,7 +22671,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"A translucent pink or yellow-white with mossy gray or green markings gemstone."
@@ -22684,7 +22684,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 800,
 			"carryingCapacity": 420,
 			"speed": 40
@@ -22784,7 +22784,7 @@ export const items = {
 			"resist": [
 				"fire"
 			],
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"This paste made from the muroosa bush is known to help prevent sunburn, but it is also a fire retardant. After spending 1 minute applying a quarter pint of muroosa balm to your skin, you gain resistance against fire damage for 1 hour.",
@@ -22807,7 +22807,7 @@ export const items = {
 			"source": "DSotDQ",
 			"page": 188,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"This backpack-sized device holds a balloon-based parachute. If you fall while wearing this device, you can use your reaction to deploy the parachute. Once deployed, the parachute rapidly inflates, and you descend 60 feet per round and take no damage from falling. When you are 10 feet away from the ground, roll a {@dice d20}. If you roll a 5 or less, the parachute gives out, and you begin to fall normally."
 			],
@@ -22844,7 +22844,7 @@ export const items = {
 			"source": "AAG",
 			"page": 38,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000000,
 			"crew": 20,
 			"vehAc": 15,
@@ -22889,7 +22889,7 @@ export const items = {
 				}
 			],
 			"type": "T",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 2500,
 			"entries": [
@@ -22968,7 +22968,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -22997,7 +22997,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -23089,7 +23089,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -23206,7 +23206,7 @@ export const items = {
 			"source": "WDH",
 			"page": 169,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1,
 			"entries": [
 				"Copper coin about the size of a thumbnail (1 nib = 1 common copper coin)"
@@ -23295,7 +23295,7 @@ export const items = {
 			"source": "AAG",
 			"page": 40,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000000,
 			"crew": 25,
 			"vehAc": 19,
@@ -23379,7 +23379,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"An opaque black gemstone."
@@ -23406,7 +23406,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -23529,7 +23529,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 10,
 			"entries": [
@@ -23595,7 +23595,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 40000,
 			"poison": true,
 			"entries": [
@@ -23610,7 +23610,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -23618,7 +23618,7 @@ export const items = {
 			"source": "EGW",
 			"page": 70,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"These dried leaves of the Olisuba tree, when steeped to make a tea, can help a body recover from strenuous activity. If you drink a dose of Olisuba tea during a long rest, your {exhaustion} level is reduced by 2 instead of 1 at the end of that long rest."
@@ -23629,7 +23629,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"An opaque black and white banded, or pure black or white gemstone."
@@ -23640,7 +23640,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100000,
 			"entries": [
 				"A translucent pale blue with green and golden mottling gemstone."
@@ -24444,7 +24444,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1500
 		},
 		{
@@ -24454,7 +24454,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TAH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 15,
 			"value": 500
 		},
@@ -24463,7 +24463,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -24471,7 +24471,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -24487,7 +24487,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 1000,
 			"additionalEntries": [
@@ -24549,7 +24549,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -24557,7 +24557,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -24566,7 +24566,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000,
 			"poison": true,
 			"entries": [
@@ -24583,7 +24583,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 1200
 		},
@@ -24594,7 +24594,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 20
 		},
 		{
@@ -24624,7 +24624,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10
 		},
 		{
@@ -24669,7 +24669,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"An opaque lustrous white, yellow, or pink gemstone."
@@ -24840,7 +24840,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 200
 		},
@@ -24868,7 +24868,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 500
 		},
 		{
@@ -24945,7 +24945,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50000,
 			"entries": [
 				"A transparent rich olive green gemstone."
@@ -24977,7 +24977,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -25024,7 +25024,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 300
 		},
 		{
@@ -25118,7 +25118,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 4,
 			"value": 2,
 			"entries": [
@@ -25132,7 +25132,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.25,
 			"value": 5
 		},
@@ -25258,7 +25258,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 50000
 		},
@@ -25267,7 +25267,7 @@ export const items = {
 			"source": "PHB",
 			"page": 143,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.02,
 			"value": 1000,
 			"entries": [
@@ -25285,7 +25285,7 @@ export const items = {
 			"source": "GGR",
 			"page": 9,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000
 		},
 		{
@@ -25293,7 +25293,7 @@ export const items = {
 			"source": "GGR",
 			"page": 9,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000
 		},
 		{
@@ -25301,7 +25301,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -25309,7 +25309,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 250000
 		},
 		{
@@ -25317,7 +25317,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -25360,7 +25360,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -25370,7 +25370,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "GS",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50
 		},
 		{
@@ -25403,7 +25403,7 @@ export const items = {
 				}
 			],
 			"type": "T",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 5000,
 			"entries": [
@@ -25485,7 +25485,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 7,
 			"value": 5
 		},
@@ -25519,7 +25519,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 3000,
 			"carryingCapacity": 225,
 			"speed": 40
@@ -25550,7 +25550,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 35,
 			"value": 400,
 			"entries": [
@@ -26435,7 +26435,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"value": 1000,
 			"additionalEntries": [
@@ -26503,7 +26503,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 50,
 			"entries": [
@@ -26614,7 +26614,7 @@ export const items = {
 			"source": "EGW",
 			"page": 103,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 10000,
 			"entries": [
@@ -26626,7 +26626,7 @@ export const items = {
 			"source": "EGW",
 			"page": 103,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 4,
 			"value": 50000,
 			"entries": [
@@ -26640,7 +26640,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 24,
 			"value": 1900,
 			"entries": [
@@ -26936,7 +26936,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 200000,
 			"poison": true,
 			"entries": [
@@ -27165,7 +27165,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"A transparent white, smoky gray, or yellow gemstone."
@@ -27178,7 +27178,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 100,
 			"entries": [
@@ -27273,7 +27273,7 @@ export const items = {
 			"source": "ToA",
 			"page": 32,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 100,
 			"entries": [
@@ -27366,7 +27366,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 50,
 			"entries": [
@@ -27495,7 +27495,7 @@ export const items = {
 			"basicRules": true,
 			"type": "SCF",
 			"scfType": "holy",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"value": 500
 		},
@@ -27549,7 +27549,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"An opaque light pink gemstone."
@@ -27562,7 +27562,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 7500,
 			"carryingCapacity": 480,
 			"speed": 60
@@ -27574,7 +27574,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TAH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 25,
 			"value": 1000
 		},
@@ -28799,7 +28799,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 4,
 			"value": 100
 		},
@@ -29123,7 +29123,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "SHP",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 100,
 			"value": 5000,
 			"crew": 1,
@@ -29143,7 +29143,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 500000,
 			"entries": [
 				"A transparent clear red to deep crimson gemstone."
@@ -29482,7 +29482,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.5,
 			"value": 1,
 			"entries": [
@@ -29515,7 +29515,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TAH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 8,
 			"value": 400
 		},
@@ -29526,7 +29526,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 1500
 		},
@@ -29537,7 +29537,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "SHP",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000000,
 			"crew": 20,
 			"vehAc": 15,
@@ -29578,7 +29578,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 5
 		},
@@ -29606,7 +29606,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"An opaque bands of red and white gemstone."
@@ -29644,7 +29644,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 10,
 			"value": 4000,
 			"entries": [
@@ -29765,7 +29765,7 @@ export const items = {
 			"source": "AAG",
 			"page": 42,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500000,
 			"crew": 12,
 			"vehAc": 19,
@@ -29920,7 +29920,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50
 		},
 		{
@@ -30125,7 +30125,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 20000,
 			"poison": true,
 			"entries": [
@@ -30244,7 +30244,7 @@ export const items = {
 			"source": "WDH",
 			"page": 169,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10,
 			"entries": [
 				"Silver coin, slightly smaller than the nib (1 shard = 10 {@item nib|wdh|nibs})"
@@ -30667,7 +30667,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 200
 		},
@@ -30676,7 +30676,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A double-reed instrument similar to an oboe or a bassoon, popular with gnomes, who have developed some bellows-powered versions."
 			]
@@ -30688,7 +30688,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 200
 		},
 		{
@@ -30905,7 +30905,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 200
 		},
@@ -30914,7 +30914,7 @@ export const items = {
 			"source": "AAG",
 			"page": 44,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2000000,
 			"crew": 11,
 			"vehAc": 15,
@@ -30937,7 +30937,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5
 		},
 		{
@@ -30947,7 +30947,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 500
 		},
 		{
@@ -30957,7 +30957,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000
 		},
 		{
@@ -30965,7 +30965,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -30975,7 +30975,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 1000,
 			"entries": [
@@ -31131,7 +31131,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 500
 		},
@@ -31140,7 +31140,7 @@ export const items = {
 			"source": "PHB",
 			"page": 143,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.02,
 			"value": 10,
 			"entries": [
@@ -31158,7 +31158,7 @@ export const items = {
 			"source": "GGR",
 			"page": 9,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25
 		},
 		{
@@ -31166,7 +31166,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -31174,7 +31174,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -31204,7 +31204,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -31212,7 +31212,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -31220,7 +31220,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -31228,7 +31228,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -31236,7 +31236,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 25000
 		},
 		{
@@ -31244,7 +31244,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -31278,7 +31278,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -31399,7 +31399,7 @@ export const items = {
 			"source": "EGW",
 			"page": 72,
 			"type": "AIR",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000000,
 			"crewMin": 6,
 			"crewMax": 10,
@@ -31416,7 +31416,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "VEH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 300,
 			"value": 2000
 		},
@@ -31425,7 +31425,7 @@ export const items = {
 			"source": "IDRotF",
 			"page": 20,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"A sled dog (use the {@creature wolf} stat block in appendix A of the Monster Manual) costs 50 gp and can pull 360 pounds.",
@@ -31439,7 +31439,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 10,
 			"value": 200
 		},
@@ -31573,7 +31573,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -31581,7 +31581,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 75000
 		},
 		{
@@ -31589,7 +31589,7 @@ export const items = {
 			"source": "DMG",
 			"page": 135,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -31597,7 +31597,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -31613,7 +31613,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 8,
 			"value": 2000,
 			"additionalEntries": [
@@ -31679,7 +31679,7 @@ export const items = {
 			"source": "DMG",
 			"page": 268,
 			"type": "EXP",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 2,
 			"age": "modern",
 			"entries": [
@@ -31750,7 +31750,7 @@ export const items = {
 			"source": "IDRotF",
 			"page": 20,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 4,
 			"value": 200,
 			"entries": [
@@ -31764,7 +31764,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2
 		},
 		{
@@ -31772,7 +31772,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A recorder, a simple type of flute, usually carved from wood."
 			]
@@ -31782,7 +31782,7 @@ export const items = {
 			"source": "EGW",
 			"page": 152,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 15000,
 			"entries": [
 				"Soothsalts are derived from a naturally occurring crystalline substance discovered throughout the wilds of the Miskath Strand. The crimson crystals have been mined from cavernous veins like those in the mouth of the Miskath Pit and found within smaller geode formations near sites ravaged by the Calamity. Soothsalts are consumed orally in lozenge-sized doses, and frequent users can be identified by the telltale crimson stain around their mouths. A creature subjected to a dose of soothsalts gains advantage on all Intelligence checks for {@dice 1d4} hours.",
@@ -31888,7 +31888,7 @@ export const items = {
 			"source": "AAG",
 			"page": 46,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 3000000,
 			"crew": 20,
 			"vehAc": 15,
@@ -32402,7 +32402,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"value": 5000,
 			"entries": [
@@ -32720,7 +32720,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"A transparent red, red-brown, or deep green gemstone."
@@ -32734,7 +32734,7 @@ export const items = {
 			"basicRules": true,
 			"type": "SCF",
 			"scfType": "druid",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100
 		},
 		{
@@ -32744,7 +32744,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 100000,
 			"entries": [
@@ -32771,7 +32771,7 @@ export const items = {
 				}
 			],
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500000,
 			"crew": 13,
 			"vehAc": 15,
@@ -32794,7 +32794,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TAH",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50
 		},
 		{
@@ -33813,7 +33813,7 @@ export const items = {
 			"source": "AAG",
 			"page": 50,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 4000000,
 			"crew": 13,
 			"vehAc": 13,
@@ -33834,7 +33834,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"A translucent rosy stone with white star-shaped center gemstone."
@@ -33845,7 +33845,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100000,
 			"entries": [
 				"A translucent ruby with white star-shaped center gemstone."
@@ -33856,7 +33856,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100000,
 			"entries": [
 				"A translucent blue sapphire with white star-shaped center gemstone."
@@ -33930,7 +33930,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 0.5,
 			"value": 500
 		},
@@ -34384,7 +34384,7 @@ export const items = {
 			"source": "WDH",
 			"page": 169,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"Platinum coin, twice as large as a {@item nib|wdh} (1 sun = 1,000 {@item nib|wdh|nibs})"
@@ -34395,7 +34395,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -35300,7 +35300,7 @@ export const items = {
 			"source": "WDMM",
 			"page": 244,
 			"type": "OTH",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A tangler grenade is an alchemical, nonmagical item with an ovoid resin shell that shatters on impact. An as action, a creature can throw a tangler grenade at a point up to 60 feet away. Each creature within 10 feet of a shattered tangler grenade must succeed on a DC 15 Dexterity saving throw or be {restrained} by sticky white webs. As an action, a creature can try to free itself or another creature within its reach from the webs, doing so with a successful DC 20 Strength ({@skill Athletics}) check. A gallon of alcohol dissolves the webs produced by a single tangler grenade. Otherwise, the webs dissolve on their own after 1 hour, freeing any creatures {restrained} by them."
 			]
@@ -35312,7 +35312,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 2,
 			"entries": [
@@ -35351,7 +35351,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A tambourine, a popular instrument with halflings and humans south of the Dalelands."
 			]
@@ -35361,7 +35361,7 @@ export const items = {
 			"source": "WDH",
 			"page": 169,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 200,
 			"entries": [
 				"Brass coin, about two inches square with a hold large enough for a {@item nib|wdh} to fit in (1 taol = 200 {@item nib|wdh|nibs})"
@@ -35628,7 +35628,7 @@ export const items = {
 			"source": "ToA",
 			"page": 32,
 			"type": "FD",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"entries": [
 				"Tej is an amber-colored, fermented drink made from honey. It's more common and popular in Chult than beer or ale. A mug of tej costs 4 cp in Port Nyanzaru or 6 cp in Fort Beluarian. A 1-gallon cask costs 2 sp in the city or 3 sp at the fort."
@@ -36471,7 +36471,7 @@ export const items = {
 			"source": "EGW",
 			"page": 70,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 300,
 			"entries": [
 				"This thick marsh root tastes bitter but is thought to aid digestive health. When you use an action to consume a dose, you gain advantage on saving throws against the effects of poisonous or toxic substances for 8 hours."
@@ -36482,7 +36482,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children\u2014to the parents' delight or regret."
 			]
@@ -36501,7 +36501,7 @@ export const items = {
 			"name": "Thessaltoxin",
 			"source": "IMR",
 			"page": 93,
-			"rarity": "none",
+			"rarity": "common",
 			"poison": true,
 			"entries": [
 				"This poison was first created using blood harvested from the artificer Thessalar. A creature subjected to the poison must succeed on a DC 15 Constitution saving throw or take on a new form as if affected by the { polymorph} spell. The creature's new form is a random beast or a creature it has seen within the last 24 hours (as chosen by the DM). This transformation lasts until the end of the target's next long rest. This effect is not subject to { dispel magic} or { remove curse}, but a { greater restoration} spell restores the creature to its original form."
@@ -36537,7 +36537,7 @@ export const items = {
 				}
 			],
 			"type": "T",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 2500,
 			"entries": [
@@ -36604,7 +36604,7 @@ export const items = {
 			"page": 154,
 			"basicRules": true,
 			"type": "GS",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100
 		},
 		{
@@ -36629,7 +36629,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"A translucent brown with golden center gemstone."
@@ -36680,7 +36680,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 50,
 			"entries": [
@@ -36761,7 +36761,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 10,
 			"value": 5000,
 			"additionalEntries": [
@@ -36827,7 +36827,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -36835,7 +36835,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry."
 			]
@@ -36885,7 +36885,7 @@ export const items = {
 			"source": "CoS",
 			"page": 221,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"entries": [
 				"The Tome of Strahd is an ancient work penned by Strahd, a tragic tale of how he came to his fallen state. The book is bound in a thick leather cover with steel hinges and fastenings. The pages are of parchment and very brittle. Most of the book is written in the curious shorthand that only Strahd employs. Stains and age have made most of the work illegible, but several paragraphs remain intact."
@@ -36944,7 +36944,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 50000,
 			"entries": [
 				"A transparent golden yellow gemstone."
@@ -36981,7 +36981,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 1,
 			"entries": [
@@ -36994,7 +36994,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 60000,
 			"poison": true,
 			"entries": [
@@ -37012,7 +37012,7 @@ export const items = {
 			"basicRules": true,
 			"type": "SCF",
 			"scfType": "druid",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100
 		},
 		{
@@ -37020,7 +37020,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 10000,
 			"entries": [
 				"A transparent pale green, blue, brown, or red gemstone."
@@ -37046,7 +37046,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 4,
 			"value": 200
 		},
@@ -37055,7 +37055,7 @@ export const items = {
 			"source": "PSX",
 			"page": 25,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 750000
 		},
 		{
@@ -37116,7 +37116,7 @@ export const items = {
 			"source": "AI",
 			"page": 222,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"Worried that you're going to pull out your dead sprite inside a clear glass bottle at a company function only to discover that three other people in the franchise have one as well? Then consider rolling on the Acquisitions Incorporated Trinkets table instead of the {@item Trinket|phb|table in chapter 5 of the Player's Handbook}, to gain a unique trinket at character creation with a bit of Acq Inc flair.",
 				{
@@ -37541,7 +37541,7 @@ export const items = {
 			"source": "CoS",
 			"page": 2,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creatures pockets.",
 				{
@@ -37765,7 +37765,7 @@ export const items = {
 			"source": "EET",
 			"page": 1,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creatures pockets.",
 				{
@@ -38190,7 +38190,7 @@ export const items = {
 			"page": 159,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"When you make your character, you can roll once on the Trinkets table to gain a trinket, a simple item lightly touched by mystery. The DM might also use this table. It can help stock a room in a dungeon or fill a creatures pockets.",
 				{
@@ -38616,7 +38616,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 15000,
 			"poison": true,
 			"entries": [
@@ -38634,7 +38634,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"An opaque light blue-green gemstone."
@@ -38645,7 +38645,7 @@ export const items = {
 			"source": "AAG",
 			"page": 52,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 4000000,
 			"crew": 16,
 			"vehAc": 19,
@@ -38690,7 +38690,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 20,
 			"value": 200,
 			"entries": [
@@ -38702,7 +38702,7 @@ export const items = {
 			"source": "AAG",
 			"page": 54,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"crew": 10,
 			"vehAc": 17,
 			"vehHp": 300,
@@ -38787,7 +38787,7 @@ export const items = {
 			"source": "PSX",
 			"page": 24,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500
 		},
 		{
@@ -38942,7 +38942,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100,
 			"entries": [
 				"A vial can hold up to 4 ounces of liquid."
@@ -38979,7 +38979,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 3000
 		},
@@ -39052,7 +39052,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "VEH",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 400,
 			"value": 3500
 		},
@@ -39907,7 +39907,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark."
 			]
@@ -39919,7 +39919,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "MNT",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 40000,
 			"carryingCapacity": 540,
 			"speed": 60
@@ -39931,7 +39931,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "SHP",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2500000,
 			"crew": 60,
 			"vehAc": 15,
@@ -39949,7 +39949,7 @@ export const items = {
 			"source": "AAG",
 			"page": 56,
 			"type": "SPC",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 2000000,
 			"crew": 5,
 			"vehAc": 15,
@@ -39988,7 +39988,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"weightNote": "(full)",
 			"value": 20,
@@ -40094,7 +40094,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 100,
 			"additionalEntries": [
@@ -40200,7 +40200,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "TG",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 1
 		},
@@ -40338,7 +40338,7 @@ export const items = {
 			"srd": true,
 			"basicRules": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 1
 		},
@@ -40558,7 +40558,7 @@ export const items = {
 			"source": "JttRC",
 			"page": 212,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"More rarely, the orchids produce a smaller pod holding a single white seed. Among its various magical properties, if a white seed is ground and scattered over a dead body, the body is affected by the { resurrection} spell. A white ghost orchid seed has no effect if consumed."
 			]
@@ -40764,7 +40764,7 @@ export const items = {
 			"source": "EGW",
 			"page": 70,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 3000,
 			"entries": [
 				"A dark blue oil can be extracted from the rare fruit of the willowshade plant. A creature can use its action to apply the oil to another creature that has been {petrified} for less than 1 minute, causing the {petrified} condition on that creature to end at the start of what would be that creature's next turn."
@@ -41062,7 +41062,7 @@ export const items = {
 				}
 			],
 			"type": "AT",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 5,
 			"value": 100,
 			"additionalEntries": [
@@ -41311,7 +41311,7 @@ export const items = {
 			"page": 258,
 			"srd": true,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 120000,
 			"poison": true,
 			"entries": [
@@ -41326,7 +41326,7 @@ export const items = {
 			"source": "ToA",
 			"page": 205,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100,
 			"entries": [
 				"A yahcha (pronounced YAH-chah) is a harmless, meaty beetle about the size of a human hand, which feeds on worms and maggots. It moves slowly (walking speed 10 feet) and is easy to catch. A creature with blue mist fever that eats a raw or cooked yahcha can immediately make a saving throw with advantage against that disease (see \"Diseases,\" page 40),"
@@ -41337,7 +41337,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A southern instrument from Amn and Calimshan that is a Faerûnian analog to the guitar. Numerous variations have spread across the continent."
 			]
@@ -41347,7 +41347,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 100000,
 			"entries": [
 				"A transparent fiery yellow or yellow-green gemstone."
@@ -41361,7 +41361,7 @@ export const items = {
 			"basicRules": true,
 			"type": "SCF",
 			"scfType": "druid",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 1,
 			"value": 1000
 		},
@@ -41406,7 +41406,7 @@ export const items = {
 			"source": "ToA",
 			"page": 205,
 			"type": "G",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 1000,
 			"entries": [
 				"Zabou mushrooms feed on offal and the rotting wood of dead trees. If handled carefully, a zabou can be picked or uprooted without causing it to release its spores. If crushed or struck, a zabou releases its spores in a 10-foot-radius sphere. A zabou can also be hurled up to 30 feet away or dropped like a grenade, releasing its cloud of spores on impact. Any creature in that area must succeed on a DC 10 Constitution saving throw or be {poisoned} for 1 minute. The {poisoned} creature's skin itches for the duration. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
@@ -41417,7 +41417,7 @@ export const items = {
 			"source": "DMG",
 			"page": 134,
 			"type": "$",
-			"rarity": "none",
+			"rarity": "common",
 			"value": 5000,
 			"entries": [
 				"A transparent pale blue-green gemstone."
@@ -41428,7 +41428,7 @@ export const items = {
 			"source": "SCAG",
 			"page": 124,
 			"type": "INS",
-			"rarity": "none",
+			"rarity": "common",
 			"entries": [
 				"A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound."
 			]
