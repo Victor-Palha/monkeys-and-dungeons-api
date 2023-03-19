@@ -8,6 +8,14 @@ export const PHBSpells = {
 			"basicRules": true,
 			"level": 0,
 			"school": "C",
+			"classes": [
+				"Artificer",
+				"Sorcerer",
+				"Wizard",
+				"Cleric",
+				"Rogue",
+				"Fighter",
+			],
 			"time": [
 				{
 					"number": 1,
@@ -66,6 +74,10 @@ export const PHBSpells = {
 			"basicRules": true,
 			"level": 2,
 			"school": "A",
+			"classes": [
+				"Artificer", "Cleric", "Paladin",
+				"Sourcerer"
+			],
 			"time": [
 				{
 					"number": 1,
@@ -119,6 +131,10 @@ export const PHBSpells = {
 			"srd": true,
 			"level": 1,
 			"school": "A",
+			"classes": [
+				"Artificer", "Ranger", "Wizard",
+				"Rogue", "Soucerer", "Paladin", "Fighter"
+			],
 			"time": [
 				{
 					"number": 1,
@@ -165,6 +181,10 @@ export const PHBSpells = {
 			"srd": true,
 			"level": 2,
 			"school": "T",
+			"classes": [
+				"Artificer", "Sorcerer", "Wizard",
+				"Rogue", "Druid", "Fighter", "Sorcerer"
+			],
 			"time": [
 				{
 					"number": 1,
