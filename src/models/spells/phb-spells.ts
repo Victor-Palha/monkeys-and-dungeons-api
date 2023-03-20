@@ -3028,6 +3028,232 @@ export const spells:Spells = {
             },
             "description": `For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn't hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it.`,
             "classes": ["Bard", "Sorcerer", "Warlock", "Wizard"]
+        },{
+            "name": "Gaseous Form",
+            "source": "PHB",
+            "level": 3,
+            "ritual": false,
+            "school": "Transmutation",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, S, M (a bit of gauze and a wisp of smoke)",
+            "duration": {
+                "time": "up to 1 hour",
+                "concentration": true,
+            },
+            "description": `You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.
+            
+            While in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.
+            
+            While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells.`,
+            "classes": ["Sorcerer", "Warlock", "Wizard"]
+        },{
+            "name": "Gate",
+            "source": "PHB",
+            "level": 9,
+            "ritual": false,
+            "school": "Conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": "V, S, M (a diamond worth at least 5,000 gp, which the spell consumes)",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true,
+            },
+            "description": `You conjure a portal linking an unoccupied space you can see within range to a precise location on a different plane of existence. The portal is a circular opening, which you can make 5 to 20 feet in diameter. You can orient the portal in any direction you choose. The portal lasts for the duration.
+
+            The portal has a front and a back on each plane where it appears. Travel through the portal is possible only by moving through its front. Anything that does so is instantly transported to the other plane, appearing in the unoccupied space nearest to the portal.
+            
+            Deities and other planar rulers can prevent portals created by this spell from opening in their presence or anywhere within their domains.
+            
+            When you cast this spell, you can speak the name of a specific creature (a pseudonym, title, or nickname doesn't work). If that creature is on a plane other than the one you are on, the portal opens in the named creature's immediate vicinity and draws the creature through it to the nearest unoccupied space on your side of the portal. You gain no special power over the creature, and it is free to act as the DM deems appropriate. It might leave, attack you, or help you.`,
+            "classes": ["Cleric", "Sorcerer", "Wizard"]
+        },{
+            "name": "Geas",
+            "source": "PHB",
+            "level": 5,
+            "ritual": false,
+            "school": "Enchantment",
+            "casting_time": "1 minute",
+            "range": "60 feet",
+            "components": "V",
+            "duration": {
+                "time": "30 days",
+                "concentration": false,
+            },
+            "description": `You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become charmed by you for the duration. While the creature is charmed by you, it takes 5d10 psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day. A creature that can't understand you is unaffected by the spell.
+
+            You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.
+            
+            You can end the spell early by using an action to dismiss it. A remove curse, greater restoration, or wish spell also ends it.`,
+            "higher_level": "When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. When you cast this spell using a spell slot of 9th level, the spell lasts until it is ended by one of the spells mentioned above.",
+            "classes": ["Bard", "Cleric", "Druid", "Paladin", "Wizard"]
+        },{
+            "name": "Gentle Repose",
+            "source": "PHB",
+            "level": 2,
+            "ritual": true,
+            "school": "Necromancy",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, S, M (a pinch of salt and one copper piece placed on each of the corpse's eyes, which the spell consumes)",
+            "duration": {
+                "time": "10 days",
+                "concentration": false,
+            },
+            "description": `You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead.
+
+            The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as raise dead.`,
+            "classes": ["Cleric", "Wizard"]
+        },{
+            "name": "Giant Insect",
+            "source": "PHB",
+            "level": 4,
+            "ritual": false,
+            "school": "Transmutation",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": "V, S",
+            "duration": {
+                "time": "up to 10 minutes",
+                "concentration": true,
+            },
+            "description": `Each creature obeys your verbal commands, and in combat, they act on your turn each round. The DM has the statistics for these creatures and resolves their actions and movement.
+
+            A creature remains in its giant size for the duration, until it drops to 0 hit points, or until you use an action to dismiss the effect on it.
+            
+            The DM might allow you to choose different targets. For example, if you transform a bee, its giant version might have the same statistics as a giant wasp.`,
+            "classes": ["Druid"]
+        },{
+            "name": "Glibness",
+            "source": "PHB",
+            "level": 8,
+            "ritual": false,
+            "school": "Transmutation",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": "V",
+            "duration": {
+                "time": "1 hour",
+                "concentration": false,
+            },
+            "description": `Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.`,
+            "classes": ["Bard", "Warlock"]
+        },{
+            "name": "Globe of Invulnerability",
+            "source": "PHB",
+            "level": 6,
+            "ritual": false,
+            "school": "Abjuration",
+            "casting_time": "1 action",
+            "range": "Self (10-foot radius)",
+            "components": "V, S, M (a glass or crystal bead that shatters when the spell ends)",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true,
+            },
+            "description": `An immobile, faintly shimmering barrier springs into existence in a 10-foot radius around you and remains for the duration.
+
+            Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells.`,
+            "higher_level": "When you cast this spell using a spell slot of 7th level or higher, the barrier blocks spells of one level higher for each slot level above 6th.",
+            "classes": ["Sorcerer", "Wizard"]
+        },{
+            "name": "Glyph of Warding",
+            "source": "PHB",
+            "level": 3,
+            "ritual": false,
+            "school": "Abjuration",
+            "casting_time": "1 hours",
+            "range": "Touch",
+            "components": "V, S, M (incense and powdered diamond worth at least 200 gp, which the spell consumes)",
+            "duration": {
+                "time": "Until dispelled or triggered",
+                "concentration": false,
+            },
+            "description": `When you cast this spell, you inscribe a glyph that later unleashes a magical effect. You inscribe it either on a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.
+
+            The glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found.
+            
+            You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends.
+            
+            You can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect aberrations or drow), or alignment. You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.
+            
+            When you inscribe the glyph, choose explosive runes or a spell glyph.
+            
+            Explosive Runes: When triggered, the glyph erupts with magical energy in a 20-foot-radius sphere centered on the glyph. The sphere spreads around corners. Each creature in the area must make a Dexterity saving throw. A creature takes 5d8 acid, cold, fire, lightning, or thunder damage on a failed saving throw (your choice when you create the glyph), or half as much damage on a successful one.
+
+            Spell Glyph: You can store a prepared spell of 3rd level or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the glyph is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires concentration, it lasts until the end of its full duration.`,
+            
+            "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage of an explosive runes glyph increases by 1d8 for each slot level above 3rd. If you create a spell glyph, you can store any spell of up to the same level as the slot you use for the glyph of warding.",
+            
+            "classes": ["Artificer", "Bard", "Cleric", "Wizard"]
+        },{
+            "name": "Goodberry",
+            "source": "PHB",
+            "level": 1,
+            "ritual": false,
+            "school": "Transmutation",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, S, M (a sprig of mistletoe)",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false,
+            },
+            "description": `Up to ten berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for one day.
+
+            The berries lose their potency if they have not been consumed within 24 hours of the casting of this spell.`,
+            "classes": ["Druid", "Ranger"]
+        },{
+            "name": "Grasping Vine",
+            "source": "PHB",
+            "level": 4,
+            "ritual": false,
+            "school": "Conjuration",
+            "casting_time": "1 bonus action",
+            "range": "30 feet",
+            "components": "V, S",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true,
+            },
+            "description": `You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it that you can see. That creature must succeed on a Dexterity saving throw or be pulled 20 feet directly toward the vine.
+
+            Until the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns.`,
+            
+            "classes": ["Druid", "Ranger"]
+        },{
+            "name": "Grease",
+            "source": "PHB",
+            "level": 1,
+            "ritual": false,
+            "school": "Conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": "V, S, M (a bit of pork rind or butter)",
+            "duration": {
+                "time": "1 minute",
+                "concentration": false,
+            },
+            "description": `Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.
+
+            When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.`,
+            "classes": ["Artificer", "Wizard"]
+        },{
+            "name": "Greater Invisibility",
+            "source": "PHB",
+            "level": 4,
+            "ritual": false,
+            "school": "Illusion",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, S",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true,
+            },
+            "description": `You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person.`,
+            "classes": ["Bard", "Sorcerer", "Wizard"]
         }
     ]
 }
