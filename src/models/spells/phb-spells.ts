@@ -3254,6 +3254,132 @@ export const spells:Spells = {
             },
             "description": `You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person.`,
             "classes": ["Bard", "Sorcerer", "Wizard"]
+        },{
+            "name": "Greater Restoration",
+            "source": "PHB",
+            "level": 5,
+            "ritual": false,
+            "school": "Abjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, S, M (diamond dust worth at least 100 gp, which the spell consumes)",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false,
+            },
+            "description": `You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target:
+
+            - One effect that charmed or petrified the target
+            - One curse, including the target's attunement to a cursed magic item
+            - Any reduction to one of the target's ability scores
+            - One effect reducing the target's hit point maximum`,
+            "classes": ["Artificer", "Bard", "Cleric", "Druid"]
+        },{
+            "name": "Guardian of Faith",
+            "source": "PHB",
+            "level": 4,
+            "ritual": false,
+            "school": "Conjuration",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": "V",
+            "duration": {
+                "time": "8 hours",
+                "concentration": false,
+            },
+            "description": `A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.
+
+            Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.`,
+            "classes": ["Cleric"]
+        },{
+            "name": "Guards and Wards",
+            "source": "PHB",
+            "level": 6,
+            "ritual": false,
+            "school": "Abjuration",
+            "casting_time": "10 minutes",
+            "range": "Touch",
+            "components": "V, S, M (burning incense, a small measure of brimstone and oil, a knotted string, a small amount of umber hulk blood, and a small silver rod worth at least 10 gp)",
+            "duration": {
+                "time": "24 hours",
+                "concentration": false,
+            },
+            "description": `You create a ward that protects up to 2,500 square feet of floor space (an area 50 feet square, or one hundred 5-foot squares or twenty-five 10-foot squares). The warded area can be up to 20 feet tall, and shaped as you desire. You can ward several stories of a stronghold by dividing the area among them, as long as you can walk into each contiguous area while you are casting the spell.
+
+            When you cast this spell, you can specify individuals that are unaffected by any or all of the effects that you choose. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.
+            
+            Guards and wards creates the following effects within the warded area.
+            
+            Corridor: Fog fills all the warded corridors, making them heavily obscured. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you will believe it is going in the opposite direction from the one it chooses.
+            
+            Doors: All doors in the warded area are magically locked, as if sealed by an arcane lock spell. In addition, you can cover up to ten doors with an illusion (equivalent to the illusory object function of the minor illusion spell) to make them appear as plain sections of wall.
+            
+            Stairs: Webs fill all stairs in the warded area from top to bottom, as the web spell. These strands regrow in 10 minutes if they are burned or torn away while guards and wards lasts.
+            
+            Other Spell Effect: You can place your choice of one of the following magical effects within the warded area of the stronghold.
+            
+            - Place dancing lights in four corridors. You can designate a simple program that the lights repeat as long as guards and wards lasts.
+            - Place magic mouth in two locations.
+            - Place stinking cloud in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while guards and wards lasts.
+            - Place a constant gust of wind in one corridor or room.
+            - Place a suggestion in one location. You select an area of up to 5 feet square, and any creature that enters or passes through the area receives the suggestion mentally.
+            The whole warded area radiates magic. A dispel magic cast on a specific effect, if successful, removes only that effect.
+            
+            You can create a permanently guarded and warded structure by casting this spell there every day for one year.`,
+            "classes": ["Bard", "Wizard"]
+        },{
+            "name": "Guidance",
+            "source": "PHB",
+            "level": 0,
+            "ritual": false,
+            "school": "Divination",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, S",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true,
+            },
+            "description": `You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.`,
+            "classes": ["Artificer", "Cleric", "Druid"]
+        },{
+            "name": "Guiding Bolt",
+            "source": "PHB",
+            "level": 1,
+            "ritual": false,
+            "school": "Evocation",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": "V, S",
+            "duration": {
+                "time": "1 round",
+                "concentration": false,
+            },
+            "description": `A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.`,
+            "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+
+            "classes": ["Cleric"]
+        },{
+            "name": "Gust of Wind",
+            "source": "PHB",
+            "level": 2,
+            "ritual": false,
+            "school": "Evocation",
+            "casting_time": "1 action",
+            "range": "Self (60-foot line)",
+            "components": "V, S, M (a small seed)",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true,
+            },
+            "description": `A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell's duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line.
+
+            Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.
+            
+            The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.
+            
+            As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.`,
+            "classes": ["Druid", "Sorcerer", "Wizard"]
         }
     ]
 }
