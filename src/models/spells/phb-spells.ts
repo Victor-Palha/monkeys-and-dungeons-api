@@ -3904,6 +3904,237 @@ export const spells:Spells = {
             When you cast the spell, a loud knock, audible from as far away as 300 feet, emanates from the target object.`,
 
             "classes": ["Bard", "Sorcerer", "Wizard"]
+        },{
+            "name": "Legend Lore",
+            "source": "PHB",
+            "level": 5,
+            "ritual": false,
+            "school": "Divination",
+            "casting_time": "10 minutes",
+            "range": "Self",
+            "components": "V, S, M (incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each)",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false,
+            },
+            "description": `Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn't of legendary importance, you gain no information. The more information you already have about the thing, the more precise and detailed the information you receive is.
+
+            The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: "Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word Rudnogg on the lips."`,
+            "classes": ["Bard", "Cleric", "Wizard"]
+        },{
+            "name": "Leomund's Secret Chest",
+            "source": "PHB",
+            "level": 4,
+            "ritual": false,
+            "school": "Conjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, S, M (an exquisite chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth at least 5,000 gp, and a Tiny replica made from the same materials worth at least 50 gp)",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false,
+            },
+            "description": `You hide a chest, and all its contents, on the Ethereal Plane. You must touch the chest and the miniature replica that serves as a material component for the spell. The chest can contain up to 12 cubic feet of nonliving material (3 feet by 2 feet by 2 feet).
+
+            While the chest remains on the Ethereal Plane, you can use an action and touch the replica to recall the chest. It appears in an unoccupied space on the ground within 5 feet of you. You can send the chest back to the Ethereal Plane by using an action and touching both the chest and the replica.
+            
+            After 60 days, there is a cumulative 5 percent chance per day that the spell's effect ends. This effect ends if you cast this spell again, if the smaller replica chest is destroyed, or if you choose to end the spell as an action. If the spell ends and the larger chest is on the Ethereal Plane, it is irretrievably lost.`,
+            "classes": ["Wizard", "Artificer"]
+        },{
+            "name": "Leonard's Tiny Hut",
+            "source": "PHB",
+            "level": 3,
+            "ritual": true,
+            "school": "Evocation",
+            "casting_time": "1 minute",
+            "range": "Self (10-foot-radius hemisphere)",
+            "components": "V, S, M (a small crystal bead)",
+            "duration": {
+                "time": "8 hours",
+                "concentration": false,
+            },
+            "description": `A 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.
+
+            Nine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can't extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.
+            
+            Until the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside.`,
+            "classes": ["Wizard", "Bard"]
+        },{
+            "name": "Lesser Restoration",
+            "source": "PHB",
+            "level": 2,
+            "ritual": false,
+            "school": "Abjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, S",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false,
+            },
+            "description": `You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.`,
+            "classes": ["Artificer", "Bard", "Cleric", "Druid", "Paladin", "Ranger"]
+        },{
+            "name": "Levitate",
+            "source": "PHB",
+            "level": 2,
+            "ritual": false,
+            "school": "Transmutation",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": "V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)",
+            "duration": {
+                "time": "up to 10 minutes",
+                "concentration": true,
+            },
+            "description": `One creature or loose object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.
+
+            The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range.
+            
+            When the spell ends, the target floats gently to the ground if it is still aloft.`,
+            "classes": ["Artificer", "Sorcerer", "Wizard"]
+        },{
+            "name": "Light",
+            "source": "PHB",
+            "level": 0,
+            "ritual": false,
+            "school": "Evocation",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, M (a firefly or phosphorescent moss)",
+            "duration": {
+                "time": "1 hour",
+                "concentration": false,
+            },
+            "description": `You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.
+
+            If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.`,
+            "classes": ["Artificer", "Bard", "Cleric", "Sorcerer", "Wizard"]
+        },{
+            "name": "Lightning Arrow",
+            "source": "PHB",
+            "level": 3,
+            "ritual": false,
+            "school": "Transmutation",
+            "casting_time": "1 bonus action",
+            "range": "Self",
+            "components": "V, S",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true,
+            },
+            "description": `The next time you make a ranged weapon attack during the spell's duration, the weapon's ammunition, or the weapon itself if it's a thrown weapon, transforms into a bolt of lightning. Make the attack roll as normal. The target takes 4d8 lightning damage on a hit, or half as much damage on a miss, instead of the weapon's normal damage.
+
+            Whether you hit or miss, each creature within 10 feet of the target must make a Dexterity saving throw. Each of these creatures takes 2d8 lightning damage on a failed save, or half as much damage on a successful one.
+            
+            The piece of ammunition or weapon then returns to its normal form.`,
+            "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage for both effects of the spell increases by 1d8 for each slot level above 3rd.",
+
+            "classes": ["Ranger"]
+        },{
+            "name": "Lightning Bolt",
+            "source": "PHB",
+            "level": 3,
+            "ritual": false,
+            "school": "Evocation",
+            "casting_time": "1 action",
+            "range": "Self (100-foot line)",
+            "components": "V, S, M (a bit of fur and a rod of amber, crystal, or glass)",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false,
+            },
+            "description": `A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.
+
+            The lightning ignites flammable objects in the area that aren't being worn or carried.`,
+            "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+
+            "classes": ["Sorcerer", "Wizard"]
+        },{
+            "name": "Locate Animals or Plants",
+            "source": "PHB",
+            "level": 2,
+            "ritual": true,
+            "school": "Divination",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": "V, S, M (a bit of fur from a bloodhound)",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false,
+            },
+            "description": `Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.`,
+            "classes": ["Druid", "Ranger", "Bard"]
+        },{
+            "name": "Locate Creature",
+            "source": "PHB",
+            "level": 4,
+            "ritual": false,
+            "school": "Divination",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": "V, S, M (a bit of fur from a bloodhound)",
+            "duration": {
+                "time": "up to 1 hour",
+                "concentration": true,
+            },
+            "description": `Describe or name a creature that is familiar to you. You sense the direction to the creature's location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.
+
+            The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as being under the effects of a polymorph spell, this spell doesn't locate the creature.
+            
+            This spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature.`,
+            "classes":["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Wizard"]
+        },{
+            "name": "Locate Object",
+            "source": "PHB",
+            "level": 2,
+            "ritual": false,
+            "school": "Divination",
+            "casting_time": "1 action",
+            "range": "Self",
+            "components": "V, S, M (a forked twig)",
+            "duration": {
+                "time": "up to 10 minutes",
+                "concentration": true,
+            },
+            "description": `Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.
+
+            The spell can locate a specific object known to you, as long as you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.
+            
+            This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.`,
+            "classes": ["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Wizard"]
+        },{
+            "name": "Longstrider",
+            "source": "PHB",
+            "level": 1,
+            "ritual": false,
+            "school": "Transmutation",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, S, M (a pinch of dirt)",
+            "duration": {
+                "time": "1 hour",
+                "concentration": false,
+            },
+            "description": `You touch a creature. The target's speed increases by 10 feet until the spell ends.`,
+            "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
+
+            "classes": ["Artificer", "Bard", "Druid", "Ranger", "Wizard"]
+        },{
+            "name": "Mage Armor",
+            "source": "PHB",
+            "level": 1,
+            "ritual": false,
+            "school": "Abjuration",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, S, M (a piece of cured leather)",
+            "duration": {
+                "time": "8 hours",
+                "concentration": false,
+            },
+            "description": `You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action.`,
+            "classes": ["Sorcerer", "Wizard"]
         }
         
     ]
