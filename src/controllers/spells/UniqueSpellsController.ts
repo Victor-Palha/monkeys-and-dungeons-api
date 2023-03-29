@@ -1,15 +1,14 @@
 import { Request, Response } from "express";
-import { PHBSpells } from "../../models/spells/spells-phb";
-import { TCESpells } from "../../models/spells/spells-tce";
-import { XGESpells } from "../../models/spells/spells-xge";
+import { spells } from "../../models/spells/spells";
 import { QuerySpellUnique } from "./Functions/UniqueList";
-
+interface Query{
+    nome?:string
+}
 class UniqueSpellsController{
-    execute(req:Request, res:Response){
-        const {nome, source} = req.query;
-
-        const spell = [...QuerySpellUnique(PHBSpells, nome, source), ...QuerySpellUnique(TCESpells, nome, source), ...QuerySpellUnique(XGESpells, nome, source)]
-        res.json(spell)
+    execute(req:Request<Query>, res:Response){
+        const {nome} = req.query as Query;
+        
+        res.json(QuerySpellUnique(spells.spell, nome))
     }
 }
 export { UniqueSpellsController }

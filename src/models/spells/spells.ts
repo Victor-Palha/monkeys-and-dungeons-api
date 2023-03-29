@@ -1,7 +1,7 @@
-interface Spells{
+export interface Spells{
     spell: Spell[];
 }
-interface Spell{
+export interface Spell{
     name: string;
     source: string;
     level: number;
@@ -10,7 +10,7 @@ interface Spell{
     casting_time: string;
     range: string;
     components: string;
-    duration: string | Duration;
+    duration: Duration;
     description: string;
     higher_level?: string;
     tables?: Tables;
@@ -37,7 +37,8 @@ export const spells:Spells = {
             "components": "V, S",
             "duration": {
                 "time":"Instantaneous",
-                "concentration": false},
+                "concentration": false
+            },
             "description": `You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage. 
             This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).`,
             "classes": ["Artificer", "Sorcerer", "Wizard"]
