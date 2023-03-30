@@ -6,8 +6,8 @@ export interface Query{
     nome?:string,
     classe?:string,
     action?:string,
-    concentration?: boolean,
-    ritual?: boolean,
+    concentration?: boolean | string,
+    ritual?: boolean | string,
     level?: number,
     school?: string
 }
