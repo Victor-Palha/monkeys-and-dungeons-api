@@ -7031,6 +7031,314 @@ export const spells:Spells = {
 
             An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such creatures can be evasive in its answers as long as it remains within the boundaries of the truth.`,
             "classes": ["Bard", "Cleric", "Paladin"]
+        },{
+            "name": "Air Bubble",
+            "source": "AAG",
+            "level": 2,
+            "ritual": false,
+            "school": "Conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": "S",
+            "duration": {
+                "time": "24 hours",
+                "concentration": false
+            },
+            "description": `You create a spectral globe around the head of a willing creature you can see within range. The globe is filled with fresh air that lasts until the spell ends. If the creature has more than one head, the globe of air appears around only one of its heads (which is all the creature needs to avoid suffocation, assuming that all its heads share the same respiratory system).`,
+            "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can create two additional globes of fresh air for each slot level above 2nd.",
+            "classes": ["Artificer", "Druid", "Ranger", "Sorcerer", "Wizard"]
+        },{
+            "name": "Create Spelljamming Helm",
+            "source": "AAG",
+            "level": 5,
+            "ritual": false,
+            "school": "Transmutation",
+            "casting_time": "1 action",
+            "range": "Touch",
+            "components": "V, S, M (a crystal rod worth at least 5,000 gp, which the spell consumes)",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false
+            },
+            "description": `Holding the rod used in the casting of the spell, you touch a Large or smaller chair that is unoccupied. The rod disappears, and the chair is transformed into a spelljamming helm.`,
+            "classes": ["Artificer", "Wizard"]
+        },{
+            "name": "Distort Value",
+            "source": "AI",
+            "level": 1,
+            "ritual": false,
+            "school": "Illusion",
+            "casting_time": "1 minute",
+            "range": "Touch",
+            "components": "V",
+            "duration": {
+                "time": "8 hours",
+                "concentration": false
+            },
+            "description": `Do you need to squeeze a few more gold pieces out of a merchant as you try to sell that weird octopus statue you liberated from the chaos temple? Do you need to downplay the worth of some magical assets when the tax collector stops by? Distort value has you covered.
+
+            You cast this spell on an object no more than 1 foot on a side, doubling the object's perceived value by adding illusory flourishes or polish to it, or reducing its perceived value by half with the help of illusory scratches, dents, and other unsightly features. Anyone examining the object can ascertain its true value with a successful Intelligence (Investigation) check against your spell save DC.`,
+            "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the maximum size of the object increases by 1 foot for each slot level above 1st.",
+            "classes": ["Bard", "Sorcerer", "Warlock", "Wizard"]
+        },{
+            "name": "Fast Friends",
+            "source": "AI",
+            "level": 3,
+            "ritual": false,
+            "school": "Enchantment",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": "V",
+            "duration": {
+                "time": "up to 1 hour",
+                "concentration": true
+            },
+            "description": `When you need to make sure something gets done, you can't rely on vague promises, sworn oaths, or binding contracts of employment. When you cast this spell, choose one humanoid within range that can see and hear you, and that can understand you. The creature must succeed on a Wisdom saving throw or become charmed by you for the duration. While the creature is charmed in this way, it undertakes to perform any services or activities you ask of it in a friendly manner, to the best of its ability.
+
+            You can set the creature new tasks when a previous task is completed, or if you decide to end its current task. If the service or activity might cause harm to the creature, or if it conflicts with the creature's normal activities and desires, the creature can make another Wisdom saving throw to try to end the effect. This save is made with advantage if you or your companions are fighting the creature. If the activity would result in certain death for the creature, the spell ends.
+            
+            When the spell ends, the creature knows it was charmed by you.`,
+            "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.",
+
+            "classes": ["Bard", "Cleric", "Wizard"]
+        },{
+            "name": "Gift of Gab",
+            "source": "AI",
+            "level": 2,
+            "ritual": false,
+            "school": "Enchantment",
+            "casting_time": "1 reaction, which you take when you speak to another creature",
+            "range": "Self",
+            "components": "V, S, M (2 gp)",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false
+            },
+            "description": `“When I met Jim Darkmagic, I wondered how he got anything done in that outfit. I have since learned that most of his talents involve standing and talking. His outfit is perfect for that.”
+
+            — Môrgæn
+            
+            Jim Darkmagic is said to have invented this spell, originally calling it I said what?! Have you ever been talking to the local monarch and accidentally mentioned how their son looks like your favorite hog from when you were growing up on the family farm? We've all been there! But rather than being beheaded for an honest slip of the tongue, you can pretend it never happened—by ensuring that no one knows it happened.
+            
+            When you cast this spell, you skillfully reshape the memories of listeners in your immediate area, so that each creature of your choice within 5 feet of you forgets everything you said within the last 6 seconds. Those creatures then remember that you actually said the words you speak as the verbal component of the spell.`,
+            "classes": ["Bard", "Wizard"]
+        },{
+            "name": "Incite Greed",
+            "source": "AI",
+            "level": 3,
+            "ritual": false,
+            "school": "Enchantment",
+            "casting_time": "1 action",
+            "range": "30 feet",
+            "components": "V, S, M (a gem worth at least 50 gp)",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true
+            },
+            "description": `When you cast this spell, you present the gem used as the material component and choose any number of creatures within range that can see you. Each target must succeed on a Wisdom saving throw or be charmed by you until the spell ends, or until you or your companions do anything harmful to it. While charmed in this way, a creature can do nothing but use its movement to approach you in a safe manner. While an affected creature is within 5 feet of you, it cannot move, but simply stares greedily at the gem you present.
+
+            At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.`,
+            "classes": ["Cleric", "Warlock", "Wizard"]
+        },{
+            "name": "Jim's Glowing Coin",
+            "source": "AI",
+            "level": 2,
+            "ritual": false,
+            "school": "Enchantment",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": "S, M (a coin)",
+            "duration": {
+                "time": "1 minute",
+                "concentration": false
+            },
+            "description": `Of the many tactics employed by master magician and renowned adventurer Jim Darkmagic, the old glowing coin trick is a time-honored classic. When you cast the spell, you hurl the coin that is the spell's material component to any spot within range. The coin lights up as if under the effect of a light spell. Each creature of your choice that you can see within 30 feet of the coin must succeed on a Wisdom saving throw or be distracted for the duration. While distracted, a creature has disadvantage on Wisdom (Perception) checks and initiative rolls.`,
+            "classes": ["Wizard"]
+        },{
+            "name": "Jim's Magic Missile",
+            "source": "AI",
+            "level": 1,
+            "ritual": false,
+            "school": "Evocation",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": "V, S, R (1 gp)",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false
+            },
+            "description": `“Jim's magic missile is an ancient and powerful spell, as well as being the name of my band in Wizard Academy.”
+
+            — Jim Darkmagic
+            
+            Any apprentice wizard can cast a boring old magic missile. Sure, it always strikes its target. Yawn. Do away with the drudgery of your grandfather's magic with this improved version of the spell, as used by Jim Darkmagic!
+            
+            You create three twisting, whistling, hypoallergenic, gluten-free darts of magical force. Each dart targets a creature of your choice that you can see within range. Make a ranged spell attack for each missile. On a hit, a missile deals 2d4 force damage to its target.
+            
+            If the attack roll scores a critical hit, the target of that missile takes 5d4 force damage instead of you rolling damage twice for a critical hit. If the attack roll for any missile is a 1, all missiles miss their targets and blow up in your face, dealing 1 force damage per missile to you.`,
+            "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart, and the royalty component increases by 1 gp, for each slot level above 1st.",
+            "classes": ["Wizard"]
+        },{
+            "name": "Motivational Speech",
+            "source": "AI",
+            "level": 3,
+            "ritual": false,
+            "school": "Enchantment",
+            "casting_time": "1 minute",
+            "range": "60 feet",
+            "components": "V",
+            "duration": {
+                "time": "1 hour",
+                "concentration": false
+            },
+            "description": `“I once heard a motivational speech by Jim and it was the worst ninety seconds of my life. What does Omin see in him, anyway?”
+
+            — Walnut Dankgrass
+            
+            You address allies, staff, or innocent bystanders to exhort and inspire them to greatness, whether they have anything to get excited about or not. Choose up to five creatures within range that can hear you. For the duration, each affected creature gains 5 temporary hit points and has advantage on Wisdom saving throws. If an affected creature is hit by an attack, it has advantage on the next attack roll it makes. Once an affected creature loses the temporary hit points granted by this spell, the spell ends for that creature.`,
+            "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the temporary hit points increase by 5 for each slot level above 3rd.",
+
+            "classes": ["Bard", "Cleric"]
+        },{
+            "name": "Ashardalon's Stride",
+            "source": "FTD",
+            "level": 3,
+            "ritual": false,
+            "school": "Transmutation",
+            "casting_time": "1 bonus action",
+            "range": "Self",
+            "components": "V, S",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true
+            },
+            "description": `The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn't provoke opportunity attacks.
+
+            When you move within 5 feet of a creature or an object that isn't being worn or carried, it takes 1d6 fire damage from your trail of heat. A creature or object can take this damage only once during a turn.`,
+            "higher_level": "When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. The spell deals an additional 1d6 fire damage for each slot level above 3rd.",
+            "classes": ["Artificer", "Ranger", "Sorcerer", "Wizard"]
+        },{
+            "name": "Draconic Transformation",
+            "source": "FTD",
+            "level": 7,
+            "ritual": false,
+            "school": "Transmutation",
+            "casting_time": "1 bonus action",
+            "range": "Self",
+            "components": "V, S, M (a statuette of a dragon, worth at least 500 gp)",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true
+            },
+            "description": `With a roar, you draw on the magic of dragons to transform yourself, taking on draconic features. You gain the following benefits until the spell ends:
+
+            Blindsight: You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.
+            
+            Breath Weapon: When you cast this spell, and as a bonus action on subsequent turns for the duration, you can exhale shimmering energy in a 60-foot cone. Each creature in that area must make a Dexterity saving throw, taking 6d8 force damage on a failed save, or half as much damage on a successful one.
+            
+            Wings: Incorporeal wings sprout from your back, giving you a flying speed of 60 feet.`,
+            "classes": ["Druid", "Sorcerer", "Wizard"]
+        },{
+            "name": "Fizban's Platinum Shield",
+            "source": "FTD",
+            "level": 6,
+            "ritual": false,
+            "school": "Abjuration",
+            "casting_time": "1 bonus action",
+            "range": "60 feet",
+            "components": "V, S, M (a platinum-plated dragon scale, worth at least 500 gp)",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true
+            },
+            "description": `You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet. While surrounded by the field, a creature gains the following benefits:
+
+            Cover: The creature has half cover.
+            
+            Damage Resistance: The creature has resistance to acid, cold, fire, lightning, and poison damage.
+            
+            Evasion: If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+            
+            As a bonus action on subsequent turns, you can move the field to another creature within 60 feet of the field.`,
+            "classes": ["Sorcerer", "Wizard"]
+        },{
+            "name": "Nathair's Mischief",
+            "source": "FTD",
+            "level": 2,
+            "ritual": false,
+            "school": "Illusion",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": "S, M (a piece of crust from an apple pie)",
+            "duration": {
+                "time": "up to 1 minute",
+                "concentration": true
+            },
+            "description": `You fill a 20-foot cube you can see within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced, and roll again at the start of each of your turns until the spell ends. You can move the cube up to 10 feet before you roll.
+            Mischievous Surge:`,
+            "tables": {
+                "header": ["d4", "Effect"],
+                "rows": [
+                    ["1", "The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become charmed by you until the start of your next turn."],
+                    ["2", "Bouquets of flowers appear all around, and each creature in the cube must succeed on a Dexterity saving throw or be blinded until the start of your next turn as the flowers spray water in their faces."],
+                    ["3", "Each creature in the cube must succeed on a Wisdom saving throw or begin giggling until the start of your next turn. A giggling creature is incapacitated and uses all its movement to move in a random direction."],
+                    ["4", "Drops of molasses hover in the cube, making it difficult terrain until the start of your next turn."]
+                ]
+            },
+            "classes": ["Bard", "Sorcerer", "Wizard"]
+        },{
+            "name": "Raulothim's Psychic Lance",
+            "source": "FTD",
+            "level": 4,
+            "ritual": false,
+            "school": "Enchantment",
+            "casting_time": "1 action",
+            "range": "120 feet",
+            "components": "V",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false
+            },
+            "description": `You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.
+
+            The target must make an Intelligence saving throw. On a failed save, the target takes 7d6 psychic damage and is incapacitated until the start of your next turn. On a successful save, the creature takes half as much damage and isn't incapacitated.`,
+            "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.",
+            "classes": ["Bard", "Sorcerer", "Warlock", "Wizard"]
+        },{
+            "name": "Rime's Binding Ice",
+            "source": "FTD",
+            "level": 2,
+            "ritual": false,
+            "school": "Evocation",
+            "casting_time": "1 action",
+            "range": "Self (30-foot cube)",
+            "components": "S, M (a vial of meltwater)",
+            "duration": {
+                "time": "Instantaneous",
+                "concentration": false
+            },
+            "description": `A burst of cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 cold damage and is hindered by ice formations for 1 minute, or until it or another creature within reach of it uses an action to break away the ice. A creature hindered by ice has its speed reduced to 0. On a successful save, a creature takes half as much damage and isn't hindered by ice.`,
+            "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, increase the cold damage by 1d8 for each slot level above 2nd.",
+            "classes": ["Sorcerer", "Wizard"]
+        },{
+            "name": "Summon Draconic Spirit",
+            "source": "FTD",
+            "level": 5,
+            "ritual": false,
+            "school": "Conjuration",
+            "casting_time": "1 action",
+            "range": "60 feet",
+            "components": "V, S, M (an object with the image of a dragon engraved on it, worth at least 500 gp)",
+            "duration": {
+                "time": "up to 1 hour",
+                "concentration": true
+            },
+            "description": `You call forth a draconic spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Draconic Spirit stat block. When you cast this spell, choose a family of dragon: chromatic, gem, or metallic. The creature resembles a dragon of the chosen family, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.
+
+            The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.`,
+            "higher_level": "When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell's level appears in the stat block.",
+
+            "classes": ["Druid", "Sorcerer", "Wizard"]
         }
         
     ]
