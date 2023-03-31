@@ -9,14 +9,15 @@ export interface Query{
     concentration?: boolean | string,
     ritual?: boolean | string,
     level?: number,
-    school?: string
+    school?: string,
+    source?: string
 }
 
 class QuerySpellsController{
     execute(req:Request, res:Response){
-        const { nome, classe, action, concentration, ritual, level, school} = req.query as Query;
+        const { nome, classe, action, concentration, ritual, level, school, source} = req.query as Query;
 
-        res.json(SpellList(querySpells(spells.spell, {nome, classe, action, concentration, ritual, level, school})))
+        res.json(SpellList(querySpells(spells.spell, {nome, classe, action, concentration, ritual, level, school, source})))
         
     }
 }
