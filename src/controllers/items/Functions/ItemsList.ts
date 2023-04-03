@@ -6,7 +6,7 @@ export function ItemsList(itemsArray){
             rarity: item.rarity,
             wondrous: item.wondrous,
             reqAttune: item.reqAttune,
-            //entries: item.entries,
+            entries: item.entries,
         }
     })
     return itemsList

@@ -6,17 +6,9 @@ export const items = {
 			"page": 119,
 			"rarity": "uncommon",
 			"reqAttune": "by an artificer",
-			"reqAttuneTags": [
-				{
-					"class": "artificer|tce"
-				}
-			],
 			"wondrous": true,
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
-			"focus": [
-				"Artificer"
-			],
 			"entries": [
 				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
 				"While holding this tool, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
@@ -29,14 +21,6 @@ export const items = {
 			"page": 119,
 			"rarity": "uncommon",
 			"reqAttune": "by a cleric or paladin",
-			"reqAttuneTags": [
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "paladin"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
 			"bonusSpellAttack": "+1",
@@ -52,18 +36,10 @@ export const items = {
 			"page": 120,
 			"rarity": "uncommon",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
 				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
@@ -75,17 +51,9 @@ export const items = {
 			"page": 122,
 			"rarity": "uncommon",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.",
 				"In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn."
@@ -97,11 +65,6 @@ export const items = {
 			"page": 23,
 			"rarity": "uncommon",
 			"reqAttune": "by a monk",
-			"reqAttuneTags": [
-				{
-					"class": "monk"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +1 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
@@ -115,14 +78,6 @@ export const items = {
 			"type": "M",
 			"rarity": "uncommon",
 			"reqAttune": "by a druid or ranger",
-			"reqAttuneTags": [
-				{
-					"class": "druid"
-				},
-				{
-					"class": "ranger"
-				}
-			],
 			"weight": 2,
 			"weaponCategory": "simple",
 			"property": [
@@ -133,10 +88,6 @@ export const items = {
 			"bonusWeapon": "+1",
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
-			"focus": [
-				"Druid",
-				"Ranger"
-			],
 			"weapon": true,
 			"entries": [
 				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
@@ -150,11 +101,6 @@ export const items = {
 			"type": "INS",
 			"rarity": "uncommon",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"grantsProficiency": true,
@@ -173,11 +119,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": "by a warlock",
-			"reqAttuneTags": [
-				{
-					"class": "warlock"
-				}
-			],
 			"weight": 2,
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
@@ -198,11 +139,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"bonusSpellAttack": "+1",
 			"entries": [
@@ -218,17 +154,9 @@ export const items = {
 			"page": 119,
 			"rarity": "rare",
 			"reqAttune": "by an artificer",
-			"reqAttuneTags": [
-				{
-					"class": "artificer|tce"
-				}
-			],
 			"wondrous": true,
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
-			"focus": [
-				"Artificer"
-			],
 			"entries": [
 				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
 				"While holding this tool, you gain a +2 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
@@ -241,14 +169,6 @@ export const items = {
 			"page": 119,
 			"rarity": "rare",
 			"reqAttune": "by a cleric or paladin",
-			"reqAttuneTags": [
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "paladin"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
 			"bonusSpellAttack": "+2",
@@ -264,18 +184,10 @@ export const items = {
 			"page": 120,
 			"rarity": "rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
 				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
@@ -287,17 +199,9 @@ export const items = {
 			"page": 122,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.",
 				"In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn."
@@ -309,11 +213,6 @@ export const items = {
 			"page": 23,
 			"rarity": "rare",
 			"reqAttune": "by a monk",
-			"reqAttuneTags": [
-				{
-					"class": "monk"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +2 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
@@ -327,14 +226,6 @@ export const items = {
 			"type": "M",
 			"rarity": "rare",
 			"reqAttune": "by a druid or ranger",
-			"reqAttuneTags": [
-				{
-					"class": "druid"
-				},
-				{
-					"class": "ranger"
-				}
-			],
 			"weight": 2,
 			"weaponCategory": "simple",
 			"property": [
@@ -345,10 +236,6 @@ export const items = {
 			"bonusWeapon": "+2",
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
-			"focus": [
-				"Druid",
-				"Ranger"
-			],
 			"weapon": true,
 			"entries": [
 				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
@@ -362,11 +249,6 @@ export const items = {
 			"type": "INS",
 			"rarity": "rare",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"grantsProficiency": true,
@@ -385,11 +267,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a warlock",
-			"reqAttuneTags": [
-				{
-					"class": "warlock"
-				}
-			],
 			"weight": 2,
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
@@ -410,11 +287,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"bonusSpellAttack": "+2",
 			"entries": [
@@ -430,17 +302,9 @@ export const items = {
 			"page": 119,
 			"rarity": "very rare",
 			"reqAttune": "by an artificer",
-			"reqAttuneTags": [
-				{
-					"class": "artificer|tce"
-				}
-			],
 			"wondrous": true,
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
-			"focus": [
-				"Artificer"
-			],
 			"entries": [
 				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
 				"While holding this tool, you gain a +3 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
@@ -453,14 +317,6 @@ export const items = {
 			"page": 119,
 			"rarity": "very rare",
 			"reqAttune": "by a cleric or paladin",
-			"reqAttuneTags": [
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "paladin"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
 			"bonusSpellAttack": "+3",
@@ -476,18 +332,10 @@ export const items = {
 			"page": 120,
 			"rarity": "very rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
 				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
@@ -499,17 +347,9 @@ export const items = {
 			"page": 122,
 			"rarity": "very rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.",
 				"In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn."
@@ -521,11 +361,6 @@ export const items = {
 			"page": 23,
 			"rarity": "very rare",
 			"reqAttune": "by a monk",
-			"reqAttuneTags": [
-				{
-					"class": "monk"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +3 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
@@ -539,14 +374,6 @@ export const items = {
 			"type": "M",
 			"rarity": "very rare",
 			"reqAttune": "by a druid or ranger",
-			"reqAttuneTags": [
-				{
-					"class": "druid"
-				},
-				{
-					"class": "ranger"
-				}
-			],
 			"weight": 2,
 			"weaponCategory": "simple",
 			"property": [
@@ -557,10 +384,6 @@ export const items = {
 			"bonusWeapon": "+3",
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
-			"focus": [
-				"Druid",
-				"Ranger"
-			],
 			"weapon": true,
 			"entries": [
 				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +3 bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
@@ -574,11 +397,6 @@ export const items = {
 			"type": "INS",
 			"rarity": "very rare",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"grantsProficiency": true,
@@ -597,11 +415,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": "by a warlock",
-			"reqAttuneTags": [
-				{
-					"class": "warlock"
-				}
-			],
 			"weight": 2,
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
@@ -622,11 +435,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"bonusSpellAttack": "+3",
 			"entries": [
@@ -926,19 +734,11 @@ export const items = {
 			"page": 119,
 			"rarity": "rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"Acrid odors cling to this stained, heavy volume. The book's metal fittings are copper, iron, lead, silver, and gold, some frozen mid-transition from one metal to another. When found, the book contains the following spells: { enlarge/reduce}, { feather fall}, { flesh to stone}, { gaseous form}, { magic weapon}, and { polymorph}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
@@ -2087,16 +1887,8 @@ export const items = {
 			"page": 120,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This crystal is a solidified shard of the Astral Plane, swirling with silver mist. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, immediately after casting the spell you can teleport to an unoccupied space you can see within 30 feet of you."
@@ -2108,19 +1900,11 @@ export const items = {
 			"page": 120,
 			"rarity": "rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"This brass disc of articulated, concentric rings unfolds into an armillary sphere. As a bonus action, you can unfold it into the sphere or back into a disc. When found, it contains the following spells, which are wizard spells for you while you are attuned to it: { augury}, { divination}, { find the path}, { foresight}, { locate creature}, and { locate object}. It functions as a spellbook for you, with spells encoded on the rings.",
 				"While you are holding the archive, you can use it as a spellcasting focus for your wizard spells.",
@@ -2148,19 +1932,11 @@ export const items = {
 			"page": 120,
 			"rarity": "rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"This thick book is bound in dark leather, crisscrossed with inlaid silver lines suggesting a map or chart. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: { arcane gate}, { dimension door}, { gate}, { misty step}, { plane shift}, { teleportation circle}, and { word of recall}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
@@ -2321,11 +2097,7 @@ export const items = {
 			"page": 177,
 			"rarity": "rare",
 			"reqAttune": "by a member of the Azorius guild",
-			"reqAttuneTags": [
-				{
-					"background": "azorius functionary|ggr"
-				}
-			],
+			
 			"wondrous": true,
 			"entries": [
 				"This keyrune is carved from white marble and lapis lazuli to resemble a noble bird of prey. It can become a {@creature giant eagle} for up to 1 hour. While the transformed eagle is within 1 mile of you, you can communicate with it telepathically. As an action, you can see through the eagle's eyes and hear what it hears until the start of your next turn, and you gain the benefit of its keen sight. During this time, you are deaf and blind with regard to your own senses.",
@@ -3697,22 +3469,10 @@ export const items = {
 			"page": 122,
 			"rarity": "rare",
 			"reqAttune": "by a druid or warlock",
-			"reqAttuneTags": [
-				{
-					"class": "druid"
-				},
-				{
-					"class": "warlock"
-				}
-			],
 			"wondrous": true,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
-			"focus": [
-				"Druid",
-				"Warlock"
-			],
 			"entries": [
 				"This silver implement is shaped like a tree branch and is strung with small golden bells. The branch is a spellcasting focus for your spells while you hold it.",
 				"The branch has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
@@ -3956,11 +3716,6 @@ export const items = {
 			"page": 284,
 			"rarity": "legendary",
 			"reqAttune": "by a creature that has proficiency in the {@skill Arcana} skill",
-			"reqAttuneTags": [
-				{
-					"skillProficiency": "arcana"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"Any creature that attunes to the tablet must make a DC 20 Wisdom saving throw at the end of its next long rest. On a failed save, the creature becomes afflicted with a random form of long-term madness (see \"{@book Madness|dmg|8|Madness}\" in chapter 8 of the {@book Dungeon Master's Guide|dmg}).",
@@ -4134,17 +3889,6 @@ export const items = {
 			"type": "M",
 			"rarity": "legendary",
 			"reqAttune": "by a creature of non-lawful alignment",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"NX",
-						"C",
-						"G",
-						"NY",
-						"E"
-					]
-				}
-			],
 			"sentient": true,
 			"weight": 6,
 			"weaponCategory": "martial",
@@ -4204,11 +3948,6 @@ export const items = {
 			"page": 190,
 			"rarity": "legendary",
 			"reqAttune": "by the blackstaff heir, who must be a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"sentient": true,
 			"weight": 4,
 			"weaponCategory": "simple",
@@ -4450,11 +4189,6 @@ export const items = {
 			"type": "M",
 			"rarity": "artifact",
 			"reqAttune": "by a humanoid",
-			"reqAttuneTags": [
-				{
-					"creatureType": "humanoid"
-				}
-			],
 			"sentient": true,
 			"weight": 1,
 			"weaponCategory": "simple",
@@ -4562,11 +4296,6 @@ export const items = {
 			"scfType": "arcane",
 			"rarity": "very rare",
 			"reqAttune": true,
-			"focus": [
-				"Sorcerer",
-				"Warlock",
-				"Wizard"
-			],
 			"entries": [
 				"The Blast Scepter can be used as an arcane focus.",
 				"Whoever is attuned to the Blast Scepter gains resistance to fire and lightning damage and can, as an action, use it to cast { thunderwave} as a 4th-level spell (save DC 16) without expending a spell slot."
@@ -5035,13 +4764,6 @@ export const items = {
 			"page": 222,
 			"rarity": "artifact",
 			"reqAttune": "by a creature of good alignment",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"G"
-					]
-				}
-			],
 			"wondrous": true,
 			"weight": 5,
 			"ability": {
@@ -5445,11 +5167,6 @@ export const items = {
 			"page": 177,
 			"rarity": "rare",
 			"reqAttune": "by a member of the Boros guild",
-			"reqAttuneTags": [
-				{
-					"background": "boros legionnaire|ggr"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"Carved from red sandstone with white granite elements to resemble a member of the Boros Legion, this keyrune can become a {@creature veteran} (human) for up to 8 hours. In addition to fighting on your behalf, this {@creature veteran} cheerfully offers tactical advice, which is usually sound. Anyone who talks with the transformed keyrune or examines it closely can easily recognize that it is an artificial human.",
@@ -6704,14 +6421,6 @@ export const items = {
 			"page": 122,
 			"rarity": "very rare",
 			"reqAttune": "by a druid or warlock",
-			"reqAttuneTags": [
-				{
-					"class": "druid"
-				},
-				{
-					"class": "warlock"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This Tiny pot bears relief scenes of heroes on its cast iron sides. You can use the cauldron as a spellcasting focus for your spells, and it functions as a suitable component for the { scrying} spell. When you finish a long rest, you can use the cauldron to create a {@item potion of greater healing}. The potion lasts for 24 hours, then loses its magic if not consumed.",
@@ -7081,11 +6790,6 @@ export const items = {
 			"type": "OTH",
 			"rarity": "uncommon",
 			"reqAttune": "by a humanoid",
-			"reqAttuneTags": [
-				{
-					"creatureType": "humanoid"
-				}
-			],
 			"entries": [
 				"The Circlet of Human Perfection transforms its attuned wearer into an attractive human of average height and weight. The circlet chooses the physical characteristics of the form, such as age, gender, skin color, hair color, and voice. Except for size, the wearer's statistics and racial traits don't change, nor do items worn or carried by the wearer. Removing the circlet ends the effect."
 			]
@@ -8282,19 +7986,11 @@ export const items = {
 			"page": 124,
 			"rarity": "very rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"An etched crystal sphere the size of a grapefruit hums faintly and pulses with irregular flares of inner light. While you are touching the crystal, you can retrieve and store information and spells within the crystal at the same rate as reading and writing. When found, the crystal contains the following spells: { detect thoughts}, { intellect fortress|TCE}, { Rary's telepathic bond}, { sending}, { telekinesis}, { Tasha's mind whip|TCE}, and { Tenser's floating disk}. It functions as a spellbook for you, with its spells and other writing psychically encoded within it.",
 				"While you are holding the crystal, you can use it as a spellcasting focus for your wizard spells, and you know the { mage hand}, { mind sliver|TCE} (appears in this book), and { message} cantrips if you don't already know them.",
@@ -8700,15 +8396,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "common",
 			"reqAttune": "by a warlock",
-			"reqAttuneTags": [
-				{
-					"class": "warlock"
-				}
-			],
 			"wondrous": true,
-			"focus": [
-				"Warlock"
-			],
 			"entries": [
 				"This amulet is fashioned from a single shard of resilient extraplanar material originating from the realm of your warlock patron. While you are wearing it, you gain the following benefits:",
 				{
@@ -8728,17 +8416,6 @@ export const items = {
 			"type": "M",
 			"rarity": "legendary",
 			"reqAttune": "by a creature of non-evil alignment",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"L",
-						"NX",
-						"C",
-						"G",
-						"NY"
-					]
-				}
-			],
 			"sentient": true,
 			"weight": 3,
 			"weaponCategory": "martial",
@@ -10342,14 +10019,6 @@ export const items = {
 			"type": "M",
 			"rarity": "rare",
 			"reqAttune": "by a cleric or paladin",
-			"reqAttuneTags": [
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "paladin"
-				}
-			],
 			"weight": 2,
 			"weaponCategory": "martial",
 			"dmg1": "1d8",
@@ -10461,11 +10130,6 @@ export const items = {
 			"page": 177,
 			"rarity": "very rare",
 			"reqAttune": "by a member of the Dimir guild",
-			"reqAttuneTags": [
-				{
-					"background": "dimir operative|ggr"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This keyrune, carved from black stone accented with steel, resembles a stylized horror. On command, it transforms into an {@creature intellect devourer} that resembles the Dimir guild symbol, with six bladelike legs. The creature exists for up to 24 hours. During that time, it pursues only a single mission you give it\u2014usually an assignment to take over someone's body, either to impersonate that person for a brief time or to extract secrets from their mind. When the mission is complete, the creature returns to you, reports its success, and reverts to its keyrune form.",
@@ -10641,11 +10305,6 @@ export const items = {
 			],
 			"rarity": "rare",
 			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
 			"wondrous": true,
 			"sentient": true,
 			"entries": [
@@ -11239,19 +10898,11 @@ export const items = {
 			"page": 126,
 			"rarity": "rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"To you, this book is a magical spellbook. To anyone else, the book appears to be a volume of verbose romance fiction. As an action, you can change the book's appearance and alter the plot of the romance.",
 				"When found, the book contains the following spells: { hallucinatory terrain}, { major image}, { mirror image}, { mislead}, { Nystul's magic aura}, { phantasmal force}, and { silent image}. It functions as a spellbook for you.",
@@ -11418,11 +11069,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": "by a dwarf",
-			"reqAttuneTags": [
-				{
-					"race": "dwarf"
-				}
-			],
 			"weight": 2,
 			"weaponCategory": "martial",
 			"property": [
@@ -11782,11 +11428,6 @@ export const items = {
 			"page": 127,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
@@ -11836,16 +11477,8 @@ export const items = {
 			"page": 127,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This crackling crystal contains the essence of an elemental plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use the following property:",
@@ -11864,16 +11497,8 @@ export const items = {
 			"page": 127,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This crackling crystal contains the essence of an elemental plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use the following property:",
@@ -11892,16 +11517,8 @@ export const items = {
 			"page": 127,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This crackling crystal contains the essence of an elemental plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use the following property:",
@@ -11920,16 +11537,8 @@ export const items = {
 			"page": 127,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This crackling crystal contains the essence of an elemental plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use the following property:",
@@ -12691,11 +12300,6 @@ export const items = {
 			"type": "WD",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d6 + 1}",
@@ -12729,20 +12333,6 @@ export const items = {
 			"type": "M",
 			"rarity": "legendary",
 			"reqAttune": "by an evil cleric or paladin",
-			"reqAttuneTags": [
-				{
-					"class": "cleric",
-					"alignment": [
-						"E"
-					]
-				},
-				{
-					"class": "paladin",
-					"alignment": [
-						"E"
-					]
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "martial",
 			"property": [
@@ -12800,16 +12390,8 @@ export const items = {
 			"page": 127,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This writhing crystal is steeped in the warped essence of the Far Realm. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can cause a slimy tentacle to rip through the fabric of reality and strike one creature you can see within 30 feet of you. The creature must succeed on a Charisma saving throw against your spell save DC or take 3d6} psychic damage and become {frightened} of you until the start of your next turn."
@@ -12881,16 +12463,8 @@ export const items = {
 			"page": 127,
 			"rarity": "uncommon",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This warm crystal glints with the sunset colors of the Feywild sky and evokes whispers of emotional memory. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can roll on the {@table Wild Magic Surge|PHB} table in the {@book Player's Handbook|PHB}. If the result is a spell, it is too wild to be affected by your Metamagic, and if it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
@@ -13520,14 +13094,6 @@ export const items = {
 			],
 			"rarity": "uncommon",
 			"reqAttune": "by a creature with the Mark of Finding",
-			"reqAttuneTags": [
-				{
-					"race": "half-orc (variant; mark of finding)|erlw"
-				},
-				{
-					"race": "human (variant; mark of finding)|erlw"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"The lenses of these garish goggles are carved from Siberys dragonshards. While wearing these lenses, you gain the following benefits:",
@@ -13822,11 +13388,6 @@ export const items = {
 			"page": 190,
 			"rarity": "very rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"The function of this ornate chair is to propel and maneuver a flying citadel on which it has been installed. The chair has AC 15, 18 hit points, and immunity to poison and psychic damage. It is destroyed if reduced to 0 hit points.",
@@ -14030,19 +13591,11 @@ export const items = {
 			"page": 128,
 			"rarity": "rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"This thick, scorched spellbook reeks of smoke and ozone, and sparks of energy crackles along the edges of its pages. When found, the book contains the following spells: { contingency}, { fireball}, { gust of wind}, { Leomund's tiny hut}, { magic missile}, { thunderwave}, and { wall of force}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
@@ -14863,11 +14416,6 @@ export const items = {
 			"page": 177,
 			"rarity": "very rare",
 			"reqAttune": "by a member of the Golgari guild",
-			"reqAttuneTags": [
-				{
-					"background": "golgari agent|ggr"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"Made from deep green jade with black veins, this keyrune has an insectile shape. It can transform into a {@creature giant scorpion} for up to 6 hours. The scorpion has an Intelligence of 4 and can communicate with you telepathically while it is within 60 feet of you, though its messages are largely limited to describing the passage of potential prey.",
@@ -14909,11 +14457,6 @@ export const items = {
 			],
 			"rarity": "legendary",
 			"reqAttune": "by a creature that has psionic ability",
-			"reqAttuneTags": [
-				{
-					"psionics": true
-				}
-			],
 			"weight": 6,
 			"weaponCategory": "martial",
 			"property": [
@@ -15090,11 +14633,6 @@ export const items = {
 			"page": 271,
 			"rarity": "legendary",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"entries": [
@@ -15309,11 +14847,6 @@ export const items = {
 			"page": 177,
 			"rarity": "rare",
 			"reqAttune": "by a member of the Gruul guild",
-			"reqAttuneTags": [
-				{
-					"background": "gruul anarch|ggr"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This crude keyrune is cobbled together from bits of rubble, broken glass, bone, and animal hair. One end resembles a horned beast. On command, the keyrune transforms into a ceratok, a horned creature much like a {@creature rhinoceros} (and with the same statistics). It remains in its ceratok form for 1 hour.",
@@ -15329,14 +14862,6 @@ export const items = {
 			"page": 128,
 			"rarity": "uncommon",
 			"reqAttune": "by a cleric or paladin",
-			"reqAttuneTags": [
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "paladin"
-				}
-			],
 			"wondrous": true,
 			"recharge": "dawn",
 			"rechargeAmount": 3,
@@ -15723,15 +15248,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "common",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"This antiquated, cone\u2014shaped hat is adorned with gold crescent moons and stars. While you are wearing it, you gain the following benefits:",
 				{
@@ -15849,19 +15366,11 @@ export const items = {
 			"page": 128,
 			"rarity": "rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: { antipathy/sympathy}, { charm person}, { dominate person}, { enthrall}, { hypnotic pattern}, { modify memory}, and { suggestion}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
@@ -15980,11 +15489,6 @@ export const items = {
 			"page": 223,
 			"rarity": "very rare",
 			"reqAttune": "by a creature that can speak Infernal",
-			"reqAttuneTags": [
-				{
-					"languageProficiency": "infernal"
-				}
-			],
 			"wondrous": true,
 			"charges": 3,
 			"entries": [
@@ -16142,11 +15646,6 @@ export const items = {
 			"page": 297,
 			"rarity": "legendary",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This ornate chair is designed to propel and maneuver a ship through space.",
@@ -16523,20 +16022,6 @@ export const items = {
 			"page": 222,
 			"rarity": "legendary",
 			"reqAttune": "by a cleric or paladin of good alignment",
-			"reqAttuneTags": [
-				{
-					"class": "cleric",
-					"alignment": [
-						"G"
-					]
-				},
-				{
-					"class": "paladin",
-					"alignment": [
-						"G"
-					]
-				}
-			],
 			"wondrous": true,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d6 + 4}",
@@ -17430,13 +16915,6 @@ export const items = {
 			"page": 222,
 			"rarity": "legendary",
 			"reqAttune": "by a creature of good alignment",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"G"
-					]
-				}
-			],
 			"wondrous": true,
 			"weight": 10,
 			"entries": [
@@ -17477,11 +16955,6 @@ export const items = {
 			"page": 209,
 			"rarity": "artifact",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"weight": 80,
 			"charges": 3,
@@ -17632,11 +17105,6 @@ export const items = {
 			"page": 178,
 			"rarity": "very rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"A powerful illusionist of House Dimir originally developed these bracers, which enabled her to create multiple minor illusions at once. The bracers' power, though, extends far beyond illusions.",
@@ -17689,13 +17157,6 @@ export const items = {
 			],
 			"rarity": "legendary",
 			"reqAttune": "by a creature of evil alignment.",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"E"
-					]
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"A rider binds a {@creature nightmare} to its service with infernal tack, which consists of a bridle, bit, reins, saddle, and stirrups, along with spurs that are worn by the rider. A nightmare equipped with infernal tack must serve whoever wears the spurs until the wearer dies or the tack is removed.",
@@ -17968,11 +17429,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
@@ -18004,11 +17460,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
@@ -18040,11 +17491,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
@@ -18076,11 +17522,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
@@ -18112,11 +17553,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
@@ -18149,11 +17585,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
@@ -18185,11 +17616,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"weight": 2,
 			"entries": [
@@ -18958,11 +18384,6 @@ export const items = {
 			"page": 177,
 			"rarity": "rare",
 			"reqAttune": "by a member of the Izzet guild",
-			"reqAttuneTags": [
-				{
-					"background": "izzet engineer|ggr"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"Formed of carved and polished red and blue stone, the keyrune includes bits of cable and wire. One end resembles a humanlike head, suggesting the jagged elemental form of the {@creature galvanice weird|GGR} that it can become for a duration of 3 hours. In this form, it will serve you as a bodyguard, lift and carry things for you, act as a test subject for your experiments, or aid you in any other way that its capabilities allow.",
@@ -19496,11 +18917,6 @@ export const items = {
 			],
 			"rarity": "common",
 			"reqAttune": "by a creature with the Mark of Warding",
-			"reqAttuneTags": [
-				{
-					"race": "dwarf (mark of warding)|erlw"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This small stylized key plays a vital role in the work of House Kundarak. If you cast the { alarm}, { arcane lock}, or { glyph of warding} spell, you can tie the effect to the keycharm so that whoever holds it receives the notification from the { alarm} spell, bypasses the lock of the { arcane lock} spell, or avoids triggering the glyph placed by the { glyph of warding} spell. In addition, the holder (who needn't be attuned to the item) can take an action to end any one spell tied to it, provided the holder knows the command word you set for ending the tied spells. The keycharm can have up to three tied spells at one time."
@@ -20308,19 +19724,11 @@ export const items = {
 			"page": 129,
 			"rarity": "rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: { animate dead}, { circle of death}, { false life}, { finger of death}, { speak with dead}, { summon undead|TCE}, and { vampiric touch}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
@@ -20697,11 +20105,6 @@ export const items = {
 			"page": 191,
 			"rarity": "very rare",
 			"reqAttune": "by a creature with a humanoid build",
-			"reqAttuneTags": [
-				{
-					"creatureType": "humanoid"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"The Masked Lords of Waterdeep don this ensemble when meeting with one another. This raiment renders each lord indistinguishable from the others. The ensemble consists of three pieces\u2014a helm, an amulet, and a robe\u2014that function as a single magic item when worn together, but only within the city of Waterdeep and its sewers. You become attuned to the ensemble as a single item.",
@@ -20735,11 +20138,6 @@ export const items = {
 			"page": 39,
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
@@ -21068,11 +20466,6 @@ export const items = {
 			"type": "INS",
 			"rarity": "rare",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"weight": 2,
 			"grantsProficiency": true,
@@ -21322,11 +20715,6 @@ export const items = {
 			"type": "OTH",
 			"rarity": "very rare",
 			"reqAttune": "by a humanoid",
-			"reqAttuneTags": [
-				{
-					"creatureType": "humanoid"
-				}
-			],
 			"entries": [
 				"While you wear this helm and are inside Maddgoth's castle, on its roof, or in its courtyard, you have immunity to all damage. If the helm is taken from the castle, it turns to dust and is destroyed."
 			]
@@ -22226,24 +21614,8 @@ export const items = {
 			"page": 179,
 			"rarity": "uncommon",
 			"reqAttune": "by a sorcerer, warlock, or wizard",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				},
-				{
-					"class": "warlock"
-				},
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 8,
-			"focus": [
-				"Sorcerer",
-				"Warlock",
-				"Wizard"
-			],
 			"entries": [
 				"Innovation is a dangerous pursuit, at least the way the mages of the Izzet League engage in it. As protection against the risk of an experiment going awry, they have developed a device to help channel and control their magic. This apparatus is a collection of leather straps, flexible tubing, glass cylinders, and plates, bracers, and fittings made from a magic-infused metal alloy called mizzium, all assembled into a harness. The item weighs 8 pounds.",
 				"While you are wearing the mizzium apparatus, you can use it as an arcane focus. In addition, you can attempt to cast a spell that you do not know or have prepared. The spell you choose must be on your class's spell list and of a level for which you have a spell slot, and you must provide the spell's components.",
@@ -22529,22 +21901,6 @@ export const items = {
 			"type": "M",
 			"rarity": "legendary",
 			"reqAttune": "by an elf or half-elf of neutral good alignment",
-			"reqAttuneTags": [
-				{
-					"race": "elf",
-					"alignment": [
-						"N",
-						"N"
-					]
-				},
-				{
-					"race": "half-elf",
-					"alignment": [
-						"N",
-						"G"
-					]
-				}
-			],
 			"sentient": true,
 			"weight": 3,
 			"weaponCategory": "martial",
@@ -22819,20 +22175,8 @@ export const items = {
 			"page": 133,
 			"rarity": "uncommon",
 			"reqAttune": "by a druid or ranger",
-			"reqAttuneTags": [
-				{
-					"class": "druid"
-				},
-				{
-					"class": "ranger"
-				}
-			],
 			"wondrous": true,
 			"weight": 2,
-			"focus": [
-				"Druid",
-				"Ranger"
-			],
 			"entries": [
 				"This cloak shifts color and texture to blend with the terrain surrounding you. While wearing the cloak, you can use it as a spellcasting focus for your druid and ranger spells.",
 				"While you are in an area that is lightly obscured, you can {@action Hide} as a bonus action even if you are being directly observed."
@@ -23008,17 +22352,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a cleric, druid, or paladin",
-			"reqAttuneTags": [
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "druid"
-				},
-				{
-					"class": "paladin"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
@@ -23145,11 +22478,6 @@ export const items = {
 			"type": "M",
 			"rarity": "legendary",
 			"reqAttune": "by a paladin",
-			"reqAttuneTags": [
-				{
-					"class": "paladin"
-				}
-			],
 			"sentient": true,
 			"weight": 3,
 			"weaponCategory": "martial",
@@ -24029,20 +23357,6 @@ export const items = {
 			"type": "M",
 			"rarity": "legendary",
 			"reqAttune": "by a dwarf, fighter, or paladin of good alignment",
-			"reqAttuneTags": [
-				{
-					"race": "dwarf",
-					"alignment": [
-						"G"
-					]
-				},
-				{
-					"class": "paladin",
-					"alignment": [
-						"G"
-					]
-				}
-			],
 			"sentient": true,
 			"weight": 7,
 			"weaponCategory": "martial",
@@ -24233,11 +23547,6 @@ export const items = {
 			"page": 178,
 			"rarity": "rare",
 			"reqAttune": "by a member of the Orzhov guild",
-			"reqAttuneTags": [
-				{
-					"background": "orzhov representative|ggr"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This keyrune is carved from white marble with veins of black. The end is shaped like a thrull's head, with a gold faceplate affixed. On command, the keyrune transforms into a {@creature winged thrull|GGR} for up to 2 hours. If you don't come from an Orzhov oligarch family, it serves you grudgingly, clownishly aping your movements and mannerisms while carrying out your orders.",
@@ -24253,16 +23562,8 @@ export const items = {
 			"page": 133,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This flickering crystal holds the essence of an Outer Plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"Roll a {@dice d4} and consult the Outer Essence Shards table to determine the shard's essence and property. When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.",
@@ -24310,16 +23611,8 @@ export const items = {
 			"page": 133,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This flickering crystal holds the essence of an Outer Plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.",
@@ -24338,16 +23631,8 @@ export const items = {
 			"page": 133,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This flickering crystal holds the essence of an Outer Plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.",
@@ -24366,16 +23651,8 @@ export const items = {
 			"page": 133,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This flickering crystal holds the essence of an Outer Plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.",
@@ -24394,16 +23671,8 @@ export const items = {
 			"page": 133,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This flickering crystal holds the essence of an Outer Plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.",
@@ -24683,11 +23952,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"While this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you have used the pearl, it can't be used again until the next dawn."
@@ -24961,11 +24225,6 @@ export const items = {
 			],
 			"rarity": "unknown (magic)",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"entries": [
 				"While this egg is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you have used the egg, it can't be used again until the next dawn.",
 				"Additionally, while you are attuned to the egg, you gain resistance to poison damage.",
@@ -25193,19 +24452,11 @@ export const items = {
 			"page": 134,
 			"rarity": "rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: { banishment}, { find familiar}, { gate}, { magic circle}, { planar binding}, and { summon elemental|TCE}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
@@ -26704,11 +25955,6 @@ export const items = {
 			"page": 39,
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
@@ -26777,12 +26023,6 @@ export const items = {
 			"page": 251,
 			"rarity": "uncommon",
 			"reqAttune": "by a small humanoid",
-			"reqAttuneTags": [
-				{
-					"creatureType": "humanoid",
-					"size": "S"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"While worn, the helm allows its wearer to use an action to cast the { levitate} spell, requiring no components. The helm's propeller spins and whirs loudly until the spell ends. Each time the spell ends, there is a {@chance 50|50 percent} chance that the helm loses its magic and becomes nonmagical."
@@ -26814,19 +26054,11 @@ export const items = {
 			"page": 134,
 			"rarity": "rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 3,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"This leather-bound spellbook is reinforced with iron and silver fittings and an iron lock (DC 20 to open). As an action, you can touch the book's cover and cause it to lock as if you cast { arcane lock} on it. When found, the book contains the following spells: { arcane lock}, { dispel magic}, { globe of invulnerability}, { glyph of warding}, { Mordenkainen's private sanctum}, { protection from evil and good||protection from evil}, and { symbol}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
@@ -26864,11 +26096,6 @@ export const items = {
 			"page": 315,
 			"rarity": "uncommon",
 			"reqAttune": "by a creature with an intelligence score of 3 or higher",
-			"reqAttuneTags": [
-				{
-					"int": 3
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This crystal grants you telepathy for as long as you remain attuned to it. See the {@book introduction of the Monster Manual|MM|0|Telepathy} for rules on how this telepathy works.",
@@ -27146,11 +26373,6 @@ export const items = {
 			"page": 39,
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
@@ -27237,11 +26459,6 @@ export const items = {
 			"type": "WD",
 			"rarity": "unknown (magic)",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"bonusSpellAttack": "+1",
 			"entries": [
 				"While holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack. Radiance is in the form of an exquisite golden hand mirror.",
@@ -27305,11 +26522,6 @@ export const items = {
 			"page": 178,
 			"rarity": "uncommon",
 			"reqAttune": "by a member of the Rakdos guild",
-			"reqAttuneTags": [
-				{
-					"background": "rakdos cultist|ggr"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This dark granite keyrune is marbled with scarlet veins and carved with the leering visage of a mischievous demon. When activated, it transforms into a {@creature cackler|GGR} for up to 1 hour.",
@@ -27529,11 +26741,6 @@ export const items = {
 			"type": "INS",
 			"rarity": "rare",
 			"reqAttune": "by a bard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				}
-			],
 			"wondrous": true,
 			"bonusSpellSaveDc": "+2",
 			"entries": [
@@ -28667,17 +27874,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a sorcerer, warlock, or wizard",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				},
-				{
-					"class": "warlock"
-				},
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
@@ -28932,17 +28128,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a cleric, druid, or paladin",
-			"reqAttuneTags": [
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "druid"
-				},
-				{
-					"class": "paladin"
-				}
-			],
 			"weight": 2,
 			"recharge": "dawn",
 			"rechargeAmount": 1,
@@ -29156,13 +28341,7 @@ export const items = {
 			"tier": "minor",
 			"rarity": "common",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
-			"focus": true,
 			"entries": [
 				"Etched with eldritch runes, this 1-inch-diameter ruby allows you to use a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} as a spellcasting focus for your spells. For this property to work, you must attach the ruby to the weapon by pressing the ruby against it for at least 10 minutes. Thereafter, the ruby can't be removed unless you detach it as an action or the weapon is destroyed. Not even an { antimagic field} causes it to fall off. The ruby does fall off the weapon if your attunement to the ruby ends."
 			]
@@ -29173,26 +28352,10 @@ export const items = {
 			"page": 24,
 			"rarity": "legendary",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"recharge": "dawn",
 			"rechargeAmount": 3,
 			"charges": 3,
-			"focus": [
-				"Artificer",
-				"Bard",
-				"Cleric",
-				"Druid",
-				"Paladin",
-				"Ranger",
-				"Sorcerer",
-				"Warlock",
-				"Wizard"
-			],
 			"entries": [
 				"While you are holding this gem, you can use it as a spellcasting focus for your spells.",
 				"The gem has 3 charges and regains all expended charges daily at dawn. When you cast a spell while holding this gem, you can expend up to 3 charges to ignore the spell's material components with a gold piece cost, up to 500 gp per charge expended.",
@@ -29708,14 +28871,6 @@ export const items = {
 			"page": 213,
 			"rarity": "rare",
 			"reqAttune": "by a fey or a spellcaster",
-			"reqAttuneTags": [
-				{
-					"creatureType": "fey"
-				},
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"As an action, you make a few snips with these iron shears and cause the shadow of a Humanoid creature you can see within 5 feet of you to detach from its source. If the creature is unwilling to give up its shadow, it can make a DC 15 Charisma saving throw, retaining its shadow on a success. Whether or not the shadow is snipped, this property of the scissors can't be used again until the next dawn.",
@@ -29792,11 +28947,6 @@ export const items = {
 			],
 			"rarity": "common",
 			"reqAttune": "by a creature with the Mark of Scribing",
-			"reqAttuneTags": [
-				{
-					"race": "gnome (mark of scribing)|erlw"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"You can use this pen to write on any surface. You decide whether the writing is visible or {invisible}, but the writing is always visible to a person with the Mark of Scribing.",
@@ -29980,11 +29130,6 @@ export const items = {
 			"page": 178,
 			"rarity": "rare",
 			"reqAttune": "by a member of the Selesnya guild",
-			"reqAttuneTags": [
-				{
-					"background": "selesnya initiate|ggr"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"Carved from white and green marble in the shape of a wolf's head, this keyrune transforms into a {@creature dire wolf}. The wolf persists for 8 hours. Its Intelligence is 6, and it understands Elvish and Sylvan but can't speak those languages. While it is within 1 mile of you, you can communicate with each other telepathically.",
@@ -30223,16 +29368,8 @@ export const items = {
 			"page": 135,
 			"rarity": "rare",
 			"reqAttune": "by a sorcerer",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
-			"focus": [
-				"Sorcerer"
-			],
 			"entries": [
 				"This dull, cold crystal sits heavy and leaden, saturated by the Shadowfell's despair. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can momentarily curse one creature targeted by the spell; choose one ability score, and until the end of your next turn, the creature has disadvantage on ability checks and saving throws that use that ability."
@@ -30697,11 +29834,6 @@ export const items = {
 			"page": 149,
 			"rarity": "rare",
 			"reqAttune": "by a humanoid",
-			"reqAttuneTags": [
-				{
-					"creatureType": "humanoid"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"The amulet is a 4-inch-wide disk composed of silver-framed wood, with a rune carved into its face. A { detect magic} spell reveals a magical aura of enchantment around the amulet.",
@@ -31255,11 +30387,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "unknown (magic)",
 			"reqAttune": "by a creature that has psionic ability",
-			"reqAttuneTags": [
-				{
-					"psionics": true
-				}
-			],
 			"weight": 6,
 			"weaponCategory": "martial",
 			"property": [
@@ -31287,11 +30414,6 @@ export const items = {
 			"page": 39,
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
@@ -31326,11 +30448,6 @@ export const items = {
 			"page": 178,
 			"rarity": "uncommon",
 			"reqAttune": "by a member of the Simic guild",
-			"reqAttuneTags": [
-				{
-					"background": "simic scientist|ggr"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"This keyrune is assembled from coral, mother-of-pearl, and chrome and adorned with the spirals and curves characteristic of Simic ornamentation. The head resembles the shell of a sea creature. On command, the keyrune turns into a {@creature category 1 krasis|GGR} that has the Grabber and Stabilizing Legs adaptations. The transformation lasts for up to 5 hours.",
@@ -31529,23 +30646,7 @@ export const items = {
 			"page": 26,
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
-			"focus": [
-				"Artificer",
-				"Bard",
-				"Cleric",
-				"Druid",
-				"Paladin",
-				"Ranger",
-				"Sorcerer",
-				"Warlock",
-				"Wizard"
-			],
 			"entries": [
 				"This wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons' wings, claws, teeth, or scales.",
 				"You have advantage on initiative rolls. While you are holding the focus, it can function as a spellcasting focus for all your spells."
@@ -31707,17 +30808,6 @@ export const items = {
 			"type": "M",
 			"rarity": "legendary",
 			"reqAttune": "by a non-evil creature",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"L",
-						"NX",
-						"C",
-						"G",
-						"NY"
-					]
-				}
-			],
 			"sentient": true,
 			"weight": 6,
 			"weaponCategory": "martial",
@@ -32434,11 +31524,6 @@ export const items = {
 			"page": 23,
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"The function of this ornate chair is to propel and maneuver a ship on which it has been installed through space and air. It can also propel and maneuver a ship on water or underwater, provided the ship is built for such travel. The ship in question must weigh 1 ton or more.",
@@ -32847,26 +31932,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a bard, cleric, druid, sorcerer, warlock, or wizard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				},
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "druid"
-				},
-				{
-					"class": "sorcerer"
-				},
-				{
-					"class": "warlock"
-				},
-				{
-					"class": "wizard"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -32927,11 +31992,6 @@ export const items = {
 			"page": 270,
 			"rarity": "very rare",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33006,20 +32066,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": "by a druid, sorcerer, warlock, or wizard",
-			"reqAttuneTags": [
-				{
-					"class": "druid"
-				},
-				{
-					"class": "sorcerer"
-				},
-				{
-					"class": "warlock"
-				},
-				{
-					"class": "wizard"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33080,20 +32126,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": "by a druid, sorcerer, warlock, or wizard",
-			"reqAttuneTags": [
-				{
-					"class": "druid"
-				},
-				{
-					"class": "sorcerer"
-				},
-				{
-					"class": "warlock"
-				},
-				{
-					"class": "wizard"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33130,17 +32162,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a bard, cleric, or druid",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				},
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "druid"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33175,17 +32196,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": "by a sorcerer, warlock, or wizard",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				},
-				{
-					"class": "warlock"
-				},
-				{
-					"class": "wizard"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33306,26 +32316,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a bard, cleric, druid, sorcerer, warlock, or wizard",
-			"reqAttuneTags": [
-				{
-					"class": "bard"
-				},
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "druid"
-				},
-				{
-					"class": "sorcerer"
-				},
-				{
-					"class": "warlock"
-				},
-				{
-					"class": "wizard"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33371,17 +32361,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": "by a cleric, druid, or warlock",
-			"reqAttuneTags": [
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "druid"
-				},
-				{
-					"class": "warlock"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33407,17 +32386,6 @@ export const items = {
 			"page": 208,
 			"rarity": "artifact",
 			"reqAttune": "by a sorcerer, warlock, or wizard",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				},
-				{
-					"class": "warlock"
-				},
-				{
-					"class": "wizard"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33478,11 +32446,6 @@ export const items = {
 			"page": 270,
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33505,17 +32468,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a sorcerer, warlock, or wizard",
-			"reqAttuneTags": [
-				{
-					"class": "sorcerer"
-				},
-				{
-					"class": "warlock"
-				},
-				{
-					"class": "wizard"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33616,17 +32568,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": "by a cleric, druid, or warlock",
-			"reqAttuneTags": [
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "druid"
-				},
-				{
-					"class": "warlock"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33654,11 +32595,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a druid",
-			"reqAttuneTags": [
-				{
-					"class": "druid"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33776,17 +32712,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a cleric, druid, or warlock",
-			"reqAttuneTags": [
-				{
-					"class": "cleric"
-				},
-				{
-					"class": "druid"
-				},
-				{
-					"class": "warlock"
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -33882,13 +32807,6 @@ export const items = {
 			"type": "M",
 			"rarity": "very rare",
 			"reqAttune": "by a good-aligned creature",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"G"
-					]
-				}
-			],
 			"sentient": true,
 			"weight": 3,
 			"weaponCategory": "martial",
@@ -34522,14 +33440,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a chaotic good creature",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"C",
-						"G"
-					]
-				}
-			],
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -34554,14 +33464,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a chaotic evil creature",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"C",
-						"E"
-					]
-				}
-			],
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -34586,14 +33488,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a lawful neutral creature",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"L",
-						"N"
-					]
-				}
-			],
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -34618,14 +33512,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a chaotic neutral creature",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"C",
-						"N"
-					]
-				}
-			],
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -34650,14 +33536,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a neutral good creature",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"N",
-						"G"
-					]
-				}
-			],
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -34682,13 +33560,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a neutral creature",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"N"
-					]
-				}
-			],
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -34713,14 +33584,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a lawful good creature",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"L",
-						"G"
-					]
-				}
-			],
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -34745,14 +33608,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a lawful evil creature",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"L",
-						"E"
-					]
-				}
-			],
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -34777,14 +33632,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a neutral evil creature",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"N",
-						"E"
-					]
-				}
-			],
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -35215,13 +34062,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a creature of good alignment",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"G"
-					]
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
 			"bonusSpellAttack": "+2",
@@ -35261,13 +34101,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a creature of evil alignment",
-			"reqAttuneTags": [
-				{
-					"alignment": [
-						"E"
-					]
-				}
-			],
 			"wondrous": true,
 			"weight": 1,
 			"bonusSpellAttack": "+2",
@@ -36899,16 +35732,8 @@ export const items = {
 			"tier": "major",
 			"rarity": "legendary",
 			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
-				{
-					"class": "wizard"
-				}
-			],
 			"wondrous": true,
 			"weight": 5,
-			"focus": [
-				"Wizard"
-			],
 			"entries": [
 				"This thick leather-bound volume has a desiccated tongue pinned to the front cover. Five of these tomes exist, and it's unknown which one is the original. The grisly cover decoration on the first tome of the stilled tongue once belonged to a treacherous former servant of the lich-god Vecna, keeper of secrets. The tongues pinned to the covers of the four copies came from other spellcasters who crossed Vecna. The first few pages of each tome are filled with indecipherable scrawls. The remaining pages are blank and pristine.",
 				"If you can attune to this item, you can use it as a spellbook and an arcane focus. In addition, while holding the tome, you can use a bonus action to cast a spell you have written in this tome, without expending a spell slot or using any verbal or somatic component. Once used, this property of the tome can't be used again until the next dawn.",
@@ -39013,11 +37838,6 @@ export const items = {
 			"page": 181,
 			"rarity": "very rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -39178,11 +37998,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d6 + 1}",
@@ -39258,11 +38073,6 @@ export const items = {
 			"type": "WD",
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d6 + 1}",
@@ -39322,11 +38132,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d6 + 1}",
@@ -39352,11 +38157,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d6 + 1}",
@@ -39533,11 +38333,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d6 + 1}",
@@ -39560,11 +38355,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d6 + 1}",
@@ -39680,11 +38470,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d6 + 1}",
@@ -39738,11 +38523,6 @@ export const items = {
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"weight": 1,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d6 + 1}",
@@ -39883,11 +38663,6 @@ export const items = {
 			],
 			"rarity": "common",
 			"reqAttune": "by a warforged",
-			"reqAttuneTags": [
-				{
-					"race": "warforged|erlw"
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"A wand sheath clamps onto your arm and imparts the following benefits:",
@@ -40269,11 +39044,6 @@ export const items = {
 			"type": "M",
 			"rarity": "legendary",
 			"reqAttune": "by a dwarf",
-			"reqAttuneTags": [
-				{
-					"race": "dwarf"
-				}
-			],
 			"sentient": true,
 			"weight": 2,
 			"weaponCategory": "martial",
@@ -41035,11 +39805,6 @@ export const items = {
 			"page": 39,
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d3}",
@@ -41371,11 +40136,6 @@ export const items = {
 			"page": 316,
 			"rarity": "legendary",
 			"reqAttune": "by a spellcaster",
-			"reqAttuneTags": [
-				{
-					"spellcasting": true
-				}
-			],
 			"wondrous": true,
 			"entries": [
 				"A mythallar looks like an enormous crystal ball held in an ornate cradle. The globe sheds bright light in a 300-foot radius and dim light for an additional 300 feet. The globe draws magic from the Weave that can be harnessed for various purposes. For example, Netherese mages used mythallars to keep their cities aloft and empower their magic items. The bigger the mythallar, the more magic it can hold. The largest mythallars are 150 feet in diameter.",
