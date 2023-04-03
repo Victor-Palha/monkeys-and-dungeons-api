@@ -8,7 +8,7 @@ export interface Query{
     action?:string,
     concentration?: boolean | string,
     ritual?: boolean | string,
-    level?: number,
+    level?: number | string,
     school?: string,
     source?: string
 }

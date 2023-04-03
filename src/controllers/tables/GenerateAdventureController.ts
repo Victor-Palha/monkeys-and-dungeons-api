@@ -4,16 +4,18 @@ import { GetHorrorMonster} from "./Function/HorrorFunctions";
 //chatGPT
 import { generateDnDAdventure } from "../../openai/ApiConfig";
 
-//Horror Monsters
-//Horror Villains
-//Horror Torments
-//Horror Settings
-//Horror Plots
+//Body
+//Cosmic
+//Dark Fantasy
 
 class GenerateAdventureController{
     async execute(req: Request, res: Response){
         //Get Style
-        const {type} = req.body
+        const {type} = req.query
+        
+        if(type == undefined){
+            throw new Error("Type is undefined")
+        }
         //Setando váriaveis
         const villains = GetHorrorMonster(AdventureHorror, `${type} Villains`)
         const monsters = GetHorrorMonster(AdventureHorror, `${type} Monsters`)
@@ -26,7 +28,6 @@ class GenerateAdventureController{
         }).catch((err)=>{
             return res.status(400).json(err)
         })
-        //return res.json({settings, plots, villains, monsters})
     }
 }
 export { GenerateAdventureController }

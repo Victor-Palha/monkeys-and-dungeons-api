@@ -2,7 +2,6 @@ require('dotenv').config()
 import express, {Request, Response, NextFunction} from 'express'
 import cors from 'cors'
 import { router } from './routes'
-const path = require('path')
 import 'express-async-errors'
 
 //init express

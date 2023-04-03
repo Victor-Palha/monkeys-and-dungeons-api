@@ -35,7 +35,7 @@ router.get("/health", (req, res) => {
 
 //Tables
     //Adventure
-    .post('/adventure', new GenerateAdventureController().execute)
+    .get('/adventure', new GenerateAdventureController().execute)
 
 //Items
 .get('/items', new AllItemsController().execute)

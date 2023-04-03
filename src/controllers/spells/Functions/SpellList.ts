@@ -26,11 +26,30 @@ export function querySpells(spellList: Spell[], {nome, classe, action, concentra
         concentration = false;
     }else if(concentration === "true"){
         concentration = true;
+    }else{
+        concentration = undefined;
     }
     if(ritual === "false"){
         ritual = false;
     }else if(ritual === "true"){
         ritual = true;
+    }else{
+        ritual = undefined;
+    }
+    if(classe == ''){
+        classe = undefined;
+    }
+    if(action == ''){
+        action = undefined;
+    }
+    if(level == ''){
+        level = undefined;
+    }
+    if(school == ''){
+        school = undefined;
+    }
+    if(source == ''){
+        source = undefined;
     }
 
     const filters = [
