@@ -13,10 +13,10 @@ class GenerateAdventureController{
         //Get Style
         const {type} = req.query
         
-        if(type == undefined){
-            throw new Error("Type is undefined")
+        if(type == undefined || type == null || type == "false"){
+            return res.status(200).json("<h1>Choose Your Adventure!</h1>")
         }
-        //Setando váriaveis
+        //Setando váriaveis 
         const villains = GetHorrorMonster(AdventureHorror, `${type} Villains`)
         const monsters = GetHorrorMonster(AdventureHorror, `${type} Monsters`)
         const settings = GetHorrorMonster(AdventureHorror, `${type} Settings`)
@@ -26,7 +26,7 @@ class GenerateAdventureController{
         await generateDnDAdventure({settings, plots, villains, monsters}).then((response) => {
             return res.json(response)
         }).catch((err)=>{
-            return res.status(400).json(err)
+            return res.status(400).json({ error: err.message })
         })
     }
 }

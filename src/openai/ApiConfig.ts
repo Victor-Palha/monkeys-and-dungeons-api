@@ -18,7 +18,7 @@ export async function generateDnDAdventure({settings, plots, villains, monsters}
       - Monsters: ${monsters[1]}
       ###
         with a beginning, middle, end, title for the adventure and level of the adventure.
-        all tranlated to html
+        all tranlated to html and MUST have at least 30 paragraphs and the names of the monsters and villains must be in bold.
     `;
     //console.log(prompt)
   
