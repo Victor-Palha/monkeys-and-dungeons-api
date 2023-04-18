@@ -1,4 +1,4 @@
-import { Spell } from "../../../models/spells/spells";
+import { Spell } from "../../../interfaces/Spells";
 import { Query } from "../QuerySpellsController";
 
 //Função para retornar apenas os dados necessários

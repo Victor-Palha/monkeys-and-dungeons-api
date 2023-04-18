@@ -1,4 +1,5 @@
-import { Spell } from "../../../models/spells/spells";
+import { Spell } from "../../../interfaces/Spells";
+
 
 // função para filtrar dados
 export function QuerySpellUnique(spellList:Spell[], nome){

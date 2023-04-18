@@ -1,4 +1,4 @@
-export const AdventureHorror = {
+{
     horror: [
             {
                 "type": "entries",

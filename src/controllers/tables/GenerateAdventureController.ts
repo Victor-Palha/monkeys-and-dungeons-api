@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
-import { AdventureHorror } from "../../models/tables/VRGR/adventures/HorrorAdventure";
+import fs from "node:fs"
+//import { AdventureHorror } from "../../models/tables/VRGR/adventures/HorrorAdventure";
 import { GetHorrorMonster} from "./Function/HorrorFunctions";
 //chatGPT
 import { generateDnDAdventure } from "../../openai/ApiConfig";
@@ -10,6 +11,7 @@ import { generateDnDAdventure } from "../../openai/ApiConfig";
 
 class GenerateAdventureController{
     async execute(req: Request, res: Response){
+        const AdventureHorror = await JSON.parse(fs.readFileSync("../../models/tables/VRGR/adventures/HorrorAdventure.json").toString())
         //Get Style
         const {type} = req.query
         
