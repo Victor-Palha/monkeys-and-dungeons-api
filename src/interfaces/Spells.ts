@@ -24,3 +24,13 @@ interface Tables{
     header: string[];
     rows: string[][];
 }
+export interface Query{
+    nome?:string,
+    classe?:string,
+    action?:string,
+    concentration?: boolean | string,
+    ritual?: boolean | string,
+    level?: number | string,
+    school?: string,
+    source?: string
+}
