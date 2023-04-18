@@ -41,11 +41,11 @@ class AllMonstersController {
     }
 
     QueryMonsters(req:Request<Query>, res:Response){
-        const { nome } = req.query as Query;
+        const {nome, type, cr, image, source } = req.query as Query;
         const monsters = AllMonstersController.getMonsters()
         const fluffs = AllMonstersController.getFluffs()
 
-        return res.json(AllMonstersController.#MonsterList(AllMonstersController.#queryMonsters(monsters, nome), fluffs))
+        return res.json(AllMonstersController.#MonsterList(AllMonstersController.#queryMonsters(monsters, {nome, type, cr, image, source} ), fluffs))
     }
 
     UniqueMonster(req: Request, res: Response){
@@ -75,12 +75,44 @@ class AllMonstersController {
     }
     
     // Description: Função para filtrar os dados
-    static #queryMonsters(monstersArrays: any[], nome: string){
-        if(monstersArrays.filter((monster) => {
-            monster.name.toLowerCase().includes(nome.toLowerCase() as string)
-        })){
-          return monstersArrays.filter(monster => monster.name.toLowerCase().includes(nome.toLowerCase() as string));
+    static #queryMonsters(monstersArrays: any[],{nome, type, cr, image, source}: Query){
+        // if(monstersArrays.filter((monster) => {
+        //     monster.name.toLowerCase().includes(nome.toLowerCase() as string)
+        // })){
+        //   return monstersArrays.filter(monster => monster.name.toLowerCase().includes(nome.toLowerCase() as string));
+        // }
+        const MonsterList = AllMonstersController.#MonsterList(monstersArrays, AllMonstersController.getFluffs())
+            //Convertendo os valores de image e ritual para boolean
+        if(image === "false"){
+          image = false;
+        }else if(image === "true"){
+            image = true;
+        }else{
+            image = undefined;
         }
+        if(nome == ''){
+          nome = undefined;
+        }
+        if(type == ''){
+            type = undefined;
+        }
+        if(cr == ''){
+            cr = undefined;
+        }
+        if(image == ''){
+            image = undefined;
+        }
+        if(source == ''){
+          source = undefined;
+        }
+        const filters = [
+            (monster) => nome === undefined || monster.name.toLowerCase().includes(nome.toLowerCase()),
+            (monster) => source === undefined || monster.source.toLowerCase() === source.toLowerCase(),
+            (monster) => type === undefined || monster.type.includes(type),
+            (monster) => cr === undefined || monster.cr.includes(cr),
+            (monster) => image === undefined || monster.image === Boolean(image),
+        ];
+        return MonsterList.filter(monster => filters.reduce((acc, filter) => acc && filter(monster), true));
     }
     // Monster Image
     static #UniqueMonsterImg(monsterList: any[], nome: string){

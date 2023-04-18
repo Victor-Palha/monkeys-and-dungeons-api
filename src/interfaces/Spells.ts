@@ -32,5 +32,8 @@ export interface Query{
     ritual?: boolean | string,
     level?: number | string,
     school?: string,
-    source?: string
+    source?: string,
+    type?: string,
+    cr?: string,
+    image?: boolean | string,
 }
