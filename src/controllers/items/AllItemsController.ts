@@ -6,7 +6,7 @@ import { ItemsList } from "./Functions/ItemsList";
 class AllItemsController {
     execute(req:Request, res:Response){
         //console.log(items)
-        const items = JSON.parse(fs.readFileSync("../../models/items/items").toString())
+        const items = JSON.parse(fs.readFileSync(__dirname + "/../../models/items/items.json").toString())
         return res.json(ItemsList(items.item))
     }
 }
