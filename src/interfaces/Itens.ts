@@ -1,8 +1,7 @@
-interface Items{
+export interface Items{
     name: string,
-    source: string,
+    desc: string,
+    type: string,
     rarity: string,
-    wondrous: boolean,
-    reqAttune: string,
-    entries: string,
+    requiresAttunement?: boolean,
 }

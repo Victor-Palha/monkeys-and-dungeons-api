@@ -1,8 +1,6 @@
 import { Router } from "express";
 //Items Controllers
 import { AllItemsController } from "./controllers/items/AllItemsController";
-import { QueryItemsController } from "./controllers/items/QueryItemsController";
-import { UniqueItemsController } from "./controllers/items/UniqueItemController";
 //Monsters Controllers
 import { AllMonstersController } from "./controllers/monsters/AllMonstersController";
 //Spells Controllers
@@ -38,9 +36,9 @@ router.get("/health", (req, res) => {
     .get('/adventure', new GenerateAdventureController().execute)
 
 //Items
-.get('/items', new AllItemsController().execute)
+.get('/items', new AllItemsController().AllItems)
     //Query Items
-    .get('/items/query', new QueryItemsController().execute)
-    .get('/items/unique', new UniqueItemsController().execute)
+     .get('/items/query', new AllItemsController().QueryItems)
+     .get('/items/unique', new AllItemsController().UniqueItem)
 //export router
 export {router}

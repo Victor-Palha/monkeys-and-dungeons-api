@@ -36,4 +36,7 @@ export interface Query{
     type?: string,
     cr?: string,
     image?: boolean | string,
+    desc?: string,
+    rarity?: string,
+    requiresAttunement?: boolean,
 }
