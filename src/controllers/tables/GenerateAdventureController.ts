@@ -31,7 +31,7 @@ class GenerateAdventureController{
     }
     // private methods
     static #rollDice(str: string) {
-        const [numDice, numSides] = str.split('d');
+        const [, numSides] = str.split('d');
         return (Math.floor(Math.random() * Number(numSides)));
     }
 

@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import { Query } from "../../interfaces/Spells";
 import fs from "node:fs"
+import { Monsters } from "../../interfaces/Monsters";
 
 /* In this part of the code, the JSONs that i used i taked from D&D 5etools, and these JSONs ARE NOT organized.
  which makes it an almost impossible task for me to organize the Types*/
@@ -76,41 +77,35 @@ class AllMonstersController {
     
     // Description: Função para filtrar os dados
     static #queryMonsters(monstersArrays: any[],{nome, type, cr, image, source}: Query){
-        // if(monstersArrays.filter((monster) => {
-        //     monster.name.toLowerCase().includes(nome.toLowerCase() as string)
-        // })){
-        //   return monstersArrays.filter(monster => monster.name.toLowerCase().includes(nome.toLowerCase() as string));
-        // }
-        const MonsterList = AllMonstersController.#MonsterList(monstersArrays, AllMonstersController.getFluffs())
-            //Convertendo os valores de image e ritual para boolean
-        if(image === "false"){
+        const MonsterList: Monsters[] = AllMonstersController.#MonsterList(monstersArrays, AllMonstersController.getFluffs())
+            //Convertendo os valores de image para boolean
+        if(image === 'false'){
           image = false;
-        }else if(image === "true"){
+        }else if(image === 'true'){
             image = true;
         }else{
             image = undefined;
         }
-        if(nome == ''){
+        console.log(image)
+        if(nome === ''){
           nome = undefined;
         }
-        if(type == ''){
+        if(type === ''){
             type = undefined;
         }
-        if(cr == ''){
+        if(cr === ''){
             cr = undefined;
         }
-        if(image == ''){
-            image = undefined;
-        }
-        if(source == ''){
+        if(source === ''){
           source = undefined;
         }
+        
         const filters = [
-            (monster) => nome === undefined || monster.name.toLowerCase().includes(nome.toLowerCase()),
-            (monster) => source === undefined || monster.source.toLowerCase() === source.toLowerCase(),
-            (monster) => type === undefined || monster.type.includes(type),
-            (monster) => cr === undefined || monster.cr.includes(cr),
-            (monster) => image === undefined || monster.image === Boolean(image),
+            (monster: Monsters) => nome === undefined || monster.name.toLowerCase().includes(nome.toLowerCase()),
+            (monster: Monsters) => source === undefined || monster.source.toLowerCase() === source.toLowerCase(),
+            (monster: Monsters) => type === undefined || monster.type === type.toLowerCase(),
+            (monster: Monsters) => cr === undefined || monster.cr === cr,
+            (monster: Monsters) => image === undefined || monster.image === image,
         ];
         return MonsterList.filter(monster => filters.reduce((acc, filter) => acc && filter(monster), true));
     }
