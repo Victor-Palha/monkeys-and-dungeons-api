@@ -86,7 +86,7 @@ class AllMonstersController {
         }else{
             image = undefined;
         }
-        //console.log(image)
+        
         if(nome === ''){
           nome = undefined;
         }

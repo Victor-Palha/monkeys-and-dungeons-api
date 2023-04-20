@@ -15,6 +15,7 @@ export interface Spell{
     higher_level?: string;
     tables?: Tables;
     classes: string[];
+    subclasses: string[];
 }
 interface Duration{
     time: string;
