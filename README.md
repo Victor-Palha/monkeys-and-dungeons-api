@@ -1,2 +1,1 @@
-# monkeys-and-dungeons-api
-## items
+# Monkeys & Dungeons API
