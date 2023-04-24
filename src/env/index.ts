@@ -6,7 +6,6 @@ const envSchema= z.object({
     PORT: z.coerce.number().default(5000),
     OPENAI_API_KEY: z.string().nonempty()
 })
-
 const _env = envSchema.safeParse(process.env)
 
 if(_env.success === false){

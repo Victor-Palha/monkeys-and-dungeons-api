@@ -10,6 +10,9 @@ npm run dev
 ## ENV
 *   You need to create a `.env` file in the root of the project
 *   You can find more information in the file `.env.example`
+## Tests
+*   After you config the `.env` file, you can run the tests
+    *   To run the tests, you need to run the command `npm run test`
 ## Routes
 ### Spells
 *   Get all Spells: `http://localhost:5000/spells`
