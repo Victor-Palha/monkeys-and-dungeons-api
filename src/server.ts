@@ -3,6 +3,7 @@ import express, {Request, Response, NextFunction} from 'express'
 import cors from 'cors'
 import { router } from './routes'
 import 'express-async-errors'
+import { env } from './env'
 
 //init express
 const app = express()
@@ -27,7 +28,7 @@ app.use((err:Error, req:Request, res:Response, next:NextFunction)=>{
 })
 
 //start server
-const port = process.env.PORT || 5000
+const port = env.PORT
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
 })
