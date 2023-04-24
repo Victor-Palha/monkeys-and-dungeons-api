@@ -27,11 +27,12 @@ class AllSpellsController {
     res.json(AllSpellsController.#SpellList(AllSpellsController.#querySpells(spells.spell, {nome, classe, action, concentration, ritual, level, school, source})))   
   }
 
-  UniqueSpell(req:Request<Query>, res:Response){
+  UniqueSpell(req:Request, res:Response){
     const spells = AllSpellsController.getSpells()
-    const {nome} = req.query as Query;
+    const { id } = req.params;
     
-    res.json(AllSpellsController.#QuerySpellUnique(spells.spell, nome))
+    const spell = spells.spell.filter(spell => spell.id === id)
+    res.json(spell)
   }
 
   //Private Functions
@@ -40,6 +41,7 @@ class AllSpellsController {
     if(spellList){
         return spellList.map((spell) => {
             return {
+                id: spell.id,
                 name: spell.name,
                 source: spell.source,
                 level: spell.level,
@@ -99,11 +101,11 @@ class AllSpellsController {
     return spellList.filter(spell => filters.reduce((acc, filter) => acc && filter(spell), true));
   }
 
-  static #QuerySpellUnique(spellList:Spell[], nome:string){
+  static #QuerySpellUnique(spellList:Spell[], id:string){
     if(spellList.filter((spell) => {
-        spell.name === nome
+        spell.id === id
     })){
-        return spellList.filter(spell => spell.name === nome);
+        return spellList.filter(spell => spell.name === id);
   }
 }
 }

@@ -23,13 +23,13 @@ router.get("/health", (req, res) => {
 .get('/monsters', new AllMonstersController().AllMonsters)
     //Monsters Query
     .get('/monsters/query', new AllMonstersController().QueryMonsters)
-    .get('/monsters/unique', new AllMonstersController().UniqueMonster)
+    .get('/monsters/:id', new AllMonstersController().UniqueMonster)
 
 //Spells
 .get('/spells', new AllSpellsController().AllSpells)
     //Query Spells
     .get('/spells/query', new AllSpellsController().QuerySpells)
-    .get('/spells/unique', new AllSpellsController().UniqueSpell)
+    .get('/spells/:id', new AllSpellsController().UniqueSpell)
 
 //Tables
     //Adventure
@@ -39,6 +39,6 @@ router.get("/health", (req, res) => {
 .get('/items', new AllItemsController().AllItems)
     //Query Items
      .get('/items/query', new AllItemsController().QueryItems)
-     .get('/items/unique', new AllItemsController().UniqueItem)
+     .get('/items/:id', new AllItemsController().UniqueItem)
 //export router
 export {router}

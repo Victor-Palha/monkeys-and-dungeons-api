@@ -16,7 +16,7 @@ class AllMonstersController {
       let bestiaryMPMM = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/bestiary-mpmm.json").toString())
       let bestiaryVRGR = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/bestiary-vrgr.json").toString())
 
-      AllMonstersController.#bestiary = [...bestiaryMM.monster, ...bestiaryMPMM.monster, ...bestiaryVRGR.monster]
+      AllMonstersController.#bestiary = [...bestiaryMM, ...bestiaryMPMM, ...bestiaryVRGR]
 
       let MMFluff = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/fluff-bestiary-mm.json").toString())
       let MPMMFluff = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/fluff-bestiary-mpmm.json").toString())
@@ -37,8 +37,6 @@ class AllMonstersController {
         const fluffs = AllMonstersController.getFluffs()
 
         return res.json([...AllMonstersController.#MonsterList(monsters, fluffs)])
-        //   [...MonsterList(bestiaryMM.monster, MMFluff.monster), ...MonsterList(bestiaryMPMM.monster, MPMMFluff.monster), ...MonsterList(bestiaryVRGR.monster, VRGRFluff.monster)]
-        // )
     }
 
     QueryMonsters(req:Request<Query>, res:Response){
@@ -50,10 +48,10 @@ class AllMonstersController {
     }
 
     UniqueMonster(req: Request, res: Response){
-        const { nome, source } = req.query;
+        const { id } = req.params;
         const monsters = AllMonstersController.getMonsters()
 
-        return res.json(AllMonstersController.#queryMonsterUnique(monsters, nome as string, source as string))
+        return res.json(AllMonstersController.#queryMonsterUnique(monsters, id))
     }
 
     // Private methods
@@ -64,6 +62,7 @@ class AllMonstersController {
           const [{ image = false, ext = null } = {}] = uniqueMonsterImg.filter(obj => obj !== null && typeof obj === 'object');
           //console.log(image, ext)
           return {
+            id: monster.id,
             name: monster.name,
             source: monster.source,
             type: monster.type,
@@ -130,17 +129,16 @@ class AllMonstersController {
       }
     }
 
-    static #queryMonsterUnique(monstersArrays, nome: string, source: string) {
-      let image = AllMonstersController.#UniqueMonsterImg(AllMonstersController.getFluffs(), nome);
-      image = image.filter(obj => obj !== null && typeof obj === 'object');
-      //console.log(image)
+    static #queryMonsterUnique(monstersArrays, id: string) {
+
       let filteredMonsters = monstersArrays.filter((monster) => {
-          const nameMatches = monster.name === nome;
-          const sourceMatches = monster.source.includes(source);
-          //console.log(nameMatches);
-          return nameMatches && sourceMatches;
+          return monster.id === id
       });
-      //console.log(filteredMonsters)
+
+      //Get Image
+      let image = AllMonstersController.#UniqueMonsterImg(AllMonstersController.getFluffs(), filteredMonsters[0].name);
+      image = image.filter(obj => obj !== null && typeof obj === 'object');
+
       filteredMonsters[0].image = image[0].image;
       filteredMonsters[0].ext = image[0].ext;
       return filteredMonsters;

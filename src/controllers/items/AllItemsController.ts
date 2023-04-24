@@ -23,7 +23,7 @@ rarity:
 */
 
 class AllItemsController {
-    static #items:Items[] = {} as Items[]
+    static #items = {} as Items[]
 
     constructor(){
         AllItemsController.#items = JSON.parse(fs.readFileSync(__dirname + "/../../models/items/items.json").toString())
@@ -45,10 +45,10 @@ class AllItemsController {
     }
 
     UniqueItem(req:Request, res:Response){
-        const {nome} = req.query
+        const {id} = req.params
         const items = AllItemsController.getItems()
         
-        const Item = items.filter(item => item.name === nome)
+        const Item = items.filter(item => item.id === id)
         return res.json(Item)
     }
 

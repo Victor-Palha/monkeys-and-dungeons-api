@@ -2,6 +2,7 @@ export interface Spells{
     spell: Spell[];
 }
 export interface Spell{
+    id: string
     name: string;
     source: string;
     level: number;
