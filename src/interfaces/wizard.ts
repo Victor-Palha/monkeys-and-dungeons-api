@@ -21,15 +21,18 @@ export interface Wizard {
         choiceB: string[]
         choiceC: string[]
     }
+    proficiency: Proficiency[]
     traits: Traits[]
     subClasse: number
     abilityScore: number[]
     spellList: SpellList[]
 }
+
 type Traits = {
     level: number
     name: string
     description: string
+    usage: string
 }
 type SpellList = {
     level: number
@@ -46,4 +49,8 @@ type SpellList = {
         lvl8: number
         lvl9: number
     }
+}
+type Proficiency = {
+    level: number
+    bonus: number
 }
