@@ -13,6 +13,27 @@ npm run dev
 ## Tests
 *   After you config the `.env` file, you can run the tests
     *   To run the tests, you need to run the command `npm run test`
+## Build
+*  To build the project, you need configure the `tsconfig.json` file
+```json
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "NodeNext",           
+    "moduleResolution": "nodenext",
+    "outDir": "build",
+    "esModuleInterop": true,     
+    "forceConsistentCasingInFileNames": true,            
+    "strict": false,
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*"],
+}
+```
+*   After that, you can run the command `npm run build`
+    *   The build will be in the `build` folder
+    *   You can run the build with the command `npm run start`
+    *   You can see better the build in the `package.json` file
 ## Routes
 ### Spells
 *   Get all Spells: `http://localhost:5000/spells`

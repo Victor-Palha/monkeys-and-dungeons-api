@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "build": "tsup src --out-dir build"
+    "build": "tsc && cp -r ./src/models build/ && cp -r ./src/public build/",
+    "start": "node build/server.js"
   },
   "keywords": [],
   "author": "",
