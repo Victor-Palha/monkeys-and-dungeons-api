@@ -12,7 +12,7 @@ app.use(express.json())
 app.use('/api/', router)
 
 //public folder
-app.use(express.static('public'))
+app.use(express.static('./src/public'))
 
 //Errors
 app.use((err:Error, req:Request, res:Response, next:NextFunction)=>{
