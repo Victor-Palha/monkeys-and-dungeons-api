@@ -1,0 +1,379 @@
+{
+    "id": "d241ad9b-bbdf-459f-82f3-7d5f25c9951c",
+    "name": "Wizard",
+    "description": "A scholarly magic-user capable of manipulating the structures of reality",
+    "classFeatures": {
+        "hitDice": "1d6",
+        "hpAt1stLevel": 6,
+        "hpAtHigherLevels": 4
+    },
+    "proficiencies": {
+        "armor": [
+            "none"
+        ],
+        "weapons": [
+            "Dagger",
+            "Dart",
+            "Sling",
+            "Quarterstaff",
+            "Light Crossbow"
+        ],
+        "tools": [
+            "none"
+        ]
+    },
+    "skills": {
+        "number": 2,
+        "list": [
+            "Arcana",
+            "History",
+            "Insight",
+            "Investigation",
+            "Medicine",
+            "Religion"
+        ]
+    },
+    "equipment": {
+        "choiceA": [
+            "Quarterstaff",
+            "Dagger"
+        ],
+        "choiceB": [
+            "Component pouch",
+            "Arcane focus"
+        ],
+        "choiceC": [
+            "Scholar's pack",
+            "Explorer's pack"
+        ]
+    },
+    "traits": [
+        {
+            "level": 1,
+            "name": "Spellcasting",
+            "description": "As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power."
+        },
+        {
+            "level": 1,
+            "name": "Arcane Recovery",
+            "description": "You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher. For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots."
+        },{
+            "level": 2,
+            "name": "Arcane Tradition",
+            "description": "When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+        },{
+            "level": 18,
+            "name": "Spell Mastery",
+            "description": "At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal. By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels."
+        },{
+            "level": 20,
+            "name": "Signature Spells",
+            "description": "When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest. If you want to cast either spell at a higher level, you must expend a spell slot as normal. By spending 8 hours in study, you can exchange one or both of your signature spells."
+        }
+    ],
+    "subClasse": 2,
+    "abilityScore":[4, 8, 12, 16, 19],
+    "spellList": [
+        {
+            "level": 1,
+            "cantrips": 3,
+            "spellsKnown": 6,
+            "spellSlots": {
+                "lvl1": 2,
+                "lvl2": 0,
+                "lvl3": 0,
+                "lvl4": 0,
+                "lvl5": 0,
+                "lvl6": 0,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 2,
+            "cantrips": 3,
+            "spellsKnown": 8,
+            "spellSlots": {
+                "lvl1": 3,
+                "lvl2": 0,
+                "lvl3": 0,
+                "lvl4": 0,
+                "lvl5": 0,
+                "lvl6": 0,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 3,
+            "cantrips": 3,
+            "spellsKnown": 10,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 2,
+                "lvl3": 0,
+                "lvl4": 0,
+                "lvl5": 0,
+                "lvl6": 0,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 4,
+            "cantrips": 4,
+            "spellsKnown": 12,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 0,
+                "lvl4": 0,
+                "lvl5": 0,
+                "lvl6": 0,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 5,
+            "cantrips": 4,
+            "spellsKnown": 14,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 2,
+                "lvl4": 0,
+                "lvl5": 0,
+                "lvl6": 0,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 6,
+            "cantrips": 4,
+            "spellsKnown": 16,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 0,
+                "lvl5": 0,
+                "lvl6": 0,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 7,
+            "cantrips": 4,
+            "spellsKnown": 18,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 1,
+                "lvl5": 0,
+                "lvl6": 0,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 8,
+            "cantrips": 4,
+            "spellsKnown": 20,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 2,
+                "lvl5": 0,
+                "lvl6": 0,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 9,
+            "cantrips": 4,
+            "spellsKnown": 22,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 1,
+                "lvl6": 0,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 10,
+            "cantrips": 5,
+            "spellsKnown": 24,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 2,
+                "lvl6": 0,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 11,
+            "cantrips": 5,
+            "spellsKnown": 26,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 2,
+                "lvl6": 1,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 12,
+            "cantrips": 5,
+            "spellsKnown": 28,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 2,
+                "lvl6": 1,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 13,
+            "cantrips": 5,
+            "spellsKnown": 30,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 2,
+                "lvl6": 1,
+                "lvl7": 1,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 14,
+            "cantrips": 5,
+            "spellsKnown": 32,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 2,
+                "lvl6": 1,
+                "lvl7": 1,
+                "lvl8": 0,
+                "lvl9": 0
+            }
+        },{
+            "level": 15,
+            "cantrips": 5,
+            "spellsKnown": 34,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 2,
+                "lvl6": 1,
+                "lvl7": 1,
+                "lvl8": 1,
+                "lvl9": 0
+            }
+        },{
+            "level": 16,
+            "cantrips": 5,
+            "spellsKnown": 36,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 2,
+                "lvl6": 1,
+                "lvl7": 1,
+                "lvl8": 1,
+                "lvl9": 0
+            }
+        },{
+            "level": 17,
+            "cantrips": 5,
+            "spellsKnown": 38,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 2,
+                "lvl6": 1,
+                "lvl7": 1,
+                "lvl8": 1,
+                "lvl9": 1
+            }
+        },{
+            "level": 18,
+            "cantrips": 5,
+            "spellsKnown": 44,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 3,
+                "lvl6": 1,
+                "lvl7": 1,
+                "lvl8": 1,
+                "lvl9": 1
+            }
+        },{
+            "level": 19,
+            "cantrips": 5,
+            "spellsKnown": 46,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 3,
+                "lvl6": 2,
+                "lvl7": 1,
+                "lvl8": 1,
+                "lvl9": 1
+            }
+        },{
+            "level": 20,
+            "cantrips": 5,
+            "spellsKnown": 48,
+            "spellSlots": {
+                "lvl1": 4,
+                "lvl2": 3,
+                "lvl3": 3,
+                "lvl4": 3,
+                "lvl5": 3,
+                "lvl6": 2,
+                "lvl7": 2,
+                "lvl8": 1,
+                "lvl9": 1
+            }
+        }
+    ]
+}
