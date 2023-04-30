@@ -73,7 +73,7 @@ npm run dev
     *   **Route Params**
         * You need to informe the ID from the Monster!
 ## How The Ecosystem Works?
-![Ecosystem](./Readme/Untitled.jpeg)
+![Ecosystem](./Readme/Untitled.png)
 
 ### Explanation
 As you can see, the ecosystem is divided in 3 parts:
