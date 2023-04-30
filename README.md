@@ -34,7 +34,7 @@ npm run dev
     *   The build will be in the `build` folder
     *   You can run the build with the command `npm run start`
     *   You can see better the build in the `package.json` file
-## Routes
+## Endpoints
 ### Spells
 *   Get all Spells: `http://localhost:5000/spells`
 *   Query Spells: `http://localhost:5000/spells/query`
@@ -73,4 +73,16 @@ npm run dev
     *   **Route Params**
         * You need to informe the ID from the Monster!
 ## How The Ecosystem Works?
-![Ecosystem](./Readme/Ecosystem.jpeg)
+![Ecosystem](./Readme/Untitled.jpeg)
+
+### Explanation
+As you can see, the ecosystem is divided in 3 parts:
+*  **Controller**: The controller is responsible to receive the request and send to the service;
+*  **Service**: The service is responsible to receive the request from the controller and send to the repository;
+*  **Repository**: The repository is responsible to receive the request from the service and send to the database;
+*  **Database**: The database is responsible to receive the request from the repository and send to the service.
+### Why?
+I follow this pattern because it's more easy to maintain the code, and it's more easy to test the code using unit tests. If i need to change the database from JSON to SQL or NoSQL, i just need to change the repository and all the code is divided in layers, so i don't need to worry about the other parts of the code when i change something.
+
+## What is the purpose of this project?
+The purpose of this project is to create a API to help the players of Dungeons & Dragons to find the spells, itens and monsters that they need to play the game. The API will be used in a future project that i will create, a website to help the players to create their characters and manage their campaigns. But most important, this project is to help me to learn more about Design Patterns, Clean Code, SOLID, TDD, DDD, etc...

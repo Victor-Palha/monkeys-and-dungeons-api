@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import fs from "node:fs"
 //chatGPT
-import { generateDnDAdventure } from "../../openai/ApiConfig";
+import { generateDnDAdventure } from "../../../openai/ApiConfig";
 
 //Body
 //Cosmic

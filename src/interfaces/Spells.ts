@@ -1,7 +1,15 @@
-export interface Spells{
-    spell: Spell[];
+export interface SpellsReturn {
+    id: string;
+    name: string;
+    source: string;
+    level: number;
+    ritual: boolean;
+    concentration: boolean;
+    classes: string[];
+    school: string;
 }
-export interface Spell{
+
+export interface Spells{
     id: string
     name: string;
     source: string;
@@ -25,20 +33,4 @@ interface Duration{
 interface Tables{
     header: string[];
     rows: string[][];
-}
-export interface Query{
-    nome?:string,
-    classe?:string,
-    action?:string,
-    concentration?: boolean | string,
-    ritual?: boolean | string,
-    level?: number | string,
-    school?: string,
-    source?: string,
-    type?: string,
-    cr?: string,
-    image?: boolean | string,
-    desc?: string,
-    rarity?: string,
-    requiresAttunement?: boolean,
 }

@@ -1,5 +1,4 @@
-{
-  "spell": [
+  [
     {
       "name": "Acid Splash",
       "source": "PHB",
@@ -8821,5 +8820,5 @@
       "classes": ["Ranger"],
       "id": "2298185b-f615-4e1c-bcae-bdf2dd4296f5"
     }
-  ]
-}
+]
+
