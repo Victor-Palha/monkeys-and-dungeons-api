@@ -9,7 +9,7 @@ import { generateDnDAdventure } from "../../../openai/ApiConfig";
 
 class GenerateAdventureController{
     async execute(req: Request, res: Response){
-        const AdventureHorror = await JSON.parse(fs.readFileSync(__dirname + "/../../models/tables/VRGR/adventures/HorrorAdventure.json").toString())
+        const AdventureHorror = await JSON.parse(fs.readFileSync(__dirname + "/../../../models/tables/VRGR/adventures/HorrorAdventure.json").toString())
         //Get Style
         const {type} = req.query
         
