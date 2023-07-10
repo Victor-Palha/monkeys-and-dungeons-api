@@ -16,6 +16,7 @@ import { AllSpellsController } from "./controllers/spells/AllSpellsController";
 import { GenerateAdventureController } from "./controllers/tables/GenerateAdventureController";
     import { QuerySpellsController } from "./controllers/spells/QuerySpellsController";
         import { UniqueSpellsController } from "./controllers/spells/UniqueSpellController";
+import { GenerateDnDCharacterController } from "./controllers/tables/GenerateDnDCharacter";
 
 //init router
 const router = Router();
@@ -36,9 +37,11 @@ router.get("/health", (req, res) => {
     .get('/spells/query', new QuerySpellsController().execute)
     .get('/spells/:id', new UniqueSpellsController().execute)
 
-//Tables
+//OpenAI
     //Adventure
     .get('/adventure', new GenerateAdventureController().execute)
+    // Image
+    .post('/character', new GenerateDnDCharacterController().execute)
 
 //Items
 .get('/items', new AllItemsController().execute)

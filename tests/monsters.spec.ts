@@ -4,9 +4,8 @@ import { app } from '../src/app'
 
 describe('Monsters', () => {
     it('should be able to list all monsters', async () =>{
-        const response = await request(app).get('/api/monsters').expect(200)
-        //console.log(response.body)
-        expect(response.body).toBeInstanceOf(Array)
+        const response = await request(app).get('/api/monsters?page=1').expect(200)
+        expect(response.body).toHaveLength(20)
     })
     it('should be able to list Monsters by query', async () =>{
         const response = await request(app).get('/api/monsters/query?nome=Aarakocra').expect(200)

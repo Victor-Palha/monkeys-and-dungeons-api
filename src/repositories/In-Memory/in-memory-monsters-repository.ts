@@ -9,20 +9,17 @@ export class InMemoryMonsters implements MonstersRepository{
 
     constructor(){
         let bestiaryMM = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/bestiary-mm.json").toString())
-        let bestiaryMPMM = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/bestiary-mpmm.json").toString())
-        let bestiaryVRGR = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/bestiary-vrgr.json").toString())
 
-        this.Bestiary = [...bestiaryMM, ...bestiaryMPMM, ...bestiaryVRGR]
+        this.Bestiary = [...bestiaryMM]
 
         let MMFluff = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/fluff-bestiary-mm.json").toString())
-        let MPMMFluff = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/fluff-bestiary-mpmm.json").toString())
-        let VRGRFluff = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/fluff-bestiary-vrgr.json").toString())
 
-        this.BestiaryFluff = [...MMFluff.monster, ...MPMMFluff.monster, ...VRGRFluff.monster]
+        this.BestiaryFluff = [...MMFluff.monster]
     }
 
-    async AllMonsters(): Promise<Monsters[]> {
-        return this.MonsterList(this.Bestiary, this.BestiaryFluff)
+    async AllMonsters(page: number): Promise<Monsters[]> {
+        const monsters = this.MonsterList(this.Bestiary, this.BestiaryFluff).slice(page * 20 - 20, page * 20)
+        return monsters
     }
     
     async QueryMonsters(query: Query): Promise<Monsters[]> {
