@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import fs from "node:fs"
 //chatGPT
-import { generateDnDAdventure } from "../../../openai/ApiConfig";
+import { generateDnDAdventure } from "../../../openai/ApiConfigAdventure";
 
 //Body
 //Cosmic
@@ -12,22 +12,24 @@ class GenerateAdventureController{
         const AdventureHorror = await JSON.parse(fs.readFileSync(__dirname + "/../../../models/tables/VRGR/adventures/HorrorAdventure.json").toString())
         //Get Style
         const {type} = req.query
-        
+
         if(type == undefined || type == null || type == "false"){
             return res.status(200).json("<h1>Choose Your Adventure!</h1>")
         }
         //Setando váriaveis 
-        const villains = GenerateAdventureController.#GetHorrorMonster(AdventureHorror, `${type} Villains`)
-        const monsters = GenerateAdventureController.#GetHorrorMonster(AdventureHorror, `${type} Monsters`)
-        const settings = GenerateAdventureController.#GetHorrorMonster(AdventureHorror, `${type} Settings`)
-        const plots = GenerateAdventureController.#GetHorrorMonster(AdventureHorror, `${type} Plots`)
-        //Chat GPT
-        
-        await generateDnDAdventure({settings, plots, villains, monsters}).then((response) => {
-            return res.json(response)
-        }).catch((err)=>{
-            return res.status(400).json({ error: err.message })
-        })
+        const villains = GenerateAdventureController.#GetHorrorMonster(AdventureHorror, `${type} Villains`) as string[]
+        const monsters = GenerateAdventureController.#GetHorrorMonster(AdventureHorror, `${type} Monsters`) as string[]
+        const settings = GenerateAdventureController.#GetHorrorMonster(AdventureHorror, `${type} Settings`) as string[]
+        const plots = GenerateAdventureController.#GetHorrorMonster(AdventureHorror, `${type} Plots`) as string[]
+        //OpenAI
+
+        try {
+            const response = await generateDnDAdventure({settings, plots, villains, monsters})
+            return res.status(200).json(response.content)
+        } catch (error) {
+            return res.status(500).json(error)
+        }
+
     }
     // private methods
     static #rollDice(str: string) {

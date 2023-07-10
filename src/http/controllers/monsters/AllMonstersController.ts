@@ -4,8 +4,9 @@ import { InMemoryMonsters } from "../../../repositories/In-Memory/in-memory-mons
 
 export class AllMonstersController{
     async execute(req:Request, res:Response){
+        const {page} = req.query
         const allMonstersService = new AllMonstersService(new InMemoryMonsters)
-        const allMonsters = await allMonstersService.execute()
+        const allMonsters = await allMonstersService.execute(Number(page))
 
         return res.json(allMonsters)
     }
