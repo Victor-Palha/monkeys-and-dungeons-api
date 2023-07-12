@@ -14,33 +14,46 @@ export class InMemoryItems implements ItemsRepository {
         return this.Items
     }
 
-    async QueryItems({nome, type, rarity, requiresAttunement}: Query) {
+    async QueryItems(search: string) {
 
-        if(requiresAttunement === "false"){
-            requiresAttunement = false
-        }else if(requiresAttunement === "true"){
-            requiresAttunement = true
-        }else{
-            requiresAttunement = undefined
-        }
-        if(type == ''){
-            type = undefined
-        }
-        if(rarity == ''){
-            rarity = undefined
-        }
-        if(nome == ''){
-            nome = undefined
-        }
+        // if(requiresAttunement === "false"){
+        //     requiresAttunement = false
+        // }else if(requiresAttunement === "true"){
+        //     requiresAttunement = true
+        // }else{
+        //     requiresAttunement = undefined
+        // }
+        // if(type == ''){
+        //     type = undefined
+        // }
+        // if(rarity == ''){
+        //     rarity = undefined
+        // }
+        // if(nome == ''){
+        //     nome = undefined
+        // }
 
-        const filters = [
-            (item:Items) => nome === undefined || item.name.toLowerCase().includes(nome.toLowerCase()),
-            (item:Items) => type === undefined || item.type.toLowerCase().includes(type.toLowerCase()),
-            (item:Items) => rarity === undefined || item.rarity.toLowerCase().includes(rarity.toLowerCase()),
-            (item:Items) => requiresAttunement === undefined || item.requiresAttunement === Boolean(requiresAttunement),
-        ]
+        // const filters = [
+        //     (item:Items) => nome === undefined || item.name.toLowerCase().includes(nome.toLowerCase()),
+        //     (item:Items) => type === undefined || item.type.toLowerCase().includes(type.toLowerCase()),
+        //     (item:Items) => rarity === undefined || item.rarity.toLowerCase().includes(rarity.toLowerCase()),
+        //     (item:Items) => requiresAttunement === undefined || item.requiresAttunement === Boolean(requiresAttunement),
+        // ]
 
-        return this.Items.filter(item => filters.reduce((acc, filter) => acc && filter(item), true))
+        // return this.Items.filter(item => filters.reduce((acc, filter) => acc && filter(item), true))
+        const itemList = this.Items.filter(item => {
+            if(item.name.toLowerCase().includes(search.toLowerCase())){
+                return item
+            }
+            else if(item.rarity.toLocaleLowerCase().includes(search.toLocaleLowerCase())){
+                return item
+            }
+            else if(item.type.toLocaleLowerCase().includes(search.toLocaleLowerCase())){
+                return item
+            }
+        })
+
+        return itemList
     }
 
     async UniqueItem(id: string){

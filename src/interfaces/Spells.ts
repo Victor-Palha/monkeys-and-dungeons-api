@@ -7,6 +7,8 @@ export interface SpellsReturn {
     concentration: boolean;
     classes: string[];
     school: string;
+    time: string,
+    range: string,
 }
 
 export interface Spells{

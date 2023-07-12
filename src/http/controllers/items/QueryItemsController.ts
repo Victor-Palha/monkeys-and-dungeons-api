@@ -5,10 +5,10 @@ import { Request, Response } from "express";
 
 export class QueryItemsController{
     async execute(req: Request<Query>, res: Response){
-        const  query  = req.query as Query;
+        const {search} = req.query;
 
         const queryItensService = new QueryItemsService(new InMemoryItems);
-        const items = await queryItensService.execute(query);
+        const items = await queryItensService.execute(search as string);
 
         return res.json(items);
     }

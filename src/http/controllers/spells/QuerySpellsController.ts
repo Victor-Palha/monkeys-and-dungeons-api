@@ -7,7 +7,9 @@ export class QuerySpellsController{
 
     const querySpellsService = new QuerySpellsService(new InMemorySpells)
 
-    const querySpells = await querySpellsService.execute(req.query)
+    const {search} = req.query
+
+    const querySpells = await querySpellsService.execute(search as string)
 
     return res.json(querySpells)
   }
