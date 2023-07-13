@@ -17,6 +17,7 @@ import { GenerateAdventureController } from "./controllers/tables/GenerateAdvent
     import { QuerySpellsController } from "./controllers/spells/QuerySpellsController";
         import { UniqueSpellsController } from "./controllers/spells/UniqueSpellController";
 import { GenerateDnDCharacterController } from "./controllers/tables/GenerateDnDCharacter";
+import { SearchClassController } from "./controllers/classes/SearchClasseControllet";
 
 //init router
 const router = Router();
@@ -48,5 +49,8 @@ router.get("/health", (req, res) => {
     //Query Items
      .get('/items/query', new QueryItemsController().execute)
      .get('/items/:id', new UniqueItemController().execute)
+
+//Classes
+.get('/classes', new SearchClassController().execute)
 //export router
 export {router}
