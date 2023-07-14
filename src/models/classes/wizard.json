@@ -1,0 +1,125 @@
+{
+    "id": "f5a48a1e-2255-11ee-be56-0242ac120002",
+    "name": "Wizard",
+    "class_features": {
+        "hit_points":{
+            "hit_dice": "1d6 per Wizard level",
+            "hp_at_1st_level": "6 + your Constitution modifier",
+            "hp_at_higher_levels": "1d6 (or 4) + your Constitution modifier per Wizard level after 1st"
+        },
+        "proficiencies": {
+            "armor": "none",
+            "weapons": "daggers, darts, slings, quarterstaffs, light crossbows",
+            "tools": "none",
+            "saving_throws": "Intelligence, Wisdom",
+            "skills": "Choose 2 from Arcana, History, Insight, Investigation, Medicine, and Religion."
+        },
+        "equipment": [
+            "A spellbook",
+            "(a) a quarterstaff or (b) a dagger",
+            "(a) a component pouch or (b) an arcane focus",
+            "(a) a scholar's pack or (b) an explorer's pack"
+        ]
+    },
+    "features": [{
+        "index": "arcane-recovery",
+        "name": "Arcane Recovery",
+        "content": "You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.\n\nFor example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots.\n\nYou can recover either a 2nd-level spell slot or two 1st-level spell slots."
+        },
+        {
+        "index": "spellcasting",
+        "name": "Spellcasting",
+        "content": "As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list."
+        },
+        {
+        "index": "cantrips",
+        "name": "Cantrips",
+        "content": "At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table."
+        },
+        {
+        "index": "spellbook",
+        "name": "Spellbook",
+        "content": "At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind."
+        },
+        {
+        "index": "preparing-and-casting-spells",
+        "name": "Preparing and Casting Spells",
+        "content": "The Wizard table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nFor example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.\n\nYou can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list."
+        },
+        {
+        "index": "spellcasting-ability",
+        "name": "Spellcasting Ability",
+        "content": "Intelligence is your spellcasting ability for your wizard spells, since you learn your wizard spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier"
+        },
+        {
+        "index": "ritual-casting",
+        "name": "Ritual Casting",
+        "content": "You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared."
+        },
+        {
+        "index": "spellcasting-focus",
+        "name": "Spellcasting Focus",
+        "content": "You can use an arcane focus as a spellcasting focus for your wizard spells."
+        },
+        {
+        "index": "learning-spells-of-1st-level-and-higher",
+        "name": "Learning Spells of 1st Level and Higher",
+        "content": "Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook (see 'Your Spellbook')."
+        },
+        {
+        "index": "arcane-tradition",
+        "name": "Arcane Tradition",
+        "content": "When you reach 2nd level, you choose an arcane tradition from the list of available traditions, shaping your practice of magic. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+        },
+        {
+        "index": "ability-score-improvement-4th-level",
+        "name": "Ability Score Improvement (4th Level)",
+        "content": "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "arcane-tradition-feature-6th-level",
+        "name": "Arcane Tradition Feature (6th Level)",
+        "content": "At 6th level, you gain a feature granted by your Arcane Tradition."
+        },
+        {
+        "index": "ability-score-improvement-8th-level",
+        "name": "Ability Score Improvement (8th Level)",
+        "content": "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "arcane-tradition-feature-10th-level",
+        "name": "Arcane Tradition Feature (10th Level)",
+        "content": "At 10th level, you gain a feature granted by your Arcane Tradition."
+        },
+        {
+        "index": "ability-score-improvement-12th-level",
+        "name": "Ability Score Improvement (12th Level)",
+        "content": "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "arcane-tradition-feature-14th-level",
+        "name": "Arcane Tradition Feature (14th Level)",
+        "content": "At 14th level, you gain a feature granted by your Arcane Tradition."
+        },
+        {
+        "index": "ability-score-improvement-16th-level",
+        "name": "Ability Score Improvement (16th Level)",
+        "content": "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "spell-mastery",
+        "name": "Spell Mastery",
+        "content": "At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.\n\nBy spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels."
+        },
+        {
+        "index": "ability-score-improvement-19th-level",
+        "name": "Ability Score Improvement (19th Level)",
+        "content": "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "signature-spells",
+        "name": "Signature Spells",
+        "content": "When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.\n\nIf you want to cast either spell at a higher level, you must expend a spell slot as normal."
+        }
+        ]
+}

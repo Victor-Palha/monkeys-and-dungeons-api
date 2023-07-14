@@ -1,0 +1,124 @@
+{
+    "id": "5e7e2db8-2253-11ee-be56-0242ac120002",
+    "name": "Warlock",
+    "class_features": {
+        "hit_points":{
+            "hit_dice": "1d8 per Warlock level",
+            "hp_at_1st_level": "8 + your Constitution modifier",
+            "hp_at_higher_levels": "1d8 (or 5) + your Constitution modifier per Warlock level after 1st"
+        },
+        "proficiencies": {
+            "armor": "light armor",
+            "weapons": "simple weapons",
+            "tools": "none",
+            "saving_throws": "Wisdom, Charisma",
+            "skills": "Choose 2 from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion."
+        },
+        "equipment": [
+            "Leather armor, any simple weapon, and two daggers",
+            "(a) a light crossbow and 20 bolts or (b) any simple weapon",
+            "(a) a component pouch or (b) an arcane focus",
+            "(a) a scholar's pack or (b) a dungeoneer's pack"
+        ]
+    },
+    "features": [{
+        "index": "pact-magic",
+        "name": "Pact Magic",
+        "content": "Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the warlock spell list.\n\nCantrips[–]\n\nYou know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.\n\nSpell Slots[–]\n\nThe Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nFor example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell.\n\nSpells Known of 1st Level and Higher[–]\n\nAt 1st level, you know two 1st-level spells of your choice from the warlock spell list.\n\nThe Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability[–]\n\nCharisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier\n\nSpellcasting Focus[–]\n\nYou can use an arcane focus as a spellcasting focus for your warlock spells."
+        },
+        {
+        "index": "otherworldly-patron",
+        "name": "Otherworldly Patron",
+        "content": "At 1st level, you have struck a bargain with an otherworldly being chosen from the list of available patrons. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+        },
+        {
+        "index": "eldritch-invocations",
+        "name": "Eldritch Invocations",
+        "content": "In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.\n\nAt 2nd level, you gain two eldritch invocations of your choice. A list of the available options can be found on the Optional Features page. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.\n\nAdditionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.\n\nIf an eldritch invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites. A level prerequisite refers to your level in this class."
+        },
+        {
+        "index": "pact-boon",
+        "name": "Pact Boon",
+        "content": "At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice."
+        },
+        {
+        "index": "pact-of-the-blade",
+        "name": "Pact of the Blade",
+        "content": "You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see chapter 5 for weapon options). You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n\nYour pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.\n\nYou can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks."
+        },
+        {
+        "index": "pact-of-the-chain",
+        "name": "Pact of the Chain",
+        "content": "You learn the find familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known.\n\nWhen you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.\n\nAdditionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to use its reaction to make one attack of its own."
+        },
+        {
+        "index": "pact-of-the-tome",
+        "name": "Pact of the Tome",
+        "content": "Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list. The cantrips do not need to be from the same spell list. While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. Any cantrip you cast with this feature is considered a warlock cantrip for you. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die."
+        },
+        {
+        "index": "ability-score-improvement-4th-level",
+        "name": "Ability Score Improvement (4th Level)",
+        "content": "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "otherworldly-patron-feature-6th-level",
+        "name": "Otherworldly Patron Feature (6th Level)",
+        "content": "At 6th level, you gain a feature granted by your Otherworldly Patron."
+        },
+        {
+        "index": "ability-score-improvement-8th-level",
+        "name": "Ability Score Improvement (8th Level)",
+        "content": "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "otherworldly-patron-feature-10th-level",
+        "name": "Otherworldly Patron Feature (10th Level)",
+        "content": "At 10th level, you gain a feature granted by your Otherworldly Patron."
+        },
+        {
+        "index": "mystic-arcanum-6th-level",
+        "name": "Mystic Arcanum (6th Level)",
+        "content": "At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum.\n\nYou can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.\n\nAt higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."
+        },
+        {
+        "index": "ability-score-improvement-12th-level",
+        "name": "Ability Score Improvement (12th Level)",
+        "content": "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "mystic-arcanum-7th-level",
+        "name": "Mystic Arcanum (7th Level)",
+        "content": "At 13th level, your patron bestows upon you a magical secret called an arcanum. Choose one 7th-level spell from the warlock spell list as this arcanum.\n\nYou can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+        },
+        {
+        "index": "otherworldly-patron-feature-14th-level",
+        "name": "Otherworldly Patron Feature (14th Level)",
+        "content": "At 14th level, you gain a feature granted by your Otherworldly Patron."
+        },
+        {
+        "index": "mystic-arcanum-8th-level",
+        "name": "Mystic Arcanum (8th Level)",
+        "content": "At 15th level, your patron bestows upon you a magical secret called an arcanum. Choose one 8th-level spell from the warlock spell list as this arcanum.\n\nYou can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+        },
+        {
+        "index": "ability-score-improvement-16th-level",
+        "name": "Ability Score Improvement (16th Level)",
+        "content": "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "mystic-arcanum-9th-level",
+        "name": "Mystic Arcanum (9th Level)",
+        "content": "At 17th level, your patron bestows upon you a magical secret called an arcanum. Choose one 9th-level spell from the warlock spell list as this arcanum.\n\nYou can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+        },
+        {
+        "index": "ability-score-improvement-19th-level",
+        "name": "Ability Score Improvement (19th Level)",
+        "content": "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "eldritch-master",
+        "name": "Eldritch Master",
+        "content": "At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again."
+        }]
+}

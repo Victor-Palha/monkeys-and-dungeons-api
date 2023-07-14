@@ -1,0 +1,130 @@
+{
+    "id": "fd009e1e-224c-11ee-be56-0242ac120002",
+    "name": "Monk",
+    "class_features": {
+        "hit_points":{
+            "hit_dice": "1d8 per Monk level",
+            "hp_at_1st_level": "5 + your Constitution modifier",
+            "hp_at_higher_levels": "1d8 (or 5) + your Constitution modifier per Monk level after 1st"
+        },
+        "proficiencies": {
+            "armor": "None",
+            "weapons": "simple weapons, shortswords",
+            "tools": "any one type of artisan's tools or any one musical instrument of your choice",
+            "saving_throws": "Strength, Dexterity",
+            "skills": "Choose 2 from Acrobatics, Athletics, History, Insight, Religion, and Stealth."
+        },
+        "equipment": [
+            "10 darts",
+            "(a) a shortsword or (b) any simple weapon",
+            "(a) a dungeoneer's pack or (b) an explorer's pack"
+        ]
+    },
+    "features": [
+        {
+          "index": "unarmored-defense",
+          "name": "Unarmored Defense",
+          "content": "Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+        },
+        {
+          "index": "martial-arts",
+          "name": "Martial Arts",
+          "content": "Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.\n\nYou gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.\n\n- You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.\n- You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.\n- When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action."
+        },
+        {
+          "index": "ki",
+          "name": "Ki",
+          "content": "Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.\n\nYou can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.\n\nWhen you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.\n\nSome of your ki features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:\n\nKi save DC = 8 + your proficiency bonus + your Wisdom modifier"
+        },
+        {
+          "index": "unarmored-movement",
+          "name": "Unarmored Movement",
+          "content": "Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.\n\nAt 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move."
+        },
+        {
+          "index": "deflect-missiles",
+          "name": "Deflect Missiles",
+          "content": "Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.\n\nIf you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction."
+        },
+        {
+          "index": "monastic-tradition",
+          "name": "Monastic Tradition",
+          "content": "When you reach 3rd level, you commit yourself to a monastic tradition, chosen from the list of available traditions. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level."
+        },
+        {
+          "index": "ability-score-improvement-7",
+          "name": "Ability Score Improvement",
+          "content": "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+          "index": "slow-fall",
+          "name": "Slow Fall",
+          "content": "Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level."
+        },
+        {
+          "index": "extra-attack",
+          "name": "Extra Attack",
+          "content": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+        },
+        {
+          "index": "stunning-strike",
+          "name": "Stunning Strike",
+          "content": "Starting at 5th level, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn."
+        },
+        {
+          "index": "ki-empowered-strikes",
+          "name": "Ki-Empowered Strikes",
+          "content": "Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+        },
+        {
+          "index": "evasion",
+          "name": "Evasion",
+          "content": "At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+        },
+        {
+          "index": "stillness-of-mind",
+          "name": "Stillness of Mind",
+          "content": "Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened."
+        },
+        {
+          "index": "ability-score-improvement-8",
+          "name": "Ability Score Improvement",
+          "content": "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+          "index": "tongue-of-the-sun-and-moon",
+          "name": "Tongue of the Sun and Moon",
+          "content": "Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say."
+        },
+        {
+          "index": "diamond-soul",
+          "name": "Diamond Soul",
+          "content": "Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.\n\nAdditionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result."
+        },
+        {
+          "index": "timeless-body",
+          "name": "Timeless Body",
+          "content": "At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water."
+        },
+        {
+          "index": "ability-score-improvement-9",
+          "name": "Ability Score Improvement",
+          "content": "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+          "index": "empty-body",
+          "name": "Empty Body",
+          "content": "Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.\n\nAdditionally, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can't take any other creatures with you."
+        },
+        {
+          "index": "ability-score-improvement-10",
+          "name": "Ability Score Improvement",
+          "content": "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+          "index": "perfect-self",
+          "name": "Perfect Self",
+          "content": "At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points."
+        }
+      ]
+}

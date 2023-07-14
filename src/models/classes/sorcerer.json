@@ -1,0 +1,176 @@
+{
+    "id": "02376a26-2256-11ee-be56-0242ac120002",
+    "name": "Sorcerer",
+    "class_features": {
+        "hit_points":{
+            "hit_dice": "1d6 per Sorcerer level",
+            "hp_at_1st_level": "6 + your Constitution modifier",
+            "hp_at_higher_levels": "1d6 (or 4) + your Constitution modifier per Sorcerer level after 1st"
+        },
+        "proficiencies": {
+            "armor": "none",
+            "weapons": "daggers, darts, slings, quarterstaffs, light crossbows",
+            "tools": "none",
+            "saving_throws": "Constitution, Charisma",
+            "skills": "Choose 2 from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion."
+        },
+        "equipment": [
+            "Two daggers",
+            "(a) a light crossbow and 20 bolts or (b) any simple weapon",
+            "(a) a component pouch or (b) an arcane focus",
+            "(a) a dungeoneer's pack or (b) an explorer's pack"
+        ]
+    },
+    "features": [
+        {
+        "index": "spellcasting",
+        "name": "Spellcasting",
+        "content": "An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the sorcerer spell list."
+        },
+        {
+        "index": "cantrips",
+        "name": "Cantrips",
+        "content": "At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn an additional sorcerer cantrip of your choice at 4th level and another at 10th level."
+        },
+        {
+        "index": "spell-slots",
+        "name": "Spell Slots",
+        "content": "The Sorcerer table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot."
+        },
+        {
+        "index": "spells-known",
+        "name": "Spells Known of 1st Level and Higher",
+        "content": "You know two 1st-level spells of your choice from the sorcerer spell list.\n\nYou learn an additional sorcerer spell of your choice at each level except 12th, 14th, 16th, 18th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots."
+        },
+        {
+        "index": "spellcasting-ability",
+        "name": "Spellcasting Ability",
+        "content": "Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier"
+        },
+        {
+        "index": "spellcasting-focus",
+        "name": "Spellcasting Focus",
+        "content": "You can use an arcane focus as a spellcasting focus for your sorcerer spells."
+        },
+        {
+        "index": "sorcerous-origin",
+        "name": "Sorcerous Origin",
+        "content": "Choose a sorcerous origin, which describes the source of your innate magical power, from the list of available origins.\n\nYour choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level."
+        },
+        {
+        "index": "font-of-magic",
+        "name": "Font of Magic",
+        "content": "At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects."
+        },
+        {
+        "index": "sorcery-points",
+        "name": "Sorcery Points",
+        "content": "You have 2 sorcery points, and you gain one additional point every time you level up, to a maximum of 20 at level 20. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest."
+        },
+        {
+        "index": "flexible-casting",
+        "name": "Flexible Casting",
+        "content": "You can use your sorcery points to gain additional spell slots or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.\n\nCreating Spell Slots:\n\nYou can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The created spell slots vanish at the end of a long rest. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.\n\nConverting a Spell Slot to Sorcery Points:\n\nAs a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level."
+        },
+        {
+        "index": "metamagic",
+        "name": "Metamagic",
+        "content": "At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.\n\nYou can use only one Metamagic option on a spell when you cast it, unless otherwise noted."
+        },
+        {
+        "index": "careful-spell",
+        "name": "Careful Spell",
+        "content": "When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell."
+        },
+        {
+        "index": "distant-spell",
+        "name": "Distant Spell",
+        "content": "When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.\n\nWhen you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet."
+        },
+        {
+        "index": "empowered-spell",
+        "name": "Empowered Spell",
+        "content": "When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.\n\nYou can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell."
+        },
+        {
+        "index": "extended-spell",
+        "name": "Extended Spell",
+        "content": "When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours."
+        },
+        {
+        "index": "heightened-spell",
+        "name": "Heightened Spell",
+        "content": "When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell."
+        },
+        {
+        "index": "quickened-spell",
+        "name": "Quickened Spell",
+        "content": "When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
+        },
+        {
+        "index": "subtle-spell",
+        "name": "Subtle Spell",
+        "content": "When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components."
+        },
+        {
+        "index": "twinned-spell",
+        "name": "Twinned Spell",
+        "content": "When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).\n\nTo be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are."
+        },
+        {
+        "index": "ability-score-improvement-4",
+        "name": "Ability Score Improvement",
+        "content": "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "sorcerous-origin-feature-1",
+        "name": "Sorcerous Origin feature",
+        "content": "At 6th level, you gain a feature granted by your Sorcerous Origin."
+        },
+        {
+        "index": "ability-score-improvement-6",
+        "name": "Ability Score Improvement",
+        "content": "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "metamagic-2",
+        "name": "Metamagic",
+        "content": "At 10th level, you learn an additional metamagic option."
+        },
+        {
+        "index": "ability-score-improvement-8",
+        "name": "Ability Score Improvement",
+        "content": "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "sorcerous-origin-feature-2",
+        "name": "Sorcerous Origin feature",
+        "content": "At 14th level, you gain a feature granted by your Sorcerous Origin."
+        },
+        {
+        "index": "ability-score-improvement-10",
+        "name": "Ability Score Improvement",
+        "content": "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "metamagic-3",
+        "name": "Metamagic",
+        "content": "At 17th level, you learn an additional metamagic option."
+        },
+        {
+        "index": "sorcerous-origin-feature-3",
+        "name": "Sorcerous Origin feature",
+        "content": "At 18th level, you gain a feature granted by your Sorcerous Origin."
+        },
+        {
+        "index": "ability-score-improvement-12",
+        "name": "Ability Score Improvement",
+        "content": "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat."
+        },
+        {
+        "index": "sorcerous-restoration",
+        "name": "Sorcerous Restoration",
+        "content": "At 20th level, you regain 4 expended sorcery points whenever you finish a short rest."
+        }
+        ]
+}
