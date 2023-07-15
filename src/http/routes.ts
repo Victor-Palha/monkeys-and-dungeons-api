@@ -18,6 +18,9 @@ import { GenerateAdventureController } from "./controllers/tables/GenerateAdvent
         import { UniqueSpellsController } from "./controllers/spells/UniqueSpellController";
 import { GenerateDnDCharacterController } from "./controllers/tables/GenerateDnDCharacter";
 import { SearchClassController } from "./controllers/classes/SearchClasseControllet";
+import { CreateId } from "./controllers/createId";
+import { GetAllFeatsController } from "./controllers/feats/get-all-feats-controller";
+import { UniqueFeatController } from "./controllers/feats/UniqueFeatController";
 
 //init router
 const router = Router();
@@ -26,6 +29,7 @@ const router = Router();
 router.get("/health", (req, res) => {
     return res.sendStatus(200)
 })
+.get("/newID", new CreateId().execute)
 //Monsters
 .get('/monsters', new AllMonstersController().execute)
     //Monsters Query
@@ -52,5 +56,9 @@ router.get("/health", (req, res) => {
 
 //Classes
 .get('/classes', new SearchClassController().execute)
+
+//Feats
+    .get('/feats', new GetAllFeatsController().execute)
+    .get('/feats/:id', new UniqueFeatController().execute)
 //export router
 export {router}
