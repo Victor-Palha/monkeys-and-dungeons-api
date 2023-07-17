@@ -4,7 +4,7 @@ export interface Feats{
     source: string
     page: string
     description: string
-    benefit: string[]
+    benefits: string[]
 }
 
 export interface AllFeats{
