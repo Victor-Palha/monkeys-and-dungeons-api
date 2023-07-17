@@ -21,6 +21,7 @@ import { SearchClassController } from "./controllers/classes/SearchClasseControl
 import { CreateId } from "./controllers/createId";
 import { GetAllFeatsController } from "./controllers/feats/get-all-feats-controller";
 import { UniqueFeatController } from "./controllers/feats/UniqueFeatController";
+import { GetAllBackgroundsController } from "./controllers/backgrounds/GetAllBackgroundsController";
 
 //init router
 const router = Router();
@@ -60,5 +61,8 @@ router.get("/health", (req, res) => {
 //Feats
     .get('/feats', new GetAllFeatsController().execute)
     .get('/feats/:id', new UniqueFeatController().execute)
+
+// Backgrounds
+    .get('/backgrounds', new GetAllBackgroundsController().execute)
 //export router
 export {router}
