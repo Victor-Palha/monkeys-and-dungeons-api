@@ -1,5 +1,6 @@
-import { CharacterBackground } from "../interfaces/background";
+import { BackgroundTemplate, CharacterBackground } from "../interfaces/background";
 
 export interface BackgroundRepository {
-    getAllBackgrounds(): Promise<CharacterBackground[]>;
+    getAllBackgrounds(): Promise<BackgroundTemplate[]>;
+    uniqueBackground(id: string): Promise<CharacterBackground>;
 }

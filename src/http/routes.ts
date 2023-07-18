@@ -22,6 +22,7 @@ import { CreateId } from "./controllers/createId";
 import { GetAllFeatsController } from "./controllers/feats/get-all-feats-controller";
 import { UniqueFeatController } from "./controllers/feats/UniqueFeatController";
 import { GetAllBackgroundsController } from "./controllers/backgrounds/GetAllBackgroundsController";
+import { UniqueBackgroundController } from "./controllers/backgrounds/UniqueBackgroundController";
 
 //init router
 const router = Router();
@@ -64,5 +65,6 @@ router.get("/health", (req, res) => {
 
 // Backgrounds
     .get('/backgrounds', new GetAllBackgroundsController().execute)
+    .get('/backgrounds/:id', new UniqueBackgroundController().execute)
 //export router
 export {router}

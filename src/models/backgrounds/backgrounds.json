@@ -1,59 +1,59 @@
 [
-{
+  {
     "Classe": "Acolyte",
-  "Source": "PHB",
-  "Page": "p127",
-  "SkillProficiencies": "Insight, Religion",
-  "Languages": "Two of your choice",
-  "Equipment": [
-    "A holy symbol (a gift to you when you entered the priesthood)",
-    "A prayer book or prayer wheel",
-    "5 sticks of incense",
-    "Vestments",
-    "A set of common clothes",
-    "A belt pouch containing 15 gp"
-  ],
-  "Feature": "Shelter of the Faithful",
-  "FeatureDescription":
-    "As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.\n\nYou might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.",
-  "SuggestedCharacteristics": {
-    "PersonalityTraits": [
-      "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.",
-      "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.",
-      "I see omens in every event and action. The gods try to speak to us, we just need to listen.",
-      "Nothing can shake my optimistic attitude.",
-      "I quote (or misquote) sacred texts and proverbs in almost every situation.",
-      "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.",
-      "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me.",
-      "I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+    "Source": "PHB",
+    "Page": "p127",
+    "SkillProficiencies": "Insight, Religion",
+    "Languages": "Two of your choice",
+    "Equipment": [
+      "A holy symbol (a gift to you when you entered the priesthood)",
+      "A prayer book or prayer wheel",
+      "5 sticks of incense",
+      "Vestments",
+      "A set of common clothes",
+      "A belt pouch containing 15 gp"
     ],
-    "Ideals": [
-      "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)",
-      "Charity. I always try to help those in need, no matter what the personal cost. (Good)",
-      "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
-      "Power. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)",
-      "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)",
-      "Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any)"
-    ],
-    "Bonds": [
-      "I would die to recover an ancient relic of my faith that was lost long ago.",
-      "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.",
-      "I owe my life to the priest who took me in when my parents died.",
-      "Everything I do is for the common people.",
-      "I will do anything to protect the temple where I served.",
-      "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
-    ],
-    "Flaws": [
-      "I judge others harshly, and myself even more severely.",
-      "I put too much trust in those who wield power within my temple's hierarchy.",
-      "My piety sometimes leads me to blindly trust those that profess faith in my god.",
-      "I am inflexible in my thinking.",
-      "I am suspicious of strangers and expect the worst of them.",
-      "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
-    ]
-  }
-},
-{
+    "Feature": "Shelter of the Faithful",
+    "FeatureDescription": "As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.\n\nYou might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.",
+    "SuggestedCharacteristics": {
+      "PersonalityTraits": [
+        "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.",
+        "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.",
+        "I see omens in every event and action. The gods try to speak to us, we just need to listen.",
+        "Nothing can shake my optimistic attitude.",
+        "I quote (or misquote) sacred texts and proverbs in almost every situation.",
+        "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.",
+        "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me.",
+        "I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+      ],
+      "Ideals": [
+        "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)",
+        "Charity. I always try to help those in need, no matter what the personal cost. (Good)",
+        "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
+        "Power. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)",
+        "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)",
+        "Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any)"
+      ],
+      "Bonds": [
+        "I would die to recover an ancient relic of my faith that was lost long ago.",
+        "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.",
+        "I owe my life to the priest who took me in when my parents died.",
+        "Everything I do is for the common people.",
+        "I will do anything to protect the temple where I served.",
+        "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+      ],
+      "Flaws": [
+        "I judge others harshly, and myself even more severely.",
+        "I put too much trust in those who wield power within my temple's hierarchy.",
+        "My piety sometimes leads me to blindly trust those that profess faith in my god.",
+        "I am inflexible in my thinking.",
+        "I am suspicious of strangers and expect the worst of them.",
+        "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+      ]
+    },
+    "id": "a59ddbb4-f479-482d-83e5-80bee7d91c08"
+  },
+  {
     "Classe": "Charlatan",
     "Source": "PHB",
     "Page": "p128",
@@ -111,7 +111,8 @@
         "I can't resist swindling people who are more powerful than me.",
         "I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough."
       ]
-    }
+    },
+    "id": "d73001a9-aed1-4d92-ba58-c454e4429ed3"
   },
   {
     "Classe": "Criminal",
@@ -172,8 +173,10 @@
         "I turn tail and run when things look bad.",
         "An innocent person is in prison for a crime that I committed. I'm okay with that."
       ]
-    }
-  },{
+    },
+    "id": "5973a053-d8ae-496d-b5ac-cfa7aa633cdb"
+  },
+  {
     "Classe": "Entertainer",
     "Source": "PHB",
     "Page": "p130",
@@ -235,7 +238,8 @@
         "I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble.",
         "Despite my best efforts, I am unreliable to my friends."
       ]
-    }
+    },
+    "id": "8f8aaddc-97b3-4927-8045-5245a7316410"
   },
   {
     "Classe": "Folk Hero",
@@ -300,8 +304,10 @@
         "Secretly, I believe that things would be better if I were a tyrant lording over the land.",
         "I have trouble trusting in my allies."
       ]
-    }
-  },{
+    },
+    "id": "46500934-ebc4-47e8-a286-178ab74a213f"
+  },
+  {
     "Classe": "Guild Artisan",
     "Source": "PHB",
     "Page": "p132",
@@ -374,8 +380,10 @@
         "I would kill to acquire a noble title.",
         "I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals."
       ]
-    }
-  },{
+    },
+    "id": "6f8787c2-0e87-47b4-9134-0352fe1c0663"
+  },
+  {
     "Classe": "Noble",
     "Source": "PHB",
     "Page": "p135",
@@ -425,8 +433,10 @@
         "In fact, the world does revolve around me.",
         "By my words and actions, I often bring shame to my family."
       ]
-    }
-  },{
+    },
+    "id": "031e20e8-e8fe-4bab-82f5-7df386f985b1"
+  },
+  {
     "Classe": "Outlander",
     "Source": "PHB",
     "Page": "p136",
@@ -492,8 +502,10 @@
         "Violence is my answer to almost any challenge.",
         "Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish."
       ]
-    }
-  },{
+    },
+    "id": "a990e225-5a7e-44a0-9086-da2cccf69cec"
+  },
+  {
     "Classe": "Sage",
     "Source": "PHB",
     "Page": "p137",
@@ -557,8 +569,10 @@
         "I speak without really thinking through my words, invariably insulting others.",
         "I can't keep a secret to save my life, or anyone else's."
       ]
-    }
-  },{
+    },
+    "id": "b21c41c0-a933-4e0a-b530-d2ed79172f68"
+  },
+  {
     "Classe": "Soldier",
     "Source": "PHB",
     "Page": "p140",
@@ -621,8 +635,10 @@
         "I obey the law, even if the law causes misery.",
         "I'd rather eat my armor than admit when I'm wrong."
       ]
-    }
-  },{
+    },
+    "id": "53100142-bf97-4315-a50f-3591d1077693"
+  },
+  {
     "Classe": "Urchin",
     "Source": "PHB",
     "Page": "p141",
@@ -673,6 +689,7 @@
         "It's not stealing if I need it more than someone else.",
         "People who can't take care of themselves get what they deserve."
       ]
-    }
+    },
+    "id": "7d5e2fde-2ea1-4253-8475-593df5f54c8f"
   }
 ]

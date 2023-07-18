@@ -108,6 +108,15 @@
 		{
 			"name": "Abominable Yeti",
 			"source": "MM",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MM/Abominable Yeti.jpg"
+					}
+				}
+			],
 			"_copy": {
 				"name": "Yeti",
 				"source": "MM"
@@ -127,6 +136,15 @@
 							]
 						}
 					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MM/Abominable Yeti.jpg"
+					}
 				}
 			]
 		},

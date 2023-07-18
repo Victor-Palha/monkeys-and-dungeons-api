@@ -1,4 +1,5 @@
 export interface CharacterBackground {
+    id: string;
     Classe: string;
     Source: string;
     Page: string;
@@ -14,4 +15,12 @@ export interface CharacterBackground {
       Bonds: string[];
       Flaws: string[];
     };
-  }
+
+}
+
+export interface BackgroundTemplate{
+    name: string;
+    id: string;
+    SkillProficiencies: string;
+    Source: string;
+}
