@@ -3,7 +3,7 @@ import { MonstersRepository } from "../../repositories/MonstersRepository";
 
 export class QueryMonstersService{
     constructor(private monsterRepository: MonstersRepository){}
-    async execute(query: Query){
-        return await this.monsterRepository.QueryMonsters(query)
+    async execute(search: string){
+        return await this.monsterRepository.QueryMonsters(search)
     }
 }

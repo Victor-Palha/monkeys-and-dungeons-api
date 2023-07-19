@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Blinded",
+    "source": "PHB",
+    "effects": [
+      "A blinded creature can't see and automatically fails any ability check that requires sight.",
+      "Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage."
+    ],
+    "id": "9fc7fb2f-96ac-4386-8fc2-c51148873ac4"
+  },
+  {
+    "name": "Charmed",
+    "source": "PHB",
+    "effects": [
+      "A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.",
+      "The charmer has advantage on any ability check to interact socially with the creature."
+    ],
+    "id": "1f49722a-cab9-4947-82c7-aa77f5f0f02c"
+  },
+  {
+    "name": "Deafened",
+    "source": "PHB",
+    "effects": [
+      "A deafened creature can't hear and automatically fails any ability check that requires hearing."
+    ],
+    "id": "9dff631d-f841-4d5c-a832-262f3f1c9285"
+  },
+  {
+    "name": "Exhaustion",
+    "source": "PHB",
+    "effects": "# Exhaustion Levels and Effects\n\nSome special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called **exhaustion**. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.\n\n## Exhaustion Levels and Effects\n\n| Level | Effect                                         |\n|-------|-----------------------------------------------|\n| 1     | Disadvantage on ability checks                |\n| 2     | Speed halved                                  |\n| 3     | Disadvantage on attack rolls and saving throws|\n| 4     | Hit point maximum halved                      |\n| 5     | Speed reduced to 0                           |\n| 6     | Death                                         |\n\nIf an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.\n\nA creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.\n\nAn effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.\n\nFinishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink. Also, being raised from the dead reduces a creature's exhaustion level by 1.",
+    "id": "2a3450df-e47f-4b37-9264-dd0280cff045"
+  },
+  {
+    "name": "Frightened",
+    "source": "PHB",
+    "effects": [
+      "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.",
+      "The creature can't willingly move closer to the source of its fear."
+    ],
+    "id": "6afe66f1-b82c-408c-b4ac-9e5f6e9c2638"
+  },
+  {
+    "name": "Grappled",
+    "source": "PHB",
+    "effects": [
+      "A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
+      "The condition ends if the grappler is incapacitated.",
+      "The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunderwave spell."
+    ],
+    "id": "28291fed-6b2b-4cba-bd82-047fbb9cd557"
+  },
+  {
+    "name": "Incapacitated",
+    "source": "PHB",
+    "effects": ["An incapacitated creature can't take actions or reactions."],
+    "id": "3cf872db-c2de-4547-918d-1a9ba618884a"
+  },
+  {
+    "name": "Invisible",
+    "source": "PHB",
+    "effects": [
+      "An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.",
+      "Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage."
+    ],
+    "id": "0f8d320b-c0fe-43c2-a0c6-134bb0779293"
+  },
+  {
+    "name": "Paralyzed",
+    "source": "PHB",
+    "effects": [
+      "A paralyzed creature is incapacitated and can't move or speak.",
+      "The creature automatically fails Strength and Dexterity saving throws.",
+      "Attack rolls against the creature have advantage.",
+      "Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+    ],
+    "id": "6fb9bc4b-0fc9-4ac6-b898-60cc3f6d2316"
+  },
+  {
+    "name": "Petrified",
+    "source": "PHB",
+    "effects": [
+      "A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.",
+      "The creature is incapacitated, can't move or speak, and is unaware of its surroundings.",
+      "Attack rolls against the creature have advantage.",
+      "The creature automatically fails Strength and Dexterity saving throws.",
+      "The creature has resistance to all damage.",
+      "The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized."
+    ],
+    "id": "365ba9dc-4034-4baa-abfe-e91144b725f7"
+  },
+  {
+    "name": "Poisoned",
+    "source": "PHB",
+    "effects": [
+      "A poisoned creature has disadvantage on attack rolls and ability checks."
+    ],
+    "id": "5599246f-7da7-41ee-9771-0f03decd432b"
+  },
+  {
+    "name": "Prone",
+    "source": "PHB",
+    "effects": [
+      "A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.",
+      "The creature has disadvantage on attack rolls.",
+      "An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage."
+    ],
+    "id": "44689639-a0d2-471f-b6ac-f133fa1d3baf"
+  },
+  {
+    "name": "Restrained",
+    "source": "PHB",
+    "effects": [
+      "A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
+      "Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.",
+      "The creature has disadvantage on Dexterity saving throws."
+    ],
+    "id": "5ff33769-a21f-4504-be52-d40ad662ea13"
+  },
+  {
+    "name": "Stunned",
+    "source": "PHB",
+    "effects": [
+      "A stunned creature is incapacitated, can't move, and can speak only falteringly.",
+      "The creature automatically fails Strength and Dexterity saving throws.",
+      "Attack rolls against the creature have advantage."
+    ],
+    "id": "b640e220-eb46-40b1-998c-81fd24c17050"
+  },
+  {
+    "name": "Unconscious",
+    "source": "PHB",
+    "effects": [
+      "An unconscious creature is incapacitated, can't move or speak, and is unaware of its surroundings.",
+      "The creature drops whatever it's holding and falls prone.",
+      "The creature automatically fails Strength and Dexterity saving throws.",
+      "Attack rolls against the creature have advantage.",
+      "Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+    ],
+    "id": "98ad07fa-245b-494a-9072-c9e475e94e86"
+  }
+]

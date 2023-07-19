@@ -1,8 +1,8 @@
-import { Monsters } from "../interfaces/Monsters";
+import { MonsterTamplate, Monsters } from "../interfaces/Monsters";
 import { Query } from "../interfaces/Query";
 
 export interface MonstersRepository {
-    AllMonsters(page: number): Promise<Monsters[]>
-    QueryMonsters(query: Query): Promise<Monsters[]>
-    UniqueMonster(id: string): Promise<any>
+    AllMonsters(page: number): Promise<MonsterTamplate[]>
+    QueryMonsters(search: string): Promise<MonsterTamplate[]>
+    UniqueMonster(id: string): Promise<Monsters>
 }

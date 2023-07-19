@@ -211,7 +211,7 @@
 											"type": "entries"
 										},
 										{
-											"name": "Condition Immunities",
+											"name": "Condition_Immunities",
 											"entries": [
 												" The dracolich can't be {charmed}, {frightened}, {paralyzed}, or {poisoned}. It also doesn't suffer from {exhaustion}."
 											],
@@ -12346,7 +12346,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Condition Immunities",
+									"name": "Condition_Immunities",
 									"entries": [
 										"The servant can't be {blinded}, {charmed}, {frightened}, or {paralyzed}."
 									]
@@ -13320,7 +13320,7 @@
 							"entries": [
 								{
 									"type": "entries",
-									"name": "Damage Resistances",
+									"name": "Damage_Resistances",
 									"entries": [
 										"The dragon has resistance to necrotic damage."
 									]

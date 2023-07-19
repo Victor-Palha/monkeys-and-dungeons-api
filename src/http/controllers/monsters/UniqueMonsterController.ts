@@ -4,10 +4,11 @@ import { InMemoryMonsters } from "../../../repositories/In-Memory/in-memory-mons
 
 export class UniqueMonsterController{
     async execute(req:Request, res:Response){
+        const { id } = req.params
         const uniqueMonsterService = new UniqueMonstersService(new InMemoryMonsters)
 
-        const Monster = await uniqueMonsterService.execute(req.params.id)
+        const monster = await uniqueMonsterService.execute(id as string)
 
-        return res.json(Monster)
+        return res.json(monster)
     }
 }

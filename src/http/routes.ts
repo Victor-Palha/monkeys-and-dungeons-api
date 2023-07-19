@@ -23,6 +23,8 @@ import { GetAllFeatsController } from "./controllers/feats/get-all-feats-control
 import { UniqueFeatController } from "./controllers/feats/UniqueFeatController";
 import { GetAllBackgroundsController } from "./controllers/backgrounds/GetAllBackgroundsController";
 import { UniqueBackgroundController } from "./controllers/backgrounds/UniqueBackgroundController";
+import { GetAllConditionsController } from "./controllers/conditions/Get-All-Conditions-Controller";
+import { UniqueConditionController } from "./controllers/conditions/Unique-Condition-Controller";
 
 //init router
 const router = Router();
@@ -66,5 +68,9 @@ router.get("/health", (req, res) => {
 // Backgrounds
     .get('/backgrounds', new GetAllBackgroundsController().execute)
     .get('/backgrounds/:id', new UniqueBackgroundController().execute)
+
+//Conditions
+    .get('/conditions', new GetAllConditionsController().execute)
+    .get('/conditions/:id', new UniqueConditionController().execute)
 //export router
 export {router}
