@@ -1,13 +1,12 @@
 import { Request, Response } from "express";
-import { UniqueMonstersService } from "../../../services/monsters/Unique-Monsters-Service";
-import { InMemoryMonsters } from "../../../repositories/In-Memory/in-memory-monsters-repository";
+import { MakeUniqueMonstersService } from "../../../services/factories/make-unique-monsters-service";
 
 export class UniqueMonsterController{
     async execute(req:Request, res:Response){
         const { id } = req.params
-        const uniqueMonsterService = new UniqueMonstersService(new InMemoryMonsters)
+        const service = MakeUniqueMonstersService()
 
-        const monster = await uniqueMonsterService.execute(id as string)
+        const monster = await service.execute(id as string)
 
         return res.json(monster)
     }

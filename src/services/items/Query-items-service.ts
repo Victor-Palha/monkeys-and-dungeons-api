@@ -1,4 +1,3 @@
-import { Query } from "../../interfaces/Query";
 import { ItemsRepository } from "../../repositories/ItemsRepository";
 
 export class QueryItemsService {

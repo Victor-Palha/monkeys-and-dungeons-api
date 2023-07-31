@@ -1,5 +1,4 @@
 import { MonsterTamplate, Monsters } from "../../interfaces/Monsters";
-import { Query } from "../../interfaces/Query";
 import { MonstersRepository } from "../MonstersRepository";
 import fs from "fs"
 
@@ -7,13 +6,6 @@ export class InMemoryMonsters implements MonstersRepository{
     private Bestiary = [] as Monsters[]
 
     constructor(){
-        // let bestiaryMM = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/bestiary-mm.json").toString())
-
-        // this.Bestiary = [...bestiaryMM]
-
-        // let MMFluff = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/fluff-bestiary-mm.json").toString())
-
-        // this.BestiaryFluff = [...MMFluff.monster]
         this.Bestiary = JSON.parse(fs.readFileSync(__dirname + "/../../models/monsters/bestiary.json").toString())
     }
 
@@ -34,7 +26,11 @@ export class InMemoryMonsters implements MonstersRepository{
     
     async QueryMonsters(search: string): Promise<Monsters[]> {
 
+
         const monsters = this.Bestiary.filter((monster)=>{
+            if(!search){
+                return monster
+            }
             if(monster.name.toLowerCase().includes(search.toLowerCase())){
                 return monster
             }

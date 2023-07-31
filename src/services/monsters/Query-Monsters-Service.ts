@@ -1,4 +1,3 @@
-import { Query } from "../../interfaces/Query";
 import { MonstersRepository } from "../../repositories/MonstersRepository";
 
 export class QueryMonstersService{

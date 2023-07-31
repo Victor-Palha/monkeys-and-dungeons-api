@@ -1,12 +1,11 @@
 import { Request, Response } from "express";
-import { GetAllConditionsService } from "../../../services/conditions/Get-all-conditions-service";
-import { InMemoryConditionsRepository } from "../../../repositories/In-Memory/in-memory-conditions-repository";
+import { MakeGetAllConditionsService } from "../../../services/factories/make-get-all-conditions-service";
 
 export class GetAllConditionsController {
 
     async execute(req:Request, res:Response) {
-        const inMemory = new InMemoryConditionsRepository()
-        const service = new GetAllConditionsService(inMemory)
+
+        const service = MakeGetAllConditionsService()
 
         const conditions = await service.execute()
 

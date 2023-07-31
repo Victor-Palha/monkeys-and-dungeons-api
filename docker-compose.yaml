@@ -1,0 +1,12 @@
+version: '3'
+services:
+  api:
+    build: ./ #build from Dockerfile
+    restart: always
+    ports:
+      - 5000:5000 #expose port
+    volumes:
+      - ./:/app #bind mount
+    environment:
+      - ./.env
+    

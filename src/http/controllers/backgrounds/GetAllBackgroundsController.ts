@@ -1,11 +1,9 @@
 import { Request, Response } from "express";
-import { InMemoryBackgroundRepository } from "../../../repositories/In-Memory/in-memory-background-repository";
-import { GetAllBackgroundsService } from "../../../services/backgrounds/Get-all-backgrounds-service";
+import { MakeAllBackgroundService } from "../../../services/factories/make-all-backgrounds-service";
 
 export class GetAllBackgroundsController{
-    async execute(req: Request, res: Response){
-        const backgroundRepository = new InMemoryBackgroundRepository()
-        const service = new GetAllBackgroundsService(backgroundRepository)
+    async execute(_req: Request, res: Response){
+        const service = MakeAllBackgroundService()
 
         const backgrounds = await service.execute()
 

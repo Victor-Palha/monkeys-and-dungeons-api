@@ -1,7 +1,11 @@
 import express, {Request, Response, NextFunction} from 'express'
 import cors from 'cors'
-import { router } from './http/routes'
 import 'express-async-errors'
+import { backgroundRouter } from './http/controllers/backgrounds/routes'
+import { classesRouter } from './http/controllers/classes/routes'
+import { featsRouter } from './http/controllers/feats/routes'
+import { itemsRouter } from './http/controllers/items/routes'
+import { monstersRouter } from './http/controllers/monsters/routes'
 
 //init express
 export const app = express()
@@ -9,10 +13,12 @@ export const app = express()
 //global middlewares
 app.use(cors())
 app.use(express.json())
-app.use('/api/', router)
-
-//public folder
-app.use(express.static('./src/public'))
+//Routes
+app.use('/api/', backgroundRouter)
+app.use('/api/', classesRouter)
+app.use('/api/', featsRouter)
+app.use('/api/', itemsRouter)
+app.use('/api/', monstersRouter)
 
 //Errors
 app.use((err:Error, _req:Request, res:Response, next:NextFunction)=>{

@@ -1,14 +1,13 @@
-import { InMemoryClassesRepository } from "../../../repositories/In-Memory/in-memoty-classes-repository"
-import { SearchClassService } from "../../../services/classes/Search-Classe-Service"
 import { Request, Response } from "express"
+import { MakeSearchClasseService } from "../../../services/factories/make-search-classe-service"
 
 export class SearchClassController{
     async execute(req:Request, res:Response){
         const { classe } = req.query
     
-        const searchService = new SearchClassService(new InMemoryClassesRepository)
+        const service = MakeSearchClasseService()
     
-        const classeSearch = await searchService.execute(classe as string)
+        const classeSearch = await service.execute(classe as string)
 
         if(!classeSearch){
             return res.status(404).json({message: "Classe not found"})

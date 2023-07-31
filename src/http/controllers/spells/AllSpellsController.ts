@@ -1,12 +1,11 @@
 import { Request, Response } from "express";
-import { InMemorySpells } from "../../../repositories/In-Memory/in-memory-spells-repository";
-import { AllSpellsService } from "../../../services/spells/All-Spells-Service";
+import { MakeAllSpellsService } from "../../../services/factories/make-all-spells-service";
 
 export class AllSpellsController{
-  async execute(req:Request, res:Response){
-    const allSpellsService = new AllSpellsService(new InMemorySpells)
+  async execute(_req:Request, res:Response){
+    const service = MakeAllSpellsService()
 
-    const allSpells = await allSpellsService.execute()
+    const allSpells = await service.execute()
 
     return res.json(allSpells)
   }

@@ -1,12 +1,14 @@
 import { Request, Response } from "express"
-import { AllMonstersService } from "../../../services/monsters/All-Monsters-Service"
-import { InMemoryMonsters } from "../../../repositories/In-Memory/in-memory-monsters-repository"
+import { MakeAllMonstersService } from "../../../services/factories/make-all-monsters-service"
 
 export class AllMonstersController{
     async execute(req:Request, res:Response){
         const {page} = req.query
-        const allMonstersService = new AllMonstersService(new InMemoryMonsters)
-        const allMonsters = await allMonstersService.execute(Number(page))
+        if(!page){
+            return res.status(400).json({error: "Page is required"})
+        } 
+        const service = MakeAllMonstersService()
+        const allMonsters = await service.execute(Number(page))
 
         return res.json(allMonsters)
     }

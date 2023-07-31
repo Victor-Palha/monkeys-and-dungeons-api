@@ -8,7 +8,7 @@ export class InMemoryFeatsRepository implements FeatsRepository {
         this.feats = JSON.parse(fs.readFileSync(__dirname + "/../../models/feats/feats.json").toString())
     }
 
-    async getOneFeat(id: string): Promise<Feats> {
+    async getOneFeat(id: string){
         const feat = this.feats.find((feat)=>{
             return feat.id === id
         })

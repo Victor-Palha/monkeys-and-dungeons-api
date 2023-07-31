@@ -1,13 +1,12 @@
 import { Request, Response } from "express";
-import { QueryMonstersService } from "../../../services/monsters/Query-Monsters-Service";
-import { InMemoryMonsters } from "../../../repositories/In-Memory/in-memory-monsters-repository";
+import { MakeQueryMonstersService } from "../../../services/factories/make-query-monsters-service";
 
 export class QueryMonsterController{
     async execute(req:Request, res: Response){
         const { search } = req.query
-        const queryMonsterService = new QueryMonstersService(new InMemoryMonsters)
+        const service = MakeQueryMonstersService()
 
-        const monsters = await queryMonsterService.execute(search as string)
+        const monsters = await service.execute(search as string)
 
         return res.json(monsters)
     }

@@ -1,5 +1,4 @@
 import { Items } from "../../interfaces/Itens";
-import { Query } from "../../interfaces/Query";
 import { ItemsRepository } from "../ItemsRepository";
 import fs from "fs"
 
@@ -15,32 +14,6 @@ export class InMemoryItems implements ItemsRepository {
     }
 
     async QueryItems(search: string) {
-
-        // if(requiresAttunement === "false"){
-        //     requiresAttunement = false
-        // }else if(requiresAttunement === "true"){
-        //     requiresAttunement = true
-        // }else{
-        //     requiresAttunement = undefined
-        // }
-        // if(type == ''){
-        //     type = undefined
-        // }
-        // if(rarity == ''){
-        //     rarity = undefined
-        // }
-        // if(nome == ''){
-        //     nome = undefined
-        // }
-
-        // const filters = [
-        //     (item:Items) => nome === undefined || item.name.toLowerCase().includes(nome.toLowerCase()),
-        //     (item:Items) => type === undefined || item.type.toLowerCase().includes(type.toLowerCase()),
-        //     (item:Items) => rarity === undefined || item.rarity.toLowerCase().includes(rarity.toLowerCase()),
-        //     (item:Items) => requiresAttunement === undefined || item.requiresAttunement === Boolean(requiresAttunement),
-        // ]
-
-        // return this.Items.filter(item => filters.reduce((acc, filter) => acc && filter(item), true))
         const itemList = this.Items.filter(item => {
             if(item.name.toLowerCase().includes(search.toLowerCase())){
                 return item
@@ -57,6 +30,7 @@ export class InMemoryItems implements ItemsRepository {
     }
 
     async UniqueItem(id: string){
-        return this.Items.filter(item => item.id === id)
+        const items = this.Items.filter(item => item.id === id)
+        return items[0]
     }
 }

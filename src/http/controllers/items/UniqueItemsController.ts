@@ -1,12 +1,11 @@
 import { Request, Response } from "express";
-import { UniqueItemService } from "../../../services/items/Unique-item-service";
-import { InMemoryItems } from "../../../repositories/In-Memory/in-memory-items-repository";
+import { MakeUniqueItenService } from "../../../services/factories/make-unique-item-service";
 
 export class UniqueItemController{
     async execute(req: Request, res:Response){
-        const uniqueItemController = new UniqueItemService(new InMemoryItems)
+        const service = MakeUniqueItenService()
 
-        const item = await uniqueItemController.execute(req.params.id)
+        const item = await service.execute(req.params.id)
 
         return res.json(item)
     }

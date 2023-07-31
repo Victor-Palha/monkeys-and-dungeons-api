@@ -1,11 +1,10 @@
-import { InMemoryItems } from "../../../repositories/In-Memory/in-memory-items-repository";
-import { AllItemsService } from "../../../services/items/All-Items-Service";
+import { MakeGetAllItemsService } from "../../../services/factories/make-all-items-service";
 import { Request, Response } from "express";
 
 export class AllItemsController{
     async execute(req:Request, res:Response){
-        const allItemsService = new AllItemsService(new InMemoryItems())
-        const items = await allItemsService.execute()
+        const service = MakeGetAllItemsService()
+        const items = await service.execute()
 
         return res.json(items)
     }
